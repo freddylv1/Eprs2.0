@@ -1,5 +1,6 @@
 import { SyllableMatrixCell, WordItem, WordMatrixAnalysis } from '../types';
 import { EPRS_PHONICS_RULES } from './phonicsRules';
+import { explainSyllabification } from './syllableRulesEngine';
 
 /**
  * 清理 IPA 外部斜線與括號內次要發音（例如 "/ə/ (/ən/)" 取主要發音 "/ə/"）
@@ -393,13 +394,17 @@ export function generateWordMatrix(wordItem: WordItem): WordMatrixAnalysis {
   const allRulesSet = new Set<string>(wordItem.ruleCodes || []);
   cells.forEach(c => c.matchedRules.forEach(r => allRulesSet.add(r)));
 
+  // 分析為何拆成 n 個音節與音節劃分法則
+  const divisionExplanation = explainSyllabification(wordItem.word, syllables);
+
   return {
     word: wordItem.word,
     fullIpa: wordItem.ipa,
     syllableCount,
     primaryStressSyllableIndex: primaryStressIdx,
     cells,
-    summaryRules: Array.from(allRulesSet)
+    summaryRules: Array.from(allRulesSet),
+    divisionExplanation
   };
 }
 

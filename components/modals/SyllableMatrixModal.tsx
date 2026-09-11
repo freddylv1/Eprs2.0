@@ -1,34 +1,35 @@
 'use client';
 
 import React, { useState } from 'react';
-import { WordItem } from '../../lib/types';
+import { WordItem, FontSizePreference } from '../../lib/types';
 import { generateWordMatrix, getRuleColorBadge } from '../../lib/engine/phonicsEngine';
 import { getPhonicsRule } from '../../lib/engine/phonicsRules';
 import { audioManager } from '../../lib/audioManager';
-import { X, Volume2, Sparkles, PlayCircle, Grid, HelpCircle } from 'lucide-react';
+import { getModalFontSizeClasses } from '../../lib/fontSizeUtils';
+import { X, Volume2, PlayCircle, Grid, Split } from 'lucide-react';
 
 interface SyllableMatrixModalProps {
   isOpen: boolean;
   onClose: () => void;
   wordItem: WordItem | null;
   onOpenRuleDetail: (ruleId: string) => void;
+  fontSize?: FontSizePreference;
 }
 
 export function SyllableMatrixModal({
   isOpen,
   onClose,
   wordItem,
-  onOpenRuleDetail
+  onOpenRuleDetail,
+  fontSize = 'medium'
 }: SyllableMatrixModalProps) {
   const [activePlaybackStep, setActivePlaybackStep] = useState<number | 'full' | null>(null);
+  const typo = getModalFontSizeClasses(fontSize);
 
-  // Keyboard navigation (Escape to close)
   React.useEffect(() => {
     if (!isOpen) return;
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        onClose();
-      }
+      if (e.key === 'Escape') onClose();
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
@@ -63,188 +64,172 @@ export function SyllableMatrixModal({
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
-      className="fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-3 sm:p-6 overflow-y-auto"
+      className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center bg-slate-900/60 backdrop-blur-xs p-0 sm:p-4 overflow-y-auto"
     >
-      <div className="relative flex max-h-[92vh] w-full max-w-3xl flex-col rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-slate-800 dark:bg-slate-900 overflow-hidden">
-        {/* Modal Header */}
-        <div className="flex items-center justify-between border-b border-slate-100 bg-slate-50/80 px-4 py-3 sm:px-6 sm:py-4 dark:border-slate-800 dark:bg-slate-800/60">
-          <div className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-xs">
-              <Grid className="h-5 w-5" />
+      <div className="relative flex max-h-[92vh] sm:max-h-[90vh] w-full max-w-2xl flex-col rounded-t-3xl sm:rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-slate-800 dark:bg-slate-900 overflow-hidden">
+        {/* Header - 精簡手機頂部，支援動態字體 */}
+        <div className="flex items-center justify-between border-b border-slate-100 bg-slate-50/90 px-4 py-3 sm:px-5 sm:py-3.5 dark:border-slate-800 dark:bg-slate-800/80">
+          <div className="flex items-center gap-2">
+            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-indigo-600 text-white shrink-0">
+              <Grid className="h-4 w-4" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <h2 className="text-base font-bold text-slate-900 dark:text-white">
-                  【{wordItem.word}】音節與自然發音推導矩陣
-                </h2>
-                {wordItem.pos && (
-                  <span className="rounded-md bg-slate-200 px-1.5 py-0.2 text-[10px] font-semibold text-slate-700 dark:bg-slate-700 dark:text-slate-300">
-                    {wordItem.pos}
-                  </span>
-                )}
-              </div>
-              <p className="text-xs text-slate-500 dark:text-slate-400">
-                中文釋義: {wordItem.chinese} • 完整 IPA: {wordItem.ipa}
-              </p>
+            <div className="flex items-baseline gap-2 flex-wrap">
+              <h2 className={`${typo.title} text-slate-900 dark:text-white`}>
+                {wordItem.word}
+              </h2>
+              {wordItem.pos && (
+                <span className={`rounded bg-slate-200 ${typo.tag} font-semibold text-slate-700 dark:bg-slate-700 dark:text-slate-300`}>
+                  {wordItem.pos}
+                </span>
+              )}
+              <span className={`${typo.subtext} text-slate-500 dark:text-slate-400`}>
+                {wordItem.chinese} • <span className={`font-mono text-indigo-600 dark:text-indigo-400 font-semibold ${typo.ipa}`}>{wordItem.ipa}</span>
+              </span>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="rounded-xl p-2 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition"
+            className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition"
           >
             <X className="h-5 w-5" />
           </button>
         </div>
 
         {/* Modal Body */}
-        <div className="p-4 sm:p-6 overflow-y-auto space-y-6">
-          {/* Audio Controls Bar */}
-          <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-indigo-100 bg-indigo-50/50 p-4 dark:border-indigo-950 dark:bg-indigo-950/30">
-            <div className="flex items-center gap-3 flex-wrap">
+        <div className="p-3.5 sm:p-5 overflow-y-auto space-y-3.5">
+          {/* 1. 音訊操作列 (手機好按的大按鈕) */}
+          <div className="flex items-center justify-between gap-2 rounded-xl bg-indigo-50/70 p-2.5 dark:bg-indigo-950/40">
+            <div className="flex items-center gap-2">
               <button
                 onClick={handlePlayFull}
-                className={`inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-3.5 py-2 text-xs font-semibold text-white shadow-xs hover:bg-indigo-500 transition cursor-pointer ${
+                className={`inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 ${typo.button} font-semibold text-white shadow-2xs hover:bg-indigo-500 transition cursor-pointer ${
                   activePlaybackStep === 'full' ? 'ring-2 ring-indigo-300 animate-pulse' : ''
                 }`}
               >
                 <Volume2 className="h-4 w-4" />
-                <span>朗讀全詞 (Full Word)</span>
+                <span>全字朗讀</span>
               </button>
 
               <button
                 onClick={handlePacedPlayback}
-                className="inline-flex items-center gap-2 rounded-xl border border-indigo-200 bg-white px-3.5 py-2 text-xs font-semibold text-indigo-700 shadow-xs hover:bg-indigo-50 dark:border-indigo-800 dark:bg-slate-800 dark:text-indigo-300 transition cursor-pointer"
+                className={`inline-flex items-center gap-1.5 rounded-lg border border-indigo-200 bg-white ${typo.button} font-semibold text-indigo-700 shadow-2xs hover:bg-indigo-50 dark:border-indigo-800 dark:bg-slate-800 dark:text-indigo-300 transition cursor-pointer`}
               >
                 <PlayCircle className="h-4 w-4 text-indigo-500" />
-                <span>音節循序拼讀 (Paced Playback)</span>
+                <span>音節循序</span>
               </button>
             </div>
 
-            <div className="text-xs text-slate-500 dark:text-slate-400">
-              共 <span className="font-bold text-indigo-600 dark:text-indigo-400">{matrix.syllableCount}</span> 個音節 • 主重音落在第{' '}
-              <span className="font-bold text-indigo-600 dark:text-indigo-400">{matrix.primaryStressSyllableIndex + 1}</span> 音節
-            </div>
+            <span className={`${typo.subtext} text-slate-500 dark:text-slate-400 font-medium`}>
+              共 <b className="text-indigo-600 dark:text-indigo-400">{matrix.syllableCount}</b> 節 • 重音在第 <b className="text-indigo-600 dark:text-indigo-400">{matrix.primaryStressSyllableIndex + 1}</b> 節
+            </span>
           </div>
 
-          {/* Matrix Syllable Tiles */}
-          <div>
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-3 flex items-center gap-1.5">
-              <Sparkles className="h-3.5 w-3.5 text-indigo-500" />
-              <span>音節拆解與規則映射矩陣</span>
-            </h3>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-              {matrix.cells.map((cell, idx) => {
-                const isStepActive = activePlaybackStep === idx;
-                const isPrimary = cell.stressType === 'primary';
-
-                return (
-                  <div
-                    key={idx}
-                    className={`relative flex flex-col justify-between rounded-2xl border p-4 transition ${
-                      isStepActive
-                        ? 'border-indigo-500 bg-indigo-50 dark:border-indigo-500 dark:bg-indigo-950/60 ring-2 ring-indigo-400'
-                        : isPrimary
-                        ? 'border-indigo-200 bg-indigo-50/40 dark:border-indigo-900/60 dark:bg-indigo-950/20'
-                        : 'border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-800/40'
-                    }`}
-                  >
-                    {/* Top Row: Index & Stress Tag */}
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-mono font-bold text-slate-400">
-                        #{idx + 1}
-                      </span>
-                      <span
-                        className={`rounded-md px-2 py-0.5 text-[10px] font-bold ${
-                          isPrimary
-                            ? 'bg-indigo-600 text-white'
-                            : 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300'
-                        }`}
-                      >
-                        {isPrimary ? '主重音節' : cell.stressType === 'secondary' ? '次重音' : '非重讀'}
-                      </span>
-                    </div>
-
-                    {/* Syllable */}
-                    <div className="my-2">
-                      <div className="text-2xl font-bold font-mono text-slate-900 dark:text-white flex items-center justify-between">
-                        <span>{cell.syllableText}</span>
-                        <button
-                          onClick={() => handlePlaySingleSyllable(cell.syllableText, idx)}
-                          className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 hover:text-indigo-600 dark:hover:bg-slate-700 cursor-pointer"
-                          title="單獨發音此音節"
-                        >
-                          <Volume2 className="h-4 w-4" />
-                        </button>
-                      </div>
-                    </div>
-
-                    {/* Syllable Explanation */}
-                    {cell.derivationExplanation && (
-                      <div className="text-xs text-slate-600 dark:text-slate-300 bg-white/80 dark:bg-slate-900/60 rounded-lg p-2 border border-slate-100 dark:border-slate-800 mb-2 font-normal">
-                        {cell.derivationExplanation}
-                      </div>
-                    )}
-
-                    {/* Matched Rules Badges */}
-                    <div className="mt-3 pt-2 border-t border-slate-100 dark:border-slate-800">
-                      <div className="text-xs text-slate-400 dark:text-slate-400 mb-1.5 font-medium">適用自然發音法則:</div>
-                      <div className="flex flex-wrap gap-1.5">
-                        {cell.matchedRules.map((ruleId) => {
-                          const badge = getRuleColorBadge(ruleId);
-                          const r = getPhonicsRule(ruleId);
-                          const rawName = r?.name || '';
-                          const cleanName = rawName.split(' ')[0].replace(/\/.*/, '') || rawName;
-                          return (
-                            <button
-                              key={ruleId}
-                              onClick={() => {
-                                onClose();
-                                onOpenRuleDetail(ruleId);
-                              }}
-                              className={`inline-flex items-center gap-1 rounded-md border px-2.5 py-1 text-xs font-semibold transition hover:scale-105 cursor-pointer shadow-2xs ${badge.bg} ${badge.text} ${badge.border}`}
-                              title={`${ruleId}: ${r?.name || ''} - 點擊查閱法則詳解`}
-                            >
-                              <span className="font-mono font-bold">{ruleId}</span>
-                              <span className="font-medium">{cleanName}</span>
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Derivation Reasoning Timeline if present */}
-          {wordItem.derivations && wordItem.derivations.length > 0 && (
-            <div className="rounded-2xl border border-slate-200 bg-slate-50/60 p-4 dark:border-slate-800 dark:bg-slate-800/40">
-              <h4 className="text-xs font-bold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-1.5">
-                <HelpCircle className="h-4 w-4 text-indigo-500" />
-                <span>發音邏輯與語音弱化推導歷程</span>
-              </h4>
-              <div className="space-y-2">
-                {wordItem.derivations.map((d, dIdx) => (
-                  <div
-                    key={dIdx}
-                    className="flex flex-col sm:flex-row sm:items-baseline gap-2 rounded-xl bg-white p-3 border border-slate-200/80 dark:bg-slate-900 dark:border-slate-800 text-xs"
-                  >
-                    <span className="font-bold font-mono text-indigo-600 dark:text-indigo-400 min-w-[120px]">
-                      {d.syllable}
-                    </span>
-                    <span className="rounded bg-indigo-50 px-2 py-0.5 text-[10px] font-semibold text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300 w-fit">
-                      {d.rule}
-                    </span>
-                    <span className="text-slate-600 dark:text-slate-300 flex-1">
-                      {d.reason}
-                    </span>
-                  </div>
-                ))}
+          {/* 2. 音節切分依據 (簡潔卡片，字型動態放大) */}
+          {matrix.divisionExplanation && (
+            <div className="rounded-xl border border-sky-100 bg-sky-50/60 p-2.5 sm:p-3 dark:border-sky-900/40 dark:bg-sky-950/30">
+              <div className="flex items-center justify-between gap-2 mb-1.5">
+                <div className={`flex items-center gap-1.5 ${typo.body} font-bold text-sky-900 dark:text-sky-300`}>
+                  <Split className="h-4 w-4 text-sky-600 shrink-0" />
+                  <span>音節切分依據</span>
+                </div>
+                <span className={`${typo.body} font-medium text-sky-700 dark:text-sky-400 font-mono`}>
+                  {matrix.divisionExplanation.reason}
+                </span>
               </div>
+
+              {matrix.divisionExplanation.detectedRules.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 pt-1.5 border-t border-sky-200/50 dark:border-sky-900/40">
+                  {matrix.divisionExplanation.detectedRules.map((r, rIdx) => (
+                    <div
+                      key={rIdx}
+                      className={`inline-flex items-center gap-1.5 rounded-md bg-white/90 ${typo.badge} border border-sky-200/70 dark:bg-slate-900/80 dark:border-sky-800/50 text-slate-700 dark:text-slate-300`}
+                    >
+                      <span className="font-bold text-sky-700 dark:text-sky-400">{r.title}</span>
+                      <span className={`text-slate-500 dark:text-slate-400 ${typo.subtext}`}>{r.explanation}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
+
+          {/* 3. 音節方塊列表 */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            {matrix.cells.map((cell, idx) => {
+              const isStepActive = activePlaybackStep === idx;
+              const isPrimary = cell.stressType === 'primary';
+
+              return (
+                <div
+                  key={idx}
+                  className={`flex flex-col justify-between rounded-xl border p-3.5 transition ${
+                    isStepActive
+                      ? 'border-indigo-500 bg-indigo-50 dark:border-indigo-500 dark:bg-indigo-950/60 ring-2 ring-indigo-400'
+                      : isPrimary
+                      ? 'border-indigo-200 bg-indigo-50/30 dark:border-indigo-900/50 dark:bg-indigo-950/20'
+                      : 'border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-800/40'
+                  }`}
+                >
+                  {/* 首行: 音節文字 + IPA + 重音標籤 + 朗讀按鈕 */}
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-baseline gap-2">
+                      <span className={`${typo.largeWord} font-mono text-slate-900 dark:text-white`}>
+                        {cell.syllableText}
+                      </span>
+                      {cell.ipaSegment && (
+                        <span className={`font-mono font-semibold text-indigo-600 dark:text-indigo-400 ${typo.ipa}`}>
+                          {cell.ipaSegment}
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="flex items-center gap-1">
+                      <span
+                        className={`rounded ${typo.tag} font-bold ${
+                          isPrimary
+                            ? 'bg-indigo-600 text-white'
+                            : 'bg-slate-100 text-slate-500 dark:bg-slate-700 dark:text-slate-300'
+                        }`}
+                      >
+                        {isPrimary ? '主重音' : cell.stressType === 'secondary' ? '次重音' : '弱讀'}
+                      </span>
+                      <button
+                        onClick={() => handlePlaySingleSyllable(cell.syllableText, idx)}
+                        className="rounded p-1.5 text-slate-400 hover:bg-slate-100 hover:text-indigo-600 dark:hover:bg-slate-700 cursor-pointer"
+                        title="朗讀此音節"
+                      >
+                        <Volume2 className="h-4 w-4" />
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* 規則標籤 (點擊查閱) */}
+                  <div className="mt-2 pt-2 border-t border-slate-100 dark:border-slate-800 flex flex-wrap gap-1 items-center">
+                    {cell.matchedRules.map((ruleId) => {
+                      const badge = getRuleColorBadge(ruleId);
+                      const r = getPhonicsRule(ruleId);
+                      const rawName = r?.name || '';
+                      const cleanName = rawName.split(' ')[0].replace(/\/.*/, '') || rawName;
+                      return (
+                        <button
+                          key={ruleId}
+                          onClick={() => {
+                            onClose();
+                            onOpenRuleDetail(ruleId);
+                          }}
+                          className={`inline-flex items-center gap-1 rounded ${typo.badge} font-semibold transition hover:scale-105 cursor-pointer border ${badge.bg} ${badge.text} ${badge.border}`}
+                          title={`${ruleId}: ${r?.name || ''} - 點擊查閱`}
+                        >
+                          <span className="font-mono font-bold">{ruleId}</span>
+                          <span>{cleanName}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

@@ -95,4 +95,9 @@ export interface WordMatrixAnalysis {
   primaryStressSyllableIndex: number;
   cells: SyllableMatrixCell[];
   summaryRules: string[];
+  divisionExplanation?: {
+    count: number;
+    reason: string;
+    detectedRules: { ruleKey: string; title: string; explanation: string }[];
+  };
 }

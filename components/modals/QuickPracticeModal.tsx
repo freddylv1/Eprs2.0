@@ -1,15 +1,17 @@
 'use client';
 
 import React, { useState } from 'react';
-import { WordItem } from '../../lib/types';
+import { WordItem, FontSizePreference } from '../../lib/types';
 import { EPRS_PHONICS_RULES, ALL_RULE_CODES } from '../../lib/engine/phonicsRules';
 import { audioManager } from '../../lib/audioManager';
+import { getModalFontSizeClasses } from '../../lib/fontSizeUtils';
 import { X, Volume2, CheckCircle2, XCircle, RotateCcw, Award, Flame } from 'lucide-react';
 
 interface QuickPracticeModalProps {
   isOpen: boolean;
   onClose: () => void;
   words: WordItem[];
+  fontSize?: FontSizePreference;
 }
 
 type PracticeMode = 'listen_word' | 'rule_identify' | 'syllable_count';
@@ -89,7 +91,8 @@ function buildQuestions(wordList: WordItem[], mode: PracticeMode): PracticeQuest
 export function QuickPracticeModal({
   isOpen,
   onClose,
-  words
+  words,
+  fontSize = 'medium'
 }: QuickPracticeModalProps) {
   const [mode, setMode] = useState<PracticeMode>('listen_word');
   const [questions, setQuestions] = useState<PracticeQuestion[]>(() => buildQuestions(words, 'listen_word'));
@@ -100,14 +103,13 @@ export function QuickPracticeModal({
   const [streak, setStreak] = useState<number>(0);
   const [history, setHistory] = useState<{ word: string; correct: boolean }[]>([]);
 
-  // Synchronize when questions are empty but words are available
-  if (questions.length === 0 && words.length > 0) {
-    setQuestions(buildQuestions(words, mode));
-  }
+  const typo = getModalFontSizeClasses(fontSize);
 
+  // 當切換模式或打開時重新生題
   const handleSwitchMode = (newMode: PracticeMode) => {
     setMode(newMode);
-    setQuestions(buildQuestions(words, newMode));
+    const newQuestions = buildQuestions(words, newMode);
+    setQuestions(newQuestions);
     setCurrentIndex(0);
     setSelectedOption(null);
     setIsAnswered(false);
@@ -116,26 +118,18 @@ export function QuickPracticeModal({
     setHistory([]);
   };
 
-  const handleRestart = () => {
-    setQuestions(buildQuestions(words, mode));
-    setCurrentIndex(0);
-    setSelectedOption(null);
-    setIsAnswered(false);
-    setScore(0);
-    setStreak(0);
-    setHistory([]);
-  };
+  const currentQ = questions[currentIndex];
 
-  const currentQ: PracticeQuestion | undefined = questions[currentIndex];
-
-  const handlePlayCurrent = () => {
-    if (currentQ) {
+  // 播放當前單字發音
+  const handlePlayCurrent = React.useCallback(() => {
+    if (currentQ?.word) {
       audioManager.speakWord(currentQ.word.word);
     }
-  };
+  }, [currentQ]);
 
-  const handleSelectOption = (option: string) => {
+  const handleSelectOption = React.useCallback((option: string) => {
     if (isAnswered || !currentQ) return;
+
     setSelectedOption(option);
     setIsAnswered(true);
 
@@ -143,20 +137,21 @@ export function QuickPracticeModal({
     if (mode === 'listen_word') {
       isCorrect = option === currentQ.correctAnswer;
     } else if (mode === 'rule_identify') {
+      // 只要選到單字所適用的任一規則都算對，或等於標準答案
       isCorrect = (currentQ.word.ruleCodes || []).includes(option) || option === currentQ.correctAnswer;
     } else if (mode === 'syllable_count') {
       isCorrect = option === currentQ.correctAnswer;
     }
 
     if (isCorrect) {
-      setScore(s => s + 10);
+      setScore(s => s + 10 + streak * 2);
       setStreak(st => st + 1);
+      setHistory(h => [...h, { word: currentQ.word.word, correct: true }]);
     } else {
       setStreak(0);
+      setHistory(h => [...h, { word: currentQ.word.word, correct: false }]);
     }
-
-    setHistory(h => [...h, { word: currentQ.word.word, correct: isCorrect }]);
-  };
+  }, [currentQ, isAnswered, mode, streak]);
 
   const handleNext = React.useCallback(() => {
     if (currentIndex < questions.length - 1) {
@@ -164,28 +159,53 @@ export function QuickPracticeModal({
       setSelectedOption(null);
       setIsAnswered(false);
     } else {
+      // 測驗結束畫面
       setCurrentIndex(questions.length);
     }
   }, [currentIndex, questions.length]);
 
-  // Keyboard navigation (Escape to close, Enter/Space/ArrowRight for Next question)
+  const handleRestart = () => {
+    handleSwitchMode(mode);
+  };
+
+  // 進到聽音辨字題目時自動播放第一次發音
+  React.useEffect(() => {
+    if (isOpen && mode === 'listen_word' && currentQ && !isAnswered) {
+      const timer = setTimeout(() => {
+        handlePlayCurrent();
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen, mode, currentIndex, currentQ, isAnswered, handlePlayCurrent]);
+
+  // 鍵盤支援
   React.useEffect(() => {
     if (!isOpen) return;
+
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         onClose();
-      } else if ((e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') && isAnswered) {
+      } else if (e.key === ' ' && mode === 'listen_word') {
+        e.preventDefault();
+        handlePlayCurrent();
+      } else if (e.key === 'Enter' && isAnswered) {
         e.preventDefault();
         handleNext();
+      } else if (!isAnswered && ['1', '2', '3', '4'].includes(e.key)) {
+        const idx = parseInt(e.key) - 1;
+        if (currentQ && currentQ.options[idx]) {
+          handleSelectOption(currentQ.options[idx]);
+        }
       }
     };
+
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, onClose, isAnswered, handleNext]);
+  }, [isOpen, isAnswered, currentQ, mode, handlePlayCurrent, handleNext, handleSelectOption, onClose]);
 
   if (!isOpen) return null;
 
-  if (!currentQ || questions.length === 0) {
+  if (!questions || questions.length === 0) {
     return (
       <div
         onClick={(e) => {
@@ -194,8 +214,8 @@ export function QuickPracticeModal({
         className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 p-4"
       >
         <div className="rounded-3xl bg-white p-6 dark:bg-slate-900 text-center">
-          <p className="text-sm text-slate-500">當前批次無可用單字</p>
-          <button onClick={onClose} className="mt-4 rounded-xl bg-indigo-600 px-4 py-2 text-xs text-white cursor-pointer">
+          <p className={`${typo.body} text-slate-500`}>當前批次無可用單字</p>
+          <button onClick={onClose} className={`mt-4 rounded-xl bg-indigo-600 ${typo.button} text-white cursor-pointer`}>
             關閉
           </button>
         </div>
@@ -220,10 +240,10 @@ export function QuickPracticeModal({
               <Award className="h-4 w-4 sm:h-5 sm:w-5" />
             </div>
             <div>
-              <h2 className="text-sm sm:text-base font-bold text-slate-900 dark:text-white">
+              <h2 className={`${typo.title} text-slate-900 dark:text-white`}>
                 自然發音拼讀測驗
               </h2>
-              <div className="flex items-center gap-1.5 sm:gap-2 text-[11px] sm:text-xs text-slate-500 dark:text-slate-400">
+              <div className={`flex items-center gap-1.5 sm:gap-2 ${typo.subtext} text-slate-500 dark:text-slate-400`}>
                 <span>第 {Math.min(currentIndex + 1, questions.length)} / {questions.length} 題</span>
                 <span>•</span>
                 <span className="flex items-center gap-0.5 text-amber-600 dark:text-amber-400 font-semibold">
@@ -247,60 +267,60 @@ export function QuickPracticeModal({
           <div className="shrink-0 flex border-b border-slate-100 bg-slate-50/40 px-3 py-2 sm:px-6 sm:py-2.5 dark:border-slate-800 dark:bg-slate-800/30 gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar">
             <button
               onClick={() => handleSwitchMode('listen_word')}
-              className={`shrink-0 rounded-lg px-2.5 py-1 text-xs font-semibold transition cursor-pointer ${
+              className={`shrink-0 rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
                 mode === 'listen_word'
-                  ? 'bg-indigo-600 text-white shadow-2xs'
-                  : 'bg-white text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-300'
+                  ? 'bg-indigo-600 text-white shadow-xs'
+                  : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
               }`}
             >
-              1. 聽音辨字
+              聽音辨字
             </button>
             <button
               onClick={() => handleSwitchMode('rule_identify')}
-              className={`shrink-0 rounded-lg px-2.5 py-1 text-xs font-semibold transition cursor-pointer ${
+              className={`shrink-0 rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
                 mode === 'rule_identify'
-                  ? 'bg-indigo-600 text-white shadow-2xs'
-                  : 'bg-white text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-300'
+                  ? 'bg-indigo-600 text-white shadow-xs'
+                  : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
               }`}
             >
-              2. 發音法則判斷
+              法則判斷
             </button>
             <button
               onClick={() => handleSwitchMode('syllable_count')}
-              className={`shrink-0 rounded-lg px-2.5 py-1 text-xs font-semibold transition cursor-pointer ${
+              className={`shrink-0 rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
                 mode === 'syllable_count'
-                  ? 'bg-indigo-600 text-white shadow-2xs'
-                  : 'bg-white text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-300'
+                  ? 'bg-indigo-600 text-white shadow-xs'
+                  : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
               }`}
             >
-              3. 音節數量挑戰
+              音節計數
             </button>
           </div>
         )}
 
-        {/* Question Area or Summary */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 sm:space-y-5">
+        {/* Modal Body */}
+        <div className="flex-1 p-4 sm:p-6 overflow-y-auto">
           {isCompleted ? (
-            /* Completed Round Screen */
-            <div className="py-6 sm:py-8 text-center space-y-4">
-              <div className="mx-auto flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600 dark:bg-indigo-950 dark:text-indigo-400">
-                <Award className="h-8 w-8 sm:h-10 sm:w-10" />
+            /* Result Screen */
+            <div className="py-6 text-center space-y-4">
+              <div className="inline-flex h-16 w-16 items-center justify-center rounded-3xl bg-amber-100 text-amber-600 dark:bg-amber-950/60 dark:text-amber-400">
+                <Award className="h-8 w-8" />
               </div>
               <div>
-                <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">
+                <h3 className={`${typo.largeWord} text-slate-900 dark:text-white`}>
                   測驗完成！本次總得分: {score}
                 </h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                <p className={`${typo.subtext} text-slate-500 dark:text-slate-400 mt-1`}>
                   完成 {questions.length} 題，正確率 {Math.round((history.filter(h => h.correct).length / questions.length) * 100)}%
                 </p>
               </div>
 
               {/* Score breakdown pills */}
               <div className="flex justify-center gap-3">
-                <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-2 text-xs font-bold text-emerald-700 dark:border-emerald-900/60 dark:bg-emerald-950 dark:text-emerald-300">
+                <div className={`rounded-xl border border-emerald-200 bg-emerald-50 ${typo.badge} font-bold text-emerald-700 dark:border-emerald-900/60 dark:bg-emerald-950 dark:text-emerald-300`}>
                   答對: {history.filter(h => h.correct).length} 題
                 </div>
-                <div className="rounded-xl border border-rose-200 bg-rose-50 px-4 py-2 text-xs font-bold text-rose-700 dark:border-rose-900/60 dark:bg-rose-950 dark:text-rose-300">
+                <div className={`rounded-xl border border-rose-200 bg-rose-50 ${typo.badge} font-bold text-rose-700 dark:border-rose-900/60 dark:bg-rose-950 dark:text-rose-300`}>
                   需複習: {history.filter(h => !h.correct).length} 題
                 </div>
               </div>
@@ -308,14 +328,14 @@ export function QuickPracticeModal({
               <div className="pt-4 flex justify-center gap-3">
                 <button
                   onClick={handleRestart}
-                  className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-xs font-semibold text-white hover:bg-indigo-500 shadow-xs cursor-pointer"
+                  className={`inline-flex items-center gap-2 rounded-xl bg-indigo-600 ${typo.button} font-semibold text-white hover:bg-indigo-500 shadow-xs cursor-pointer`}
                 >
                   <RotateCcw className="h-4 w-4" />
                   <span>再練一次</span>
                 </button>
                 <button
                   onClick={onClose}
-                  className="rounded-xl border border-slate-200 px-5 py-2.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 cursor-pointer"
+                  className={`rounded-xl border border-slate-200 ${typo.button} font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 cursor-pointer`}
                 >
                   結束並返回
                 </button>
@@ -328,7 +348,7 @@ export function QuickPracticeModal({
               <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-4 sm:p-5 text-center dark:border-slate-800 dark:bg-slate-800/40">
                 {mode === 'listen_word' && (
                   <div>
-                    <span className="text-[11px] sm:text-xs font-medium text-slate-400 uppercase tracking-wider">
+                    <span className={`${typo.subtext} font-medium text-slate-400 uppercase tracking-wider`}>
                       聽發音並選出對應英文單字
                     </span>
                     <div className="mt-2.5 flex items-center justify-center gap-3">
@@ -340,7 +360,7 @@ export function QuickPracticeModal({
                         <Volume2 className="h-6 w-6 sm:h-7 sm:w-7" />
                       </button>
                     </div>
-                    <p className="mt-2.5 text-sm text-slate-600 dark:text-slate-300 font-medium">
+                    <p className={`mt-2.5 ${typo.body} text-slate-600 dark:text-slate-300 font-medium`}>
                       中文提示: {currentQ.word.chinese}
                     </p>
                   </div>
@@ -348,13 +368,13 @@ export function QuickPracticeModal({
 
                 {mode === 'rule_identify' && (
                   <div>
-                    <span className="text-[11px] sm:text-xs font-medium text-slate-400 uppercase tracking-wider">
+                    <span className={`${typo.subtext} font-medium text-slate-400 uppercase tracking-wider`}>
                       請判斷此單字最符合的自然發音法則
                     </span>
-                    <div className="mt-1.5 text-2xl sm:text-3xl font-bold font-mono text-slate-900 dark:text-white">
+                    <div className={`mt-1.5 ${typo.largeWord} font-mono text-slate-900 dark:text-white`}>
                       {currentQ.word.word}
                     </div>
-                    <div className="mt-1 flex items-center justify-center gap-2 text-xs font-mono text-indigo-600 dark:text-indigo-400">
+                    <div className={`mt-1 flex items-center justify-center gap-2 font-mono text-indigo-600 dark:text-indigo-400 ${typo.ipa}`}>
                       <span>{currentQ.word.ipa}</span>
                       <span>•</span>
                       <span>{currentQ.word.chinese}</span>
@@ -364,13 +384,13 @@ export function QuickPracticeModal({
 
                 {mode === 'syllable_count' && (
                   <div>
-                    <span className="text-[11px] sm:text-xs font-medium text-slate-400 uppercase tracking-wider">
+                    <span className={`${typo.subtext} font-medium text-slate-400 uppercase tracking-wider`}>
                       請判斷此單字包含幾個音節？
                     </span>
-                    <div className="mt-1.5 text-2xl sm:text-3xl font-bold font-mono text-slate-900 dark:text-white">
+                    <div className={`mt-1.5 ${typo.largeWord} font-mono text-slate-900 dark:text-white`}>
                       {currentQ.word.word}
                     </div>
-                    <div className="mt-1 text-xs font-mono text-indigo-600 dark:text-indigo-400">
+                    <div className={`mt-1 font-mono text-indigo-600 dark:text-indigo-400 ${typo.ipa}`}>
                       {currentQ.word.ipa}
                     </div>
                   </div>
@@ -411,7 +431,7 @@ export function QuickPracticeModal({
                       key={idx}
                       onClick={() => handleSelectOption(opt)}
                       disabled={isAnswered}
-                      className={`flex items-center justify-between rounded-xl sm:rounded-2xl border p-3 sm:p-4 text-left text-xs sm:text-sm font-semibold transition cursor-pointer ${btnStyle}`}
+                      className={`flex items-center justify-between rounded-xl sm:rounded-2xl border p-3.5 sm:p-4 text-left ${typo.body} font-semibold transition cursor-pointer ${btnStyle}`}
                     >
                       <span className="leading-snug">{displayText}</span>
                       {isAnswered && (
@@ -434,17 +454,17 @@ export function QuickPracticeModal({
               {isAnswered && (
                 <div className="sticky bottom-0 -mx-4 -mb-4 sm:-mx-6 sm:-mb-6 p-3 sm:p-4 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-indigo-100 dark:border-indigo-950 shadow-lg z-20 transition flex flex-col sm:flex-row items-center justify-between gap-3">
                   <div className="w-full sm:w-auto text-left">
-                    <div className="text-xs sm:text-sm font-bold text-indigo-950 dark:text-indigo-200">
-                      正確答案：{currentQ.word.word} <span className="font-mono text-xs text-indigo-600 dark:text-indigo-400">({currentQ.word.ipa})</span>
+                    <div className={`${typo.title} text-indigo-950 dark:text-indigo-200`}>
+                      正確答案：{currentQ.word.word} <span className={`font-mono text-indigo-600 dark:text-indigo-400 ${typo.ipa}`}>({currentQ.word.ipa})</span>
                     </div>
-                    <div className="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 mt-0.5">
+                    <div className={`${typo.subtext} text-slate-600 dark:text-slate-300 mt-0.5`}>
                       音節拆解: [{(currentQ.word.syllables || [currentQ.word.word]).join(' - ')}] • 適用法則:{' '}
                       {currentQ.word.ruleCodes.join(', ')}
                     </div>
                   </div>
                   <button
                     onClick={handleNext}
-                    className="w-full sm:w-auto shrink-0 rounded-xl bg-indigo-600 hover:bg-indigo-500 active:scale-95 px-6 py-2.5 text-xs sm:text-sm font-bold text-white shadow-md transition cursor-pointer text-center flex items-center justify-center gap-1.5"
+                    className={`w-full sm:w-auto shrink-0 rounded-xl bg-indigo-600 hover:bg-indigo-500 active:scale-95 ${typo.button} font-bold text-white shadow-md transition cursor-pointer text-center flex items-center justify-center gap-1.5`}
                   >
                     <span>下一題</span>
                     <span>➔</span>

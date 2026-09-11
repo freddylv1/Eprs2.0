@@ -360,6 +360,7 @@ export default function HomePage() {
         isOpen={isRuleModalOpen}
         onClose={() => setIsRuleModalOpen(false)}
         initialRuleId={activeRuleModalId}
+        fontSize={fontSize}
       />
 
       <SyllableMatrixModal
@@ -367,6 +368,7 @@ export default function HomePage() {
         onClose={() => setIsMatrixModalOpen(false)}
         wordItem={selectedWordForMatrix}
         onOpenRuleDetail={handleOpenRuleDetail}
+        fontSize={fontSize}
       />
 
       <DictionaryModal
@@ -375,6 +377,7 @@ export default function HomePage() {
         wordItem={selectedWordForDictionary}
         onOpenWordMatrix={handleOpenWordMatrix}
         onOpenRuleDetail={handleOpenRuleDetail}
+        fontSize={fontSize}
       />
 
       {/* 5-Stage Progressive Learning Card Modal (Mobile Responsive) */}
@@ -386,6 +389,7 @@ export default function HomePage() {
         batchTitle={batchData?.title || '當前批次'}
         onOpenRuleDetail={handleOpenRuleDetail}
         onOpenWordMatrix={handleOpenWordMatrix}
+        fontSize={fontSize}
       />
 
       {/* Quiz Challenge Modal */}
@@ -394,6 +398,7 @@ export default function HomePage() {
         isOpen={isQuizModalOpen}
         onClose={() => setIsQuizModalOpen(false)}
         words={batchData?.words || []}
+        fontSize={fontSize}
       />
 
       <ExportModal
@@ -401,6 +406,7 @@ export default function HomePage() {
         onClose={() => setIsExportModalOpen(false)}
         batchData={batchData}
         filteredWords={filteredWords}
+        fontSize={fontSize}
       />
 
       {/* Global Footer (Hidden in Focus Mode) */}
