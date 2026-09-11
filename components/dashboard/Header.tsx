@@ -21,6 +21,7 @@ interface HeaderProps {
   onOpenQuickPractice: () => void;
   onOpenQuiz: () => void;
   onOpenExport: () => void;
+  onOpenAudioDiagnostic: () => void;
   onToggleToolbar: () => void;
   isToolbarVisible: boolean;
   onToggleFocusMode: () => void;
@@ -36,6 +37,7 @@ export function Header({
   onOpenQuickPractice,
   onOpenQuiz,
   onOpenExport,
+  onOpenAudioDiagnostic,
   onToggleToolbar,
   isToolbarVisible,
   onToggleFocusMode,
@@ -162,6 +164,17 @@ export function Header({
               1.0x
             </button>
           </div>
+
+          {/* Audio Settings & iPad Test Button */}
+          <button
+            id="btn-header-audio-diagnostic"
+            onClick={onOpenAudioDiagnostic}
+            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700 transition shadow-xs"
+            title="聲音設定、iPad 無聲排查與測試"
+          >
+            <Volume2 className="h-3.5 w-3.5 text-indigo-600 dark:text-indigo-400" />
+            <span className="hidden sm:inline">聲音設定</span>
+          </button>
 
           {/* Filter Bar Toggle */}
           <button

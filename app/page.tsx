@@ -13,6 +13,7 @@ import { QuickPracticeModal } from '../components/modals/QuickPracticeModal';
 import { EPRSPracticeModal } from '../components/modals/EPRSPracticeModal';
 import { DictionaryModal } from '../components/modals/DictionaryModal';
 import { ExportModal } from '../components/modals/ExportModal';
+import { AudioDiagnosticModal } from '../components/modals/AudioDiagnosticModal';
 import {
   Loader2,
   AlertCircle,
@@ -55,6 +56,7 @@ export default function HomePage() {
   const [isQuizModalOpen, setIsQuizModalOpen] = useState<boolean>(false);
   const [isEPRSPracticeOpen, setIsEPRSPracticeOpen] = useState<boolean>(false);
   const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
+  const [isAudioModalOpen, setIsAudioModalOpen] = useState<boolean>(false);
 
   // 1. Fetch Batches Manifest on Mount
   useEffect(() => {
@@ -183,6 +185,7 @@ export default function HomePage() {
           onOpenQuickPractice={() => setIsEPRSPracticeOpen(true)}
           onOpenQuiz={() => setIsQuizModalOpen(true)}
           onOpenExport={() => setIsExportModalOpen(true)}
+          onOpenAudioDiagnostic={() => setIsAudioModalOpen(true)}
           onToggleToolbar={() => setIsToolbarVisible(v => !v)}
           isToolbarVisible={isToolbarVisible}
           onToggleFocusMode={() => setIsFocusMode(true)}
@@ -263,6 +266,16 @@ export default function HomePage() {
                 </button>
               ))}
             </div>
+
+            {/* Sound test button in focus mode */}
+            <button
+              onClick={() => setIsAudioModalOpen(true)}
+              className="inline-flex items-center gap-1 rounded-lg border border-slate-200 bg-white px-2 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 transition"
+              title="聲音設定與測試"
+            >
+              <Sparkles className="h-3 w-3 text-indigo-500" />
+              <span className="hidden sm:inline">聲音</span>
+            </button>
 
             {/* Quick Practice shortcut in focus mode */}
             <button
@@ -406,6 +419,13 @@ export default function HomePage() {
         onClose={() => setIsExportModalOpen(false)}
         batchData={batchData}
         filteredWords={filteredWords}
+        fontSize={fontSize}
+      />
+
+      {/* Audio Diagnostic & iPad Troubleshooting Modal */}
+      <AudioDiagnosticModal
+        isOpen={isAudioModalOpen}
+        onClose={() => setIsAudioModalOpen(false)}
         fontSize={fontSize}
       />
 
