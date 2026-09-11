@@ -1,0 +1,1051 @@
+[
+  {
+    "id": 601,
+    "word": "office",
+    "pos": "n.",
+    "chinese": "辦公室",
+    "syllable": [
+      "of",
+      "fice"
+    ],
+    "ipa": "/ˈɑː.fɪs/"
+  },
+  {
+    "id": 602,
+    "word": "officer",
+    "pos": "n.",
+    "chinese": "官員",
+    "syllable": [
+      "of",
+      "fi",
+      "cer"
+    ],
+    "ipa": "/ˈɑː.fə.sɚ/"
+  },
+  {
+    "id": 603,
+    "word": "often",
+    "pos": "adv.",
+    "chinese": "時常",
+    "syllable": [
+      "of",
+      "ten"
+    ],
+    "ipa": "/ˈɑː.fən/"
+  },
+  {
+    "id": 604,
+    "word": "oil",
+    "pos": "n./v.",
+    "chinese": "油",
+    "syllable": [
+      "oil"
+    ],
+    "ipa": "/ɔɪl/"
+  },
+  {
+    "id": 605,
+    "word": "old",
+    "pos": "adj.",
+    "chinese": "老的",
+    "syllable": [
+      "old"
+    ],
+    "ipa": "/oʊld/"
+  },
+  {
+    "id": 606,
+    "word": "on",
+    "pos": "prep./adv.",
+    "chinese": "在…上面",
+    "syllable": [
+      "on"
+    ],
+    "ipa": "/ɑːn/"
+  },
+  {
+    "id": 607,
+    "word": "once",
+    "pos": "adv./conj./n.",
+    "chinese": "一次",
+    "syllable": [
+      "once"
+    ],
+    "ipa": "/wʌns/"
+  },
+  {
+    "id": 608,
+    "word": "online",
+    "pos": "adj.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "online"
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 609,
+    "word": "only",
+    "pos": "adv./adj./conj.",
+    "chinese": "只有",
+    "syllable": [
+      "on",
+      "ly"
+    ],
+    "ipa": "/ˈoʊn.li/"
+  },
+  {
+    "id": 610,
+    "word": "open",
+    "pos": "adj./v.",
+    "chinese": "打開,開放",
+    "syllable": [
+      "o",
+      "pen"
+    ],
+    "ipa": "/ˈoʊ.pən/"
+  },
+  {
+    "id": 611,
+    "word": "or",
+    "pos": "conj.",
+    "chinese": "或",
+    "syllable": [
+      "or"
+    ],
+    "ipa": "/ɔːr/"
+  },
+  {
+    "id": 612,
+    "word": "orange",
+    "pos": "adj./n.",
+    "chinese": "柳橙",
+    "syllable": [
+      "or",
+      "ange"
+    ],
+    "ipa": "/ˈɔːr.ɪndʒ/"
+  },
+  {
+    "id": 613,
+    "word": "order",
+    "pos": "n./v.",
+    "chinese": "點餐,秩序",
+    "syllable": [
+      "or",
+      "der"
+    ],
+    "ipa": "/ˈɔːr.dɚ/"
+  },
+  {
+    "id": 614,
+    "word": "other",
+    "pos": "adj./pron.",
+    "chinese": "其他的",
+    "syllable": [
+      "oth",
+      "er"
+    ],
+    "ipa": "/ˈʌð.ɚ/"
+  },
+  {
+    "id": 615,
+    "word": "out",
+    "pos": "adv./prep./adj./n./v.",
+    "chinese": "在外",
+    "syllable": [
+      "out"
+    ],
+    "ipa": "/aʊt/"
+  },
+  {
+    "id": 616,
+    "word": "outside",
+    "pos": "prep./adv./adj./n.",
+    "chinese": "在…外部",
+    "syllable": [
+      "out",
+      "side"
+    ],
+    "ipa": "/ˌaʊtˈsaɪd/"
+  },
+  {
+    "id": 617,
+    "word": "over",
+    "pos": "prep./adv.",
+    "chinese": "結束",
+    "syllable": [
+      "o",
+      "ver"
+    ],
+    "ipa": "/ˈoʊ.vɚ/"
+  },
+  {
+    "id": 618,
+    "word": "own",
+    "pos": "adj./pron./v.",
+    "chinese": "自己的",
+    "syllable": [
+      "own"
+    ],
+    "ipa": "/oʊn/"
+  },
+  {
+    "id": 619,
+    "word": "pack",
+    "pos": "n./v.",
+    "chinese": "包",
+    "syllable": [
+      "pack"
+    ],
+    "ipa": "/pæk/"
+  },
+  {
+    "id": 620,
+    "word": "package",
+    "pos": "n.",
+    "chinese": "包裹",
+    "syllable": [
+      "pack",
+      "age"
+    ],
+    "ipa": "/ˈpæk.ɪdʒ/"
+  },
+  {
+    "id": 621,
+    "word": "page",
+    "pos": "n.",
+    "chinese": "頁",
+    "syllable": [
+      "page"
+    ],
+    "ipa": "/peɪdʒ/"
+  },
+  {
+    "id": 622,
+    "word": "paint",
+    "pos": "n./v.",
+    "chinese": "繪畫",
+    "syllable": [
+      "paint"
+    ],
+    "ipa": "/peɪnt/"
+  },
+  {
+    "id": 623,
+    "word": "pair",
+    "pos": "n.",
+    "chinese": "一雙",
+    "syllable": [
+      "pair"
+    ],
+    "ipa": "/pɛr/"
+  },
+  {
+    "id": 624,
+    "word": "pants",
+    "pos": "n.",
+    "chinese": "長褲",
+    "syllable": [
+      "pants"
+    ],
+    "ipa": "/pænts/"
+  },
+  {
+    "id": 625,
+    "word": "paper",
+    "pos": "n./v.",
+    "chinese": "紙",
+    "syllable": [
+      "pa",
+      "per"
+    ],
+    "ipa": "/ˈpeɪ.pɚ/"
+  },
+  {
+    "id": 626,
+    "word": "parent(s)",
+    "pos": "n.",
+    "chinese": "父(母)親",
+    "syllable": [
+      "par",
+      "ent(s)"
+    ],
+    "ipa": "/ˈpɛr.ənt(s)/"
+  },
+  {
+    "id": 627,
+    "word": "park",
+    "pos": "n./v.",
+    "chinese": "公園",
+    "syllable": [
+      "park"
+    ],
+    "ipa": "/pɑːrk/"
+  },
+  {
+    "id": 628,
+    "word": "part",
+    "pos": "n./v.",
+    "chinese": "部分",
+    "syllable": [
+      "part"
+    ],
+    "ipa": "/pɑːrt/"
+  },
+  {
+    "id": 629,
+    "word": "party",
+    "pos": "n./v.",
+    "chinese": "派對",
+    "syllable": [
+      "par",
+      "ty"
+    ],
+    "ipa": "/ˈpɑːr.ti/"
+  },
+  {
+    "id": 630,
+    "word": "pass",
+    "pos": "v./n.",
+    "chinese": "通過",
+    "syllable": [
+      "pass"
+    ],
+    "ipa": "/pæs/"
+  },
+  {
+    "id": 631,
+    "word": "past",
+    "pos": "adj./n./prep./adv.",
+    "chinese": "經過",
+    "syllable": [
+      "past"
+    ],
+    "ipa": "/pæst/"
+  },
+  {
+    "id": 632,
+    "word": "pay(ment)",
+    "pos": "v./(n.)",
+    "chinese": "付錢",
+    "syllable": [
+      "pay"
+    ],
+    "ipa": "/peɪ/"
+  },
+  {
+    "id": 633,
+    "word": "pen",
+    "pos": "n./v.",
+    "chinese": "筆",
+    "syllable": [
+      "pen"
+    ],
+    "ipa": "/pɛn/"
+  },
+  {
+    "id": 634,
+    "word": "pencil",
+    "pos": "n.",
+    "chinese": "鉛筆",
+    "syllable": [
+      "pen",
+      "cil"
+    ],
+    "ipa": "/ˈpɛn.səl/"
+  },
+  {
+    "id": 635,
+    "word": "people",
+    "pos": "n./v.",
+    "chinese": "人們,人民",
+    "syllable": [
+      "peo",
+      "ple"
+    ],
+    "ipa": "/ˈpiː.pəl/"
+  },
+  {
+    "id": 636,
+    "word": "perhaps",
+    "pos": "adv.",
+    "chinese": "或許",
+    "syllable": [
+      "per",
+      "haps"
+    ],
+    "ipa": "/pɚˈhæps/"
+  },
+  {
+    "id": 637,
+    "word": "person",
+    "pos": "n.",
+    "chinese": "人",
+    "syllable": [
+      "per",
+      "son"
+    ],
+    "ipa": "/ˈpɝː.sən/"
+  },
+  {
+    "id": 638,
+    "word": "pet",
+    "pos": "n./v.",
+    "chinese": "寵物",
+    "syllable": [
+      "pet"
+    ],
+    "ipa": "/pɛt/"
+  },
+  {
+    "id": 639,
+    "word": "photograph/photo",
+    "pos": "n./v.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "photograph/photo n./v."
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 640,
+    "word": "piano",
+    "pos": "n.",
+    "chinese": "鋼琴",
+    "syllable": [
+      "pi",
+      "an",
+      "o"
+    ],
+    "ipa": "/piˈæn.oʊ/"
+  },
+  {
+    "id": 641,
+    "word": "pick",
+    "pos": "v./n.",
+    "chinese": "撿拾",
+    "syllable": [
+      "pick"
+    ],
+    "ipa": "/pɪk/"
+  },
+  {
+    "id": 642,
+    "word": "picnic",
+    "pos": "n./v.",
+    "chinese": "野餐",
+    "syllable": [
+      "pic",
+      "nic"
+    ],
+    "ipa": "/ˈpɪk.nɪk/"
+  },
+  {
+    "id": 643,
+    "word": "picture",
+    "pos": "n./v.",
+    "chinese": "圖片,照片",
+    "syllable": [
+      "pic",
+      "ture"
+    ],
+    "ipa": "/ˈpɪk.tʃɚ/"
+  },
+  {
+    "id": 644,
+    "word": "pie",
+    "pos": "n.",
+    "chinese": "派",
+    "syllable": [
+      "pie"
+    ],
+    "ipa": "/paɪ/"
+  },
+  {
+    "id": 645,
+    "word": "piece",
+    "pos": "n./v.",
+    "chinese": "片",
+    "syllable": [
+      "piece"
+    ],
+    "ipa": "/piːs/"
+  },
+  {
+    "id": 646,
+    "word": "pig",
+    "pos": "n./v.",
+    "chinese": "豬",
+    "syllable": [
+      "pig"
+    ],
+    "ipa": "/pɪɡ/"
+  },
+  {
+    "id": 647,
+    "word": "pin",
+    "pos": "n./v.",
+    "chinese": "大頭針",
+    "syllable": [
+      "pin"
+    ],
+    "ipa": "/pɪn/"
+  },
+  {
+    "id": 648,
+    "word": "pink",
+    "pos": "adj./n.",
+    "chinese": "粉紅色(的)",
+    "syllable": [
+      "pink"
+    ],
+    "ipa": "/pɪŋk/"
+  },
+  {
+    "id": 649,
+    "word": "pipe",
+    "pos": "n./v.",
+    "chinese": "管",
+    "syllable": [
+      "pipe"
+    ],
+    "ipa": "/paɪp/"
+  },
+  {
+    "id": 650,
+    "word": "place",
+    "pos": "n./v.",
+    "chinese": "地方",
+    "syllable": [
+      "place"
+    ],
+    "ipa": "/pleɪs/"
+  },
+  {
+    "id": 651,
+    "word": "plan",
+    "pos": "n./v.",
+    "chinese": "計畫",
+    "syllable": [
+      "plan"
+    ],
+    "ipa": "/plæn/"
+  },
+  {
+    "id": 652,
+    "word": "planet",
+    "pos": "n.",
+    "chinese": "行星",
+    "syllable": [
+      "plan",
+      "et"
+    ],
+    "ipa": "/ˈplæn.ɪt/"
+  },
+  {
+    "id": 653,
+    "word": "plant",
+    "pos": "n./v.",
+    "chinese": "植物",
+    "syllable": [
+      "plant"
+    ],
+    "ipa": "/plænt/"
+  },
+  {
+    "id": 654,
+    "word": "plate",
+    "pos": "n.",
+    "chinese": "盤子",
+    "syllable": [
+      "plate"
+    ],
+    "ipa": "/pleɪt/"
+  },
+  {
+    "id": 655,
+    "word": "play",
+    "pos": "v./n.",
+    "chinese": "玩",
+    "syllable": [
+      "play"
+    ],
+    "ipa": "/pleɪ/"
+  },
+  {
+    "id": 656,
+    "word": "player",
+    "pos": "n.",
+    "chinese": "球員,玩家",
+    "syllable": [
+      "play",
+      "er"
+    ],
+    "ipa": "/ˈpleɪ.ɚ/"
+  },
+  {
+    "id": 657,
+    "word": "please",
+    "pos": "v.",
+    "chinese": "請",
+    "syllable": [
+      "please"
+    ],
+    "ipa": "/pliːz/"
+  },
+  {
+    "id": 658,
+    "word": "pleasure",
+    "pos": "n.",
+    "chinese": "樂趣,使高興",
+    "syllable": [
+      "pleas",
+      "ure"
+    ],
+    "ipa": "/ˈplɛʒ.ɚ/"
+  },
+  {
+    "id": 659,
+    "word": "pm/p.m.",
+    "pos": "adv.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "pm/p.m."
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 660,
+    "word": "pocket",
+    "pos": "n./v.",
+    "chinese": "口袋",
+    "syllable": [
+      "pock",
+      "et"
+    ],
+    "ipa": "/ˈpɑː.kɪt/"
+  },
+  {
+    "id": 661,
+    "word": "point",
+    "pos": "n./v.",
+    "chinese": "指著,得分",
+    "syllable": [
+      "point"
+    ],
+    "ipa": "/pɔɪnt/"
+  },
+  {
+    "id": 662,
+    "word": "police",
+    "pos": "n./v.",
+    "chinese": "警察",
+    "syllable": [
+      "po",
+      "lice"
+    ],
+    "ipa": "/pəˈliːs/"
+  },
+  {
+    "id": 663,
+    "word": "polite",
+    "pos": "adj.",
+    "chinese": "有禮貌的",
+    "syllable": [
+      "po",
+      "lite"
+    ],
+    "ipa": "/pəˈlaɪt/"
+  },
+  {
+    "id": 664,
+    "word": "pond",
+    "pos": "n.",
+    "chinese": "池塘",
+    "syllable": [
+      "pond"
+    ],
+    "ipa": "/pɑːnd/"
+  },
+  {
+    "id": 665,
+    "word": "pool",
+    "pos": "n./v.",
+    "chinese": "游泳池",
+    "syllable": [
+      "pool"
+    ],
+    "ipa": "/puːl/"
+  },
+  {
+    "id": 666,
+    "word": "poor",
+    "pos": "adj.",
+    "chinese": "貧困的,可憐的",
+    "syllable": [
+      "poor"
+    ],
+    "ipa": "/pʊr/"
+  },
+  {
+    "id": 667,
+    "word": "popcorn",
+    "pos": "n.",
+    "chinese": "爆米花",
+    "syllable": [
+      "pop",
+      "corn"
+    ],
+    "ipa": "/ˈpɑːp.kɔːrn/"
+  },
+  {
+    "id": 668,
+    "word": "popular",
+    "pos": "adj.",
+    "chinese": "受歡迎的",
+    "syllable": [
+      "pop",
+      "u",
+      "lar"
+    ],
+    "ipa": "/ˈpɑː.pjə.lɚ/"
+  },
+  {
+    "id": 669,
+    "word": "possible",
+    "pos": "adj.",
+    "chinese": "可能的",
+    "syllable": [
+      "pos",
+      "si",
+      "ble"
+    ],
+    "ipa": "/ˈpɑː.sə.bəl/"
+  },
+  {
+    "id": 670,
+    "word": "pot",
+    "pos": "n./v.",
+    "chinese": "罐,壺,鍋子",
+    "syllable": [
+      "pot"
+    ],
+    "ipa": "/pɑːt/"
+  },
+  {
+    "id": 671,
+    "word": "potato",
+    "pos": "n.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "potato"
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 672,
+    "word": "power",
+    "pos": "n./v.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "power n./v."
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 673,
+    "word": "practice",
+    "pos": "n./v.",
+    "chinese": "練習",
+    "syllable": [
+      "prac",
+      "tice"
+    ],
+    "ipa": "/ˈpræk.tɪs/"
+  },
+  {
+    "id": 674,
+    "word": "prepare",
+    "pos": "v.",
+    "chinese": "準備",
+    "syllable": [
+      "pre",
+      "pare"
+    ],
+    "ipa": "/prɪˈpɛr/"
+  },
+  {
+    "id": 675,
+    "word": "present",
+    "pos": "adj./n./v.",
+    "chinese": "禮物",
+    "syllable": [
+      "pres",
+      "ent"
+    ],
+    "ipa": "/ˈprɛz.ənt/"
+  },
+  {
+    "id": 676,
+    "word": "pretty",
+    "pos": "adv./adj.",
+    "chinese": "漂亮的,非常",
+    "syllable": [
+      "pret",
+      "ty"
+    ],
+    "ipa": "/ˈprɪt.i/"
+  },
+  {
+    "id": 677,
+    "word": "price",
+    "pos": "n./v.",
+    "chinese": "價格",
+    "syllable": [
+      "price"
+    ],
+    "ipa": "/praɪs/"
+  },
+  {
+    "id": 678,
+    "word": "probably",
+    "pos": "adv.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "probably"
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 679,
+    "word": "problem",
+    "pos": "n.",
+    "chinese": "問題",
+    "syllable": [
+      "prob",
+      "lem"
+    ],
+    "ipa": "/ˈprɑː.bləm/"
+  },
+  {
+    "id": 680,
+    "word": "program",
+    "pos": "n./v.",
+    "chinese": "節目",
+    "syllable": [
+      "pro",
+      "gram"
+    ],
+    "ipa": "/ˈproʊ.ɡræm/"
+  },
+  {
+    "id": 681,
+    "word": "proud",
+    "pos": "adj.",
+    "chinese": "驕傲的",
+    "syllable": [
+      "proud"
+    ],
+    "ipa": "/praʊd/"
+  },
+  {
+    "id": 682,
+    "word": "public",
+    "pos": "adj./n.",
+    "chinese": "公立的,公眾的",
+    "syllable": [
+      "pub",
+      "lic"
+    ],
+    "ipa": "/ˈpʌb.lɪk/"
+  },
+  {
+    "id": 683,
+    "word": "pull",
+    "pos": "v./n.",
+    "chinese": "拉",
+    "syllable": [
+      "pull"
+    ],
+    "ipa": "/pʊl/"
+  },
+  {
+    "id": 684,
+    "word": "push",
+    "pos": "v./n.",
+    "chinese": "推",
+    "syllable": [
+      "push"
+    ],
+    "ipa": "/pʊʃ/"
+  },
+  {
+    "id": 685,
+    "word": "put",
+    "pos": "v.",
+    "chinese": "放",
+    "syllable": [
+      "put"
+    ],
+    "ipa": "/pʊt/"
+  },
+  {
+    "id": 686,
+    "word": "quarter",
+    "pos": "n.",
+    "chinese": "15 分鐘,1/4",
+    "syllable": [
+      "quar",
+      "ter"
+    ],
+    "ipa": "/ˈkwɔːr.t̬ɚ/"
+  },
+  {
+    "id": 687,
+    "word": "queen",
+    "pos": "n.",
+    "chinese": "皇后",
+    "syllable": [
+      "queen"
+    ],
+    "ipa": "/kwiːn/"
+  },
+  {
+    "id": 688,
+    "word": "question",
+    "pos": "n./v.",
+    "chinese": "問題",
+    "syllable": [
+      "ques",
+      "tion"
+    ],
+    "ipa": "/ˈkwɛs.tʃən/"
+  },
+  {
+    "id": 689,
+    "word": "quick",
+    "pos": "adj./adv.",
+    "chinese": "迅速的",
+    "syllable": [
+      "quick"
+    ],
+    "ipa": "/kwɪk/"
+  },
+  {
+    "id": 690,
+    "word": "quiet",
+    "pos": "adj./n./v.",
+    "chinese": "安靜的",
+    "syllable": [
+      "qui",
+      "et"
+    ],
+    "ipa": "/ˈkwaɪ.ət/"
+  },
+  {
+    "id": 691,
+    "word": "quite",
+    "pos": "adv.",
+    "chinese": "相當",
+    "syllable": [
+      "quite"
+    ],
+    "ipa": "/kwaɪt/"
+  },
+  {
+    "id": 692,
+    "word": "rabbit",
+    "pos": "n.",
+    "chinese": "兔子",
+    "syllable": [
+      "rab",
+      "bit"
+    ],
+    "ipa": "/ˈræb.ɪt/"
+  },
+  {
+    "id": 693,
+    "word": "race",
+    "pos": "n./v.",
+    "chinese": "賽跑",
+    "syllable": [
+      "race"
+    ],
+    "ipa": "/reɪs/"
+  },
+  {
+    "id": 694,
+    "word": "radio",
+    "pos": "n./v.",
+    "chinese": "收音機",
+    "syllable": [
+      "ra",
+      "di",
+      "o"
+    ],
+    "ipa": "/ˈreɪ.di.oʊ/"
+  },
+  {
+    "id": 695,
+    "word": "rain",
+    "pos": "n./v.",
+    "chinese": "下雨",
+    "syllable": [
+      "rain"
+    ],
+    "ipa": "/reɪn/"
+  },
+  {
+    "id": 696,
+    "word": "rainbow",
+    "pos": "n.",
+    "chinese": "彩虹",
+    "syllable": [
+      "rain",
+      "bow"
+    ],
+    "ipa": "/ˈreɪn.boʊ/"
+  },
+  {
+    "id": 697,
+    "word": "rainy",
+    "pos": "adj.",
+    "chinese": "下雨的",
+    "syllable": [
+      "rain",
+      "y"
+    ],
+    "ipa": "/ˈreɪ.ni/"
+  },
+  {
+    "id": 698,
+    "word": "raise",
+    "pos": "v./n.",
+    "chinese": "舉起,養育",
+    "syllable": [
+      "raise"
+    ],
+    "ipa": "/reɪz/"
+  },
+  {
+    "id": 699,
+    "word": "reach",
+    "pos": "v./n.",
+    "chinese": "常用高中字彙",
+    "syllable": [
+      "reach v./n."
+    ],
+    "ipa": ""
+  },
+  {
+    "id": 700,
+    "word": "read",
+    "pos": "v.",
+    "chinese": "讀",
+    "syllable": [
+      "read"
+    ],
+    "ipa": "/riːd/"
+  }
+]

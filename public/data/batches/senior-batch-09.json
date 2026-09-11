@@ -1,0 +1,2747 @@
+{
+  "batchId": "senior-batch-09",
+  "title": "高中參考字彙 第一級 - 第 9 批次",
+  "category": "senior",
+  "range": "801 ~ 900",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 801,
+      "word": "some",
+      "chinese": "一些",
+      "pos": "adj./pron.",
+      "syllables": [
+        "some"
+      ],
+      "ipa": "/sʌm/",
+      "ruleCodes": [
+        "R003",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［some］",
+          "rule": "魔術 e 規則 (R003) → 特例短母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "o_e 未發長母音 /oʊ/，受古英語歷史音變特例轉移發短中舌母音 /sʌm/，字尾 e 靜音"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 802,
+      "word": "someone/somebody",
+      "chinese": "某人",
+      "pos": "pron./n.",
+      "syllables": [
+        "some",
+        "one",
+        "some",
+        "bod",
+        "y"
+      ],
+      "ipa": "/ˈsʌm.wʌn/ /ˈsʌm.bɑː.di/",
+      "ruleCodes": [
+        "R011",
+        "R010",
+        "R001",
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［some］",
+          "rule": "複合詞詞根 (R011) + 特例短母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "詞根 some 依歷史音變發短中舌母音 /ˈsʌm/"
+        },
+        {
+          "syllable": "第 2 音節［one］",
+          "rule": "特例雙母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "one 依歷史音變首音帶唇軟顎半母音發 /wʌn/"
+        },
+        {
+          "syllable": "第 3 音節［bod］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 o 被子音 d 封閉，次重讀發短母音 /bɑːd/"
+        },
+        {
+          "syllable": "第 4 音節［y］",
+          "rule": "字尾 y 半母音 (R002/R008)",
+          "status": "【適用】",
+          "reason": "字尾 y 處非重讀音節常規發長母音 /di/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 803,
+      "word": "something",
+      "chinese": "某事",
+      "pos": "pron./n.",
+      "syllables": [
+        "some",
+        "thing"
+      ],
+      "ipa": "/ˈsʌm.θɪŋ/",
+      "ruleCodes": [
+        "R011",
+        "R010",
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［some］",
+          "rule": "複合詞詞根 (R011) + 特例短母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "詞根 some 依歷史音變發短中舌母音 /ˈsʌm/"
+        },
+        {
+          "syllable": "第 2 音節［thing］",
+          "rule": "複合子音 th/ng (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "複合子音 th 發清齒間擦音 /θ/，ng 封閉音節使 i 發短音 /θɪŋ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 804,
+      "word": "sometimes",
+      "chinese": "有時候",
+      "pos": "adv.",
+      "syllables": [
+        "some",
+        "times"
+      ],
+      "ipa": "/ˈsʌm.taɪmz/",
+      "ruleCodes": [
+        "R011",
+        "R010",
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［some］",
+          "rule": "複合詞詞根 (R011) + 特例短母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "詞根 some 依歷史音變發短中舌母音 /ˈsʌm/"
+        },
+        {
+          "syllable": "第 2 音節［times］",
+          "rule": "魔術 e 規則 (R003)",
+          "status": "【適用】",
+          "reason": "i_e 結構字尾 e 靜音使母音 i 發長雙母音 /taɪm/，尾音 s 濁化為 /z/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 805,
+      "word": "somewhere",
+      "chinese": "某處",
+      "pos": "adv.",
+      "syllables": [
+        "some",
+        "where"
+      ],
+      "ipa": "/ˈsʌm.wɛr/",
+      "ruleCodes": [
+        "R011",
+        "R010",
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［some］",
+          "rule": "複合詞詞根 (R011) + 特例短母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "詞根 some 依歷史音變發短中舌母音 /ˈsʌm/"
+        },
+        {
+          "syllable": "第 2 音節［where］",
+          "rule": "複合子音 wh (R006) + R 控制音變 (R005)",
+          "status": "【適用】",
+          "reason": "wh 發 /w/，ere 受捲舌控制發捲舌音 /wɛr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 806,
+      "word": "son",
+      "chinese": "兒子",
+      "pos": "n.",
+      "syllables": [
+        "son"
+      ],
+      "ipa": "/sʌn/",
+      "ruleCodes": [
+        "R001",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［son］",
+          "rule": "閉音節規則 (R001) → 特例短母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "單一母音 o 封閉音節未發短音 /ɑː/，歷史演變特例發短中舌母音 /sʌn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 807,
+      "word": "song",
+      "chinese": "歌曲",
+      "pos": "n.",
+      "syllables": [
+        "song"
+      ],
+      "ipa": "/sɑːŋ/",
+      "ruleCodes": [
+        "R001",
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［song］",
+          "rule": "閉音節規則 (R001) + 複合子音 ng (R006)",
+          "status": "【適用】",
+          "reason": "軟顎鼻音 ng 封閉音節，單一母音 o 常規發短開後母音 /sɑːŋ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 808,
+      "word": "soon",
+      "chinese": "不久,即將",
+      "pos": "adv.",
+      "syllables": [
+        "soon"
+      ],
+      "ipa": "/suːn/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［soon］",
+          "rule": "雙母音組合 oo (R004)",
+          "status": "【適用】",
+          "reason": "字母組合 oo 常規發長圓唇母音 /uː/，鼻子音 n 封閉發 /suːn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 809,
+      "word": "sore",
+      "chinese": "疼痛的",
+      "pos": "adj./n.",
+      "syllables": [
+        "sore"
+      ],
+      "ipa": "/sɔːr/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［sore］",
+          "rule": "R 控制魔術 e (R005)",
+          "status": "【適用】",
+          "reason": "ore 結構字尾 e 靜音，字母組合受捲舌控制常規發後圓唇長母音 /sɔːr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 810,
+      "word": "sorry",
+      "chinese": "抱歉(的)",
+      "pos": "adj.",
+      "syllables": [
+        "sor",
+        "ry"
+      ],
+      "ipa": "/ˈsɑː.ri/",
+      "ruleCodes": [
+        "R001",
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sor］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 o 被子音 r 封閉，重讀音節常規發短母音 /ˈsɑː/"
+        },
+        {
+          "syllable": "第 2 音節［ry］",
+          "rule": "字尾 y 半母音 (R002/R008)",
+          "status": "【適用】",
+          "reason": "字尾 y 處非重讀音節常規發長母音 /ri/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 811,
+      "word": "sound",
+      "chinese": "聲音,聽起來",
+      "pos": "n.",
+      "syllables": [
+        "sound"
+      ],
+      "ipa": "/saʊnd/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［sound］",
+          "rule": "雙母音組合 ou (R004)",
+          "status": "【適用】",
+          "reason": "字母組合 ou 常規發雙母音 /aʊ/，子音 nd 封閉發 /saʊnd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 812,
+      "word": "soup",
+      "chinese": "湯",
+      "pos": "n.",
+      "syllables": [
+        "soup"
+      ],
+      "ipa": "/suːp/",
+      "ruleCodes": [
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［soup］",
+          "rule": "法語外來語特例 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "字母組合 ou 承襲法語源流未發 /aʊ/，特例發長圓唇母音 /suːp/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 813,
+      "word": "south",
+      "chinese": "南方",
+      "pos": "n./adj./adv.",
+      "syllables": [
+        "south"
+      ],
+      "ipa": "/saʊθ/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［south］",
+          "rule": "雙母音組合 ou (R004) + 複合子音 th (R006)",
+          "status": "【適用】",
+          "reason": "ou 組合常規發雙母音 /aʊ/，複合子音 th 發清齒間擦音 /θ/，全字發 /saʊθ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 814,
+      "word": "space",
+      "chinese": "空間",
+      "pos": "n./v.",
+      "syllables": [
+        "space"
+      ],
+      "ipa": "/speɪs/",
+      "ruleCodes": [
+        "R006",
+        "R003",
+        "R007"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［space］",
+          "rule": "子音叢 sp (R006) + 魔術 e (R003) + 軟音 c (R007)",
+          "status": "【適用】",
+          "reason": "sp 發 /sp/，a_e 結構促使 a 發長音 /eɪ/，c 在 e 前軟音化為 /s/，字尾 e 靜音發 /speɪs/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 815,
+      "word": "speak",
+      "chinese": "說",
+      "pos": "v.",
+      "syllables": [
+        "speak"
+      ],
+      "ipa": "/spiːk/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［speak］",
+          "rule": "子音叢 sp (R006) + 母音組合 ea (R004)",
+          "status": "【適用】",
+          "reason": "sp 發 /sp/，ea 組合常規發長母音 /iː/，子音 k 封閉發 /spiːk/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 816,
+      "word": "special",
+      "chinese": "特別的",
+      "pos": "adj.",
+      "syllables": [
+        "spe",
+        "cial"
+      ],
+      "ipa": "/ˈspɛʃ.əl/",
+      "ruleCodes": [
+        "R001",
+        "R010",
+        "R009"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［spe］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 e 被後續子音封閉，重讀音節常規發短母音 /ˈspɛ/"
+        },
+        {
+          "syllable": "第 2 音節［cial］",
+          "rule": "顎化音變 (R010) + 成音節 (R009)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "後綴 -cial 中 c 在弱化母音前顎化發摩擦音 /ʃ/，與 l 形成成音節發 /ʃəl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 817,
+      "word": "spell",
+      "chinese": "拼字",
+      "pos": "v.",
+      "syllables": [
+        "spell"
+      ],
+      "ipa": "/spɛl/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［spell］",
+          "rule": "子音叢 sp (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "sp 發 /sp/，雙子音 ll 封閉音節使母音 e 常規發短母音 /spɛl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 818,
+      "word": "spend",
+      "chinese": "花(錢,時間)",
+      "pos": "v.",
+      "syllables": [
+        "spend"
+      ],
+      "ipa": "/spɛnd/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［spend］",
+          "rule": "子音叢 sp (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "sp 發 /sp/，子音叢 nd 封閉音節使母音 e 常規發短母音 /spɛnd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 819,
+      "word": "spring",
+      "chinese": "春天",
+      "pos": "n./v.",
+      "syllables": [
+        "spring"
+      ],
+      "ipa": "/sprɪŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［spring］",
+          "rule": "三子音叢 spr (R006) + 鼻音 ng (R006)",
+          "status": "【適用】",
+          "reason": "三子音叢 spr 緊密結合發 /spr/，ng 封閉音節使母音 i 常規發短音 /sprɪŋ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 820,
+      "word": "square",
+      "chinese": "正方形的",
+      "pos": "n./adj.",
+      "syllables": [
+        "square"
+      ],
+      "ipa": "/skwɛr/",
+      "ruleCodes": [
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［square］",
+          "rule": "複合子音 squ (R006) + R 控制魔術 e (R005)",
+          "status": "【適用】",
+          "reason": "squ 發 /skw/，are 結構受 r 捲舌控制常規發 /skwɛr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 821,
+      "word": "stair",
+      "chinese": "樓梯, 梯級",
+      "pos": "n.",
+      "syllables": [
+        "stair"
+      ],
+      "ipa": "/stɛr/",
+      "ruleCodes": [
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［stair］",
+          "rule": "子音叢 st (R006) + R 控制母音 air (R005)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，母音組合 air 受捲舌控制常規發捲舌雙母音 /stɛr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 822,
+      "word": "stand",
+      "chinese": "站立",
+      "pos": "v./n.",
+      "syllables": [
+        "stand"
+      ],
+      "ipa": "/stænd/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［stand］",
+          "rule": "子音叢 st (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，子音 nd 封閉音節使母音 a 常規發短蝴蝶音 /stænd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 823,
+      "word": "star",
+      "chinese": "星星",
+      "pos": "n./v.",
+      "syllables": [
+        "star"
+      ],
+      "ipa": "/stɑːr/",
+      "ruleCodes": [
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［star］",
+          "rule": "子音叢 st (R006) + R 控制母音 ar (R005)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，ar 字母組合受捲舌控制常規發後開母音 /stɑːr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 824,
+      "word": "start",
+      "chinese": "開始",
+      "pos": "v./n.",
+      "syllables": [
+        "start"
+      ],
+      "ipa": "/stɑːrt/",
+      "ruleCodes": [
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［start］",
+          "rule": "子音叢 st (R006) + R 控制母音 ar (R005)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，ar 字母組合受捲舌控制常規發後開母音 /stɑːrt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 825,
+      "word": "station",
+      "chinese": "車站,站,局",
+      "pos": "n.",
+      "syllables": [
+        "sta",
+        "tion"
+      ],
+      "ipa": "/ˈsteɪ.ʃən/",
+      "ruleCodes": [
+        "R002",
+        "R008",
+        "R009"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sta］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 a 結尾無子音封閉，常規發長雙母音 /ˈsteɪ/"
+        },
+        {
+          "syllable": "第 2 音節［tion］",
+          "rule": "常見後綴 (R008) + 成音節 (R009)",
+          "status": "【適用】",
+          "reason": "常用名詞後綴 -tion 常規發弱化擦音成音節 /ʃən/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 826,
+      "word": "stay",
+      "chinese": "停留",
+      "pos": "v./n.",
+      "syllables": [
+        "stay"
+      ],
+      "ipa": "/steɪ/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［stay］",
+          "rule": "子音叢 st (R006) + 母音組合 ay (R004)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，ay 字母組合於詞尾常規發長雙母音 /steɪ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 827,
+      "word": "still",
+      "chinese": "仍然",
+      "pos": "adv./adj.",
+      "syllables": [
+        "still"
+      ],
+      "ipa": "/stɪl/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［still］",
+          "rule": "子音叢 st (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，雙子音 ll 封閉音節使母音 i 常規發短母音 /stɪl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 828,
+      "word": "stop",
+      "chinese": "停",
+      "pos": "v./n.",
+      "syllables": [
+        "stop"
+      ],
+      "ipa": "/stɑːp/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［stop］",
+          "rule": "子音叢 st (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，子音 p 封閉單一母音 o 常規發短母音 /stɑːp/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 829,
+      "word": "store",
+      "chinese": "商店",
+      "pos": "n./v.",
+      "syllables": [
+        "store"
+      ],
+      "ipa": "/stɔːr/",
+      "ruleCodes": [
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［store］",
+          "rule": "子音叢 st (R006) + R 控制魔術 e (R005)",
+          "status": "【適用】",
+          "reason": "st 發 /st/，ore 結構字尾 e 靜音受 r 控制常規發後圓唇長母音 /stɔːr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 830,
+      "word": "story",
+      "chinese": "故事",
+      "pos": "n.",
+      "syllables": [
+        "sto",
+        "ry"
+      ],
+      "ipa": "/ˈstɔː.ri/",
+      "ruleCodes": [
+        "R005",
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sto］",
+          "rule": "開音節 R 牽引音變 (R005)",
+          "status": "【適用】",
+          "reason": "重讀母音 o 在 r 前常規牽引發後圓唇長母音 /ˈstɔː/"
+        },
+        {
+          "syllable": "第 2 音節［ry］",
+          "rule": "字尾 y 半母音 (R002/R008)",
+          "status": "【適用】",
+          "reason": "字尾 y 處非重讀音節常規發長母音 /ri/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 831,
+      "word": "straight",
+      "chinese": "直的",
+      "pos": "adv./adj./n.",
+      "syllables": [
+        "straight"
+      ],
+      "ipa": "/streɪt/",
+      "ruleCodes": [
+        "R006",
+        "R004",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［straight］",
+          "rule": "三子音叢 str (R006) + aigh 特殊長音 (R004/R010)",
+          "status": "【適用】",
+          "reason": "str 發 /str/，aigh 組合中 gh 保持靜音，母音組合常規發長雙母音 /streɪt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 832,
+      "word": "strange",
+      "chinese": "奇怪的",
+      "pos": "adj.",
+      "syllables": [
+        "strange"
+      ],
+      "ipa": "/streɪndʒ/",
+      "ruleCodes": [
+        "R010",
+        "R007"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［strange］",
+          "rule": "-ange 特例長母音 (R010) + 軟音 g (R007)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "母音 a 在 -nge 前特例發長雙母音 /eɪ/，g 在 e 前軟音化為 /dʒ/，字尾 e 靜音發 /streɪndʒ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 833,
+      "word": "street",
+      "chinese": "街道",
+      "pos": "n.",
+      "syllables": [
+        "street"
+      ],
+      "ipa": "/striːt/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［street］",
+          "rule": "三子音叢 str (R006) + 母音組合 ee (R004)",
+          "status": "【適用】",
+          "reason": "str 發 /str/，ee 字母組合常規發長母音 /iː/，子音 t 封閉發 /striːt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 834,
+      "word": "string",
+      "chinese": "細繩, 線, 弦; 串起, 線裝",
+      "pos": "n.",
+      "syllables": [
+        "string"
+      ],
+      "ipa": "/strɪŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［string］",
+          "rule": "三子音叢 str (R006) + 複合子音 ng (R006)",
+          "status": "【適用】",
+          "reason": "str 發 /str/，軟顎鼻音 ng 封閉音節使母音 i 常規發短母音 /strɪŋ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 835,
+      "word": "strong",
+      "chinese": "強壯的",
+      "pos": "adj.",
+      "syllables": [
+        "strong"
+      ],
+      "ipa": "/strɔːŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［strong］",
+          "rule": "三子音叢 str (R006) + 複合子音 ng (R006)",
+          "status": "【適用】",
+          "reason": "str 發 /str/，軟顎鼻音 ng 封閉音節使母音 o 常規發短開母音 /strɔːŋ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 836,
+      "word": "student",
+      "chinese": "學生",
+      "pos": "n.",
+      "syllables": [
+        "stu",
+        "dent"
+      ],
+      "ipa": "/ˈstuː.dənt/",
+      "ruleCodes": [
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［stu］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 u 結尾無子音封閉，常規發長母音 /ˈstuː/"
+        },
+        {
+          "syllable": "第 2 音節［dent］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節母音 e 弱化，常規發央母音 /dənt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 837,
+      "word": "study",
+      "chinese": "研讀,學習",
+      "pos": "n./v.",
+      "syllables": [
+        "stud",
+        "y"
+      ],
+      "ipa": "/ˈstʌd.i/",
+      "ruleCodes": [
+        "R001",
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［stud］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 u 被子音 d 封閉，重讀音節常規發短母音 /ˈstʌd/"
+        },
+        {
+          "syllable": "第 2 音節［y］",
+          "rule": "字尾 y 半母音 (R002/R008)",
+          "status": "【適用】",
+          "reason": "字尾 y 處非重讀音節常規發長母音 /i/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 838,
+      "word": "stupid",
+      "chinese": "笨的",
+      "pos": "adj.",
+      "syllables": [
+        "stu",
+        "pid"
+      ],
+      "ipa": "/ˈstuː.pɪd/",
+      "ruleCodes": [
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［stu］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 u 結尾無子音封閉，常規發長母音 /ˈstuː/"
+        },
+        {
+          "syllable": "第 2 音節［pid］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節母音 i 常規發鬆短母音 /pɪd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 839,
+      "word": "subject",
+      "chinese": "科目",
+      "pos": "n.",
+      "syllables": [
+        "sub",
+        "ject"
+      ],
+      "ipa": "/ˈsʌb.dʒɪkt/",
+      "ruleCodes": [
+        "R001",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sub］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 u 被子音 b 封閉，重讀音節常規發短母音 /ˈsʌb/"
+        },
+        {
+          "syllable": "第 2 音節［ject］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節母音 e 弱化發鬆短音 /dʒɪkt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 840,
+      "word": "successful",
+      "chinese": "成功的",
+      "pos": "adj.",
+      "syllables": [
+        "suc",
+        "cess",
+        "ful"
+      ],
+      "ipa": "/səkˈsɛs.fəl/",
+      "ruleCodes": [
+        "R012",
+        "R008",
+        "R007",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［suc］",
+          "rule": "前綴弱化規則 (R012/R008) + 硬音 c (R007)",
+          "status": "【適用】",
+          "reason": "非重讀前綴 suc- 弱化發 /sək/，c 發硬音 /k/"
+        },
+        {
+          "syllable": "第 2 音節［cess］",
+          "rule": "閉音節規則 (R001) + 軟音 c (R007)",
+          "status": "【適用】",
+          "reason": "第二個 c 在 e 前軟音化為 /s/，重讀閉音節發 /ˈsɛs/"
+        },
+        {
+          "syllable": "第 3 音節［ful］",
+          "rule": "非重讀後綴弱化 (R008)",
+          "status": "【適用】",
+          "reason": "常用形容詞後綴 -ful 處非重音節，母音弱化發 /fəl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 841,
+      "word": "sugar",
+      "chinese": "糖",
+      "pos": "n.",
+      "syllables": [
+        "su",
+        "gar"
+      ],
+      "ipa": "/ˈʃʊɡ.ɚ/",
+      "ruleCodes": [
+        "R010",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［su］",
+          "rule": "歷史音變特例 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "字首 s 受歷史顎化影響特例發擦音 /ʃ/，母音 u 特例發短音 /ˈʃʊ/"
+        },
+        {
+          "syllable": "第 2 音節［gar］",
+          "rule": "R 控制母音 ar (R005/R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節 -ar 受弱化控制發捲舌音 /ɡɚ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 842,
+      "word": "sun",
+      "chinese": "太陽",
+      "pos": "n./v.",
+      "syllables": [
+        "sun"
+      ],
+      "ipa": "/sʌn/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［sun］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 u 被鼻子音 n 封閉，常規發短母音 /sʌn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 843,
+      "word": "sunny",
+      "chinese": "晴朗的",
+      "pos": "adj.",
+      "syllables": [
+        "sun",
+        "ny"
+      ],
+      "ipa": "/ˈsʌn.i/",
+      "ruleCodes": [
+        "R001",
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sun］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 u 被鼻子音 n 封閉，重讀音節常規發短母音 /ˈsʌn/"
+        },
+        {
+          "syllable": "第 2 音節［ny］",
+          "rule": "字尾 y 半母音 (R002/R008)",
+          "status": "【適用】",
+          "reason": "字尾 y 處非重讀音節常規發長母音 /ni/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 844,
+      "word": "supermarket",
+      "chinese": "超級市場",
+      "pos": "n.",
+      "syllables": [
+        "su",
+        "per",
+        "mar",
+        "ket"
+      ],
+      "ipa": "/ˈsuː.pɚˌmɑːr.kɪt/",
+      "ruleCodes": [
+        "R002",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［su］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 u 結尾無子音封閉，常規發長母音 /ˈsuː/"
+        },
+        {
+          "syllable": "第 2 音節［per］",
+          "rule": "R 控制母音 er (R005/R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節 -er 常規發弱化捲舌音 /pɚ/"
+        },
+        {
+          "syllable": "第 3 音節［mar］",
+          "rule": "次重讀 R 控制母音 ar (R005)",
+          "status": "【適用】",
+          "reason": "次重讀音節 ar 常規發長捲舌開母音 /ˌmɑːr/"
+        },
+        {
+          "syllable": "第 4 音節［ket］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節單一母音 e 弱化發鬆短音 /kɪt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 845,
+      "word": "sure",
+      "chinese": "確定的",
+      "pos": "adj./adv.",
+      "syllables": [
+        "sure"
+      ],
+      "ipa": "/ʃʊr/",
+      "ruleCodes": [
+        "R010",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［sure］",
+          "rule": "歷史音變特例 (R010) + R 控制音 (R005)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "字首 s 受歷史顎化影響特例發 /ʃ/，ure 組合受捲舌控制發 /ʃʊr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 846,
+      "word": "surprise",
+      "chinese": "使…驚訝",
+      "pos": "n./v.",
+      "syllables": [
+        "sur",
+        "prise"
+      ],
+      "ipa": "/sɚˈpraɪz/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sur］",
+          "rule": "非重讀前綴弱化 (R005/R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節 sur- 常規弱化發輕捲舌音 /sɚ/"
+        },
+        {
+          "syllable": "第 2 音節［prise］",
+          "rule": "魔術 e 規則 (R003)",
+          "status": "【適用】",
+          "reason": "i_e 結構字尾 e 靜音使母音 i 發長雙母音 /ˈpraɪ/，中間 s 濁化為 /z/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 847,
+      "word": "surprised",
+      "chinese": "感到驚訝的",
+      "pos": "adj.",
+      "syllables": [
+        "sur",
+        "prised"
+      ],
+      "ipa": "/sɚˈpraɪzd/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［sur］",
+          "rule": "非重讀前綴弱化 (R005/R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節 sur- 常規弱化發輕捲舌音 /sɚ/"
+        },
+        {
+          "syllable": "第 2 音節［prised］",
+          "rule": "魔術 e 規則 (R003)",
+          "status": "【適用】",
+          "reason": "i_e 結構促使 i 發長雙母音 /ˈpraɪz/，過去分詞後綴 -ed 濁化發 /d/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 848,
+      "word": "sweet",
+      "chinese": "甜的",
+      "pos": "adj.",
+      "syllables": [
+        "sweet"
+      ],
+      "ipa": "/swiːt/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［sweet］",
+          "rule": "子音叢 sw (R006) + 母音組合 ee (R004)",
+          "status": "【適用】",
+          "reason": "sw 發 /sw/，ee 字母組合常規發長母音 /iː/，子音 t 封閉發 /swiːt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 849,
+      "word": "table",
+      "chinese": "桌子",
+      "pos": "n.",
+      "syllables": [
+        "ta",
+        "ble"
+      ],
+      "ipa": "/ˈteɪ.bəl/",
+      "ruleCodes": [
+        "R002",
+        "R009"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［ta］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 a 結尾無子音封閉，常規發長雙母音 /ˈteɪ/"
+        },
+        {
+          "syllable": "第 2 音節［ble］",
+          "rule": "成音節字尾規則 (R009)",
+          "status": "【適用】",
+          "reason": "子音 + le 於詞尾構成成音節，不發音 e 弱化發 /bəl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 850,
+      "word": "tail",
+      "chinese": "尾巴",
+      "pos": "n.",
+      "syllables": [
+        "tail"
+      ],
+      "ipa": "/teɪl/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tail］",
+          "rule": "母音組合 ai (R004)",
+          "status": "【適用】",
+          "reason": "ai 字母組合常規發長雙母音 /eɪ/，尾音 l 帶出軟顎化音，全字發 /teɪl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 851,
+      "word": "take",
+      "chinese": "拿",
+      "pos": "v.",
+      "syllables": [
+        "take"
+      ],
+      "ipa": "/teɪk/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［take］",
+          "rule": "魔術 e 規則 (R003)",
+          "status": "【適用】",
+          "reason": "a_e 結構字尾 e 靜音促使母音 a 常規發長雙母音 /teɪk/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 852,
+      "word": "talk",
+      "chinese": "說話",
+      "pos": "v./n.",
+      "syllables": [
+        "talk"
+      ],
+      "ipa": "/tɔːk/",
+      "ruleCodes": [
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［talk］",
+          "rule": "-alk 特例音變 (R010) + 靜音 l (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "單一母音 a 在 -lk 前特例發後長母音 /ɔː/，子音 l 保持完全靜音發 /tɔːk/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 853,
+      "word": "tall",
+      "chinese": "高的",
+      "pos": "adj.",
+      "syllables": [
+        "tall"
+      ],
+      "ipa": "/tɔːl/",
+      "ruleCodes": [
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tall］",
+          "rule": "-all 特例長母音字族 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "單一母音 a 在 -ll 前受舌側流音牽引特例發圓唇長母音 /tɔːl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 854,
+      "word": "tape",
+      "chinese": "錄音帶",
+      "pos": "n.",
+      "syllables": [
+        "tape"
+      ],
+      "ipa": "/teɪp/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tape］",
+          "rule": "魔術 e 規則 (R003)",
+          "status": "【適用】",
+          "reason": "a_e 結構字尾 e 靜音促使母音 a 常規發長雙母音 /teɪp/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 855,
+      "word": "taste",
+      "chinese": "品嚐",
+      "pos": "n./v.",
+      "syllables": [
+        "taste"
+      ],
+      "ipa": "/teɪst/",
+      "ruleCodes": [
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［taste］",
+          "rule": "-aste 特例長母音字族 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "單一母音 a 在 -ste 前承襲古法特例發長雙母音 /teɪst/，而非短母音"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 856,
+      "word": "taxicab/taxi/cab",
+      "chinese": "計程車",
+      "pos": "n.",
+      "syllables": [
+        "tax",
+        "i"
+      ],
+      "ipa": "/ˈtæk.si/",
+      "ruleCodes": [
+        "R001",
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［tax］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 a 被子音 x /ks/ 封閉，重讀音節常規發短蝴蝶音 /ˈtæk/"
+        },
+        {
+          "syllable": "第 2 音節［i］",
+          "rule": "非重讀開音節 (R002/R008)",
+          "status": "【適用】",
+          "reason": "詞尾單一母音 i 處非重讀音節常規發長母音 /si/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 857,
+      "word": "tea",
+      "chinese": "茶",
+      "pos": "n.",
+      "syllables": [
+        "tea"
+      ],
+      "ipa": "/tiː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tea］",
+          "rule": "母音組合 ea (R004)",
+          "status": "【適用】",
+          "reason": "母音組合 ea 於詞尾常規發長母音 /tiː/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 858,
+      "word": "teach",
+      "chinese": "教導",
+      "pos": "v.",
+      "syllables": [
+        "teach"
+      ],
+      "ipa": "/tiːtʃ/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［teach］",
+          "rule": "母音組合 ea (R004) + 複合子音 ch (R006)",
+          "status": "【適用】",
+          "reason": "ea 組合常規發長母音 /iː/，複合子音 ch 發清塞擦音 /tʃ/，全字發 /tiːtʃ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 859,
+      "word": "teacher",
+      "chinese": "教師",
+      "pos": "n.",
+      "syllables": [
+        "teach",
+        "er"
+      ],
+      "ipa": "/ˈtiː.tʃɚ/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［teach］",
+          "rule": "母音組合 ea (R004) + 複合子音 ch (R006)",
+          "status": "【適用】",
+          "reason": "ea 組合發長母音 /ˈtiː/，ch 發清塞擦音 /tʃ/"
+        },
+        {
+          "syllable": "第 2 音節［er］",
+          "rule": "R 控制母音 er (R005/R008)",
+          "status": "【適用】",
+          "reason": "動名詞後綴 -er 處非重讀音節常規發弱化捲舌音 /ɚ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 860,
+      "word": "team",
+      "chinese": "團隊",
+      "pos": "n./v.",
+      "syllables": [
+        "team"
+      ],
+      "ipa": "/tiːm/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［team］",
+          "rule": "母音組合 ea (R004)",
+          "status": "【適用】",
+          "reason": "ea 字母組合常規發長母音 /iː/，鼻子音 m 封閉發 /tiːm/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 861,
+      "word": "teenager",
+      "chinese": "青少年",
+      "pos": "n.",
+      "syllables": [
+        "teen",
+        "ag",
+        "er"
+      ],
+      "ipa": "/ˈtiːnˌeɪ.dʒɚ/",
+      "ruleCodes": [
+        "R004",
+        "R002",
+        "R007",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［teen］",
+          "rule": "母音組合 ee (R004)",
+          "status": "【適用】",
+          "reason": "ee 組合常規發長母音 /ˈtiːn/"
+        },
+        {
+          "syllable": "第 2 音節［ag］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "次重讀音節 a 發長雙母音 /ˌeɪ/"
+        },
+        {
+          "syllable": "第 3 音節［er］",
+          "rule": "軟音 g (R007) + R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "g 在 e 前軟音化為濁塞擦音 /dʒ/，-er 弱化發捲舌音 /dʒɚ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 862,
+      "word": "telephone/phone",
+      "chinese": "電話",
+      "pos": "n./v.",
+      "syllables": [
+        "tel",
+        "e",
+        "phone"
+      ],
+      "ipa": "/ˈtɛl.ə.foʊn/",
+      "ruleCodes": [
+        "R001",
+        "R008",
+        "R006",
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［tel］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 e 被子音 l 封閉，重讀音節常規發短母音 /ˈtɛl/"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀單一母音 e 弱化發央母音 /ə/"
+        },
+        {
+          "syllable": "第 3 音節［phone］",
+          "rule": "複合子音 ph (R006) + 魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "ph 發清擦音 /f/，o_e 結構字尾 e 靜音促使 o 發長雙母音 /foʊn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 863,
+      "word": "television/TV",
+      "chinese": "電視",
+      "pos": "n.",
+      "syllables": [
+        "tel",
+        "e",
+        "vi",
+        "sion"
+      ],
+      "ipa": "/ˈtɛl.ə.vɪʒ.ən/",
+      "ruleCodes": [
+        "R001",
+        "R008",
+        "R010",
+        "R009"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［tel］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 e 被子音 l 封閉，重讀音節常規發短母音 /ˈtɛl/"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀單一母音 e 弱化發央母音 /ə/"
+        },
+        {
+          "syllable": "第 3 音節［vi］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節單一母音 i 發鬆短音 /vɪ/"
+        },
+        {
+          "syllable": "第 4 音節［sion］",
+          "rule": "顎化音變 (R010) + 成音節 (R009)",
+          "status": "【適用】",
+          "reason": "後綴 -sion 處母音後濁化發濁擦音 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 864,
+      "word": "tell",
+      "chinese": "告訴",
+      "pos": "v.",
+      "syllables": [
+        "tell"
+      ],
+      "ipa": "/tɛl/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tell］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "雙子音 ll 封閉音節，單一母音 e 常規發短母音 /tɛl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 865,
+      "word": "temple",
+      "chinese": "寺廟",
+      "pos": "n.",
+      "syllables": [
+        "tem",
+        "ple"
+      ],
+      "ipa": "/ˈtɛm.pəl/",
+      "ruleCodes": [
+        "R001",
+        "R009"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［tem］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 e 被鼻音 m 封閉，重讀音節常規發短母音 /ˈtɛm/"
+        },
+        {
+          "syllable": "第 2 音節［ple］",
+          "rule": "成音節字尾規則 (R009)",
+          "status": "【適用】",
+          "reason": "子音 + le 於詞尾構成成音節，不發音 e 弱化發 /pəl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 866,
+      "word": "tennis",
+      "chinese": "網球",
+      "pos": "n.",
+      "syllables": [
+        "ten",
+        "nis"
+      ],
+      "ipa": "/ˈtɛn.ɪs/",
+      "ruleCodes": [
+        "R001",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［ten］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 e 被鼻子音 n 封閉，重讀音節常規發短母音 /ˈtɛn/"
+        },
+        {
+          "syllable": "第 2 音節［nis］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節單一母音 i 弱化發鬆短母音 /ɪs/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 867,
+      "word": "terrible",
+      "chinese": "可怕的",
+      "pos": "adj.",
+      "syllables": [
+        "ter",
+        "ri",
+        "ble"
+      ],
+      "ipa": "/ˈtɛr.ə.bəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［ter］",
+          "rule": "R 控制母音 er (R005)",
+          "status": "【適用】",
+          "reason": "重讀音節 er 字母組合常規發捲舌短音 /ˈtɛr/"
+        },
+        {
+          "syllable": "第 2 音節［ri］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節單一母音 i 弱化發央母音 /ə/"
+        },
+        {
+          "syllable": "第 3 音節［ble］",
+          "rule": "成音節字尾規則 (R009)",
+          "status": "【適用】",
+          "reason": "後綴 -ble 於詞尾常規構成成音節發 /bəl/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 868,
+      "word": "test",
+      "chinese": "考試,測試",
+      "pos": "n./v.",
+      "syllables": [
+        "test"
+      ],
+      "ipa": "/tɛst/",
+      "ruleCodes": [
+        "R001",
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［test］",
+          "rule": "閉音節規則 (R001) + 子音叢 st (R006)",
+          "status": "【適用】",
+          "reason": "子音叢 st 封閉音節，單一母音 e 常規發短母音 /tɛst/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 869,
+      "word": "than",
+      "chinese": "比…",
+      "pos": "conj./prep.",
+      "syllables": [
+        "than"
+      ],
+      "ipa": "/ðæn/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［than］",
+          "rule": "複合子音 th 濁音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "功能詞複合子音 th 濁化發 /ð/，鼻子音 n 封閉發短蝴蝶音 /ðæn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 870,
+      "word": "thank",
+      "chinese": "謝謝",
+      "pos": "v./n.",
+      "syllables": [
+        "thank"
+      ],
+      "ipa": "/θæŋk/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［thank］",
+          "rule": "複合子音 th 清音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "複合子音 th 發清齒間擦音 /θ/，nk 封閉音節使 a 發 /θæŋk/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 871,
+      "word": "that",
+      "chinese": "那個",
+      "pos": "conj./pron./adv./adj.",
+      "syllables": [
+        "that"
+      ],
+      "ipa": "/ðæt/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［that］",
+          "rule": "複合子音 th 濁音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "功能詞 th 濁化發 /ð/，子音 t 封閉單一母音 a 發短蝴蝶音 /ðæt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 872,
+      "word": "the",
+      "chinese": "這/那",
+      "pos": "art.",
+      "syllables": [
+        "the"
+      ],
+      "ipa": "/ðə/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［the］",
+          "rule": "複合子音 th (R006) + 非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "定冠詞 th 濁化發 /ð/，母音 e 於輔音前弱化發央母音 /ðə/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 873,
+      "word": "theater",
+      "chinese": "戲院",
+      "pos": "n.",
+      "syllables": [
+        "the",
+        "a",
+        "ter"
+      ],
+      "ipa": "/ˈθiː.ə.t̬ɚ/",
+      "ruleCodes": [
+        "R006",
+        "R002",
+        "R008",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［the］",
+          "rule": "複合子音 th 清音 (R006) + 開音節 (R002)",
+          "status": "【適用】",
+          "reason": "複合子音 th 發清擦音 /θ/，開音節母音 e 發長母音 /ˈθiː/"
+        },
+        {
+          "syllable": "第 2 音節［a］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀母音 a 弱化發央母音 /ə/"
+        },
+        {
+          "syllable": "第 3 音節［ter］",
+          "rule": "R 控制母音 er (R005/R008)",
+          "status": "【適用】",
+          "reason": "字尾 -er 處非重讀音節常規發弱化捲舌音 /t̬ɚ/，t 濁化為閃音"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 874,
+      "word": "then",
+      "chinese": "那時",
+      "pos": "adv./adj.",
+      "syllables": [
+        "then"
+      ],
+      "ipa": "/ðɛn/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［then］",
+          "rule": "複合子音 th 濁音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "功能詞 th 濁化發 /ð/，鼻子音 n 封閉音節使母音 e 常規發短音 /ðɛn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 875,
+      "word": "there",
+      "chinese": "那裡",
+      "pos": "adv./n.",
+      "syllables": [
+        "there"
+      ],
+      "ipa": "/ðɛr/",
+      "ruleCodes": [
+        "R006",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［there］",
+          "rule": "複合子音 th (R006) + R 控制音變 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "功能詞 th 濁化發 /ð/，ere 結構未發長音 /iːr/，特例發開捲舌音 /ðɛr/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 876,
+      "word": "these",
+      "chinese": "這些",
+      "pos": "pron./adj.",
+      "syllables": [
+        "these"
+      ],
+      "ipa": "/ðiːz/",
+      "ruleCodes": [
+        "R006",
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［these］",
+          "rule": "複合子音 th 濁音 (R006) + 魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "th 濁化發 /ð/，e_e 結構字尾 e 靜音使母音 e 發長母音 /iː/，尾音 s 濁化為 /z/，全字發 /ðiːz/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 877,
+      "word": "they (them, their, theirs, themselves)",
+      "chinese": "他們",
+      "pos": "pron.",
+      "syllables": [
+        "they"
+      ],
+      "ipa": "/ðeɪ/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［they］",
+          "rule": "複合子音 th 濁音 (R006) + 母音組合 ey (R004)",
+          "status": "【適用】",
+          "reason": "代名詞 th 濁化發 /ð/，ey 字母組合常規發長雙母音 /ðeɪ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 878,
+      "word": "thick",
+      "chinese": "厚的",
+      "pos": "adj.",
+      "syllables": [
+        "thick"
+      ],
+      "ipa": "/θɪk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［thick］",
+          "rule": "複合子音 th 清音 (R006) + 複合子音 ck (R006)",
+          "status": "【適用】",
+          "reason": "th 發清擦音 /θ/，ck 封閉音節使母音 i 常規發短母音 /θɪk/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 879,
+      "word": "thin",
+      "chinese": "瘦的",
+      "pos": "adj.",
+      "syllables": [
+        "thin"
+      ],
+      "ipa": "/θɪn/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［thin］",
+          "rule": "複合子音 th 清音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "th 發清擦音 /θ/，鼻子音 n 封閉單一母音 i 常規發短母音 /θɪn/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 880,
+      "word": "thing",
+      "chinese": "事情",
+      "pos": "n.",
+      "syllables": [
+        "thing"
+      ],
+      "ipa": "/θɪŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［thing］",
+          "rule": "複合子音 th 清音 (R006) + 複合子音 ng (R006)",
+          "status": "【適用】",
+          "reason": "th 發清擦音 /θ/，軟顎鼻音 ng 封閉音節使母音 i 發短音 /θɪŋ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 881,
+      "word": "think",
+      "chinese": "想,思考",
+      "pos": "v.",
+      "syllables": [
+        "think"
+      ],
+      "ipa": "/θɪŋk/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［think］",
+          "rule": "複合子音 th 清音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "th 發清擦音 /θ/，子音叢 nk 封閉音節使母音 i 發短母音 /θɪŋk/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 882,
+      "word": "third",
+      "chinese": "第三(的)",
+      "pos": "adj./n./adv.",
+      "syllables": [
+        "third"
+      ],
+      "ipa": "/θɝːd/",
+      "ruleCodes": [
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［third］",
+          "rule": "複合子音 th 清音 (R006) + R 控制母音 ir (R005)",
+          "status": "【適用】",
+          "reason": "th 發清擦音 /θ/，ir 字母組合受捲舌控制常規發長捲舌母音 /θɝːd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 883,
+      "word": "this",
+      "chinese": "這個",
+      "pos": "pron./adv./adj.",
+      "syllables": [
+        "this"
+      ],
+      "ipa": "/ðɪs/",
+      "ruleCodes": [
+        "R006",
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［this］",
+          "rule": "複合子音 th 濁音 (R006) + 閉音節 (R001)",
+          "status": "【適用】",
+          "reason": "指示詞 th 濁化發 /ð/，子音 s 封閉單一母音 i 常規發短母音 /ðɪs/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 884,
+      "word": "those",
+      "chinese": "那些",
+      "pos": "pron./adj.",
+      "syllables": [
+        "those"
+      ],
+      "ipa": "/ðoʊz/",
+      "ruleCodes": [
+        "R006",
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［those］",
+          "rule": "複合子音 th 濁音 (R006) + 魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "指示詞 th 濁化發 /ð/，o_e 結構字尾 e 靜音促使 o 發長雙母音 /oʊ/，s 濁化為 /z/，發 /ðoʊz/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 885,
+      "word": "though",
+      "chinese": "雖然",
+      "pos": "conj./adv.",
+      "syllables": [
+        "though"
+      ],
+      "ipa": "/ðoʊ/",
+      "ruleCodes": [
+        "R006",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［though］",
+          "rule": "複合子音 th (R006) + 靜音 gh (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "功能詞 th 濁化發 /ð/，ough 字母組合中 gh 保持靜音，母音特例發長雙母音 /ðoʊ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 886,
+      "word": "thousand",
+      "chinese": "千",
+      "pos": "n./adj.",
+      "syllables": [
+        "thou",
+        "sand"
+      ],
+      "ipa": "/ˈθaʊ.zənd/",
+      "ruleCodes": [
+        "R006",
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［thou］",
+          "rule": "複合子音 th (R006) + 雙母音組合 ou (R004)",
+          "status": "【適用】",
+          "reason": "th 發清音 /θ/，ou 字母組合常規發雙母音 /ˈθaʊ/"
+        },
+        {
+          "syllable": "第 2 音節［sand］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節母音 a 弱化，s 濁化為 /z/，常規發 /zənd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 887,
+      "word": "throat",
+      "chinese": "喉嚨",
+      "pos": "n.",
+      "syllables": [
+        "throat"
+      ],
+      "ipa": "/θroʊt/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［throat］",
+          "rule": "子音叢 thr (R006) + 母音組合 oa (R004)",
+          "status": "【適用】",
+          "reason": "thr 緊密結合發 /θr/，oa 組合常規發長雙母音 /oʊ/，子音 t 封閉發 /θroʊt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 888,
+      "word": "through",
+      "chinese": "穿過, 通過; 直達的, 穿透",
+      "pos": "prep./adv.",
+      "syllables": [
+        "through"
+      ],
+      "ipa": "/θruː/",
+      "ruleCodes": [
+        "R006",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［through］",
+          "rule": "子音叢 thr (R006) + 特例長音化 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "thr 發 /θr/，ough 組合中 gh 保持靜音，母音特例發長圓唇母音 /θruː/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 889,
+      "word": "throw",
+      "chinese": "丟",
+      "pos": "v./n.",
+      "syllables": [
+        "throw"
+      ],
+      "ipa": "/θroʊ/",
+      "ruleCodes": [
+        "R006",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［throw］",
+          "rule": "子音叢 thr (R006) + 母音組合 ow (R004)",
+          "status": "【適用】",
+          "reason": "thr 發 /θr/，ow 字母組合於詞尾常規發長雙母音 /θroʊ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 890,
+      "word": "ticket",
+      "chinese": "票券",
+      "pos": "n.",
+      "syllables": [
+        "tick",
+        "et"
+      ],
+      "ipa": "/ˈtɪk.ɪt/",
+      "ruleCodes": [
+        "R001",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［tick］",
+          "rule": "閉音節規則 (R001) + 複合子音 ck (R006)",
+          "status": "【適用】",
+          "reason": "複合子音 ck 封閉音節，單一母音 i 常規發短母音 /ˈtɪk/"
+        },
+        {
+          "syllable": "第 2 音節［et］",
+          "rule": "非重音弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節單一母音 e 弱化發鬆短音 /ɪt/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 891,
+      "word": "tidy",
+      "chinese": "整潔的",
+      "pos": "adj./v.",
+      "syllables": [
+        "ti",
+        "dy"
+      ],
+      "ipa": "/ˈtaɪ.di/",
+      "ruleCodes": [
+        "R002",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［ti］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 i 結尾無子音封閉，常規發長雙母音 /ˈtaɪ/"
+        },
+        {
+          "syllable": "第 2 音節［dy］",
+          "rule": "字尾 y 半母音 (R002/R008)",
+          "status": "【適用】",
+          "reason": "字尾 y 處非重讀音節常規發長母音 /di/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 892,
+      "word": "tie",
+      "chinese": "領帶,捆,繫",
+      "pos": "n./v.",
+      "syllables": [
+        "tie"
+      ],
+      "ipa": "/taɪ/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tie］",
+          "rule": "母音組合 ie (R004)",
+          "status": "【適用】",
+          "reason": "ie 字母組合於詞尾常規發長雙母音 /taɪ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 893,
+      "word": "tiger",
+      "chinese": "老虎",
+      "pos": "n.",
+      "syllables": [
+        "ti",
+        "ger"
+      ],
+      "ipa": "/ˈtaɪ.ɡɚ/",
+      "ruleCodes": [
+        "R002",
+        "R007",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［ti］",
+          "rule": "開音節規則 (R002)",
+          "status": "【適用】",
+          "reason": "重讀開音節單一母音 i 結尾無子音封閉，常規發長雙母音 /ˈtaɪ/"
+        },
+        {
+          "syllable": "第 2 音節［ger］",
+          "rule": "硬音 g (R007) + R 控制母音 er (R005)",
+          "status": "【適用】",
+          "reason": "g 發硬音 /ɡ/，字尾 -er 處非重讀音節常規發弱化捲舌音 /ɡɚ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 894,
+      "word": "time",
+      "chinese": "時間",
+      "pos": "n./v.",
+      "syllables": [
+        "time"
+      ],
+      "ipa": "/taɪm/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［time］",
+          "rule": "魔術 e 規則 (R003)",
+          "status": "【適用】",
+          "reason": "i_e 結構字尾 e 靜音促使母音 i 常規發長雙母音 /taɪm/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 895,
+      "word": "tip",
+      "chinese": "頂端, 尖端; 小費, 提示, 秘訣; 給小費, 傾斜",
+      "pos": "n./v.",
+      "syllables": [
+        "tip"
+      ],
+      "ipa": "/tɪp/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tip］",
+          "rule": "閉音節規則 (R001)",
+          "status": "【適用】",
+          "reason": "單一母音 i 被子音 p 封閉，常規發短母音 /tɪp/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 896,
+      "word": "tired",
+      "chinese": "疲倦的",
+      "pos": "adj.",
+      "syllables": [
+        "tired"
+      ],
+      "ipa": "/ˈtaɪ.ɚd/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［tired］",
+          "rule": "R 控制魔術 e (R005) + 規則過去分詞",
+          "status": "【適用】",
+          "reason": "ire 結構受 r 捲舌控制發 /ˈtaɪ.ɚ/，後綴 -d 濁化發 /d/，全字發 /ˈtaɪ.ɚd/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 897,
+      "word": "to",
+      "chinese": "到",
+      "pos": "prep.",
+      "syllables": [
+        "to"
+      ],
+      "ipa": "/tuː/",
+      "ruleCodes": [
+        "R002",
+        "R010"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［to］",
+          "rule": "開音節規則 (R002) → 特例長母音 (R010)",
+          "status": "【不適用 (例外轉移)】",
+          "reason": "單一母音 o 結尾未發字母本名長雙音 /oʊ/，受高頻音變特例發長圓唇音 /tuː/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 898,
+      "word": "today",
+      "chinese": "今天",
+      "pos": "adv./n.",
+      "syllables": [
+        "to",
+        "day"
+      ],
+      "ipa": "/təˈdeɪ/",
+      "ruleCodes": [
+        "R008",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［to］",
+          "rule": "非重讀弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀前綴母音 o 弱化發輕母音 /tə/"
+        },
+        {
+          "syllable": "第 2 音節［day］",
+          "rule": "母音組合 ay (R004)",
+          "status": "【適用】",
+          "reason": "重讀音節 ay 組合常規發長雙母音 /deɪ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 899,
+      "word": "toe",
+      "chinese": "腳趾",
+      "pos": "n.",
+      "syllables": [
+        "toe"
+      ],
+      "ipa": "/toʊ/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllable": "單音節［toe］",
+          "rule": "母音組合 oe (R004)",
+          "status": "【適用】",
+          "reason": "oe 字母組合於詞尾常規發長雙母音 /toʊ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    },
+    {
+      "id": 900,
+      "word": "together",
+      "chinese": "一起",
+      "pos": "adv.",
+      "syllables": [
+        "to",
+        "geth",
+        "er"
+      ],
+      "ipa": "/təˈɡɛð.ɚ/",
+      "ruleCodes": [
+        "R008",
+        "R001",
+        "R006",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［to］",
+          "rule": "非重讀弱化 (R008)",
+          "status": "【適用】",
+          "reason": "非重讀音節母音 o 弱化發輕母音 /tə/"
+        },
+        {
+          "syllable": "第 2 音節［geth］",
+          "rule": "閉音節規則 (R001) + 複合子音 th 濁音 (R006)",
+          "status": "【適用】",
+          "reason": "重讀音節 e 發短母音 /ˈɡɛ/，複合子音 th 濁化發 /ð/"
+        },
+        {
+          "syllable": "第 3 音節［er］",
+          "rule": "R 控制母音 er (R005/R008)",
+          "status": "【適用】",
+          "reason": "字尾 -er 處非重讀音節常規發弱化捲舌音 /ɚ/"
+        }
+      ],
+      "level": "Senior Level 1",
+      "batchId": "senior-batch-09"
+    }
+  ]
+}

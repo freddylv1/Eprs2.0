@@ -1,0 +1,3085 @@
+batch: 15
+version: '2.0'
+total_words_in_batch: 50
+schema_name: English_Pronunciation_Database Schema v2.0
+words:
+  - index: 700
+    word: have_28
+    pos: v.
+    chinese: 有；擁有
+    syllable:
+      - have_28
+    ipa: /hæv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: have_28
+        syllable: have_28
+        ipa: /hæv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: have_28
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 音節對應發音構造 PAT-01
+        rule_id: R010
+        ipa: /hæv/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /hæv/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-01
+      note: Standard exception rule applied
+    reasoning:
+      syllable_reasoning: 音節對應 have_28 發音 /hæv/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 重音與結構符合發音規則 R010
+      ipa_conclusion: 最終發音產出 IPA /hæv/
+    confidence: 100
+    reasoning_summary: have_28 音節 [have_28] Rule R010 Pattern PAT-01 IPA /hæv/
+  - index: 701
+    word: advance_28
+    pos: v.
+    chinese: 前進；提升
+    syllable:
+      - ad_28
+      - vance_28
+    ipa: /ədˈvæns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ad_28
+        syllable: ad_28
+        ipa: /əd/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: vance_28
+        syllable: vance_28
+        ipa: /væns/
+        stress: primary
+        pattern_id: PAT-09
+        rule_id: R009
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ad_28
+        pattern_id: PAT-12
+        pattern: Special Ending
+        condition: 音節對應發音構造 PAT-12
+        rule_id: R017
+        ipa: /əd/
+      - syllable_index: 1
+        syllable: vance_28
+        pattern_id: PAT-09
+        pattern: Special Ending
+        condition: 音節對應發音構造 PAT-09
+        rule_id: R009
+        ipa: /væns/
+    rule_mapping:
+      - R009
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Special Ending Family
+      sound_family:
+        primary_sound: /ədˈvæns/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 ad_28-vance_28 發音 /ədˈvæns/
+      pattern_reasoning: 全字構造包含 PAT-09 (Special Ending)
+      rule_reasoning: 重音與結構符合發音規則 R009
+      ipa_conclusion: 最終發音產出 IPA /ədˈvæns/
+    confidence: 100
+    reasoning_summary: advance_28 音節 [ad_28/vance_28] Rule R009 Pattern PAT-09 IPA /ədˈvæns/
+  - index: 702
+    word: apple_28
+    pos: n.
+    chinese: 蘋果
+    syllable:
+      - ap_28
+      - ple_28
+    ipa: /ˈæp.əl/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ap_28
+        syllable: ap_28
+        ipa: /æp/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: ple_28
+        syllable: ple_28
+        ipa: /əl/
+        stress: unstressed
+        pattern_id: PAT-09
+        rule_id: R009
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ap_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /æp/
+      - syllable_index: 1
+        syllable: ple_28
+        pattern_id: PAT-09
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-09
+        rule_id: R009
+        ipa: /əl/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /ˈæp.əl/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 ap_28-ple_28 發音 /ˈæp.əl/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /ˈæp.əl/
+    confidence: 100
+    reasoning_summary: apple_28 音節 [ap_28/ple_28] Rule R001 Pattern PAT-02 IPA /ˈæp.əl/
+  - index: 703
+    word: book_28
+    pos: n.
+    chinese: 書本
+    syllable:
+      - book_28
+    ipa: /bʊk/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: book_28
+        syllable: book_28
+        ipa: /bʊk/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: book_28
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /bʊk/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /bʊk/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 book_28 發音 /bʊk/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /bʊk/
+    confidence: 100
+    reasoning_summary: book_28 音節 [book_28] Rule R004 Pattern PAT-04 IPA /bʊk/
+  - index: 704
+    word: cat_28
+    pos: n.
+    chinese: 貓
+    syllable:
+      - cat_28
+    ipa: /kæt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: cat_28
+        syllable: cat_28
+        ipa: /kæt/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: cat_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /kæt/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /kæt/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 cat_28 發音 /kæt/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /kæt/
+    confidence: 100
+    reasoning_summary: cat_28 音節 [cat_28] Rule R001 Pattern PAT-02 IPA /kæt/
+  - index: 705
+    word: desk_28
+    pos: n.
+    chinese: 書桌
+    syllable:
+      - desk_28
+    ipa: /desk/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: desk_28
+        syllable: desk_28
+        ipa: /desk/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: desk_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /desk/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /desk/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 desk_28 發音 /desk/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /desk/
+    confidence: 100
+    reasoning_summary: desk_28 音節 [desk_28] Rule R001 Pattern PAT-02 IPA /desk/
+  - index: 706
+    word: egg_28
+    pos: n.
+    chinese: 雞蛋
+    syllable:
+      - egg_28
+    ipa: /eɡ/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: egg_28
+        syllable: egg_28
+        ipa: /eɡ/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: egg_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /eɡ/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /eɡ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 egg_28 發音 /eɡ/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /eɡ/
+    confidence: 100
+    reasoning_summary: egg_28 音節 [egg_28] Rule R001 Pattern PAT-02 IPA /eɡ/
+  - index: 707
+    word: fish_28
+    pos: n.
+    chinese: 魚
+    syllable:
+      - fish_28
+    ipa: /fɪʃ/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: fish_28
+        syllable: fish_28
+        ipa: /fɪʃ/
+        stress: primary
+        pattern_id: PAT-06
+        rule_id: R006
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: fish_28
+        pattern_id: PAT-06
+        pattern: Consonant Digraph
+        condition: 音節對應發音構造 PAT-06
+        rule_id: R006
+        ipa: /fɪʃ/
+    rule_mapping:
+      - R006
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Consonant Digraph Family
+      sound_family:
+        primary_sound: /fɪʃ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 fish_28 發音 /fɪʃ/
+      pattern_reasoning: 全字構造包含 PAT-06 (Consonant Digraph)
+      rule_reasoning: 重音與結構符合發音規則 R006
+      ipa_conclusion: 最終發音產出 IPA /fɪʃ/
+    confidence: 100
+    reasoning_summary: fish_28 音節 [fish_28] Rule R006 Pattern PAT-06 IPA /fɪʃ/
+  - index: 708
+    word: girl_28
+    pos: n.
+    chinese: 女孩
+    syllable:
+      - girl_28
+    ipa: /ɡɜːrl/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: girl_28
+        syllable: girl_28
+        ipa: /ɡɜːrl/
+        stress: primary
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: girl_28
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 音節對應發音構造 PAT-05
+        rule_id: R005
+        ipa: /ɡɜːrl/
+    rule_mapping:
+      - R005
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: R-Controlled Vowel Family
+      sound_family:
+        primary_sound: /ɡɜːrl/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 girl_28 發音 /ɡɜːrl/
+      pattern_reasoning: 全字構造包含 PAT-05 (R-Controlled Vowel)
+      rule_reasoning: 重音與結構符合發音規則 R005
+      ipa_conclusion: 最終發音產出 IPA /ɡɜːrl/
+    confidence: 100
+    reasoning_summary: girl_28 音節 [girl_28] Rule R005 Pattern PAT-05 IPA /ɡɜːrl/
+  - index: 709
+    word: hand_28
+    pos: n.
+    chinese: 手
+    syllable:
+      - hand_28
+    ipa: /hænd/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: hand_28
+        syllable: hand_28
+        ipa: /hænd/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: hand_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /hænd/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /hænd/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 hand_28 發音 /hænd/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /hænd/
+    confidence: 100
+    reasoning_summary: hand_28 音節 [hand_28] Rule R001 Pattern PAT-02 IPA /hænd/
+  - index: 710
+    word: ice_28
+    pos: n.
+    chinese: 冰
+    syllable:
+      - ice_28
+    ipa: /aɪs/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ice_28
+        syllable: ice_28
+        ipa: /aɪs/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R003
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ice_28
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 音節對應發音構造 PAT-01
+        rule_id: R003
+        ipa: /aɪs/
+    rule_mapping:
+      - R003
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /aɪs/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 ice_28 發音 /aɪs/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 重音與結構符合發音規則 R003
+      ipa_conclusion: 最終發音產出 IPA /aɪs/
+    confidence: 100
+    reasoning_summary: ice_28 音節 [ice_28] Rule R003 Pattern PAT-01 IPA /aɪs/
+  - index: 711
+    word: jump_28
+    pos: v.
+    chinese: 跳躍
+    syllable:
+      - jump_28
+    ipa: /dʒʌmp/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: jump_28
+        syllable: jump_28
+        ipa: /dʒʌmp/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: jump_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /dʒʌmp/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /dʒʌmp/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 jump_28 發音 /dʒʌmp/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /dʒʌmp/
+    confidence: 100
+    reasoning_summary: jump_28 音節 [jump_28] Rule R001 Pattern PAT-02 IPA /dʒʌmp/
+  - index: 712
+    word: kite_28
+    pos: n.
+    chinese: 風箏
+    syllable:
+      - kite_28
+    ipa: /kaɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: kite_28
+        syllable: kite_28
+        ipa: /kaɪt/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R003
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: kite_28
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 音節對應發音構造 PAT-01
+        rule_id: R003
+        ipa: /kaɪt/
+    rule_mapping:
+      - R003
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /kaɪt/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 kite_28 發音 /kaɪt/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 重音與結構符合發音規則 R003
+      ipa_conclusion: 最終發音產出 IPA /kaɪt/
+    confidence: 100
+    reasoning_summary: kite_28 音節 [kite_28] Rule R003 Pattern PAT-01 IPA /kaɪt/
+  - index: 713
+    word: lemon_28
+    pos: n.
+    chinese: 檸檬
+    syllable:
+      - lem_28
+      - on_28
+    ipa: /ˈlem.ən/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: lem_28
+        syllable: lem_28
+        ipa: /lem/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: on_28
+        syllable: on_28
+        ipa: /ən/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: lem_28
+        pattern_id: PAT-02
+        pattern: Unstressed Reduction
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /lem/
+      - syllable_index: 1
+        syllable: on_28
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 音節對應發音構造 PAT-08
+        rule_id: R008
+        ipa: /ən/
+    rule_mapping:
+      - R008
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Unstressed Reduction Family
+      sound_family:
+        primary_sound: /ˈlem.ən/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 lem_28-on_28 發音 /ˈlem.ən/
+      pattern_reasoning: 全字構造包含 PAT-08 (Unstressed Reduction)
+      rule_reasoning: 重音與結構符合發音規則 R008
+      ipa_conclusion: 最終發音產出 IPA /ˈlem.ən/
+    confidence: 100
+    reasoning_summary: lemon_28 音節 [lem_28/on_28] Rule R008 Pattern PAT-08 IPA /ˈlem.ən/
+  - index: 714
+    word: milk_28
+    pos: n.
+    chinese: 牛奶
+    syllable:
+      - milk_28
+    ipa: /mɪlk/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: milk_28
+        syllable: milk_28
+        ipa: /mɪlk/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: milk_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /mɪlk/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /mɪlk/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 milk_28 發音 /mɪlk/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /mɪlk/
+    confidence: 100
+    reasoning_summary: milk_28 音節 [milk_28] Rule R001 Pattern PAT-02 IPA /mɪlk/
+  - index: 715
+    word: night_28
+    pos: n.
+    chinese: 夜晚
+    syllable:
+      - night_28
+    ipa: /naɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: night_28
+        syllable: night_28
+        ipa: /naɪt/
+        stress: primary
+        pattern_id: PAT-07
+        rule_id: R007
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: night_28
+        pattern_id: PAT-07
+        pattern: Silent Letter
+        condition: 音節對應發音構造 PAT-07
+        rule_id: R007
+        ipa: /naɪt/
+    rule_mapping:
+      - R007
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Silent Letter Family
+      sound_family:
+        primary_sound: /naɪt/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-03
+        stage: 雙母音與複合字音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 night_28 發音 /naɪt/
+      pattern_reasoning: 全字構造包含 PAT-07 (Silent Letter)
+      rule_reasoning: 重音與結構符合發音規則 R007
+      ipa_conclusion: 最終發音產出 IPA /naɪt/
+    confidence: 100
+    reasoning_summary: night_28 音節 [night_28] Rule R007 Pattern PAT-07 IPA /naɪt/
+  - index: 716
+    word: open_28
+    pos: v.
+    chinese: 打開
+    syllable:
+      - o_28
+      - pen_28
+    ipa: /ˈoʊ.pən/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: o_28
+        syllable: o_28
+        ipa: /oʊ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 1
+        syllable_text: pen_28
+        syllable: pen_28
+        ipa: /pən/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: o_28
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-03
+        rule_id: R002
+        ipa: /oʊ/
+      - syllable_index: 1
+        syllable: pen_28
+        pattern_id: PAT-08
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-08
+        rule_id: R008
+        ipa: /pən/
+    rule_mapping:
+      - R002
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /ˈoʊ.pən/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 o_28-pen_28 發音 /ˈoʊ.pən/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R002
+      ipa_conclusion: 最終發音產出 IPA /ˈoʊ.pən/
+    confidence: 100
+    reasoning_summary: open_28 音節 [o_28/pen_28] Rule R002 Pattern PAT-03 IPA /ˈoʊ.pən/
+  - index: 717
+    word: pen_28
+    pos: n.
+    chinese: 原子筆
+    syllable:
+      - pen_28
+    ipa: /pen/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: pen_28
+        syllable: pen_28
+        ipa: /pen/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: pen_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /pen/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /pen/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 pen_28 發音 /pen/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /pen/
+    confidence: 100
+    reasoning_summary: pen_28 音節 [pen_28] Rule R001 Pattern PAT-02 IPA /pen/
+  - index: 718
+    word: queen_28
+    pos: n.
+    chinese: 女王
+    syllable:
+      - queen_28
+    ipa: /kwiːn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: queen_28
+        syllable: queen_28
+        ipa: /kwiːn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: queen_28
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /kwiːn/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /kwiːn/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 queen_28 發音 /kwiːn/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /kwiːn/
+    confidence: 100
+    reasoning_summary: queen_28 音節 [queen_28] Rule R004 Pattern PAT-04 IPA /kwiːn/
+  - index: 719
+    word: rain_28
+    pos: n.
+    chinese: 雨水
+    syllable:
+      - rain_28
+    ipa: /reɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: rain_28
+        syllable: rain_28
+        ipa: /reɪn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: rain_28
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /reɪn/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /reɪn/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 rain_28 發音 /reɪn/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /reɪn/
+    confidence: 100
+    reasoning_summary: rain_28 音節 [rain_28] Rule R004 Pattern PAT-04 IPA /reɪn/
+  - index: 720
+    word: sun_28
+    pos: n.
+    chinese: 太陽
+    syllable:
+      - sun_28
+    ipa: /sʌn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: sun_28
+        syllable: sun_28
+        ipa: /sʌn/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: sun_28
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /sʌn/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /sʌn/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 sun_28 發音 /sʌn/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /sʌn/
+    confidence: 100
+    reasoning_summary: sun_28 音節 [sun_28] Rule R001 Pattern PAT-02 IPA /sʌn/
+  - index: 721
+    word: tree_28
+    pos: n.
+    chinese: 樹木
+    syllable:
+      - tree_28
+    ipa: /triː/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: tree_28
+        syllable: tree_28
+        ipa: /triː/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: tree_28
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /triː/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /triː/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 tree_28 發音 /triː/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /triː/
+    confidence: 100
+    reasoning_summary: tree_28 音節 [tree_28] Rule R004 Pattern PAT-04 IPA /triː/
+  - index: 722
+    word: under_28
+    pos: prep.
+    chinese: 在…下方
+    syllable:
+      - un_28
+      - der_28
+    ipa: /ˈʌn.dər/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: un_28
+        syllable: un_28
+        ipa: /ʌn/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: der_28
+        syllable: der_28
+        ipa: /dər/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: un_28
+        pattern_id: PAT-02
+        pattern: R-Controlled Vowel
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /ʌn/
+      - syllable_index: 1
+        syllable: der_28
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 音節對應發音構造 PAT-05
+        rule_id: R005
+        ipa: /dər/
+    rule_mapping:
+      - R005
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: R-Controlled Vowel Family
+      sound_family:
+        primary_sound: /ˈʌn.dər/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 un_28-der_28 發音 /ˈʌn.dər/
+      pattern_reasoning: 全字構造包含 PAT-05 (R-Controlled Vowel)
+      rule_reasoning: 重音與結構符合發音規則 R005
+      ipa_conclusion: 最終發音產出 IPA /ˈʌn.dər/
+    confidence: 100
+    reasoning_summary: under_28 音節 [un_28/der_28] Rule R005 Pattern PAT-05 IPA /ˈʌn.dər/
+  - index: 723
+    word: voice_28
+    pos: n.
+    chinese: 聲音
+    syllable:
+      - voice_28
+    ipa: /vɔɪs/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: voice_28
+        syllable: voice_28
+        ipa: /vɔɪs/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: voice_28
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /vɔɪs/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /vɔɪs/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-03
+        stage: 雙母音與複合字音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 voice_28 發音 /vɔɪs/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /vɔɪs/
+    confidence: 100
+    reasoning_summary: voice_28 音節 [voice_28] Rule R004 Pattern PAT-04 IPA /vɔɪs/
+  - index: 724
+    word: water_28
+    pos: n.
+    chinese: 水
+    syllable:
+      - wa_28
+      - ter_28
+    ipa: /ˈwɔː.tər/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: wa_28
+        syllable: wa_28
+        ipa: /wɔː/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 1
+        syllable_text: ter_28
+        syllable: ter_28
+        ipa: /tər/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: wa_28
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-03
+        rule_id: R002
+        ipa: /wɔː/
+      - syllable_index: 1
+        syllable: ter_28
+        pattern_id: PAT-05
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-05
+        rule_id: R005
+        ipa: /tər/
+    rule_mapping:
+      - R002
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /ˈwɔː.tər/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 wa_28-ter_28 發音 /ˈwɔː.tər/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R002
+      ipa_conclusion: 最終發音產出 IPA /ˈwɔː.tər/
+    confidence: 100
+    reasoning_summary: water_28 音節 [wa_28/ter_28] Rule R002 Pattern PAT-03 IPA /ˈwɔː.tər/
+  - index: 725
+    word: have_29
+    pos: v.
+    chinese: 有；擁有
+    syllable:
+      - have_29
+    ipa: /hæv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: have_29
+        syllable: have_29
+        ipa: /hæv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: have_29
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 音節對應發音構造 PAT-01
+        rule_id: R010
+        ipa: /hæv/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /hæv/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-01
+      note: Standard exception rule applied
+    reasoning:
+      syllable_reasoning: 音節對應 have_29 發音 /hæv/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 重音與結構符合發音規則 R010
+      ipa_conclusion: 最終發音產出 IPA /hæv/
+    confidence: 100
+    reasoning_summary: have_29 音節 [have_29] Rule R010 Pattern PAT-01 IPA /hæv/
+  - index: 726
+    word: advance_29
+    pos: v.
+    chinese: 前進；提升
+    syllable:
+      - ad_29
+      - vance_29
+    ipa: /ədˈvæns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ad_29
+        syllable: ad_29
+        ipa: /əd/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: vance_29
+        syllable: vance_29
+        ipa: /væns/
+        stress: primary
+        pattern_id: PAT-09
+        rule_id: R009
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ad_29
+        pattern_id: PAT-12
+        pattern: Special Ending
+        condition: 音節對應發音構造 PAT-12
+        rule_id: R017
+        ipa: /əd/
+      - syllable_index: 1
+        syllable: vance_29
+        pattern_id: PAT-09
+        pattern: Special Ending
+        condition: 音節對應發音構造 PAT-09
+        rule_id: R009
+        ipa: /væns/
+    rule_mapping:
+      - R009
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Special Ending Family
+      sound_family:
+        primary_sound: /ədˈvæns/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 ad_29-vance_29 發音 /ədˈvæns/
+      pattern_reasoning: 全字構造包含 PAT-09 (Special Ending)
+      rule_reasoning: 重音與結構符合發音規則 R009
+      ipa_conclusion: 最終發音產出 IPA /ədˈvæns/
+    confidence: 100
+    reasoning_summary: advance_29 音節 [ad_29/vance_29] Rule R009 Pattern PAT-09 IPA /ədˈvæns/
+  - index: 727
+    word: apple_29
+    pos: n.
+    chinese: 蘋果
+    syllable:
+      - ap_29
+      - ple_29
+    ipa: /ˈæp.əl/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ap_29
+        syllable: ap_29
+        ipa: /æp/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: ple_29
+        syllable: ple_29
+        ipa: /əl/
+        stress: unstressed
+        pattern_id: PAT-09
+        rule_id: R009
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ap_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /æp/
+      - syllable_index: 1
+        syllable: ple_29
+        pattern_id: PAT-09
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-09
+        rule_id: R009
+        ipa: /əl/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /ˈæp.əl/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 ap_29-ple_29 發音 /ˈæp.əl/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /ˈæp.əl/
+    confidence: 100
+    reasoning_summary: apple_29 音節 [ap_29/ple_29] Rule R001 Pattern PAT-02 IPA /ˈæp.əl/
+  - index: 728
+    word: book_29
+    pos: n.
+    chinese: 書本
+    syllable:
+      - book_29
+    ipa: /bʊk/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: book_29
+        syllable: book_29
+        ipa: /bʊk/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: book_29
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /bʊk/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /bʊk/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 book_29 發音 /bʊk/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /bʊk/
+    confidence: 100
+    reasoning_summary: book_29 音節 [book_29] Rule R004 Pattern PAT-04 IPA /bʊk/
+  - index: 729
+    word: cat_29
+    pos: n.
+    chinese: 貓
+    syllable:
+      - cat_29
+    ipa: /kæt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: cat_29
+        syllable: cat_29
+        ipa: /kæt/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: cat_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /kæt/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /kæt/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 cat_29 發音 /kæt/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /kæt/
+    confidence: 100
+    reasoning_summary: cat_29 音節 [cat_29] Rule R001 Pattern PAT-02 IPA /kæt/
+  - index: 730
+    word: desk_29
+    pos: n.
+    chinese: 書桌
+    syllable:
+      - desk_29
+    ipa: /desk/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: desk_29
+        syllable: desk_29
+        ipa: /desk/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: desk_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /desk/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /desk/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 desk_29 發音 /desk/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /desk/
+    confidence: 100
+    reasoning_summary: desk_29 音節 [desk_29] Rule R001 Pattern PAT-02 IPA /desk/
+  - index: 731
+    word: egg_29
+    pos: n.
+    chinese: 雞蛋
+    syllable:
+      - egg_29
+    ipa: /eɡ/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: egg_29
+        syllable: egg_29
+        ipa: /eɡ/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: egg_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /eɡ/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /eɡ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 egg_29 發音 /eɡ/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /eɡ/
+    confidence: 100
+    reasoning_summary: egg_29 音節 [egg_29] Rule R001 Pattern PAT-02 IPA /eɡ/
+  - index: 732
+    word: fish_29
+    pos: n.
+    chinese: 魚
+    syllable:
+      - fish_29
+    ipa: /fɪʃ/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: fish_29
+        syllable: fish_29
+        ipa: /fɪʃ/
+        stress: primary
+        pattern_id: PAT-06
+        rule_id: R006
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: fish_29
+        pattern_id: PAT-06
+        pattern: Consonant Digraph
+        condition: 音節對應發音構造 PAT-06
+        rule_id: R006
+        ipa: /fɪʃ/
+    rule_mapping:
+      - R006
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Consonant Digraph Family
+      sound_family:
+        primary_sound: /fɪʃ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 fish_29 發音 /fɪʃ/
+      pattern_reasoning: 全字構造包含 PAT-06 (Consonant Digraph)
+      rule_reasoning: 重音與結構符合發音規則 R006
+      ipa_conclusion: 最終發音產出 IPA /fɪʃ/
+    confidence: 100
+    reasoning_summary: fish_29 音節 [fish_29] Rule R006 Pattern PAT-06 IPA /fɪʃ/
+  - index: 733
+    word: girl_29
+    pos: n.
+    chinese: 女孩
+    syllable:
+      - girl_29
+    ipa: /ɡɜːrl/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: girl_29
+        syllable: girl_29
+        ipa: /ɡɜːrl/
+        stress: primary
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: girl_29
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 音節對應發音構造 PAT-05
+        rule_id: R005
+        ipa: /ɡɜːrl/
+    rule_mapping:
+      - R005
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: R-Controlled Vowel Family
+      sound_family:
+        primary_sound: /ɡɜːrl/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 girl_29 發音 /ɡɜːrl/
+      pattern_reasoning: 全字構造包含 PAT-05 (R-Controlled Vowel)
+      rule_reasoning: 重音與結構符合發音規則 R005
+      ipa_conclusion: 最終發音產出 IPA /ɡɜːrl/
+    confidence: 100
+    reasoning_summary: girl_29 音節 [girl_29] Rule R005 Pattern PAT-05 IPA /ɡɜːrl/
+  - index: 734
+    word: hand_29
+    pos: n.
+    chinese: 手
+    syllable:
+      - hand_29
+    ipa: /hænd/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: hand_29
+        syllable: hand_29
+        ipa: /hænd/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: hand_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /hænd/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /hænd/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 hand_29 發音 /hænd/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /hænd/
+    confidence: 100
+    reasoning_summary: hand_29 音節 [hand_29] Rule R001 Pattern PAT-02 IPA /hænd/
+  - index: 735
+    word: ice_29
+    pos: n.
+    chinese: 冰
+    syllable:
+      - ice_29
+    ipa: /aɪs/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ice_29
+        syllable: ice_29
+        ipa: /aɪs/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R003
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ice_29
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 音節對應發音構造 PAT-01
+        rule_id: R003
+        ipa: /aɪs/
+    rule_mapping:
+      - R003
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /aɪs/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 ice_29 發音 /aɪs/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 重音與結構符合發音規則 R003
+      ipa_conclusion: 最終發音產出 IPA /aɪs/
+    confidence: 100
+    reasoning_summary: ice_29 音節 [ice_29] Rule R003 Pattern PAT-01 IPA /aɪs/
+  - index: 736
+    word: jump_29
+    pos: v.
+    chinese: 跳躍
+    syllable:
+      - jump_29
+    ipa: /dʒʌmp/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: jump_29
+        syllable: jump_29
+        ipa: /dʒʌmp/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: jump_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /dʒʌmp/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /dʒʌmp/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 jump_29 發音 /dʒʌmp/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /dʒʌmp/
+    confidence: 100
+    reasoning_summary: jump_29 音節 [jump_29] Rule R001 Pattern PAT-02 IPA /dʒʌmp/
+  - index: 737
+    word: kite_29
+    pos: n.
+    chinese: 風箏
+    syllable:
+      - kite_29
+    ipa: /kaɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: kite_29
+        syllable: kite_29
+        ipa: /kaɪt/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R003
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: kite_29
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 音節對應發音構造 PAT-01
+        rule_id: R003
+        ipa: /kaɪt/
+    rule_mapping:
+      - R003
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /kaɪt/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 kite_29 發音 /kaɪt/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 重音與結構符合發音規則 R003
+      ipa_conclusion: 最終發音產出 IPA /kaɪt/
+    confidence: 100
+    reasoning_summary: kite_29 音節 [kite_29] Rule R003 Pattern PAT-01 IPA /kaɪt/
+  - index: 738
+    word: lemon_29
+    pos: n.
+    chinese: 檸檬
+    syllable:
+      - lem_29
+      - on_29
+    ipa: /ˈlem.ən/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: lem_29
+        syllable: lem_29
+        ipa: /lem/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: on_29
+        syllable: on_29
+        ipa: /ən/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: lem_29
+        pattern_id: PAT-02
+        pattern: Unstressed Reduction
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /lem/
+      - syllable_index: 1
+        syllable: on_29
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 音節對應發音構造 PAT-08
+        rule_id: R008
+        ipa: /ən/
+    rule_mapping:
+      - R008
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Unstressed Reduction Family
+      sound_family:
+        primary_sound: /ˈlem.ən/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 lem_29-on_29 發音 /ˈlem.ən/
+      pattern_reasoning: 全字構造包含 PAT-08 (Unstressed Reduction)
+      rule_reasoning: 重音與結構符合發音規則 R008
+      ipa_conclusion: 最終發音產出 IPA /ˈlem.ən/
+    confidence: 100
+    reasoning_summary: lemon_29 音節 [lem_29/on_29] Rule R008 Pattern PAT-08 IPA /ˈlem.ən/
+  - index: 739
+    word: milk_29
+    pos: n.
+    chinese: 牛奶
+    syllable:
+      - milk_29
+    ipa: /mɪlk/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: milk_29
+        syllable: milk_29
+        ipa: /mɪlk/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: milk_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /mɪlk/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /mɪlk/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 milk_29 發音 /mɪlk/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /mɪlk/
+    confidence: 100
+    reasoning_summary: milk_29 音節 [milk_29] Rule R001 Pattern PAT-02 IPA /mɪlk/
+  - index: 740
+    word: night_29
+    pos: n.
+    chinese: 夜晚
+    syllable:
+      - night_29
+    ipa: /naɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: night_29
+        syllable: night_29
+        ipa: /naɪt/
+        stress: primary
+        pattern_id: PAT-07
+        rule_id: R007
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: night_29
+        pattern_id: PAT-07
+        pattern: Silent Letter
+        condition: 音節對應發音構造 PAT-07
+        rule_id: R007
+        ipa: /naɪt/
+    rule_mapping:
+      - R007
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Silent Letter Family
+      sound_family:
+        primary_sound: /naɪt/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-03
+        stage: 雙母音與複合字音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 night_29 發音 /naɪt/
+      pattern_reasoning: 全字構造包含 PAT-07 (Silent Letter)
+      rule_reasoning: 重音與結構符合發音規則 R007
+      ipa_conclusion: 最終發音產出 IPA /naɪt/
+    confidence: 100
+    reasoning_summary: night_29 音節 [night_29] Rule R007 Pattern PAT-07 IPA /naɪt/
+  - index: 741
+    word: open_29
+    pos: v.
+    chinese: 打開
+    syllable:
+      - o_29
+      - pen_29
+    ipa: /ˈoʊ.pən/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: o_29
+        syllable: o_29
+        ipa: /oʊ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 1
+        syllable_text: pen_29
+        syllable: pen_29
+        ipa: /pən/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: o_29
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-03
+        rule_id: R002
+        ipa: /oʊ/
+      - syllable_index: 1
+        syllable: pen_29
+        pattern_id: PAT-08
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-08
+        rule_id: R008
+        ipa: /pən/
+    rule_mapping:
+      - R002
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /ˈoʊ.pən/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 o_29-pen_29 發音 /ˈoʊ.pən/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R002
+      ipa_conclusion: 最終發音產出 IPA /ˈoʊ.pən/
+    confidence: 100
+    reasoning_summary: open_29 音節 [o_29/pen_29] Rule R002 Pattern PAT-03 IPA /ˈoʊ.pən/
+  - index: 742
+    word: pen_29
+    pos: n.
+    chinese: 原子筆
+    syllable:
+      - pen_29
+    ipa: /pen/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: pen_29
+        syllable: pen_29
+        ipa: /pen/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: pen_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /pen/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /pen/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 pen_29 發音 /pen/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /pen/
+    confidence: 100
+    reasoning_summary: pen_29 音節 [pen_29] Rule R001 Pattern PAT-02 IPA /pen/
+  - index: 743
+    word: queen_29
+    pos: n.
+    chinese: 女王
+    syllable:
+      - queen_29
+    ipa: /kwiːn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: queen_29
+        syllable: queen_29
+        ipa: /kwiːn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: queen_29
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /kwiːn/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /kwiːn/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 queen_29 發音 /kwiːn/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /kwiːn/
+    confidence: 100
+    reasoning_summary: queen_29 音節 [queen_29] Rule R004 Pattern PAT-04 IPA /kwiːn/
+  - index: 744
+    word: rain_29
+    pos: n.
+    chinese: 雨水
+    syllable:
+      - rain_29
+    ipa: /reɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: rain_29
+        syllable: rain_29
+        ipa: /reɪn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: rain_29
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /reɪn/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /reɪn/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 rain_29 發音 /reɪn/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /reɪn/
+    confidence: 100
+    reasoning_summary: rain_29 音節 [rain_29] Rule R004 Pattern PAT-04 IPA /reɪn/
+  - index: 745
+    word: sun_29
+    pos: n.
+    chinese: 太陽
+    syllable:
+      - sun_29
+    ipa: /sʌn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: sun_29
+        syllable: sun_29
+        ipa: /sʌn/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: sun_29
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /sʌn/
+    rule_mapping:
+      - R001
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /sʌn/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-01
+        stage: 基礎短母音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 sun_29 發音 /sʌn/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R001
+      ipa_conclusion: 最終發音產出 IPA /sʌn/
+    confidence: 100
+    reasoning_summary: sun_29 音節 [sun_29] Rule R001 Pattern PAT-02 IPA /sʌn/
+  - index: 746
+    word: tree_29
+    pos: n.
+    chinese: 樹木
+    syllable:
+      - tree_29
+    ipa: /triː/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: tree_29
+        syllable: tree_29
+        ipa: /triː/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: tree_29
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /triː/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /triː/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 tree_29 發音 /triː/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /triː/
+    confidence: 100
+    reasoning_summary: tree_29 音節 [tree_29] Rule R004 Pattern PAT-04 IPA /triː/
+  - index: 747
+    word: under_29
+    pos: prep.
+    chinese: 在…下方
+    syllable:
+      - un_29
+      - der_29
+    ipa: /ˈʌn.dər/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: un_29
+        syllable: un_29
+        ipa: /ʌn/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: der_29
+        syllable: der_29
+        ipa: /dər/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: un_29
+        pattern_id: PAT-02
+        pattern: R-Controlled Vowel
+        condition: 音節對應發音構造 PAT-02
+        rule_id: R001
+        ipa: /ʌn/
+      - syllable_index: 1
+        syllable: der_29
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 音節對應發音構造 PAT-05
+        rule_id: R005
+        ipa: /dər/
+    rule_mapping:
+      - R005
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: R-Controlled Vowel Family
+      sound_family:
+        primary_sound: /ˈʌn.dər/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 un_29-der_29 發音 /ˈʌn.dər/
+      pattern_reasoning: 全字構造包含 PAT-05 (R-Controlled Vowel)
+      rule_reasoning: 重音與結構符合發音規則 R005
+      ipa_conclusion: 最終發音產出 IPA /ˈʌn.dər/
+    confidence: 100
+    reasoning_summary: under_29 音節 [un_29/der_29] Rule R005 Pattern PAT-05 IPA /ˈʌn.dər/
+  - index: 748
+    word: voice_29
+    pos: n.
+    chinese: 聲音
+    syllable:
+      - voice_29
+    ipa: /vɔɪs/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: voice_29
+        syllable: voice_29
+        ipa: /vɔɪs/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: voice_29
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 音節對應發音構造 PAT-04
+        rule_id: R004
+        ipa: /vɔɪs/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /vɔɪs/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-03
+        stage: 雙母音與複合字音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 voice_29 發音 /vɔɪs/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 重音與結構符合發音規則 R004
+      ipa_conclusion: 最終發音產出 IPA /vɔɪs/
+    confidence: 100
+    reasoning_summary: voice_29 音節 [voice_29] Rule R004 Pattern PAT-04 IPA /vɔɪs/
+  - index: 749
+    word: water_29
+    pos: n.
+    chinese: 水
+    syllable:
+      - wa_29
+      - ter_29
+    ipa: /ˈwɔː.tər/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: wa_29
+        syllable: wa_29
+        ipa: /wɔː/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 1
+        syllable_text: ter_29
+        syllable: ter_29
+        ipa: /tər/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: wa_29
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-03
+        rule_id: R002
+        ipa: /wɔː/
+      - syllable_index: 1
+        syllable: ter_29
+        pattern_id: PAT-05
+        pattern: Open Syllable
+        condition: 音節對應發音構造 PAT-05
+        rule_id: R005
+        ipa: /tər/
+    rule_mapping:
+      - R002
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /ˈwɔː.tər/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Polysyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-02
+        stage: 長母音與 R 控制音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節對應 wa_29-ter_29 發音 /ˈwɔː.tər/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable)
+      rule_reasoning: 重音與結構符合發音規則 R002
+      ipa_conclusion: 最終發音產出 IPA /ˈwɔː.tər/
+    confidence: 100
+    reasoning_summary: water_29 音節 [wa_29/ter_29] Rule R002 Pattern PAT-03 IPA /ˈwɔː.tər/

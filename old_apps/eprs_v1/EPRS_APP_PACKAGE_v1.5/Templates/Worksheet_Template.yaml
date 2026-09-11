@@ -1,0 +1,36 @@
+version: "1.5"
+
+schema_name: EPRS Worksheet Template Schema
+
+description: >
+  定義 EPRS 發音推理練習卷 (Worksheets) 與單字測驗頁之 PDF 排版結構。
+
+templates:
+  - id: phonics_rule_quiz
+    name: 發音規則推理測驗卷
+    page_size: A4
+    orientation: portrait
+    layout:
+      header:
+        title: "EPRS 英文發音規則推理練習"
+        fields: ["Class: ________", "Name: ________", "Score: ________"]
+      questions:
+        - field: word
+          display: "單字標題 (16pt Bold)"
+        - field: syllable_split_blank
+          prompt: "音節切分: [ ____________________ ]"
+        - field: stress_index_blank
+          prompt: "主重音位置: 第 [ ____ ] 音節"
+        - field: rule_id_blank
+          prompt: "主要發音規則: [ R______ ]"
+        - field: ipa_derivation_blank
+          prompt: "推導 IPA 音標: / ____________________ /"
+
+  - id: pattern_matching_worksheet
+    name: 拼字模式 (Pattern) 歸類工作頁
+    page_size: A4
+    orientation: portrait
+    layout:
+      header:
+        title: "EPRS Pattern Grouping Worksheet"
+      instructions: "請將下列單字依據其拼字模式 (如 Magic e, Vowel Team, -tain, -tion) 填入正確方格中。"

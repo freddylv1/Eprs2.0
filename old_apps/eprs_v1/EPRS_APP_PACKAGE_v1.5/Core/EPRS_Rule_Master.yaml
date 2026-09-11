@@ -1,0 +1,330 @@
+version: "1.4"
+schema_name: EPRS Rule Master Schema
+
+system:
+  name: English Pronunciation Reasoning System
+  purpose: >
+    建立可由人類推演英文發音的通用規則系統。
+    目標為使用最少規則覆蓋最多英文單字。
+
+principles:
+  - Rule First
+  - Stress Driven
+  - Pattern Reuse
+  - Exception Minimalization
+
+Rule_Priority:
+  P001:
+    name: Stress Analysis
+
+  P002:
+    name: Pattern Detection
+
+  P003:
+    name: Rule Application
+
+  P004:
+    name: Family Matching
+
+  P005:
+    name: Exception Check
+
+Rule_Index:
+  R001:
+    name: Closed Syllable
+    category:
+      - Basic Vowel Rule
+    description: >
+      CVC 或 VC 結構中，
+      母音通常發短母音。
+    condition:
+      syllable_type:
+        - closed
+      ending:
+        consonant_required: true
+    vowel_mapping:
+      a:
+        sound: /æ/
+      e:
+        sound: /ɛ/
+      i:
+        sound: /ɪ/
+      o:
+        sound: /ɒ/
+      u:
+        sound: /ʌ/
+    examples:
+      - cat
+      - map
+      - distance
+      - captain
+
+  R002:
+    name: Open Syllable
+    category:
+      - Basic Vowel Rule
+    description: >
+      開音節結尾無子音，
+      母音通常發長音。
+    condition:
+      syllable_type:
+        - open
+    vowel_mapping:
+      a:
+        sound: /eɪ/
+      e:
+        sound: /iː/
+      i:
+        sound: /aɪ/
+      o:
+        sound: /oʊ/
+      u:
+        sound: /juː/
+    examples:
+      - me
+      - detail
+      - music
+
+  R003:
+    name: Magic e
+    category:
+      - Silent Letter Rule
+    pattern:
+      - a_e
+      - i_e
+      - o_e
+      - u_e
+    transformation:
+      final_e:
+        silent: true
+    vowel_change:
+      a_e:
+        sound: /eɪ/
+      i_e:
+        sound: /aɪ/
+      o_e:
+        sound: /oʊ/
+    examples:
+      - make
+      - time
+      - home
+
+  R004:
+    name: Vowel Team
+    category:
+      - Vowel Combination
+    description: >
+      兩個以上母音共同形成固定聲音。
+    patterns:
+      ai:
+        sound: /eɪ/
+      ay:
+        sound: /eɪ/
+      ee:
+        sound: /iː/
+      oa:
+        sound: /oʊ/
+      air:
+        sound: /er/
+      ear:
+        sound:
+          default: /er/
+    examples:
+      - contain
+      - aircraft
+      - despair
+
+  R005:
+    name: R Controlled Vowel
+    patterns:
+      ar:
+        sound: /ɑːr/
+      er:
+        sound: /ɜːr/
+      ir:
+        sound: /ɜːr/
+      ur:
+        sound: /ɜːr/
+      or:
+        sound: /ɔːr/
+    examples:
+      - bargain
+      - curtain
+
+  R006:
+    name: Consonant Pattern
+    patterns:
+      sh:
+        sound: /ʃ/
+      ch:
+        sound:
+          default: /tʃ/
+      th:
+        sound:
+          voiced: /ð/
+          voiceless: /θ/
+      ph:
+        sound: /f/
+      ck:
+        sound: /k/
+
+  R007:
+    name: Silent Letter
+    patterns:
+      kn:
+        silent:
+          k: true
+      wr:
+        silent:
+          w: true
+      mb:
+        silent:
+          b: true
+
+  R008:
+    name: Unstressed Reduction
+    category:
+      - Stress Rule
+    condition:
+      stress: false
+    transformation:
+      vowel:
+        a:
+          output: /ə/
+        e:
+          output: /ə/
+        i:
+          output: /ə/
+        o:
+          output: /ə/
+    examples:
+      - advance
+      - balance
+      - alliance
+
+  R009:
+    name: Ending Pronunciation
+    patterns:
+      tion:
+        sound: /ʃən/
+      sion:
+        sound:
+          default: /ʒən/
+      able:
+        sound: /əbəl/
+      ment:
+        sound: /mənt/
+
+  R010:
+    name: True Exception
+    usage:
+      allowed_only_when:
+        - no_existing_rule
+        - no_family_possible
+        - low_generalization
+    examples:
+      - have
+
+  R011:
+    name: Palatalization
+    patterns:
+      ci:
+        sound: /ʃ/
+      ti:
+        sound: /ʃ/
+      si:
+        sound: /ʒ/
+    examples:
+      - special
+      - nation
+
+  R012:
+    name: Stress Pattern And Vowel Shift
+    description: >
+      重音位置影響母音完整度。
+    effects:
+      stressed:
+        full_vowel: true
+      unstressed:
+        reduction: true
+
+  R013:
+    name: Schwa Deletion
+    category:
+      - Reduction Rule
+    condition:
+      unstressed_schwa:
+        followed_by:
+          - n
+          - l
+          - r
+    transformation:
+      /ən/:
+        to: /n/
+    examples:
+      - curtain
+      - mountain
+
+  R014:
+    name: Stress Dependent Vowel Team
+    condition:
+      pattern:
+        - ain
+        - tain
+        - gain
+    mapping:
+      stressed:
+        sound: /eɪn/
+      unstressed:
+        sound: /ən/
+    examples:
+      contain:
+        /teɪn/
+      captain:
+        /tən/
+      bargain:
+        /ɡən/
+
+  R015:
+    name: Silent G In AIGN
+    pattern:
+      aign
+    transformation:
+      g:
+        silent: true
+    output:
+      sound: /eɪn/
+    examples:
+      - campaign
+
+  R016:
+    name: Air Family
+    family:
+      - air
+      - are
+      - ear
+      - eir
+    output:
+      sound: /er/
+    examples:
+      - aircraft
+      - repair
+      - chair
+
+  R017:
+    name: Prefix Reduction
+    prefixes:
+      de:
+        sound: /də/
+      re:
+        sound: /rə/
+      con:
+        sound: /kən/
+      com:
+        sound: /kəm/
+      pro:
+        sound: /prə/
+      pre:
+        sound: /prə/
+    condition:
+      unstressed_prefix: true

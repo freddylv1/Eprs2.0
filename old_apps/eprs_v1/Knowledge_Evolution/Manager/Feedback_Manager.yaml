@@ -1,0 +1,19 @@
+version: "1.0.0"
+module_name: "EPRS Feedback Manager"
+description: "處理推論驗證失敗 (FAIL) 與品質不符項目之離線佇列與修復回授機制"
+
+policy:
+  fail_handling: "Enqueue to Feedback Queue"
+  ai_dependency: false
+  action_on_fail:
+    1: "Log detailed mismatch error (IPA / Syllable / Pattern)"
+    2: "Classify potential rule defect or new exception requirement"
+    3: "Trigger Rule Master / Exception Master offline review proposal"
+
+feedback_queue:
+  total_items: 0
+  items: []
+
+queue_status:
+  status: "CLEAN"
+  pending_reviews: 0

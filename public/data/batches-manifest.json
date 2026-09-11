@@ -1,0 +1,200 @@
+{
+  "version": "2.0.0",
+  "updatedAt": "2026-09-10T06:56:56.139Z",
+  "categories": [
+    {
+      "id": "moe1200",
+      "name": "教育部 1200 基礎單字",
+      "description": "涵蓋臺灣國中小基礎必背 1200 核心字彙與自然發音音節標註",
+      "totalBatches": 12,
+      "totalWords": 1200,
+      "batches": [
+        {
+          "batchId": "moe-batch-01",
+          "title": "MOE 1200 - 批次 01",
+          "category": "moe1200",
+          "range": "1 ~ 100",
+          "wordCount": 100,
+          "fileName": "moe-batch-01.json"
+        },
+        {
+          "batchId": "moe-batch-02",
+          "title": "MOE 1200 - 批次 02",
+          "category": "moe1200",
+          "range": "101 ~ 200",
+          "wordCount": 100,
+          "fileName": "moe-batch-02.json"
+        },
+        {
+          "batchId": "moe-batch-03",
+          "title": "MOE 1200 - 批次 03",
+          "category": "moe1200",
+          "range": "201 ~ 300",
+          "wordCount": 100,
+          "fileName": "moe-batch-03.json"
+        },
+        {
+          "batchId": "moe-batch-04",
+          "title": "MOE 1200 - 批次 04",
+          "category": "moe1200",
+          "range": "301 ~ 400",
+          "wordCount": 100,
+          "fileName": "moe-batch-04.json"
+        },
+        {
+          "batchId": "moe-batch-05",
+          "title": "MOE 1200 - 批次 05",
+          "category": "moe1200",
+          "range": "401 ~ 500",
+          "wordCount": 100,
+          "fileName": "moe-batch-05.json"
+        },
+        {
+          "batchId": "moe-batch-06",
+          "title": "MOE 1200 - 批次 06",
+          "category": "moe1200",
+          "range": "501 ~ 600",
+          "wordCount": 100,
+          "fileName": "moe-batch-06.json"
+        },
+        {
+          "batchId": "moe-batch-07",
+          "title": "MOE 1200 - 批次 07",
+          "category": "moe1200",
+          "range": "601 ~ 700",
+          "wordCount": 100,
+          "fileName": "moe-batch-07.json"
+        },
+        {
+          "batchId": "moe-batch-08",
+          "title": "MOE 1200 - 批次 08",
+          "category": "moe1200",
+          "range": "701 ~ 800",
+          "wordCount": 100,
+          "fileName": "moe-batch-08.json"
+        },
+        {
+          "batchId": "moe-batch-09",
+          "title": "MOE 1200 - 批次 09",
+          "category": "moe1200",
+          "range": "801 ~ 900",
+          "wordCount": 100,
+          "fileName": "moe-batch-09.json"
+        },
+        {
+          "batchId": "moe-batch-10",
+          "title": "MOE 1200 - 批次 10",
+          "category": "moe1200",
+          "range": "901 ~ 1000",
+          "wordCount": 100,
+          "fileName": "moe-batch-10.json"
+        },
+        {
+          "batchId": "moe-batch-11",
+          "title": "MOE 1200 - 批次 11",
+          "category": "moe1200",
+          "range": "1001 ~ 1100",
+          "wordCount": 100,
+          "fileName": "moe-batch-11.json"
+        },
+        {
+          "batchId": "moe-batch-12",
+          "title": "MOE 1200 - 批次 12",
+          "category": "moe1200",
+          "range": "1101 ~ 1200",
+          "wordCount": 100,
+          "fileName": "moe-batch-12.json"
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "name": "高中大考參考詞彙 第一級",
+      "description": "大考中心高中 4500/7000 字彙第一級，具備音節規則與音變深度推導",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior-batch-01",
+          "title": "高中 Level 1 - 批次 01",
+          "category": "senior",
+          "range": "1 ~ 100",
+          "wordCount": 100,
+          "fileName": "senior-batch-01.json"
+        },
+        {
+          "batchId": "senior-batch-02",
+          "title": "高中 Level 1 - 批次 02",
+          "category": "senior",
+          "range": "101 ~ 200",
+          "wordCount": 100,
+          "fileName": "senior-batch-02.json"
+        },
+        {
+          "batchId": "senior-batch-03",
+          "title": "高中 Level 1 - 批次 03",
+          "category": "senior",
+          "range": "201 ~ 300",
+          "wordCount": 100,
+          "fileName": "senior-batch-03.json"
+        },
+        {
+          "batchId": "senior-batch-04",
+          "title": "高中 Level 1 - 批次 04",
+          "category": "senior",
+          "range": "301 ~ 400",
+          "wordCount": 100,
+          "fileName": "senior-batch-04.json"
+        },
+        {
+          "batchId": "senior-batch-05",
+          "title": "高中 Level 1 - 批次 05",
+          "category": "senior",
+          "range": "401 ~ 500",
+          "wordCount": 100,
+          "fileName": "senior-batch-05.json"
+        },
+        {
+          "batchId": "senior-batch-06",
+          "title": "高中 Level 1 - 批次 06",
+          "category": "senior",
+          "range": "501 ~ 600",
+          "wordCount": 100,
+          "fileName": "senior-batch-06.json"
+        },
+        {
+          "batchId": "senior-batch-07",
+          "title": "高中 Level 1 - 批次 07",
+          "category": "senior",
+          "range": "601 ~ 700",
+          "wordCount": 100,
+          "fileName": "senior-batch-07.json"
+        },
+        {
+          "batchId": "senior-batch-08",
+          "title": "高中 Level 1 - 批次 08",
+          "category": "senior",
+          "range": "701 ~ 800",
+          "wordCount": 100,
+          "fileName": "senior-batch-08.json"
+        },
+        {
+          "batchId": "senior-batch-09",
+          "title": "高中 Level 1 - 批次 09",
+          "category": "senior",
+          "range": "801 ~ 900",
+          "wordCount": 100,
+          "fileName": "senior-batch-09.json"
+        },
+        {
+          "batchId": "senior-batch-10",
+          "title": "高中 Level 1 - 批次 10",
+          "category": "senior",
+          "range": "901 ~ 1000",
+          "wordCount": 100,
+          "fileName": "senior-batch-10.json"
+        }
+      ]
+    }
+  ]
+}

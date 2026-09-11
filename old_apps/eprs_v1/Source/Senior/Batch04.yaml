@@ -1,0 +1,741 @@
+batch: 4
+batch_name: Senior_Level1_Batch_04
+level: 1
+level_name: 第一級
+range: 301 ~ 400
+total_words: 100
+words:
+  - id: 301
+    word: feed
+    pos: v./n.
+    chinese: 餵
+    syllable:
+      - feed
+    ipa: /fiːd/
+  - id: 302
+    word: feel
+    pos: v./n.
+    chinese: 覺得
+    syllable:
+      - feel
+    ipa: /fiːl/
+  - id: 303
+    word: festival
+    pos: n.
+    chinese: 節慶
+    syllable:
+      - fes
+      - ti
+      - val
+    ipa: /ˈfɛs.tə.vəl/
+  - id: 304
+    word: few
+    pos: adj./pron.
+    chinese: 少數的
+    syllable:
+      - few
+    ipa: /fjuː/
+  - id: 305
+    word: fight
+    pos: v./n.
+    chinese: 打架
+    syllable:
+      - fight
+    ipa: /faɪt/
+  - id: 306
+    word: file
+    pos: n./v.
+    chinese: 檔案, 銼刀; 歸檔
+    syllable:
+      - file
+    ipa: /faɪl/
+  - id: 307
+    word: fill
+    pos: v./n.
+    chinese: 裝滿
+    syllable:
+      - fill
+    ipa: /fɪl/
+  - id: 308
+    word: finally
+    pos: adv.
+    chinese: 最後
+    syllable:
+      - fi
+      - nal
+      - ly
+    ipa: /ˈfaɪ.nəl.i/
+  - id: 309
+    word: find
+    pos: v./n.
+    chinese: 找到
+    syllable:
+      - find
+    ipa: /faɪnd/
+  - id: 310
+    word: fine
+    pos: adj./adv./v./n.
+    chinese: 很好的
+    syllable:
+      - fine
+    ipa: /faɪn/
+  - id: 311
+    word: finger
+    pos: n./v.
+    chinese: 手指
+    syllable:
+      - fin
+      - ger
+    ipa: /ˈfɪŋ.ɡɚ/
+  - id: 312
+    word: finish
+    pos: v./n.
+    chinese: 完成
+    syllable:
+      - fin
+      - ish
+    ipa: /ˈfɪn.ɪʃ/
+  - id: 313
+    word: fire
+    pos: n./v.
+    chinese: 火焰,開火
+    syllable:
+      - fire
+    ipa: /ˈfaɪ.ɚ/
+  - id: 314
+    word: first
+    pos: n./adv./adj.
+    chinese: 第一(的)
+    syllable:
+      - first
+    ipa: /fɝːst/
+  - id: 315
+    word: fish
+    pos: n./v.
+    chinese: 魚
+    syllable:
+      - fish
+    ipa: /fɪʃ/
+  - id: 316
+    word: floor
+    pos: n./v.
+    chinese: 地板
+    syllable:
+      - floor
+    ipa: /flɔːr/
+  - id: 317
+    word: flower
+    pos: n./v.
+    chinese: 花朵
+    syllable:
+      - flow
+      - er
+    ipa: /ˈflaʊ.ɚ/
+  - id: 318
+    word: fly
+    pos: v./n.
+    chinese: 飛
+    syllable:
+      - fly
+    ipa: /flaɪ/
+  - id: 319
+    word: follow
+    pos: v.
+    chinese: 遵循,跟隨
+    syllable:
+      - fol
+      - low
+    ipa: /ˈfɑː.loʊ/
+  - id: 320
+    word: food
+    pos: n.
+    chinese: 食物
+    syllable:
+      - food
+    ipa: /fuːd/
+  - id: 321
+    word: fool
+    pos: n./v.
+    chinese: 傻瓜; 愚弄
+    syllable:
+      - fool
+    ipa: /fuːl/
+  - id: 322
+    word: foot
+    pos: n./v.
+    chinese: 腳
+    syllable:
+      - foot
+    ipa: /fʊt/
+  - id: 323
+    word: for
+    pos: prep./conj.
+    chinese: 為了
+    syllable:
+      - for
+    ipa: /fɔːr/
+  - id: 324
+    word: foreign
+    pos: adj.
+    chinese: 外國的
+    syllable:
+      - for
+      - eign
+    ipa: /ˈfɔːr.ən/
+  - id: 325
+    word: foreigner
+    pos: n.
+    chinese: 外國人
+    syllable:
+      - for
+      - eign
+      - er
+    ipa: /ˈfɔːr.ə.nɚ/
+  - id: 326
+    word: forget
+    pos: v.
+    chinese: 忘記
+    syllable:
+      - for
+      - get
+    ipa: /fɚˈɡɛt/
+  - id: 327
+    word: fork
+    pos: n.
+    chinese: 叉子
+    syllable:
+      - fork
+    ipa: /fɔːrk/
+  - id: 328
+    word: free
+    pos: adj./v./adv.
+    chinese: 空閒的,免費
+    syllable:
+      - free
+    ipa: /friː/
+  - id: 329
+    word: fresh
+    pos: adj.
+    chinese: 新鮮的
+    syllable:
+      - fresh
+    ipa: /frɛʃ/
+  - id: 330
+    word: friend
+    pos: n.
+    chinese: 朋友
+    syllable:
+      - friend
+    ipa: /frɛnd/
+  - id: 331
+    word: friendly
+    pos: adj.
+    chinese: 友善的
+    syllable:
+      - friend
+      - ly
+    ipa: /ˈfrɛnd.li/
+  - id: 332
+    word: frog
+    pos: n.
+    chinese: 青蛙
+    syllable:
+      - frog
+    ipa: /frɑːɡ/
+  - id: 333
+    word: from
+    pos: prep.
+    chinese: 從
+    syllable:
+      - from
+    ipa: /frʌm/
+  - id: 334
+    word: front
+    pos: adj./n.
+    chinese: 前面
+    syllable:
+      - front
+    ipa: /frʌnt/
+  - id: 335
+    word: fruit
+    pos: n.
+    chinese: 水果
+    syllable:
+      - fruit
+    ipa: /fruːt/
+  - id: 336
+    word: full
+    pos: adj.
+    chinese: 滿的
+    syllable:
+      - full
+    ipa: /fʊl/
+  - id: 337
+    word: fun
+    pos: n.
+    chinese: 樂趣
+    syllable:
+      - fun
+    ipa: /fʌn/
+  - id: 338
+    word: funny
+    pos: adj.
+    chinese: 好笑的
+    syllable:
+      - fun
+      - ny
+    ipa: /ˈfʌn.i/
+  - id: 339
+    word: future
+    pos: n./adj.
+    chinese: 未來
+    syllable:
+      - fu
+      - ture
+    ipa: /ˈfjuː.tʃɚ/
+  - id: 340
+    word: game
+    pos: n.
+    chinese: 比賽,遊戲
+    syllable:
+      - game
+    ipa: /ɡeɪm/
+  - id: 341
+    word: garden
+    pos: n./v.
+    chinese: 花園
+    syllable:
+      - gar
+      - den
+    ipa: /ˈɡɑːr.dən/
+  - id: 342
+    word: gate
+    pos: n.
+    chinese: 大門
+    syllable:
+      - gate
+    ipa: /ɡeɪt/
+  - id: 343
+    word: get
+    pos: v.
+    chinese: 得到
+    syllable:
+      - get
+    ipa: /ɡɛt/
+  - id: 344
+    word: ghost
+    pos: n.
+    chinese: 鬼
+    syllable:
+      - ghost
+    ipa: /ɡoʊst/
+  - id: 345
+    word: giant
+    pos: adj./n.
+    chinese: 巨大的,巨人
+    syllable:
+      - gi
+      - ant
+    ipa: /ˈdʒaɪ.ənt/
+  - id: 346
+    word: gift
+    pos: n.
+    chinese: 禮物
+    syllable:
+      - gift
+    ipa: /ɡɪft/
+  - id: 347
+    word: girl
+    pos: n.
+    chinese: 女孩
+    syllable:
+      - girl
+    ipa: /ɡɝːl/
+  - id: 348
+    word: give
+    pos: v.
+    chinese: 給予
+    syllable:
+      - give
+    ipa: /ɡɪv/
+  - id: 349
+    word: glad
+    pos: adj.
+    chinese: 高興的
+    syllable:
+      - glad
+    ipa: /ɡlæd/
+  - id: 350
+    word: glass
+    pos: n.
+    chinese: 玻璃,玻璃杯
+    syllable:
+      - glass
+    ipa: /ɡlæs/
+  - id: 351
+    word: glasses
+    pos: n.
+    chinese: 眼鏡
+    syllable:
+      - glass
+      - es
+    ipa: /ˈɡlæs.ɪz/
+  - id: 352
+    word: glove(s)
+    pos: n.
+    chinese: 手套
+    syllable:
+      - glove
+    ipa: /ɡlʌv/
+  - id: 353
+    word: go
+    pos: v./n.
+    chinese: 去
+    syllable:
+      - go
+    ipa: /ɡoʊ/
+  - id: 354
+    word: god/goddess
+    pos: n.
+    chinese: 神, 上帝; 女神
+    syllable:
+      - god
+    ipa: /ɡɑːd/
+  - id: 355
+    word: good
+    pos: adj./adv./n.
+    chinese: 好的
+    syllable:
+      - good
+    ipa: /ɡʊd/
+  - id: 356
+    word: goodbye
+    pos: n.
+    chinese: 再見
+    syllable:
+      - good
+      - bye
+    ipa: /ˌɡʊdˈbaɪ/
+  - id: 357
+    word: grade
+    pos: n./v.
+    chinese: 成績,年級
+    syllable:
+      - grade
+    ipa: /ɡreɪd/
+  - id: 358
+    word: grandfather
+    pos: n.
+    chinese: 祖父
+    syllable:
+      - grand
+      - fa
+      - ther
+    ipa: /ˈɡræn.fɑː.ðɚ/
+  - id: 359
+    word: grandmother
+    pos: n.
+    chinese: 祖母
+    syllable:
+      - grand
+      - moth
+      - er
+    ipa: /ˈɡræn.mʌð.ɚ/
+  - id: 360
+    word: grass
+    pos: n.
+    chinese: 草
+    syllable:
+      - grass
+    ipa: /ɡræs/
+  - id: 361
+    word: gray
+    pos: adj./n./v.
+    chinese: 灰色的
+    syllable:
+      - gray
+    ipa: /ɡreɪ/
+  - id: 362
+    word: great
+    pos: adj./n.
+    chinese: 很棒的
+    syllable:
+      - great
+    ipa: /ɡreɪt/
+  - id: 363
+    word: green
+    pos: adj./n./v.
+    chinese: 綠色(的)
+    syllable:
+      - green
+    ipa: /ɡriːn/
+  - id: 364
+    word: ground
+    pos: n./v.
+    chinese: 地面
+    syllable:
+      - ground
+    ipa: /ɡraʊnd/
+  - id: 365
+    word: group
+    pos: n./v.
+    chinese: 團體
+    syllable:
+      - group
+    ipa: /ɡruːp/
+  - id: 366
+    word: grow
+    pos: v.
+    chinese: 種植
+    syllable:
+      - grow
+    ipa: /ɡroʊ/
+  - id: 367
+    word: guess
+    pos: v./n.
+    chinese: 猜想
+    syllable:
+      - guess
+    ipa: /ɡɛs/
+  - id: 368
+    word: guitar
+    pos: n.
+    chinese: 吉他
+    syllable:
+      - gui
+      - tar
+    ipa: /ɡɪˈtɑːr/
+  - id: 369
+    word: guy
+    pos: n.
+    chinese: 傢伙
+    syllable:
+      - guy
+    ipa: /ɡaɪ/
+  - id: 370
+    word: habit
+    pos: n.
+    chinese: 習慣
+    syllable:
+      - hab
+      - it
+    ipa: /ˈhæb.ɪt/
+  - id: 371
+    word: hair
+    pos: n.
+    chinese: 頭法
+    syllable:
+      - hair
+    ipa: /hɛr/
+  - id: 372
+    word: half
+    pos: n./adv./adj.
+    chinese: 一半
+    syllable:
+      - half
+    ipa: /hæf/
+  - id: 373
+    word: ham
+    pos: n.
+    chinese: 火腿
+    syllable:
+      - ham
+    ipa: /hæm/
+  - id: 374
+    word: hand
+    pos: n./v.
+    chinese: 手
+    syllable:
+      - hand
+    ipa: /hænd/
+  - id: 375
+    word: hang
+    pos: v.
+    chinese: 懸掛
+    syllable:
+      - hang
+    ipa: /hæŋ/
+  - id: 376
+    word: happen
+    pos: v.
+    chinese: 發生
+    syllable:
+      - hap
+      - pen
+    ipa: /ˈhæp.ən/
+  - id: 377
+    word: happy
+    pos: adj.
+    chinese: 快樂的
+    syllable:
+      - hap
+      - py
+    ipa: /ˈhæp.i/
+  - id: 378
+    word: hard
+    pos: adj./adv.
+    chinese: 困難的,硬的
+    syllable:
+      - hard
+    ipa: /hɑːrd/
+  - id: 379
+    word: hat
+    pos: n.
+    chinese: 帽子
+    syllable:
+      - hat
+    ipa: /hæt/
+  - id: 380
+    word: hate
+    pos: v./n.
+    chinese: 討厭
+    syllable:
+      - hate
+    ipa: /heɪt/
+  - id: 381
+    word: have
+    pos: aux./v.
+    chinese: 有
+    syllable:
+      - have
+    ipa: /hæv/
+  - id: 382
+    word: he (him, his, himself)
+    pos: pron.
+    chinese: 他
+    syllable:
+      - he
+    ipa: /hiː/
+  - id: 383
+    word: head
+    pos: n./v.
+    chinese: 頭
+    syllable:
+      - head
+    ipa: /hɛd/
+  - id: 384
+    word: headache
+    pos: n.
+    chinese: 頭痛
+    syllable:
+      - head
+      - ache
+    ipa: /ˈhɛd.eɪk/
+  - id: 385
+    word: health
+    pos: n.
+    chinese: 健康
+    syllable:
+      - health
+    ipa: /hɛlθ/
+  - id: 386
+    word: healthy
+    pos: adj.
+    chinese: 健康的
+    syllable:
+      - health
+      - 'y'
+    ipa: /ˈhɛl.θi/
+  - id: 387
+    word: hear
+    pos: v.
+    chinese: 聽
+    syllable:
+      - hear
+    ipa: /hɪr/
+  - id: 388
+    word: heart
+    pos: n.
+    chinese: 心
+    syllable:
+      - heart
+    ipa: /hɑːrt/
+  - id: 389
+    word: heat
+    pos: n./v.
+    chinese: 熱度,加熱
+    syllable:
+      - heat
+    ipa: /hiːt/
+  - id: 390
+    word: heavy
+    pos: adj.
+    chinese: 重的
+    syllable:
+      - heav
+      - 'y'
+    ipa: /ˈhɛv.i/
+  - id: 391
+    word: height
+    pos: n.
+    chinese: 高度, 身高
+    syllable:
+      - height
+    ipa: /haɪt/
+  - id: 392
+    word: hello
+    pos: n.
+    chinese: 喂
+    syllable:
+      - hel
+      - lo
+    ipa: /həˈloʊ/
+  - id: 393
+    word: help
+    pos: v./n.
+    chinese: 幫忙
+    syllable:
+      - help
+    ipa: /hɛlp/
+  - id: 394
+    word: helpful
+    pos: adj.
+    chinese: 有幫助的
+    syllable:
+      - help
+      - ful
+    ipa: /ˈhɛlp.fəl/
+  - id: 395
+    word: hen
+    pos: n.
+    chinese: 母雞
+    syllable:
+      - hen
+    ipa: /hɛn/
+  - id: 396
+    word: here
+    pos: adv./n.
+    chinese: 這裡
+    syllable:
+      - here
+    ipa: /hɪr/
+  - id: 397
+    word: hide
+    pos: v.
+    chinese: 隱藏
+    syllable:
+      - hide
+    ipa: /haɪd/
+  - id: 398
+    word: high
+    pos: adj./adv./n.
+    chinese: 高的
+    syllable:
+      - high
+    ipa: /haɪ/
+  - id: 399
+    word: hill
+    pos: n.
+    chinese: 小山
+    syllable:
+      - hill
+    ipa: /hɪl/
+  - id: 400
+    word: history
+    pos: n.
+    chinese: 歷史
+    syllable:
+      - his
+      - to
+      - ry
+    ipa: /ˈhɪs.t̬ɚ.i/

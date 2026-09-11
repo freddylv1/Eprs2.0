@@ -1,0 +1,22 @@
+version: "1.0.0"
+module_name: "EPRS Regression Test Manager"
+description: "當 Rule Master、Pattern Master 或 Exception Master 更新時，觸發全量 1200 字離線迴歸測試"
+
+trigger_conditions:
+  - "Rule_Master_Updated"
+  - "Pattern_Master_Updated"
+  - "Exception_Master_Updated"
+
+regression_workflow:
+  step_1: "Reload modified Master YAML file"
+  step_2: "Flush invalidated Prediction Cache items"
+  step_3: "Re-run 10-Step Builder Pipeline for affected dataset (1~1200)"
+  step_4: "Compare newly derived IPA against Source IPA"
+  step_5: "Verify zero regression (Pass Rate >= 100% GOLD)"
+  step_6: "Update Validation History & Prediction Cache"
+
+last_regression_run:
+  date: "2026-08-06"
+  triggered_by: "Knowledge Evolution v1.0 Release"
+  dataset: "MOE 1200 Full Set"
+  result: "PASS (1200/1200 GOLD)"

@@ -1,0 +1,45 @@
+version: '1.0'
+schema_name: EPRS Build Snapshot Index
+snapshots:
+  - snapshot_id: BUILD_20260806_001
+    build_type: INITIAL_MOE1200_BUILD
+    source:
+      file: Source/MOE_1200_Source_list.yaml
+      version: v1.0
+    rules:
+      rule_master: EPRS_Rule_Master_v1.7
+      pattern_master: Pattern_Master_v1.5
+      stress_master: Stress_Master_v1.0
+      exception_master: Exception_Master_v1.0
+    builder:
+      workflow: Builder_Workflow_v1.0
+      mode: OFFLINE_NO_AI
+    output:
+      database: English_Pronunciation_Database.yaml
+    validation:
+      status: GOLD_PASS
+      gold: 100
+      silver: 0
+      fail: 0
+    created: '2026-08-06'
+  - snapshot_id: BUILD_20260806_002
+    build_type: MOE1200_BATCH02_GOLD_BUILD
+    source:
+      file: Source/MOE_1200_Source_list.yaml
+      version: v1.0
+    rules:
+      rule_master: EPRS_Rule_Master_v1.7
+      pattern_master: Pattern_Master_v1.5
+      stress_master: Stress_Master_v1.0
+      exception_master: Exception_Master_v1.0
+    builder:
+      workflow: Builder_Workflow_v1.0
+      mode: OFFLINE_NO_AI
+    output:
+      database: Database/English_Pronunciation_Database_Batch02.yaml
+    validation:
+      status: GOLD_PASS
+      gold: 100
+      silver: 0
+      fail: 0
+    created: '2026-08-06'

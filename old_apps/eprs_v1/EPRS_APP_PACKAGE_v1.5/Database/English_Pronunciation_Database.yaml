@@ -1,0 +1,4325 @@
+batch: 1
+version: "1.4"
+total_words_in_batch: 50
+schema_name: EPRS Word Schema v1.4 Reasoning Engine
+Rule_Index:
+  R001:
+    name: Closed Syllable
+  R002:
+    name: Open Syllable
+  R003:
+    name: Magic e
+  R004:
+    name: Vowel Digraph
+  R005:
+    name: R Controlled Vowel
+  R006:
+    name: Consonant Pattern
+  R007:
+    name: Silent Letter
+  R008:
+    name: Unstressed Reduction
+  R009:
+    name: Ending Pronunciation
+  R010:
+    name: Exception Rule
+  R011:
+    name: -iate / -ciate Palatalization
+  R012:
+    name: Stress Pattern & Vowel Shift
+  R013:
+    name: Schwa Deletion
+  R014:
+    name: Stress Dependent Vowel Team
+  R015:
+    name: Silent Letter Family
+  R016:
+    name: Air Family
+  R017:
+    name: Prefix Reduction
+Pattern_Index:
+  PAT-01:
+    name: Magic e
+  PAT-02:
+    name: Closed Syllable
+  PAT-03:
+    name: Open Syllable
+  PAT-04:
+    name: Vowel Team
+  PAT-05:
+    name: R-Controlled Vowel
+  PAT-06:
+    name: Consonant Digraph
+  PAT-07:
+    name: Silent Letter
+  PAT-08:
+    name: Unstressed Reduction
+  PAT-09:
+    name: Special Ending
+  PAT-10:
+    name: Irregular / Exception
+  PAT-11:
+    name: Palatalization / Complex Combination
+  PAT-12:
+    name: Prefix Combination
+  PAT-13:
+    name: Air / Rhyming Combination
+Family_Index:
+  PAT-FAM-01:
+    name: Magic e Family
+  PAT-FAM-02:
+    name: Closed Syllable Family
+  PAT-FAM-03:
+    name: Open Syllable Family
+  PAT-FAM-04:
+    name: Vowel Team Family
+  PAT-FAM-05:
+    name: R-Controlled Family
+  PAT-FAM-06:
+    name: Consonant Digraph Family
+  PAT-FAM-07:
+    name: Silent Letter Family
+  PAT-FAM-08:
+    name: Unstressed Reduction Family
+  PAT-FAM-09:
+    name: Special Ending Family
+  PAT-FAM-10:
+    name: Irregular / Exception Family
+  PAT-FAM-11:
+    name: Palatalization Combination Family
+  PAT-FAM-12:
+    name: Prefix Reduction Family
+  PAT-FAM-13:
+    name: Air Rhyming Family
+Learning_Index:
+  STAGE-01:
+    name: 基礎短母音
+  STAGE-02:
+    name: 長母音與 R 控制音
+  STAGE-03:
+    name: 雙母音與複合字音
+  STAGE-04:
+    name: 多音節母音弱化與字尾
+  STAGE-05:
+    name: 特殊例外
+words:
+  - index: 0
+    word: have
+    pos: v.
+    chinese: 有；擁有
+    syllable:
+      - have
+    ipa: /hæv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: have
+        syllable: have
+        ipa: /hæv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: have
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: Magic e 結構，但為不規則發音例外（未發長母音 /eɪ/，而是發短母音）
+        rule_id: R010
+        ipa: /hæv/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-01
+      note: a_e 例外發短母音 /æ/
+    reasoning:
+      syllable_reasoning: 音節 0 [have] 對應 PAT-01 (Magic e) 發 /hæv/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010 規則
+      ipa_conclusion: 最終標準發音對應 IPA /hæv/
+    confidence: 100
+    reasoning_summary: have 音節拆解 [have] 重音 0 Rule R010 Pattern PAT-01 IPA /hæv/
+  - index: 1
+    word: advance
+    pos: v.
+    chinese: 前進；提升
+    syllable:
+      - ad
+      - vance
+    ipa: /ədˈvæns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ad
+        syllable: ad
+        ipa: /əd/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: vance
+        syllable: vance
+        ipa: /væns/
+        stress: primary
+        pattern_id: PAT-09
+        rule_id: R009
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ad
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /əd/
+        rule_id: R017
+        ipa: /əd/
+      - syllable_index: 1
+        syllable: vance
+        pattern_id: PAT-09
+        pattern: Special Ending
+        condition: 重讀閉音節，a 發短母音 /æ/，c 逢 e 發 /s/
+        rule_id: R009
+        ipa: /væns/
+    rule_mapping:
+      - R017
+      - R009
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-09
+        name: Special Ending Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family:
+        id: WORD-FAM-ADVANCE
+        name: advance Family
+        derivatives:
+          - advanced
+          - advancement
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [ad] 對應 PAT-12 (Prefix Combination) 發 /əd/；音節 1 [vance]
+        對應 PAT-09 (Special Ending) 發 /væns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-09 (Special Ending)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R009, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ədˈvæns/
+    confidence: 100
+    reasoning_summary: advance 音節拆解 [ad · vance] 重音 1 Rule R017,R009,R012 Pattern
+      PAT-12,PAT-09 IPA /ədˈvæns/
+  - index: 2
+    word: balance
+    pos: n.
+    chinese: 平衡
+    syllable:
+      - bal
+      - ance
+    ipa: /ˈbæl.əns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: bal
+        syllable: bal
+        ipa: /bæl/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: ance
+        syllable: ance
+        ipa: /əns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: bal
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，母音 a 發短母音 /æ/
+        rule_id: R001
+        ipa: /bæl/
+      - syllable_index: 1
+        syllable: ance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /əns/
+        rule_id: R008
+        ipa: /əns/
+    rule_mapping:
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [bal] 對應 PAT-02 (Closed Syllable) 發 /bæl/；音節 1 [ance]
+        對應 PAT-08 (Unstressed Reduction) 發 /əns/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈbæl.əns/
+    confidence: 100
+    reasoning_summary: balance 音節拆解 [bal · ance] 重音 0 Rule R008,R001,R012 Pattern
+      PAT-02,PAT-08 IPA /ˈbæl.əns/
+  - index: 3
+    word: alliance
+    pos: n.
+    chinese: 同盟；聯盟
+    syllable:
+      - al
+      - li
+      - ance
+    ipa: /əˈlaɪ.əns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: al
+        syllable: al
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 1
+        syllable_text: li
+        syllable: li
+        ipa: /laɪ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 2
+        syllable_text: ance
+        syllable: ance
+        ipa: /əns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: al
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R008
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: li
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，母音 i 發長母音 /aɪ/
+        rule_id: R002
+        ipa: /laɪ/
+      - syllable_index: 2
+        syllable: ance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /əns/
+        rule_id: R008
+        ipa: /əns/
+    rule_mapping:
+      - R008
+      - R002
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [al] 對應 PAT-08 (Unstressed Reduction) 發 /ə/；音節 1 [li]
+        對應 PAT-03 (Open Syllable) 發 /laɪ/；音節 2 [ance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /əns/
+      pattern_reasoning: 全字構造包含 PAT-08 (Unstressed Reduction) + PAT-03 (Open Syllable)
+        + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R008, R002, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈlaɪ.əns/
+    confidence: 100
+    reasoning_summary: alliance 音節拆解 [al · li · ance] 重音 1 Rule R008,R002,R012
+      Pattern PAT-08,PAT-03 IPA /əˈlaɪ.əns/
+  - index: 4
+    word: collapse
+    pos: v.
+    chinese: 倒塌；崩潰
+    syllable:
+      - col
+      - lapse
+    ipa: /kəˈlæps/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: col
+        syllable: col
+        ipa: /kə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 1
+        syllable_text: lapse
+        syllable: lapse
+        ipa: /læps/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: o
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: col
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /kə/
+        rule_id: R008
+        ipa: /kə/
+      - syllable_index: 1
+        syllable: lapse
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，a 發短母音 /æ/，字尾 se 發 /ps/
+        rule_id: R001
+        ipa: /læps/
+    rule_mapping:
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [col] 對應 PAT-08 (Unstressed Reduction) 發 /kə/；音節 1
+        [lapse] 對應 PAT-02 (Closed Syllable) 發 /læps/
+      pattern_reasoning: 全字構造包含 PAT-08 (Unstressed Reduction) + PAT-02 (Closed Syllable)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /kəˈlæps/
+    confidence: 100
+    reasoning_summary: collapse 音節拆解 [col · lapse] 重音 1 Rule R008,R001,R012 Pattern
+      PAT-08,PAT-02 IPA /kəˈlæps/
+  - index: 5
+    word: defiance
+    pos: n.
+    chinese: 反抗；挑釁
+    syllable:
+      - de
+      - fi
+      - ance
+    ipa: /dɪˈfaɪ.əns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: de
+        syllable: de
+        ipa: /dɪ/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: fi
+        syllable: fi
+        ipa: /faɪ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 2
+        syllable_text: ance
+        syllable: ance
+        ipa: /əns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: e
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: de
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /dɪ/
+        rule_id: R017
+        ipa: /dɪ/
+      - syllable_index: 1
+        syllable: fi
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，i 發長母音 /faɪ/
+        rule_id: R002
+        ipa: /faɪ/
+      - syllable_index: 2
+        syllable: ance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /əns/
+        rule_id: R008
+        ipa: /əns/
+    rule_mapping:
+      - R017
+      - R008
+      - R002
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [de] 對應 PAT-12 (Prefix Combination) 發 /dɪ/；音節 1 [fi] 對應
+        PAT-03 (Open Syllable) 發 /faɪ/；音節 2 [ance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /əns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-03 (Open Syllable) +
+        PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R002, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /dɪˈfaɪ.əns/
+    confidence: 100
+    reasoning_summary: defiance 音節拆解 [de · fi · ance] 重音 1 Rule R017,R008,R002,R012
+      Pattern PAT-12,PAT-03,PAT-08 IPA /dɪˈfaɪ.əns/
+  - index: 6
+    word: distance
+    pos: n.
+    chinese: 距離
+    syllable:
+      - dis
+      - tance
+    ipa: /ˈdɪs.təns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: dis
+        syllable: dis
+        ipa: /dɪs/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: tance
+        syllable: tance
+        ipa: /təns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: dis
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，i 發短母音 /ɪ/
+        rule_id: R001
+        ipa: /dɪs/
+      - syllable_index: 1
+        syllable: tance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /təns/
+        rule_id: R008
+        ipa: /təns/
+    rule_mapping:
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /ɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [dis] 對應 PAT-02 (Closed Syllable) 發 /dɪs/；音節 1 [tance]
+        對應 PAT-08 (Unstressed Reduction) 發 /təns/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈdɪs.təns/
+    confidence: 100
+    reasoning_summary: distance 音節拆解 [dis · tance] 重音 0 Rule R008,R001,R012 Pattern
+      PAT-02,PAT-08 IPA /ˈdɪs.təns/
+  - index: 7
+    word: elegance
+    pos: n.
+    chinese: 優雅
+    syllable:
+      - el
+      - e
+      - gance
+    ipa: /ˈel.ə.ɡəns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: el
+        syllable: el
+        ipa: /el/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: e
+        syllable: e
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 2
+        syllable_text: gance
+        syllable: gance
+        ipa: /ɡəns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: e
+          reduced_ipa: /ə/
+          rule_id: R008
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: el
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，e 發短母音 /e/
+        rule_id: R001
+        ipa: /el/
+      - syllable_index: 1
+        syllable: e
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R008
+        ipa: /ə/
+      - syllable_index: 2
+        syllable: gance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ɡəns/
+        rule_id: R008
+        ipa: /ɡəns/
+    rule_mapping:
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [el] 對應 PAT-02 (Closed Syllable) 發 /el/；音節 1 [e] 對應
+        PAT-08 (Unstressed Reduction) 發 /ə/；音節 2 [gance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /ɡəns/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-08 (Unstressed
+        Reduction) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈel.ə.ɡəns/
+    confidence: 100
+    reasoning_summary: elegance 音節拆解 [el · e · gance] 重音 0 Rule R008,R001,R012
+      Pattern PAT-02,PAT-08 IPA /ˈel.ə.ɡəns/
+  - index: 8
+    word: ambulance
+    pos: n.
+    chinese: 救護車
+    syllable:
+      - am
+      - bu
+      - lance
+    ipa: /ˈæm.bjə.ləns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: am
+        syllable: am
+        ipa: /æm/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 1
+        syllable_text: bu
+        syllable: bu
+        ipa: /bjə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 2
+        syllable_text: lance
+        syllable: lance
+        ipa: /ləns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: u
+          reduced_ipa: /ə/
+          rule_id: R008
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: am
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，a 發短母音 /æ/
+        rule_id: R001
+        ipa: /æm/
+      - syllable_index: 1
+        syllable: bu
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /bjə/
+        rule_id: R008
+        ipa: /bjə/
+      - syllable_index: 2
+        syllable: lance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ləns/
+        rule_id: R008
+        ipa: /ləns/
+    rule_mapping:
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [am] 對應 PAT-02 (Closed Syllable) 發 /æm/；音節 1 [bu] 對應
+        PAT-08 (Unstressed Reduction) 發 /bjə/；音節 2 [lance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /ləns/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-08 (Unstressed
+        Reduction) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈæm.bjə.ləns/
+    confidence: 100
+    reasoning_summary: ambulance 音節拆解 [am · bu · lance] 重音 0 Rule R008,R001,R012
+      Pattern PAT-02,PAT-08 IPA /ˈæm.bjə.ləns/
+  - index: 9
+    word: appliance
+    pos: n.
+    chinese: 器具；家電
+    syllable:
+      - ap
+      - pli
+      - ance
+    ipa: /əˈplaɪ.əns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ap
+        syllable: ap
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: pli
+        syllable: pli
+        ipa: /plaɪ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 2
+        syllable_text: ance
+        syllable: ance
+        ipa: /əns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ap
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: pli
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，i 發長母音 /plaɪ/
+        rule_id: R002
+        ipa: /plaɪ/
+      - syllable_index: 2
+        syllable: ance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /əns/
+        rule_id: R008
+        ipa: /əns/
+    rule_mapping:
+      - R017
+      - R008
+      - R002
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [ap] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [pli] 對應
+        PAT-03 (Open Syllable) 發 /plaɪ/；音節 2 [ance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /əns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-03 (Open Syllable) +
+        PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R002, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈplaɪ.əns/
+    confidence: 100
+    reasoning_summary: appliance 音節拆解 [ap · pli · ance] 重音 1 Rule
+      R017,R008,R002,R012 Pattern PAT-12,PAT-03,PAT-08 IPA /əˈplaɪ.əns/
+  - index: 10
+    word: assistance
+    pos: n.
+    chinese: 協助；幫助
+    syllable:
+      - as
+      - sis
+      - tance
+    ipa: /əˈsɪs.təns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: as
+        syllable: as
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: sis
+        syllable: sis
+        ipa: /sɪs/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 2
+        syllable_text: tance
+        syllable: tance
+        ipa: /təns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: as
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: sis
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，i 發短母音 /ɪ/
+        rule_id: R001
+        ipa: /sɪs/
+      - syllable_index: 2
+        syllable: tance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /təns/
+        rule_id: R008
+        ipa: /təns/
+    rule_mapping:
+      - R017
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /ɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [as] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [sis] 對應
+        PAT-02 (Closed Syllable) 發 /sɪs/；音節 2 [tance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /təns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-02 (Closed Syllable)
+        + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈsɪs.təns/
+    confidence: 100
+    reasoning_summary: assistance 音節拆解 [as · sis · tance] 重音 1 Rule
+      R017,R008,R001,R012 Pattern PAT-12,PAT-02,PAT-08 IPA /əˈsɪs.təns/
+  - index: 11
+    word: attendance
+    pos: n.
+    chinese: 出席；出席率
+    syllable:
+      - at
+      - ten
+      - dance
+    ipa: /əˈten.dəns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: at
+        syllable: at
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: ten
+        syllable: ten
+        ipa: /ten/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+      - syllable_index: 2
+        syllable_text: dance
+        syllable: dance
+        ipa: /dəns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: at
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: ten
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，e 發短母音 /e/
+        rule_id: R001
+        ipa: /ten/
+      - syllable_index: 2
+        syllable: dance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /dəns/
+        rule_id: R008
+        ipa: /dəns/
+    rule_mapping:
+      - R017
+      - R008
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [at] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [ten] 對應
+        PAT-02 (Closed Syllable) 發 /ten/；音節 2 [dance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /dəns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-02 (Closed Syllable)
+        + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈten.dəns/
+    confidence: 100
+    reasoning_summary: attendance 音節拆解 [at · ten · dance] 重音 1 Rule
+      R017,R008,R001,R012 Pattern PAT-12,PAT-02,PAT-08 IPA /əˈten.dəns/
+  - index: 12
+    word: compliance
+    pos: n.
+    chinese: 順從；合規
+    syllable:
+      - com
+      - pli
+      - ance
+    ipa: /kəmˈplaɪ.əns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: com
+        syllable: com
+        ipa: /kəm/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: pli
+        syllable: pli
+        ipa: /plaɪ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 2
+        syllable_text: ance
+        syllable: ance
+        ipa: /əns/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: o
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 2
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: com
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /kəm/
+        rule_id: R017
+        ipa: /kəm/
+      - syllable_index: 1
+        syllable: pli
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，i 發長母音 /plaɪ/
+        rule_id: R002
+        ipa: /plaɪ/
+      - syllable_index: 2
+        syllable: ance
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /əns/
+        rule_id: R008
+        ipa: /əns/
+    rule_mapping:
+      - R017
+      - R008
+      - R002
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ANCE
+        name: -ance / -ence Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [com] 對應 PAT-12 (Prefix Combination) 發 /kəm/；音節 1 [pli]
+        對應 PAT-03 (Open Syllable) 發 /plaɪ/；音節 2 [ance] 對應 PAT-08 (Unstressed
+        Reduction) 發 /əns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-03 (Open Syllable) +
+        PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R002, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /kəmˈplaɪ.əns/
+    confidence: 100
+    reasoning_summary: compliance 音節拆解 [com · pli · ance] 重音 1 Rule
+      R017,R008,R002,R012 Pattern PAT-12,PAT-03,PAT-08 IPA /kəmˈplaɪ.əns/
+  - index: 13
+    word: give
+    pos: v.
+    chinese: 給予
+    syllable:
+      - give
+    ipa: /ɡɪv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: give
+        syllable: give
+        ipa: /ɡɪv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: give
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: Magic e 結構例外（未發長母音 /aɪ/，而是發短母音）
+        rule_id: R010
+        ipa: /ɡɪv/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ɪ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-02
+      note: i_e 例外發短母音 /ɪ/
+    reasoning:
+      syllable_reasoning: 音節 0 [give] 對應 PAT-01 (Magic e) 發 /ɡɪv/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010 規則
+      ipa_conclusion: 最終標準發音對應 IPA /ɡɪv/
+    confidence: 100
+    reasoning_summary: give 音節拆解 [give] 重音 0 Rule R010 Pattern PAT-01 IPA /ɡɪv/
+  - index: 14
+    word: live
+    pos: v.
+    chinese: 居住；活著
+    syllable:
+      - live
+    ipa: /lɪv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: live
+        syllable: live
+        ipa: /lɪv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: live
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 作為動詞時為 Magic e 例外，母音 i 發短母音
+        rule_id: R010
+        ipa: /lɪv/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ɪ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-03
+      note: i_e 例外發短母音 /ɪ/ (作為動詞時)
+    reasoning:
+      syllable_reasoning: 音節 0 [live] 對應 PAT-01 (Magic e) 發 /lɪv/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010 規則
+      ipa_conclusion: 最終標準發音對應 IPA /lɪv/
+    confidence: 100
+    reasoning_summary: live 音節拆解 [live] 重音 0 Rule R010 Pattern PAT-01 IPA /lɪv/
+  - index: 15
+    word: bridge
+    pos: n.
+    chinese: 橋樑
+    syllable:
+      - bridge
+    ipa: /brɪdʒ/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: bridge
+        syllable: bridge
+        ipa: /brɪdʒ/
+        stress: primary
+        pattern_id: PAT-11
+        rule_id: R011
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: bridge
+        pattern_id: PAT-11
+        pattern: Palatalization / Complex Combination
+        condition: dge 字母組合，母音 i 發短母音 /ɪ/，dge 發 /dʒ/
+        rule_id: R011
+        ipa: /brɪdʒ/
+    rule_mapping:
+      - R011
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-11
+        name: Palatalization Combination Family
+      sound_family:
+        primary_sound: /ɪ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [bridge] 對應 PAT-11 (Palatalization / Complex Combination) 發 /brɪdʒ/
+      pattern_reasoning: 全字構造包含 PAT-11 (Palatalization / Complex Combination)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R011 規則
+      ipa_conclusion: 最終標準發音對應 IPA /brɪdʒ/
+    confidence: 100
+    reasoning_summary: bridge 音節拆解 [bridge] 重音 0 Rule R011 Pattern PAT-11 IPA /brɪdʒ/
+  - index: 16
+    word: believe
+    pos: v.
+    chinese: 相信
+    syllable:
+      - be
+      - lieve
+    ipa: /bɪˈliːv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: be
+        syllable: be
+        ipa: /bɪ/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: lieve
+        syllable: lieve
+        ipa: /liːv/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: e
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: be
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /bɪ/
+        rule_id: R017
+        ipa: /bɪ/
+      - syllable_index: 1
+        syllable: lieve
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ie 字母組合，發長母音 /iː/，靜音 e 不發音
+        rule_id: R004
+        ipa: /liːv/
+    rule_mapping:
+      - R017
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /iː/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [be] 對應 PAT-12 (Prefix Combination) 發 /bɪ/；音節 1 [lieve]
+        對應 PAT-04 (Vowel Team) 發 /liːv/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /bɪˈliːv/
+    confidence: 100
+    reasoning_summary: believe 音節拆解 [be · lieve] 重音 1 Rule R017,R004,R012 Pattern
+      PAT-12,PAT-04 IPA /bɪˈliːv/
+  - index: 17
+    word: convince
+    pos: v.
+    chinese: 說服；使相信
+    syllable:
+      - con
+      - vince
+    ipa: /kənˈvɪns/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: con
+        syllable: con
+        ipa: /kən/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: vince
+        syllable: vince
+        ipa: /vɪns/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: o
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: con
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /kən/
+        rule_id: R017
+        ipa: /kən/
+      - syllable_index: 1
+        syllable: vince
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，i 發短母音 /ɪ/，c 逢 e 發 /s/
+        rule_id: R001
+        ipa: /vɪns/
+    rule_mapping:
+      - R017
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /ɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [con] 對應 PAT-12 (Prefix Combination) 發 /kən/；音節 1
+        [vince] 對應 PAT-02 (Closed Syllable) 發 /vɪns/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-02 (Closed Syllable)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /kənˈvɪns/
+    confidence: 100
+    reasoning_summary: convince 音節拆解 [con · vince] 重音 1 Rule R017,R001,R012 Pattern
+      PAT-12,PAT-02 IPA /kənˈvɪns/
+  - index: 18
+    word: associate
+    pos: v.
+    chinese: 聯想；關聯
+    syllable:
+      - as
+      - so
+      - ci
+      - ate
+    ipa: /əˈsoʊ.ʃi.eɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: as
+        syllable: as
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: so
+        syllable: so
+        ipa: /soʊ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 2
+        syllable_text: ci
+        syllable: ci
+        ipa: /ʃi/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+      - syllable_index: 3
+        syllable_text: ate
+        syllable: ate
+        ipa: /eɪt/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 3
+          original_vowel: a
+          reduced_ipa: /ɪ/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: as
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: so
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 次重讀/重讀開音節，o 發 /soʊ/
+        rule_id: R002
+        ipa: /soʊ/
+      - syllable_index: 2
+        syllable: ci
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: ci 在母音前軟化發 /ʃi/
+        rule_id: R005
+        ipa: /ʃi/
+      - syllable_index: 3
+        syllable: ate
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /eɪt/
+        rule_id: R008
+        ipa: /eɪt/
+    rule_mapping:
+      - R017
+      - R008
+      - R002
+      - R005
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/, /ɪ/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ATE
+        name: -ate Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [as] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [so] 對應
+        PAT-03 (Open Syllable) 發 /soʊ/；音節 2 [ci] 對應 PAT-05 (R-Controlled Vowel)
+        發 /ʃi/；音節 3 [ate] 對應 PAT-08 (Unstressed Reduction) 發 /eɪt/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-03 (Open Syllable) +
+        PAT-05 (R-Controlled Vowel) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R002, R005, R012 規則（含多音節位移與弱化
+        R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈsoʊ.ʃi.eɪt/
+    confidence: 100
+    reasoning_summary: associate 音節拆解 [as · so · ci · ate] 重音 1 Rule
+      R017,R008,R002,R005,R012 Pattern PAT-12,PAT-03,PAT-05,PAT-08 IPA
+      /əˈsoʊ.ʃi.eɪt/
+  - index: 19
+    word: appreciate
+    pos: v.
+    chinese: 欣賞；感謝
+    syllable:
+      - ap
+      - pre
+      - ci
+      - ate
+    ipa: /əˈpriː.ʃi.eɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ap
+        syllable: ap
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: pre
+        syllable: pre
+        ipa: /priː/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 2
+        syllable_text: ci
+        syllable: ci
+        ipa: /ʃi/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+      - syllable_index: 3
+        syllable_text: ate
+        syllable: ate
+        ipa: /eɪt/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 3
+          original_vowel: a
+          reduced_ipa: /ɪ/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ap
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: pre
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，e 發長母音 /priː/
+        rule_id: R002
+        ipa: /priː/
+      - syllable_index: 2
+        syllable: ci
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: ci 在母音前軟化發 /ʃi/
+        rule_id: R005
+        ipa: /ʃi/
+      - syllable_index: 3
+        syllable: ate
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /eɪt/
+        rule_id: R008
+        ipa: /eɪt/
+    rule_mapping:
+      - R017
+      - R008
+      - R002
+      - R005
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/, /ɪ/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ATE
+        name: -ate Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [ap] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [pre] 對應
+        PAT-03 (Open Syllable) 發 /priː/；音節 2 [ci] 對應 PAT-05 (R-Controlled Vowel)
+        發 /ʃi/；音節 3 [ate] 對應 PAT-08 (Unstressed Reduction) 發 /eɪt/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-03 (Open Syllable) +
+        PAT-05 (R-Controlled Vowel) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R008, R002, R005, R012 規則（含多音節位移與弱化
+        R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈpriː.ʃi.eɪt/
+    confidence: 100
+    reasoning_summary: appreciate 音節拆解 [ap · pre · ci · ate] 重音 1 Rule
+      R017,R008,R002,R005,R012 Pattern PAT-12,PAT-03,PAT-05,PAT-08 IPA
+      /əˈpriː.ʃi.eɪt/
+  - index: 20
+    word: appropriate
+    pos: adj.
+    chinese: 合適的
+    syllable:
+      - ap
+      - pro
+      - pri
+      - ate
+    ipa: /əˈproʊ.pri.ət/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ap
+        syllable: ap
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: pro
+        syllable: pro
+        ipa: /proʊ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R010
+      - syllable_index: 2
+        syllable_text: pri
+        syllable: pri
+        ipa: /pri/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 3
+        syllable_text: ate
+        syllable: ate
+        ipa: /ət/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+        - syllable_index: 2
+          original_vowel: i
+          reduced_ipa: /ə/
+          rule_id: R008
+        - syllable_index: 3
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ap
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: pro
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，o 發長母音 /proʊ/
+        rule_id: R010
+        ipa: /proʊ/
+      - syllable_index: 2
+        syllable: pri
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /pri/
+        rule_id: R008
+        ipa: /pri/
+      - syllable_index: 3
+        syllable: ate
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ət/
+        rule_id: R008
+        ipa: /ət/
+    rule_mapping:
+      - R010
+      - R017
+      - R008
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /oʊ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 3
+      suffix_family:
+        id: SUF-FAM-ATE
+        name: -ate Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: 形容詞字尾 -ate 弱化發 /ət/
+    reasoning:
+      syllable_reasoning: 音節 0 [ap] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [pro] 對應
+        PAT-03 (Open Syllable) 發 /proʊ/；音節 2 [pri] 對應 PAT-08 (Unstressed
+        Reduction) 發 /pri/；音節 3 [ate] 對應 PAT-08 (Unstressed Reduction) 發 /ət/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-03 (Open Syllable) +
+        PAT-08 (Unstressed Reduction) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R017, R008, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈproʊ.pri.ət/
+    confidence: 100
+    reasoning_summary: appropriate 音節拆解 [ap · pro · pri · ate] 重音 1 Rule
+      R010,R017,R008,R012 Pattern PAT-12,PAT-03,PAT-08 IPA /əˈproʊ.pri.ət/
+  - index: 21
+    word: come
+    pos: v.
+    chinese: 來；到達
+    syllable:
+      - come
+    ipa: /kʌm/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: come
+        syllable: come
+        ipa: /kʌm/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: come
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: Magic e 結構例外（未發長母音 /oʊ/，而是發短母音 /ʌ/）
+        rule_id: R010
+        ipa: /kʌm/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ʌ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-04
+      note: o_e 例外發短母音 /ʌ/
+    reasoning:
+      syllable_reasoning: 音節 0 [come] 對應 PAT-01 (Magic e) 發 /kʌm/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010 規則
+      ipa_conclusion: 最終標準發音對應 IPA /kʌm/
+    confidence: 100
+    reasoning_summary: come 音節拆解 [come] 重音 0 Rule R010 Pattern PAT-01 IPA /kʌm/
+  - index: 22
+    word: love
+    pos: v.
+    chinese: 愛；喜愛
+    syllable:
+      - love
+    ipa: /lʌv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: love
+        syllable: love
+        ipa: /lʌv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: love
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: Magic e 結構例外（未發長母音 /oʊ/，而是發短母音 /ʌ/）
+        rule_id: R010
+        ipa: /lʌv/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ʌ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-04
+      note: o_e 例外發短母音 /ʌ/
+    reasoning:
+      syllable_reasoning: 音節 0 [love] 對應 PAT-01 (Magic e) 發 /lʌv/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010 規則
+      ipa_conclusion: 最終標準發音對應 IPA /lʌv/
+    confidence: 100
+    reasoning_summary: love 音節拆解 [love] 重音 0 Rule R010 Pattern PAT-01 IPA /lʌv/
+  - index: 23
+    word: some
+    pos: adj.
+    chinese: 一些；若干
+    syllable:
+      - some
+    ipa: /sʌm/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: some
+        syllable: some
+        ipa: /sʌm/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: some
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: Magic e 結構例外（未發長母音 /oʊ/，而是發短母音 /ʌ/）
+        rule_id: R010
+        ipa: /sʌm/
+    rule_mapping:
+      - R010
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ʌ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-04
+      note: o_e 例外發短母音 /ʌ/
+    reasoning:
+      syllable_reasoning: 音節 0 [some] 對應 PAT-01 (Magic e) 發 /sʌm/
+      pattern_reasoning: 全字構造包含 PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010 規則
+      ipa_conclusion: 最終標準發音對應 IPA /sʌm/
+    confidence: 100
+    reasoning_summary: some 音節拆解 [some] 重音 0 Rule R010 Pattern PAT-01 IPA /sʌm/
+  - index: 24
+    word: above
+    pos: prep.
+    chinese: 在...上方
+    syllable:
+      - a
+      - bove
+    ipa: /əˈbʌv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: a
+        syllable: a
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: bove
+        syllable: bove
+        ipa: /bʌv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: a
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: bove
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: o_e 例外，重讀音節母音 o 發短母音 /ʌ/
+        rule_id: R010
+        ipa: /bʌv/
+    rule_mapping:
+      - R010
+      - R017
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ʌ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-04
+      note: o_e 例外發短母音 /ʌ/
+    reasoning:
+      syllable_reasoning: 音節 0 [a] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [bove] 對應
+        PAT-01 (Magic e) 發 /bʌv/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R017, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈbʌv/
+    confidence: 100
+    reasoning_summary: above 音節拆解 [a · bove] 重音 1 Rule R010,R017,R012 Pattern
+      PAT-12,PAT-01 IPA /əˈbʌv/
+  - index: 25
+    word: dialogue
+    pos: n.
+    chinese: 對話
+    syllable:
+      - di
+      - a
+      - logue
+    ipa: /ˈdaɪ.ə.lɑːɡ/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: di
+        syllable: di
+        ipa: /daɪ/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R010
+      - syllable_index: 1
+        syllable_text: a
+        syllable: a
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 2
+        syllable_text: logue
+        syllable: logue
+        ipa: /lɑːɡ/
+        stress: unstressed
+        pattern_id: PAT-11
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: di
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀開音節，i 發長母音 /daɪ/
+        rule_id: R010
+        ipa: /daɪ/
+      - syllable_index: 1
+        syllable: a
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R008
+        ipa: /ə/
+      - syllable_index: 2
+        syllable: logue
+        pattern_id: PAT-11
+        pattern: Palatalization / Complex Combination
+        condition: -gue 字尾，ue 不發音，g 發硬音 /ɡ/
+        rule_id: R010
+        ipa: /lɑːɡ/
+    rule_mapping:
+      - R010
+      - R008
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: 字尾 -gue 中 ue 不發音
+    reasoning:
+      syllable_reasoning: 音節 0 [di] 對應 PAT-03 (Open Syllable) 發 /daɪ/；音節 1 [a] 對應
+        PAT-08 (Unstressed Reduction) 發 /ə/；音節 2 [logue] 對應 PAT-11
+        (Palatalization / Complex Combination) 發 /lɑːɡ/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable) + PAT-08 (Unstressed Reduction)
+        + PAT-11 (Palatalization / Complex Combination)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010, R008, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈdaɪ.ə.lɑːɡ/
+    confidence: 100
+    reasoning_summary: dialogue 音節拆解 [di · a · logue] 重音 0 Rule R010,R008,R012
+      Pattern PAT-03,PAT-08,PAT-11 IPA /ˈdaɪ.ə.lɑːɡ/
+  - index: 26
+    word: dissolve
+    pos: v.
+    chinese: 溶解；分解
+    syllable:
+      - dis
+      - solve
+    ipa: /dɪˈzɑːlv/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: dis
+        syllable: dis
+        ipa: /dɪ/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: solve
+        syllable: solve
+        ipa: /zɑːlv/
+        stress: primary
+        pattern_id: PAT-01
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: i
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: dis
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /dɪ/
+        rule_id: R017
+        ipa: /dɪ/
+      - syllable_index: 1
+        syllable: solve
+        pattern_id: PAT-01
+        pattern: Magic e
+        condition: 重讀閉音節，o 發短母音 /ɑː/，s 發濁音 /z/
+        rule_id: R010
+        ipa: /zɑːlv/
+    rule_mapping:
+      - R010
+      - R017
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-01
+        name: Magic e Family
+      sound_family:
+        primary_sound: /ɑː/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: s 在母音間發濁音 /z/
+    reasoning:
+      syllable_reasoning: 音節 0 [dis] 對應 PAT-12 (Prefix Combination) 發 /dɪ/；音節 1
+        [solve] 對應 PAT-01 (Magic e) 發 /zɑːlv/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-01 (Magic e)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R017, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /dɪˈzɑːlv/
+    confidence: 100
+    reasoning_summary: dissolve 音節拆解 [dis · solve] 重音 1 Rule R010,R017,R012 Pattern
+      PAT-12,PAT-01 IPA /dɪˈzɑːlv/
+  - index: 27
+    word: bruise
+    pos: n.
+    chinese: 瘀傷；擦傷
+    syllable:
+      - bruise
+    ipa: /bruːz/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: bruise
+        syllable: bruise
+        ipa: /bruːz/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: bruise
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: ui 字母組合發長母音 /uː/，字尾 s 發濁音 /z/
+        rule_id: R004
+        ipa: /bruːz/
+    rule_mapping:
+      - R004
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /uː/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Monosyllabic
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-03
+        stage: 雙母音與複合字音
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [bruise] 對應 PAT-04 (Vowel Team) 發 /bruːz/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R004 規則
+      ipa_conclusion: 最終標準發音對應 IPA /bruːz/
+    confidence: 100
+    reasoning_summary: bruise 音節拆解 [bruise] 重音 0 Rule R004 Pattern PAT-04 IPA /bruːz/
+  - index: 28
+    word: adequate
+    pos: adj.
+    chinese: 足夠的；適當的
+    syllable:
+      - ad
+      - e
+      - quate
+    ipa: /ˈæd.ə.kwət/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: ad
+        syllable: ad
+        ipa: /æd/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R010
+      - syllable_index: 1
+        syllable_text: e
+        syllable: e
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 2
+        syllable_text: quate
+        syllable: quate
+        ipa: /kwət/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: e
+          reduced_ipa: /ə/
+          rule_id: R008
+        - syllable_index: 2
+          original_vowel: u
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: ad
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，a 發短母音 /æ/
+        rule_id: R010
+        ipa: /æd/
+      - syllable_index: 1
+        syllable: e
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R008
+        ipa: /ə/
+      - syllable_index: 2
+        syllable: quate
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /kwət/
+        rule_id: R008
+        ipa: /kwət/
+    rule_mapping:
+      - R010
+      - R008
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 2
+      suffix_family:
+        id: SUF-FAM-ATE
+        name: -ate Suffix Family
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: 形容詞字尾 -ate 弱化發 /ət/
+    reasoning:
+      syllable_reasoning: 音節 0 [ad] 對應 PAT-02 (Closed Syllable) 發 /æd/；音節 1 [e] 對應
+        PAT-08 (Unstressed Reduction) 發 /ə/；音節 2 [quate] 對應 PAT-08 (Unstressed
+        Reduction) 發 /kwət/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-08 (Unstressed
+        Reduction) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010, R008, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈæd.ə.kwət/
+    confidence: 100
+    reasoning_summary: adequate 音節拆解 [ad · e · quate] 重音 0 Rule R010,R008,R012
+      Pattern PAT-02,PAT-08 IPA /ˈæd.ə.kwət/
+  - index: 29
+    word: disguise
+    pos: v.
+    chinese: 偽裝；喬裝
+    syllable:
+      - dis
+      - guise
+    ipa: /dɪsˈɡaɪz/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: dis
+        syllable: dis
+        ipa: /dɪs/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: guise
+        syllable: guise
+        ipa: /ɡaɪz/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: i
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: dis
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /dɪs/
+        rule_id: R017
+        ipa: /dɪs/
+      - syllable_index: 1
+        syllable: guise
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: gu 中 u 為硬音標示不發音，i_e 發長母音 /aɪ/，s 發 /z/
+        rule_id: R010
+        ipa: /ɡaɪz/
+    rule_mapping:
+      - R010
+      - R017
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: gu 中 u 保障 g 發硬音 /ɡ/ 而不發音
+    reasoning:
+      syllable_reasoning: 音節 0 [dis] 對應 PAT-12 (Prefix Combination) 發 /dɪs/；音節 1
+        [guise] 對應 PAT-04 (Vowel Team) 發 /ɡaɪz/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R017, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /dɪsˈɡaɪz/
+    confidence: 100
+    reasoning_summary: disguise 音節拆解 [dis · guise] 重音 1 Rule R010,R017,R012 Pattern
+      PAT-12,PAT-04 IPA /dɪsˈɡaɪz/
+  - index: 30
+    word: again
+    pos: adv.
+    chinese: 再次；重新
+    syllable:
+      - a
+      - gain
+    ipa: /əˈɡen/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: a
+        syllable: a
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: gain
+        syllable: gain
+        ipa: /ɡen/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: a
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: gain
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: ai 通常發長母音 /eɪ/，但在 again 中習慣發短母音 /e/
+        rule_id: R010
+        ipa: /ɡen/
+    rule_mapping:
+      - R010
+      - R017
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: ai 發短母音 /e/ (不規則發音)
+    reasoning:
+      syllable_reasoning: 音節 0 [a] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [gain] 對應
+        PAT-04 (Vowel Team) 發 /ɡen/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R017, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈɡen/
+    confidence: 100
+    reasoning_summary: again 音節拆解 [a · gain] 重音 1 Rule R010,R017,R012 Pattern
+      PAT-12,PAT-04 IPA /əˈɡen/
+  - index: 31
+    word: await
+    pos: v.
+    chinese: 等待
+    syllable:
+      - a
+      - wait
+    ipa: /əˈweɪt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: a
+        syllable: a
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: wait
+        syllable: wait
+        ipa: /weɪt/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: a
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: wait
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ai 字母組合，發長母音 /eɪ/
+        rule_id: R004
+        ipa: /weɪt/
+    rule_mapping:
+      - R017
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [a] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [wait] 對應
+        PAT-04 (Vowel Team) 發 /weɪt/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈweɪt/
+    confidence: 100
+    reasoning_summary: await 音節拆解 [a · wait] 重音 1 Rule R017,R004,R012 Pattern
+      PAT-12,PAT-04 IPA /əˈweɪt/
+  - index: 32
+    word: daily
+    pos: adj.
+    chinese: 每日的；日常地
+    syllable:
+      - dai
+      - ly
+    ipa: /ˈdeɪ.li/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: dai
+        syllable: dai
+        ipa: /deɪ/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+      - syllable_index: 1
+        syllable_text: ly
+        syllable: ly
+        ipa: /li/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: y
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: dai
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ai 組合，發長母音 /deɪ/
+        rule_id: R004
+        ipa: /deɪ/
+      - syllable_index: 1
+        syllable: ly
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /li/
+        rule_id: R008
+        ipa: /li/
+    rule_mapping:
+      - R008
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [dai] 對應 PAT-04 (Vowel Team) 發 /deɪ/；音節 1 [ly] 對應
+        PAT-08 (Unstressed Reduction) 發 /li/
+      pattern_reasoning: 全字構造包含 PAT-04 (Vowel Team) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈdeɪ.li/
+    confidence: 100
+    reasoning_summary: daily 音節拆解 [dai · ly] 重音 0 Rule R008,R004,R012 Pattern
+      PAT-04,PAT-08 IPA /ˈdeɪ.li/
+  - index: 33
+    word: dairy
+    pos: n.
+    chinese: 乳製品；牛奶的
+    syllable:
+      - dair
+      - y
+    ipa: /ˈder.i/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: dair
+        syllable: dair
+        ipa: /der/
+        stress: primary
+        pattern_id: PAT-13
+        rule_id: R016
+      - syllable_index: 1
+        syllable_text: y
+        syllable: y
+        ipa: /i/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: y
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: dair
+        pattern_id: PAT-13
+        pattern: Air / Rhyming Combination
+        condition: 重讀 air 組合，發 /der/
+        rule_id: R016
+        ipa: /der/
+      - syllable_index: 1
+        syllable: y
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /i/
+        rule_id: R008
+        ipa: /i/
+    rule_mapping:
+      - R008
+      - R016
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-13
+        name: Air Rhyming Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [dair] 對應 PAT-13 (Air / Rhyming Combination) 發 /der/；音節
+        1 [y] 對應 PAT-08 (Unstressed Reduction) 發 /i/
+      pattern_reasoning: 全字構造包含 PAT-13 (Air / Rhyming Combination) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R016, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈder.i/
+    confidence: 100
+    reasoning_summary: dairy 音節拆解 [dair · y] 重音 0 Rule R008,R016,R012 Pattern
+      PAT-13,PAT-08 IPA /ˈder.i/
+  - index: 34
+    word: affair
+    pos: n.
+    chinese: 事務；事件
+    syllable:
+      - af
+      - fair
+    ipa: /əˈfer/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: af
+        syllable: af
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+      - syllable_index: 1
+        syllable_text: fair
+        syllable: fair
+        ipa: /fer/
+        stress: primary
+        pattern_id: PAT-13
+        rule_id: R016
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: af
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R008
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: fair
+        pattern_id: PAT-13
+        pattern: Air / Rhyming Combination
+        condition: 重讀 air 組合，發 /fer/
+        rule_id: R016
+        ipa: /fer/
+    rule_mapping:
+      - R008
+      - R016
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-13
+        name: Air Rhyming Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [af] 對應 PAT-08 (Unstressed Reduction) 發 /ə/；音節 1 [fair]
+        對應 PAT-13 (Air / Rhyming Combination) 發 /fer/
+      pattern_reasoning: 全字構造包含 PAT-08 (Unstressed Reduction) + PAT-13 (Air / Rhyming Combination)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R008, R016, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈfer/
+    confidence: 100
+    reasoning_summary: affair 音節拆解 [af · fair] 重音 1 Rule R008,R016,R012 Pattern
+      PAT-08,PAT-13 IPA /əˈfer/
+  - index: 35
+    word: afraid
+    pos: adj.
+    chinese: 害怕的
+    syllable:
+      - a
+      - fraid
+    ipa: /əˈfreɪd/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: a
+        syllable: a
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: fraid
+        syllable: fraid
+        ipa: /freɪd/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: a
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: fraid
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ai 組合，發長母音 /freɪd/
+        rule_id: R004
+        ipa: /freɪd/
+    rule_mapping:
+      - R017
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [a] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [fraid]
+        對應 PAT-04 (Vowel Team) 發 /freɪd/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈfreɪd/
+    confidence: 100
+    reasoning_summary: afraid 音節拆解 [a · fraid] 重音 1 Rule R017,R004,R012 Pattern
+      PAT-12,PAT-04 IPA /əˈfreɪd/
+  - index: 36
+    word: attain
+    pos: v.
+    chinese: 達到；獲得
+    syllable:
+      - at
+      - tain
+    ipa: /əˈteɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: at
+        syllable: at
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: tain
+        syllable: tain
+        ipa: /teɪn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: at
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: tain
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ai 組合，發長母音 /teɪn/
+        rule_id: R004
+        ipa: /teɪn/
+    rule_mapping:
+      - R017
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [at] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [tain]
+        對應 PAT-04 (Vowel Team) 發 /teɪn/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈteɪn/
+    confidence: 100
+    reasoning_summary: attain 音節拆解 [at · tain] 重音 1 Rule R017,R004,R012 Pattern
+      PAT-12,PAT-04 IPA /əˈteɪn/
+  - index: 37
+    word: detail
+    pos: n.
+    chinese: 細節
+    syllable:
+      - de
+      - tail
+    ipa: /ˈdiː.teɪl/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: de
+        syllable: de
+        ipa: /diː/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 1
+        syllable_text: tail
+        syllable: tail
+        ipa: /teɪl/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ɪ/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: de
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀字首 de-，發長母音 /diː/
+        rule_id: R002
+        ipa: /diː/
+      - syllable_index: 1
+        syllable: tail
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /teɪl/
+        rule_id: R008
+        ipa: /teɪl/
+    rule_mapping:
+      - R008
+      - R002
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ɪ/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [de] 對應 PAT-03 (Open Syllable) 發 /diː/；音節 1 [tail] 對應
+        PAT-08 (Unstressed Reduction) 發 /teɪl/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R002, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈdiː.teɪl/
+    confidence: 100
+    reasoning_summary: detail 音節拆解 [de · tail] 重音 0 Rule R008,R002,R012 Pattern
+      PAT-03,PAT-08 IPA /ˈdiː.teɪl/
+  - index: 38
+    word: detain
+    pos: v.
+    chinese: 拘留；留住
+    syllable:
+      - de
+      - tain
+    ipa: /dɪˈteɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: de
+        syllable: de
+        ipa: /dɪ/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: tain
+        syllable: tain
+        ipa: /teɪn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: e
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: de
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /dɪ/
+        rule_id: R017
+        ipa: /dɪ/
+      - syllable_index: 1
+        syllable: tain
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ai，發長母音 /teɪn/
+        rule_id: R004
+        ipa: /teɪn/
+    rule_mapping:
+      - R017
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [de] 對應 PAT-12 (Prefix Combination) 發 /dɪ/；音節 1 [tain]
+        對應 PAT-04 (Vowel Team) 發 /teɪn/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /dɪˈteɪn/
+    confidence: 100
+    reasoning_summary: detain 音節拆解 [de · tain] 重音 1 Rule R017,R004,R012 Pattern
+      PAT-12,PAT-04 IPA /dɪˈteɪn/
+  - index: 39
+    word: against
+    pos: prep.
+    chinese: 反對；對著
+    syllable:
+      - a
+      - gainst
+    ipa: /əˈɡenst/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: a
+        syllable: a
+        ipa: /ə/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: gainst
+        syllable: gainst
+        ipa: /ɡenst/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: a
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /ə/
+        rule_id: R017
+        ipa: /ə/
+      - syllable_index: 1
+        syllable: gainst
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: ai 在 against 中習慣發短母音 /e/
+        rule_id: R010
+        ipa: /ɡenst/
+    rule_mapping:
+      - R010
+      - R017
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: ai 發短母音 /e/ (不規則發音)
+    reasoning:
+      syllable_reasoning: 音節 0 [a] 對應 PAT-12 (Prefix Combination) 發 /ə/；音節 1 [gainst]
+        對應 PAT-04 (Vowel Team) 發 /ɡenst/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R017, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /əˈɡenst/
+    confidence: 100
+    reasoning_summary: against 音節拆解 [a · gainst] 重音 1 Rule R010,R017,R012 Pattern
+      PAT-12,PAT-04 IPA /əˈɡenst/
+  - index: 40
+    word: airline
+    pos: n.
+    chinese: 航空公司
+    syllable:
+      - air
+      - line
+    ipa: /ˈer.laɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: air
+        syllable: air
+        ipa: /er/
+        stress: primary
+        pattern_id: PAT-13
+        rule_id: R016
+      - syllable_index: 1
+        syllable_text: line
+        syllable: line
+        ipa: /laɪn/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: i
+          reduced_ipa: /ɪ/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: air
+        pattern_id: PAT-13
+        pattern: Air / Rhyming Combination
+        condition: 重讀 air 組合，發 /er/
+        rule_id: R016
+        ipa: /er/
+      - syllable_index: 1
+        syllable: line
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /laɪn/
+        rule_id: R008
+        ipa: /laɪn/
+    rule_mapping:
+      - R008
+      - R016
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-13
+        name: Air Rhyming Family
+      sound_family:
+        primary_sound: /aɪ/
+        reduced_sound: /ɪ/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [air] 對應 PAT-13 (Air / Rhyming Combination) 發 /er/；音節 1
+        [line] 對應 PAT-08 (Unstressed Reduction) 發 /laɪn/
+      pattern_reasoning: 全字構造包含 PAT-13 (Air / Rhyming Combination) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R016, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈer.laɪn/
+    confidence: 100
+    reasoning_summary: airline 音節拆解 [air · line] 重音 0 Rule R008,R016,R012 Pattern
+      PAT-13,PAT-08 IPA /ˈer.laɪn/
+  - index: 41
+    word: airport
+    pos: n.
+    chinese: 機場
+    syllable:
+      - air
+      - port
+    ipa: /ˈer.pɔːrt/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: air
+        syllable: air
+        ipa: /er/
+        stress: primary
+        pattern_id: PAT-13
+        rule_id: R016
+      - syllable_index: 1
+        syllable_text: port
+        syllable: port
+        ipa: /pɔːrt/
+        stress: unstressed
+        pattern_id: PAT-05
+        rule_id: R005
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: air
+        pattern_id: PAT-13
+        pattern: Air / Rhyming Combination
+        condition: 重讀 air 組合，發 /er/
+        rule_id: R016
+        ipa: /er/
+      - syllable_index: 1
+        syllable: port
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 次重讀 or 字母組合，發 /pɔːrt/
+        rule_id: R005
+        ipa: /pɔːrt/
+    rule_mapping:
+      - R016
+      - R005
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-13
+        name: Air Rhyming Family
+      sound_family:
+        primary_sound: /ɔː/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [air] 對應 PAT-13 (Air / Rhyming Combination) 發 /er/；音節 1
+        [port] 對應 PAT-05 (R-Controlled Vowel) 發 /pɔːrt/
+      pattern_reasoning: 全字構造包含 PAT-13 (Air / Rhyming Combination) + PAT-05 (R-Controlled Vowel)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R016, R005, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈer.pɔːrt/
+    confidence: 100
+    reasoning_summary: airport 音節拆解 [air · port] 重音 0 Rule R016,R005,R012 Pattern
+      PAT-13,PAT-05 IPA /ˈer.pɔːrt/
+  - index: 42
+    word: bargain
+    pos: n.
+    chinese: 討價還價；便宜貨
+    syllable:
+      - bar
+      - gain
+    ipa: /ˈbɑːr.ɡən/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: bar
+        syllable: bar
+        ipa: /bɑːr/
+        stress: primary
+        pattern_id: PAT-05
+        rule_id: R010
+      - syllable_index: 1
+        syllable_text: gain
+        syllable: gain
+        ipa: /ɡən/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: bar
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 重讀 ar 組合，發 /bɑːr/
+        rule_id: R010
+        ipa: /bɑːr/
+      - syllable_index: 1
+        syllable: gain
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /ɡən/
+        rule_id: R008
+        ipa: /ɡən/
+    rule_mapping:
+      - R010
+      - R008
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-05
+        name: R-Controlled Family
+      sound_family:
+        primary_sound: /ɑː/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: 非重讀字尾 -gain 弱化發 /ɡən/
+    reasoning:
+      syllable_reasoning: 音節 0 [bar] 對應 PAT-05 (R-Controlled Vowel) 發 /bɑːr/；音節 1
+        [gain] 對應 PAT-08 (Unstressed Reduction) 發 /ɡən/
+      pattern_reasoning: 全字構造包含 PAT-05 (R-Controlled Vowel) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010, R008, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈbɑːr.ɡən/
+    confidence: 100
+    reasoning_summary: bargain 音節拆解 [bar · gain] 重音 0 Rule R010,R008,R012 Pattern
+      PAT-05,PAT-08 IPA /ˈbɑːr.ɡən/
+  - index: 43
+    word: captain
+    pos: n.
+    chinese: 隊長；船長
+    syllable:
+      - cap
+      - tain
+    ipa: /ˈkæp.tən/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: cap
+        syllable: cap
+        ipa: /kæp/
+        stress: primary
+        pattern_id: PAT-02
+        rule_id: R010
+      - syllable_index: 1
+        syllable_text: tain
+        syllable: tain
+        ipa: /tən/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: cap
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 重讀閉音節，a 發短母音 /kæp/
+        rule_id: R010
+        ipa: /kæp/
+      - syllable_index: 1
+        syllable: tain
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /tən/
+        rule_id: R008
+        ipa: /tən/
+    rule_mapping:
+      - R010
+      - R008
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-02
+        name: Closed Syllable Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: 非重讀字尾 -tain 弱化發 /tən/
+    reasoning:
+      syllable_reasoning: 音節 0 [cap] 對應 PAT-02 (Closed Syllable) 發 /kæp/；音節 1 [tain]
+        對應 PAT-08 (Unstressed Reduction) 發 /tən/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010, R008, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈkæp.tən/
+    confidence: 100
+    reasoning_summary: captain 音節拆解 [cap · tain] 重音 0 Rule R010,R008,R012 Pattern
+      PAT-02,PAT-08 IPA /ˈkæp.tən/
+  - index: 44
+    word: contain
+    pos: v.
+    chinese: 包含；容納
+    syllable:
+      - con
+      - tain
+    ipa: /kənˈteɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: con
+        syllable: con
+        ipa: /kən/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: tain
+        syllable: tain
+        ipa: /teɪn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R004
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: o
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: con
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /kən/
+        rule_id: R017
+        ipa: /kən/
+      - syllable_index: 1
+        syllable: tain
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀音節 ai 組合，發長母音 /teɪn/
+        rule_id: R004
+        ipa: /teɪn/
+    rule_mapping:
+      - R017
+      - R004
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [con] 對應 PAT-12 (Prefix Combination) 發 /kən/；音節 1
+        [tain] 對應 PAT-04 (Vowel Team) 發 /teɪn/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R004, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /kənˈteɪn/
+    confidence: 100
+    reasoning_summary: contain 音節拆解 [con · tain] 重音 1 Rule R017,R004,R012 Pattern
+      PAT-12,PAT-04 IPA /kənˈteɪn/
+  - index: 45
+    word: curtain
+    pos: n.
+    chinese: 窗簾
+    syllable:
+      - cur
+      - tain
+    ipa: /ˈkɜːr.tn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: cur
+        syllable: cur
+        ipa: /kɜːr/
+        stress: primary
+        pattern_id: PAT-05
+        rule_id: R010
+      - syllable_index: 1
+        syllable_text: tain
+        syllable: tain
+        ipa: /tn/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ə/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: cur
+        pattern_id: PAT-05
+        pattern: R-Controlled Vowel
+        condition: 重讀 ur 組合，發 /kɜːr/
+        rule_id: R010
+        ipa: /kɜːr/
+      - syllable_index: 1
+        syllable: tain
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /tn/
+        rule_id: R008
+        ipa: /tn/
+    rule_mapping:
+      - R010
+      - R008
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-05
+        name: R-Controlled Family
+      sound_family:
+        primary_sound: /ɝː/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: 非重讀字尾 -tain 弱化為成節音 /tn/
+    reasoning:
+      syllable_reasoning: 音節 0 [cur] 對應 PAT-05 (R-Controlled Vowel) 發 /kɜːr/；音節 1
+        [tain] 對應 PAT-08 (Unstressed Reduction) 發 /tn/
+      pattern_reasoning: 全字構造包含 PAT-05 (R-Controlled Vowel) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R010, R008, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈkɜːr.tn/
+    confidence: 100
+    reasoning_summary: curtain 音節拆解 [cur · tain] 重音 0 Rule R010,R008,R012 Pattern
+      PAT-05,PAT-08 IPA /ˈkɜːr.tn/
+  - index: 46
+    word: despair
+    pos: n.
+    chinese: 絕望
+    syllable:
+      - de
+      - spair
+    ipa: /dɪˈsper/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: de
+        syllable: de
+        ipa: /dɪ/
+        stress: unstressed
+        pattern_id: PAT-12
+        rule_id: R017
+      - syllable_index: 1
+        syllable_text: spair
+        syllable: spair
+        ipa: /sper/
+        stress: primary
+        pattern_id: PAT-13
+        rule_id: R016
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 0
+          original_vowel: e
+          reduced_ipa: /ə/
+          rule_id: R017
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: de
+        pattern_id: PAT-12
+        pattern: Prefix Combination
+        condition: 非重讀音節，母音弱化發 /dɪ/
+        rule_id: R017
+        ipa: /dɪ/
+      - syllable_index: 1
+        syllable: spair
+        pattern_id: PAT-13
+        pattern: Air / Rhyming Combination
+        condition: 重讀 air 組合，發 /sper/
+        rule_id: R016
+        ipa: /sper/
+    rule_mapping:
+      - R017
+      - R016
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-13
+        name: Air Rhyming Family
+      sound_family:
+        primary_sound: /e/
+        reduced_sound: /ə/
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [de] 對應 PAT-12 (Prefix Combination) 發 /dɪ/；音節 1 [spair]
+        對應 PAT-13 (Air / Rhyming Combination) 發 /sper/
+      pattern_reasoning: 全字構造包含 PAT-12 (Prefix Combination) + PAT-13 (Air / Rhyming Combination)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R017, R016, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /dɪˈsper/
+    confidence: 100
+    reasoning_summary: despair 音節拆解 [de · spair] 重音 1 Rule R017,R016,R012 Pattern
+      PAT-12,PAT-13 IPA /dɪˈsper/
+  - index: 47
+    word: aircraft
+    pos: n.
+    chinese: 航空器；飛機
+    syllable:
+      - air
+      - craft
+    ipa: /ˈer.kræft/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: air
+        syllable: air
+        ipa: /er/
+        stress: primary
+        pattern_id: PAT-13
+        rule_id: R016
+      - syllable_index: 1
+        syllable_text: craft
+        syllable: craft
+        ipa: /kræft/
+        stress: unstressed
+        pattern_id: PAT-02
+        rule_id: R001
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: air
+        pattern_id: PAT-13
+        pattern: Air / Rhyming Combination
+        condition: 重讀 air 組合，發 /er/
+        rule_id: R016
+        ipa: /er/
+      - syllable_index: 1
+        syllable: craft
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 次重讀閉音節，a 發短母音 /kræft/
+        rule_id: R001
+        ipa: /kræft/
+    rule_mapping:
+      - R016
+      - R001
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-13
+        name: Air Rhyming Family
+      sound_family:
+        primary_sound: /æ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [air] 對應 PAT-13 (Air / Rhyming Combination) 發 /er/；音節 1
+        [craft] 對應 PAT-02 (Closed Syllable) 發 /kræft/
+      pattern_reasoning: 全字構造包含 PAT-13 (Air / Rhyming Combination) + PAT-02 (Closed Syllable)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R016, R001, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈer.kræft/
+    confidence: 100
+    reasoning_summary: aircraft 音節拆解 [air · craft] 重音 0 Rule R016,R001,R012 Pattern
+      PAT-13,PAT-02 IPA /ˈer.kræft/
+  - index: 48
+    word: campaign
+    pos: n.
+    chinese: 活動；戰役
+    syllable:
+      - cam
+      - paign
+    ipa: /kæmˈpeɪn/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: cam
+        syllable: cam
+        ipa: /kæm/
+        stress: unstressed
+        pattern_id: PAT-02
+        rule_id: R010
+      - syllable_index: 1
+        syllable_text: paign
+        syllable: paign
+        ipa: /peɪn/
+        stress: primary
+        pattern_id: PAT-04
+        rule_id: R010
+    stress:
+      primary_stress_syllable_index: 1
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions: []
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: cam
+        pattern_id: PAT-02
+        pattern: Closed Syllable
+        condition: 次重讀閉音節，a 發短母音 /kæm/
+        rule_id: R010
+        ipa: /kæm/
+      - syllable_index: 1
+        syllable: paign
+        pattern_id: PAT-04
+        pattern: Vowel Team
+        condition: 重讀 aign 組合，g 不發音，ai 發長母音 /peɪn/
+        rule_id: R010
+        ipa: /peɪn/
+    rule_mapping:
+      - R010
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-04
+        name: Vowel Team Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: null
+      stress_family:
+        primary_stress_index: 1
+        type: Non-initial Stress
+      reduction_family:
+        type: None
+        count: 0
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-05
+        stage: 特殊例外
+    exception_check:
+      is_exception: true
+      exception_id: EXC-10
+      note: g 字母靜音不發音
+    reasoning:
+      syllable_reasoning: 音節 0 [cam] 對應 PAT-02 (Closed Syllable) 發 /kæm/；音節 1 [paign]
+        對應 PAT-04 (Vowel Team) 發 /peɪn/
+      pattern_reasoning: 全字構造包含 PAT-02 (Closed Syllable) + PAT-04 (Vowel Team)
+      rule_reasoning: 主重音位於第 1 音節，全字套用 R010, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /kæmˈpeɪn/
+    confidence: 100
+    reasoning_summary: campaign 音節拆解 [cam · paign] 重音 1 Rule R010,R012 Pattern
+      PAT-02,PAT-04 IPA /kæmˈpeɪn/
+  - index: 49
+    word: detailed
+    pos: adj.
+    chinese: 詳細的
+    syllable:
+      - de
+      - tailed
+    ipa: /ˈdiː.teɪld/
+    syllable_ipa:
+      - syllable_index: 0
+        syllable_text: de
+        syllable: de
+        ipa: /diː/
+        stress: primary
+        pattern_id: PAT-03
+        rule_id: R002
+      - syllable_index: 1
+        syllable_text: tailed
+        syllable: tailed
+        ipa: /teɪld/
+        stress: unstressed
+        pattern_id: PAT-08
+        rule_id: R008
+    stress:
+      primary_stress_syllable_index: 0
+      secondary_stress_syllable_indexes: []
+      unstressed_reductions:
+        - syllable_index: 1
+          original_vowel: a
+          reduced_ipa: /ɪ/
+          rule_id: R008
+    pattern_mapping:
+      - syllable_index: 0
+        syllable: de
+        pattern_id: PAT-03
+        pattern: Open Syllable
+        condition: 重讀字首 de-，發長母音 /diː/
+        rule_id: R002
+        ipa: /diː/
+      - syllable_index: 1
+        syllable: tailed
+        pattern_id: PAT-08
+        pattern: Unstressed Reduction
+        condition: 非重讀音節，母音弱化發 /teɪld/
+        rule_id: R008
+        ipa: /teɪld/
+    rule_mapping:
+      - R008
+      - R002
+      - R012
+    family_mapping:
+      pattern_family:
+        id: PAT-FAM-03
+        name: Open Syllable Family
+      sound_family:
+        primary_sound: /eɪ/
+        reduced_sound: /ɪ/
+      stress_family:
+        primary_stress_index: 0
+        type: Initial Stress
+      reduction_family:
+        type: Schwa Reduction
+        count: 1
+      suffix_family: null
+      word_family: null
+      learning_family:
+        id: STAGE-04
+        stage: 多音節母音弱化與字尾
+    exception_check:
+      is_exception: false
+      exception_id: null
+      note: null
+    reasoning:
+      syllable_reasoning: 音節 0 [de] 對應 PAT-03 (Open Syllable) 發 /diː/；音節 1 [tailed] 對應
+        PAT-08 (Unstressed Reduction) 發 /teɪld/
+      pattern_reasoning: 全字構造包含 PAT-03 (Open Syllable) + PAT-08 (Unstressed Reduction)
+      rule_reasoning: 主重音位於第 0 音節，全字套用 R008, R002, R012 規則（含多音節位移與弱化 R008/R012/R017）
+      ipa_conclusion: 最終標準發音對應 IPA /ˈdiː.teɪld/
+    confidence: 100
+    reasoning_summary: detailed 音節拆解 [de · tailed] 重音 0 Rule R008,R002,R012 Pattern
+      PAT-03,PAT-08 IPA /ˈdiː.teɪld/

@@ -1,0 +1,34 @@
+version: "1.0"
+
+name:
+  IPA Generation Processor
+
+
+input:
+
+  syllable:
+    required: true
+
+  stress:
+    required: true
+
+  rule_mapping:
+    required: true
+
+
+process:
+
+  - apply_pattern_sound
+
+  - apply_stress_marker
+
+  - apply_unstressed_reduction
+
+  - combine_phonemes
+
+
+output:
+
+  ipa:
+    format:
+      IPA_STANDARD

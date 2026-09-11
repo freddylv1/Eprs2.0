@@ -1,0 +1,15 @@
+version: "1.0.0"
+layer_name: "EPRS Validation History Log"
+description: "記錄歷次 MOE 1200 批次推論與合規性驗證之歷史紀錄"
+
+history_records:
+  - run_id: "RUN-20260806-001"
+    timestamp: "2026-08-06T00:00:00Z"
+    target_dataset: "MOE 1200 Source (1~1200)"
+    mode: "OFFLINE_NO_AI"
+    total_processed: 1200
+    gold_count: 1200
+    silver_count: 0
+    fail_count: 0
+    pass_rate: "100%"
+    remarks: "Initial 1200 words full offline benchmark completed with 100% GOLD pass."

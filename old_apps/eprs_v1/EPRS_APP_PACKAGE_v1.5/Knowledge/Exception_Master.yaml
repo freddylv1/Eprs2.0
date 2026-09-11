@@ -1,0 +1,402 @@
+version: "1.0"
+
+schema_name: EPRS Exception Master Schema
+
+
+system_role:
+
+  name: Exception Master
+
+  purpose: >
+    管理無法由一般發音規則直接推導的單字，
+    並分類其例外原因。
+
+
+core_principles:
+
+
+  - id: EXM001
+
+    name: Exception Minimalization
+
+    description:
+      僅在 Rule + Context 無法合理推導時使用例外。
+
+
+  - id: EXM002
+
+    name: Explain Exception
+
+    description:
+      每個例外必須具有原因，而非單純標記。
+
+
+  - id: EXM003
+
+    name: Learn By Family
+
+    description:
+      相似例外應建立家族模式。
+
+
+
+# ==================================
+# Exception Category
+# ==================================
+
+
+exception_categories:
+
+
+  EXC-TYPE-001:
+
+    name: Historical Pronunciation
+
+    description:
+      拼字保留歷史形式，但現代發音改變。
+
+    examples:
+
+      - have
+
+      - give
+
+      - love
+
+
+  EXC-TYPE-002:
+
+    name: Silent Letter
+
+    description:
+      字母存在但不發音。
+
+    examples:
+
+      - know
+
+      - sign
+
+      - doubt
+
+
+  EXC-TYPE-003:
+
+    name: Irregular Vowel
+
+    description:
+      母音發音不符合一般 Pattern。
+
+    examples:
+
+      - one
+
+      - women
+
+      - said
+
+
+  EXC-TYPE-004:
+
+    name: Stress Exception
+
+    description:
+      重音位置不符合一般推論。
+
+    examples:
+
+      - record
+
+      - present
+
+
+  EXC-TYPE-005:
+
+    name: Borrowed Word
+
+    description:
+      外來語保留原語發音。
+
+    examples:
+
+      - ballet
+
+      - genre
+
+
+  EXC-TYPE-006:
+
+    name: Reduced Historical Form
+
+    description:
+      非重讀環境形成特殊弱化。
+
+    examples:
+
+      - captain
+
+      - curtain
+
+      - bargain
+
+
+
+# ==================================
+# Exception Database
+# ==================================
+
+
+exceptions:
+
+
+  - id: EXC-001
+
+    word:
+
+      have
+
+
+    category:
+
+      EXC-TYPE-001
+
+
+    spelling_pattern:
+
+      a_e
+
+
+    normal_prediction:
+
+      /heɪv/
+
+
+    actual_pronunciation:
+
+      /hæv/
+
+
+    reason:
+
+      >
+        Magic e 通常產生長母音，
+        但 have 保留歷史短母音。
+
+
+    related_words:
+
+      - gave
+
+      - save
+
+      - wave
+
+
+
+  - id: EXC-002
+
+
+    word:
+
+      give
+
+
+    category:
+
+      EXC-TYPE-001
+
+
+    pattern:
+
+      i_e
+
+
+    normal_prediction:
+
+      /gaɪv/
+
+
+    actual_pronunciation:
+
+      /ɡɪv/
+
+
+    reason:
+
+      >
+        Magic e 結構例外，
+        i 不發長母音。
+
+
+  - id: EXC-003
+
+
+    word:
+
+      captain
+
+
+    category:
+
+      EXC-TYPE-006
+
+
+    pattern:
+
+      -tain
+
+
+    normal_prediction:
+
+      /teɪn/
+
+
+    actual_pronunciation:
+
+      /tən/
+
+
+    reason:
+
+      >
+        非重讀字尾 -tain 發生弱化。
+
+
+    related_words:
+
+      - curtain
+
+
+
+  - id: EXC-004
+
+
+    word:
+
+      women
+
+
+    category:
+
+      EXC-TYPE-003
+
+
+    pattern:
+
+      o
+
+
+    normal_prediction:
+
+      /woʊmən/
+
+
+    actual_pronunciation:
+
+      /wɪmɪn/
+
+
+    reason:
+
+      >
+        歷史拼字與現代母音演變造成不規則。
+
+
+# ==================================
+# Exception Decision Engine
+# ==================================
+
+
+decision_engine:
+
+
+  input:
+
+
+    - word
+
+    - pattern
+
+    - predicted_sound
+
+
+  process:
+
+
+    step_01:
+
+      compare_rule_prediction:
+
+
+
+    step_02:
+
+      search_exception:
+
+
+
+    step_03:
+
+      classify_reason:
+
+
+
+    step_04:
+
+      return_exception:
+
+
+
+  output:
+
+
+    is_exception:
+
+    exception_id:
+
+    category:
+
+    explanation:
+
+    corrected_ipa:
+
+
+
+# ==================================
+# Learning Output
+# ==================================
+
+
+learning:
+
+
+  required:
+
+
+    show_reason:
+
+      true
+
+
+    show_normal_prediction:
+
+      true
+
+
+    show_difference:
+
+      true
+
+
+  format:
+
+
+    example:
+
+      word:
+
+      normal_rule:
+
+      actual:
+
+      memory_hint:

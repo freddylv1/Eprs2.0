@@ -1,0 +1,2012 @@
+[
+  {
+    "id": 301,
+    "cleanWord": "feed",
+    "pos": "v./n.",
+    "chinese": "餵",
+    "syllable": [
+      "feed"
+    ],
+    "ipa": "/fiːd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［feed］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "cleanWord": "feel",
+    "pos": "v./n.",
+    "chinese": "覺得",
+    "syllable": [
+      "feel"
+    ],
+    "ipa": "/fiːl/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［feel］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "cleanWord": "festival",
+    "pos": "n.",
+    "chinese": "節慶",
+    "syllable": [
+      "fes",
+      "ti",
+      "val"
+    ],
+    "ipa": "/ˈfɛs.tə.vəl/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fes］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ti］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 3 音節［val］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "cleanWord": "few",
+    "pos": "adj./pron.",
+    "chinese": "少數的",
+    "syllable": [
+      "few"
+    ],
+    "ipa": "/fjuː/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［few］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "cleanWord": "fight",
+    "pos": "v./n.",
+    "chinese": "打架",
+    "syllable": [
+      "fight"
+    ],
+    "ipa": "/faɪt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fight］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "cleanWord": "file",
+    "pos": "n./v.",
+    "chinese": "",
+    "syllable": [
+      "file"
+    ],
+    "ipa": "",
+    "mDerivations": []
+  },
+  {
+    "id": 307,
+    "cleanWord": "fill",
+    "pos": "v./n.",
+    "chinese": "裝滿",
+    "syllable": [
+      "fill"
+    ],
+    "ipa": "/fɪl/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fill］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "cleanWord": "finally",
+    "pos": "adv.",
+    "chinese": "最後",
+    "syllable": [
+      "fi",
+      "nal",
+      "ly"
+    ],
+    "ipa": "/ˈfaɪ.nəl.i/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fi］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［nal］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 3 音節［ly］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "cleanWord": "find",
+    "pos": "v./n.",
+    "chinese": "找到",
+    "syllable": [
+      "find"
+    ],
+    "ipa": "/faɪnd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［find］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "cleanWord": "fine",
+    "pos": "adj./adv./v./n.",
+    "chinese": "很好的",
+    "syllable": [
+      "fine"
+    ],
+    "ipa": "/faɪn/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fine］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "cleanWord": "finger",
+    "pos": "n./v.",
+    "chinese": "手指",
+    "syllable": [
+      "fin",
+      "ger"
+    ],
+    "ipa": "/ˈfɪŋ.ɡɚ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fin］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ger］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "cleanWord": "finish",
+    "pos": "v./n.",
+    "chinese": "完成",
+    "syllable": [
+      "fin",
+      "ish"
+    ],
+    "ipa": "/ˈfɪn.ɪʃ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fin］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ish］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "cleanWord": "fire",
+    "pos": "n./v.",
+    "chinese": "火焰,開火",
+    "syllable": [
+      "fire"
+    ],
+    "ipa": "/ˈfaɪ.ɚ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fire］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "cleanWord": "first",
+    "pos": "n./adv./adj.",
+    "chinese": "第一(的)",
+    "syllable": [
+      "first"
+    ],
+    "ipa": "/fɝːst/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［first］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "cleanWord": "fish",
+    "pos": "n./v.",
+    "chinese": "魚",
+    "syllable": [
+      "fish"
+    ],
+    "ipa": "/fɪʃ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fish］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "cleanWord": "floor",
+    "pos": "n./v.",
+    "chinese": "地板",
+    "syllable": [
+      "floor"
+    ],
+    "ipa": "/flɔːr/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［floor］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "cleanWord": "flower",
+    "pos": "n./v.",
+    "chinese": "花朵",
+    "syllable": [
+      "flow",
+      "er"
+    ],
+    "ipa": "/ˈflaʊ.ɚ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［flow］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［er］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "cleanWord": "fly",
+    "pos": "v./n.",
+    "chinese": "飛",
+    "syllable": [
+      "fly"
+    ],
+    "ipa": "/flaɪ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fly］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "cleanWord": "follow",
+    "pos": "v.",
+    "chinese": "遵循,跟隨",
+    "syllable": [
+      "fol",
+      "low"
+    ],
+    "ipa": "/ˈfɑː.loʊ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fol］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［low］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "cleanWord": "food",
+    "pos": "n.",
+    "chinese": "食物",
+    "syllable": [
+      "food"
+    ],
+    "ipa": "/fuːd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［food］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "cleanWord": "fool",
+    "pos": "n./v.",
+    "chinese": "",
+    "syllable": [
+      "fool"
+    ],
+    "ipa": "",
+    "mDerivations": []
+  },
+  {
+    "id": 322,
+    "cleanWord": "foot",
+    "pos": "n./v.",
+    "chinese": "腳",
+    "syllable": [
+      "foot"
+    ],
+    "ipa": "/fʊt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［foot］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "cleanWord": "for",
+    "pos": "prep./conj.",
+    "chinese": "為了",
+    "syllable": [
+      "for"
+    ],
+    "ipa": "/fɔːr/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［for］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "cleanWord": "foreign",
+    "pos": "adj.",
+    "chinese": "外國的",
+    "syllable": [
+      "for",
+      "eign"
+    ],
+    "ipa": "/ˈfɔːr.ən/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［for］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［eign］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "cleanWord": "foreigner",
+    "pos": "n.",
+    "chinese": "外國人",
+    "syllable": [
+      "for",
+      "eign",
+      "er"
+    ],
+    "ipa": "/ˈfɔːr.ə.nɚ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［for］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［eign］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 3 音節［er］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "cleanWord": "forget",
+    "pos": "v.",
+    "chinese": "忘記",
+    "syllable": [
+      "for",
+      "get"
+    ],
+    "ipa": "/fɚˈɡɛt/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［for］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［get］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "cleanWord": "fork",
+    "pos": "n.",
+    "chinese": "叉子",
+    "syllable": [
+      "fork"
+    ],
+    "ipa": "/fɔːrk/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fork］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "cleanWord": "free",
+    "pos": "adj./v./adv.",
+    "chinese": "空閒的,免費",
+    "syllable": [
+      "free"
+    ],
+    "ipa": "/friː/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［free］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "cleanWord": "fresh",
+    "pos": "adj.",
+    "chinese": "新鮮的",
+    "syllable": [
+      "fresh"
+    ],
+    "ipa": "/frɛʃ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fresh］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "cleanWord": "friend",
+    "pos": "n.",
+    "chinese": "朋友",
+    "syllable": [
+      "friend"
+    ],
+    "ipa": "/frɛnd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［friend］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "cleanWord": "friendly",
+    "pos": "adj.",
+    "chinese": "友善的",
+    "syllable": [
+      "friend",
+      "ly"
+    ],
+    "ipa": "/ˈfrɛnd.li/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［friend］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ly］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "cleanWord": "frog",
+    "pos": "n.",
+    "chinese": "青蛙",
+    "syllable": [
+      "frog"
+    ],
+    "ipa": "/frɑːɡ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［frog］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "cleanWord": "from",
+    "pos": "prep.",
+    "chinese": "從",
+    "syllable": [
+      "from"
+    ],
+    "ipa": "/frʌm/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［from］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "cleanWord": "front",
+    "pos": "adj./n.",
+    "chinese": "前面",
+    "syllable": [
+      "front"
+    ],
+    "ipa": "/frʌnt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［front］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "cleanWord": "fruit",
+    "pos": "n.",
+    "chinese": "水果",
+    "syllable": [
+      "fruit"
+    ],
+    "ipa": "/fruːt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fruit］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "cleanWord": "full",
+    "pos": "adj.",
+    "chinese": "滿的",
+    "syllable": [
+      "full"
+    ],
+    "ipa": "/fʊl/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［full］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "cleanWord": "fun",
+    "pos": "n.",
+    "chinese": "樂趣",
+    "syllable": [
+      "fun"
+    ],
+    "ipa": "/fʌn/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［fun］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "cleanWord": "funny",
+    "pos": "adj.",
+    "chinese": "好笑的",
+    "syllable": [
+      "fun",
+      "ny"
+    ],
+    "ipa": "/ˈfʌn.i/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fun］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ny］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "cleanWord": "future",
+    "pos": "n./adj.",
+    "chinese": "未來",
+    "syllable": [
+      "fu",
+      "ture"
+    ],
+    "ipa": "/ˈfjuː.tʃɚ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［fu］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ture］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "cleanWord": "game",
+    "pos": "n.",
+    "chinese": "比賽,遊戲",
+    "syllable": [
+      "game"
+    ],
+    "ipa": "/ɡeɪm/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［game］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "cleanWord": "garden",
+    "pos": "n./v.",
+    "chinese": "花園",
+    "syllable": [
+      "gar",
+      "den"
+    ],
+    "ipa": "/ˈɡɑːr.dən/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［gar］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［den］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "cleanWord": "gate",
+    "pos": "n.",
+    "chinese": "大門",
+    "syllable": [
+      "gate"
+    ],
+    "ipa": "/ɡeɪt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［gate］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "cleanWord": "get",
+    "pos": "v.",
+    "chinese": "得到",
+    "syllable": [
+      "get"
+    ],
+    "ipa": "/ɡɛt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［get］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "cleanWord": "ghost",
+    "pos": "n.",
+    "chinese": "鬼",
+    "syllable": [
+      "ghost"
+    ],
+    "ipa": "/ɡoʊst/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［ghost］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "cleanWord": "giant",
+    "pos": "adj./n.",
+    "chinese": "巨大的,巨人",
+    "syllable": [
+      "gi",
+      "ant"
+    ],
+    "ipa": "/ˈdʒaɪ.ənt/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［gi］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ant］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "cleanWord": "gift",
+    "pos": "n.",
+    "chinese": "禮物",
+    "syllable": [
+      "gift"
+    ],
+    "ipa": "/ɡɪft/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［gift］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "cleanWord": "girl",
+    "pos": "n.",
+    "chinese": "女孩",
+    "syllable": [
+      "girl"
+    ],
+    "ipa": "/ɡɝːl/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［girl］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "cleanWord": "give",
+    "pos": "v.",
+    "chinese": "給予",
+    "syllable": [
+      "give"
+    ],
+    "ipa": "/ɡɪv/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［give］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "cleanWord": "glad",
+    "pos": "adj.",
+    "chinese": "高興的",
+    "syllable": [
+      "glad"
+    ],
+    "ipa": "/ɡlæd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［glad］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "cleanWord": "glass",
+    "pos": "n.",
+    "chinese": "玻璃,玻璃杯",
+    "syllable": [
+      "glass"
+    ],
+    "ipa": "/ɡlæs/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［glass］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "cleanWord": "glasses",
+    "pos": "n.",
+    "chinese": "眼鏡",
+    "syllable": [
+      "glass",
+      "es"
+    ],
+    "ipa": "/ˈɡlæs.ɪz/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［glass］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［es］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "cleanWord": "glove(s)",
+    "pos": "n.",
+    "chinese": "手套",
+    "syllable": [
+      "glove"
+    ],
+    "ipa": "/ɡlʌv/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［glove］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "cleanWord": "go",
+    "pos": "v./n.",
+    "chinese": "去",
+    "syllable": [
+      "go"
+    ],
+    "ipa": "/ɡoʊ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［go］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "cleanWord": "god/goddess",
+    "pos": "n.",
+    "chinese": "",
+    "syllable": [
+      "god/goddess"
+    ],
+    "ipa": "",
+    "mDerivations": []
+  },
+  {
+    "id": 355,
+    "cleanWord": "good",
+    "pos": "adj./adv./n.",
+    "chinese": "好的",
+    "syllable": [
+      "good"
+    ],
+    "ipa": "/ɡʊd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［good］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "cleanWord": "goodbye",
+    "pos": "n.",
+    "chinese": "再見",
+    "syllable": [
+      "good",
+      "bye"
+    ],
+    "ipa": "/ˌɡʊdˈbaɪ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［good］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［bye］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "cleanWord": "grade",
+    "pos": "n./v.",
+    "chinese": "成績,年級",
+    "syllable": [
+      "grade"
+    ],
+    "ipa": "/ɡreɪd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［grade］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "cleanWord": "grandfather",
+    "pos": "n.",
+    "chinese": "祖父",
+    "syllable": [
+      "grand",
+      "fa",
+      "ther"
+    ],
+    "ipa": "/ˈɡræn.fɑː.ðɚ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［grand］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［fa］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 3 音節［ther］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "cleanWord": "grandmother",
+    "pos": "n.",
+    "chinese": "祖母",
+    "syllable": [
+      "grand",
+      "moth",
+      "er"
+    ],
+    "ipa": "/ˈɡræn.mʌð.ɚ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［grand］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［moth］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 3 音節［er］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "cleanWord": "grass",
+    "pos": "n.",
+    "chinese": "草",
+    "syllable": [
+      "grass"
+    ],
+    "ipa": "/ɡræs/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［grass］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "cleanWord": "gray",
+    "pos": "adj./n./v.",
+    "chinese": "灰色的",
+    "syllable": [
+      "gray"
+    ],
+    "ipa": "/ɡreɪ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［gray］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "cleanWord": "great",
+    "pos": "adj./n.",
+    "chinese": "很棒的",
+    "syllable": [
+      "great"
+    ],
+    "ipa": "/ɡreɪt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［great］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "cleanWord": "green",
+    "pos": "adj./n./v.",
+    "chinese": "綠色(的)",
+    "syllable": [
+      "green"
+    ],
+    "ipa": "/ɡriːn/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［green］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "cleanWord": "ground",
+    "pos": "n./v.",
+    "chinese": "地面",
+    "syllable": [
+      "ground"
+    ],
+    "ipa": "/ɡraʊnd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［ground］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "cleanWord": "group",
+    "pos": "n./v.",
+    "chinese": "團體",
+    "syllable": [
+      "group"
+    ],
+    "ipa": "/ɡruːp/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［group］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "cleanWord": "grow",
+    "pos": "v.",
+    "chinese": "種植",
+    "syllable": [
+      "grow"
+    ],
+    "ipa": "/ɡroʊ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［grow］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "cleanWord": "guess",
+    "pos": "v./n.",
+    "chinese": "猜想",
+    "syllable": [
+      "guess"
+    ],
+    "ipa": "/ɡɛs/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［guess］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "cleanWord": "guitar",
+    "pos": "n.",
+    "chinese": "吉他",
+    "syllable": [
+      "gui",
+      "tar"
+    ],
+    "ipa": "/ɡɪˈtɑːr/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［gui］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［tar］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "cleanWord": "guy",
+    "pos": "n.",
+    "chinese": "傢伙",
+    "syllable": [
+      "guy"
+    ],
+    "ipa": "/ɡaɪ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［guy］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "cleanWord": "habit",
+    "pos": "n.",
+    "chinese": "習慣",
+    "syllable": [
+      "hab",
+      "it"
+    ],
+    "ipa": "/ˈhæb.ɪt/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［hab］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［it］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "cleanWord": "hair",
+    "pos": "n.",
+    "chinese": "頭法",
+    "syllable": [
+      "hair"
+    ],
+    "ipa": "/hɛr/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hair］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "cleanWord": "half",
+    "pos": "n./adv./adj.",
+    "chinese": "一半",
+    "syllable": [
+      "half"
+    ],
+    "ipa": "/hæf/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［half］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "cleanWord": "ham",
+    "pos": "n.",
+    "chinese": "火腿",
+    "syllable": [
+      "ham"
+    ],
+    "ipa": "/hæm/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［ham］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "cleanWord": "hand",
+    "pos": "n./v.",
+    "chinese": "手",
+    "syllable": [
+      "hand"
+    ],
+    "ipa": "/hænd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hand］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "cleanWord": "hang",
+    "pos": "v.",
+    "chinese": "懸掛",
+    "syllable": [
+      "hang"
+    ],
+    "ipa": "/hæŋ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hang］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "cleanWord": "happen",
+    "pos": "v.",
+    "chinese": "發生",
+    "syllable": [
+      "hap",
+      "pen"
+    ],
+    "ipa": "/ˈhæp.ən/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［hap］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［pen］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "cleanWord": "happy",
+    "pos": "adj.",
+    "chinese": "快樂的",
+    "syllable": [
+      "hap",
+      "py"
+    ],
+    "ipa": "/ˈhæp.i/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［hap］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［py］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "cleanWord": "hard",
+    "pos": "adj./adv.",
+    "chinese": "困難的,硬的",
+    "syllable": [
+      "hard"
+    ],
+    "ipa": "/hɑːrd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hard］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "cleanWord": "hat",
+    "pos": "n.",
+    "chinese": "帽子",
+    "syllable": [
+      "hat"
+    ],
+    "ipa": "/hæt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hat］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "cleanWord": "hate",
+    "pos": "v./n.",
+    "chinese": "討厭",
+    "syllable": [
+      "hate"
+    ],
+    "ipa": "/heɪt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hate］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "cleanWord": "have",
+    "pos": "aux./v.",
+    "chinese": "有",
+    "syllable": [
+      "have"
+    ],
+    "ipa": "/hæv/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［have］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "cleanWord": "he (him, his, himself)",
+    "pos": "pron.",
+    "chinese": "他",
+    "syllable": [
+      "he"
+    ],
+    "ipa": "/hiː/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［he］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "cleanWord": "head",
+    "pos": "n./v.",
+    "chinese": "頭",
+    "syllable": [
+      "head"
+    ],
+    "ipa": "/hɛd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［head］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "cleanWord": "headache",
+    "pos": "n.",
+    "chinese": "頭痛",
+    "syllable": [
+      "head",
+      "ache"
+    ],
+    "ipa": "/ˈhɛd.eɪk/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［head］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ache］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "cleanWord": "health",
+    "pos": "n.",
+    "chinese": "健康",
+    "syllable": [
+      "health"
+    ],
+    "ipa": "/hɛlθ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［health］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "cleanWord": "healthy",
+    "pos": "adj.",
+    "chinese": "健康的",
+    "syllable": [
+      "health",
+      "y"
+    ],
+    "ipa": "/ˈhɛl.θi/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［health］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［y］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "cleanWord": "hear",
+    "pos": "v.",
+    "chinese": "聽",
+    "syllable": [
+      "hear"
+    ],
+    "ipa": "/hɪr/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hear］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "cleanWord": "heart",
+    "pos": "n.",
+    "chinese": "心",
+    "syllable": [
+      "heart"
+    ],
+    "ipa": "/hɑːrt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［heart］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "cleanWord": "heat",
+    "pos": "n./v.",
+    "chinese": "熱度,加熱",
+    "syllable": [
+      "heat"
+    ],
+    "ipa": "/hiːt/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［heat］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "cleanWord": "heavy",
+    "pos": "adj.",
+    "chinese": "重的",
+    "syllable": [
+      "heav",
+      "y"
+    ],
+    "ipa": "/ˈhɛv.i/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［heav］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［y］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "cleanWord": "height",
+    "pos": "n.",
+    "chinese": "",
+    "syllable": [
+      "height"
+    ],
+    "ipa": "",
+    "mDerivations": []
+  },
+  {
+    "id": 392,
+    "cleanWord": "hello",
+    "pos": "n.",
+    "chinese": "喂",
+    "syllable": [
+      "hel",
+      "lo"
+    ],
+    "ipa": "/həˈloʊ/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［hel］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［lo］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "cleanWord": "help",
+    "pos": "v./n.",
+    "chinese": "幫忙",
+    "syllable": [
+      "help"
+    ],
+    "ipa": "/hɛlp/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［help］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "cleanWord": "helpful",
+    "pos": "adj.",
+    "chinese": "有幫助的",
+    "syllable": [
+      "help",
+      "ful"
+    ],
+    "ipa": "/ˈhɛlp.fəl/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［help］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［ful］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "cleanWord": "hen",
+    "pos": "n.",
+    "chinese": "母雞",
+    "syllable": [
+      "hen"
+    ],
+    "ipa": "/hɛn/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hen］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "cleanWord": "here",
+    "pos": "adv./n.",
+    "chinese": "這裡",
+    "syllable": [
+      "here"
+    ],
+    "ipa": "/hɪr/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［here］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "cleanWord": "hide",
+    "pos": "v.",
+    "chinese": "隱藏",
+    "syllable": [
+      "hide"
+    ],
+    "ipa": "/haɪd/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hide］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "cleanWord": "high",
+    "pos": "adj./adv./n.",
+    "chinese": "高的",
+    "syllable": [
+      "high"
+    ],
+    "ipa": "/haɪ/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［high］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "cleanWord": "hill",
+    "pos": "n.",
+    "chinese": "小山",
+    "syllable": [
+      "hill"
+    ],
+    "ipa": "/hɪl/",
+    "mDerivations": [
+      {
+        "syllable": "單音節［hill］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "cleanWord": "history",
+    "pos": "n.",
+    "chinese": "歷史",
+    "syllable": [
+      "his",
+      "to",
+      "ry"
+    ],
+    "ipa": "/ˈhɪs.t̬ɚ.i/",
+    "mDerivations": [
+      {
+        "syllable": "第 1 音節［his］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 2 音節［to］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      },
+      {
+        "syllable": "第 3 音節［ry］",
+        "rule": "自然發音常規規則",
+        "status": "【適用】",
+        "reason": "依自然發音結構常規推導發音"
+      }
+    ]
+  }
+]

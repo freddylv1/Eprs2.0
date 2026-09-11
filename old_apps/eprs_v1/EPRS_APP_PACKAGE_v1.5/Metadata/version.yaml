@@ -1,0 +1,11 @@
+package_name: "EPRS APP Runtime Package"
+version: "1.5.0-Baseline"
+build_date: "2026-08-05"
+release_status: "Stable Baseline"
+target_platforms:
+  - "Web App"
+  - "Windows Desktop App"
+  - "Android App"
+  - "iPad App"
+  - "AI Tutor System"
+engine_compatibility: "EPRS Reasoning Engine v1.5+"

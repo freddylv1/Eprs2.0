@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EPRS 自然發音 13 大核心規則標準知識庫 (離線版)</title>
+  <link rel="stylesheet" href="./css/app.css">
+  <script src="./js/audio.js"></script>
+  <script src="./js/rules-data.js"></script>
+  <script src="./js/common.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="app-header">
+      <div class="header-row">
+        <div>
+          <div class="nav-links" style="margin-bottom: 8px;">
+            <a href="./offline.html" class="btn btn-secondary">⬅ 返回主入口</a>
+            <span class="badge badge-amber">EPRS Phonics Matrix</span>
+          </div>
+          <h1 style="font-size: 22px; font-weight: 800;">EPRS 自然發音 13 大核心規則標準體系</h1>
+          <p style="font-size: 13px; color: var(--slate-600); margin-top: 4px;">
+            以最少的例外、最多的通用規則，涵蓋開閉音節、母音組合、軟硬子音與非重音弱化
+          </p>
+        </div>
+        <div class="nav-links">
+          <button onclick="window.print()" class="btn btn-primary">🖨️ 列印規則表</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid grid-2" id="rulesGrid">
+      <!-- Injected by script -->
+    </div>
+
+    <footer style="margin-top: 24px; text-align: center; font-size: 12px; color: var(--slate-500);">
+      EPRS 英文發音知識推導系統 · 自然發音 13 大核心規則
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('rulesGrid');
+      grid.innerHTML = (window.EPRS_RULES || []).map(r => {
+        return '<div class="card">' +
+          '<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">' +
+            '<span class="badge badge-amber" style="font-size:12px;">' + r.id + '</span>' +
+            '<span style="font-weight:700; color:var(--slate-800);">' + r.name + '</span>' +
+          '</div>' +
+          '<div style="font-size:12px; color:var(--primary); font-weight:700; background:var(--primary-light); padding:4px 8px; border-radius:6px; margin-bottom:8px;">' +
+            '公式：' + (r.formula || '') +
+          '</div>' +
+          '<p style="font-size:13px; color:var(--slate-600); line-height:1.5; margin-bottom:10px;">' +
+            (r.description || r.summary || '') +
+          '</p>' +
+          '<div>' +
+            '<span style="font-size:11px; font-weight:700; color:var(--slate-400); display:block; margin-bottom:4px;">範例單字：</span>' +
+            '<div style="display:flex; flex-wrap:wrap; gap:4px;">' +
+              (r.examples || []).map(ex => 
+                '<span style="background:var(--slate-100); padding:2px 6px; border-radius:4px; font-size:12px; font-weight:600;">' + 
+                ex.word + ' <span style="color:#059669; font-family:monospace;">' + ex.ipa + '</span></span>'
+              ).join('') +
+            '</div>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+    });
+  </script>
+</body>
+</html>

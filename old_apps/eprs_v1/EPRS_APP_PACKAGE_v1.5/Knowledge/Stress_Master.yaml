@@ -1,0 +1,63 @@
+version: "1.5"
+
+schema_name: EPRS Stress Master Schema
+
+system_role:
+  name: Stress Master
+  purpose: >
+    管理英文單字音節重音規則（Stress Rules）、重音位置推導邏輯與母音弱化（Vowel Reduction）條件。
+
+core_principles:
+  - id: SM001
+    name: Stress Dictates Quality
+    description: 重音音節保持全母音（Full Vowel），非重讀音節優先發生母音弱化（Schwa /ə/ 或 /ɪ/）。
+  - id: SM002
+    name: Suffix Influence
+    description: 特定字尾（如 -tion, -ic, -ity）強制將重音倒數定位於倒數第一、二或三音節。
+  - id: SM003
+    name: Morphological Shift
+    description: 詞性變化（如名詞 record /ˈrek.ɚd/ 與 動詞 record /rɪˈkɔːrd/）引發重音轉移。
+
+stress_rules:
+  - id: STR-001
+    name: Two-Syllable Noun/Verb Stress Rule
+    condition: 雙音節單字 (Two-syllable word)
+    rules:
+      nouns_adjectives:
+        primary_stress: 1st_syllable
+        examples: ["present", "record", "object", "export"]
+      verbs:
+        primary_stress: 2nd_syllable
+        examples: ["present", "record", "object", "export"]
+
+  - id: STR-002
+    name: Pre-Suffix Penultimate Stress Rule
+    condition: 單字帶有 -tion, -sion, -ic, -ical 等字尾
+    rules:
+      primary_stress: syllable_immediately_before_suffix
+      examples: ["action", "education", "electric", "decision"]
+
+  - id: STR-003
+    name: Antepenultimate Stress Rule
+    condition: 單字帶有 -ity, -ate, -ify, -logy 等字尾
+    rules:
+      primary_stress: 3rd_syllable_from_end
+      examples: ["ability", "educate", "classify", "biology"]
+
+  - id: STR-004
+    name: Compound Word Stress Rule
+    condition: 複合字 (Compound word)
+    rules:
+      compound_nouns:
+        primary_stress: 1st_element
+        examples: ["raincoat", "sunflower", "blackboard"]
+      compound_verbs_adjectives:
+        primary_stress: 2nd_element
+        examples: ["understand", "overflow", "old-fashioned"]
+
+vowel_reduction_conditions:
+  - condition: non_primary_stress
+    action: reduce_vowel
+    default_ipa: /ə/
+    alternate_ipa: /ɪ/
+    examples: ["about", "contain", "captain", "bargain"]

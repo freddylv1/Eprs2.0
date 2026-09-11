@@ -1,0 +1,64 @@
+version: "1.6"
+
+schema_name: "EPRS Builder Workflow"
+
+purpose:
+  建立離線發音資料生產流程
+
+principle:
+  - Rule First
+  - Pattern Driven
+  - Exception Last
+  - Validation Before Database
+
+workflow:
+
+  - step: 1
+    name: Input Word
+    description:
+      接收來源單字資料
+
+  - step: 2
+    name: Syllable Analysis
+    module:
+      Syllable_Processor
+
+  - step: 3
+    name: Stress Detection
+    module:
+      Stress_Processor
+
+  - step: 4
+    name: Pattern Matching
+    module:
+      Pattern_Processor
+
+  - step: 5
+    name: Rule Mapping
+    module:
+      Rule_Processor
+
+  - step: 6
+    name: Exception Check
+    module:
+      Exception_Processor
+
+  - step: 7
+    name: IPA Generation
+    module:
+      IPA_Processor
+
+  - step: 8
+    name: Memory Generation
+    module:
+      Memory_Processor
+
+  - step: 9
+    name: Validation
+    module:
+      Data_Validator
+
+  - step: 10
+    name: Database Commit
+    condition:
+      validation_level: GOLD

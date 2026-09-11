@@ -1,0 +1,19 @@
+version: "1.0.0"
+config_name: "EPRS Knowledge Evolution Configuration"
+
+general:
+  layer_version: "v1.0"
+  offline_only: true
+  allow_external_ai: false
+
+cache_policy:
+  admit_level: "GOLD"
+  prediction_cache_path: "Knowledge_Evolution/Database/Prediction_Cache.yaml"
+
+feedback_policy:
+  queue_path: "Knowledge_Evolution/Database/Validation_History.yaml"
+  auto_enqueue_failures: true
+
+regression_policy:
+  auto_trigger_on_rule_change: true
+  source_dataset: "Source/MOE_1200_Source_list.yaml"

@@ -1,0 +1,9365 @@
+title: 高中英文參考詞彙表 (教育部/大考中心)
+total_levels: 6
+level: 1
+level_name: 第一級
+total_words: 1002
+batches: 11
+words:
+  - id: 1
+    level: 1
+    batch: 1
+    word: a/an
+    pos: art.
+    chinese: 一(個)
+    syllable:
+      - a
+      - an
+    ipa: /ə/ (/ən/)
+  - id: 2
+    level: 1
+    batch: 1
+    word: ability
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - ability
+    ipa: ''
+  - id: 3
+    level: 1
+    batch: 1
+    word: able
+    pos: adj.
+    chinese: 能夠…的
+    syllable:
+      - a
+      - ble
+    ipa: /ˈeɪ.bəl/
+  - id: 4
+    level: 1
+    batch: 1
+    word: about prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - about prep./adv.
+    ipa: ''
+  - id: 5
+    level: 1
+    batch: 1
+    word: above prep./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - above prep./adv./adj.
+    ipa: ''
+  - id: 6
+    level: 1
+    batch: 1
+    word: abroad
+    pos: adv.
+    chinese: 在國外
+    syllable:
+      - a
+      - broad
+    ipa: /əˈbrɔːd/
+  - id: 7
+    level: 1
+    batch: 1
+    word: across prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - across prep./adv.
+    ipa: ''
+  - id: 8
+    level: 1
+    batch: 1
+    word: act n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - act n./v.
+    ipa: ''
+  - id: 9
+    level: 1
+    batch: 1
+    word: action
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - action
+    ipa: ''
+  - id: 10
+    level: 1
+    batch: 1
+    word: actor/actress
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - actor/actress
+    ipa: ''
+  - id: 11
+    level: 1
+    batch: 1
+    word: add
+    pos: v.
+    chinese: 常用高中字彙
+    syllable:
+      - add
+    ipa: ''
+  - id: 12
+    level: 1
+    batch: 1
+    word: afraid
+    pos: adj.
+    chinese: 害怕的
+    syllable:
+      - a
+      - fraid
+    ipa: /əˈfreɪd/
+  - id: 13
+    level: 1
+    batch: 1
+    word: after prep./conj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - after prep./conj./adv.
+    ipa: ''
+  - id: 14
+    level: 1
+    batch: 1
+    word: afternoon
+    pos: n.
+    chinese: 下午
+    syllable:
+      - af
+      - ter
+      - noon
+    ipa: /ˌæf.tɚˈnuːn/
+  - id: 15
+    level: 1
+    batch: 1
+    word: again
+    pos: adv.
+    chinese: 再一次
+    syllable:
+      - a
+      - gain
+    ipa: /əˈɡɛn/
+  - id: 16
+    level: 1
+    batch: 1
+    word: age n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - age n./v.
+    ipa: ''
+  - id: 17
+    level: 1
+    batch: 1
+    word: ago
+    pos: adv.
+    chinese: 以前
+    syllable:
+      - a
+      - go
+    ipa: /əˈɡoʊ/
+  - id: 18
+    level: 1
+    batch: 1
+    word: agree(ment) v./(n.)
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - agree(ment) v./(n.)
+    ipa: ''
+  - id: 19
+    level: 1
+    batch: 1
+    word: air
+    pos: n.
+    chinese: 空氣
+    syllable:
+      - air
+    ipa: /ɛr/
+  - id: 20
+    level: 1
+    batch: 1
+    word: airplane/plane
+    pos: n.
+    chinese: 飛機
+    syllable:
+      - air
+      - plane
+    ipa: /ˈɛr.pleɪn/
+  - id: 21
+    level: 1
+    batch: 1
+    word: airport
+    pos: n.
+    chinese: 機場
+    syllable:
+      - air
+      - port
+    ipa: /ˈɛr.pɔːrt/
+  - id: 22
+    level: 1
+    batch: 1
+    word: all adj./adv./pron./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - all adj./adv./pron./n.
+    ipa: ''
+  - id: 23
+    level: 1
+    batch: 1
+    word: allow
+    pos: v.
+    chinese: 常用高中字彙
+    syllable:
+      - allow
+    ipa: ''
+  - id: 24
+    level: 1
+    batch: 1
+    word: almost
+    pos: adv.
+    chinese: 幾乎
+    syllable:
+      - al
+      - most
+    ipa: /ˈɔːl.moʊst/
+  - id: 25
+    level: 1
+    batch: 1
+    word: along prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - along prep./adv.
+    ipa: ''
+  - id: 26
+    level: 1
+    batch: 1
+    word: already
+    pos: adv.
+    chinese: 已經
+    syllable:
+      - al
+      - read
+      - 'y'
+    ipa: /ɔːlˈrɛd.i/
+  - id: 27
+    level: 1
+    batch: 1
+    word: also
+    pos: adv.
+    chinese: 也
+    syllable:
+      - al
+      - so
+    ipa: /ˈɔːl.soʊ/
+  - id: 28
+    level: 1
+    batch: 1
+    word: although
+    pos: conj.
+    chinese: 常用高中字彙
+    syllable:
+      - although
+    ipa: ''
+  - id: 29
+    level: 1
+    batch: 1
+    word: always
+    pos: adv.
+    chinese: 總是
+    syllable:
+      - al
+      - ways
+    ipa: /ˈɔːl.weɪz/
+  - id: 30
+    level: 1
+    batch: 1
+    word: am/a.m.
+    pos: adv.
+    chinese: 常用高中字彙
+    syllable:
+      - am/a.m.
+    ipa: ''
+  - id: 31
+    level: 1
+    batch: 1
+    word: and
+    pos: conj.
+    chinese: 和
+    syllable:
+      - and
+    ipa: /ænd/
+  - id: 32
+    level: 1
+    batch: 1
+    word: angry
+    pos: adj.
+    chinese: 生氣的
+    syllable:
+      - an
+      - gry
+    ipa: /ˈæŋ.ɡri/
+  - id: 33
+    level: 1
+    batch: 1
+    word: animal
+    pos: n.
+    chinese: 動物
+    syllable:
+      - an
+      - i
+      - mal
+    ipa: /ˈæn.ə.məl/
+  - id: 34
+    level: 1
+    batch: 1
+    word: another adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - another adj./pron.
+    ipa: ''
+  - id: 35
+    level: 1
+    batch: 1
+    word: answer n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - answer n./v.
+    ipa: ''
+  - id: 36
+    level: 1
+    batch: 1
+    word: ant
+    pos: n.
+    chinese: 螞蟻
+    syllable:
+      - ant
+    ipa: /ænt/
+  - id: 37
+    level: 1
+    batch: 1
+    word: any pron./adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - any pron./adj./adv.
+    ipa: ''
+  - id: 38
+    level: 1
+    batch: 1
+    word: anybody/anyone
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - anybody/anyone
+    ipa: ''
+  - id: 39
+    level: 1
+    batch: 1
+    word: anything
+    pos: pron.
+    chinese: 任何事物
+    syllable:
+      - an
+      - 'y'
+      - thing
+    ipa: /ˈɛn.i.θɪŋ/
+  - id: 40
+    level: 1
+    batch: 1
+    word: apartment
+    pos: n.
+    chinese: 公寓
+    syllable:
+      - a
+      - part
+      - ment
+    ipa: /əˈpɑːrt.mənt/
+  - id: 41
+    level: 1
+    batch: 1
+    word: appear
+    pos: v.
+    chinese: 出現
+    syllable:
+      - ap
+      - pear
+    ipa: /əˈpɪr/
+  - id: 42
+    level: 1
+    batch: 1
+    word: apple
+    pos: n.
+    chinese: 蘋果
+    syllable:
+      - ap
+      - ple
+    ipa: /ˈæp.əl/
+  - id: 43
+    level: 1
+    batch: 1
+    word: area
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - area
+    ipa: ''
+  - id: 44
+    level: 1
+    batch: 1
+    word: arm n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - arm n./v.
+    ipa: ''
+  - id: 45
+    level: 1
+    batch: 1
+    word: around prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - around prep./adv.
+    ipa: ''
+  - id: 46
+    level: 1
+    batch: 1
+    word: arrive
+    pos: v.
+    chinese: 到達
+    syllable:
+      - ar
+      - rive
+    ipa: /əˈraɪv/
+  - id: 47
+    level: 1
+    batch: 1
+    word: art
+    pos: n.
+    chinese: 美術
+    syllable:
+      - art
+    ipa: /ɑːrt/
+  - id: 48
+    level: 1
+    batch: 1
+    word: as conj./adv./prep.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - as conj./adv./prep.
+    ipa: ''
+  - id: 49
+    level: 1
+    batch: 1
+    word: ask
+    pos: v.
+    chinese: 問
+    syllable:
+      - ask
+    ipa: /æsk/
+  - id: 50
+    level: 1
+    batch: 1
+    word: at
+    pos: prep.
+    chinese: 在
+    syllable:
+      - at
+    ipa: /æt/
+  - id: 51
+    level: 1
+    batch: 1
+    word: attack n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - attack n./v.
+    ipa: ''
+  - id: 52
+    level: 1
+    batch: 1
+    word: aunt
+    pos: n.
+    chinese: 伯(叔)母
+    syllable:
+      - aunt
+    ipa: /ænt/
+  - id: 53
+    level: 1
+    batch: 1
+    word: away
+    pos: adv.
+    chinese: 遠離
+    syllable:
+      - a
+      - way
+    ipa: /əˈweɪ/
+  - id: 54
+    level: 1
+    batch: 1
+    word: baby
+    pos: n.
+    chinese: 嬰兒
+    syllable:
+      - ba
+      - by
+    ipa: /ˈbeɪ.bi/
+  - id: 55
+    level: 1
+    batch: 1
+    word: back adv./n./v./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - back adv./n./v./adj.
+    ipa: ''
+  - id: 56
+    level: 1
+    batch: 1
+    word: bad
+    pos: adj.
+    chinese: 壞的
+    syllable:
+      - bad
+    ipa: /bæd/
+  - id: 57
+    level: 1
+    batch: 1
+    word: bag
+    pos: n.
+    chinese: 袋子
+    syllable:
+      - bag
+    ipa: /bæɡ/
+  - id: 58
+    level: 1
+    batch: 1
+    word: ball n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - ball n./v.
+    ipa: ''
+  - id: 59
+    level: 1
+    batch: 1
+    word: banana
+    pos: n.
+    chinese: 香蕉
+    syllable:
+      - ba
+      - nan
+      - a
+    ipa: /bəˈnæn.ə/
+  - id: 60
+    level: 1
+    batch: 1
+    word: band
+    pos: n.
+    chinese: 樂團
+    syllable:
+      - band
+    ipa: /bænd/
+  - id: 61
+    level: 1
+    batch: 1
+    word: bank n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bank n./v.
+    ipa: ''
+  - id: 62
+    level: 1
+    batch: 1
+    word: baseball
+    pos: n.
+    chinese: 棒球
+    syllable:
+      - base
+      - ball
+    ipa: /ˈbeɪs.bɔːl/
+  - id: 63
+    level: 1
+    batch: 1
+    word: basket
+    pos: n.
+    chinese: 籃子
+    syllable:
+      - bas
+      - ket
+    ipa: /ˈbæs.kət/
+  - id: 64
+    level: 1
+    batch: 1
+    word: basketball
+    pos: n.
+    chinese: 籃球
+    syllable:
+      - bas
+      - ket
+      - ball
+    ipa: /ˈbæs.kət.bɔːl/
+  - id: 65
+    level: 1
+    batch: 1
+    word: bat n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bat n./v.
+    ipa: ''
+  - id: 66
+    level: 1
+    batch: 1
+    word: bath
+    pos: n.
+    chinese: 洗澡
+    syllable:
+      - bath
+    ipa: /bæθ/
+  - id: 67
+    level: 1
+    batch: 1
+    word: bathroom
+    pos: n.
+    chinese: 浴室
+    syllable:
+      - bath
+      - room
+    ipa: /ˈbæθ.ruːm/
+  - id: 68
+    level: 1
+    batch: 1
+    word: be v./aux.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - be v./aux.
+    ipa: ''
+  - id: 69
+    level: 1
+    batch: 1
+    word: beach n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - beach n./v.
+    ipa: ''
+  - id: 70
+    level: 1
+    batch: 1
+    word: bean
+    pos: n.
+    chinese: 豆
+    syllable:
+      - bean
+    ipa: /biːn/
+  - id: 71
+    level: 1
+    batch: 1
+    word: bear v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bear v./n.
+    ipa: ''
+  - id: 72
+    level: 1
+    batch: 1
+    word: beautiful
+    pos: adj.
+    chinese: 美麗的
+    syllable:
+      - beau
+      - ti
+      - ful
+    ipa: /ˈbjuː.t̬ə.fəl/
+  - id: 73
+    level: 1
+    batch: 1
+    word: because
+    pos: conj.
+    chinese: 因為
+    syllable:
+      - be
+      - cause
+    ipa: /bɪˈkɔːz/
+  - id: 74
+    level: 1
+    batch: 1
+    word: become
+    pos: v.
+    chinese: 變成
+    syllable:
+      - be
+      - come
+    ipa: /bɪˈkʌm/
+  - id: 75
+    level: 1
+    batch: 1
+    word: bed
+    pos: n.
+    chinese: 床
+    syllable:
+      - bed
+    ipa: /bɛd/
+  - id: 76
+    level: 1
+    batch: 1
+    word: bedroom
+    pos: n.
+    chinese: 臥室
+    syllable:
+      - bed
+      - room
+    ipa: /ˈbɛd.ruːm/
+  - id: 77
+    level: 1
+    batch: 1
+    word: bee
+    pos: n.
+    chinese: 蜜蜂
+    syllable:
+      - bee
+    ipa: /biː/
+  - id: 78
+    level: 1
+    batch: 1
+    word: beef
+    pos: n.
+    chinese: 牛肉
+    syllable:
+      - beef
+    ipa: /biːf/
+  - id: 79
+    level: 1
+    batch: 1
+    word: before prep./conj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - before prep./conj./adv.
+    ipa: ''
+  - id: 80
+    level: 1
+    batch: 1
+    word: begin
+    pos: v.
+    chinese: 開始
+    syllable:
+      - be
+      - gin
+    ipa: /bɪˈɡɪn/
+  - id: 81
+    level: 1
+    batch: 1
+    word: behind prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - behind prep./adv.
+    ipa: ''
+  - id: 82
+    level: 1
+    batch: 1
+    word: believe
+    pos: v.
+    chinese: 相信
+    syllable:
+      - be
+      - lieve
+    ipa: /bɪˈliːv/
+  - id: 83
+    level: 1
+    batch: 1
+    word: bell
+    pos: n.
+    chinese: 鈴
+    syllable:
+      - bell
+    ipa: /bɛl/
+  - id: 84
+    level: 1
+    batch: 1
+    word: belong
+    pos: v.
+    chinese: 屬於
+    syllable:
+      - be
+      - long
+    ipa: /bɪˈlɔːŋ/
+  - id: 85
+    level: 1
+    batch: 1
+    word: below adv./prep.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - below adv./prep.
+    ipa: ''
+  - id: 86
+    level: 1
+    batch: 1
+    word: belt n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - belt n./v.
+    ipa: ''
+  - id: 87
+    level: 1
+    batch: 1
+    word: bench
+    pos: n.
+    chinese: 長椅
+    syllable:
+      - bench
+    ipa: /bɛntʃ/
+  - id: 88
+    level: 1
+    batch: 1
+    word: beside
+    pos: prep.
+    chinese: 在…旁邊
+    syllable:
+      - be
+      - side
+    ipa: /bɪˈsaɪd/
+  - id: 89
+    level: 1
+    batch: 1
+    word: best adj./adv./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - best adj./adv./v./n.
+    ipa: ''
+  - id: 90
+    level: 1
+    batch: 1
+    word: between prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - between prep./adv.
+    ipa: ''
+  - id: 91
+    level: 1
+    batch: 1
+    word: bicycle/bike
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - bicycle/bike
+    ipa: ''
+  - id: 92
+    level: 1
+    batch: 1
+    word: big
+    pos: adj.
+    chinese: 大的
+    syllable:
+      - big
+    ipa: /bɪɡ/
+  - id: 93
+    level: 1
+    batch: 1
+    word: bird
+    pos: n.
+    chinese: 鳥
+    syllable:
+      - bird
+    ipa: /bɝːd/
+  - id: 94
+    level: 1
+    batch: 1
+    word: bite n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bite n./v.
+    ipa: ''
+  - id: 95
+    level: 1
+    batch: 1
+    word: black adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - black adj./n.
+    ipa: ''
+  - id: 96
+    level: 1
+    batch: 1
+    word: blind adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - blind adj./v.
+    ipa: ''
+  - id: 97
+    level: 1
+    batch: 1
+    word: block n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - block n./v.
+    ipa: ''
+  - id: 98
+    level: 1
+    batch: 1
+    word: blow
+    pos: v.
+    chinese: 吹
+    syllable:
+      - blow
+    ipa: /bloʊ/
+  - id: 99
+    level: 1
+    batch: 1
+    word: blue adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - blue adj./n.
+    ipa: ''
+  - id: 100
+    level: 1
+    batch: 1
+    word: boat
+    pos: n.
+    chinese: 船
+    syllable:
+      - boat
+    ipa: /boʊt/
+  - id: 101
+    level: 1
+    batch: 2
+    word: body
+    pos: n.
+    chinese: 身體
+    syllable:
+      - bod
+      - 'y'
+    ipa: /ˈbɑː.di/
+  - id: 102
+    level: 1
+    batch: 2
+    word: book n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - book n./v.
+    ipa: ''
+  - id: 103
+    level: 1
+    batch: 2
+    word: bored
+    pos: adj.
+    chinese: 感到厭煩的
+    syllable:
+      - bored
+    ipa: /bɔːrd/
+  - id: 104
+    level: 1
+    batch: 2
+    word: boring
+    pos: adj.
+    chinese: 無聊的
+    syllable:
+      - bor
+      - ing
+    ipa: /ˈbɔː.rɪŋ/
+  - id: 105
+    level: 1
+    batch: 2
+    word: born
+    pos: adj.
+    chinese: 出生
+    syllable:
+      - born
+    ipa: /bɔːrn/
+  - id: 106
+    level: 1
+    batch: 2
+    word: borrow
+    pos: v.
+    chinese: 借入
+    syllable:
+      - bor
+      - row
+    ipa: /ˈbɑːr.oʊ/
+  - id: 107
+    level: 1
+    batch: 2
+    word: boss n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - boss n./v.
+    ipa: ''
+  - id: 108
+    level: 1
+    batch: 2
+    word: both pron./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - both pron./adv./adj.
+    ipa: ''
+  - id: 109
+    level: 1
+    batch: 2
+    word: bottle n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bottle n./v.
+    ipa: ''
+  - id: 110
+    level: 1
+    batch: 2
+    word: bottom n./adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bottom n./adj./v.
+    ipa: ''
+  - id: 111
+    level: 1
+    batch: 2
+    word: bow n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bow n./v.
+    ipa: ''
+  - id: 112
+    level: 1
+    batch: 2
+    word: bowl
+    pos: n.
+    chinese: 碗
+    syllable:
+      - bowl
+    ipa: /boʊl/
+  - id: 113
+    level: 1
+    batch: 2
+    word: box n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - box n./v.
+    ipa: ''
+  - id: 114
+    level: 1
+    batch: 2
+    word: boy
+    pos: n.
+    chinese: 男孩
+    syllable:
+      - boy
+    ipa: /bɔɪ/
+  - id: 115
+    level: 1
+    batch: 2
+    word: brave
+    pos: adj.
+    chinese: 常用高中字彙
+    syllable:
+      - brave
+    ipa: ''
+  - id: 116
+    level: 1
+    batch: 2
+    word: bread
+    pos: n.
+    chinese: 麵包
+    syllable:
+      - bread
+    ipa: /brɛd/
+  - id: 117
+    level: 1
+    batch: 2
+    word: break n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - break n./v.
+    ipa: ''
+  - id: 118
+    level: 1
+    batch: 2
+    word: breakfast n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - breakfast n./v.
+    ipa: ''
+  - id: 119
+    level: 1
+    batch: 2
+    word: bridge n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bridge n./v.
+    ipa: ''
+  - id: 120
+    level: 1
+    batch: 2
+    word: bright adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bright adj./adv.
+    ipa: ''
+  - id: 121
+    level: 1
+    batch: 2
+    word: bring
+    pos: v.
+    chinese: 帶來
+    syllable:
+      - bring
+    ipa: /brɪŋ/
+  - id: 122
+    level: 1
+    batch: 2
+    word: brother
+    pos: n.
+    chinese: 兄弟
+    syllable:
+      - broth
+      - er
+    ipa: /ˈbrʌð.ɚ/
+  - id: 123
+    level: 1
+    batch: 2
+    word: brown adj./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - brown adj./v./n.
+    ipa: ''
+  - id: 124
+    level: 1
+    batch: 2
+    word: bug n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - bug n./v.
+    ipa: ''
+  - id: 125
+    level: 1
+    batch: 2
+    word: build
+    pos: v.
+    chinese: 建造
+    syllable:
+      - build
+    ipa: /bɪld/
+  - id: 126
+    level: 1
+    batch: 2
+    word: bus
+    pos: n.
+    chinese: 公車
+    syllable:
+      - bus
+    ipa: /bʌs/
+  - id: 127
+    level: 1
+    batch: 2
+    word: business
+    pos: n.
+    chinese: 生意
+    syllable:
+      - busi
+      - ness
+    ipa: /ˈbɪz.nɪs/
+  - id: 128
+    level: 1
+    batch: 2
+    word: busy
+    pos: adj.
+    chinese: 忙碌的
+    syllable:
+      - bus
+      - 'y'
+    ipa: /ˈbɪz.i/
+  - id: 129
+    level: 1
+    batch: 2
+    word: but conj./prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - but conj./prep./adv.
+    ipa: ''
+  - id: 130
+    level: 1
+    batch: 2
+    word: butter n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - butter n./v.
+    ipa: ''
+  - id: 131
+    level: 1
+    batch: 2
+    word: butterfly
+    pos: n.
+    chinese: 蝴蝶
+    syllable:
+      - but
+      - ter
+      - fly
+    ipa: /ˈbʌt.ɚ.flaɪ/
+  - id: 132
+    level: 1
+    batch: 2
+    word: button n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - button n./v.
+    ipa: ''
+  - id: 133
+    level: 1
+    batch: 2
+    word: buy v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - buy v./n.
+    ipa: ''
+  - id: 134
+    level: 1
+    batch: 2
+    word: by prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - by prep./adv.
+    ipa: ''
+  - id: 135
+    level: 1
+    batch: 2
+    word: cake
+    pos: n.
+    chinese: 蛋糕
+    syllable:
+      - cake
+    ipa: /keɪk/
+  - id: 136
+    level: 1
+    batch: 2
+    word: call v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - call v./n.
+    ipa: ''
+  - id: 137
+    level: 1
+    batch: 2
+    word: camera
+    pos: n.
+    chinese: 照相機
+    syllable:
+      - cam
+      - er
+      - a
+    ipa: /ˈkæm.rə/
+  - id: 138
+    level: 1
+    batch: 2
+    word: camp n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - camp n./v.
+    ipa: ''
+  - id: 139
+    level: 1
+    batch: 2
+    word: can aux./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - can aux./n./v.
+    ipa: ''
+  - id: 140
+    level: 1
+    batch: 2
+    word: cap n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cap n./v.
+    ipa: ''
+  - id: 141
+    level: 1
+    batch: 2
+    word: car
+    pos: n.
+    chinese: 車子
+    syllable:
+      - car
+    ipa: /kɑːr/
+  - id: 142
+    level: 1
+    batch: 2
+    word: card
+    pos: n.
+    chinese: 卡片
+    syllable:
+      - card
+    ipa: /kɑːrd/
+  - id: 143
+    level: 1
+    batch: 2
+    word: care n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - care n./v.
+    ipa: ''
+  - id: 144
+    level: 1
+    batch: 2
+    word: careful
+    pos: adj.
+    chinese: 仔細的
+    syllable:
+      - care
+      - ful
+    ipa: /ˈkɛr.fəl/
+  - id: 145
+    level: 1
+    batch: 2
+    word: carrot
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - carrot
+    ipa: ''
+  - id: 146
+    level: 1
+    batch: 2
+    word: carry
+    pos: v.
+    chinese: 攜帶
+    syllable:
+      - car
+      - ry
+    ipa: /ˈkær.i/
+  - id: 147
+    level: 1
+    batch: 2
+    word: case n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - case n./v.
+    ipa: ''
+  - id: 148
+    level: 1
+    batch: 2
+    word: cat
+    pos: n.
+    chinese: 貓
+    syllable:
+      - cat
+    ipa: /kæt/
+  - id: 149
+    level: 1
+    batch: 2
+    word: catch v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - catch v./n.
+    ipa: ''
+  - id: 150
+    level: 1
+    batch: 2
+    word: celebrate
+    pos: v.
+    chinese: 慶祝
+    syllable:
+      - cel
+      - e
+      - brate
+    ipa: /ˈsɛl.ə.breɪt/
+  - id: 151
+    level: 1
+    batch: 2
+    word: cellphone
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - cellphone
+    ipa: ''
+  - id: 152
+    level: 1
+    batch: 2
+    word: cent
+    pos: n.
+    chinese: 〈一〉分錢
+    syllable:
+      - cent
+    ipa: /sɛnt/
+  - id: 153
+    level: 1
+    batch: 2
+    word: center
+    pos: n.
+    chinese: 中心
+    syllable:
+      - cen
+      - ter
+    ipa: /ˈsɛn.tɚ/
+  - id: 154
+    level: 1
+    batch: 2
+    word: certain adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - certain adj./pron.
+    ipa: ''
+  - id: 155
+    level: 1
+    batch: 2
+    word: chair n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - chair n./v.
+    ipa: ''
+  - id: 156
+    level: 1
+    batch: 2
+    word: chance n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - chance n./v.
+    ipa: ''
+  - id: 157
+    level: 1
+    batch: 2
+    word: change n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - change n./v.
+    ipa: ''
+  - id: 158
+    level: 1
+    batch: 2
+    word: cheap adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cheap adj./adv.
+    ipa: ''
+  - id: 159
+    level: 1
+    batch: 2
+    word: check v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - check v./n.
+    ipa: ''
+  - id: 160
+    level: 1
+    batch: 2
+    word: cheese
+    pos: n.
+    chinese: 乳酪
+    syllable:
+      - cheese
+    ipa: /tʃiːz/
+  - id: 161
+    level: 1
+    batch: 2
+    word: chicken
+    pos: n.
+    chinese: 雞肉
+    syllable:
+      - chick
+      - en
+    ipa: /ˈtʃɪk.ɪn/
+  - id: 162
+    level: 1
+    batch: 2
+    word: child
+    pos: n.
+    chinese: 小孩
+    syllable:
+      - child
+    ipa: /tʃaɪld/
+  - id: 163
+    level: 1
+    batch: 2
+    word: chocolate
+    pos: n.
+    chinese: 巧克力
+    syllable:
+      - choc
+      - o
+      - late
+    ipa: /ˈtʃɑːk.lət/
+  - id: 164
+    level: 1
+    batch: 2
+    word: choice n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - choice n./adj.
+    ipa: ''
+  - id: 165
+    level: 1
+    batch: 2
+    word: choose
+    pos: v.
+    chinese: 選擇
+    syllable:
+      - choose
+    ipa: /tʃuːz/
+  - id: 166
+    level: 1
+    batch: 2
+    word: church
+    pos: n.
+    chinese: 教堂
+    syllable:
+      - church
+    ipa: /tʃɝːtʃ/
+  - id: 167
+    level: 1
+    batch: 2
+    word: circle n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - circle n./v.
+    ipa: ''
+  - id: 168
+    level: 1
+    batch: 2
+    word: city
+    pos: n.
+    chinese: 城市
+    syllable:
+      - cit
+      - 'y'
+    ipa: /ˈsɪt.i/
+  - id: 169
+    level: 1
+    batch: 2
+    word: class n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - class n./v.
+    ipa: ''
+  - id: 170
+    level: 1
+    batch: 2
+    word: clean adj./v./adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - clean adj./v./adv./n.
+    ipa: ''
+  - id: 171
+    level: 1
+    batch: 2
+    word: clear adj./v./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - clear adj./v./adv.
+    ipa: ''
+  - id: 172
+    level: 1
+    batch: 2
+    word: clerk
+    pos: n.
+    chinese: 店員
+    syllable:
+      - clerk
+    ipa: /klɝːk/
+  - id: 173
+    level: 1
+    batch: 2
+    word: climb v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - climb v./n.
+    ipa: ''
+  - id: 174
+    level: 1
+    batch: 2
+    word: clock
+    pos: n.
+    chinese: 時鐘
+    syllable:
+      - clock
+    ipa: /klɑːk/
+  - id: 175
+    level: 1
+    batch: 2
+    word: close adj./adv./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - close adj./adv./v./n.
+    ipa: ''
+  - id: 176
+    level: 1
+    batch: 2
+    word: clothes
+    pos: n.
+    chinese: 衣服
+    syllable:
+      - clothes
+    ipa: /kloʊðz/
+  - id: 177
+    level: 1
+    batch: 2
+    word: cloud
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - cloud
+    ipa: ''
+  - id: 178
+    level: 1
+    batch: 2
+    word: club n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - club n./v.
+    ipa: ''
+  - id: 179
+    level: 1
+    batch: 2
+    word: coat n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - coat n./v.
+    ipa: ''
+  - id: 180
+    level: 1
+    batch: 2
+    word: coffee
+    pos: n.
+    chinese: 咖啡
+    syllable:
+      - cof
+      - fee
+    ipa: /ˈkɑː.fi/
+  - id: 181
+    level: 1
+    batch: 2
+    word: cold adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cold adj./n.
+    ipa: ''
+  - id: 182
+    level: 1
+    batch: 2
+    word: collect
+    pos: v.
+    chinese: 收集
+    syllable:
+      - col
+      - lect
+    ipa: /kəˈlɛkt/
+  - id: 183
+    level: 1
+    batch: 2
+    word: color n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - color n./v.
+    ipa: ''
+  - id: 184
+    level: 1
+    batch: 2
+    word: come
+    pos: v.
+    chinese: 來
+    syllable:
+      - come
+    ipa: /kʌm/
+  - id: 185
+    level: 1
+    batch: 2
+    word: comfortable
+    pos: adj.
+    chinese: 舒適的
+    syllable:
+      - com
+      - fort
+      - a
+      - ble
+    ipa: /ˈkʌm.fɚ.t̬ə.bəl/
+  - id: 186
+    level: 1
+    batch: 2
+    word: common adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - common adj./n.
+    ipa: ''
+  - id: 187
+    level: 1
+    batch: 2
+    word: computer
+    pos: n.
+    chinese: 電腦
+    syllable:
+      - com
+      - put
+      - er
+    ipa: /kəmˈpjuː.t̬ɚ/
+  - id: 188
+    level: 1
+    batch: 2
+    word: convenient
+    pos: adj.
+    chinese: 方便的
+    syllable:
+      - con
+      - ve
+      - nient
+    ipa: /kənˈviː.njənt/
+  - id: 189
+    level: 1
+    batch: 2
+    word: cook v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cook v./n.
+    ipa: ''
+  - id: 190
+    level: 1
+    batch: 2
+    word: cookie
+    pos: n.
+    chinese: 餅乾
+    syllable:
+      - cook
+      - ie
+    ipa: /ˈkʊk.i/
+  - id: 191
+    level: 1
+    batch: 2
+    word: cool adj./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cool adj./v./n.
+    ipa: ''
+  - id: 192
+    level: 1
+    batch: 2
+    word: copy n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - copy n./v.
+    ipa: ''
+  - id: 193
+    level: 1
+    batch: 2
+    word: corner
+    pos: n.
+    chinese: 角落
+    syllable:
+      - cor
+      - ner
+    ipa: /ˈkɔːr.nɚ/
+  - id: 194
+    level: 1
+    batch: 2
+    word: correct adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - correct adj./v.
+    ipa: ''
+  - id: 195
+    level: 1
+    batch: 2
+    word: cost n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cost n./v.
+    ipa: ''
+  - id: 196
+    level: 1
+    batch: 2
+    word: couch n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - couch n./v.
+    ipa: ''
+  - id: 197
+    level: 1
+    batch: 2
+    word: count v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - count v./n.
+    ipa: ''
+  - id: 198
+    level: 1
+    batch: 2
+    word: country
+    pos: n.
+    chinese: 鄉村
+    syllable:
+      - coun
+      - try
+    ipa: /ˈkʌn.tri/
+  - id: 199
+    level: 1
+    batch: 2
+    word: course n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - course n./v.
+    ipa: ''
+  - id: 200
+    level: 1
+    batch: 2
+    word: cousin
+    pos: n.
+    chinese: 堂,表兄弟姊妹
+    syllable:
+      - cous
+      - in
+    ipa: /ˈkʌz.ən/
+  - id: 201
+    level: 1
+    batch: 3
+    word: cover v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cover v./n.
+    ipa: ''
+  - id: 202
+    level: 1
+    batch: 3
+    word: cow
+    pos: n.
+    chinese: 母牛
+    syllable:
+      - cow
+    ipa: /kaʊ/
+  - id: 203
+    level: 1
+    batch: 3
+    word: crazy
+    pos: adj.
+    chinese: 瘋狂的
+    syllable:
+      - cra
+      - zy
+    ipa: /ˈkreɪ.zi/
+  - id: 204
+    level: 1
+    batch: 3
+    word: cross n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cross n./v.
+    ipa: ''
+  - id: 205
+    level: 1
+    batch: 3
+    word: cry v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cry v./n.
+    ipa: ''
+  - id: 206
+    level: 1
+    batch: 3
+    word: cup
+    pos: n.
+    chinese: 茶杯
+    syllable:
+      - cup
+    ipa: /kʌp/
+  - id: 207
+    level: 1
+    batch: 3
+    word: cut v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - cut v./n.
+    ipa: ''
+  - id: 208
+    level: 1
+    batch: 3
+    word: cute
+    pos: adj.
+    chinese: 可愛的
+    syllable:
+      - cute
+    ipa: /kjuːt/
+  - id: 209
+    level: 1
+    batch: 3
+    word: dance n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dance n./v.
+    ipa: ''
+  - id: 210
+    level: 1
+    batch: 3
+    word: dangerous
+    pos: adj.
+    chinese: 危險的
+    syllable:
+      - dan
+      - ger
+      - ous
+    ipa: /ˈdeɪn.dʒɚ.əs/
+  - id: 211
+    level: 1
+    batch: 3
+    word: dark adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dark adj./n.
+    ipa: ''
+  - id: 212
+    level: 1
+    batch: 3
+    word: date n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - date n./v.
+    ipa: ''
+  - id: 213
+    level: 1
+    batch: 3
+    word: daughter
+    pos: n.
+    chinese: 女兒
+    syllable:
+      - daugh
+      - ter
+    ipa: /ˈdɔː.t̬ɚ/
+  - id: 214
+    level: 1
+    batch: 3
+    word: day
+    pos: n.
+    chinese: 日子
+    syllable:
+      - day
+    ipa: /deɪ/
+  - id: 215
+    level: 1
+    batch: 3
+    word: dead
+    pos: adj.
+    chinese: 死的
+    syllable:
+      - dead
+    ipa: /dɛd/
+  - id: 216
+    level: 1
+    batch: 3
+    word: deal n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - deal n./v.
+    ipa: ''
+  - id: 217
+    level: 1
+    batch: 3
+    word: dear adj./n./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dear adj./n./adv.
+    ipa: ''
+  - id: 218
+    level: 1
+    batch: 3
+    word: death
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - death
+    ipa: ''
+  - id: 219
+    level: 1
+    batch: 3
+    word: decide
+    pos: v.
+    chinese: 決定
+    syllable:
+      - de
+      - cide
+    ipa: /dɪˈsaɪd/
+  - id: 220
+    level: 1
+    batch: 3
+    word: deep adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - deep adj./adv.
+    ipa: ''
+  - id: 221
+    level: 1
+    batch: 3
+    word: define
+    pos: v.
+    chinese: 常用高中字彙
+    syllable:
+      - define
+    ipa: ''
+  - id: 222
+    level: 1
+    batch: 3
+    word: desk
+    pos: n.
+    chinese: 書桌
+    syllable:
+      - desk
+    ipa: /dɛsk/
+  - id: 223
+    level: 1
+    batch: 3
+    word: dictionary
+    pos: n.
+    chinese: 字典
+    syllable:
+      - dic
+      - tion
+      - ar
+      - 'y'
+    ipa: /ˈdɪk.ʃə.nɛr.i/
+  - id: 224
+    level: 1
+    batch: 3
+    word: die
+    pos: v.
+    chinese: 死掉
+    syllable:
+      - die
+    ipa: /daɪ/
+  - id: 225
+    level: 1
+    batch: 3
+    word: different
+    pos: adj.
+    chinese: 不同的
+    syllable:
+      - dif
+      - fer
+      - ent
+    ipa: /ˈdɪf.ɚ.ənt/
+  - id: 226
+    level: 1
+    batch: 3
+    word: difficult
+    pos: adj.
+    chinese: 困難的
+    syllable:
+      - dif
+      - fi
+      - cult
+    ipa: /ˈdɪf.ə.kəlt/
+  - id: 227
+    level: 1
+    batch: 3
+    word: dig v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dig v./n.
+    ipa: ''
+  - id: 228
+    level: 1
+    batch: 3
+    word: dinner
+    pos: n.
+    chinese: 晚餐
+    syllable:
+      - din
+      - ner
+    ipa: /ˈdɪn.ɚ/
+  - id: 229
+    level: 1
+    batch: 3
+    word: dirty adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dirty adj./v.
+    ipa: ''
+  - id: 230
+    level: 1
+    batch: 3
+    word: dish n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dish n./v.
+    ipa: ''
+  - id: 231
+    level: 1
+    batch: 3
+    word: do aux./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - do aux./v.
+    ipa: ''
+  - id: 232
+    level: 1
+    batch: 3
+    word: doctor/doc
+    pos: n.
+    chinese: 醫生
+    syllable:
+      - doc
+      - tor
+    ipa: /ˈdɑːk.tɚ/
+  - id: 233
+    level: 1
+    batch: 3
+    word: dog
+    pos: n.
+    chinese: 狗
+    syllable:
+      - dog
+    ipa: /dɔːɡ/
+  - id: 234
+    level: 1
+    batch: 3
+    word: doll
+    pos: n.
+    chinese: 洋娃娃
+    syllable:
+      - doll
+    ipa: /dɑːl/
+  - id: 235
+    level: 1
+    batch: 3
+    word: dollar
+    pos: n.
+    chinese: 元
+    syllable:
+      - dol
+      - lar
+    ipa: /ˈdɑː.lɚ/
+  - id: 236
+    level: 1
+    batch: 3
+    word: door
+    pos: n.
+    chinese: 門
+    syllable:
+      - door
+    ipa: /dɔːr/
+  - id: 237
+    level: 1
+    batch: 3
+    word: down adv./prep./adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - down adv./prep./adj./n./v.
+    ipa: ''
+  - id: 238
+    level: 1
+    batch: 3
+    word: dozen
+    pos: n.
+    chinese: 〈一〉打
+    syllable:
+      - doz
+      - en
+    ipa: /ˈdʌz.ən/
+  - id: 239
+    level: 1
+    batch: 3
+    word: draw v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - draw v./n.
+    ipa: ''
+  - id: 240
+    level: 1
+    batch: 3
+    word: dream n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dream n./v.
+    ipa: ''
+  - id: 241
+    level: 1
+    batch: 3
+    word: dress n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dress n./v.
+    ipa: ''
+  - id: 242
+    level: 1
+    batch: 3
+    word: drink v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - drink v./n.
+    ipa: ''
+  - id: 243
+    level: 1
+    batch: 3
+    word: drive v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - drive v./n.
+    ipa: ''
+  - id: 244
+    level: 1
+    batch: 3
+    word: driver
+    pos: n.
+    chinese: 駕駛人
+    syllable:
+      - driv
+      - er
+    ipa: /ˈdraɪ.vɚ/
+  - id: 245
+    level: 1
+    batch: 3
+    word: drop v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - drop v./n.
+    ipa: ''
+  - id: 246
+    level: 1
+    batch: 3
+    word: drum n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - drum n./v.
+    ipa: ''
+  - id: 247
+    level: 1
+    batch: 3
+    word: dry adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - dry adj./v.
+    ipa: ''
+  - id: 248
+    level: 1
+    batch: 3
+    word: duck n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - duck n./v.
+    ipa: ''
+  - id: 249
+    level: 1
+    batch: 3
+    word: during
+    pos: prep.
+    chinese: 在…期間
+    syllable:
+      - dur
+      - ing
+    ipa: /ˈdʊr.ɪŋ/
+  - id: 250
+    level: 1
+    batch: 3
+    word: each pron./adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - each pron./adj./adv.
+    ipa: ''
+  - id: 251
+    level: 1
+    batch: 3
+    word: ear
+    pos: n.
+    chinese: 耳朵
+    syllable:
+      - ear
+    ipa: /ɪr/
+  - id: 252
+    level: 1
+    batch: 3
+    word: early adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - early adj./adv.
+    ipa: ''
+  - id: 253
+    level: 1
+    batch: 3
+    word: earth
+    pos: n.
+    chinese: 地球
+    syllable:
+      - earth
+    ipa: /ɝːθ/
+  - id: 254
+    level: 1
+    batch: 3
+    word: east n./adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - east n./adj./adv.
+    ipa: ''
+  - id: 255
+    level: 1
+    batch: 3
+    word: easy
+    pos: adj.
+    chinese: 容易的
+    syllable:
+      - eas
+      - 'y'
+    ipa: /ˈiː.zi/
+  - id: 256
+    level: 1
+    batch: 3
+    word: eat
+    pos: v.
+    chinese: 吃
+    syllable:
+      - eat
+    ipa: /iːt/
+  - id: 257
+    level: 1
+    batch: 3
+    word: egg
+    pos: n.
+    chinese: 蛋
+    syllable:
+      - egg
+    ipa: /ɛɡ/
+  - id: 258
+    level: 1
+    batch: 3
+    word: either adv./pron./adj./conj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - either adv./pron./adj./conj.
+    ipa: ''
+  - id: 259
+    level: 1
+    batch: 3
+    word: elephant
+    pos: n.
+    chinese: 大象
+    syllable:
+      - el
+      - e
+      - phant
+    ipa: /ˈɛl.ə.fənt/
+  - id: 260
+    level: 1
+    batch: 3
+    word: else
+    pos: adv.
+    chinese: 其他的
+    syllable:
+      - else
+    ipa: /ɛls/
+  - id: 261
+    level: 1
+    batch: 3
+    word: email n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - email n./v.
+    ipa: ''
+  - id: 262
+    level: 1
+    batch: 3
+    word: end n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - end n./v.
+    ipa: ''
+  - id: 263
+    level: 1
+    batch: 3
+    word: engineer
+    pos: n.
+    chinese: 工程師
+    syllable:
+      - en
+      - gi
+      - neer
+    ipa: /ˌɛn.dʒɪˈnɪr/
+  - id: 264
+    level: 1
+    batch: 3
+    word: enjoy(ment) v./(n.)
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - enjoy(ment) v./(n.)
+    ipa: ''
+  - id: 265
+    level: 1
+    batch: 3
+    word: enough adv./adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - enough adv./adj./n.
+    ipa: ''
+  - id: 266
+    level: 1
+    batch: 3
+    word: enter
+    pos: v.
+    chinese: 進入
+    syllable:
+      - en
+      - ter
+    ipa: /ˈɛn.t̬ɚ/
+  - id: 267
+    level: 1
+    batch: 3
+    word: envelope
+    pos: n.
+    chinese: 信
+    syllable:
+      - en
+      - ve
+      - lope
+    ipa: /ˈɛn.və.loʊp/
+  - id: 268
+    level: 1
+    batch: 3
+    word: eraser
+    pos: n.
+    chinese: 橡皮擦
+    syllable:
+      - e
+      - ra
+      - ser
+    ipa: /ɪˈreɪ.sɚ/
+  - id: 269
+    level: 1
+    batch: 3
+    word: error
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - error
+    ipa: ''
+  - id: 270
+    level: 1
+    batch: 3
+    word: even adv./adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - even adv./adj./v.
+    ipa: ''
+  - id: 271
+    level: 1
+    batch: 3
+    word: evening
+    pos: n.
+    chinese: 傍晚
+    syllable:
+      - eve
+      - ning
+    ipa: /ˈiːv.nɪŋ/
+  - id: 272
+    level: 1
+    batch: 3
+    word: ever
+    pos: adv.
+    chinese: 曾經
+    syllable:
+      - ev
+      - er
+    ipa: /ˈɛv.ɚ/
+  - id: 273
+    level: 1
+    batch: 3
+    word: every
+    pos: adj.
+    chinese: 每一個(的)
+    syllable:
+      - ev
+      - er
+      - 'y'
+    ipa: /ˈɛv.ri/
+  - id: 274
+    level: 1
+    batch: 3
+    word: everyone/everybody
+    pos: pron.
+    chinese: 每一個人
+    syllable:
+      - ev
+      - er
+      - 'y'
+      - one
+    ipa: /ˈɛv.ri.wʌn/
+  - id: 275
+    level: 1
+    batch: 3
+    word: everything
+    pos: pron.
+    chinese: 每件事
+    syllable:
+      - ev
+      - er
+      - 'y'
+      - thing
+    ipa: /ˈɛv.ri.θɪŋ/
+  - id: 276
+    level: 1
+    batch: 3
+    word: example
+    pos: n.
+    chinese: 例子
+    syllable:
+      - ex
+      - am
+      - ple
+    ipa: /ɪɡˈzæm.pəl/
+  - id: 277
+    level: 1
+    batch: 3
+    word: excellent
+    pos: adj.
+    chinese: 極好的
+    syllable:
+      - ex
+      - cel
+      - lent
+    ipa: /ˈɛk.sə.lənt/
+  - id: 278
+    level: 1
+    batch: 3
+    word: except prep./conj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - except prep./conj.
+    ipa: ''
+  - id: 279
+    level: 1
+    batch: 3
+    word: excited
+    pos: adj.
+    chinese: 感到興奮的
+    syllable:
+      - ex
+      - cit
+      - ed
+    ipa: /ɪkˈsaɪ.t̬ɪd/
+  - id: 280
+    level: 1
+    batch: 3
+    word: exciting
+    pos: adj.
+    chinese: 令人興奮的
+    syllable:
+      - ex
+      - cit
+      - ing
+    ipa: /ɪkˈsaɪ.t̬ɪŋ/
+  - id: 281
+    level: 1
+    batch: 3
+    word: exercise n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - exercise n./v.
+    ipa: ''
+  - id: 282
+    level: 1
+    batch: 3
+    word: expect
+    pos: v.
+    chinese: 常用高中字彙
+    syllable:
+      - expect
+    ipa: ''
+  - id: 283
+    level: 1
+    batch: 3
+    word: expensive
+    pos: adj.
+    chinese: 昂貴的
+    syllable:
+      - ex
+      - pen
+      - sive
+    ipa: /ɪkˈspɛn.sɪv/
+  - id: 284
+    level: 1
+    batch: 3
+    word: experience n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - experience n./v.
+    ipa: ''
+  - id: 285
+    level: 1
+    batch: 3
+    word: explain
+    pos: v.
+    chinese: 常用高中字彙
+    syllable:
+      - explain
+    ipa: ''
+  - id: 286
+    level: 1
+    batch: 3
+    word: eye
+    pos: n.
+    chinese: 眼睛
+    syllable:
+      - eye
+    ipa: /aɪ/
+  - id: 287
+    level: 1
+    batch: 3
+    word: face n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - face n./v.
+    ipa: ''
+  - id: 288
+    level: 1
+    batch: 3
+    word: fact
+    pos: n.
+    chinese: 事實
+    syllable:
+      - fact
+    ipa: /fækt/
+  - id: 289
+    level: 1
+    batch: 3
+    word: factory
+    pos: n.
+    chinese: 工廠
+    syllable:
+      - fac
+      - to
+      - ry
+    ipa: /ˈfæk.tɚ.i/
+  - id: 290
+    level: 1
+    batch: 3
+    word: fail v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fail v./n.
+    ipa: ''
+  - id: 291
+    level: 1
+    batch: 3
+    word: fall n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fall n./v.
+    ipa: ''
+  - id: 292
+    level: 1
+    batch: 3
+    word: family
+    pos: n.
+    chinese: 家庭
+    syllable:
+      - fam
+      - i
+      - ly
+    ipa: /ˈfæm.əl.i/
+  - id: 293
+    level: 1
+    batch: 3
+    word: famous
+    pos: adj.
+    chinese: 有名的
+    syllable:
+      - fa
+      - mous
+    ipa: /ˈfeɪ.məs/
+  - id: 294
+    level: 1
+    batch: 3
+    word: fan n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fan n./v.
+    ipa: ''
+  - id: 295
+    level: 1
+    batch: 3
+    word: far adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - far adv./adj.
+    ipa: ''
+  - id: 296
+    level: 1
+    batch: 3
+    word: farm n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - farm n./v.
+    ipa: ''
+  - id: 297
+    level: 1
+    batch: 3
+    word: farmer
+    pos: n.
+    chinese: 農夫
+    syllable:
+      - farm
+      - er
+    ipa: /ˈfɑːr.mɚ/
+  - id: 298
+    level: 1
+    batch: 3
+    word: fast adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fast adv./adj.
+    ipa: ''
+  - id: 299
+    level: 1
+    batch: 3
+    word: fat n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fat n./adj.
+    ipa: ''
+  - id: 300
+    level: 1
+    batch: 3
+    word: father
+    pos: n.
+    chinese: 父親
+    syllable:
+      - fa
+      - ther
+    ipa: /ˈfɑː.ðɚ/
+  - id: 301
+    level: 1
+    batch: 4
+    word: feed v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - feed v./n.
+    ipa: ''
+  - id: 302
+    level: 1
+    batch: 4
+    word: feel v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - feel v./n.
+    ipa: ''
+  - id: 303
+    level: 1
+    batch: 4
+    word: festival
+    pos: n.
+    chinese: 節慶
+    syllable:
+      - fes
+      - ti
+      - val
+    ipa: /ˈfɛs.tə.vəl/
+  - id: 304
+    level: 1
+    batch: 4
+    word: few adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - few adj./pron.
+    ipa: ''
+  - id: 305
+    level: 1
+    batch: 4
+    word: fight v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fight v./n.
+    ipa: ''
+  - id: 306
+    level: 1
+    batch: 4
+    word: file n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - file n./v.
+    ipa: ''
+  - id: 307
+    level: 1
+    batch: 4
+    word: fill v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fill v./n.
+    ipa: ''
+  - id: 308
+    level: 1
+    batch: 4
+    word: finally
+    pos: adv.
+    chinese: 最後
+    syllable:
+      - fi
+      - nal
+      - ly
+    ipa: /ˈfaɪ.nəl.i/
+  - id: 309
+    level: 1
+    batch: 4
+    word: find v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - find v./n.
+    ipa: ''
+  - id: 310
+    level: 1
+    batch: 4
+    word: fine adj./adv./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fine adj./adv./v./n.
+    ipa: ''
+  - id: 311
+    level: 1
+    batch: 4
+    word: finger n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - finger n./v.
+    ipa: ''
+  - id: 312
+    level: 1
+    batch: 4
+    word: finish v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - finish v./n.
+    ipa: ''
+  - id: 313
+    level: 1
+    batch: 4
+    word: fire n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fire n./v.
+    ipa: ''
+  - id: 314
+    level: 1
+    batch: 4
+    word: first n./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - first n./adv./adj.
+    ipa: ''
+  - id: 315
+    level: 1
+    batch: 4
+    word: fish n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fish n./v.
+    ipa: ''
+  - id: 316
+    level: 1
+    batch: 4
+    word: floor n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - floor n./v.
+    ipa: ''
+  - id: 317
+    level: 1
+    batch: 4
+    word: flower n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - flower n./v.
+    ipa: ''
+  - id: 318
+    level: 1
+    batch: 4
+    word: fly v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fly v./n.
+    ipa: ''
+  - id: 319
+    level: 1
+    batch: 4
+    word: follow
+    pos: v.
+    chinese: 遵循,跟隨
+    syllable:
+      - fol
+      - low
+    ipa: /ˈfɑː.loʊ/
+  - id: 320
+    level: 1
+    batch: 4
+    word: food
+    pos: n.
+    chinese: 食物
+    syllable:
+      - food
+    ipa: /fuːd/
+  - id: 321
+    level: 1
+    batch: 4
+    word: fool n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - fool n./v.
+    ipa: ''
+  - id: 322
+    level: 1
+    batch: 4
+    word: foot n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - foot n./v.
+    ipa: ''
+  - id: 323
+    level: 1
+    batch: 4
+    word: for prep./conj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - for prep./conj.
+    ipa: ''
+  - id: 324
+    level: 1
+    batch: 4
+    word: foreign
+    pos: adj.
+    chinese: 外國的
+    syllable:
+      - for
+      - eign
+    ipa: /ˈfɔːr.ən/
+  - id: 325
+    level: 1
+    batch: 4
+    word: foreigner
+    pos: n.
+    chinese: 外國人
+    syllable:
+      - for
+      - eign
+      - er
+    ipa: /ˈfɔːr.ə.nɚ/
+  - id: 326
+    level: 1
+    batch: 4
+    word: forget
+    pos: v.
+    chinese: 忘記
+    syllable:
+      - for
+      - get
+    ipa: /fɚˈɡɛt/
+  - id: 327
+    level: 1
+    batch: 4
+    word: fork
+    pos: n.
+    chinese: 叉子
+    syllable:
+      - fork
+    ipa: /fɔːrk/
+  - id: 328
+    level: 1
+    batch: 4
+    word: free adj./v./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - free adj./v./adv.
+    ipa: ''
+  - id: 329
+    level: 1
+    batch: 4
+    word: fresh
+    pos: adj.
+    chinese: 新鮮的
+    syllable:
+      - fresh
+    ipa: /frɛʃ/
+  - id: 330
+    level: 1
+    batch: 4
+    word: friend
+    pos: n.
+    chinese: 朋友
+    syllable:
+      - friend
+    ipa: /frɛnd/
+  - id: 331
+    level: 1
+    batch: 4
+    word: friendly
+    pos: adj.
+    chinese: 友善的
+    syllable:
+      - friend
+      - ly
+    ipa: /ˈfrɛnd.li/
+  - id: 332
+    level: 1
+    batch: 4
+    word: frog
+    pos: n.
+    chinese: 青蛙
+    syllable:
+      - frog
+    ipa: /frɑːɡ/
+  - id: 333
+    level: 1
+    batch: 4
+    word: from
+    pos: prep.
+    chinese: 從
+    syllable:
+      - from
+    ipa: /frʌm/
+  - id: 334
+    level: 1
+    batch: 4
+    word: front adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - front adj./n.
+    ipa: ''
+  - id: 335
+    level: 1
+    batch: 4
+    word: fruit
+    pos: n.
+    chinese: 水果
+    syllable:
+      - fruit
+    ipa: /fruːt/
+  - id: 336
+    level: 1
+    batch: 4
+    word: full
+    pos: adj.
+    chinese: 滿的
+    syllable:
+      - full
+    ipa: /fʊl/
+  - id: 337
+    level: 1
+    batch: 4
+    word: fun
+    pos: n.
+    chinese: 樂趣
+    syllable:
+      - fun
+    ipa: /fʌn/
+  - id: 338
+    level: 1
+    batch: 4
+    word: funny
+    pos: adj.
+    chinese: 好笑的
+    syllable:
+      - fun
+      - ny
+    ipa: /ˈfʌn.i/
+  - id: 339
+    level: 1
+    batch: 4
+    word: future n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - future n./adj.
+    ipa: ''
+  - id: 340
+    level: 1
+    batch: 4
+    word: game
+    pos: n.
+    chinese: 比賽,遊戲
+    syllable:
+      - game
+    ipa: /ɡeɪm/
+  - id: 341
+    level: 1
+    batch: 4
+    word: garden n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - garden n./v.
+    ipa: ''
+  - id: 342
+    level: 1
+    batch: 4
+    word: gate
+    pos: n.
+    chinese: 大門
+    syllable:
+      - gate
+    ipa: /ɡeɪt/
+  - id: 343
+    level: 1
+    batch: 4
+    word: get
+    pos: v.
+    chinese: 得到
+    syllable:
+      - get
+    ipa: /ɡɛt/
+  - id: 344
+    level: 1
+    batch: 4
+    word: ghost
+    pos: n.
+    chinese: 鬼
+    syllable:
+      - ghost
+    ipa: /ɡoʊst/
+  - id: 345
+    level: 1
+    batch: 4
+    word: giant adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - giant adj./n.
+    ipa: ''
+  - id: 346
+    level: 1
+    batch: 4
+    word: gift
+    pos: n.
+    chinese: 禮物
+    syllable:
+      - gift
+    ipa: /ɡɪft/
+  - id: 347
+    level: 1
+    batch: 4
+    word: girl
+    pos: n.
+    chinese: 女孩
+    syllable:
+      - girl
+    ipa: /ɡɝːl/
+  - id: 348
+    level: 1
+    batch: 4
+    word: give
+    pos: v.
+    chinese: 給予
+    syllable:
+      - give
+    ipa: /ɡɪv/
+  - id: 349
+    level: 1
+    batch: 4
+    word: glad
+    pos: adj.
+    chinese: 高興的
+    syllable:
+      - glad
+    ipa: /ɡlæd/
+  - id: 350
+    level: 1
+    batch: 4
+    word: glass
+    pos: n.
+    chinese: 玻璃,玻璃杯
+    syllable:
+      - glass
+    ipa: /ɡlæs/
+  - id: 351
+    level: 1
+    batch: 4
+    word: glasses
+    pos: n.
+    chinese: 眼鏡
+    syllable:
+      - glass
+      - es
+    ipa: /ˈɡlæs.ɪz/
+  - id: 352
+    level: 1
+    batch: 4
+    word: glove(s)
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - glove(s)
+    ipa: ''
+  - id: 353
+    level: 1
+    batch: 4
+    word: go v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - go v./n.
+    ipa: ''
+  - id: 354
+    level: 1
+    batch: 4
+    word: god/goddess
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - god/goddess
+    ipa: ''
+  - id: 355
+    level: 1
+    batch: 4
+    word: good adj./adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - good adj./adv./n.
+    ipa: ''
+  - id: 356
+    level: 1
+    batch: 4
+    word: goodbye
+    pos: n.
+    chinese: 再見
+    syllable:
+      - good
+      - bye
+    ipa: /ˌɡʊdˈbaɪ/
+  - id: 357
+    level: 1
+    batch: 4
+    word: grade n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - grade n./v.
+    ipa: ''
+  - id: 358
+    level: 1
+    batch: 4
+    word: grandfather
+    pos: n.
+    chinese: 祖父
+    syllable:
+      - grand
+      - fa
+      - ther
+    ipa: /ˈɡræn.fɑː.ðɚ/
+  - id: 359
+    level: 1
+    batch: 4
+    word: grandmother
+    pos: n.
+    chinese: 祖母
+    syllable:
+      - grand
+      - moth
+      - er
+    ipa: /ˈɡræn.mʌð.ɚ/
+  - id: 360
+    level: 1
+    batch: 4
+    word: grass
+    pos: n.
+    chinese: 草
+    syllable:
+      - grass
+    ipa: /ɡræs/
+  - id: 361
+    level: 1
+    batch: 4
+    word: gray adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - gray adj./n./v.
+    ipa: ''
+  - id: 362
+    level: 1
+    batch: 4
+    word: great adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - great adj./n.
+    ipa: ''
+  - id: 363
+    level: 1
+    batch: 4
+    word: green adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - green adj./n./v.
+    ipa: ''
+  - id: 364
+    level: 1
+    batch: 4
+    word: ground n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - ground n./v.
+    ipa: ''
+  - id: 365
+    level: 1
+    batch: 4
+    word: group n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - group n./v.
+    ipa: ''
+  - id: 366
+    level: 1
+    batch: 4
+    word: grow
+    pos: v.
+    chinese: 種植
+    syllable:
+      - grow
+    ipa: /ɡroʊ/
+  - id: 367
+    level: 1
+    batch: 4
+    word: guess v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - guess v./n.
+    ipa: ''
+  - id: 368
+    level: 1
+    batch: 4
+    word: guitar
+    pos: n.
+    chinese: 吉他
+    syllable:
+      - gui
+      - tar
+    ipa: /ɡɪˈtɑːr/
+  - id: 369
+    level: 1
+    batch: 4
+    word: guy
+    pos: n.
+    chinese: 傢伙
+    syllable:
+      - guy
+    ipa: /ɡaɪ/
+  - id: 370
+    level: 1
+    batch: 4
+    word: habit
+    pos: n.
+    chinese: 習慣
+    syllable:
+      - hab
+      - it
+    ipa: /ˈhæb.ɪt/
+  - id: 371
+    level: 1
+    batch: 4
+    word: hair
+    pos: n.
+    chinese: 頭法
+    syllable:
+      - hair
+    ipa: /hɛr/
+  - id: 372
+    level: 1
+    batch: 4
+    word: half n./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - half n./adv./adj.
+    ipa: ''
+  - id: 373
+    level: 1
+    batch: 4
+    word: ham
+    pos: n.
+    chinese: 火腿
+    syllable:
+      - ham
+    ipa: /hæm/
+  - id: 374
+    level: 1
+    batch: 4
+    word: hand n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hand n./v.
+    ipa: ''
+  - id: 375
+    level: 1
+    batch: 4
+    word: hang
+    pos: v.
+    chinese: 懸掛
+    syllable:
+      - hang
+    ipa: /hæŋ/
+  - id: 376
+    level: 1
+    batch: 4
+    word: happen
+    pos: v.
+    chinese: 發生
+    syllable:
+      - hap
+      - pen
+    ipa: /ˈhæp.ən/
+  - id: 377
+    level: 1
+    batch: 4
+    word: happy
+    pos: adj.
+    chinese: 快樂的
+    syllable:
+      - hap
+      - py
+    ipa: /ˈhæp.i/
+  - id: 378
+    level: 1
+    batch: 4
+    word: hard adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hard adj./adv.
+    ipa: ''
+  - id: 379
+    level: 1
+    batch: 4
+    word: hat
+    pos: n.
+    chinese: 帽子
+    syllable:
+      - hat
+    ipa: /hæt/
+  - id: 380
+    level: 1
+    batch: 4
+    word: hate v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hate v./n.
+    ipa: ''
+  - id: 381
+    level: 1
+    batch: 4
+    word: have aux./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - have aux./v.
+    ipa: ''
+  - id: 382
+    level: 1
+    batch: 4
+    word: he (him, his, himself)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - he (him, his, himself)
+    ipa: ''
+  - id: 383
+    level: 1
+    batch: 4
+    word: head n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - head n./v.
+    ipa: ''
+  - id: 384
+    level: 1
+    batch: 4
+    word: headache
+    pos: n.
+    chinese: 頭痛
+    syllable:
+      - head
+      - ache
+    ipa: /ˈhɛd.eɪk/
+  - id: 385
+    level: 1
+    batch: 4
+    word: health
+    pos: n.
+    chinese: 健康
+    syllable:
+      - health
+    ipa: /hɛlθ/
+  - id: 386
+    level: 1
+    batch: 4
+    word: healthy
+    pos: adj.
+    chinese: 健康的
+    syllable:
+      - health
+      - 'y'
+    ipa: /ˈhɛl.θi/
+  - id: 387
+    level: 1
+    batch: 4
+    word: hear
+    pos: v.
+    chinese: 聽
+    syllable:
+      - hear
+    ipa: /hɪr/
+  - id: 388
+    level: 1
+    batch: 4
+    word: heart
+    pos: n.
+    chinese: 心
+    syllable:
+      - heart
+    ipa: /hɑːrt/
+  - id: 389
+    level: 1
+    batch: 4
+    word: heat n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - heat n./v.
+    ipa: ''
+  - id: 390
+    level: 1
+    batch: 4
+    word: heavy
+    pos: adj.
+    chinese: 重的
+    syllable:
+      - heav
+      - 'y'
+    ipa: /ˈhɛv.i/
+  - id: 391
+    level: 1
+    batch: 4
+    word: height
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - height
+    ipa: ''
+  - id: 392
+    level: 1
+    batch: 4
+    word: hello
+    pos: n.
+    chinese: 喂
+    syllable:
+      - hel
+      - lo
+    ipa: /həˈloʊ/
+  - id: 393
+    level: 1
+    batch: 4
+    word: help v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - help v./n.
+    ipa: ''
+  - id: 394
+    level: 1
+    batch: 4
+    word: helpful
+    pos: adj.
+    chinese: 有幫助的
+    syllable:
+      - help
+      - ful
+    ipa: /ˈhɛlp.fəl/
+  - id: 395
+    level: 1
+    batch: 4
+    word: hen
+    pos: n.
+    chinese: 母雞
+    syllable:
+      - hen
+    ipa: /hɛn/
+  - id: 396
+    level: 1
+    batch: 4
+    word: here adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - here adv./n.
+    ipa: ''
+  - id: 397
+    level: 1
+    batch: 4
+    word: hide
+    pos: v.
+    chinese: 隱藏
+    syllable:
+      - hide
+    ipa: /haɪd/
+  - id: 398
+    level: 1
+    batch: 4
+    word: high adj./adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - high adj./adv./n.
+    ipa: ''
+  - id: 399
+    level: 1
+    batch: 4
+    word: hill
+    pos: n.
+    chinese: 小山
+    syllable:
+      - hill
+    ipa: /hɪl/
+  - id: 400
+    level: 1
+    batch: 4
+    word: history
+    pos: n.
+    chinese: 歷史
+    syllable:
+      - his
+      - to
+      - ry
+    ipa: /ˈhɪs.t̬ɚ.i/
+  - id: 401
+    level: 1
+    batch: 5
+    word: hit v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hit v./n.
+    ipa: ''
+  - id: 402
+    level: 1
+    batch: 5
+    word: hobby
+    pos: n.
+    chinese: 嗜好
+    syllable:
+      - hob
+      - by
+    ipa: /ˈhɑː.bi/
+  - id: 403
+    level: 1
+    batch: 5
+    word: hold v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hold v./n.
+    ipa: ''
+  - id: 404
+    level: 1
+    batch: 5
+    word: holiday
+    pos: n.
+    chinese: 假日
+    syllable:
+      - hol
+      - i
+      - day
+    ipa: /ˈhɑː.lə.deɪ/
+  - id: 405
+    level: 1
+    batch: 5
+    word: home n./adv./v./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - home n./adv./v./adj.
+    ipa: ''
+  - id: 406
+    level: 1
+    batch: 5
+    word: homework
+    pos: n.
+    chinese: 家庭作業
+    syllable:
+      - home
+      - work
+    ipa: /ˈhoʊm.wɝːk/
+  - id: 407
+    level: 1
+    batch: 5
+    word: honest
+    pos: adj.
+    chinese: 誠實的
+    syllable:
+      - hon
+      - est
+    ipa: /ˈɑː.nɪst/
+  - id: 408
+    level: 1
+    batch: 5
+    word: honey
+    pos: n.
+    chinese: 蜂蜜
+    syllable:
+      - hon
+      - ey
+    ipa: /ˈhʌn.i/
+  - id: 409
+    level: 1
+    batch: 5
+    word: hope v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hope v./n.
+    ipa: ''
+  - id: 410
+    level: 1
+    batch: 5
+    word: horse
+    pos: n.
+    chinese: 馬
+    syllable:
+      - horse
+    ipa: /hɔːrs/
+  - id: 411
+    level: 1
+    batch: 5
+    word: hospital
+    pos: n.
+    chinese: 醫院
+    syllable:
+      - hos
+      - pi
+      - tal
+    ipa: /ˈhɑː.spɪ.t̬əl/
+  - id: 412
+    level: 1
+    batch: 5
+    word: hot
+    pos: adj.
+    chinese: 熱的
+    syllable:
+      - hot
+    ipa: /hɑːt/
+  - id: 413
+    level: 1
+    batch: 5
+    word: hotel
+    pos: n.
+    chinese: 旅社
+    syllable:
+      - ho
+      - tel
+    ipa: /hoʊˈtɛl/
+  - id: 414
+    level: 1
+    batch: 5
+    word: hour
+    pos: n.
+    chinese: 小時
+    syllable:
+      - hour
+    ipa: /ˈaʊ.ɚ/
+  - id: 415
+    level: 1
+    batch: 5
+    word: house n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - house n./v.
+    ipa: ''
+  - id: 416
+    level: 1
+    batch: 5
+    word: housewife
+    pos: n.
+    chinese: 家庭主婦
+    syllable:
+      - house
+      - wife
+    ipa: /ˈhaʊs.waɪf/
+  - id: 417
+    level: 1
+    batch: 5
+    word: how
+    pos: adv.
+    chinese: 如何
+    syllable:
+      - how
+    ipa: /haʊ/
+  - id: 418
+    level: 1
+    batch: 5
+    word: however
+    pos: adv.
+    chinese: 然而
+    syllable:
+      - how
+      - ev
+      - er
+    ipa: /haʊˈɛv.ɚ/
+  - id: 419
+    level: 1
+    batch: 5
+    word: hundred n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hundred n./adj.
+    ipa: ''
+  - id: 420
+    level: 1
+    batch: 5
+    word: hungry
+    pos: adj.
+    chinese: 飢餓的
+    syllable:
+      - hun
+      - gry
+    ipa: /ˈhʌŋ.ɡri/
+  - id: 421
+    level: 1
+    batch: 5
+    word: hurt v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - hurt v./n.
+    ipa: ''
+  - id: 422
+    level: 1
+    batch: 5
+    word: husband
+    pos: n.
+    chinese: 丈夫
+    syllable:
+      - hus
+      - band
+    ipa: /ˈhʌz.bənd/
+  - id: 423
+    level: 1
+    batch: 5
+    word: I (me, my, mine, myself)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - I (me, my, mine, myself)
+    ipa: ''
+  - id: 424
+    level: 1
+    batch: 5
+    word: ice
+    pos: n.
+    chinese: 冰
+    syllable:
+      - ice
+    ipa: /aɪs/
+  - id: 425
+    level: 1
+    batch: 5
+    word: idea
+    pos: n.
+    chinese: 主意
+    syllable:
+      - i
+      - de
+      - a
+    ipa: /aɪˈdiː.ə/
+  - id: 426
+    level: 1
+    batch: 5
+    word: if
+    pos: conj.
+    chinese: 如果
+    syllable:
+      - if
+    ipa: /ɪf/
+  - id: 427
+    level: 1
+    batch: 5
+    word: important
+    pos: adj.
+    chinese: 重要的
+    syllable:
+      - im
+      - por
+      - tant
+    ipa: /ɪmˈpɔːr.tənt/
+  - id: 428
+    level: 1
+    batch: 5
+    word: in prep./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - in prep./adv./adj.
+    ipa: ''
+  - id: 429
+    level: 1
+    batch: 5
+    word: inch
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - inch
+    ipa: ''
+  - id: 430
+    level: 1
+    batch: 5
+    word: insect
+    pos: n.
+    chinese: 昆蟲
+    syllable:
+      - in
+      - sect
+    ipa: /ˈɪn.sɛkt/
+  - id: 431
+    level: 1
+    batch: 5
+    word: inside prep./adv./n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - inside prep./adv./n./adj.
+    ipa: ''
+  - id: 432
+    level: 1
+    batch: 5
+    word: interest n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - interest n./v.
+    ipa: ''
+  - id: 433
+    level: 1
+    batch: 5
+    word: interested
+    pos: adj.
+    chinese: 感興趣的
+    syllable:
+      - in
+      - ter
+      - est
+      - ed
+    ipa: /ˈɪn.trɪ.stɪd/
+  - id: 434
+    level: 1
+    batch: 5
+    word: interesting
+    pos: adj.
+    chinese: 有趣的
+    syllable:
+      - in
+      - ter
+      - est
+      - ing
+    ipa: /ˈɪn.trɪ.stɪŋ/
+  - id: 435
+    level: 1
+    batch: 5
+    word: interview n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - interview n./v.
+    ipa: ''
+  - id: 436
+    level: 1
+    batch: 5
+    word: into
+    pos: prep.
+    chinese: 到…之內
+    syllable:
+      - in
+      - to
+    ipa: /ˈɪn.tuː/
+  - id: 437
+    level: 1
+    batch: 5
+    word: invite
+    pos: v.
+    chinese: 邀請
+    syllable:
+      - in
+      - vite
+    ipa: /ɪnˈvaɪt/
+  - id: 438
+    level: 1
+    batch: 5
+    word: island
+    pos: n.
+    chinese: 島嶼
+    syllable:
+      - is
+      - land
+    ipa: /ˈaɪ.lənd/
+  - id: 439
+    level: 1
+    batch: 5
+    word: it (its, itself)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - it (its, itself)
+    ipa: ''
+  - id: 440
+    level: 1
+    batch: 5
+    word: item
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - item
+    ipa: ''
+  - id: 441
+    level: 1
+    batch: 5
+    word: jacket
+    pos: n.
+    chinese: 夾克
+    syllable:
+      - jack
+      - et
+    ipa: /ˈdʒæk.ɪt/
+  - id: 442
+    level: 1
+    batch: 5
+    word: jeans
+    pos: n.
+    chinese: 牛仔褲
+    syllable:
+      - jeans
+    ipa: /dʒiːnz/
+  - id: 443
+    level: 1
+    batch: 5
+    word: job
+    pos: n.
+    chinese: 工作
+    syllable:
+      - job
+    ipa: /dʒɑːb/
+  - id: 444
+    level: 1
+    batch: 5
+    word: join v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - join v./n.
+    ipa: ''
+  - id: 445
+    level: 1
+    batch: 5
+    word: joke n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - joke n./v.
+    ipa: ''
+  - id: 446
+    level: 1
+    batch: 5
+    word: joy
+    pos: n.
+    chinese: 歡樂
+    syllable:
+      - joy
+    ipa: /dʒɔɪ/
+  - id: 447
+    level: 1
+    batch: 5
+    word: juice
+    pos: n.
+    chinese: 果汁
+    syllable:
+      - juice
+    ipa: /dʒuːs/
+  - id: 448
+    level: 1
+    batch: 5
+    word: jump v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - jump v./n.
+    ipa: ''
+  - id: 449
+    level: 1
+    batch: 5
+    word: just adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - just adv./adj.
+    ipa: ''
+  - id: 450
+    level: 1
+    batch: 5
+    word: keep v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - keep v./n.
+    ipa: ''
+  - id: 451
+    level: 1
+    batch: 5
+    word: key adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - key adj./n./v.
+    ipa: ''
+  - id: 452
+    level: 1
+    batch: 5
+    word: kick v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - kick v./n.
+    ipa: ''
+  - id: 453
+    level: 1
+    batch: 5
+    word: kid n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - kid n./v.
+    ipa: ''
+  - id: 454
+    level: 1
+    batch: 5
+    word: kill v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - kill v./n.
+    ipa: ''
+  - id: 455
+    level: 1
+    batch: 5
+    word: kind adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - kind adj./n.
+    ipa: ''
+  - id: 456
+    level: 1
+    batch: 5
+    word: king
+    pos: n.
+    chinese: 國王
+    syllable:
+      - king
+    ipa: /kɪŋ/
+  - id: 457
+    level: 1
+    batch: 5
+    word: kiss n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - kiss n./v.
+    ipa: ''
+  - id: 458
+    level: 1
+    batch: 5
+    word: kitchen
+    pos: n.
+    chinese: 廚房
+    syllable:
+      - kitch
+      - en
+    ipa: /ˈkɪtʃ.ən/
+  - id: 459
+    level: 1
+    batch: 5
+    word: kite
+    pos: n.
+    chinese: 風箏
+    syllable:
+      - kite
+    ipa: /kaɪt/
+  - id: 460
+    level: 1
+    batch: 5
+    word: knee n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - knee n./v.
+    ipa: ''
+  - id: 461
+    level: 1
+    batch: 5
+    word: knife n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - knife n./v.
+    ipa: ''
+  - id: 462
+    level: 1
+    batch: 5
+    word: knock v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - knock v./n.
+    ipa: ''
+  - id: 463
+    level: 1
+    batch: 5
+    word: know
+    pos: v.
+    chinese: 知道
+    syllable:
+      - know
+    ipa: /noʊ/
+  - id: 464
+    level: 1
+    batch: 5
+    word: knowledge
+    pos: n.
+    chinese: 知識
+    syllable:
+      - knowl
+      - edge
+    ipa: /ˈnɑː.lɪdʒ/
+  - id: 465
+    level: 1
+    batch: 5
+    word: lake
+    pos: n.
+    chinese: 湖
+    syllable:
+      - lake
+    ipa: /leɪk/
+  - id: 466
+    level: 1
+    batch: 5
+    word: lamp
+    pos: n.
+    chinese: 燈
+    syllable:
+      - lamp
+    ipa: /læmp/
+  - id: 467
+    level: 1
+    batch: 5
+    word: land n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - land n./v.
+    ipa: ''
+  - id: 468
+    level: 1
+    batch: 5
+    word: language
+    pos: n.
+    chinese: 語言
+    syllable:
+      - lan
+      - guage
+    ipa: /ˈlæŋ.ɡwɪdʒ/
+  - id: 469
+    level: 1
+    batch: 5
+    word: large
+    pos: adj.
+    chinese: 大的
+    syllable:
+      - large
+    ipa: /lɑːrdʒ/
+  - id: 470
+    level: 1
+    batch: 5
+    word: last n./v./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - last n./v./adv./adj.
+    ipa: ''
+  - id: 471
+    level: 1
+    batch: 5
+    word: late adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - late adj./adv.
+    ipa: ''
+  - id: 472
+    level: 1
+    batch: 5
+    word: later
+    pos: adv.
+    chinese: 稍後
+    syllable:
+      - lat
+      - er
+    ipa: /ˈleɪ.t̬ɚ/
+  - id: 473
+    level: 1
+    batch: 5
+    word: laugh v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - laugh v./n.
+    ipa: ''
+  - id: 474
+    level: 1
+    batch: 5
+    word: lawyer
+    pos: n.
+    chinese: 律師
+    syllable:
+      - law
+      - yer
+    ipa: /ˈlɑː.jɚ/
+  - id: 475
+    level: 1
+    batch: 5
+    word: lazy
+    pos: adj.
+    chinese: 懶惰的
+    syllable:
+      - la
+      - zy
+    ipa: /ˈleɪ.zi/
+  - id: 476
+    level: 1
+    batch: 5
+    word: lead v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - lead v./n.
+    ipa: ''
+  - id: 477
+    level: 1
+    batch: 5
+    word: leader
+    pos: n.
+    chinese: 領導者
+    syllable:
+      - lead
+      - er
+    ipa: /ˈliː.dɚ/
+  - id: 478
+    level: 1
+    batch: 5
+    word: learn
+    pos: v.
+    chinese: 學習
+    syllable:
+      - learn
+    ipa: /lɝːn/
+  - id: 479
+    level: 1
+    batch: 5
+    word: least adv./pron./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - least adv./pron./adj.
+    ipa: ''
+  - id: 480
+    level: 1
+    batch: 5
+    word: leave v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - leave v./n.
+    ipa: ''
+  - id: 481
+    level: 1
+    batch: 5
+    word: left adj./n./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - left adj./n./adv.
+    ipa: ''
+  - id: 482
+    level: 1
+    batch: 5
+    word: leg
+    pos: n.
+    chinese: 腿
+    syllable:
+      - leg
+    ipa: /lɛɡ/
+  - id: 483
+    level: 1
+    batch: 5
+    word: lemon
+    pos: n.
+    chinese: 檸檬
+    syllable:
+      - lem
+      - 'on'
+    ipa: /ˈlɛm.ən/
+  - id: 484
+    level: 1
+    batch: 5
+    word: less pron./adv./adj./prep.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - less pron./adv./adj./prep.
+    ipa: ''
+  - id: 485
+    level: 1
+    batch: 5
+    word: lesson
+    pos: n.
+    chinese: 課
+    syllable:
+      - les
+      - son
+    ipa: /ˈlɛs.ən/
+  - id: 486
+    level: 1
+    batch: 5
+    word: let
+    pos: v.
+    chinese: 讓
+    syllable:
+      - let
+    ipa: /lɛt/
+  - id: 487
+    level: 1
+    batch: 5
+    word: letter
+    pos: n.
+    chinese: 信
+    syllable:
+      - let
+      - ter
+    ipa: /ˈlɛt.ɚ/
+  - id: 488
+    level: 1
+    batch: 5
+    word: level n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - level n./adj.
+    ipa: ''
+  - id: 489
+    level: 1
+    batch: 5
+    word: library
+    pos: n.
+    chinese: 圖書館
+    syllable:
+      - li
+      - brary
+    ipa: /ˈlaɪ.brɛr.i/
+  - id: 490
+    level: 1
+    batch: 5
+    word: lie v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - lie v./n.
+    ipa: ''
+  - id: 491
+    level: 1
+    batch: 5
+    word: life
+    pos: n.
+    chinese: 生活
+    syllable:
+      - life
+    ipa: /laɪf/
+  - id: 492
+    level: 1
+    batch: 5
+    word: light n./adj./v./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - light n./adj./v./adv.
+    ipa: ''
+  - id: 493
+    level: 1
+    batch: 5
+    word: like prep./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - like prep./v./n.
+    ipa: ''
+  - id: 494
+    level: 1
+    batch: 5
+    word: line n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - line n./v.
+    ipa: ''
+  - id: 495
+    level: 1
+    batch: 5
+    word: lion
+    pos: n.
+    chinese: 獅子
+    syllable:
+      - li
+      - 'on'
+    ipa: /ˈlaɪ.ən/
+  - id: 496
+    level: 1
+    batch: 5
+    word: lip
+    pos: n.
+    chinese: 嘴唇
+    syllable:
+      - lip
+    ipa: /lɪp/
+  - id: 497
+    level: 1
+    batch: 5
+    word: list n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - list n./v.
+    ipa: ''
+  - id: 498
+    level: 1
+    batch: 5
+    word: listen
+    pos: v.
+    chinese: 聽
+    syllable:
+      - lis
+      - ten
+    ipa: /ˈlɪs.ən/
+  - id: 499
+    level: 1
+    batch: 5
+    word: little adj./adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - little adj./adv./n.
+    ipa: ''
+  - id: 500
+    level: 1
+    batch: 5
+    word: live v./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - live v./adj.
+    ipa: ''
+  - id: 501
+    level: 1
+    batch: 6
+    word: lonely
+    pos: adj.
+    chinese: 寂寞的
+    syllable:
+      - lone
+      - ly
+    ipa: /ˈloʊn.li/
+  - id: 502
+    level: 1
+    batch: 6
+    word: long adj./adv./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - long adj./adv./v.
+    ipa: ''
+  - id: 503
+    level: 1
+    batch: 6
+    word: look v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - look v./n.
+    ipa: ''
+  - id: 504
+    level: 1
+    batch: 6
+    word: lose
+    pos: v.
+    chinese: 遺失
+    syllable:
+      - lose
+    ipa: /luːz/
+  - id: 505
+    level: 1
+    batch: 6
+    word: lot
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - lot
+    ipa: ''
+  - id: 506
+    level: 1
+    batch: 6
+    word: loud adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - loud adv./adj.
+    ipa: ''
+  - id: 507
+    level: 1
+    batch: 6
+    word: love n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - love n./v.
+    ipa: ''
+  - id: 508
+    level: 1
+    batch: 6
+    word: lovely
+    pos: adj.
+    chinese: 可愛的
+    syllable:
+      - love
+      - ly
+    ipa: /ˈlʌv.li/
+  - id: 509
+    level: 1
+    batch: 6
+    word: low adj./adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - low adj./adv./n.
+    ipa: ''
+  - id: 510
+    level: 1
+    batch: 6
+    word: lucky
+    pos: adj.
+    chinese: 幸運的
+    syllable:
+      - luck
+      - 'y'
+    ipa: /ˈlʌk.i/
+  - id: 511
+    level: 1
+    batch: 6
+    word: lunch n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - lunch n./v.
+    ipa: ''
+  - id: 512
+    level: 1
+    batch: 6
+    word: machine n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - machine n./v.
+    ipa: ''
+  - id: 513
+    level: 1
+    batch: 6
+    word: mad
+    pos: adj.
+    chinese: 瘋狂的
+    syllable:
+      - mad
+    ipa: /mæd/
+  - id: 514
+    level: 1
+    batch: 6
+    word: magic adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - magic adj./n.
+    ipa: ''
+  - id: 515
+    level: 1
+    batch: 6
+    word: mail n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mail n./v.
+    ipa: ''
+  - id: 516
+    level: 1
+    batch: 6
+    word: main adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - main adj./n.
+    ipa: ''
+  - id: 517
+    level: 1
+    batch: 6
+    word: make
+    pos: v.
+    chinese: 製作
+    syllable:
+      - make
+    ipa: /meɪk/
+  - id: 518
+    level: 1
+    batch: 6
+    word: man n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - man n./v.
+    ipa: ''
+  - id: 519
+    level: 1
+    batch: 6
+    word: many adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - many adj./pron.
+    ipa: ''
+  - id: 520
+    level: 1
+    batch: 6
+    word: map n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - map n./v.
+    ipa: ''
+  - id: 521
+    level: 1
+    batch: 6
+    word: mark n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mark n./v.
+    ipa: ''
+  - id: 522
+    level: 1
+    batch: 6
+    word: market n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - market n./v.
+    ipa: ''
+  - id: 523
+    level: 1
+    batch: 6
+    word: married
+    pos: adj.
+    chinese: 已婚的
+    syllable:
+      - mar
+      - ried
+    ipa: /ˈmær.id/
+  - id: 524
+    level: 1
+    batch: 6
+    word: mathematics/math
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - mathematics/math
+    ipa: ''
+  - id: 525
+    level: 1
+    batch: 6
+    word: matter n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - matter n./v.
+    ipa: ''
+  - id: 526
+    level: 1
+    batch: 6
+    word: may
+    pos: aux.
+    chinese: 五月
+    syllable:
+      - May
+    ipa: /meɪ/
+  - id: 527
+    level: 1
+    batch: 6
+    word: maybe
+    pos: adv.
+    chinese: 也許
+    syllable:
+      - may
+      - be
+    ipa: /ˈmeɪ.bi/
+  - id: 528
+    level: 1
+    batch: 6
+    word: meal
+    pos: n.
+    chinese: 一餐
+    syllable:
+      - meal
+    ipa: /miːl/
+  - id: 529
+    level: 1
+    batch: 6
+    word: mean v./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mean v./adj.
+    ipa: ''
+  - id: 530
+    level: 1
+    batch: 6
+    word: meat
+    pos: n.
+    chinese: 肉
+    syllable:
+      - meat
+    ipa: /miːt/
+  - id: 531
+    level: 1
+    batch: 6
+    word: media
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - media
+    ipa: ''
+  - id: 532
+    level: 1
+    batch: 6
+    word: medicine
+    pos: n.
+    chinese: 藥
+    syllable:
+      - med
+      - i
+      - cine
+    ipa: /ˈmɛd.ə.sən/
+  - id: 533
+    level: 1
+    batch: 6
+    word: medium
+    pos: adj.
+    chinese: 中號〈的〉
+    syllable:
+      - me
+      - di
+      - um
+    ipa: /ˈmiː.di.əm/
+  - id: 534
+    level: 1
+    batch: 6
+    word: meet
+    pos: v.
+    chinese: 遇見
+    syllable:
+      - meet
+    ipa: /miːt/
+  - id: 535
+    level: 1
+    batch: 6
+    word: meeting
+    pos: n.
+    chinese: 會議
+    syllable:
+      - meet
+      - ing
+    ipa: /ˈmiː.t̬ɪŋ/
+  - id: 536
+    level: 1
+    batch: 6
+    word: member
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - member
+    ipa: ''
+  - id: 537
+    level: 1
+    batch: 6
+    word: menu
+    pos: n.
+    chinese: 菜單,選單
+    syllable:
+      - men
+      - u
+    ipa: /ˈmɛn.juː/
+  - id: 538
+    level: 1
+    batch: 6
+    word: middle adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - middle adj./n.
+    ipa: ''
+  - id: 539
+    level: 1
+    batch: 6
+    word: milk
+    pos: n.
+    chinese: 牛奶
+    syllable:
+      - milk
+    ipa: /mɪlk/
+  - id: 540
+    level: 1
+    batch: 6
+    word: million
+    pos: n.
+    chinese: 百萬
+    syllable:
+      - mil
+      - lion
+    ipa: /ˈmɪl.jən/
+  - id: 541
+    level: 1
+    batch: 6
+    word: mind n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mind n./v.
+    ipa: ''
+  - id: 542
+    level: 1
+    batch: 6
+    word: mine n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mine n./v.
+    ipa: ''
+  - id: 543
+    level: 1
+    batch: 6
+    word: minute
+    pos: n.
+    chinese: 分鐘
+    syllable:
+      - min
+      - ute
+    ipa: /ˈmɪn.ɪt/
+  - id: 544
+    level: 1
+    batch: 6
+    word: miss v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - miss v./n.
+    ipa: ''
+  - id: 545
+    level: 1
+    batch: 6
+    word: mistake n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mistake n./v.
+    ipa: ''
+  - id: 546
+    level: 1
+    batch: 6
+    word: modern
+    pos: adj.
+    chinese: 現代化的
+    syllable:
+      - mod
+      - ern
+    ipa: /ˈmɑː.dɚn/
+  - id: 547
+    level: 1
+    batch: 6
+    word: moment
+    pos: n.
+    chinese: 片刻
+    syllable:
+      - mo
+      - ment
+    ipa: /ˈmoʊ.mənt/
+  - id: 548
+    level: 1
+    batch: 6
+    word: money
+    pos: n.
+    chinese: 錢
+    syllable:
+      - mon
+      - ey
+    ipa: /ˈmʌn.i/
+  - id: 549
+    level: 1
+    batch: 6
+    word: monkey
+    pos: n.
+    chinese: 猴子
+    syllable:
+      - mon
+      - key
+    ipa: /ˈmʌŋ.ki/
+  - id: 550
+    level: 1
+    batch: 6
+    word: month
+    pos: n.
+    chinese: 月份
+    syllable:
+      - month
+    ipa: /mʌnθ/
+  - id: 551
+    level: 1
+    batch: 6
+    word: moon
+    pos: n.
+    chinese: 月亮
+    syllable:
+      - moon
+    ipa: /muːn/
+  - id: 552
+    level: 1
+    batch: 6
+    word: more adj./pron./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - more adj./pron./adv.
+    ipa: ''
+  - id: 553
+    level: 1
+    batch: 6
+    word: morning
+    pos: n.
+    chinese: 早上
+    syllable:
+      - mor
+      - ning
+    ipa: /ˈmɔːr.nɪŋ/
+  - id: 554
+    level: 1
+    batch: 6
+    word: most adv./pron./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - most adv./pron./adj.
+    ipa: ''
+  - id: 555
+    level: 1
+    batch: 6
+    word: mother
+    pos: n.
+    chinese: 母親
+    syllable:
+      - moth
+      - er
+    ipa: /ˈmʌð.ɚ/
+  - id: 556
+    level: 1
+    batch: 6
+    word: mountain
+    pos: n.
+    chinese: 山
+    syllable:
+      - moun
+      - tain
+    ipa: /ˈmaʊn.tən/
+  - id: 557
+    level: 1
+    batch: 6
+    word: mouse
+    pos: n.
+    chinese: 老鼠
+    syllable:
+      - mouse
+    ipa: /maʊs/
+  - id: 558
+    level: 1
+    batch: 6
+    word: mouth n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - mouth n./v.
+    ipa: ''
+  - id: 559
+    level: 1
+    batch: 6
+    word: move(ment) v./(n.)
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - move(ment) v./(n.)
+    ipa: ''
+  - id: 560
+    level: 1
+    batch: 6
+    word: movie/film
+    pos: n.
+    chinese: 電影
+    syllable:
+      - mov
+      - ie
+    ipa: /ˈmuː.vi/
+  - id: 561
+    level: 1
+    batch: 6
+    word: Mr./Mister
+    pos: n.
+    chinese: 先生
+    syllable:
+      - Mr.
+    ipa: /ˈmɪs.tɚ/
+  - id: 562
+    level: 1
+    batch: 6
+    word: Mrs.
+    pos: n.
+    chinese: 太太
+    syllable:
+      - Mrs.
+    ipa: /ˈmɪs.ɪz/
+  - id: 563
+    level: 1
+    batch: 6
+    word: Ms.
+    pos: n.
+    chinese: 女士
+    syllable:
+      - Ms.
+    ipa: /mɪz/
+  - id: 564
+    level: 1
+    batch: 6
+    word: much adj./pron./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - much adj./pron./adv.
+    ipa: ''
+  - id: 565
+    level: 1
+    batch: 6
+    word: mud
+    pos: n.
+    chinese: 泥巴
+    syllable:
+      - mud
+    ipa: /mʌd/
+  - id: 566
+    level: 1
+    batch: 6
+    word: museum
+    pos: n.
+    chinese: 博物館
+    syllable:
+      - mu
+      - se
+      - um
+    ipa: /mjuːˈziː.əm/
+  - id: 567
+    level: 1
+    batch: 6
+    word: music
+    pos: n.
+    chinese: 音樂
+    syllable:
+      - mu
+      - sic
+    ipa: /ˈmjuː.zɪk/
+  - id: 568
+    level: 1
+    batch: 6
+    word: must aux./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - must aux./n.
+    ipa: ''
+  - id: 569
+    level: 1
+    batch: 6
+    word: name n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - name n./v.
+    ipa: ''
+  - id: 570
+    level: 1
+    batch: 6
+    word: national
+    pos: adj.
+    chinese: 國家的
+    syllable:
+      - na
+      - tion
+      - al
+    ipa: /ˈnæʃ.ən.əl/
+  - id: 571
+    level: 1
+    batch: 6
+    word: nature
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - nature
+    ipa: ''
+  - id: 572
+    level: 1
+    batch: 6
+    word: near prep./adj./adv./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - near prep./adj./adv./v.
+    ipa: ''
+  - id: 573
+    level: 1
+    batch: 6
+    word: neck
+    pos: n.
+    chinese: 脖子
+    syllable:
+      - neck
+    ipa: /nɛk/
+  - id: 574
+    level: 1
+    batch: 6
+    word: need v./n./aux.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - need v./n./aux.
+    ipa: ''
+  - id: 575
+    level: 1
+    batch: 6
+    word: net n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - net n./v.
+    ipa: ''
+  - id: 576
+    level: 1
+    batch: 6
+    word: never
+    pos: adv.
+    chinese: 從不
+    syllable:
+      - nev
+      - er
+    ipa: /ˈnɛv.ɚ/
+  - id: 577
+    level: 1
+    batch: 6
+    word: new
+    pos: adj.
+    chinese: 新的
+    syllable:
+      - new
+    ipa: /nuː/
+  - id: 578
+    level: 1
+    batch: 6
+    word: news
+    pos: n.
+    chinese: 消息,新聞
+    syllable:
+      - news
+    ipa: /nuːz/
+  - id: 579
+    level: 1
+    batch: 6
+    word: newspaper
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - newspaper
+    ipa: ''
+  - id: 580
+    level: 1
+    batch: 6
+    word: next adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - next adj./adv.
+    ipa: ''
+  - id: 581
+    level: 1
+    batch: 6
+    word: nice
+    pos: adj.
+    chinese: 好的
+    syllable:
+      - nice
+    ipa: /naɪs/
+  - id: 582
+    level: 1
+    batch: 6
+    word: night
+    pos: n.
+    chinese: 晚上
+    syllable:
+      - night
+    ipa: /naɪt/
+  - id: 583
+    level: 1
+    batch: 6
+    word: no/nope adj./adv./n.
+    pos: ''
+    chinese: 沒有,不是
+    syllable:
+      - 'no'
+    ipa: /noʊ/
+  - id: 584
+    level: 1
+    batch: 6
+    word: nobody pron./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - nobody pron./n.
+    ipa: ''
+  - id: 585
+    level: 1
+    batch: 6
+    word: noise
+    pos: n.
+    chinese: 噪音
+    syllable:
+      - noise
+    ipa: /nɔɪz/
+  - id: 586
+    level: 1
+    batch: 6
+    word: noisy
+    pos: adj.
+    chinese: 常用高中字彙
+    syllable:
+      - noisy
+    ipa: ''
+  - id: 587
+    level: 1
+    batch: 6
+    word: noon
+    pos: n.
+    chinese: 中午
+    syllable:
+      - noon
+    ipa: /nuːn/
+  - id: 588
+    level: 1
+    batch: 6
+    word: north n./adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - north n./adj./adv.
+    ipa: ''
+  - id: 589
+    level: 1
+    batch: 6
+    word: nose
+    pos: n.
+    chinese: 鼻子
+    syllable:
+      - nose
+    ipa: /noʊz/
+  - id: 590
+    level: 1
+    batch: 6
+    word: not
+    pos: adv.
+    chinese: 不,不是
+    syllable:
+      - not
+    ipa: /nɑːt/
+  - id: 591
+    level: 1
+    batch: 6
+    word: note n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - note n./v.
+    ipa: ''
+  - id: 592
+    level: 1
+    batch: 6
+    word: nothing pron./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - nothing pron./n.
+    ipa: ''
+  - id: 593
+    level: 1
+    batch: 6
+    word: notice v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - notice v./n.
+    ipa: ''
+  - id: 594
+    level: 1
+    batch: 6
+    word: now adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - now adv./n.
+    ipa: ''
+  - id: 595
+    level: 1
+    batch: 6
+    word: number n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - number n./v.
+    ipa: ''
+  - id: 596
+    level: 1
+    batch: 6
+    word: nurse n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - nurse n./v.
+    ipa: ''
+  - id: 597
+    level: 1
+    batch: 6
+    word: O.K./OK/okay adj./adv./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - O.K./OK/okay adj./adv./n./v.
+    ipa: ''
+  - id: 598
+    level: 1
+    batch: 6
+    word: o’clock
+    pos: adv.
+    chinese: 常用高中字彙
+    syllable:
+      - o’clock
+    ipa: ''
+  - id: 599
+    level: 1
+    batch: 6
+    word: of
+    pos: prep.
+    chinese: ...的
+    syllable:
+      - of
+    ipa: /ʌv/
+  - id: 600
+    level: 1
+    batch: 6
+    word: off adv./prep./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - off adv./prep./adj.
+    ipa: ''
+  - id: 601
+    level: 1
+    batch: 7
+    word: office
+    pos: n.
+    chinese: 辦公室
+    syllable:
+      - of
+      - fice
+    ipa: /ˈɑː.fɪs/
+  - id: 602
+    level: 1
+    batch: 7
+    word: officer
+    pos: n.
+    chinese: 官員
+    syllable:
+      - of
+      - fi
+      - cer
+    ipa: /ˈɑː.fə.sɚ/
+  - id: 603
+    level: 1
+    batch: 7
+    word: often
+    pos: adv.
+    chinese: 時常
+    syllable:
+      - of
+      - ten
+    ipa: /ˈɑː.fən/
+  - id: 604
+    level: 1
+    batch: 7
+    word: oil n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - oil n./v.
+    ipa: ''
+  - id: 605
+    level: 1
+    batch: 7
+    word: old
+    pos: adj.
+    chinese: 老的
+    syllable:
+      - old
+    ipa: /oʊld/
+  - id: 606
+    level: 1
+    batch: 7
+    word: on prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - on prep./adv.
+    ipa: ''
+  - id: 607
+    level: 1
+    batch: 7
+    word: once adv./conj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - once adv./conj./n.
+    ipa: ''
+  - id: 608
+    level: 1
+    batch: 7
+    word: online
+    pos: adj.
+    chinese: 常用高中字彙
+    syllable:
+      - online
+    ipa: ''
+  - id: 609
+    level: 1
+    batch: 7
+    word: only adv./adj./conj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - only adv./adj./conj.
+    ipa: ''
+  - id: 610
+    level: 1
+    batch: 7
+    word: open adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - open adj./v.
+    ipa: ''
+  - id: 611
+    level: 1
+    batch: 7
+    word: or
+    pos: conj.
+    chinese: 或
+    syllable:
+      - or
+    ipa: /ɔːr/
+  - id: 612
+    level: 1
+    batch: 7
+    word: orange adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - orange adj./n.
+    ipa: ''
+  - id: 613
+    level: 1
+    batch: 7
+    word: order n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - order n./v.
+    ipa: ''
+  - id: 614
+    level: 1
+    batch: 7
+    word: other adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - other adj./pron.
+    ipa: ''
+  - id: 615
+    level: 1
+    batch: 7
+    word: out adv./prep./adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - out adv./prep./adj./n./v.
+    ipa: ''
+  - id: 616
+    level: 1
+    batch: 7
+    word: outside prep./adv./adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - outside prep./adv./adj./n.
+    ipa: ''
+  - id: 617
+    level: 1
+    batch: 7
+    word: over prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - over prep./adv.
+    ipa: ''
+  - id: 618
+    level: 1
+    batch: 7
+    word: own adj./pron./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - own adj./pron./v.
+    ipa: ''
+  - id: 619
+    level: 1
+    batch: 7
+    word: pack n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pack n./v.
+    ipa: ''
+  - id: 620
+    level: 1
+    batch: 7
+    word: package
+    pos: n.
+    chinese: 包裹
+    syllable:
+      - pack
+      - age
+    ipa: /ˈpæk.ɪdʒ/
+  - id: 621
+    level: 1
+    batch: 7
+    word: page
+    pos: n.
+    chinese: 頁
+    syllable:
+      - page
+    ipa: /peɪdʒ/
+  - id: 622
+    level: 1
+    batch: 7
+    word: paint n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - paint n./v.
+    ipa: ''
+  - id: 623
+    level: 1
+    batch: 7
+    word: pair
+    pos: n.
+    chinese: 一雙
+    syllable:
+      - pair
+    ipa: /pɛr/
+  - id: 624
+    level: 1
+    batch: 7
+    word: pants
+    pos: n.
+    chinese: 長褲
+    syllable:
+      - pants
+    ipa: /pænts/
+  - id: 625
+    level: 1
+    batch: 7
+    word: paper n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - paper n./v.
+    ipa: ''
+  - id: 626
+    level: 1
+    batch: 7
+    word: parent(s)
+    pos: n.
+    chinese: 父(母)親
+    syllable:
+      - par
+      - ent(s)
+    ipa: /ˈpɛr.ənt(s)/
+  - id: 627
+    level: 1
+    batch: 7
+    word: park n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - park n./v.
+    ipa: ''
+  - id: 628
+    level: 1
+    batch: 7
+    word: part n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - part n./v.
+    ipa: ''
+  - id: 629
+    level: 1
+    batch: 7
+    word: party n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - party n./v.
+    ipa: ''
+  - id: 630
+    level: 1
+    batch: 7
+    word: pass v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pass v./n.
+    ipa: ''
+  - id: 631
+    level: 1
+    batch: 7
+    word: past adj./n./prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - past adj./n./prep./adv.
+    ipa: ''
+  - id: 632
+    level: 1
+    batch: 7
+    word: pay(ment) v./(n.)
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pay(ment) v./(n.)
+    ipa: ''
+  - id: 633
+    level: 1
+    batch: 7
+    word: pen n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pen n./v.
+    ipa: ''
+  - id: 634
+    level: 1
+    batch: 7
+    word: pencil
+    pos: n.
+    chinese: 鉛筆
+    syllable:
+      - pen
+      - cil
+    ipa: /ˈpɛn.səl/
+  - id: 635
+    level: 1
+    batch: 7
+    word: people n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - people n./v.
+    ipa: ''
+  - id: 636
+    level: 1
+    batch: 7
+    word: perhaps
+    pos: adv.
+    chinese: 或許
+    syllable:
+      - per
+      - haps
+    ipa: /pɚˈhæps/
+  - id: 637
+    level: 1
+    batch: 7
+    word: person
+    pos: n.
+    chinese: 人
+    syllable:
+      - per
+      - son
+    ipa: /ˈpɝː.sən/
+  - id: 638
+    level: 1
+    batch: 7
+    word: pet n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pet n./v.
+    ipa: ''
+  - id: 639
+    level: 1
+    batch: 7
+    word: photograph/photo n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - photograph/photo n./v.
+    ipa: ''
+  - id: 640
+    level: 1
+    batch: 7
+    word: piano
+    pos: n.
+    chinese: 鋼琴
+    syllable:
+      - pi
+      - an
+      - o
+    ipa: /piˈæn.oʊ/
+  - id: 641
+    level: 1
+    batch: 7
+    word: pick v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pick v./n.
+    ipa: ''
+  - id: 642
+    level: 1
+    batch: 7
+    word: picnic n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - picnic n./v.
+    ipa: ''
+  - id: 643
+    level: 1
+    batch: 7
+    word: picture n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - picture n./v.
+    ipa: ''
+  - id: 644
+    level: 1
+    batch: 7
+    word: pie
+    pos: n.
+    chinese: 派
+    syllable:
+      - pie
+    ipa: /paɪ/
+  - id: 645
+    level: 1
+    batch: 7
+    word: piece n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - piece n./v.
+    ipa: ''
+  - id: 646
+    level: 1
+    batch: 7
+    word: pig n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pig n./v.
+    ipa: ''
+  - id: 647
+    level: 1
+    batch: 7
+    word: pin n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pin n./v.
+    ipa: ''
+  - id: 648
+    level: 1
+    batch: 7
+    word: pink adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pink adj./n.
+    ipa: ''
+  - id: 649
+    level: 1
+    batch: 7
+    word: pipe n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pipe n./v.
+    ipa: ''
+  - id: 650
+    level: 1
+    batch: 7
+    word: place n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - place n./v.
+    ipa: ''
+  - id: 651
+    level: 1
+    batch: 7
+    word: plan n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - plan n./v.
+    ipa: ''
+  - id: 652
+    level: 1
+    batch: 7
+    word: planet
+    pos: n.
+    chinese: 行星
+    syllable:
+      - plan
+      - et
+    ipa: /ˈplæn.ɪt/
+  - id: 653
+    level: 1
+    batch: 7
+    word: plant n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - plant n./v.
+    ipa: ''
+  - id: 654
+    level: 1
+    batch: 7
+    word: plate
+    pos: n.
+    chinese: 盤子
+    syllable:
+      - plate
+    ipa: /pleɪt/
+  - id: 655
+    level: 1
+    batch: 7
+    word: play v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - play v./n.
+    ipa: ''
+  - id: 656
+    level: 1
+    batch: 7
+    word: player
+    pos: n.
+    chinese: 球員,玩家
+    syllable:
+      - play
+      - er
+    ipa: /ˈpleɪ.ɚ/
+  - id: 657
+    level: 1
+    batch: 7
+    word: please
+    pos: v.
+    chinese: 請
+    syllable:
+      - please
+    ipa: /pliːz/
+  - id: 658
+    level: 1
+    batch: 7
+    word: pleasure
+    pos: n.
+    chinese: 樂趣,使高興
+    syllable:
+      - pleas
+      - ure
+    ipa: /ˈplɛʒ.ɚ/
+  - id: 659
+    level: 1
+    batch: 7
+    word: pm/p.m.
+    pos: adv.
+    chinese: 常用高中字彙
+    syllable:
+      - pm/p.m.
+    ipa: ''
+  - id: 660
+    level: 1
+    batch: 7
+    word: pocket n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pocket n./v.
+    ipa: ''
+  - id: 661
+    level: 1
+    batch: 7
+    word: point n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - point n./v.
+    ipa: ''
+  - id: 662
+    level: 1
+    batch: 7
+    word: police n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - police n./v.
+    ipa: ''
+  - id: 663
+    level: 1
+    batch: 7
+    word: polite
+    pos: adj.
+    chinese: 有禮貌的
+    syllable:
+      - po
+      - lite
+    ipa: /pəˈlaɪt/
+  - id: 664
+    level: 1
+    batch: 7
+    word: pond
+    pos: n.
+    chinese: 池塘
+    syllable:
+      - pond
+    ipa: /pɑːnd/
+  - id: 665
+    level: 1
+    batch: 7
+    word: pool n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pool n./v.
+    ipa: ''
+  - id: 666
+    level: 1
+    batch: 7
+    word: poor
+    pos: adj.
+    chinese: 貧困的,可憐的
+    syllable:
+      - poor
+    ipa: /pʊr/
+  - id: 667
+    level: 1
+    batch: 7
+    word: popcorn
+    pos: n.
+    chinese: 爆米花
+    syllable:
+      - pop
+      - corn
+    ipa: /ˈpɑːp.kɔːrn/
+  - id: 668
+    level: 1
+    batch: 7
+    word: popular
+    pos: adj.
+    chinese: 受歡迎的
+    syllable:
+      - pop
+      - u
+      - lar
+    ipa: /ˈpɑː.pjə.lɚ/
+  - id: 669
+    level: 1
+    batch: 7
+    word: possible
+    pos: adj.
+    chinese: 可能的
+    syllable:
+      - pos
+      - si
+      - ble
+    ipa: /ˈpɑː.sə.bəl/
+  - id: 670
+    level: 1
+    batch: 7
+    word: pot n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pot n./v.
+    ipa: ''
+  - id: 671
+    level: 1
+    batch: 7
+    word: potato
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - potato
+    ipa: ''
+  - id: 672
+    level: 1
+    batch: 7
+    word: power n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - power n./v.
+    ipa: ''
+  - id: 673
+    level: 1
+    batch: 7
+    word: practice n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - practice n./v.
+    ipa: ''
+  - id: 674
+    level: 1
+    batch: 7
+    word: prepare
+    pos: v.
+    chinese: 準備
+    syllable:
+      - pre
+      - pare
+    ipa: /prɪˈpɛr/
+  - id: 675
+    level: 1
+    batch: 7
+    word: present adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - present adj./n./v.
+    ipa: ''
+  - id: 676
+    level: 1
+    batch: 7
+    word: pretty adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pretty adv./adj.
+    ipa: ''
+  - id: 677
+    level: 1
+    batch: 7
+    word: price n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - price n./v.
+    ipa: ''
+  - id: 678
+    level: 1
+    batch: 7
+    word: probably
+    pos: adv.
+    chinese: 常用高中字彙
+    syllable:
+      - probably
+    ipa: ''
+  - id: 679
+    level: 1
+    batch: 7
+    word: problem
+    pos: n.
+    chinese: 問題
+    syllable:
+      - prob
+      - lem
+    ipa: /ˈprɑː.bləm/
+  - id: 680
+    level: 1
+    batch: 7
+    word: program n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - program n./v.
+    ipa: ''
+  - id: 681
+    level: 1
+    batch: 7
+    word: proud
+    pos: adj.
+    chinese: 驕傲的
+    syllable:
+      - proud
+    ipa: /praʊd/
+  - id: 682
+    level: 1
+    batch: 7
+    word: public adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - public adj./n.
+    ipa: ''
+  - id: 683
+    level: 1
+    batch: 7
+    word: pull v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - pull v./n.
+    ipa: ''
+  - id: 684
+    level: 1
+    batch: 7
+    word: push v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - push v./n.
+    ipa: ''
+  - id: 685
+    level: 1
+    batch: 7
+    word: put
+    pos: v.
+    chinese: 放
+    syllable:
+      - put
+    ipa: /pʊt/
+  - id: 686
+    level: 1
+    batch: 7
+    word: quarter
+    pos: n.
+    chinese: 15 分鐘,1/4
+    syllable:
+      - quar
+      - ter
+    ipa: /ˈkwɔːr.t̬ɚ/
+  - id: 687
+    level: 1
+    batch: 7
+    word: queen
+    pos: n.
+    chinese: 皇后
+    syllable:
+      - queen
+    ipa: /kwiːn/
+  - id: 688
+    level: 1
+    batch: 7
+    word: question n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - question n./v.
+    ipa: ''
+  - id: 689
+    level: 1
+    batch: 7
+    word: quick adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - quick adj./adv.
+    ipa: ''
+  - id: 690
+    level: 1
+    batch: 7
+    word: quiet adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - quiet adj./n./v.
+    ipa: ''
+  - id: 691
+    level: 1
+    batch: 7
+    word: quite
+    pos: adv.
+    chinese: 相當
+    syllable:
+      - quite
+    ipa: /kwaɪt/
+  - id: 692
+    level: 1
+    batch: 7
+    word: rabbit
+    pos: n.
+    chinese: 兔子
+    syllable:
+      - rab
+      - bit
+    ipa: /ˈræb.ɪt/
+  - id: 693
+    level: 1
+    batch: 7
+    word: race n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - race n./v.
+    ipa: ''
+  - id: 694
+    level: 1
+    batch: 7
+    word: radio n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - radio n./v.
+    ipa: ''
+  - id: 695
+    level: 1
+    batch: 7
+    word: rain n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - rain n./v.
+    ipa: ''
+  - id: 696
+    level: 1
+    batch: 7
+    word: rainbow
+    pos: n.
+    chinese: 彩虹
+    syllable:
+      - rain
+      - bow
+    ipa: /ˈreɪn.boʊ/
+  - id: 697
+    level: 1
+    batch: 7
+    word: rainy
+    pos: adj.
+    chinese: 下雨的
+    syllable:
+      - rain
+      - 'y'
+    ipa: /ˈreɪ.ni/
+  - id: 698
+    level: 1
+    batch: 7
+    word: raise v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - raise v./n.
+    ipa: ''
+  - id: 699
+    level: 1
+    batch: 7
+    word: reach v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - reach v./n.
+    ipa: ''
+  - id: 700
+    level: 1
+    batch: 7
+    word: read
+    pos: v.
+    chinese: 讀
+    syllable:
+      - read
+    ipa: /riːd/
+  - id: 701
+    level: 1
+    batch: 8
+    word: ready adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - ready adj./v.
+    ipa: ''
+  - id: 702
+    level: 1
+    batch: 8
+    word: real
+    pos: adj.
+    chinese: 真的
+    syllable:
+      - real
+    ipa: /riːl/
+  - id: 703
+    level: 1
+    batch: 8
+    word: really
+    pos: adv.
+    chinese: 真地
+    syllable:
+      - real
+      - ly
+    ipa: /ˈriː.ə.li/
+  - id: 704
+    level: 1
+    batch: 8
+    word: reason n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - reason n./v.
+    ipa: ''
+  - id: 705
+    level: 1
+    batch: 8
+    word: red adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - red adj./n.
+    ipa: ''
+  - id: 706
+    level: 1
+    batch: 8
+    word: relative adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - relative adj./n.
+    ipa: ''
+  - id: 707
+    level: 1
+    batch: 8
+    word: remember
+    pos: v.
+    chinese: 記得
+    syllable:
+      - re
+      - mem
+      - ber
+    ipa: /rɪˈmɛm.bɚ/
+  - id: 708
+    level: 1
+    batch: 8
+    word: repeat
+    pos: v.
+    chinese: 重複
+    syllable:
+      - re
+      - peat
+    ipa: /rɪˈpiːt/
+  - id: 709
+    level: 1
+    batch: 8
+    word: report n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - report n./v.
+    ipa: ''
+  - id: 710
+    level: 1
+    batch: 8
+    word: reporter
+    pos: n.
+    chinese: 記者
+    syllable:
+      - re
+      - port
+      - er
+    ipa: /rɪˈpɔːr.t̬ɚ/
+  - id: 711
+    level: 1
+    batch: 8
+    word: rest n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - rest n./v.
+    ipa: ''
+  - id: 712
+    level: 1
+    batch: 8
+    word: restaurant
+    pos: n.
+    chinese: 餐館
+    syllable:
+      - res
+      - tau
+      - rant
+    ipa: /ˈrɛs.tə.rɑːnt/
+  - id: 713
+    level: 1
+    batch: 8
+    word: rice
+    pos: n.
+    chinese: 米飯
+    syllable:
+      - rice
+    ipa: /raɪs/
+  - id: 714
+    level: 1
+    batch: 8
+    word: rich
+    pos: adj.
+    chinese: 有錢的
+    syllable:
+      - rich
+    ipa: /rɪtʃ/
+  - id: 715
+    level: 1
+    batch: 8
+    word: ride n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - ride n./v.
+    ipa: ''
+  - id: 716
+    level: 1
+    batch: 8
+    word: right adv./adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - right adv./adj./n.
+    ipa: ''
+  - id: 717
+    level: 1
+    batch: 8
+    word: ring n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - ring n./v.
+    ipa: ''
+  - id: 718
+    level: 1
+    batch: 8
+    word: rise n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - rise n./v.
+    ipa: ''
+  - id: 719
+    level: 1
+    batch: 8
+    word: river
+    pos: n.
+    chinese: 河
+    syllable:
+      - riv
+      - er
+    ipa: /ˈrɪv.ɚ/
+  - id: 720
+    level: 1
+    batch: 8
+    word: road
+    pos: n.
+    chinese: 道路
+    syllable:
+      - road
+    ipa: /roʊd/
+  - id: 721
+    level: 1
+    batch: 8
+    word: robot
+    pos: n.
+    chinese: 機器人
+    syllable:
+      - ro
+      - bot
+    ipa: /ˈroʊ.bɑːt/
+  - id: 722
+    level: 1
+    batch: 8
+    word: rock n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - rock n./v.
+    ipa: ''
+  - id: 723
+    level: 1
+    batch: 8
+    word: roll v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - roll v./n.
+    ipa: ''
+  - id: 724
+    level: 1
+    batch: 8
+    word: room n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - room n./v.
+    ipa: ''
+  - id: 725
+    level: 1
+    batch: 8
+    word: root
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - root
+    ipa: ''
+  - id: 726
+    level: 1
+    batch: 8
+    word: rope
+    pos: n.
+    chinese: 繩子
+    syllable:
+      - rope
+    ipa: /roʊp/
+  - id: 727
+    level: 1
+    batch: 8
+    word: rose
+    pos: n.
+    chinese: 玫瑰
+    syllable:
+      - rose
+    ipa: /roʊz/
+  - id: 728
+    level: 1
+    batch: 8
+    word: round adj./n./adv./prep./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - round adj./n./adv./prep./v.
+    ipa: ''
+  - id: 729
+    level: 1
+    batch: 8
+    word: row n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - row n./v.
+    ipa: ''
+  - id: 730
+    level: 1
+    batch: 8
+    word: rule n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - rule n./v.
+    ipa: ''
+  - id: 731
+    level: 1
+    batch: 8
+    word: ruler
+    pos: n.
+    chinese: 尺
+    syllable:
+      - rul
+      - er
+    ipa: /ˈruː.lɚ/
+  - id: 732
+    level: 1
+    batch: 8
+    word: run
+    pos: v.
+    chinese: 跑
+    syllable:
+      - run
+    ipa: /rʌn/
+  - id: 733
+    level: 1
+    batch: 8
+    word: sad
+    pos: adj.
+    chinese: 悲傷的
+    syllable:
+      - sad
+    ipa: /sæd/
+  - id: 734
+    level: 1
+    batch: 8
+    word: safe adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - safe adj./n.
+    ipa: ''
+  - id: 735
+    level: 1
+    batch: 8
+    word: salad
+    pos: n.
+    chinese: 沙拉
+    syllable:
+      - sal
+      - ad
+    ipa: /ˈsæl.əd/
+  - id: 736
+    level: 1
+    batch: 8
+    word: sale
+    pos: n.
+    chinese: 出售
+    syllable:
+      - sale
+    ipa: /seɪl/
+  - id: 737
+    level: 1
+    batch: 8
+    word: salt n./v./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - salt n./v./adj.
+    ipa: ''
+  - id: 738
+    level: 1
+    batch: 8
+    word: same adj./pron./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - same adj./pron./adv.
+    ipa: ''
+  - id: 739
+    level: 1
+    batch: 8
+    word: save
+    pos: v.
+    chinese: 節省,挽救
+    syllable:
+      - save
+    ipa: /seɪv/
+  - id: 740
+    level: 1
+    batch: 8
+    word: say
+    pos: v.
+    chinese: 說
+    syllable:
+      - say
+    ipa: /seɪ/
+  - id: 741
+    level: 1
+    batch: 8
+    word: school n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - school n./v.
+    ipa: ''
+  - id: 742
+    level: 1
+    batch: 8
+    word: science
+    pos: n.
+    chinese: 科學
+    syllable:
+      - sci
+      - ence
+    ipa: /ˈsaɪ.əns/
+  - id: 743
+    level: 1
+    batch: 8
+    word: sea
+    pos: n.
+    chinese: 海
+    syllable:
+      - sea
+    ipa: /siː/
+  - id: 744
+    level: 1
+    batch: 8
+    word: season
+    pos: n.
+    chinese: 季節
+    syllable:
+      - sea
+      - son
+    ipa: /ˈsiː.zən/
+  - id: 745
+    level: 1
+    batch: 8
+    word: seat n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - seat n./v.
+    ipa: ''
+  - id: 746
+    level: 1
+    batch: 8
+    word: second adj./n./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - second adj./n./adv.
+    ipa: ''
+  - id: 747
+    level: 1
+    batch: 8
+    word: secretary
+    pos: n.
+    chinese: 秘書
+    syllable:
+      - sec
+      - re
+      - tar
+      - 'y'
+    ipa: /ˈsɛk.rə.tɛr.i/
+  - id: 748
+    level: 1
+    batch: 8
+    word: see
+    pos: v.
+    chinese: 看
+    syllable:
+      - see
+    ipa: /siː/
+  - id: 749
+    level: 1
+    batch: 8
+    word: seed
+    pos: n.
+    chinese: 種子
+    syllable:
+      - seed
+    ipa: /siːd/
+  - id: 750
+    level: 1
+    batch: 8
+    word: sell
+    pos: v.
+    chinese: 賣
+    syllable:
+      - sell
+    ipa: /sɛl/
+  - id: 751
+    level: 1
+    batch: 8
+    word: send
+    pos: v.
+    chinese: 寄
+    syllable:
+      - send
+    ipa: /sɛnd/
+  - id: 752
+    level: 1
+    batch: 8
+    word: sentence n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sentence n./v.
+    ipa: ''
+  - id: 753
+    level: 1
+    batch: 8
+    word: serious
+    pos: adj.
+    chinese: 嚴重的
+    syllable:
+      - se
+      - ri
+      - ous
+    ipa: /ˈsɪr.i.əs/
+  - id: 754
+    level: 1
+    batch: 8
+    word: service
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - service
+    ipa: ''
+  - id: 755
+    level: 1
+    batch: 8
+    word: set v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - set v./n.
+    ipa: ''
+  - id: 756
+    level: 1
+    batch: 8
+    word: several adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - several adj./pron.
+    ipa: ''
+  - id: 757
+    level: 1
+    batch: 8
+    word: shake v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - shake v./n.
+    ipa: ''
+  - id: 758
+    level: 1
+    batch: 8
+    word: shall
+    pos: aux.
+    chinese: 將會,好嗎?
+    syllable:
+      - shall
+    ipa: /ʃæl/
+  - id: 759
+    level: 1
+    batch: 8
+    word: shape
+    pos: n.
+    chinese: 形狀
+    syllable:
+      - shape
+    ipa: /ʃeɪp/
+  - id: 760
+    level: 1
+    batch: 8
+    word: share v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - share v./n.
+    ipa: ''
+  - id: 761
+    level: 1
+    batch: 8
+    word: sharp adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sharp adj./adv.
+    ipa: ''
+  - id: 762
+    level: 1
+    batch: 8
+    word: she (her, hers, herself)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - she (her, hers, herself)
+    ipa: ''
+  - id: 763
+    level: 1
+    batch: 8
+    word: sheep
+    pos: n.
+    chinese: 綿羊
+    syllable:
+      - sheep
+    ipa: /ʃiːp/
+  - id: 764
+    level: 1
+    batch: 8
+    word: ship n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - ship n./v.
+    ipa: ''
+  - id: 765
+    level: 1
+    batch: 8
+    word: shirt
+    pos: n.
+    chinese: 襯衫
+    syllable:
+      - shirt
+    ipa: /ʃɝːt/
+  - id: 766
+    level: 1
+    batch: 8
+    word: shoe(s)
+    pos: n.
+    chinese: 鞋子
+    syllable:
+      - shoe(s)
+    ipa: /ʃuː(z)/
+  - id: 767
+    level: 1
+    batch: 8
+    word: shop n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - shop n./v.
+    ipa: ''
+  - id: 768
+    level: 1
+    batch: 8
+    word: short
+    pos: adj.
+    chinese: 短的
+    syllable:
+      - short
+    ipa: /ʃɔːrt/
+  - id: 769
+    level: 1
+    batch: 8
+    word: shorts
+    pos: n.
+    chinese: 短褲
+    syllable:
+      - shorts
+    ipa: /ʃɔːrts/
+  - id: 770
+    level: 1
+    batch: 8
+    word: shoulder
+    pos: n.
+    chinese: 肩膀
+    syllable:
+      - shoul
+      - der
+    ipa: /ˈʃoʊl.dɚ/
+  - id: 771
+    level: 1
+    batch: 8
+    word: shout v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - shout v./n.
+    ipa: ''
+  - id: 772
+    level: 1
+    batch: 8
+    word: show v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - show v./n.
+    ipa: ''
+  - id: 773
+    level: 1
+    batch: 8
+    word: shower n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - shower n./v.
+    ipa: ''
+  - id: 774
+    level: 1
+    batch: 8
+    word: sick
+    pos: adj.
+    chinese: 生病的
+    syllable:
+      - sick
+    ipa: /sɪk/
+  - id: 775
+    level: 1
+    batch: 8
+    word: side
+    pos: n.
+    chinese: 旁邊,邊,面
+    syllable:
+      - side
+    ipa: /saɪd/
+  - id: 776
+    level: 1
+    batch: 8
+    word: sight n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sight n./v.
+    ipa: ''
+  - id: 777
+    level: 1
+    batch: 8
+    word: sign n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sign n./v.
+    ipa: ''
+  - id: 778
+    level: 1
+    batch: 8
+    word: simple
+    pos: adj.
+    chinese: 簡單的
+    syllable:
+      - sim
+      - ple
+    ipa: /ˈsɪm.pəl/
+  - id: 779
+    level: 1
+    batch: 8
+    word: since conj./prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - since conj./prep./adv.
+    ipa: ''
+  - id: 780
+    level: 1
+    batch: 8
+    word: sing
+    pos: v.
+    chinese: 唱歌
+    syllable:
+      - sing
+    ipa: /sɪŋ/
+  - id: 781
+    level: 1
+    batch: 8
+    word: singer
+    pos: n.
+    chinese: 歌手
+    syllable:
+      - sing
+      - er
+    ipa: /ˈsɪŋ.ɚ/
+  - id: 782
+    level: 1
+    batch: 8
+    word: sir
+    pos: n.
+    chinese: 先生
+    syllable:
+      - sir
+    ipa: /sɝː/
+  - id: 783
+    level: 1
+    batch: 8
+    word: sister
+    pos: n.
+    chinese: 姊妹
+    syllable:
+      - sis
+      - ter
+    ipa: /ˈsɪs.tɚ/
+  - id: 784
+    level: 1
+    batch: 8
+    word: sit
+    pos: v.
+    chinese: 坐
+    syllable:
+      - sit
+    ipa: /sɪt/
+  - id: 785
+    level: 1
+    batch: 8
+    word: size n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - size n./v.
+    ipa: ''
+  - id: 786
+    level: 1
+    batch: 8
+    word: skirt
+    pos: n.
+    chinese: 裙子
+    syllable:
+      - skirt
+    ipa: /skɝːt/
+  - id: 787
+    level: 1
+    batch: 8
+    word: sky
+    pos: n.
+    chinese: 天空
+    syllable:
+      - sky
+    ipa: /skaɪ/
+  - id: 788
+    level: 1
+    batch: 8
+    word: sleep n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sleep n./v.
+    ipa: ''
+  - id: 789
+    level: 1
+    batch: 8
+    word: slim
+    pos: adj.
+    chinese: 苗條的
+    syllable:
+      - slim
+    ipa: /slɪm/
+  - id: 790
+    level: 1
+    batch: 8
+    word: slow adj./v./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - slow adj./v./adv.
+    ipa: ''
+  - id: 791
+    level: 1
+    batch: 8
+    word: small adj./n./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - small adj./n./adv.
+    ipa: ''
+  - id: 792
+    level: 1
+    batch: 8
+    word: smart
+    pos: adj.
+    chinese: 聰明的
+    syllable:
+      - smart
+    ipa: /smɑːrt/
+  - id: 793
+    level: 1
+    batch: 8
+    word: smell n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - smell n./v.
+    ipa: ''
+  - id: 794
+    level: 1
+    batch: 8
+    word: smile n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - smile n./v.
+    ipa: ''
+  - id: 795
+    level: 1
+    batch: 8
+    word: smoke n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - smoke n./v.
+    ipa: ''
+  - id: 796
+    level: 1
+    batch: 8
+    word: snake n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - snake n./v.
+    ipa: ''
+  - id: 797
+    level: 1
+    batch: 8
+    word: snow n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - snow n./v.
+    ipa: ''
+  - id: 798
+    level: 1
+    batch: 8
+    word: so adv./conj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - so adv./conj.
+    ipa: ''
+  - id: 799
+    level: 1
+    batch: 8
+    word: sofa
+    pos: n.
+    chinese: 沙發
+    syllable:
+      - so
+      - fa
+    ipa: /ˈsoʊ.fə/
+  - id: 800
+    level: 1
+    batch: 8
+    word: soldier
+    pos: n.
+    chinese: 軍人
+    syllable:
+      - sol
+      - dier
+    ipa: /ˈsoʊl.dʒɚ/
+  - id: 801
+    level: 1
+    batch: 9
+    word: some adj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - some adj./pron.
+    ipa: ''
+  - id: 802
+    level: 1
+    batch: 9
+    word: someone/somebody pron./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - someone/somebody pron./n.
+    ipa: ''
+  - id: 803
+    level: 1
+    batch: 9
+    word: something pron./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - something pron./n.
+    ipa: ''
+  - id: 804
+    level: 1
+    batch: 9
+    word: sometimes
+    pos: adv.
+    chinese: 有時候
+    syllable:
+      - some
+      - times
+    ipa: /ˈsʌm.taɪmz/
+  - id: 805
+    level: 1
+    batch: 9
+    word: somewhere
+    pos: adv.
+    chinese: 某處
+    syllable:
+      - some
+      - where
+    ipa: /ˈsʌm.wɛr/
+  - id: 806
+    level: 1
+    batch: 9
+    word: son
+    pos: n.
+    chinese: 兒子
+    syllable:
+      - son
+    ipa: /sʌn/
+  - id: 807
+    level: 1
+    batch: 9
+    word: song
+    pos: n.
+    chinese: 歌曲
+    syllable:
+      - song
+    ipa: /sɑːŋ/
+  - id: 808
+    level: 1
+    batch: 9
+    word: soon
+    pos: adv.
+    chinese: 不久,即將
+    syllable:
+      - soon
+    ipa: /suːn/
+  - id: 809
+    level: 1
+    batch: 9
+    word: sore adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sore adj./n.
+    ipa: ''
+  - id: 810
+    level: 1
+    batch: 9
+    word: sorry
+    pos: adj.
+    chinese: 抱歉(的)
+    syllable:
+      - sor
+      - ry
+    ipa: /ˈsɑː.ri/
+  - id: 811
+    level: 1
+    batch: 9
+    word: sound
+    pos: n.
+    chinese: 聲音,聽起來
+    syllable:
+      - sound
+    ipa: /saʊnd/
+  - id: 812
+    level: 1
+    batch: 9
+    word: soup
+    pos: n.
+    chinese: 湯
+    syllable:
+      - soup
+    ipa: /suːp/
+  - id: 813
+    level: 1
+    batch: 9
+    word: south n./adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - south n./adj./adv.
+    ipa: ''
+  - id: 814
+    level: 1
+    batch: 9
+    word: space n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - space n./v.
+    ipa: ''
+  - id: 815
+    level: 1
+    batch: 9
+    word: speak
+    pos: v.
+    chinese: 說
+    syllable:
+      - speak
+    ipa: /spiːk/
+  - id: 816
+    level: 1
+    batch: 9
+    word: special
+    pos: adj.
+    chinese: 特別的
+    syllable:
+      - spe
+      - cial
+    ipa: /ˈspɛʃ.əl/
+  - id: 817
+    level: 1
+    batch: 9
+    word: spell
+    pos: v.
+    chinese: 拼字
+    syllable:
+      - spell
+    ipa: /spɛl/
+  - id: 818
+    level: 1
+    batch: 9
+    word: spend
+    pos: v.
+    chinese: 花(錢,時間)
+    syllable:
+      - spend
+    ipa: /spɛnd/
+  - id: 819
+    level: 1
+    batch: 9
+    word: spring n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - spring n./v.
+    ipa: ''
+  - id: 820
+    level: 1
+    batch: 9
+    word: square n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - square n./adj.
+    ipa: ''
+  - id: 821
+    level: 1
+    batch: 9
+    word: stair
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - stair
+    ipa: ''
+  - id: 822
+    level: 1
+    batch: 9
+    word: stand v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - stand v./n.
+    ipa: ''
+  - id: 823
+    level: 1
+    batch: 9
+    word: star n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - star n./v.
+    ipa: ''
+  - id: 824
+    level: 1
+    batch: 9
+    word: start v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - start v./n.
+    ipa: ''
+  - id: 825
+    level: 1
+    batch: 9
+    word: station
+    pos: n.
+    chinese: 車站,站,局
+    syllable:
+      - sta
+      - tion
+    ipa: /ˈsteɪ.ʃən/
+  - id: 826
+    level: 1
+    batch: 9
+    word: stay v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - stay v./n.
+    ipa: ''
+  - id: 827
+    level: 1
+    batch: 9
+    word: still adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - still adv./adj.
+    ipa: ''
+  - id: 828
+    level: 1
+    batch: 9
+    word: stop v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - stop v./n.
+    ipa: ''
+  - id: 829
+    level: 1
+    batch: 9
+    word: store n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - store n./v.
+    ipa: ''
+  - id: 830
+    level: 1
+    batch: 9
+    word: story
+    pos: n.
+    chinese: 故事
+    syllable:
+      - sto
+      - ry
+    ipa: /ˈstɔː.ri/
+  - id: 831
+    level: 1
+    batch: 9
+    word: straight adv./adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - straight adv./adj./n.
+    ipa: ''
+  - id: 832
+    level: 1
+    batch: 9
+    word: strange
+    pos: adj.
+    chinese: 奇怪的
+    syllable:
+      - strange
+    ipa: /streɪndʒ/
+  - id: 833
+    level: 1
+    batch: 9
+    word: street
+    pos: n.
+    chinese: 街道
+    syllable:
+      - street
+    ipa: /striːt/
+  - id: 834
+    level: 1
+    batch: 9
+    word: string
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - string
+    ipa: ''
+  - id: 835
+    level: 1
+    batch: 9
+    word: strong
+    pos: adj.
+    chinese: 強壯的
+    syllable:
+      - strong
+    ipa: /strɔːŋ/
+  - id: 836
+    level: 1
+    batch: 9
+    word: student
+    pos: n.
+    chinese: 學生
+    syllable:
+      - stu
+      - dent
+    ipa: /ˈstuː.dənt/
+  - id: 837
+    level: 1
+    batch: 9
+    word: study n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - study n./v.
+    ipa: ''
+  - id: 838
+    level: 1
+    batch: 9
+    word: stupid
+    pos: adj.
+    chinese: 笨的
+    syllable:
+      - stu
+      - pid
+    ipa: /ˈstuː.pɪd/
+  - id: 839
+    level: 1
+    batch: 9
+    word: subject
+    pos: n.
+    chinese: 科目
+    syllable:
+      - sub
+      - ject
+    ipa: /ˈsʌb.dʒɪkt/
+  - id: 840
+    level: 1
+    batch: 9
+    word: successful
+    pos: adj.
+    chinese: 成功的
+    syllable:
+      - suc
+      - cess
+      - ful
+    ipa: /səkˈsɛs.fəl/
+  - id: 841
+    level: 1
+    batch: 9
+    word: sugar
+    pos: n.
+    chinese: 糖
+    syllable:
+      - su
+      - gar
+    ipa: /ˈʃʊɡ.ɚ/
+  - id: 842
+    level: 1
+    batch: 9
+    word: sun n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sun n./v.
+    ipa: ''
+  - id: 843
+    level: 1
+    batch: 9
+    word: sunny
+    pos: adj.
+    chinese: 晴朗的
+    syllable:
+      - sun
+      - ny
+    ipa: /ˈsʌn.i/
+  - id: 844
+    level: 1
+    batch: 9
+    word: supermarket
+    pos: n.
+    chinese: 超級市場
+    syllable:
+      - su
+      - per
+      - mar
+      - ket
+    ipa: /ˈsuː.pɚˌmɑːr.kɪt/
+  - id: 845
+    level: 1
+    batch: 9
+    word: sure adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - sure adj./adv.
+    ipa: ''
+  - id: 846
+    level: 1
+    batch: 9
+    word: surprise n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - surprise n./v.
+    ipa: ''
+  - id: 847
+    level: 1
+    batch: 9
+    word: surprised
+    pos: adj.
+    chinese: 感到驚訝的
+    syllable:
+      - sur
+      - prised
+    ipa: /sɚˈpraɪzd/
+  - id: 848
+    level: 1
+    batch: 9
+    word: sweet
+    pos: adj.
+    chinese: 甜的
+    syllable:
+      - sweet
+    ipa: /swiːt/
+  - id: 849
+    level: 1
+    batch: 9
+    word: table
+    pos: n.
+    chinese: 桌子
+    syllable:
+      - ta
+      - ble
+    ipa: /ˈteɪ.bəl/
+  - id: 850
+    level: 1
+    batch: 9
+    word: tail
+    pos: n.
+    chinese: 尾巴
+    syllable:
+      - tail
+    ipa: /teɪl/
+  - id: 851
+    level: 1
+    batch: 9
+    word: take
+    pos: v.
+    chinese: 拿
+    syllable:
+      - take
+    ipa: /teɪk/
+  - id: 852
+    level: 1
+    batch: 9
+    word: talk v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - talk v./n.
+    ipa: ''
+  - id: 853
+    level: 1
+    batch: 9
+    word: tall
+    pos: adj.
+    chinese: 高的
+    syllable:
+      - tall
+    ipa: /tɔːl/
+  - id: 854
+    level: 1
+    batch: 9
+    word: tape
+    pos: n.
+    chinese: 錄音帶
+    syllable:
+      - tape
+    ipa: /teɪp/
+  - id: 855
+    level: 1
+    batch: 9
+    word: taste n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - taste n./v.
+    ipa: ''
+  - id: 856
+    level: 1
+    batch: 9
+    word: taxicab/taxi/cab
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - taxicab/taxi/cab
+    ipa: ''
+  - id: 857
+    level: 1
+    batch: 9
+    word: tea
+    pos: n.
+    chinese: 茶
+    syllable:
+      - tea
+    ipa: /tiː/
+  - id: 858
+    level: 1
+    batch: 9
+    word: teach
+    pos: v.
+    chinese: 教導
+    syllable:
+      - teach
+    ipa: /tiːtʃ/
+  - id: 859
+    level: 1
+    batch: 9
+    word: teacher
+    pos: n.
+    chinese: 教師
+    syllable:
+      - teach
+      - er
+    ipa: /ˈtiː.tʃɚ/
+  - id: 860
+    level: 1
+    batch: 9
+    word: team n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - team n./v.
+    ipa: ''
+  - id: 861
+    level: 1
+    batch: 9
+    word: teenager
+    pos: n.
+    chinese: 青少年
+    syllable:
+      - teen
+      - ag
+      - er
+    ipa: /ˈtiːnˌeɪ.dʒɚ/
+  - id: 862
+    level: 1
+    batch: 9
+    word: telephone/phone n./v.
+    pos: ''
+    chinese: 電話
+    syllable:
+      - tel
+      - e
+      - phone
+    ipa: /ˈtɛl.ə.foʊn/
+  - id: 863
+    level: 1
+    batch: 9
+    word: television/TV
+    pos: n.
+    chinese: 電視
+    syllable:
+      - tel
+      - e
+      - vi
+      - sion
+    ipa: /ˈtɛl.ə.vɪʒ.ən/
+  - id: 864
+    level: 1
+    batch: 9
+    word: tell
+    pos: v.
+    chinese: 告訴
+    syllable:
+      - tell
+    ipa: /tɛl/
+  - id: 865
+    level: 1
+    batch: 9
+    word: temple
+    pos: n.
+    chinese: 寺廟
+    syllable:
+      - tem
+      - ple
+    ipa: /ˈtɛm.pəl/
+  - id: 866
+    level: 1
+    batch: 9
+    word: tennis
+    pos: n.
+    chinese: 網球
+    syllable:
+      - ten
+      - nis
+    ipa: /ˈtɛn.ɪs/
+  - id: 867
+    level: 1
+    batch: 9
+    word: terrible
+    pos: adj.
+    chinese: 可怕的
+    syllable:
+      - ter
+      - ri
+      - ble
+    ipa: /ˈtɛr.ə.bəl/
+  - id: 868
+    level: 1
+    batch: 9
+    word: test n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - test n./v.
+    ipa: ''
+  - id: 869
+    level: 1
+    batch: 9
+    word: than conj./prep.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - than conj./prep.
+    ipa: ''
+  - id: 870
+    level: 1
+    batch: 9
+    word: thank v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - thank v./n.
+    ipa: ''
+  - id: 871
+    level: 1
+    batch: 9
+    word: that conj./pron./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - that conj./pron./adv./adj.
+    ipa: ''
+  - id: 872
+    level: 1
+    batch: 9
+    word: the
+    pos: art.
+    chinese: 這/那
+    syllable:
+      - the
+    ipa: /ðə/
+  - id: 873
+    level: 1
+    batch: 9
+    word: theater
+    pos: n.
+    chinese: 戲院
+    syllable:
+      - the
+      - a
+      - ter
+    ipa: /ˈθiː.ə.t̬ɚ/
+  - id: 874
+    level: 1
+    batch: 9
+    word: then adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - then adv./adj.
+    ipa: ''
+  - id: 875
+    level: 1
+    batch: 9
+    word: there adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - there adv./n.
+    ipa: ''
+  - id: 876
+    level: 1
+    batch: 9
+    word: these pron./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - these pron./adj.
+    ipa: ''
+  - id: 877
+    level: 1
+    batch: 9
+    word: they (them, their, theirs, themselves)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - they (them, their, theirs, themselves)
+    ipa: ''
+  - id: 878
+    level: 1
+    batch: 9
+    word: thick
+    pos: adj.
+    chinese: 厚的
+    syllable:
+      - thick
+    ipa: /θɪk/
+  - id: 879
+    level: 1
+    batch: 9
+    word: thin
+    pos: adj.
+    chinese: 瘦的
+    syllable:
+      - thin
+    ipa: /θɪn/
+  - id: 880
+    level: 1
+    batch: 9
+    word: thing
+    pos: n.
+    chinese: 事情
+    syllable:
+      - thing
+    ipa: /θɪŋ/
+  - id: 881
+    level: 1
+    batch: 9
+    word: think
+    pos: v.
+    chinese: 想,思考
+    syllable:
+      - think
+    ipa: /θɪŋk/
+  - id: 882
+    level: 1
+    batch: 9
+    word: third adj./n./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - third adj./n./adv.
+    ipa: ''
+  - id: 883
+    level: 1
+    batch: 9
+    word: this pron./adv./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - this pron./adv./adj.
+    ipa: ''
+  - id: 884
+    level: 1
+    batch: 9
+    word: those pron./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - those pron./adj.
+    ipa: ''
+  - id: 885
+    level: 1
+    batch: 9
+    word: though conj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - though conj./adv.
+    ipa: ''
+  - id: 886
+    level: 1
+    batch: 9
+    word: thousand n./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - thousand n./adj.
+    ipa: ''
+  - id: 887
+    level: 1
+    batch: 9
+    word: throat
+    pos: n.
+    chinese: 喉嚨
+    syllable:
+      - throat
+    ipa: /θroʊt/
+  - id: 888
+    level: 1
+    batch: 9
+    word: through prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - through prep./adv.
+    ipa: ''
+  - id: 889
+    level: 1
+    batch: 9
+    word: throw v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - throw v./n.
+    ipa: ''
+  - id: 890
+    level: 1
+    batch: 9
+    word: ticket
+    pos: n.
+    chinese: 票券
+    syllable:
+      - tick
+      - et
+    ipa: /ˈtɪk.ɪt/
+  - id: 891
+    level: 1
+    batch: 9
+    word: tidy adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - tidy adj./v.
+    ipa: ''
+  - id: 892
+    level: 1
+    batch: 9
+    word: tie n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - tie n./v.
+    ipa: ''
+  - id: 893
+    level: 1
+    batch: 9
+    word: tiger
+    pos: n.
+    chinese: 老虎
+    syllable:
+      - ti
+      - ger
+    ipa: /ˈtaɪ.ɡɚ/
+  - id: 894
+    level: 1
+    batch: 9
+    word: time n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - time n./v.
+    ipa: ''
+  - id: 895
+    level: 1
+    batch: 9
+    word: tip n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - tip n./v.
+    ipa: ''
+  - id: 896
+    level: 1
+    batch: 9
+    word: tired
+    pos: adj.
+    chinese: 疲倦的
+    syllable:
+      - tired
+    ipa: /ˈtaɪ.ɚd/
+  - id: 897
+    level: 1
+    batch: 9
+    word: to
+    pos: prep.
+    chinese: 到
+    syllable:
+      - to
+    ipa: /tuː/
+  - id: 898
+    level: 1
+    batch: 9
+    word: today adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - today adv./n.
+    ipa: ''
+  - id: 899
+    level: 1
+    batch: 9
+    word: toe
+    pos: n.
+    chinese: 腳趾
+    syllable:
+      - toe
+    ipa: /toʊ/
+  - id: 900
+    level: 1
+    batch: 9
+    word: together
+    pos: adv.
+    chinese: 一起
+    syllable:
+      - to
+      - geth
+      - er
+    ipa: /təˈɡɛð.ɚ/
+  - id: 901
+    level: 1
+    batch: 10
+    word: toilet
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - toilet
+    ipa: ''
+  - id: 902
+    level: 1
+    batch: 10
+    word: tomato
+    pos: n.
+    chinese: 番茄
+    syllable:
+      - to
+      - ma
+      - to
+    ipa: /təˈmeɪ.toʊ/
+  - id: 903
+    level: 1
+    batch: 10
+    word: tomorrow adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - tomorrow adv./n.
+    ipa: ''
+  - id: 904
+    level: 1
+    batch: 10
+    word: tonight adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - tonight adv./n.
+    ipa: ''
+  - id: 905
+    level: 1
+    batch: 10
+    word: too
+    pos: adv.
+    chinese: 也,太...
+    syllable:
+      - too
+    ipa: /tuː/
+  - id: 906
+    level: 1
+    batch: 10
+    word: tool
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - tool
+    ipa: ''
+  - id: 907
+    level: 1
+    batch: 10
+    word: tooth
+    pos: n.
+    chinese: 牙齒
+    syllable:
+      - tooth
+    ipa: /tuːθ/
+  - id: 908
+    level: 1
+    batch: 10
+    word: top n./adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - top n./adj./v.
+    ipa: ''
+  - id: 909
+    level: 1
+    batch: 10
+    word: topic
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - topic
+    ipa: ''
+  - id: 910
+    level: 1
+    batch: 10
+    word: total adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - total adj./n./v.
+    ipa: ''
+  - id: 911
+    level: 1
+    batch: 10
+    word: touch n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - touch n./v.
+    ipa: ''
+  - id: 912
+    level: 1
+    batch: 10
+    word: towel n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - towel n./v.
+    ipa: ''
+  - id: 913
+    level: 1
+    batch: 10
+    word: town
+    pos: n.
+    chinese: 城鎮
+    syllable:
+      - town
+    ipa: /taʊn/
+  - id: 914
+    level: 1
+    batch: 10
+    word: toy
+    pos: n.
+    chinese: 玩具
+    syllable:
+      - toy
+    ipa: /tɔɪ/
+  - id: 915
+    level: 1
+    batch: 10
+    word: traffic n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - traffic n./v.
+    ipa: ''
+  - id: 916
+    level: 1
+    batch: 10
+    word: train n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - train n./v.
+    ipa: ''
+  - id: 917
+    level: 1
+    batch: 10
+    word: treat(ment) v./(n.)
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - treat(ment) v./(n.)
+    ipa: ''
+  - id: 918
+    level: 1
+    batch: 10
+    word: tree
+    pos: n.
+    chinese: 樹
+    syllable:
+      - tree
+    ipa: /triː/
+  - id: 919
+    level: 1
+    batch: 10
+    word: trip n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - trip n./v.
+    ipa: ''
+  - id: 920
+    level: 1
+    batch: 10
+    word: trouble n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - trouble n./v.
+    ipa: ''
+  - id: 921
+    level: 1
+    batch: 10
+    word: truck
+    pos: n.
+    chinese: 卡車
+    syllable:
+      - truck
+    ipa: /trʌk/
+  - id: 922
+    level: 1
+    batch: 10
+    word: try v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - try v./n.
+    ipa: ''
+  - id: 923
+    level: 1
+    batch: 10
+    word: T-shirt
+    pos: n.
+    chinese: T 恤
+    syllable:
+      - T
+      - shirt
+    ipa: /ˈtiː.ʃɝːt/
+  - id: 924
+    level: 1
+    batch: 10
+    word: turn v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - turn v./n.
+    ipa: ''
+  - id: 925
+    level: 1
+    batch: 10
+    word: twice
+    pos: adv.
+    chinese: 兩次
+    syllable:
+      - twice
+    ipa: /twaɪs/
+  - id: 926
+    level: 1
+    batch: 10
+    word: type n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - type n./v.
+    ipa: ''
+  - id: 927
+    level: 1
+    batch: 10
+    word: uncle
+    pos: n.
+    chinese: 伯(叔)
+    syllable:
+      - un
+      - cle
+    ipa: /ˈʌŋ.kəl/
+  - id: 928
+    level: 1
+    batch: 10
+    word: under prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - under prep./adv.
+    ipa: ''
+  - id: 929
+    level: 1
+    batch: 10
+    word: understand
+    pos: v.
+    chinese: 了解
+    syllable:
+      - un
+      - der
+      - stand
+    ipa: /ˌʌn.dɚˈstænd/
+  - id: 930
+    level: 1
+    batch: 10
+    word: uniform
+    pos: n.
+    chinese: 制服
+    syllable:
+      - u
+      - ni
+      - form
+    ipa: /ˈjuː.nə.fɔːrm/
+  - id: 931
+    level: 1
+    batch: 10
+    word: until conj./prep.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - until conj./prep.
+    ipa: ''
+  - id: 932
+    level: 1
+    batch: 10
+    word: up adv./prep./adj./v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - up adv./prep./adj./v./n.
+    ipa: ''
+  - id: 933
+    level: 1
+    batch: 10
+    word: use v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - use v./n.
+    ipa: ''
+  - id: 934
+    level: 1
+    batch: 10
+    word: useful
+    pos: adj.
+    chinese: 有用的
+    syllable:
+      - use
+      - ful
+    ipa: /ˈjuːs.fəl/
+  - id: 935
+    level: 1
+    batch: 10
+    word: usually
+    pos: adv.
+    chinese: 通常
+    syllable:
+      - u
+      - su
+      - al
+      - ly
+    ipa: /ˈjuː.ʒu.ə.li/
+  - id: 936
+    level: 1
+    batch: 10
+    word: vegetable
+    pos: n.
+    chinese: 蔬菜
+    syllable:
+      - veg
+      - e
+      - ta
+      - ble
+    ipa: /ˈvɛdʒ.tə.bəl/
+  - id: 937
+    level: 1
+    batch: 10
+    word: very
+    pos: adv.
+    chinese: 非常
+    syllable:
+      - ver
+      - 'y'
+    ipa: /ˈvɛr.i/
+  - id: 938
+    level: 1
+    batch: 10
+    word: video n./v./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - video n./v./adj.
+    ipa: ''
+  - id: 939
+    level: 1
+    batch: 10
+    word: violin
+    pos: n.
+    chinese: 小提琴
+    syllable:
+      - vi
+      - o
+      - lin
+    ipa: /ˌvaɪ.əˈlɪn/
+  - id: 940
+    level: 1
+    batch: 10
+    word: visit v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - visit v./n.
+    ipa: ''
+  - id: 941
+    level: 1
+    batch: 10
+    word: visitor
+    pos: n.
+    chinese: 常用高中字彙
+    syllable:
+      - visitor
+    ipa: ''
+  - id: 942
+    level: 1
+    batch: 10
+    word: voice
+    pos: n.
+    chinese: 聲音
+    syllable:
+      - voice
+    ipa: /vɔɪs/
+  - id: 943
+    level: 1
+    batch: 10
+    word: wait v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wait v./n.
+    ipa: ''
+  - id: 944
+    level: 1
+    batch: 10
+    word: wake
+    pos: v.
+    chinese: 醒來
+    syllable:
+      - wake
+    ipa: /weɪk/
+  - id: 945
+    level: 1
+    batch: 10
+    word: walk v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - walk v./n.
+    ipa: ''
+  - id: 946
+    level: 1
+    batch: 10
+    word: wall
+    pos: n.
+    chinese: 牆壁
+    syllable:
+      - wall
+    ipa: /wɑːl/
+  - id: 947
+    level: 1
+    batch: 10
+    word: want v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - want v./n.
+    ipa: ''
+  - id: 948
+    level: 1
+    batch: 10
+    word: warm adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - warm adj./v.
+    ipa: ''
+  - id: 949
+    level: 1
+    batch: 10
+    word: watch v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - watch v./n.
+    ipa: ''
+  - id: 950
+    level: 1
+    batch: 10
+    word: water n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - water n./v.
+    ipa: ''
+  - id: 951
+    level: 1
+    batch: 10
+    word: wave n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wave n./v.
+    ipa: ''
+  - id: 952
+    level: 1
+    batch: 10
+    word: way
+    pos: n.
+    chinese: 道路,方法
+    syllable:
+      - way
+    ipa: /weɪ/
+  - id: 953
+    level: 1
+    batch: 10
+    word: we (us, our, ours, ourselves)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - we (us, our, ours, ourselves)
+    ipa: ''
+  - id: 954
+    level: 1
+    batch: 10
+    word: weak
+    pos: adj.
+    chinese: 弱的
+    syllable:
+      - weak
+    ipa: /wiːk/
+  - id: 955
+    level: 1
+    batch: 10
+    word: wear
+    pos: v.
+    chinese: 穿
+    syllable:
+      - wear
+    ipa: /wɛr/
+  - id: 956
+    level: 1
+    batch: 10
+    word: weather n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - weather n./v.
+    ipa: ''
+  - id: 957
+    level: 1
+    batch: 10
+    word: week
+    pos: n.
+    chinese: 星期
+    syllable:
+      - week
+    ipa: /wiːk/
+  - id: 958
+    level: 1
+    batch: 10
+    word: weekend n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - weekend n./v.
+    ipa: ''
+  - id: 959
+    level: 1
+    batch: 10
+    word: welcome v./adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - welcome v./adj./n.
+    ipa: ''
+  - id: 960
+    level: 1
+    batch: 10
+    word: well adv./adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - well adv./adj./n.
+    ipa: ''
+  - id: 961
+    level: 1
+    batch: 10
+    word: west n./adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - west n./adj./adv.
+    ipa: ''
+  - id: 962
+    level: 1
+    batch: 10
+    word: wet adj./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wet adj./v.
+    ipa: ''
+  - id: 963
+    level: 1
+    batch: 10
+    word: what pron./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - what pron./adj.
+    ipa: ''
+  - id: 964
+    level: 1
+    batch: 10
+    word: when adv./conj./pron.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - when adv./conj./pron.
+    ipa: ''
+  - id: 965
+    level: 1
+    batch: 10
+    word: where conj./adv./pron./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - where conj./adv./pron./n.
+    ipa: ''
+  - id: 966
+    level: 1
+    batch: 10
+    word: whether
+    pos: conj.
+    chinese: 是否
+    syllable:
+      - wheth
+      - er
+    ipa: /ˈwɛð.ɚ/
+  - id: 967
+    level: 1
+    batch: 10
+    word: which pron./adj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - which pron./adj.
+    ipa: ''
+  - id: 968
+    level: 1
+    batch: 10
+    word: while conj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - while conj./n./v.
+    ipa: ''
+  - id: 969
+    level: 1
+    batch: 10
+    word: white adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - white adj./n.
+    ipa: ''
+  - id: 970
+    level: 1
+    batch: 10
+    word: who
+    pos: pron.
+    chinese: 誰
+    syllable:
+      - who
+    ipa: /huː/
+  - id: 971
+    level: 1
+    batch: 10
+    word: whose
+    pos: pron.
+    chinese: 誰的
+    syllable:
+      - whose
+    ipa: /huːz/
+  - id: 972
+    level: 1
+    batch: 10
+    word: why adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - why adv./n.
+    ipa: ''
+  - id: 973
+    level: 1
+    batch: 10
+    word: wide adj./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wide adj./adv.
+    ipa: ''
+  - id: 974
+    level: 1
+    batch: 10
+    word: wife
+    pos: n.
+    chinese: 妻子
+    syllable:
+      - wife
+    ipa: /waɪf/
+  - id: 975
+    level: 1
+    batch: 10
+    word: will aux./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - will aux./n.
+    ipa: ''
+  - id: 976
+    level: 1
+    batch: 10
+    word: win v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - win v./n.
+    ipa: ''
+  - id: 977
+    level: 1
+    batch: 10
+    word: wind n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wind n./v.
+    ipa: ''
+  - id: 978
+    level: 1
+    batch: 10
+    word: window
+    pos: n.
+    chinese: 窗戶
+    syllable:
+      - win
+      - dow
+    ipa: /ˈwɪn.doʊ/
+  - id: 979
+    level: 1
+    batch: 10
+    word: wise
+    pos: adj.
+    chinese: 明智的
+    syllable:
+      - wise
+    ipa: /waɪz/
+  - id: 980
+    level: 1
+    batch: 10
+    word: wish v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wish v./n.
+    ipa: ''
+  - id: 981
+    level: 1
+    batch: 10
+    word: with
+    pos: prep.
+    chinese: 和
+    syllable:
+      - with
+    ipa: /wɪð/
+  - id: 982
+    level: 1
+    batch: 10
+    word: without prep./adv.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - without prep./adv.
+    ipa: ''
+  - id: 983
+    level: 1
+    batch: 10
+    word: woman
+    pos: n.
+    chinese: 女人
+    syllable:
+      - wom
+      - an
+    ipa: /ˈwʊm.ən/
+  - id: 984
+    level: 1
+    batch: 10
+    word: wonderful
+    pos: adj.
+    chinese: 極好的
+    syllable:
+      - won
+      - der
+      - ful
+    ipa: /ˈwʌn.dɚ.fəl/
+  - id: 985
+    level: 1
+    batch: 10
+    word: word
+    pos: n.
+    chinese: 字
+    syllable:
+      - word
+    ipa: /wɝːd/
+  - id: 986
+    level: 1
+    batch: 10
+    word: work n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - work n./v.
+    ipa: ''
+  - id: 987
+    level: 1
+    batch: 10
+    word: worker
+    pos: n.
+    chinese: 工人
+    syllable:
+      - work
+      - er
+    ipa: /ˈwɝːk.ɚ/
+  - id: 988
+    level: 1
+    batch: 10
+    word: world
+    pos: n.
+    chinese: 世界
+    syllable:
+      - world
+    ipa: /wɝːld/
+  - id: 989
+    level: 1
+    batch: 10
+    word: worry v./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - worry v./n.
+    ipa: ''
+  - id: 990
+    level: 1
+    batch: 10
+    word: write
+    pos: v.
+    chinese: 寫
+    syllable:
+      - write
+    ipa: /raɪt/
+  - id: 991
+    level: 1
+    batch: 10
+    word: writer
+    pos: n.
+    chinese: 作家
+    syllable:
+      - writ
+      - er
+    ipa: /ˈraɪ.t̬ɚ/
+  - id: 992
+    level: 1
+    batch: 10
+    word: wrong adj./adv./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - wrong adj./adv./n./v.
+    ipa: ''
+  - id: 993
+    level: 1
+    batch: 10
+    word: yard
+    pos: n.
+    chinese: 庭院
+    syllable:
+      - yard
+    ipa: /jɑːrd/
+  - id: 994
+    level: 1
+    batch: 10
+    word: year
+    pos: n.
+    chinese: 年
+    syllable:
+      - year
+    ipa: /jɪr/
+  - id: 995
+    level: 1
+    batch: 10
+    word: yellow adj./n./v.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - yellow adj./n./v.
+    ipa: ''
+  - id: 996
+    level: 1
+    batch: 10
+    word: yes/yeah adv./n.
+    pos: ''
+    chinese: 是
+    syllable:
+      - 'yes'
+    ipa: /jɛs/
+  - id: 997
+    level: 1
+    batch: 10
+    word: yesterday adv./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - yesterday adv./n.
+    ipa: ''
+  - id: 998
+    level: 1
+    batch: 10
+    word: yet adv./conj.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - yet adv./conj.
+    ipa: ''
+  - id: 999
+    level: 1
+    batch: 10
+    word: you (your, yours, yourself, yourselves)
+    pos: pron.
+    chinese: 常用高中字彙
+    syllable:
+      - you (your, yours, yourself, yourselves)
+    ipa: ''
+  - id: 1000
+    level: 1
+    batch: 10
+    word: young adj./n.
+    pos: ''
+    chinese: 常用高中字彙
+    syllable:
+      - young adj./n.
+    ipa: ''
+  - id: 1001
+    level: 1
+    batch: 11
+    word: zero
+    pos: n.
+    chinese: 零
+    syllable:
+      - ze
+      - ro
+    ipa: /ˈzɪr.oʊ/
+  - id: 1002
+    level: 1
+    batch: 11
+    word: zoo
+    pos: n.
+    chinese: 動物園
+    syllable:
+      - zoo
+    ipa: /zuː/

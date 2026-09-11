@@ -1,0 +1,17 @@
+version: "1.0"
+name: EPRS Exception Growth Control Policy
+
+exception_policy:
+  max_exception_growth:
+    warning: ">5%"
+    review: ">10%"
+
+  principle:
+    prefer_family_rule_before_exception: true
+    require_reason: true
+    enforce_exception_taxonomy: true
+
+  taxonomy_prefixes:
+    - HIST: "Historical Exception (古英語存留/歷史轉變)"
+    - ORTH: "Orthographic Exception (特殊拼音規則/首音隱藏)"
+    - REDUC: "Pronunciation Reduction (高頻字口語音節弱化)"

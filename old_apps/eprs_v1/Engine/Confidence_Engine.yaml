@@ -1,0 +1,51 @@
+version: "1.7.1"
+name: EPRS Quantitative Confidence Engine
+description: Calculates quantitative inference confidence score (0-100) based on weighted evaluation across 5 core categories
+
+pipeline_stage: 8
+
+input_spec:
+  word: string
+  syllables: array
+  primaryStressIndex: number
+  patternId: string
+  ruleId: string
+  isException: boolean
+  exceptionId: string | null
+  fullIpa: string;
+  hasWordFamily: boolean
+
+weighted_scoring_model:
+  total_score: 100
+  categories:
+    pattern_match:
+      max_points: 25
+      description: "Validates pattern identification (PAT-01 ~ PAT-M402)"
+    stress_accuracy:
+      max_points: 25
+      description: "Validates primary stress index bounds and syllable stress rules"
+    phoneme_mapping:
+      max_points: 20
+      description: "Validates G2P phoneme synthesis and IPA formatting"
+    exception_resolution:
+      max_points: 15
+      description: "Validates exception taxonomy (HIST/ORTH/REDUC) or clean rule match"
+    word_family_support:
+      max_points: 15
+      description: "Validates structural pattern family or word family mapping"
+
+levels:
+  GOLD:
+    min_score: 100
+    description: "Perfect inference across all 5 weighted categories"
+  SILVER:
+    min_score: 80
+    description: "Acceptable inference with minor non-fatal fallbacks"
+  FAILED:
+    max_score: 79
+    description: "Incomplete inference or fatal validation failure"
+
+output_spec:
+  confidence_score: number
+  confidence_level: string
+  breakdown: array

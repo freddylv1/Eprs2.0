@@ -1,0 +1,77 @@
+package_name: "EPRS APP Runtime Package"
+version: "1.5"
+build_date: "2026-08-05"
+
+loader_sequence:
+  - "Core/EPRS_Rule_Master.yaml"
+  - "Knowledge/Pattern_Master.yaml"
+  - "Knowledge/Stress_Master.yaml"
+  - "Knowledge/Exception_Master.yaml"
+  - "Database/English_Pronunciation_Database.yaml"
+  - "Core/EPRS_Learning_Model.yaml"
+  - "Templates/PDF_Template.yaml"
+  - "Templates/Worksheet_Template.yaml"
+
+required_files:
+  - "Core/EPRS_Rule_Master.yaml"
+  - "Knowledge/Pattern_Master.yaml"
+  - "Knowledge/Stress_Master.yaml"
+  - "Knowledge/Exception_Master.yaml"
+  - "Database/English_Pronunciation_Database.yaml"
+  - "Core/EPRS_Learning_Model.yaml"
+
+optional_files:
+  - "Templates/PDF_Template.yaml"
+  - "Templates/Worksheet_Template.yaml"
+
+dependency_map:
+  Core/EPRS_Rule_Master.yaml:
+    depends_on: []
+    description: "Core pronunciation rule engine defining R001 through R017 rules"
+  Knowledge/Pattern_Master.yaml:
+    depends_on:
+      - "Core/EPRS_Rule_Master.yaml"
+    description: "Phonics pattern definitions PAT-M001 through PAT-M401"
+  Knowledge/Stress_Master.yaml:
+    depends_on:
+      - "Core/EPRS_Rule_Master.yaml"
+    description: "Syllable stress and accent placement rules"
+  Knowledge/Exception_Master.yaml:
+    depends_on:
+      - "Core/EPRS_Rule_Master.yaml"
+      - "Knowledge/Pattern_Master.yaml"
+    description: "Phonetic exception overrides and irregular spellings"
+  Database/English_Pronunciation_Database.yaml:
+    depends_on:
+      - "Core/EPRS_Rule_Master.yaml"
+      - "Knowledge/Pattern_Master.yaml"
+      - "Knowledge/Stress_Master.yaml"
+      - "Knowledge/Exception_Master.yaml"
+    description: "Official 1200 MOE vocabulary database with IPA, breakdown, and rule/pattern tags"
+  Core/EPRS_Learning_Model.yaml:
+    depends_on:
+      - "Database/English_Pronunciation_Database.yaml"
+    description: "Pedagogical progression, SRS retention curve, and difficulty levels (L1-L5)"
+  Templates/PDF_Template.yaml:
+    depends_on:
+      - "Database/English_Pronunciation_Database.yaml"
+    description: "Layout specification for PDF flashcard and review worksheet exports"
+  Templates/Worksheet_Template.yaml:
+    depends_on:
+      - "Database/English_Pronunciation_Database.yaml"
+    description: "Layout specification for student test sheets and practice workbooks"
+
+checksum:
+  Core/EPRS_Rule_Master.yaml: "710c553e74ef6d525e3fa1bc698bdf155f530fec2cf533acd0f5c43b5a4bc1e1"
+  Core/EPRS_Learning_Model.yaml: "b9b122789a55731385cc3a125f0192adce4ee55979436e27a1d77f574b7efa93"
+  Knowledge/Pattern_Master.yaml: "93ae3c718011f040241ce2ba5817b5c33bb5d3385a3e1b474faeae01f795f3c5"
+  Knowledge/Stress_Master.yaml: "2d0f6825f28680eb9323081f19cbe21db471f62944a0c7384c38f72c75386b60"
+  Knowledge/Exception_Master.yaml: "3d8b867f600a7ea7decf4463c2af36ea4330fd32d82b42a2b693cb1a0e9fa314"
+  Database/English_Pronunciation_Database.yaml: "d348051c6e4374e1ed4641cac7d8a31143820d4fd358005c8b8f91156764abf6"
+  Templates/PDF_Template.yaml: "302d0082ec8a108c954d4f27dd38d534b1d0fe55426f950ba767825cc330ca73"
+  Templates/Worksheet_Template.yaml: "5b07b7e203fa8e3c8eec6a757806876d53225b2020c5dc8a1bb0468dafadfab3"
+
+excluded:
+  - "Archive"
+  - "Source"
+  - "Validation"

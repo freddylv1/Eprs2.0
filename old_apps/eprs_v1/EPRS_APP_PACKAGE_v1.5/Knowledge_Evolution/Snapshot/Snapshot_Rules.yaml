@@ -1,0 +1,13 @@
+version: "1.0"
+schema_name: "EPRS Snapshot Rules"
+
+rules:
+  require_source_lock: true
+  require_rule_version: true
+  require_pattern_version: true
+  require_validation_before_release: true
+  allow_database_publish:
+    only_if:
+      - "GOLD_VALIDATION_PASS"
+  rollback:
+    enabled: true

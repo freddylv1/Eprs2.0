@@ -1,0 +1,33 @@
+version: "1.7"
+name: EPRS IPA Generator Engine
+description: Algorithmic IPA phoneme synthesis and stress formatting engine
+
+pipeline_stage: 7
+
+input_spec:
+  word: string
+  syllables: array
+  stress_analysis: object
+  pattern_analysis: array
+  rule_mappings: array
+  exception_resolution: object
+
+process:
+  1_exception_override:
+    condition: "exception_resolution.is_exception == true"
+    action: "Use exception_resolution.exception_entry.ipa as full_ipa and set primary syllable IPA override"
+
+  2_phoneme_synthesis:
+    condition: "exception_resolution.is_exception == false"
+    action: "Convert each syllable to IPA fragment using Phoneme_Master lookup and contextual stress mapping"
+
+  3_stress_formatting:
+    action: "Prefix primary stress mark ˈ to the primary stressed syllable fragment"
+
+  4_boundary_cleaning:
+    action: "Join syllable fragments with dot . separator and sanitize duplicate dot placement around stress marks"
+
+output_spec:
+  full_ipa: string
+  syllable_ipas: array
+  phonemes: array

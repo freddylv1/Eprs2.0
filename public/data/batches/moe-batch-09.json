@@ -1,0 +1,1648 @@
+{
+  "batchId": "moe-batch-09",
+  "title": "教育部基礎 1200 單字 - 第 9 批次",
+  "category": "moe1200",
+  "range": "801 ~ 900",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 801,
+      "word": "pull",
+      "chinese": "拉",
+      "pos": "",
+      "syllables": [
+        "pull"
+      ],
+      "ipa": "/pʊl/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 802,
+      "word": "pumpkin",
+      "chinese": "南瓜",
+      "pos": "",
+      "syllables": [
+        "pump",
+        "kin"
+      ],
+      "ipa": "/ˈpʌmp.kɪn/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 803,
+      "word": "purple",
+      "chinese": "紫色的",
+      "pos": "",
+      "syllables": [
+        "pur",
+        "ple"
+      ],
+      "ipa": "/ˈpɝː.pəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 804,
+      "word": "push",
+      "chinese": "推",
+      "pos": "",
+      "syllables": [
+        "push"
+      ],
+      "ipa": "/pʊʃ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 805,
+      "word": "put",
+      "chinese": "放",
+      "pos": "",
+      "syllables": [
+        "put"
+      ],
+      "ipa": "/pʊt/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 806,
+      "word": "quarter",
+      "chinese": "15 分鐘,1/4",
+      "pos": "",
+      "syllables": [
+        "quar",
+        "ter"
+      ],
+      "ipa": "/ˈkwɔːr.t̬ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R013"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 807,
+      "word": "queen",
+      "chinese": "皇后",
+      "pos": "",
+      "syllables": [
+        "queen"
+      ],
+      "ipa": "/kwiːn/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 808,
+      "word": "question",
+      "chinese": "問題",
+      "pos": "",
+      "syllables": [
+        "ques",
+        "tion"
+      ],
+      "ipa": "/ˈkwɛs.tʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 809,
+      "word": "quick",
+      "chinese": "迅速的",
+      "pos": "",
+      "syllables": [
+        "quick"
+      ],
+      "ipa": "/kwɪk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 810,
+      "word": "quiet",
+      "chinese": "安靜的",
+      "pos": "",
+      "syllables": [
+        "qui",
+        "et"
+      ],
+      "ipa": "/ˈkwaɪ.ət/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 811,
+      "word": "quite",
+      "chinese": "相當",
+      "pos": "",
+      "syllables": [
+        "quite"
+      ],
+      "ipa": "/kwaɪt/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 812,
+      "word": "quiz",
+      "chinese": "小考",
+      "pos": "",
+      "syllables": [
+        "quiz"
+      ],
+      "ipa": "/kwɪz/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 813,
+      "word": "rabbit",
+      "chinese": "兔子",
+      "pos": "",
+      "syllables": [
+        "rab",
+        "bit"
+      ],
+      "ipa": "/ˈræb.ɪt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 814,
+      "word": "race",
+      "chinese": "賽跑",
+      "pos": "",
+      "syllables": [
+        "race"
+      ],
+      "ipa": "/reɪs/",
+      "ruleCodes": [
+        "R003",
+        "R007"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 815,
+      "word": "radio",
+      "chinese": "收音機",
+      "pos": "",
+      "syllables": [
+        "ra",
+        "di",
+        "o"
+      ],
+      "ipa": "/ˈreɪ.di.oʊ/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 816,
+      "word": "railroad",
+      "chinese": "鐵路",
+      "pos": "",
+      "syllables": [
+        "rail",
+        "road"
+      ],
+      "ipa": "/ˈreɪl.roʊd/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 817,
+      "word": "rain",
+      "chinese": "下雨",
+      "pos": "",
+      "syllables": [
+        "rain"
+      ],
+      "ipa": "/reɪn/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 818,
+      "word": "rainbow",
+      "chinese": "彩虹",
+      "pos": "",
+      "syllables": [
+        "rain",
+        "bow"
+      ],
+      "ipa": "/ˈreɪn.boʊ/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 819,
+      "word": "rainy",
+      "chinese": "下雨的",
+      "pos": "",
+      "syllables": [
+        "rain",
+        "y"
+      ],
+      "ipa": "/ˈreɪ.ni/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 820,
+      "word": "raise",
+      "chinese": "舉起,養育",
+      "pos": "",
+      "syllables": [
+        "raise"
+      ],
+      "ipa": "/reɪz/",
+      "ruleCodes": [
+        "R003",
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 821,
+      "word": "rat",
+      "chinese": "(大)老鼠,鼠輩",
+      "pos": "",
+      "syllables": [
+        "rat"
+      ],
+      "ipa": "/ræt/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 822,
+      "word": "read",
+      "chinese": "讀",
+      "pos": "",
+      "syllables": [
+        "read"
+      ],
+      "ipa": "/riːd/",
+      "ruleCodes": [
+        "R004",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 823,
+      "word": "ready",
+      "chinese": "準備好的",
+      "pos": "",
+      "syllables": [
+        "read",
+        "y"
+      ],
+      "ipa": "/ˈrɛd.i/",
+      "ruleCodes": [
+        "R004",
+        "R011",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 824,
+      "word": "real",
+      "chinese": "真的",
+      "pos": "",
+      "syllables": [
+        "real"
+      ],
+      "ipa": "/riːl/",
+      "ruleCodes": [
+        "R004",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 825,
+      "word": "really",
+      "chinese": "真地",
+      "pos": "",
+      "syllables": [
+        "real",
+        "ly"
+      ],
+      "ipa": "/ˈriː.ə.li/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 826,
+      "word": "recorder",
+      "chinese": "錄音機",
+      "pos": "",
+      "syllables": [
+        "re",
+        "cord",
+        "er"
+      ],
+      "ipa": "/rɪˈkɔːr.dɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 827,
+      "word": "red",
+      "chinese": "紅色(的)",
+      "pos": "",
+      "syllables": [
+        "red"
+      ],
+      "ipa": "/rɛd/",
+      "ruleCodes": [
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 828,
+      "word": "refrigerator",
+      "chinese": "冰箱",
+      "pos": "",
+      "syllables": [
+        "re",
+        "frig",
+        "er",
+        "a",
+        "tor"
+      ],
+      "ipa": "/rɪˈfrɪdʒ.ə.reɪ.t̬ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 829,
+      "word": "remember",
+      "chinese": "記得",
+      "pos": "",
+      "syllables": [
+        "re",
+        "mem",
+        "ber"
+      ],
+      "ipa": "/rɪˈmɛm.bɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 830,
+      "word": "repeat",
+      "chinese": "重複",
+      "pos": "",
+      "syllables": [
+        "re",
+        "peat"
+      ],
+      "ipa": "/rɪˈpiːt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 831,
+      "word": "reporter",
+      "chinese": "記者",
+      "pos": "",
+      "syllables": [
+        "re",
+        "port",
+        "er"
+      ],
+      "ipa": "/rɪˈpɔːr.t̬ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 832,
+      "word": "rest",
+      "chinese": "休息",
+      "pos": "",
+      "syllables": [
+        "rest"
+      ],
+      "ipa": "/rɛst/",
+      "ruleCodes": [
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 833,
+      "word": "restaurant",
+      "chinese": "餐館",
+      "pos": "",
+      "syllables": [
+        "res",
+        "tau",
+        "rant"
+      ],
+      "ipa": "/ˈrɛs.tə.rɑːnt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 834,
+      "word": "restroom",
+      "chinese": "洗手間",
+      "pos": "",
+      "syllables": [
+        "rest",
+        "room"
+      ],
+      "ipa": "/ˈrɛst.ruːm/",
+      "ruleCodes": [
+        "R004",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 835,
+      "word": "rice",
+      "chinese": "米飯",
+      "pos": "",
+      "syllables": [
+        "rice"
+      ],
+      "ipa": "/raɪs/",
+      "ruleCodes": [
+        "R003",
+        "R007"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 836,
+      "word": "rich",
+      "chinese": "有錢的",
+      "pos": "",
+      "syllables": [
+        "rich"
+      ],
+      "ipa": "/rɪtʃ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 837,
+      "word": "ride",
+      "chinese": "騎",
+      "pos": "",
+      "syllables": [
+        "ride"
+      ],
+      "ipa": "/raɪd/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 838,
+      "word": "right",
+      "chinese": "右邊",
+      "pos": "",
+      "syllables": [
+        "right"
+      ],
+      "ipa": "/raɪt/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 839,
+      "word": "ring",
+      "chinese": "戒指",
+      "pos": "",
+      "syllables": [
+        "ring"
+      ],
+      "ipa": "/rɪŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 840,
+      "word": "river",
+      "chinese": "河",
+      "pos": "",
+      "syllables": [
+        "riv",
+        "er"
+      ],
+      "ipa": "/ˈrɪv.ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 841,
+      "word": "road",
+      "chinese": "道路",
+      "pos": "",
+      "syllables": [
+        "road"
+      ],
+      "ipa": "/roʊd/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 842,
+      "word": "robot",
+      "chinese": "機器人",
+      "pos": "",
+      "syllables": [
+        "ro",
+        "bot"
+      ],
+      "ipa": "/ˈroʊ.bɑːt/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 843,
+      "word": "ROC",
+      "chinese": "中華民國",
+      "pos": "",
+      "syllables": [
+        "R",
+        "O",
+        "C"
+      ],
+      "ipa": "/ˌɑːr.oʊˈsiː/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 844,
+      "word": "rock",
+      "chinese": "岩石",
+      "pos": "",
+      "syllables": [
+        "rock"
+      ],
+      "ipa": "/rɑːk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 845,
+      "word": "roll",
+      "chinese": "滾",
+      "pos": "",
+      "syllables": [
+        "roll"
+      ],
+      "ipa": "/roʊl/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 846,
+      "word": "room",
+      "chinese": "房間",
+      "pos": "",
+      "syllables": [
+        "room"
+      ],
+      "ipa": "/ruːm/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 847,
+      "word": "roller-skate/roller-blade",
+      "chinese": "溜冰",
+      "pos": "",
+      "syllables": [
+        "rol",
+        "ler",
+        "skate",
+        "rol",
+        "ler",
+        "blade"
+      ],
+      "ipa": "/ˈroʊ.lɚ.skeɪt/ /ˈroʊ.lɚ.bleɪd/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 848,
+      "word": "rope",
+      "chinese": "繩子",
+      "pos": "",
+      "syllables": [
+        "rope"
+      ],
+      "ipa": "/roʊp/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 849,
+      "word": "rose",
+      "chinese": "玫瑰",
+      "pos": "",
+      "syllables": [
+        "rose"
+      ],
+      "ipa": "/roʊz/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 850,
+      "word": "round",
+      "chinese": "圓形的",
+      "pos": "",
+      "syllables": [
+        "round"
+      ],
+      "ipa": "/raʊnd/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 851,
+      "word": "row",
+      "chinese": "劃(船)",
+      "pos": "",
+      "syllables": [
+        "row"
+      ],
+      "ipa": "/roʊ/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 852,
+      "word": "rule",
+      "chinese": "規則",
+      "pos": "",
+      "syllables": [
+        "rule"
+      ],
+      "ipa": "/ruːl/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 853,
+      "word": "ruler",
+      "chinese": "尺",
+      "pos": "",
+      "syllables": [
+        "rul",
+        "er"
+      ],
+      "ipa": "/ˈruː.lɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 854,
+      "word": "run",
+      "chinese": "跑",
+      "pos": "",
+      "syllables": [
+        "run"
+      ],
+      "ipa": "/rʌn/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 855,
+      "word": "sad",
+      "chinese": "悲傷的",
+      "pos": "",
+      "syllables": [
+        "sad"
+      ],
+      "ipa": "/sæd/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 856,
+      "word": "safe",
+      "chinese": "安全的",
+      "pos": "",
+      "syllables": [
+        "safe"
+      ],
+      "ipa": "/seɪf/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 857,
+      "word": "sail",
+      "chinese": "航行",
+      "pos": "",
+      "syllables": [
+        "sail"
+      ],
+      "ipa": "/seɪl/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 858,
+      "word": "salad",
+      "chinese": "沙拉",
+      "pos": "",
+      "syllables": [
+        "sal",
+        "ad"
+      ],
+      "ipa": "/ˈsæl.əd/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 859,
+      "word": "sale",
+      "chinese": "出售",
+      "pos": "",
+      "syllables": [
+        "sale"
+      ],
+      "ipa": "/seɪl/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 860,
+      "word": "salesman",
+      "chinese": "推銷員",
+      "pos": "",
+      "syllables": [
+        "sales",
+        "man"
+      ],
+      "ipa": "/ˈseɪlz.mæn/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 861,
+      "word": "salt",
+      "chinese": "鹽",
+      "pos": "",
+      "syllables": [
+        "salt"
+      ],
+      "ipa": "/sɑːlt/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 862,
+      "word": "same",
+      "chinese": "相同的",
+      "pos": "",
+      "syllables": [
+        "same"
+      ],
+      "ipa": "/seɪm/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 863,
+      "word": "sandwich",
+      "chinese": "三明治",
+      "pos": "",
+      "syllables": [
+        "sand",
+        "wich"
+      ],
+      "ipa": "/ˈsæn.wɪtʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 864,
+      "word": "Saturday",
+      "chinese": "星期六",
+      "pos": "",
+      "syllables": [
+        "Sat",
+        "ur",
+        "day"
+      ],
+      "ipa": "/ˈsæt̬.ɚ.deɪ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 865,
+      "word": "sacred",
+      "chinese": "神聖的",
+      "pos": "",
+      "syllables": [
+        "sa",
+        "cred"
+      ],
+      "ipa": "/ˈseɪ.krɪd/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 866,
+      "word": "save",
+      "chinese": "節省,挽救",
+      "pos": "",
+      "syllables": [
+        "save"
+      ],
+      "ipa": "/seɪv/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 867,
+      "word": "say",
+      "chinese": "說",
+      "pos": "",
+      "syllables": [
+        "say"
+      ],
+      "ipa": "/seɪ/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 868,
+      "word": "school",
+      "chinese": "學校",
+      "pos": "",
+      "syllables": [
+        "school"
+      ],
+      "ipa": "/skuːl/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 869,
+      "word": "science",
+      "chinese": "科學",
+      "pos": "",
+      "syllables": [
+        "sci",
+        "ence"
+      ],
+      "ipa": "/ˈsaɪ.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 870,
+      "word": "scooter",
+      "chinese": "速克達機車",
+      "pos": "",
+      "syllables": [
+        "scoot",
+        "er"
+      ],
+      "ipa": "/ˈskuː.t̬ɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R013"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 871,
+      "word": "screen",
+      "chinese": "螢幕",
+      "pos": "",
+      "syllables": [
+        "screen"
+      ],
+      "ipa": "/skriːn/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 872,
+      "word": "sea",
+      "chinese": "海",
+      "pos": "",
+      "syllables": [
+        "sea"
+      ],
+      "ipa": "/siː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 873,
+      "word": "season",
+      "chinese": "季節",
+      "pos": "",
+      "syllables": [
+        "sea",
+        "son"
+      ],
+      "ipa": "/ˈsiː.zən/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 874,
+      "word": "seat",
+      "chinese": "座位",
+      "pos": "",
+      "syllables": [
+        "seat"
+      ],
+      "ipa": "/siːt/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 875,
+      "word": "second",
+      "chinese": "第二(的)",
+      "pos": "",
+      "syllables": [
+        "sec",
+        "ond"
+      ],
+      "ipa": "/ˈsɛk.ənd/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 876,
+      "word": "secretary",
+      "chinese": "秘書",
+      "pos": "",
+      "syllables": [
+        "sec",
+        "re",
+        "tar",
+        "y"
+      ],
+      "ipa": "/ˈsɛk.rə.tɛr.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 877,
+      "word": "see",
+      "chinese": "看",
+      "pos": "",
+      "syllables": [
+        "see"
+      ],
+      "ipa": "/siː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 878,
+      "word": "seed",
+      "chinese": "種子",
+      "pos": "",
+      "syllables": [
+        "seed"
+      ],
+      "ipa": "/siːd/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 879,
+      "word": "seesaw",
+      "chinese": "蹺蹺板",
+      "pos": "",
+      "syllables": [
+        "see",
+        "saw"
+      ],
+      "ipa": "/ˈsiː.sɔː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 880,
+      "word": "seldom",
+      "chinese": "很少",
+      "pos": "",
+      "syllables": [
+        "sel",
+        "dom"
+      ],
+      "ipa": "/ˈsɛl.dəm/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 881,
+      "word": "sell",
+      "chinese": "賣",
+      "pos": "",
+      "syllables": [
+        "sell"
+      ],
+      "ipa": "/sɛl/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 882,
+      "word": "send",
+      "chinese": "寄",
+      "pos": "",
+      "syllables": [
+        "send"
+      ],
+      "ipa": "/sɛnd/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 883,
+      "word": "senior high school",
+      "chinese": "高中",
+      "pos": "",
+      "syllables": [
+        "se",
+        "nior",
+        "high",
+        "school"
+      ],
+      "ipa": "/ˈsiː.njɚ haɪ skuːl/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 884,
+      "word": "sentence",
+      "chinese": "句子",
+      "pos": "",
+      "syllables": [
+        "sen",
+        "tence"
+      ],
+      "ipa": "/ˈsɛn.təns/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 885,
+      "word": "September",
+      "chinese": "九月",
+      "pos": "",
+      "syllables": [
+        "Sep",
+        "tem",
+        "ber"
+      ],
+      "ipa": "/sɛpˈtɛm.bɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 886,
+      "word": "serious",
+      "chinese": "嚴重的",
+      "pos": "",
+      "syllables": [
+        "se",
+        "ri",
+        "ous"
+      ],
+      "ipa": "/ˈsɪr.i.əs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 887,
+      "word": "(TV) set",
+      "chinese": "(電視)機",
+      "pos": "",
+      "syllables": [
+        "T",
+        "V",
+        "set"
+      ],
+      "ipa": "/ˈtiː.viː sɛt/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 888,
+      "word": "seven",
+      "chinese": "七",
+      "pos": "",
+      "syllables": [
+        "sev",
+        "en"
+      ],
+      "ipa": "/ˈsɛv.ən/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 889,
+      "word": "seventeen",
+      "chinese": "十七",
+      "pos": "",
+      "syllables": [
+        "sev",
+        "en",
+        "teen"
+      ],
+      "ipa": "/ˌsɛv.ənˈtiːn/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 890,
+      "word": "seventeenth",
+      "chinese": "第十七(的)",
+      "pos": "",
+      "syllables": [
+        "sev",
+        "en",
+        "teenth"
+      ],
+      "ipa": "/ˌsɛv.ənˈtiːnθ/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 891,
+      "word": "seventh",
+      "chinese": "第七(的)",
+      "pos": "",
+      "syllables": [
+        "sev",
+        "en",
+        "th"
+      ],
+      "ipa": "/ˈsɛv.ənθ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 892,
+      "word": "seventy",
+      "chinese": "七十",
+      "pos": "",
+      "syllables": [
+        "sev",
+        "en",
+        "ty"
+      ],
+      "ipa": "/ˈsɛv.ən.ti/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 893,
+      "word": "several",
+      "chinese": "幾個的",
+      "pos": "",
+      "syllables": [
+        "sev",
+        "er",
+        "al"
+      ],
+      "ipa": "/ˈsɛv.ɚ.əl/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 894,
+      "word": "shake",
+      "chinese": "搖動",
+      "pos": "",
+      "syllables": [
+        "shake"
+      ],
+      "ipa": "/ʃeɪk/",
+      "ruleCodes": [
+        "R003",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 895,
+      "word": "shall",
+      "chinese": "將會,好嗎?",
+      "pos": "",
+      "syllables": [
+        "shall"
+      ],
+      "ipa": "/ʃæl/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 896,
+      "word": "shape",
+      "chinese": "形狀",
+      "pos": "",
+      "syllables": [
+        "shape"
+      ],
+      "ipa": "/ʃeɪp/",
+      "ruleCodes": [
+        "R003",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 897,
+      "word": "share",
+      "chinese": "分享",
+      "pos": "",
+      "syllables": [
+        "share"
+      ],
+      "ipa": "/ʃɛr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 898,
+      "word": "shark",
+      "chinese": "鯊魚",
+      "pos": "",
+      "syllables": [
+        "shark"
+      ],
+      "ipa": "/ʃɑːrk/",
+      "ruleCodes": [
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 899,
+      "word": "she",
+      "chinese": "她",
+      "pos": "",
+      "syllables": [
+        "she"
+      ],
+      "ipa": "/ʃiː/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    },
+    {
+      "id": 900,
+      "word": "sheep",
+      "chinese": "綿羊",
+      "pos": "",
+      "syllables": [
+        "sheep"
+      ],
+      "ipa": "/ʃiːp/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-09"
+    }
+  ]
+}

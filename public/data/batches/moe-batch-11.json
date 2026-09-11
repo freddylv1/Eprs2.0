@@ -1,0 +1,1622 @@
+{
+  "batchId": "moe-batch-11",
+  "title": "教育部基礎 1200 單字 - 第 11 批次",
+  "category": "moe1200",
+  "range": "1001 ~ 1100",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 1001,
+      "word": "sugar",
+      "chinese": "糖",
+      "pos": "",
+      "syllables": [
+        "su",
+        "gar"
+      ],
+      "ipa": "/ˈʃʊɡ.ɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1002,
+      "word": "summer",
+      "chinese": "夏天",
+      "pos": "",
+      "syllables": [
+        "sum",
+        "mer"
+      ],
+      "ipa": "/ˈsʌm.ɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1003,
+      "word": "sun",
+      "chinese": "太陽",
+      "pos": "",
+      "syllables": [
+        "sun"
+      ],
+      "ipa": "/sʌn/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1004,
+      "word": "Sunday",
+      "chinese": "星期日",
+      "pos": "",
+      "syllables": [
+        "Sun",
+        "day"
+      ],
+      "ipa": "/ˈsʌn.deɪ/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1005,
+      "word": "sunny",
+      "chinese": "晴朗的",
+      "pos": "",
+      "syllables": [
+        "sun",
+        "ny"
+      ],
+      "ipa": "/ˈsʌn.i/",
+      "ruleCodes": [
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1006,
+      "word": "supermarket",
+      "chinese": "超級市場",
+      "pos": "",
+      "syllables": [
+        "su",
+        "per",
+        "mar",
+        "ket"
+      ],
+      "ipa": "/ˈsuː.pɚˌmɑːr.kɪt/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1007,
+      "word": "sure",
+      "chinese": "確定的",
+      "pos": "",
+      "syllables": [
+        "sure"
+      ],
+      "ipa": "/ʃʊr/",
+      "ruleCodes": [
+        "R003",
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1008,
+      "word": "surf",
+      "chinese": "衝浪",
+      "pos": "",
+      "syllables": [
+        "surf"
+      ],
+      "ipa": "/sɝːf/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1009,
+      "word": "surprise",
+      "chinese": "使…驚訝",
+      "pos": "",
+      "syllables": [
+        "sur",
+        "prise"
+      ],
+      "ipa": "/sɚˈpraɪz/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1010,
+      "word": "surprised",
+      "chinese": "感到驚訝的",
+      "pos": "",
+      "syllables": [
+        "sur",
+        "prised"
+      ],
+      "ipa": "/sɚˈpraɪzd/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1011,
+      "word": "sweater",
+      "chinese": "毛衣",
+      "pos": "",
+      "syllables": [
+        "sweat",
+        "er"
+      ],
+      "ipa": "/ˈswɛt.ɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1012,
+      "word": "sweet",
+      "chinese": "甜的",
+      "pos": "",
+      "syllables": [
+        "sweet"
+      ],
+      "ipa": "/swiːt/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1013,
+      "word": "swim",
+      "chinese": "游泳",
+      "pos": "",
+      "syllables": [
+        "swim"
+      ],
+      "ipa": "/swɪm/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1014,
+      "word": "swing",
+      "chinese": "鞦韆,搖擺",
+      "pos": "",
+      "syllables": [
+        "swing"
+      ],
+      "ipa": "/swɪŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1015,
+      "word": "table",
+      "chinese": "桌子",
+      "pos": "",
+      "syllables": [
+        "ta",
+        "ble"
+      ],
+      "ipa": "/ˈteɪ.bəl/",
+      "ruleCodes": [
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1016,
+      "word": "tail",
+      "chinese": "尾巴",
+      "pos": "",
+      "syllables": [
+        "tail"
+      ],
+      "ipa": "/teɪl/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1017,
+      "word": "Taiwan",
+      "chinese": "臺灣",
+      "pos": "",
+      "syllables": [
+        "Tai",
+        "wan"
+      ],
+      "ipa": "/ˌtaɪˈwɑːn/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1018,
+      "word": "take",
+      "chinese": "拿",
+      "pos": "",
+      "syllables": [
+        "take"
+      ],
+      "ipa": "/teɪk/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1019,
+      "word": "talk",
+      "chinese": "說話",
+      "pos": "",
+      "syllables": [
+        "talk"
+      ],
+      "ipa": "/tɔːk/",
+      "ruleCodes": [
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1020,
+      "word": "tall",
+      "chinese": "高的",
+      "pos": "",
+      "syllables": [
+        "tall"
+      ],
+      "ipa": "/tɔːl/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1021,
+      "word": "tape",
+      "chinese": "錄音帶",
+      "pos": "",
+      "syllables": [
+        "tape"
+      ],
+      "ipa": "/teɪp/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1022,
+      "word": "taste",
+      "chinese": "品嚐",
+      "pos": "",
+      "syllables": [
+        "taste"
+      ],
+      "ipa": "/teɪst/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1023,
+      "word": "taxi",
+      "chinese": "計程車",
+      "pos": "",
+      "syllables": [
+        "tax",
+        "i"
+      ],
+      "ipa": "/ˈtæk.si/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1024,
+      "word": "tea",
+      "chinese": "茶",
+      "pos": "",
+      "syllables": [
+        "tea"
+      ],
+      "ipa": "/tiː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1025,
+      "word": "teach",
+      "chinese": "教導",
+      "pos": "",
+      "syllables": [
+        "teach"
+      ],
+      "ipa": "/tiːtʃ/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1026,
+      "word": "teacher",
+      "chinese": "教師",
+      "pos": "",
+      "syllables": [
+        "teach",
+        "er"
+      ],
+      "ipa": "/ˈtiː.tʃɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1027,
+      "word": "team",
+      "chinese": "團隊",
+      "pos": "",
+      "syllables": [
+        "team"
+      ],
+      "ipa": "/tiːm/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1028,
+      "word": "teenager",
+      "chinese": "青少年",
+      "pos": "",
+      "syllables": [
+        "teen",
+        "ag",
+        "er"
+      ],
+      "ipa": "/ˈtiːnˌeɪ.dʒɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R007",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1029,
+      "word": "telephone",
+      "chinese": "電話",
+      "pos": "",
+      "syllables": [
+        "tel",
+        "e",
+        "phone"
+      ],
+      "ipa": "/ˈtɛl.ə.foʊn/",
+      "ruleCodes": [
+        "R003",
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1030,
+      "word": "television",
+      "chinese": "電視",
+      "pos": "",
+      "syllables": [
+        "tel",
+        "e",
+        "vi",
+        "sion"
+      ],
+      "ipa": "/ˈtɛl.ə.vɪʒ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1031,
+      "word": "tell",
+      "chinese": "告訴",
+      "pos": "",
+      "syllables": [
+        "tell"
+      ],
+      "ipa": "/tɛl/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1032,
+      "word": "temple",
+      "chinese": "寺廟",
+      "pos": "",
+      "syllables": [
+        "tem",
+        "ple"
+      ],
+      "ipa": "/ˈtɛm.pəl/",
+      "ruleCodes": [
+        "R008",
+        "R009"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1033,
+      "word": "ten",
+      "chinese": "十",
+      "pos": "",
+      "syllables": [
+        "ten"
+      ],
+      "ipa": "/tɛn/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1034,
+      "word": "tennis",
+      "chinese": "網球",
+      "pos": "",
+      "syllables": [
+        "ten",
+        "nis"
+      ],
+      "ipa": "/ˈtɛn.ɪs/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1035,
+      "word": "tenth",
+      "chinese": "第十(的)",
+      "pos": "",
+      "syllables": [
+        "tenth"
+      ],
+      "ipa": "/tɛnθ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1036,
+      "word": "terrible",
+      "chinese": "可怕的",
+      "pos": "",
+      "syllables": [
+        "ter",
+        "ri",
+        "ble"
+      ],
+      "ipa": "/ˈtɛr.ə.bəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1037,
+      "word": "test",
+      "chinese": "考試,測試",
+      "pos": "",
+      "syllables": [
+        "test"
+      ],
+      "ipa": "/tɛst/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1038,
+      "word": "than",
+      "chinese": "比…",
+      "pos": "",
+      "syllables": [
+        "than"
+      ],
+      "ipa": "/ðæn/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1039,
+      "word": "thank",
+      "chinese": "謝謝",
+      "pos": "",
+      "syllables": [
+        "thank"
+      ],
+      "ipa": "/θæŋk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1040,
+      "word": "that",
+      "chinese": "那個",
+      "pos": "",
+      "syllables": [
+        "that"
+      ],
+      "ipa": "/ðæt/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1041,
+      "word": "the",
+      "chinese": "這/那",
+      "pos": "",
+      "syllables": [
+        "the"
+      ],
+      "ipa": "/ðə/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1042,
+      "word": "theater",
+      "chinese": "戲院",
+      "pos": "",
+      "syllables": [
+        "the",
+        "a",
+        "ter"
+      ],
+      "ipa": "/ˈθiː.ə.t̬ɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1043,
+      "word": "then",
+      "chinese": "那時",
+      "pos": "",
+      "syllables": [
+        "then"
+      ],
+      "ipa": "/ðɛn/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1044,
+      "word": "there",
+      "chinese": "那裡",
+      "pos": "",
+      "syllables": [
+        "there"
+      ],
+      "ipa": "/ðɛr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1045,
+      "word": "these",
+      "chinese": "這些",
+      "pos": "",
+      "syllables": [
+        "these"
+      ],
+      "ipa": "/ðiːz/",
+      "ruleCodes": [
+        "R003",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1046,
+      "word": "they",
+      "chinese": "他們",
+      "pos": "",
+      "syllables": [
+        "they"
+      ],
+      "ipa": "/ðeɪ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1047,
+      "word": "thick",
+      "chinese": "厚的",
+      "pos": "",
+      "syllables": [
+        "thick"
+      ],
+      "ipa": "/θɪk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1048,
+      "word": "thin",
+      "chinese": "瘦的",
+      "pos": "",
+      "syllables": [
+        "thin"
+      ],
+      "ipa": "/θɪn/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1049,
+      "word": "thing",
+      "chinese": "事情",
+      "pos": "",
+      "syllables": [
+        "thing"
+      ],
+      "ipa": "/θɪŋ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1050,
+      "word": "think",
+      "chinese": "想,思考",
+      "pos": "",
+      "syllables": [
+        "think"
+      ],
+      "ipa": "/θɪŋk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1051,
+      "word": "third",
+      "chinese": "第三(的)",
+      "pos": "",
+      "syllables": [
+        "third"
+      ],
+      "ipa": "/θɝːd/",
+      "ruleCodes": [
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1052,
+      "word": "thirsty",
+      "chinese": "口渴的",
+      "pos": "",
+      "syllables": [
+        "thirst",
+        "y"
+      ],
+      "ipa": "/ˈθɝː.sti/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1053,
+      "word": "thirteen",
+      "chinese": "十三",
+      "pos": "",
+      "syllables": [
+        "thir",
+        "teen"
+      ],
+      "ipa": "/ˌθɝːˈtiːn/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1054,
+      "word": "thirteenth",
+      "chinese": "第十三",
+      "pos": "",
+      "syllables": [
+        "thir",
+        "teenth"
+      ],
+      "ipa": "/ˌθɝːˈtiːnθ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1055,
+      "word": "thirty",
+      "chinese": "三十",
+      "pos": "",
+      "syllables": [
+        "thir",
+        "ty"
+      ],
+      "ipa": "/ˈθɝː.ti/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1056,
+      "word": "this",
+      "chinese": "這個",
+      "pos": "",
+      "syllables": [
+        "this"
+      ],
+      "ipa": "/ðɪs/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1057,
+      "word": "throat",
+      "chinese": "喉嚨",
+      "pos": "",
+      "syllables": [
+        "throat"
+      ],
+      "ipa": "/θroʊt/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1058,
+      "word": "throw",
+      "chinese": "丟",
+      "pos": "",
+      "syllables": [
+        "throw"
+      ],
+      "ipa": "/θroʊ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1059,
+      "word": "those",
+      "chinese": "那些",
+      "pos": "",
+      "syllables": [
+        "those"
+      ],
+      "ipa": "/ðoʊz/",
+      "ruleCodes": [
+        "R003",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1060,
+      "word": "though",
+      "chinese": "雖然",
+      "pos": "",
+      "syllables": [
+        "though"
+      ],
+      "ipa": "/ðoʊ/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1061,
+      "word": "thousand",
+      "chinese": "千",
+      "pos": "",
+      "syllables": [
+        "thou",
+        "sand"
+      ],
+      "ipa": "/ˈθaʊ.zənd/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1062,
+      "word": "three",
+      "chinese": "三",
+      "pos": "",
+      "syllables": [
+        "three"
+      ],
+      "ipa": "/θriː/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1063,
+      "word": "Thursday",
+      "chinese": "星期四",
+      "pos": "",
+      "syllables": [
+        "Thurs",
+        "day"
+      ],
+      "ipa": "/ˈθɝːz.deɪ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1064,
+      "word": "ticket",
+      "chinese": "票券",
+      "pos": "",
+      "syllables": [
+        "tick",
+        "et"
+      ],
+      "ipa": "/ˈtɪk.ɪt/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1065,
+      "word": "tidy",
+      "chinese": "整潔的",
+      "pos": "",
+      "syllables": [
+        "ti",
+        "dy"
+      ],
+      "ipa": "/ˈtaɪ.di/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1066,
+      "word": "tiger",
+      "chinese": "老虎",
+      "pos": "",
+      "syllables": [
+        "ti",
+        "ger"
+      ],
+      "ipa": "/ˈtaɪ.ɡɚ/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1067,
+      "word": "tie",
+      "chinese": "領帶,捆,繫",
+      "pos": "",
+      "syllables": [
+        "tie"
+      ],
+      "ipa": "/taɪ/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1068,
+      "word": "time",
+      "chinese": "時間",
+      "pos": "",
+      "syllables": [
+        "time"
+      ],
+      "ipa": "/taɪm/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1069,
+      "word": "tired",
+      "chinese": "疲倦的",
+      "pos": "",
+      "syllables": [
+        "tired"
+      ],
+      "ipa": "/ˈtaɪ.ɚd/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1070,
+      "word": "to",
+      "chinese": "到",
+      "pos": "",
+      "syllables": [
+        "to"
+      ],
+      "ipa": "/tuː/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1071,
+      "word": "toast",
+      "chinese": "土司,烘烤",
+      "pos": "",
+      "syllables": [
+        "toast"
+      ],
+      "ipa": "/toʊst/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1072,
+      "word": "today",
+      "chinese": "今天",
+      "pos": "",
+      "syllables": [
+        "to",
+        "day"
+      ],
+      "ipa": "/təˈdeɪ/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1073,
+      "word": "toe",
+      "chinese": "腳趾",
+      "pos": "",
+      "syllables": [
+        "toe"
+      ],
+      "ipa": "/toʊ/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1074,
+      "word": "together",
+      "chinese": "一起",
+      "pos": "",
+      "syllables": [
+        "to",
+        "geth",
+        "er"
+      ],
+      "ipa": "/təˈɡɛð.ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R007",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1075,
+      "word": "tomato",
+      "chinese": "番茄",
+      "pos": "",
+      "syllables": [
+        "to",
+        "ma",
+        "to"
+      ],
+      "ipa": "/təˈmeɪ.toʊ/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1076,
+      "word": "tomorrow",
+      "chinese": "明天",
+      "pos": "",
+      "syllables": [
+        "to",
+        "mor",
+        "row"
+      ],
+      "ipa": "/təˈmɑː.roʊ/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1077,
+      "word": "tonight",
+      "chinese": "今晚",
+      "pos": "",
+      "syllables": [
+        "to",
+        "night"
+      ],
+      "ipa": "/təˈnaɪt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1078,
+      "word": "too",
+      "chinese": "也,太...",
+      "pos": "",
+      "syllables": [
+        "too"
+      ],
+      "ipa": "/tuː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1079,
+      "word": "tooth",
+      "chinese": "牙齒",
+      "pos": "",
+      "syllables": [
+        "tooth"
+      ],
+      "ipa": "/tuːθ/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1080,
+      "word": "top",
+      "chinese": "頂端",
+      "pos": "",
+      "syllables": [
+        "top"
+      ],
+      "ipa": "/tɑːp/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1081,
+      "word": "total",
+      "chinese": "總計",
+      "pos": "",
+      "syllables": [
+        "to",
+        "tal"
+      ],
+      "ipa": "/ˈtoʊ.təl/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1082,
+      "word": "touch",
+      "chinese": "碰觸",
+      "pos": "",
+      "syllables": [
+        "touch"
+      ],
+      "ipa": "/tʌtʃ/",
+      "ruleCodes": [
+        "R004",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1083,
+      "word": "towel",
+      "chinese": "毛巾",
+      "pos": "",
+      "syllables": [
+        "tow",
+        "el"
+      ],
+      "ipa": "/ˈtaʊ.əl/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1084,
+      "word": "town",
+      "chinese": "城鎮",
+      "pos": "",
+      "syllables": [
+        "town"
+      ],
+      "ipa": "/taʊn/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1085,
+      "word": "toy",
+      "chinese": "玩具",
+      "pos": "",
+      "syllables": [
+        "toy"
+      ],
+      "ipa": "/tɔɪ/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1086,
+      "word": "traffic",
+      "chinese": "交通",
+      "pos": "",
+      "syllables": [
+        "traf",
+        "fic"
+      ],
+      "ipa": "/ˈtræf.ɪk/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1087,
+      "word": "train",
+      "chinese": "火車",
+      "pos": "",
+      "syllables": [
+        "train"
+      ],
+      "ipa": "/treɪn/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1088,
+      "word": "trash",
+      "chinese": "垃圾",
+      "pos": "",
+      "syllables": [
+        "trash"
+      ],
+      "ipa": "/træʃ/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1089,
+      "word": "treat",
+      "chinese": "請客,對待",
+      "pos": "",
+      "syllables": [
+        "treat"
+      ],
+      "ipa": "/triːt/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1090,
+      "word": "tree",
+      "chinese": "樹",
+      "pos": "",
+      "syllables": [
+        "tree"
+      ],
+      "ipa": "/triː/",
+      "ruleCodes": [
+        "R004"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1091,
+      "word": "trick",
+      "chinese": "惡作劇",
+      "pos": "",
+      "syllables": [
+        "trick"
+      ],
+      "ipa": "/trɪk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1092,
+      "word": "trip",
+      "chinese": "(短程)旅行",
+      "pos": "",
+      "syllables": [
+        "trip"
+      ],
+      "ipa": "/trɪp/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1093,
+      "word": "trouble",
+      "chinese": "麻煩",
+      "pos": "",
+      "syllables": [
+        "trou",
+        "ble"
+      ],
+      "ipa": "/ˈtrʌb.əl/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R009"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1094,
+      "word": "truck",
+      "chinese": "卡車",
+      "pos": "",
+      "syllables": [
+        "truck"
+      ],
+      "ipa": "/trʌk/",
+      "ruleCodes": [
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1095,
+      "word": "true",
+      "chinese": "真實的",
+      "pos": "",
+      "syllables": [
+        "true"
+      ],
+      "ipa": "/truː/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1096,
+      "word": "try",
+      "chinese": "嘗試",
+      "pos": "",
+      "syllables": [
+        "try"
+      ],
+      "ipa": "/traɪ/",
+      "ruleCodes": [
+        "R011"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1097,
+      "word": "T-shirt",
+      "chinese": "T 恤",
+      "pos": "",
+      "syllables": [
+        "T",
+        "shirt"
+      ],
+      "ipa": "/ˈtiː.ʃɝːt/",
+      "ruleCodes": [
+        "R005",
+        "R006"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1098,
+      "word": "tub",
+      "chinese": "浴缸,洗澡",
+      "pos": "",
+      "syllables": [
+        "tub"
+      ],
+      "ipa": "/tʌb/",
+      "ruleCodes": [
+        "R001"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1099,
+      "word": "Tuesday",
+      "chinese": "星期二",
+      "pos": "",
+      "syllables": [
+        "Tues",
+        "day"
+      ],
+      "ipa": "/ˈtuːz.deɪ/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    },
+    {
+      "id": 1100,
+      "word": "turkey",
+      "chinese": "火雞",
+      "pos": "",
+      "syllables": [
+        "tur",
+        "key"
+      ],
+      "ipa": "/ˈtɝː.ki/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "level": "MOE 1200",
+      "batchId": "moe-batch-11"
+    }
+  ]
+}

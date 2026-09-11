@@ -1,0 +1,754 @@
+batch: 9
+batch_name: Senior_Level1_Batch_09
+level: 1
+level_name: 第一級
+range: 801 ~ 900
+total_words: 100
+words:
+  - id: 801
+    word: some
+    pos: adj./pron.
+    chinese: 一些
+    syllable:
+      - some
+    ipa: /sʌm/
+  - id: 802
+    word: someone/somebody
+    pos: pron./n.
+    chinese: 某人
+    syllable:
+      - some
+      - one
+      - some
+      - bod
+      - 'y'
+    ipa: /ˈsʌm.wʌn/ /ˈsʌm.bɑː.di/
+  - id: 803
+    word: something
+    pos: pron./n.
+    chinese: 某事
+    syllable:
+      - some
+      - thing
+    ipa: /ˈsʌm.θɪŋ/
+  - id: 804
+    word: sometimes
+    pos: adv.
+    chinese: 有時候
+    syllable:
+      - some
+      - times
+    ipa: /ˈsʌm.taɪmz/
+  - id: 805
+    word: somewhere
+    pos: adv.
+    chinese: 某處
+    syllable:
+      - some
+      - where
+    ipa: /ˈsʌm.wɛr/
+  - id: 806
+    word: son
+    pos: n.
+    chinese: 兒子
+    syllable:
+      - son
+    ipa: /sʌn/
+  - id: 807
+    word: song
+    pos: n.
+    chinese: 歌曲
+    syllable:
+      - song
+    ipa: /sɑːŋ/
+  - id: 808
+    word: soon
+    pos: adv.
+    chinese: 不久,即將
+    syllable:
+      - soon
+    ipa: /suːn/
+  - id: 809
+    word: sore
+    pos: adj./n.
+    chinese: 疼痛的
+    syllable:
+      - sore
+    ipa: /sɔːr/
+  - id: 810
+    word: sorry
+    pos: adj.
+    chinese: 抱歉(的)
+    syllable:
+      - sor
+      - ry
+    ipa: /ˈsɑː.ri/
+  - id: 811
+    word: sound
+    pos: n.
+    chinese: 聲音,聽起來
+    syllable:
+      - sound
+    ipa: /saʊnd/
+  - id: 812
+    word: soup
+    pos: n.
+    chinese: 湯
+    syllable:
+      - soup
+    ipa: /suːp/
+  - id: 813
+    word: south
+    pos: n./adj./adv.
+    chinese: 南方
+    syllable:
+      - south
+    ipa: /saʊθ/
+  - id: 814
+    word: space
+    pos: n./v.
+    chinese: 空間
+    syllable:
+      - space
+    ipa: /speɪs/
+  - id: 815
+    word: speak
+    pos: v.
+    chinese: 說
+    syllable:
+      - speak
+    ipa: /spiːk/
+  - id: 816
+    word: special
+    pos: adj.
+    chinese: 特別的
+    syllable:
+      - spe
+      - cial
+    ipa: /ˈspɛʃ.əl/
+  - id: 817
+    word: spell
+    pos: v.
+    chinese: 拼字
+    syllable:
+      - spell
+    ipa: /spɛl/
+  - id: 818
+    word: spend
+    pos: v.
+    chinese: 花(錢,時間)
+    syllable:
+      - spend
+    ipa: /spɛnd/
+  - id: 819
+    word: spring
+    pos: n./v.
+    chinese: 春天
+    syllable:
+      - spring
+    ipa: /sprɪŋ/
+  - id: 820
+    word: square
+    pos: n./adj.
+    chinese: 正方形的
+    syllable:
+      - square
+    ipa: /skwɛr/
+  - id: 821
+    word: stair
+    pos: n.
+    chinese: 樓梯, 梯級
+    syllable:
+      - stair
+    ipa: /stɛr/
+  - id: 822
+    word: stand
+    pos: v./n.
+    chinese: 站立
+    syllable:
+      - stand
+    ipa: /stænd/
+  - id: 823
+    word: star
+    pos: n./v.
+    chinese: 星星
+    syllable:
+      - star
+    ipa: /stɑːr/
+  - id: 824
+    word: start
+    pos: v./n.
+    chinese: 開始
+    syllable:
+      - start
+    ipa: /stɑːrt/
+  - id: 825
+    word: station
+    pos: n.
+    chinese: 車站,站,局
+    syllable:
+      - sta
+      - tion
+    ipa: /ˈsteɪ.ʃən/
+  - id: 826
+    word: stay
+    pos: v./n.
+    chinese: 停留
+    syllable:
+      - stay
+    ipa: /steɪ/
+  - id: 827
+    word: still
+    pos: adv./adj.
+    chinese: 仍然
+    syllable:
+      - still
+    ipa: /stɪl/
+  - id: 828
+    word: stop
+    pos: v./n.
+    chinese: 停
+    syllable:
+      - stop
+    ipa: /stɑːp/
+  - id: 829
+    word: store
+    pos: n./v.
+    chinese: 商店
+    syllable:
+      - store
+    ipa: /stɔːr/
+  - id: 830
+    word: story
+    pos: n.
+    chinese: 故事
+    syllable:
+      - sto
+      - ry
+    ipa: /ˈstɔː.ri/
+  - id: 831
+    word: straight
+    pos: adv./adj./n.
+    chinese: 直的
+    syllable:
+      - straight
+    ipa: /streɪt/
+  - id: 832
+    word: strange
+    pos: adj.
+    chinese: 奇怪的
+    syllable:
+      - strange
+    ipa: /streɪndʒ/
+  - id: 833
+    word: street
+    pos: n.
+    chinese: 街道
+    syllable:
+      - street
+    ipa: /striːt/
+  - id: 834
+    word: string
+    pos: n.
+    chinese: 細繩, 線, 弦; 串起, 線裝
+    syllable:
+      - string
+    ipa: /strɪŋ/
+  - id: 835
+    word: strong
+    pos: adj.
+    chinese: 強壯的
+    syllable:
+      - strong
+    ipa: /strɔːŋ/
+  - id: 836
+    word: student
+    pos: n.
+    chinese: 學生
+    syllable:
+      - stu
+      - dent
+    ipa: /ˈstuː.dənt/
+  - id: 837
+    word: study
+    pos: n./v.
+    chinese: 研讀,學習
+    syllable:
+      - stud
+      - 'y'
+    ipa: /ˈstʌd.i/
+  - id: 838
+    word: stupid
+    pos: adj.
+    chinese: 笨的
+    syllable:
+      - stu
+      - pid
+    ipa: /ˈstuː.pɪd/
+  - id: 839
+    word: subject
+    pos: n.
+    chinese: 科目
+    syllable:
+      - sub
+      - ject
+    ipa: /ˈsʌb.dʒɪkt/
+  - id: 840
+    word: successful
+    pos: adj.
+    chinese: 成功的
+    syllable:
+      - suc
+      - cess
+      - ful
+    ipa: /səkˈsɛs.fəl/
+  - id: 841
+    word: sugar
+    pos: n.
+    chinese: 糖
+    syllable:
+      - su
+      - gar
+    ipa: /ˈʃʊɡ.ɚ/
+  - id: 842
+    word: sun
+    pos: n./v.
+    chinese: 太陽
+    syllable:
+      - sun
+    ipa: /sʌn/
+  - id: 843
+    word: sunny
+    pos: adj.
+    chinese: 晴朗的
+    syllable:
+      - sun
+      - ny
+    ipa: /ˈsʌn.i/
+  - id: 844
+    word: supermarket
+    pos: n.
+    chinese: 超級市場
+    syllable:
+      - su
+      - per
+      - mar
+      - ket
+    ipa: /ˈsuː.pɚˌmɑːr.kɪt/
+  - id: 845
+    word: sure
+    pos: adj./adv.
+    chinese: 確定的
+    syllable:
+      - sure
+    ipa: /ʃʊr/
+  - id: 846
+    word: surprise
+    pos: n./v.
+    chinese: 使…驚訝
+    syllable:
+      - sur
+      - prise
+    ipa: /sɚˈpraɪz/
+  - id: 847
+    word: surprised
+    pos: adj.
+    chinese: 感到驚訝的
+    syllable:
+      - sur
+      - prised
+    ipa: /sɚˈpraɪzd/
+  - id: 848
+    word: sweet
+    pos: adj.
+    chinese: 甜的
+    syllable:
+      - sweet
+    ipa: /swiːt/
+  - id: 849
+    word: table
+    pos: n.
+    chinese: 桌子
+    syllable:
+      - ta
+      - ble
+    ipa: /ˈteɪ.bəl/
+  - id: 850
+    word: tail
+    pos: n.
+    chinese: 尾巴
+    syllable:
+      - tail
+    ipa: /teɪl/
+  - id: 851
+    word: take
+    pos: v.
+    chinese: 拿
+    syllable:
+      - take
+    ipa: /teɪk/
+  - id: 852
+    word: talk
+    pos: v./n.
+    chinese: 說話
+    syllable:
+      - talk
+    ipa: /tɔːk/
+  - id: 853
+    word: tall
+    pos: adj.
+    chinese: 高的
+    syllable:
+      - tall
+    ipa: /tɔːl/
+  - id: 854
+    word: tape
+    pos: n.
+    chinese: 錄音帶
+    syllable:
+      - tape
+    ipa: /teɪp/
+  - id: 855
+    word: taste
+    pos: n./v.
+    chinese: 品嚐
+    syllable:
+      - taste
+    ipa: /teɪst/
+  - id: 856
+    word: taxicab/taxi/cab
+    pos: n.
+    chinese: 計程車
+    syllable:
+      - tax
+      - i
+    ipa: /ˈtæk.si/
+  - id: 857
+    word: tea
+    pos: n.
+    chinese: 茶
+    syllable:
+      - tea
+    ipa: /tiː/
+  - id: 858
+    word: teach
+    pos: v.
+    chinese: 教導
+    syllable:
+      - teach
+    ipa: /tiːtʃ/
+  - id: 859
+    word: teacher
+    pos: n.
+    chinese: 教師
+    syllable:
+      - teach
+      - er
+    ipa: /ˈtiː.tʃɚ/
+  - id: 860
+    word: team
+    pos: n./v.
+    chinese: 團隊
+    syllable:
+      - team
+    ipa: /tiːm/
+  - id: 861
+    word: teenager
+    pos: n.
+    chinese: 青少年
+    syllable:
+      - teen
+      - ag
+      - er
+    ipa: /ˈtiːnˌeɪ.dʒɚ/
+  - id: 862
+    word: telephone/phone
+    pos: n./v.
+    chinese: 電話
+    syllable:
+      - tel
+      - e
+      - phone
+    ipa: /ˈtɛl.ə.foʊn/
+  - id: 863
+    word: television/TV
+    pos: n.
+    chinese: 電視
+    syllable:
+      - tel
+      - e
+      - vi
+      - sion
+    ipa: /ˈtɛl.ə.vɪʒ.ən/
+  - id: 864
+    word: tell
+    pos: v.
+    chinese: 告訴
+    syllable:
+      - tell
+    ipa: /tɛl/
+  - id: 865
+    word: temple
+    pos: n.
+    chinese: 寺廟
+    syllable:
+      - tem
+      - ple
+    ipa: /ˈtɛm.pəl/
+  - id: 866
+    word: tennis
+    pos: n.
+    chinese: 網球
+    syllable:
+      - ten
+      - nis
+    ipa: /ˈtɛn.ɪs/
+  - id: 867
+    word: terrible
+    pos: adj.
+    chinese: 可怕的
+    syllable:
+      - ter
+      - ri
+      - ble
+    ipa: /ˈtɛr.ə.bəl/
+  - id: 868
+    word: test
+    pos: n./v.
+    chinese: 考試,測試
+    syllable:
+      - test
+    ipa: /tɛst/
+  - id: 869
+    word: than
+    pos: conj./prep.
+    chinese: 比…
+    syllable:
+      - than
+    ipa: /ðæn/
+  - id: 870
+    word: thank
+    pos: v./n.
+    chinese: 謝謝
+    syllable:
+      - thank
+    ipa: /θæŋk/
+  - id: 871
+    word: that
+    pos: conj./pron./adv./adj.
+    chinese: 那個
+    syllable:
+      - that
+    ipa: /ðæt/
+  - id: 872
+    word: the
+    pos: art.
+    chinese: 這/那
+    syllable:
+      - the
+    ipa: /ðə/
+  - id: 873
+    word: theater
+    pos: n.
+    chinese: 戲院
+    syllable:
+      - the
+      - a
+      - ter
+    ipa: /ˈθiː.ə.t̬ɚ/
+  - id: 874
+    word: then
+    pos: adv./adj.
+    chinese: 那時
+    syllable:
+      - then
+    ipa: /ðɛn/
+  - id: 875
+    word: there
+    pos: adv./n.
+    chinese: 那裡
+    syllable:
+      - there
+    ipa: /ðɛr/
+  - id: 876
+    word: these
+    pos: pron./adj.
+    chinese: 這些
+    syllable:
+      - these
+    ipa: /ðiːz/
+  - id: 877
+    word: they (them, their, theirs, themselves)
+    pos: pron.
+    chinese: 他們
+    syllable:
+      - they
+    ipa: /ðeɪ/
+  - id: 878
+    word: thick
+    pos: adj.
+    chinese: 厚的
+    syllable:
+      - thick
+    ipa: /θɪk/
+  - id: 879
+    word: thin
+    pos: adj.
+    chinese: 瘦的
+    syllable:
+      - thin
+    ipa: /θɪn/
+  - id: 880
+    word: thing
+    pos: n.
+    chinese: 事情
+    syllable:
+      - thing
+    ipa: /θɪŋ/
+  - id: 881
+    word: think
+    pos: v.
+    chinese: 想,思考
+    syllable:
+      - think
+    ipa: /θɪŋk/
+  - id: 882
+    word: third
+    pos: adj./n./adv.
+    chinese: 第三(的)
+    syllable:
+      - third
+    ipa: /θɝːd/
+  - id: 883
+    word: this
+    pos: pron./adv./adj.
+    chinese: 這個
+    syllable:
+      - this
+    ipa: /ðɪs/
+  - id: 884
+    word: those
+    pos: pron./adj.
+    chinese: 那些
+    syllable:
+      - those
+    ipa: /ðoʊz/
+  - id: 885
+    word: though
+    pos: conj./adv.
+    chinese: 雖然
+    syllable:
+      - though
+    ipa: /ðoʊ/
+  - id: 886
+    word: thousand
+    pos: n./adj.
+    chinese: 千
+    syllable:
+      - thou
+      - sand
+    ipa: /ˈθaʊ.zənd/
+  - id: 887
+    word: throat
+    pos: n.
+    chinese: 喉嚨
+    syllable:
+      - throat
+    ipa: /θroʊt/
+  - id: 888
+    word: through
+    pos: prep./adv.
+    chinese: 穿過, 通過; 直達的, 穿透
+    syllable:
+      - through
+    ipa: /θruː/
+  - id: 889
+    word: throw
+    pos: v./n.
+    chinese: 丟
+    syllable:
+      - throw
+    ipa: /θroʊ/
+  - id: 890
+    word: ticket
+    pos: n.
+    chinese: 票券
+    syllable:
+      - tick
+      - et
+    ipa: /ˈtɪk.ɪt/
+  - id: 891
+    word: tidy
+    pos: adj./v.
+    chinese: 整潔的
+    syllable:
+      - ti
+      - dy
+    ipa: /ˈtaɪ.di/
+  - id: 892
+    word: tie
+    pos: n./v.
+    chinese: 領帶,捆,繫
+    syllable:
+      - tie
+    ipa: /taɪ/
+  - id: 893
+    word: tiger
+    pos: n.
+    chinese: 老虎
+    syllable:
+      - ti
+      - ger
+    ipa: /ˈtaɪ.ɡɚ/
+  - id: 894
+    word: time
+    pos: n./v.
+    chinese: 時間
+    syllable:
+      - time
+    ipa: /taɪm/
+  - id: 895
+    word: tip
+    pos: n./v.
+    chinese: 頂端, 尖端; 小費, 提示, 秘訣; 給小費, 傾斜
+    syllable:
+      - tip
+    ipa: /tɪp/
+  - id: 896
+    word: tired
+    pos: adj.
+    chinese: 疲倦的
+    syllable:
+      - tired
+    ipa: /ˈtaɪ.ɚd/
+  - id: 897
+    word: to
+    pos: prep.
+    chinese: 到
+    syllable:
+      - to
+    ipa: /tuː/
+  - id: 898
+    word: today
+    pos: adv./n.
+    chinese: 今天
+    syllable:
+      - to
+      - day
+    ipa: /təˈdeɪ/
+  - id: 899
+    word: toe
+    pos: n.
+    chinese: 腳趾
+    syllable:
+      - toe
+    ipa: /toʊ/
+  - id: 900
+    word: together
+    pos: adv.
+    chinese: 一起
+    syllable:
+      - to
+      - geth
+      - er
+    ipa: /təˈɡɛð.ɚ/

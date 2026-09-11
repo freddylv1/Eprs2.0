@@ -1,0 +1,752 @@
+batch: 2
+batch_name: Senior_Level1_Batch_02
+level: 1
+level_name: 第一級
+range: 101 ~ 200
+total_words: 100
+words:
+  - id: 101
+    word: body
+    pos: n.
+    chinese: 身體
+    syllable:
+      - bod
+      - 'y'
+    ipa: /ˈbɑː.di/
+  - id: 102
+    word: book
+    pos: n./v.
+    chinese: 書
+    syllable:
+      - book
+    ipa: /bʊk/
+  - id: 103
+    word: bored
+    pos: adj.
+    chinese: 感到厭煩的
+    syllable:
+      - bored
+    ipa: /bɔːrd/
+  - id: 104
+    word: boring
+    pos: adj.
+    chinese: 無聊的
+    syllable:
+      - bor
+      - ing
+    ipa: /ˈbɔː.rɪŋ/
+  - id: 105
+    word: born
+    pos: adj.
+    chinese: 出生
+    syllable:
+      - born
+    ipa: /bɔːrn/
+  - id: 106
+    word: borrow
+    pos: v.
+    chinese: 借入
+    syllable:
+      - bor
+      - row
+    ipa: /ˈbɑːr.oʊ/
+  - id: 107
+    word: boss
+    pos: n./v.
+    chinese: 老板
+    syllable:
+      - boss
+    ipa: /bɔːs/
+  - id: 108
+    word: both
+    pos: pron./adv./adj.
+    chinese: 兩者都
+    syllable:
+      - both
+    ipa: /boʊθ/
+  - id: 109
+    word: bottle
+    pos: n./v.
+    chinese: 瓶子
+    syllable:
+      - bot
+      - tle
+    ipa: /ˈbɑː.t̬əl/
+  - id: 110
+    word: bottom
+    pos: n./adj./v.
+    chinese: 底部
+    syllable:
+      - bot
+      - tom
+    ipa: /ˈbɑː.t̬əm/
+  - id: 111
+    word: bow
+    pos: n./v.
+    chinese: 敬禮
+    syllable:
+      - bow
+    ipa: /baʊ/
+  - id: 112
+    word: bowl
+    pos: n.
+    chinese: 碗
+    syllable:
+      - bowl
+    ipa: /boʊl/
+  - id: 113
+    word: box
+    pos: n./v.
+    chinese: 盒子
+    syllable:
+      - box
+    ipa: /bɑːks/
+  - id: 114
+    word: boy
+    pos: n.
+    chinese: 男孩
+    syllable:
+      - boy
+    ipa: /bɔɪ/
+  - id: 115
+    word: brave
+    pos: adj.
+    chinese: 勇敢的
+    syllable:
+      - brave
+    ipa: /breɪv/
+  - id: 116
+    word: bread
+    pos: n.
+    chinese: 麵包
+    syllable:
+      - bread
+    ipa: /brɛd/
+  - id: 117
+    word: break
+    pos: n./v.
+    chinese: 打破
+    syllable:
+      - break
+    ipa: /breɪk/
+  - id: 118
+    word: breakfast
+    pos: n./v.
+    chinese: 早餐
+    syllable:
+      - break
+      - fast
+    ipa: /ˈbrɛk.fəst/
+  - id: 119
+    word: bridge
+    pos: n./v.
+    chinese: 橋
+    syllable:
+      - bridge
+    ipa: /brɪdʒ/
+  - id: 120
+    word: bright
+    pos: adj./adv.
+    chinese: 明亮的
+    syllable:
+      - bright
+    ipa: /braɪt/
+  - id: 121
+    word: bring
+    pos: v.
+    chinese: 帶來
+    syllable:
+      - bring
+    ipa: /brɪŋ/
+  - id: 122
+    word: brother
+    pos: n.
+    chinese: 兄弟
+    syllable:
+      - broth
+      - er
+    ipa: /ˈbrʌð.ɚ/
+  - id: 123
+    word: brown
+    pos: adj./v./n.
+    chinese: 棕色(的)
+    syllable:
+      - brown
+    ipa: /braʊn/
+  - id: 124
+    word: bug
+    pos: n./v.
+    chinese: 小蟲
+    syllable:
+      - bug
+    ipa: /bʌɡ/
+  - id: 125
+    word: build
+    pos: v.
+    chinese: 建造
+    syllable:
+      - build
+    ipa: /bɪld/
+  - id: 126
+    word: bus
+    pos: n.
+    chinese: 公車
+    syllable:
+      - bus
+    ipa: /bʌs/
+  - id: 127
+    word: business
+    pos: n.
+    chinese: 生意
+    syllable:
+      - busi
+      - ness
+    ipa: /ˈbɪz.nɪs/
+  - id: 128
+    word: busy
+    pos: adj.
+    chinese: 忙碌的
+    syllable:
+      - bus
+      - 'y'
+    ipa: /ˈbɪz.i/
+  - id: 129
+    word: but
+    pos: conj./prep./adv.
+    chinese: 但是
+    syllable:
+      - but
+    ipa: /bʌt/
+  - id: 130
+    word: butter
+    pos: n./v.
+    chinese: 奶油
+    syllable:
+      - but
+      - ter
+    ipa: /ˈbʌt.ɚ/
+  - id: 131
+    word: butterfly
+    pos: n.
+    chinese: 蝴蝶
+    syllable:
+      - but
+      - ter
+      - fly
+    ipa: /ˈbʌt.ɚ.flaɪ/
+  - id: 132
+    word: button
+    pos: n./v.
+    chinese: 鈕扣;按鈕;扣上
+    syllable:
+      - but
+      - ton
+    ipa: /ˈbʌt.ən/
+  - id: 133
+    word: buy
+    pos: v./n.
+    chinese: 買
+    syllable:
+      - buy
+    ipa: /baɪ/
+  - id: 134
+    word: by
+    pos: prep./adv.
+    chinese: 藉著
+    syllable:
+      - by
+    ipa: /baɪ/
+  - id: 135
+    word: cake
+    pos: n.
+    chinese: 蛋糕
+    syllable:
+      - cake
+    ipa: /keɪk/
+  - id: 136
+    word: call
+    pos: v./n.
+    chinese: 打電話
+    syllable:
+      - call
+    ipa: /kɔːl/
+  - id: 137
+    word: camera
+    pos: n.
+    chinese: 照相機
+    syllable:
+      - cam
+      - er
+      - a
+    ipa: /ˈkæm.rə/
+  - id: 138
+    word: camp
+    pos: n./v.
+    chinese: 露營
+    syllable:
+      - camp
+    ipa: /kæmp/
+  - id: 139
+    word: can
+    pos: aux./n./v.
+    chinese: 能夠
+    syllable:
+      - can
+    ipa: /kæn/
+  - id: 140
+    word: cap
+    pos: n./v.
+    chinese: (無邊)帽
+    syllable:
+      - cap
+    ipa: /kæp/
+  - id: 141
+    word: car
+    pos: n.
+    chinese: 車子
+    syllable:
+      - car
+    ipa: /kɑːr/
+  - id: 142
+    word: card
+    pos: n.
+    chinese: 卡片
+    syllable:
+      - card
+    ipa: /kɑːrd/
+  - id: 143
+    word: care
+    pos: n./v.
+    chinese: 關心
+    syllable:
+      - care
+    ipa: /kɛr/
+  - id: 144
+    word: careful
+    pos: adj.
+    chinese: 仔細的
+    syllable:
+      - care
+      - ful
+    ipa: /ˈkɛr.fəl/
+  - id: 145
+    word: carrot
+    pos: n.
+    chinese: 胡蘿蔔
+    syllable:
+      - car
+      - rot
+    ipa: /ˈkær.ət/
+  - id: 146
+    word: carry
+    pos: v.
+    chinese: 攜帶
+    syllable:
+      - car
+      - ry
+    ipa: /ˈkær.i/
+  - id: 147
+    word: case
+    pos: n./v.
+    chinese: 情形
+    syllable:
+      - case
+    ipa: /keɪs/
+  - id: 148
+    word: cat
+    pos: n.
+    chinese: 貓
+    syllable:
+      - cat
+    ipa: /kæt/
+  - id: 149
+    word: catch
+    pos: v./n.
+    chinese: 趕上
+    syllable:
+      - catch
+    ipa: /kætʃ/
+  - id: 150
+    word: celebrate
+    pos: v.
+    chinese: 慶祝
+    syllable:
+      - cel
+      - e
+      - brate
+    ipa: /ˈsɛl.ə.breɪt/
+  - id: 151
+    word: cellphone
+    pos: n.
+    chinese: 手機
+    syllable:
+      - cell
+      - phone
+    ipa: /ˈsɛl.foʊn/
+  - id: 152
+    word: cent
+    pos: n.
+    chinese: 〈一〉分錢
+    syllable:
+      - cent
+    ipa: /sɛnt/
+  - id: 153
+    word: center
+    pos: n.
+    chinese: 中心
+    syllable:
+      - cen
+      - ter
+    ipa: /ˈsɛn.tɚ/
+  - id: 154
+    word: certain
+    pos: adj./pron.
+    chinese: 確定的;某些
+    syllable:
+      - cer
+      - tain
+    ipa: /ˈsɝː.tən/
+  - id: 155
+    word: chair
+    pos: n./v.
+    chinese: 椅子
+    syllable:
+      - chair
+    ipa: /tʃɛr/
+  - id: 156
+    word: chance
+    pos: n./v.
+    chinese: 機會
+    syllable:
+      - chance
+    ipa: /tʃæns/
+  - id: 157
+    word: change
+    pos: n./v.
+    chinese: 交換,零錢
+    syllable:
+      - change
+    ipa: /tʃeɪndʒ/
+  - id: 158
+    word: cheap
+    pos: adj./adv.
+    chinese: 便宜的
+    syllable:
+      - cheap
+    ipa: /tʃiːp/
+  - id: 159
+    word: check
+    pos: v./n.
+    chinese: 檢查
+    syllable:
+      - check
+    ipa: /tʃɛk/
+  - id: 160
+    word: cheese
+    pos: n.
+    chinese: 乳酪
+    syllable:
+      - cheese
+    ipa: /tʃiːz/
+  - id: 161
+    word: chicken
+    pos: n.
+    chinese: 雞肉
+    syllable:
+      - chick
+      - en
+    ipa: /ˈtʃɪk.ɪn/
+  - id: 162
+    word: child
+    pos: n.
+    chinese: 小孩
+    syllable:
+      - child
+    ipa: /tʃaɪld/
+  - id: 163
+    word: chocolate
+    pos: n.
+    chinese: 巧克力
+    syllable:
+      - choc
+      - o
+      - late
+    ipa: /ˈtʃɑːk.lət/
+  - id: 164
+    word: choice
+    pos: n./adj.
+    chinese: 選擇;精選的
+    syllable:
+      - choice
+    ipa: /tʃɔɪs/
+  - id: 165
+    word: choose
+    pos: v.
+    chinese: 選擇
+    syllable:
+      - choose
+    ipa: /tʃuːz/
+  - id: 166
+    word: church
+    pos: n.
+    chinese: 教堂
+    syllable:
+      - church
+    ipa: /tʃɝːtʃ/
+  - id: 167
+    word: circle
+    pos: n./v.
+    chinese: 圓圈
+    syllable:
+      - cir
+      - cle
+    ipa: /ˈsɝː.kəl/
+  - id: 168
+    word: city
+    pos: n.
+    chinese: 城市
+    syllable:
+      - cit
+      - 'y'
+    ipa: /ˈsɪt.i/
+  - id: 169
+    word: class
+    pos: n./v.
+    chinese: 班級
+    syllable:
+      - class
+    ipa: /klæs/
+  - id: 170
+    word: clean
+    pos: adj./v./adv./n.
+    chinese: 打掃
+    syllable:
+      - clean
+    ipa: /kliːn/
+  - id: 171
+    word: clear
+    pos: adj./v./adv.
+    chinese: 清楚的
+    syllable:
+      - clear
+    ipa: /klɪr/
+  - id: 172
+    word: clerk
+    pos: n.
+    chinese: 店員
+    syllable:
+      - clerk
+    ipa: /klɝːk/
+  - id: 173
+    word: climb
+    pos: v./n.
+    chinese: 爬
+    syllable:
+      - climb
+    ipa: /klaɪm/
+  - id: 174
+    word: clock
+    pos: n.
+    chinese: 時鐘
+    syllable:
+      - clock
+    ipa: /klɑːk/
+  - id: 175
+    word: close
+    pos: adj./adv./v./n.
+    chinese: 關上
+    syllable:
+      - close
+    ipa: /kloʊz/
+  - id: 176
+    word: clothes
+    pos: n.
+    chinese: 衣服
+    syllable:
+      - clothes
+    ipa: /kloʊðz/
+  - id: 177
+    word: cloud
+    pos: n.
+    chinese: 雲
+    syllable:
+      - cloud
+    ipa: /klaʊd/
+  - id: 178
+    word: club
+    pos: n./v.
+    chinese: 社團
+    syllable:
+      - club
+    ipa: /klʌb/
+  - id: 179
+    word: coat
+    pos: n./v.
+    chinese: 大衣
+    syllable:
+      - coat
+    ipa: /koʊt/
+  - id: 180
+    word: coffee
+    pos: n.
+    chinese: 咖啡
+    syllable:
+      - cof
+      - fee
+    ipa: /ˈkɑː.fi/
+  - id: 181
+    word: cold
+    pos: adj./n.
+    chinese: 寒冷的
+    syllable:
+      - cold
+    ipa: /koʊld/
+  - id: 182
+    word: collect
+    pos: v.
+    chinese: 收集
+    syllable:
+      - col
+      - lect
+    ipa: /kəˈlɛkt/
+  - id: 183
+    word: color
+    pos: n./v.
+    chinese: 顏色
+    syllable:
+      - col
+      - or
+    ipa: /ˈkʌl.ɚ/
+  - id: 184
+    word: come
+    pos: v.
+    chinese: 來
+    syllable:
+      - come
+    ipa: /kʌm/
+  - id: 185
+    word: comfortable
+    pos: adj.
+    chinese: 舒適的
+    syllable:
+      - com
+      - fort
+      - a
+      - ble
+    ipa: /ˈkʌm.fɚ.t̬ə.bəl/
+  - id: 186
+    word: common
+    pos: adj./n.
+    chinese: 共同的
+    syllable:
+      - com
+      - mon
+    ipa: /ˈkɑː.mən/
+  - id: 187
+    word: computer
+    pos: n.
+    chinese: 電腦
+    syllable:
+      - com
+      - put
+      - er
+    ipa: /kəmˈpjuː.t̬ɚ/
+  - id: 188
+    word: convenient
+    pos: adj.
+    chinese: 方便的
+    syllable:
+      - con
+      - ve
+      - nient
+    ipa: /kənˈviː.njənt/
+  - id: 189
+    word: cook
+    pos: v./n.
+    chinese: 煮飯
+    syllable:
+      - cook
+    ipa: /kʊk/
+  - id: 190
+    word: cookie
+    pos: n.
+    chinese: 餅乾
+    syllable:
+      - cook
+      - ie
+    ipa: /ˈkʊk.i/
+  - id: 191
+    word: cool
+    pos: adj./v./n.
+    chinese: 涼爽的
+    syllable:
+      - cool
+    ipa: /kuːl/
+  - id: 192
+    word: copy
+    pos: n./v.
+    chinese: 抄寫,複製
+    syllable:
+      - cop
+      - 'y'
+    ipa: /ˈkɑː.pi/
+  - id: 193
+    word: corner
+    pos: n.
+    chinese: 角落
+    syllable:
+      - cor
+      - ner
+    ipa: /ˈkɔːr.nɚ/
+  - id: 194
+    word: correct
+    pos: adj./v.
+    chinese: 正確的
+    syllable:
+      - cor
+      - rect
+    ipa: /kəˈrɛkt/
+  - id: 195
+    word: cost
+    pos: n./v.
+    chinese: 價值
+    syllable:
+      - cost
+    ipa: /kɔːst/
+  - id: 196
+    word: couch
+    pos: n./v.
+    chinese: 沙發
+    syllable:
+      - couch
+    ipa: /kaʊtʃ/
+  - id: 197
+    word: count
+    pos: v./n.
+    chinese: 計算
+    syllable:
+      - count
+    ipa: /kaʊnt/
+  - id: 198
+    word: country
+    pos: n.
+    chinese: 鄉村
+    syllable:
+      - coun
+      - try
+    ipa: /ˈkʌn.tri/
+  - id: 199
+    word: course
+    pos: n./v.
+    chinese: 課程
+    syllable:
+      - course
+    ipa: /kɔːrs/
+  - id: 200
+    word: cousin
+    pos: n.
+    chinese: 堂,表兄弟姊妹
+    syllable:
+      - cous
+      - in
+    ipa: /ˈkʌz.ən/
