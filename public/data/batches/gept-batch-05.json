@@ -1,0 +1,4479 @@
+{
+  "batchId": "gept-batch-05",
+  "title": "GEPT 英檢 - 第 5 批次",
+  "category": "gept",
+  "range": "8401 ~ 8500",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 8401,
+      "word": "abundant",
+      "chinese": "豐富的, 充裕的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "bun",
+        "dant"
+      ],
+      "ipa": "/əˈbʌn.dənt/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bun",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bun］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8402,
+      "word": "academic",
+      "chinese": "學術的, 大學的",
+      "pos": "adj.",
+      "syllables": [
+        "ac",
+        "a",
+        "dem",
+        "ic"
+      ],
+      "ipa": "/ˌæk.əˈdɛm.ɪk/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8403,
+      "word": "accelerate",
+      "chinese": "加速, 促進進程",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "cel",
+        "er",
+        "ate"
+      ],
+      "ipa": "/əkˈsɛl.ə.reɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cel",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 2 音節［cel］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8404,
+      "word": "accompany",
+      "chinese": "陪伴, 伴奏, 伴隨",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "com",
+        "pa",
+        "ny"
+      ],
+      "ipa": "/əˈkʌm.pə.ni/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ny",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ny］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8405,
+      "word": "accomplish",
+      "chinese": "完成, 實現, 達成",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "com",
+        "plish"
+      ],
+      "ipa": "/əˈkɑːm.plɪʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "plish",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［plish］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8406,
+      "word": "accumulate",
+      "chinese": "累積, 積聚",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "cu",
+        "mu",
+        "late"
+      ],
+      "ipa": "/əˈkjuː.mjə.leɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［cu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［mu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "late",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［late］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8407,
+      "word": "acknowledge",
+      "chinese": "承認, 感謝, 告知收到",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "knowl",
+        "edge"
+      ],
+      "ipa": "/əkˈnɑː.lɪdʒ/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "knowl",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［knowl］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "edge",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［edge］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8408,
+      "word": "adaptable",
+      "chinese": "適應力強的, 靈活的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "dapt",
+        "a",
+        "ble"
+      ],
+      "ipa": "/əˈdæp.tə.bəl/",
+      "ruleCodes": [
+        "R008",
+        "R009",
+        "R012",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dapt",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dapt］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 4 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8409,
+      "word": "addiction",
+      "chinese": "成癮, 沉溺",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "dic",
+        "tion"
+      ],
+      "ipa": "/əˈdɪk.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dic］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8410,
+      "word": "adequate",
+      "chinese": "充分的, 勝任的",
+      "pos": "adj.",
+      "syllables": [
+        "ad",
+        "e",
+        "quate"
+      ],
+      "ipa": "/ˈæd.ə.kwət/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "quate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［quate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8411,
+      "word": "administration",
+      "chinese": "行政, 管理部門",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "min",
+        "is",
+        "tra",
+        "tion"
+      ],
+      "ipa": "/ədˌmɪn.əˈstreɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "min",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［min］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［tra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8412,
+      "word": "adolescence",
+      "chinese": "青春期",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "o",
+        "les",
+        "cence"
+      ],
+      "ipa": "/ˌæd.əˈlɛs.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "les",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［les］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8413,
+      "word": "advantageous",
+      "chinese": "有利的, 有好處的",
+      "pos": "adj.",
+      "syllables": [
+        "ad",
+        "van",
+        "ta",
+        "geous"
+      ],
+      "ipa": "/ˌæd.vænˈteɪ.dʒəs/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "van",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［van］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "geous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［geous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8414,
+      "word": "affection",
+      "chinese": "喜愛, 鍾情, 慈愛",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fec",
+        "tion"
+      ],
+      "ipa": "/əˈfɛk.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fec",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［fec］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8415,
+      "word": "aggressive",
+      "chinese": "積極有幹勁的, 侵略性的",
+      "pos": "adj.",
+      "syllables": [
+        "ag",
+        "gres",
+        "sive"
+      ],
+      "ipa": "/əˈɡrɛs.ɪv/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "gres",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［gres］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［sive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8416,
+      "word": "agriculture",
+      "chinese": "農業, 農學",
+      "pos": "n.",
+      "syllables": [
+        "ag",
+        "ri",
+        "cul",
+        "ture"
+      ],
+      "ipa": "/ˈæɡ.rə.kʌl.tʃɚ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cul",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［cul］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ture",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ture］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8417,
+      "word": "alteration",
+      "chinese": "變更, 修改",
+      "pos": "n.",
+      "syllables": [
+        "al",
+        "ter",
+        "a",
+        "tion"
+      ],
+      "ipa": "/ˌɑːl.tɚˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8418,
+      "word": "ambassador",
+      "chinese": "大使, 使節, 親善代表",
+      "pos": "n.",
+      "syllables": [
+        "am",
+        "bas",
+        "sa",
+        "dor"
+      ],
+      "ipa": "/æmˈbæs.ə.dɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bas",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bas］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［sa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "dor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［dor］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8419,
+      "word": "ambitious",
+      "chinese": "有雄心的, 志向遠大的",
+      "pos": "adj.",
+      "syllables": [
+        "am",
+        "bi",
+        "tious"
+      ],
+      "ipa": "/æmˈbɪʃ.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［tious］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8420,
+      "word": "anniversary",
+      "chinese": "週年紀念日",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "ni",
+        "ver",
+        "sa",
+        "ry"
+      ],
+      "ipa": "/ˌæn.əˈvɝː.sɚ.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ni",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ni］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ver",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ver］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［sa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8421,
+      "word": "anticipation",
+      "chinese": "期待, 預料",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "ti",
+        "ci",
+        "pa",
+        "tion"
+      ],
+      "ipa": "/ænˌtɪs.əˈpeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［pa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8422,
+      "word": "appetite",
+      "chinese": "胃口, 食慾, 渴望",
+      "pos": "n.",
+      "syllables": [
+        "ap",
+        "pe",
+        "tite"
+      ],
+      "ipa": "/ˈæp.ə.taɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pe",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pe］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tite",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［tite］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8423,
+      "word": "applause",
+      "chinese": "鼓掌, 喝采",
+      "pos": "n.",
+      "syllables": [
+        "ap",
+        "plause"
+      ],
+      "ipa": "/əˈplɑːz/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "plause",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［plause］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8424,
+      "word": "appreciative",
+      "chinese": "感激的, 欣賞讚賞的",
+      "pos": "adj.",
+      "syllables": [
+        "ap",
+        "pre",
+        "cia",
+        "tive"
+      ],
+      "ipa": "/əˈpriː.ʃi.ə.t̬ɪv/",
+      "ruleCodes": [
+        "R003",
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cia",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cia］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［tive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8425,
+      "word": "archaeology",
+      "chinese": "考古學",
+      "pos": "n.",
+      "syllables": [
+        "ar",
+        "chae",
+        "ol",
+        "o",
+        "gy"
+      ],
+      "ipa": "/ˌɑːr.kiˈɑː.lə.dʒi/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "chae",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［chae］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ol",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ol］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "gy",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 5 音節［gy］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8426,
+      "word": "architecture",
+      "chinese": "建築學, 建築風格",
+      "pos": "n.",
+      "syllables": [
+        "ar",
+        "chi",
+        "tec",
+        "ture"
+      ],
+      "ipa": "/ˈɑːr.kə.tɛk.tʃɚ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "chi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［chi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tec",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tec］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ture",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ture］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8427,
+      "word": "aspiration",
+      "chinese": "志向, 抱負, 熱望",
+      "pos": "n.",
+      "syllables": [
+        "as",
+        "pi",
+        "ra",
+        "tion"
+      ],
+      "ipa": "/ˌæs.pəˈreɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8428,
+      "word": "astonish",
+      "chinese": "使震驚, 使驚訝",
+      "pos": "v.",
+      "syllables": [
+        "as",
+        "ton",
+        "ish"
+      ],
+      "ipa": "/əˈstɑː.nɪʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ton",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ton］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ish",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ish］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8429,
+      "word": "atmosphere",
+      "chinese": "大氣, 氣氛, 空氣環境",
+      "pos": "n.",
+      "syllables": [
+        "at",
+        "mos",
+        "phere"
+      ],
+      "ipa": "/ˈæt.məs.fɪr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "at",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［at］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "mos",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［mos］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "phere",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［phere］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8430,
+      "word": "authenticity",
+      "chinese": "真實性, 正確性",
+      "pos": "n.",
+      "syllables": [
+        "au",
+        "then",
+        "tic",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌɑː.θɛnˈtɪs.ə.t̬i/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 1 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "then",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［then］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8431,
+      "word": "awareness",
+      "chinese": "意識, 認識, 察覺",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "ware",
+        "ness"
+      ],
+      "ipa": "/əˈwɛr.nəs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ware",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ware］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ness",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ness］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8432,
+      "word": "barrier",
+      "chinese": "障礙, 隔閡, 關卡",
+      "pos": "n.",
+      "syllables": [
+        "bar",
+        "ri",
+        "er"
+      ],
+      "ipa": "/ˈbær.i.ɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "bar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［bar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8433,
+      "word": "beneficial",
+      "chinese": "有益的, 有利的",
+      "pos": "adj.",
+      "syllables": [
+        "ben",
+        "e",
+        "fi",
+        "cial"
+      ],
+      "ipa": "/ˌbɛn.əˈfɪʃ.əl/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ben",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ben］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cial",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cial］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8434,
+      "word": "breathtaking",
+      "chinese": "屏息壯麗的, 震撼的",
+      "pos": "adj.",
+      "syllables": [
+        "breath",
+        "tak",
+        "ing"
+      ],
+      "ipa": "/ˈbrɛθˌteɪ.kɪŋ/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "breath",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 1 音節［breath］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tak",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tak］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8435,
+      "word": "brilliant",
+      "chinese": "出色的, 燦爛的, 卓越的",
+      "pos": "adj.",
+      "syllables": [
+        "bril",
+        "liant"
+      ],
+      "ipa": "/ˈbrɪl.jənt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "bril",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［bril］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "liant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［liant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8436,
+      "word": "capability",
+      "chinese": "能力, 才能, 性能",
+      "pos": "n.",
+      "syllables": [
+        "ca",
+        "pa",
+        "bil",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌkeɪ.pəˈbɪl.ə.t̬i/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bil",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bil］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8437,
+      "word": "ceremony",
+      "chinese": "典禮, 儀式",
+      "pos": "n.",
+      "syllables": [
+        "cer",
+        "e",
+        "mo",
+        "ny"
+      ],
+      "ipa": "/ˈsɛr.ə.moʊ.ni/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "cer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［cer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mo",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［mo］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ny",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ny］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8438,
+      "word": "characteristic",
+      "chinese": "特徵, 特色; 典型的",
+      "pos": "n./adj.",
+      "syllables": [
+        "char",
+        "ac",
+        "ter",
+        "is",
+        "tic"
+      ],
+      "ipa": "/ˌkær.ək.təˈrɪs.tɪk/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "char",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［char］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8439,
+      "word": "circumstance",
+      "chinese": "情勢, 境遇, 條件",
+      "pos": "n.",
+      "syllables": [
+        "cir",
+        "cum",
+        "stance"
+      ],
+      "ipa": "/ˈsɝː.kəm.stæns/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "cir",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［cir］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cum",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［cum］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "stance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［stance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8440,
+      "word": "civilization",
+      "chinese": "文明, 文化社會",
+      "pos": "n.",
+      "syllables": [
+        "civ",
+        "i",
+        "li",
+        "za",
+        "tion"
+      ],
+      "ipa": "/ˌsɪv.əl.əˈzeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "civ",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 1 音節［civ］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "li",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［li］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "za",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［za］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8441,
+      "word": "collaboration",
+      "chinese": "通力合作, 協作成果",
+      "pos": "n.",
+      "syllables": [
+        "col",
+        "lab",
+        "o",
+        "ra",
+        "tion"
+      ],
+      "ipa": "/kəˌlæb.əˈreɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "col",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［col］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "lab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［lab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8442,
+      "word": "commitment",
+      "chinese": "承諾, 託付, 堅守",
+      "pos": "n.",
+      "syllables": [
+        "com",
+        "mit",
+        "ment"
+      ],
+      "ipa": "/kəˈmɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "mit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［mit］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8443,
+      "word": "compassion",
+      "chinese": "同情, 憐憫, 慈悲",
+      "pos": "n.",
+      "syllables": [
+        "com",
+        "pas",
+        "sion"
+      ],
+      "ipa": "/kəmˈpæʃ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pas",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［pas］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8444,
+      "word": "comprehension",
+      "chinese": "理解, 包含力",
+      "pos": "n.",
+      "syllables": [
+        "com",
+        "pre",
+        "hen",
+        "sion"
+      ],
+      "ipa": "/ˌkɑːm.prəˈhɛn.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "hen",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［hen］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8445,
+      "word": "concentration",
+      "chinese": "專注, 集中, 濃度",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "cen",
+        "tra",
+        "tion"
+      ],
+      "ipa": "/ˌkɑːn.sənˈtreɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 2 音節［cen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［tra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8446,
+      "word": "confidence",
+      "chinese": "信心, 自信, 信賴",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "fi",
+        "dence"
+      ],
+      "ipa": "/ˈkɑːn.fə.dəns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［dence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8447,
+      "word": "conservation",
+      "chinese": "保育, 節約保存",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "ser",
+        "va",
+        "tion"
+      ],
+      "ipa": "/ˌkɑːn.sɚˈveɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ser",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ser］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "va",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［va］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8448,
+      "word": "contemporary",
+      "chinese": "當代的, 同時代的; 當代人",
+      "pos": "adj./n.",
+      "syllables": [
+        "con",
+        "tem",
+        "po",
+        "rar",
+        "y"
+      ],
+      "ipa": "/kənˈtɛm.pə.rɛr.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "po",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［po］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "rar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［rar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "y",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［y］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8449,
+      "word": "contribution",
+      "chinese": "貢獻, 捐獻, 投稿",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "tri",
+        "bu",
+        "tion"
+      ],
+      "ipa": "/ˌkɑːn.trəˈbjuː.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［tri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［bu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8450,
+      "word": "curiosity",
+      "chinese": "好奇心, 奇珍古玩",
+      "pos": "n.",
+      "syllables": [
+        "cu",
+        "ri",
+        "os",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌkjʊr.iˈɑː.sə.t̬i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "cu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［cu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "os",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［os］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8451,
+      "word": "abundant",
+      "chinese": "豐富的, 充裕的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "bun",
+        "dant"
+      ],
+      "ipa": "/əˈbʌn.dənt/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bun",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bun］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8452,
+      "word": "academic",
+      "chinese": "學術的, 大學的",
+      "pos": "adj.",
+      "syllables": [
+        "ac",
+        "a",
+        "dem",
+        "ic"
+      ],
+      "ipa": "/ˌæk.əˈdɛm.ɪk/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8453,
+      "word": "accelerate",
+      "chinese": "加速, 促進進程",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "cel",
+        "er",
+        "ate"
+      ],
+      "ipa": "/əkˈsɛl.ə.reɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cel",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 2 音節［cel］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8454,
+      "word": "accompany",
+      "chinese": "陪伴, 伴奏, 伴隨",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "com",
+        "pa",
+        "ny"
+      ],
+      "ipa": "/əˈkʌm.pə.ni/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ny",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ny］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8455,
+      "word": "accomplish",
+      "chinese": "完成, 實現, 達成",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "com",
+        "plish"
+      ],
+      "ipa": "/əˈkɑːm.plɪʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "plish",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［plish］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8456,
+      "word": "accumulate",
+      "chinese": "累積, 積聚",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "cu",
+        "mu",
+        "late"
+      ],
+      "ipa": "/əˈkjuː.mjə.leɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［cu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［mu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "late",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［late］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8457,
+      "word": "acknowledge",
+      "chinese": "承認, 感謝, 告知收到",
+      "pos": "v.",
+      "syllables": [
+        "ac",
+        "knowl",
+        "edge"
+      ],
+      "ipa": "/əkˈnɑː.lɪdʒ/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "knowl",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［knowl］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "edge",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［edge］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8458,
+      "word": "adaptable",
+      "chinese": "適應力強的, 靈活的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "dapt",
+        "a",
+        "ble"
+      ],
+      "ipa": "/əˈdæp.tə.bəl/",
+      "ruleCodes": [
+        "R008",
+        "R009",
+        "R012",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dapt",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dapt］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 4 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8459,
+      "word": "addiction",
+      "chinese": "成癮, 沉溺",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "dic",
+        "tion"
+      ],
+      "ipa": "/əˈdɪk.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dic］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8460,
+      "word": "adequate",
+      "chinese": "充分的, 勝任的",
+      "pos": "adj.",
+      "syllables": [
+        "ad",
+        "e",
+        "quate"
+      ],
+      "ipa": "/ˈæd.ə.kwət/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "quate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［quate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8461,
+      "word": "administration",
+      "chinese": "行政, 管理部門",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "min",
+        "is",
+        "tra",
+        "tion"
+      ],
+      "ipa": "/ədˌmɪn.əˈstreɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "min",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［min］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［tra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8462,
+      "word": "adolescence",
+      "chinese": "青春期",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "o",
+        "les",
+        "cence"
+      ],
+      "ipa": "/ˌæd.əˈlɛs.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "les",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［les］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8463,
+      "word": "advantageous",
+      "chinese": "有利的, 有好處的",
+      "pos": "adj.",
+      "syllables": [
+        "ad",
+        "van",
+        "ta",
+        "geous"
+      ],
+      "ipa": "/ˌæd.vænˈteɪ.dʒəs/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "van",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［van］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "geous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［geous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8464,
+      "word": "affection",
+      "chinese": "喜愛, 鍾情, 慈愛",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fec",
+        "tion"
+      ],
+      "ipa": "/əˈfɛk.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fec",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［fec］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8465,
+      "word": "aggressive",
+      "chinese": "積極有幹勁的, 侵略性的",
+      "pos": "adj.",
+      "syllables": [
+        "ag",
+        "gres",
+        "sive"
+      ],
+      "ipa": "/əˈɡrɛs.ɪv/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "gres",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［gres］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［sive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8466,
+      "word": "agriculture",
+      "chinese": "農業, 農學",
+      "pos": "n.",
+      "syllables": [
+        "ag",
+        "ri",
+        "cul",
+        "ture"
+      ],
+      "ipa": "/ˈæɡ.rə.kʌl.tʃɚ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cul",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［cul］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ture",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ture］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8467,
+      "word": "alteration",
+      "chinese": "變更, 修改",
+      "pos": "n.",
+      "syllables": [
+        "al",
+        "ter",
+        "a",
+        "tion"
+      ],
+      "ipa": "/ˌɑːl.tɚˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8468,
+      "word": "ambassador",
+      "chinese": "大使, 使節, 親善代表",
+      "pos": "n.",
+      "syllables": [
+        "am",
+        "bas",
+        "sa",
+        "dor"
+      ],
+      "ipa": "/æmˈbæs.ə.dɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bas",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bas］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［sa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "dor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［dor］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8469,
+      "word": "ambitious",
+      "chinese": "有雄心的, 志向遠大的",
+      "pos": "adj.",
+      "syllables": [
+        "am",
+        "bi",
+        "tious"
+      ],
+      "ipa": "/æmˈbɪʃ.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［tious］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8470,
+      "word": "anniversary",
+      "chinese": "週年紀念日",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "ni",
+        "ver",
+        "sa",
+        "ry"
+      ],
+      "ipa": "/ˌæn.əˈvɝː.sɚ.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ni",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ni］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ver",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ver］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［sa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8471,
+      "word": "anticipation",
+      "chinese": "期待, 預料",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "ti",
+        "ci",
+        "pa",
+        "tion"
+      ],
+      "ipa": "/ænˌtɪs.əˈpeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［pa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8472,
+      "word": "appetite",
+      "chinese": "胃口, 食慾, 渴望",
+      "pos": "n.",
+      "syllables": [
+        "ap",
+        "pe",
+        "tite"
+      ],
+      "ipa": "/ˈæp.ə.taɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pe",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pe］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tite",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［tite］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8473,
+      "word": "applause",
+      "chinese": "鼓掌, 喝采",
+      "pos": "n.",
+      "syllables": [
+        "ap",
+        "plause"
+      ],
+      "ipa": "/əˈplɑːz/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "plause",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［plause］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8474,
+      "word": "appreciative",
+      "chinese": "感激的, 欣賞讚賞的",
+      "pos": "adj.",
+      "syllables": [
+        "ap",
+        "pre",
+        "cia",
+        "tive"
+      ],
+      "ipa": "/əˈpriː.ʃi.ə.t̬ɪv/",
+      "ruleCodes": [
+        "R003",
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cia",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cia］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［tive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8475,
+      "word": "archaeology",
+      "chinese": "考古學",
+      "pos": "n.",
+      "syllables": [
+        "ar",
+        "chae",
+        "ol",
+        "o",
+        "gy"
+      ],
+      "ipa": "/ˌɑːr.kiˈɑː.lə.dʒi/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "chae",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［chae］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ol",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ol］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "gy",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 5 音節［gy］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8476,
+      "word": "architecture",
+      "chinese": "建築學, 建築風格",
+      "pos": "n.",
+      "syllables": [
+        "ar",
+        "chi",
+        "tec",
+        "ture"
+      ],
+      "ipa": "/ˈɑːr.kə.tɛk.tʃɚ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "chi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［chi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tec",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tec］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ture",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ture］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8477,
+      "word": "aspiration",
+      "chinese": "志向, 抱負, 熱望",
+      "pos": "n.",
+      "syllables": [
+        "as",
+        "pi",
+        "ra",
+        "tion"
+      ],
+      "ipa": "/ˌæs.pəˈreɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8478,
+      "word": "astonish",
+      "chinese": "使震驚, 使驚訝",
+      "pos": "v.",
+      "syllables": [
+        "as",
+        "ton",
+        "ish"
+      ],
+      "ipa": "/əˈstɑː.nɪʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ton",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ton］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ish",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ish］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8479,
+      "word": "atmosphere",
+      "chinese": "大氣, 氣氛, 空氣環境",
+      "pos": "n.",
+      "syllables": [
+        "at",
+        "mos",
+        "phere"
+      ],
+      "ipa": "/ˈæt.məs.fɪr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "at",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［at］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "mos",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［mos］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "phere",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［phere］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8480,
+      "word": "authenticity",
+      "chinese": "真實性, 正確性",
+      "pos": "n.",
+      "syllables": [
+        "au",
+        "then",
+        "tic",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌɑː.θɛnˈtɪs.ə.t̬i/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 1 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "then",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［then］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8481,
+      "word": "awareness",
+      "chinese": "意識, 認識, 察覺",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "ware",
+        "ness"
+      ],
+      "ipa": "/əˈwɛr.nəs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ware",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ware］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ness",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ness］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8482,
+      "word": "barrier",
+      "chinese": "障礙, 隔閡, 關卡",
+      "pos": "n.",
+      "syllables": [
+        "bar",
+        "ri",
+        "er"
+      ],
+      "ipa": "/ˈbær.i.ɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "bar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［bar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8483,
+      "word": "beneficial",
+      "chinese": "有益的, 有利的",
+      "pos": "adj.",
+      "syllables": [
+        "ben",
+        "e",
+        "fi",
+        "cial"
+      ],
+      "ipa": "/ˌbɛn.əˈfɪʃ.əl/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ben",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ben］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cial",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cial］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8484,
+      "word": "breathtaking",
+      "chinese": "屏息壯麗的, 震撼的",
+      "pos": "adj.",
+      "syllables": [
+        "breath",
+        "tak",
+        "ing"
+      ],
+      "ipa": "/ˈbrɛθˌteɪ.kɪŋ/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "breath",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 1 音節［breath］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tak",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tak］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8485,
+      "word": "brilliant",
+      "chinese": "出色的, 燦爛的, 卓越的",
+      "pos": "adj.",
+      "syllables": [
+        "bril",
+        "liant"
+      ],
+      "ipa": "/ˈbrɪl.jənt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "bril",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［bril］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "liant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［liant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8486,
+      "word": "capability",
+      "chinese": "能力, 才能, 性能",
+      "pos": "n.",
+      "syllables": [
+        "ca",
+        "pa",
+        "bil",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌkeɪ.pəˈbɪl.ə.t̬i/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bil",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bil］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8487,
+      "word": "ceremony",
+      "chinese": "典禮, 儀式",
+      "pos": "n.",
+      "syllables": [
+        "cer",
+        "e",
+        "mo",
+        "ny"
+      ],
+      "ipa": "/ˈsɛr.ə.moʊ.ni/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "cer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［cer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mo",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［mo］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ny",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ny］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8488,
+      "word": "characteristic",
+      "chinese": "特徵, 特色; 典型的",
+      "pos": "n./adj.",
+      "syllables": [
+        "char",
+        "ac",
+        "ter",
+        "is",
+        "tic"
+      ],
+      "ipa": "/ˌkær.ək.təˈrɪs.tɪk/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "char",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［char］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8489,
+      "word": "circumstance",
+      "chinese": "情勢, 境遇, 條件",
+      "pos": "n.",
+      "syllables": [
+        "cir",
+        "cum",
+        "stance"
+      ],
+      "ipa": "/ˈsɝː.kəm.stæns/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "cir",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［cir］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cum",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［cum］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "stance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［stance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8490,
+      "word": "civilization",
+      "chinese": "文明, 文化社會",
+      "pos": "n.",
+      "syllables": [
+        "civ",
+        "i",
+        "li",
+        "za",
+        "tion"
+      ],
+      "ipa": "/ˌsɪv.əl.əˈzeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "civ",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 1 音節［civ］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "li",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［li］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "za",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［za］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8491,
+      "word": "collaboration",
+      "chinese": "通力合作, 協作成果",
+      "pos": "n.",
+      "syllables": [
+        "col",
+        "lab",
+        "o",
+        "ra",
+        "tion"
+      ],
+      "ipa": "/kəˌlæb.əˈreɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "col",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［col］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "lab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［lab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8492,
+      "word": "commitment",
+      "chinese": "承諾, 託付, 堅守",
+      "pos": "n.",
+      "syllables": [
+        "com",
+        "mit",
+        "ment"
+      ],
+      "ipa": "/kəˈmɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "mit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［mit］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8493,
+      "word": "compassion",
+      "chinese": "同情, 憐憫, 慈悲",
+      "pos": "n.",
+      "syllables": [
+        "com",
+        "pas",
+        "sion"
+      ],
+      "ipa": "/kəmˈpæʃ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pas",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［pas］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8494,
+      "word": "comprehension",
+      "chinese": "理解, 包含力",
+      "pos": "n.",
+      "syllables": [
+        "com",
+        "pre",
+        "hen",
+        "sion"
+      ],
+      "ipa": "/ˌkɑːm.prəˈhɛn.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "hen",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［hen］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8495,
+      "word": "concentration",
+      "chinese": "專注, 集中, 濃度",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "cen",
+        "tra",
+        "tion"
+      ],
+      "ipa": "/ˌkɑːn.sənˈtreɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 2 音節［cen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［tra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8496,
+      "word": "confidence",
+      "chinese": "信心, 自信, 信賴",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "fi",
+        "dence"
+      ],
+      "ipa": "/ˈkɑːn.fə.dəns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［dence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8497,
+      "word": "conservation",
+      "chinese": "保育, 節約保存",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "ser",
+        "va",
+        "tion"
+      ],
+      "ipa": "/ˌkɑːn.sɚˈveɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ser",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ser］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "va",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［va］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8498,
+      "word": "contemporary",
+      "chinese": "當代的, 同時代的; 當代人",
+      "pos": "adj./n.",
+      "syllables": [
+        "con",
+        "tem",
+        "po",
+        "rar",
+        "y"
+      ],
+      "ipa": "/kənˈtɛm.pə.rɛr.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "po",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［po］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "rar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［rar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "y",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［y］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8499,
+      "word": "contribution",
+      "chinese": "貢獻, 捐獻, 投稿",
+      "pos": "n.",
+      "syllables": [
+        "con",
+        "tri",
+        "bu",
+        "tion"
+      ],
+      "ipa": "/ˌkɑːn.trəˈbjuː.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［tri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［bu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    },
+    {
+      "id": 8500,
+      "word": "curiosity",
+      "chinese": "好奇心, 奇珍古玩",
+      "pos": "n.",
+      "syllables": [
+        "cu",
+        "ri",
+        "os",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌkjʊr.iˈɑː.sə.t̬i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "cu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［cu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "os",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［os］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "GEPT 英檢",
+      "batchId": "gept-batch-05"
+    }
+  ]
+}

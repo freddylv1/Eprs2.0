@@ -46,7 +46,7 @@ export interface WordItem {
 export interface BatchInfo {
   batchId: string;
   title: string;
-  category: 'moe1200' | 'senior';
+  category: string;
   range: string;
   wordCount: number;
   fileName: string;
@@ -70,7 +70,7 @@ export interface BatchesManifest {
 export interface BatchData {
   batchId: string;
   title: string;
-  category: 'moe1200' | 'senior';
+  category: string;
   range: string;
   totalWords: number;
   words: WordItem[];

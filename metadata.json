@@ -1,6 +1,6 @@
 {
   "name": "EPRS English Phonics Matrix",
-  "description": "Dynamic English Phonics Rules and Syllable Matrix System for MOE 1200 and Senior High Vocabulary",
+  "description": "Dynamic English Phonics Rules and Syllable Matrix System for MOE 1200, Senior High School CEEC 7000 (Levels 1-7), TOEIC, and GEPT Vocabulary",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

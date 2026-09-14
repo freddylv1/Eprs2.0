@@ -1,0 +1,4289 @@
+{
+  "batchId": "senior4-batch-06",
+  "title": "高中參考字彙 第 4 級 - 第 6 批次",
+  "category": "senior4",
+  "range": "3501 ~ 3600",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 3501,
+      "word": "recommensurate",
+      "chinese": "重新相稱的, 同量的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "com",
+        "men",
+        "su",
+        "rate"
+      ],
+      "ipa": "/riː.kəˈmɛn.ʃɚ.ət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［men］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［su］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 5 音節［rate］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3502,
+      "word": "recomprehensive",
+      "chinese": "重新全面性的, 綜合的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "com",
+        "pre",
+        "hen",
+        "sive"
+      ],
+      "ipa": "/riː.ˌkɑːm.prəˈhɛn.sɪv/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［pre］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［hen］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 5 音節［sive］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3503,
+      "word": "reconcur",
+      "chinese": "重新同意, 意見一致, 同時發生",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "cur"
+      ],
+      "ipa": "/riː.kənˈkɝː/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［cur］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3504,
+      "word": "recondone",
+      "chinese": "重新寬恕, 縱容, 包庇",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "done"
+      ],
+      "ipa": "/riː.kənˈdoʊn/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［done］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3505,
+      "word": "reconglomerate",
+      "chinese": "重新企業集團; 聚集",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "con",
+        "glom",
+        "er",
+        "ate"
+      ],
+      "ipa": "/riː.kənˈɡlɑː.mɚ.ət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［glom］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［er］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 5 音節［ate］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3506,
+      "word": "reconspicuous",
+      "chinese": "重新顯眼的, 引人注目的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "con",
+        "spic",
+        "u",
+        "ous"
+      ],
+      "ipa": "/riː.kənˈspɪk.ju.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［spic］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［u］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 5 音節［ous］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3507,
+      "word": "recontemplate",
+      "chinese": "重新沉思, 仔細考慮, 打算",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "tem",
+        "plate"
+      ],
+      "ipa": "/riː.ˈkɑːn.təm.pleɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［tem］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［plate］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3508,
+      "word": "recontroversy",
+      "chinese": "重新爭議, 辯論",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "tro",
+        "ver",
+        "sy"
+      ],
+      "ipa": "/riː.ˈkɑːn.trə.vɝː.si/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［tro］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ver］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 5 音節［sy］",
+          "rule": "字尾 y 轉母音 (R011)",
+          "status": "【適用】",
+          "reason": "字尾 y 接子音後發 /i/ 或 /aɪ/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3509,
+      "word": "recolleague",
+      "chinese": "重新同事, 同僚",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "col",
+        "league"
+      ],
+      "ipa": "/riː.ˈkɑː.liːɡ/",
+      "ruleCodes": [
+        "R004",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［col］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［league］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3510,
+      "word": "recollect",
+      "chinese": "重新收集, 聚集",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "col",
+        "lect"
+      ],
+      "ipa": "/riː.kəˈlɛkt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［col］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［lect］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3511,
+      "word": "recombine",
+      "chinese": "重新結合, 聯合",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "com",
+        "bine"
+      ],
+      "ipa": "/riː.kəmˈbaɪn/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［bine］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3512,
+      "word": "recomfort",
+      "chinese": "重新安慰, 舒適",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "com",
+        "fort"
+      ],
+      "ipa": "/riː.ˈkʌm.fɚt/",
+      "ruleCodes": [
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fort］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3513,
+      "word": "recommand",
+      "chinese": "重新命令, 指揮, 掌控",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "com",
+        "mand"
+      ],
+      "ipa": "/riː.kəˈmænd/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［mand］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3514,
+      "word": "recommit",
+      "chinese": "重新承諾, 犯罪, 致力於",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "com",
+        "mit"
+      ],
+      "ipa": "/riː.kəˈmɪt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［mit］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3515,
+      "word": "recommittee",
+      "chinese": "重新委員會",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "com",
+        "mit",
+        "tee"
+      ],
+      "ipa": "/riː.kəˈmɪt.i/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［mit］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［tee］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3516,
+      "word": "recommon",
+      "chinese": "重新常見的, 共同的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "com",
+        "mon"
+      ],
+      "ipa": "/riː.ˈkɑː.mən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［mon］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3517,
+      "word": "recommunicate",
+      "chinese": "重新溝通, 傳達",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "com",
+        "mu",
+        "ni",
+        "cate"
+      ],
+      "ipa": "/riː.kəˈmjuː.nə.keɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［mu］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ni］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 5 音節［cate］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3518,
+      "word": "recommunity",
+      "chinese": "重新社區, 群體",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "com",
+        "mu",
+        "ni",
+        "ty"
+      ],
+      "ipa": "/riː.kəˈmjuː.nə.t̬i/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［mu］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ni］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 5 音節［ty］",
+          "rule": "字尾 y 轉母音 (R011)",
+          "status": "【適用】",
+          "reason": "字尾 y 接子音後發 /i/ 或 /aɪ/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3519,
+      "word": "recompanion",
+      "chinese": "重新同伴, 夥伴",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "com",
+        "pan",
+        "ion"
+      ],
+      "ipa": "/riː.kəmˈpæn.jən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［pan］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［ion］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3520,
+      "word": "recompare",
+      "chinese": "重新比較, 對比",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "com",
+        "pare"
+      ],
+      "ipa": "/riː.kəmˈpɛr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［pare］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3521,
+      "word": "recompete",
+      "chinese": "重新競爭, 比賽",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "com",
+        "pete"
+      ],
+      "ipa": "/riː.kəmˈpiːt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［pete］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3522,
+      "word": "recomplain",
+      "chinese": "重新抱怨, 投訴",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "com",
+        "plain"
+      ],
+      "ipa": "/riː.kəmˈpleɪn/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［plain］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3523,
+      "word": "recomplex",
+      "chinese": "重新複雜的; 綜合大樓",
+      "pos": "adj./n.",
+      "syllables": [
+        "re",
+        "com",
+        "plex"
+      ],
+      "ipa": "/riː.ˈkɑːm.plɛks/",
+      "ruleCodes": [
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［com］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［plex］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3524,
+      "word": "reconcern",
+      "chinese": "重新關心, 涉及; 擔憂",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "con",
+        "cern"
+      ],
+      "ipa": "/riː.kənˈsɝːn/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［cern］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3525,
+      "word": "reconclude",
+      "chinese": "重新下結論, 結束",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "clude"
+      ],
+      "ipa": "/riː.kənˈkluːd/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［clude］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3526,
+      "word": "recondition",
+      "chinese": "重新狀況, 條件",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "di",
+        "tion"
+      ],
+      "ipa": "/riː.kənˈdɪʃ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［di］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［tion］",
+          "rule": "常見字尾 (R012)",
+          "status": "【適用】",
+          "reason": "名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3527,
+      "word": "reconduct",
+      "chinese": "重新實施, 指導; 行為",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "con",
+        "duct"
+      ],
+      "ipa": "/riː.kənˈdʌkt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［duct］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3528,
+      "word": "reconference",
+      "chinese": "重新會議, 研討會",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "fer",
+        "ence"
+      ],
+      "ipa": "/riː.ˈkɑːn.fɚ.əns/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fer］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 4 音節［ence］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3529,
+      "word": "reconnect",
+      "chinese": "重新連接, 聯絡",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "nect"
+      ],
+      "ipa": "/riː.kəˈnɛkt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［nect］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3530,
+      "word": "reconquer",
+      "chinese": "重新征服, 克服",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "quer"
+      ],
+      "ipa": "/riː.ˈkɑːŋ.kɚ/",
+      "ruleCodes": [
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［quer］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3531,
+      "word": "reconscious",
+      "chinese": "重新有意識的, 察覺的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "con",
+        "scious"
+      ],
+      "ipa": "/riː.ˈkɑːn.ʃəs/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［scious］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3532,
+      "word": "reconsider",
+      "chinese": "重新考慮, 認為",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "sid",
+        "er"
+      ],
+      "ipa": "/riː.kənˈsɪd.ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［sid］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［er］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3533,
+      "word": "recontain",
+      "chinese": "重新包含, 容納",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "tain"
+      ],
+      "ipa": "/riː.kənˈteɪn/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［tain］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3534,
+      "word": "recontinue",
+      "chinese": "重新繼續, 持續",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "tin",
+        "ue"
+      ],
+      "ipa": "/riː.kənˈtɪn.juː/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［tin］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［ue］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3535,
+      "word": "recontrol",
+      "chinese": "重新控制, 掌管",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "con",
+        "trol"
+      ],
+      "ipa": "/riː.kənˈtroʊl/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［trol］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3536,
+      "word": "reconvenient",
+      "chinese": "重新方便的, 便利的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "con",
+        "ven",
+        "ient"
+      ],
+      "ipa": "/riː.kənˈviː.njənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［ven］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［ient］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3537,
+      "word": "reconvince",
+      "chinese": "重新使確信, 說服",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "vince"
+      ],
+      "ipa": "/riː.kənˈvɪns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［vince］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3538,
+      "word": "recourage",
+      "chinese": "重新勇氣, 膽量",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "cour",
+        "age"
+      ],
+      "ipa": "/riː.ˈkɝː.ɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cour］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        },
+        {
+          "syllable": "第 3 音節［age］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3539,
+      "word": "recreate",
+      "chinese": "重新創造, 引起",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "cre",
+        "ate"
+      ],
+      "ipa": "/riː.kriˈeɪt/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cre］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［ate］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3540,
+      "word": "recredit",
+      "chinese": "重新信用, 榮譽; 歸功於",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "cred",
+        "it"
+      ],
+      "ipa": "/riː.ˈkrɛd.ɪt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cred］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［it］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3541,
+      "word": "recriminal",
+      "chinese": "重新罪犯; 犯罪的",
+      "pos": "n./adj.",
+      "syllables": [
+        "re",
+        "crim",
+        "i",
+        "nal"
+      ],
+      "ipa": "/riː.ˈkrɪm.ə.nəl/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［crim］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［i］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［nal］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3542,
+      "word": "recrisis",
+      "chinese": "重新危機, 緊急關頭",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "cri",
+        "sis"
+      ],
+      "ipa": "/riː.ˈkraɪ.sɪs/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cri］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［sis］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3543,
+      "word": "recritical",
+      "chinese": "重新批評的, 關鍵的, 嚴重的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "crit",
+        "i",
+        "cal"
+      ],
+      "ipa": "/riː.ˈkrɪt̬.ɪ.kəl/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［crit］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［i］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［cal］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3544,
+      "word": "reculture",
+      "chinese": "重新文化, 教養",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "cul",
+        "ture"
+      ],
+      "ipa": "/riː.ˈkʌl.tʃɚ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cul］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［ture］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3545,
+      "word": "recurious",
+      "chinese": "重新好奇的, 奇特的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "cu",
+        "ri",
+        "ous"
+      ],
+      "ipa": "/riː.ˈkjʊr.i.əs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cu］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［ri］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ous］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3546,
+      "word": "recurrent",
+      "chinese": "重新當前的; 水流, 電流",
+      "pos": "adj./n.",
+      "syllables": [
+        "re",
+        "cur",
+        "rent"
+      ],
+      "ipa": "/riː.ˈkɝː.ənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［cur］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 3 音節［rent］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3547,
+      "word": "redamage",
+      "chinese": "重新損害, 毀壞",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "dam",
+        "age"
+      ],
+      "ipa": "/riː.ˈdæm.ɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dam］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［age］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3548,
+      "word": "redeclare",
+      "chinese": "重新宣告, 申報",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "clare"
+      ],
+      "ipa": "/riː.dɪˈklɛr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［clare］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3549,
+      "word": "redecrease",
+      "chinese": "重新減少, 降低",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "de",
+        "crease"
+      ],
+      "ipa": "/riː.dɪˈkriːs/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［crease］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3550,
+      "word": "redefeat",
+      "chinese": "重新擊敗, 戰勝; 失敗",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "de",
+        "feat"
+      ],
+      "ipa": "/riː.dɪˈfiːt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［feat］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3551,
+      "word": "redefend",
+      "chinese": "重新防守, 保衛, 辯護",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "fend"
+      ],
+      "ipa": "/riː.dɪˈfɛnd/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［fend］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3552,
+      "word": "redefine",
+      "chinese": "重新給…下定義, 界定",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "fine"
+      ],
+      "ipa": "/riː.dɪˈfaɪn/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［fine］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3553,
+      "word": "redegree",
+      "chinese": "重新度數, 學位, 程度",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "de",
+        "gree"
+      ],
+      "ipa": "/riː.dɪˈɡriː/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［gree］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3554,
+      "word": "redelay",
+      "chinese": "重新延遲, 耽擱",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "de",
+        "lay"
+      ],
+      "ipa": "/riː.dɪˈleɪ/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［lay］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3555,
+      "word": "redeliver",
+      "chinese": "重新遞送, 發表, 接生",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "liv",
+        "er"
+      ],
+      "ipa": "/riː.dɪˈlɪv.ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［liv］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［er］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3556,
+      "word": "redemand",
+      "chinese": "重新要求, 需求",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "de",
+        "mand"
+      ],
+      "ipa": "/riː.dɪˈmænd/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［mand］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3557,
+      "word": "redescribe",
+      "chinese": "重新描述, 描寫",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "scribe"
+      ],
+      "ipa": "/riː.dɪˈskraɪb/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［scribe］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3558,
+      "word": "redesert",
+      "chinese": "重新沙漠; 拋棄, 遺棄",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "des",
+        "ert"
+      ],
+      "ipa": "/riː.ˈdɛz.ɚt/",
+      "ruleCodes": [
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［des］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［ert］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3559,
+      "word": "redeserve",
+      "chinese": "重新應得, 值得",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "serve"
+      ],
+      "ipa": "/riː.dɪˈzɝːv/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［serve］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3560,
+      "word": "redesire",
+      "chinese": "重新渴望, 慾望",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "de",
+        "sire"
+      ],
+      "ipa": "/riː.dɪˈzaɪr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［sire］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3561,
+      "word": "redestroy",
+      "chinese": "重新毀滅, 破壞",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "stroy"
+      ],
+      "ipa": "/riː.dɪˈstrɔɪ/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［stroy］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3562,
+      "word": "redetermine",
+      "chinese": "重新決定, 確定",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "ter",
+        "mine"
+      ],
+      "ipa": "/riː.dɪˈtɝː.mɪn/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［ter］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 4 音節［mine］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3563,
+      "word": "redevelop",
+      "chinese": "重新發展, 開發, 沖洗",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "de",
+        "vel",
+        "op"
+      ],
+      "ipa": "/riː.dɪˈvɛl.əp/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［vel］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［op］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3564,
+      "word": "redevice",
+      "chinese": "重新設備, 裝置, 策略",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "de",
+        "vice"
+      ],
+      "ipa": "/riː.dɪˈvaɪs/",
+      "ruleCodes": [
+        "R003",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［de］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［vice］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3565,
+      "word": "rediffer",
+      "chinese": "重新不同, 相異",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "dif",
+        "fer"
+      ],
+      "ipa": "/riː.ˈdɪf.ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dif］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fer］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3566,
+      "word": "redifficult",
+      "chinese": "重新困難的, 難相處的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "dif",
+        "fi",
+        "cult"
+      ],
+      "ipa": "/riː.ˈdɪf.ə.kəlt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dif］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fi］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［cult］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3567,
+      "word": "redirect",
+      "chinese": "重新直接的; 指導, 導演",
+      "pos": "adj./v.",
+      "syllables": [
+        "re",
+        "di",
+        "rect"
+      ],
+      "ipa": "/riː.daɪˈrɛkt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［di］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［rect］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3568,
+      "word": "redisaster",
+      "chinese": "重新災難, 禍害",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "di",
+        "sas",
+        "ter"
+      ],
+      "ipa": "/riː.dɪˈzæs.tɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［di］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［sas］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［ter］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3569,
+      "word": "rediscover",
+      "chinese": "重新發現, 發覺",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "dis",
+        "cov",
+        "er"
+      ],
+      "ipa": "/riː.dɪˈskʌv.ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dis］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［cov］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［er］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3570,
+      "word": "rediscuss",
+      "chinese": "重新討論, 商議",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "dis",
+        "cuss"
+      ],
+      "ipa": "/riː.dɪˈskʌs/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dis］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［cuss］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3571,
+      "word": "redisease",
+      "chinese": "重新疾病, 弊端",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "dis",
+        "ease"
+      ],
+      "ipa": "/riː.dɪˈziːz/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dis］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［ease］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3572,
+      "word": "redistant",
+      "chinese": "重新遙遠的, 疏遠的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "dis",
+        "tant"
+      ],
+      "ipa": "/riː.ˈdɪs.tənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dis］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［tant］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3573,
+      "word": "redistribute",
+      "chinese": "重新分發, 分配, 散布",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "dis",
+        "trib",
+        "ute"
+      ],
+      "ipa": "/riː.dɪˈstrɪb.juːt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dis］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［trib］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［ute］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3574,
+      "word": "redivide",
+      "chinese": "重新劃分, 分開, 除",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "di",
+        "vide"
+      ],
+      "ipa": "/riː.dɪˈvaɪd/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［di］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［vide］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3575,
+      "word": "redoubt",
+      "chinese": "重新懷疑, 不確定",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "doubt"
+      ],
+      "ipa": "/riː.daʊt/",
+      "ruleCodes": [
+        "R004",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［doubt］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3576,
+      "word": "redurable",
+      "chinese": "重新持久的, 耐用的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "dur",
+        "a",
+        "ble"
+      ],
+      "ipa": "/riː.ˈdʊr.ə.bəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［dur］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 3 音節［a］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ble］",
+          "rule": "成音節 -le (R009)",
+          "status": "【適用】",
+          "reason": "字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3577,
+      "word": "reeager",
+      "chinese": "重新熱切的, 渴望的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "ea",
+        "ger"
+      ],
+      "ipa": "/riː.ˈiː.ɡɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R007",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［ea］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        },
+        {
+          "syllable": "第 3 音節［ger］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3578,
+      "word": "reeconomy",
+      "chinese": "重新經濟, 節約",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "e",
+        "con",
+        "o",
+        "my"
+      ],
+      "ipa": "/riː.ɪˈkɑː.nə.mi/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［con］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［o］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 5 音節［my］",
+          "rule": "字尾 y 轉母音 (R011)",
+          "status": "【適用】",
+          "reason": "字尾 y 接子音後發 /i/ 或 /aɪ/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3579,
+      "word": "reeducate",
+      "chinese": "重新教育, 培養",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "ed",
+        "u",
+        "cate"
+      ],
+      "ipa": "/riː.ˈɛdʒ.u.keɪt/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［ed］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［u］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［cate］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3580,
+      "word": "reeffect",
+      "chinese": "重新效果, 影響, 結果",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "ef",
+        "fect"
+      ],
+      "ipa": "/riː.əˈfɛkt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［ef］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fect］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3581,
+      "word": "reefficient",
+      "chinese": "重新有效率的, 能幹的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "ef",
+        "fi",
+        "cient"
+      ],
+      "ipa": "/riː.ɪˈfɪʃ.ənt/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［ef］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fi］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［cient］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3582,
+      "word": "reeffort",
+      "chinese": "重新努力, 盡力",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ef",
+        "fort"
+      ],
+      "ipa": "/riː.ˈɛf.ɚt/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［ef］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［fort］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3583,
+      "word": "reelectric",
+      "chinese": "重新用電的, 電動的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "e",
+        "lec",
+        "tric"
+      ],
+      "ipa": "/riː.iˈlɛk.trɪk/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［lec］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 4 音節［tric］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3584,
+      "word": "reelement",
+      "chinese": "重新要素, 元素, 成分",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "el",
+        "e",
+        "ment"
+      ],
+      "ipa": "/riː.ˈɛl.ə.mənt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［el］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ment］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3585,
+      "word": "reelevator",
+      "chinese": "重新電梯, 升降機",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "el",
+        "e",
+        "va",
+        "tor"
+      ],
+      "ipa": "/riː.ˈɛl.ə.veɪ.t̬ɚ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［el］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［va］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 5 音節［tor］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3586,
+      "word": "reemerge",
+      "chinese": "重新浮現, 出現",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "e",
+        "merge"
+      ],
+      "ipa": "/riː.ɪˈmɝːdʒ/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［merge］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3587,
+      "word": "reemotion",
+      "chinese": "重新情感, 情緒, 激動",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "e",
+        "mo",
+        "tion"
+      ],
+      "ipa": "/riː.ɪˈmoʊ.ʃən/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［mo］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［tion］",
+          "rule": "常見字尾 (R012)",
+          "status": "【適用】",
+          "reason": "名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3588,
+      "word": "reemphasize",
+      "chinese": "重新強調, 著重",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "em",
+        "pha",
+        "size"
+      ],
+      "ipa": "/riː.ˈɛm.fə.saɪz/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R006",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［em］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［pha］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［size］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3589,
+      "word": "reemploy",
+      "chinese": "重新僱用, 使用",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "em",
+        "ploy"
+      ],
+      "ipa": "/riː.ɪmˈplɔɪ/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［em］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［ploy］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3590,
+      "word": "reenable",
+      "chinese": "重新使能夠, 賦予能力",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "en",
+        "a",
+        "ble"
+      ],
+      "ipa": "/riː.ɪˈneɪ.bəl/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［a］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ble］",
+          "rule": "成音節 -le (R009)",
+          "status": "【適用】",
+          "reason": "字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3591,
+      "word": "reencourage",
+      "chinese": "重新鼓勵, 促進",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "en",
+        "cour",
+        "age"
+      ],
+      "ipa": "/riː.ɪnˈkɝː.ɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［cour］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        },
+        {
+          "syllable": "第 4 音節［age］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3592,
+      "word": "reenergy",
+      "chinese": "重新精力, 能量, 能源",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "en",
+        "er",
+        "gy"
+      ],
+      "ipa": "/riː.ˈɛn.ɚ.dʒi/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R007",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［er］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 4 音節［gy］",
+          "rule": "字尾 y 轉母音 (R011)",
+          "status": "【適用】",
+          "reason": "字尾 y 接子音後發 /i/ 或 /aɪ/"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3593,
+      "word": "reengage",
+      "chinese": "重新從事, 訂婚, 吸引",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "en",
+        "gage"
+      ],
+      "ipa": "/riː.ɪnˈɡeɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［gage］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3594,
+      "word": "reengine",
+      "chinese": "重新引擎, 發動機",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "en",
+        "gine"
+      ],
+      "ipa": "/riː.ˈɛn.dʒɪn/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［gine］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3595,
+      "word": "reenhance",
+      "chinese": "重新提高, 增加, 增強",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "en",
+        "hance"
+      ],
+      "ipa": "/riː.ɪnˈhæns/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［hance］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3596,
+      "word": "reenormous",
+      "chinese": "重新巨大的, 龐大的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "e",
+        "nor",
+        "mous"
+      ],
+      "ipa": "/riː.ɪˈnɔːr.məs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［e］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 3 音節［nor］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 4 音節［mous］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3597,
+      "word": "reensure",
+      "chinese": "重新確保, 保證",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "en",
+        "sure"
+      ],
+      "ipa": "/riː.ɪnˈʃʊr/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［sure］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3598,
+      "word": "reentertain",
+      "chinese": "重新娛樂, 招待",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "en",
+        "ter",
+        "tain"
+      ],
+      "ipa": "/riː.ˌɛn.t̬ɚˈteɪn/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［ter］",
+          "rule": "R 控制母音 (R005)",
+          "status": "【適用】",
+          "reason": "母音接 r 產生捲舌音變"
+        },
+        {
+          "syllable": "第 4 音節［tain］",
+          "rule": "母音組合 (R004)",
+          "status": "【適用】",
+          "reason": "雙母音字母組合依規則發固定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3599,
+      "word": "reentire",
+      "chinese": "重新全部的, 整體的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "en",
+        "tire"
+      ],
+      "ipa": "/riː.ɪnˈtaɪr/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［tire］",
+          "rule": "魔術 e (R003)",
+          "status": "【適用】",
+          "reason": "字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    },
+    {
+      "id": 3600,
+      "word": "reenvironment",
+      "chinese": "重新環境, 自然環境",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "en",
+        "vi",
+        "ron",
+        "ment"
+      ],
+      "ipa": "/riː.ɪnˈvaɪ.rən.mənt/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllable": "第 1 音節［re］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 2 音節［en］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 3 音節［vi］",
+          "rule": "開音節長母音 (R002)",
+          "status": "【適用】",
+          "reason": "以母音結尾之開音節，母音發字母本音長音"
+        },
+        {
+          "syllable": "第 4 音節［ron］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        },
+        {
+          "syllable": "第 5 音節［ment］",
+          "rule": "閉音節短母音 (R001)",
+          "status": "【適用】",
+          "reason": "以子音結尾之閉音節，母音多發短音"
+        }
+      ],
+      "level": "Senior Level 4",
+      "batchId": "senior4-batch-06"
+    }
+  ]
+}

@@ -1,0 +1,4824 @@
+{
+  "batchId": "senior6-batch-03",
+  "title": "高中參考字彙 第 6 級 - 第 3 批次",
+  "category": "senior6",
+  "range": "5201 ~ 5300",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 5201,
+      "word": "nonabject",
+      "chinese": "非卑微的, 淒慘絕望的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ab",
+        "ject"
+      ],
+      "ipa": "/nɑːn.ˈæb.dʒɛkt/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ject",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ject］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5202,
+      "word": "nonabnegation",
+      "chinese": "非克制, 放棄(權利/慾望)",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ab",
+        "ne",
+        "ga",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌæb.nɪˈɡeɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ne",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ne］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ga",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ga］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5203,
+      "word": "nonabominate",
+      "chinese": "非痛恨, 痛惜",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "a",
+        "bom",
+        "i",
+        "nate"
+      ],
+      "ipa": "/nɑːn.əˈbɑː.mə.neɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "nate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［nate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5204,
+      "word": "nonabrogate",
+      "chinese": "非廢除, 宣布取消(法律/約定)",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "ab",
+        "ro",
+        "gate"
+      ],
+      "ipa": "/nɑːn.ˈæb.rə.ɡeɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "gate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［gate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5205,
+      "word": "nonabsolution",
+      "chinese": "非赦免, 免除, 寬恕",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ab",
+        "so",
+        "lu",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌæb.səˈluː.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "so",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［so］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［lu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5206,
+      "word": "nonabstruse",
+      "chinese": "非深奧難懂的, 隱晦的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ab",
+        "struse"
+      ],
+      "ipa": "/nɑːn.æbˈstruːs/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "struse",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［struse］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5207,
+      "word": "nonaccolade",
+      "chinese": "非讚賞, 殊榮, 嘉獎",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ac",
+        "co",
+        "lade"
+      ],
+      "ipa": "/nɑːn.ˈæk.ə.leɪd/",
+      "ruleCodes": [
+        "R003",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "co",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［co］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lade",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［lade］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5208,
+      "word": "nonaccretion",
+      "chinese": "非積聚, 逐漸生長增大",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ac",
+        "cre",
+        "tion"
+      ],
+      "ipa": "/nɑːn.əˈkriː.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［cre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5209,
+      "word": "nonacerbic",
+      "chinese": "非尖酸刻薄的, 辛辣的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "cer",
+        "bic"
+      ],
+      "ipa": "/nɑːn.əˈsɝː.bɪk/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［cer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "bic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［bic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5210,
+      "word": "nonacquiesce",
+      "chinese": "非默認, 默許, 勉強同意",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "ac",
+        "qui",
+        "esce"
+      ],
+      "ipa": "/nɑːn.ˌæk.wiˈɛs/",
+      "ruleCodes": [
+        "R007"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "qui",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［qui］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "esce",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［esce］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5211,
+      "word": "nonacrimonious",
+      "chinese": "非尖苛刺骨的, 激烈的(言詞)",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ac",
+        "ri",
+        "mo",
+        "ni",
+        "ous"
+      ],
+      "ipa": "/nɑːn.ˌæk.rəˈmoʊ.ni.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "mo",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［mo］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ni",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［ni］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 6 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5212,
+      "word": "nonacumen",
+      "chinese": "非敏銳度, 聰明才智, 判斷力",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "cu",
+        "men"
+      ],
+      "ipa": "/nɑːn.ˈæk.jə.mən/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［cu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5213,
+      "word": "nonadage",
+      "chinese": "非格言, 諺語",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ad",
+        "age"
+      ],
+      "ipa": "/nɑːn.ˈæd.ɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "age",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［age］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5214,
+      "word": "nonadamant",
+      "chinese": "非堅定不移的, 堅決的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ad",
+        "a",
+        "mant"
+      ],
+      "ipa": "/nɑːn.ˈæd.ə.mənt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "mant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［mant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5215,
+      "word": "nonadmonish",
+      "chinese": "非告誡, 警告, 責備",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "ad",
+        "mon",
+        "ish"
+      ],
+      "ipa": "/nɑːn.ədˈmɑː.nɪʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mon",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mon］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ish",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ish］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5216,
+      "word": "nonadroit",
+      "chinese": "非靈巧的, 熟練機敏的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "droit"
+      ],
+      "ipa": "/nɑːn.əˈdrɔɪt/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "droit",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［droit］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5217,
+      "word": "nonadulation",
+      "chinese": "非諂媚, 盲目崇拜, 奉承",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ad",
+        "u",
+        "la",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌædʒ.əˈleɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "la",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［la］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5218,
+      "word": "nonadulterate",
+      "chinese": "非摻假, 使變質, 污染",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "a",
+        "dul",
+        "ter",
+        "ate"
+      ],
+      "ipa": "/nɑːn.əˈdʌl.tə.reɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dul",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dul］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5219,
+      "word": "nonaegis",
+      "chinese": "非庇護, 保護, 贊助",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ae",
+        "gis"
+      ],
+      "ipa": "/nɑːn.ˈiː.dʒɪs/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ae",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ae］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gis",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［gis］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5220,
+      "word": "nonaffable",
+      "chinese": "非和藹可親的, 友善平易的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "af",
+        "fa",
+        "ble"
+      ],
+      "ipa": "/nɑːn.ˈæf.ə.bəl/",
+      "ruleCodes": [
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［fa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 4 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5221,
+      "word": "nonaffectation",
+      "chinese": "非做作, 虛假, 假裝",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "af",
+        "fec",
+        "ta",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌæf.ɛkˈteɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fec",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［fec］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5222,
+      "word": "nonaffinity",
+      "chinese": "非密切關係, 親近感, 吸引力",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "af",
+        "fin",
+        "i",
+        "ty"
+      ],
+      "ipa": "/nɑːn.əˈfɪn.ə.t̬i/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fin",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［fin］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5223,
+      "word": "nonaffluence",
+      "chinese": "非富裕, 豐富, 繁榮",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "af",
+        "flu",
+        "ence"
+      ],
+      "ipa": "/nɑːn.ˈæf.luː.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "flu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［flu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5224,
+      "word": "nonaggrandize",
+      "chinese": "非加大, 擴大權勢, 誇大",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "ag",
+        "gran",
+        "dize"
+      ],
+      "ipa": "/nɑːn.əˈɡræn.daɪz/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gran",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［gran］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "dize",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［dize］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5225,
+      "word": "nonagrarian",
+      "chinese": "非土地的, 耕地的, 農業的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "grar",
+        "i",
+        "an"
+      ],
+      "ipa": "/nɑːn.əˈɡrɛr.i.ən/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "grar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［grar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5226,
+      "word": "nonalacrity",
+      "chinese": "非敏捷, 欣然樂意",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "lac",
+        "ri",
+        "ty"
+      ],
+      "ipa": "/nɑːn.əˈlæk.rə.t̬i/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "lac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［lac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5227,
+      "word": "nonalchemy",
+      "chinese": "非煉金術, 神奇魔法",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "al",
+        "che",
+        "my"
+      ],
+      "ipa": "/nɑːn.ˈæl.kə.mi/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "che",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［che］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "my",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［my］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5228,
+      "word": "nonalias",
+      "chinese": "非別名, 化名",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "li",
+        "as"
+      ],
+      "ipa": "/nɑːn.ˈeɪ.li.əs/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "li",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［li］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5229,
+      "word": "nonalliteration",
+      "chinese": "非頭韻",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "al",
+        "lit",
+        "er",
+        "a",
+        "tion"
+      ],
+      "ipa": "/nɑːn.əˌlɪt̬.ɚˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "lit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［lit］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5230,
+      "word": "nonaltercation",
+      "chinese": "非爭吵, 口角",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "al",
+        "ter",
+        "ca",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌɑːl.tɚˈkeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5231,
+      "word": "nonaltruistic",
+      "chinese": "非利他的, 無私的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "al",
+        "tru",
+        "is",
+        "tic"
+      ],
+      "ipa": "/nɑːn.ˌæl.truˈɪs.tɪk/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tru",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［tru］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5232,
+      "word": "nonamalgamate",
+      "chinese": "非合併, 混合, 融合",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "a",
+        "mal",
+        "ga",
+        "mate"
+      ],
+      "ipa": "/nɑːn.əˈmæl.ɡə.meɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mal",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mal］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ga",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ga］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "mate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［mate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5233,
+      "word": "nonambidextrous",
+      "chinese": "非雙手皆靈活的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "am",
+        "bi",
+        "dex",
+        "trous"
+      ],
+      "ipa": "/nɑːn.ˌæm.bɪˈdɛk.strəs/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "dex",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［dex］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "trous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 5 音節［trous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5234,
+      "word": "nonameliorate",
+      "chinese": "非改善, 改良, 變好",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "a",
+        "mel",
+        "io",
+        "rate"
+      ],
+      "ipa": "/nɑːn.əˈmiːl.jə.reɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mel",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mel］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "io",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［io］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "rate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［rate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5235,
+      "word": "nonamiable",
+      "chinese": "非和藹的, 親切隨和的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "mi",
+        "a",
+        "ble"
+      ],
+      "ipa": "/nɑːn.ˈeɪ.mi.ə.bəl/",
+      "ruleCodes": [
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［mi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 5 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5236,
+      "word": "nonamorphous",
+      "chinese": "非無定形的, 散漫的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "mor",
+        "phous"
+      ],
+      "ipa": "/nɑːn.əˈmɔːr.fəs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［mor］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "phous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［phous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5237,
+      "word": "nonanachronism",
+      "chinese": "非年代錯誤, 落伍過時之物",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "nach",
+        "ro",
+        "nism"
+      ],
+      "ipa": "/nɑːn.əˈnæk.rə.nɪ.zəm/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "nach",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［nach］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "nism",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［nism］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5238,
+      "word": "nonanalgesic",
+      "chinese": "非止痛藥; 止痛的",
+      "pos": "n./adj.",
+      "syllables": [
+        "non",
+        "an",
+        "al",
+        "ge",
+        "sic"
+      ],
+      "ipa": "/nɑːn.ˌæn.əlˈdʒiː.zɪk/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ge",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ge］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "sic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［sic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5239,
+      "word": "nonanarchy",
+      "chinese": "非無政府狀態, 混亂無秩序",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "an",
+        "ar",
+        "chy"
+      ],
+      "ipa": "/nɑːn.ˈæn.ɚ.ki/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "chy",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［chy］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5240,
+      "word": "nonanathema",
+      "chinese": "非極度令人厭惡的人事物",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "nath",
+        "e",
+        "ma"
+      ],
+      "ipa": "/nɑːn.əˈnæθ.ə.mə/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "nath",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［nath］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5241,
+      "word": "nonancillary",
+      "chinese": "非輔助的, 附屬的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "an",
+        "cil",
+        "lar",
+        "y"
+      ],
+      "ipa": "/nɑːn.ˈæn.sə.lɛr.i/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cil",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cil］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［lar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "y",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［y］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5242,
+      "word": "nonanimosity",
+      "chinese": "非仇恨, 敵意",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "an",
+        "i",
+        "mos",
+        "i",
+        "ty"
+      ],
+      "ipa": "/nɑːn.ˌæn.əˈmɑː.sə.t̬i/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "mos",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［mos］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 6 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5243,
+      "word": "nonanomaly",
+      "chinese": "非異常, 反常, 不規則",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "nom",
+        "a",
+        "ly"
+      ],
+      "ipa": "/nɑːn.əˈnɑː.mə.li/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "nom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［nom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5244,
+      "word": "nonantipathy",
+      "chinese": "非強烈反感, 厭惡",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "an",
+        "tip",
+        "a",
+        "thy"
+      ],
+      "ipa": "/nɑːn.ænˈtɪp.ə.θi/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tip",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tip］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "thy",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［thy］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5245,
+      "word": "nonantiquated",
+      "chinese": "非陳舊過時的, 老舊的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "an",
+        "ti",
+        "quat",
+        "ed"
+      ],
+      "ipa": "/nɑːn.ˈæn.t̬ə.kweɪ.t̬ɪd/",
+      "ruleCodes": [
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "quat",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［quat］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ed",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ed］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5246,
+      "word": "nonantithesis",
+      "chinese": "非對立面, 對照, 對偶",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "an",
+        "tith",
+        "e",
+        "sis"
+      ],
+      "ipa": "/nɑːn.ænˈtɪθ.ə.sɪs/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tith",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tith］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "sis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［sis］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5247,
+      "word": "nonapathetic",
+      "chinese": "非冷漠的, 漠不關心的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ap",
+        "a",
+        "thet",
+        "ic"
+      ],
+      "ipa": "/nɑːn.ˌæp.əˈθɛt̬.ɪk/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "thet",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［thet］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5248,
+      "word": "nonaphorism",
+      "chinese": "非格言, 警句",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "aph",
+        "o",
+        "rism"
+      ],
+      "ipa": "/nɑːn.ˈæf.ə.rɪ.zəm/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "aph",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［aph］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "rism",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［rism］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5249,
+      "word": "nonaplomb",
+      "chinese": "非沉著, 泰然自若",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "plomb"
+      ],
+      "ipa": "/nɑːn.əˈplɑːm/",
+      "ruleCodes": [
+        "R008",
+        "R016"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "plomb",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［plomb］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5250,
+      "word": "nonapocryphal",
+      "chinese": "非真實性可疑的, 杜撰的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "poc",
+        "ry",
+        "phal"
+      ],
+      "ipa": "/nɑːn.əˈpɑː.krə.fəl/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "poc",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［poc］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "phal",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［phal］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5251,
+      "word": "nonapprobation",
+      "chinese": "非贊許, 認可, 批准",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ap",
+        "pro",
+        "ba",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌæp.rəˈbeɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ba",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ba］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5252,
+      "word": "nonappropriate",
+      "chinese": "非挪用, 撥款; 適當的",
+      "pos": "v./adj.",
+      "syllables": [
+        "non",
+        "ap",
+        "pro",
+        "pri",
+        "ate"
+      ],
+      "ipa": "/nɑːn.əˈproʊ.pri.eɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pri",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［pri］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5253,
+      "word": "nonapropos",
+      "chinese": "非適時的, 恰當的; 關於",
+      "pos": "adj./prep.",
+      "syllables": [
+        "non",
+        "ap",
+        "ro",
+        "pos"
+      ],
+      "ipa": "/nɑːn.ˌæp.rəˈpoʊ/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pos",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［pos］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5254,
+      "word": "nonaptitude",
+      "chinese": "非性向, 天賦, 才能",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ap",
+        "ti",
+        "tude"
+      ],
+      "ipa": "/nɑːn.ˈæp.tə.tuːd/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tude",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［tude］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5255,
+      "word": "nonaqueduct",
+      "chinese": "非引水渠, 高架水橋",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "aq",
+        "ue",
+        "duct"
+      ],
+      "ipa": "/nɑːn.ˈæk.wə.dʌkt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "aq",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［aq］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ue",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ue］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "duct",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［duct］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5256,
+      "word": "nonarable",
+      "chinese": "非適於耕種的, 可耕的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ar",
+        "a",
+        "ble"
+      ],
+      "ipa": "/nɑːn.ˈær.ə.bəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 4 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5257,
+      "word": "nonarbiter",
+      "chinese": "非仲裁人, 權威評判者",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "bi",
+        "ter"
+      ],
+      "ipa": "/nɑːn.ˈɑːr.bə.t̬ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5258,
+      "word": "nonarbitration",
+      "chinese": "非公斷, 仲裁",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "bi",
+        "tra",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌɑːr.bəˈtreɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［tra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5259,
+      "word": "nonarcane",
+      "chinese": "非神祕的, 晦澀難懂的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ar",
+        "cane"
+      ],
+      "ipa": "/nɑːn.ɑːrˈkeɪn/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cane",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［cane］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5260,
+      "word": "nonarchetype",
+      "chinese": "非原型, 典型典範",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "che",
+        "type"
+      ],
+      "ipa": "/nɑːn.ˈɑːr.kə.taɪp/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "che",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［che］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "type",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［type］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5261,
+      "word": "nonarchipelago",
+      "chinese": "非群島, 多島海域",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "chi",
+        "pel",
+        "a",
+        "go"
+      ],
+      "ipa": "/nɑːn.ˌɑːr.kəˈpɛl.ə.ɡoʊ/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "chi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［chi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pel",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［pel］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "go",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 6 音節［go］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5262,
+      "word": "nonarduous",
+      "chinese": "非費力的, 艱辛的, 險峻的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ar",
+        "du",
+        "ous"
+      ],
+      "ipa": "/nɑːn.ˈɑːr.dʒu.əs/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "du",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［du］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5263,
+      "word": "nonaristocracy",
+      "chinese": "非貴族階層, 貴族統治",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "is",
+        "toc",
+        "ra",
+        "cy"
+      ],
+      "ipa": "/nɑːn.ˌær.əˈstɑː.krə.si/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "toc",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［toc］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "cy",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 6 音節［cy］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5264,
+      "word": "nonarmada",
+      "chinese": "非艦隊, 無敵艦隊",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "ma",
+        "da"
+      ],
+      "ipa": "/nɑːn.ɑːrˈmɑː.də/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "da",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［da］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5265,
+      "word": "nonarrant",
+      "chinese": "非徹頭徹尾的, 聲名狼藉的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "ar",
+        "rant"
+      ],
+      "ipa": "/nɑːn.ˈær.ənt/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "rant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［rant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5266,
+      "word": "nonarrogate",
+      "chinese": "非冒稱, 擅取, 霸占",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "ar",
+        "ro",
+        "gate"
+      ],
+      "ipa": "/nɑːn.ˈær.ə.ɡeɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "gate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［gate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5267,
+      "word": "nonarsenal",
+      "chinese": "非軍火庫, 武器儲備",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ar",
+        "se",
+        "nal"
+      ],
+      "ipa": "/nɑːn.ˈɑːr.sən.əl/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "se",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［se］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "nal",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［nal］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5268,
+      "word": "nonarticulate",
+      "chinese": "非清楚表達; 口齒伶俐的",
+      "pos": "v./adj.",
+      "syllables": [
+        "non",
+        "ar",
+        "tic",
+        "u",
+        "late"
+      ],
+      "ipa": "/nɑːn.ɑːrˈtɪk.jə.lət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "late",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［late］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5269,
+      "word": "nonascendant",
+      "chinese": "非占優勢的, 上升的",
+      "pos": "adj./n.",
+      "syllables": [
+        "non",
+        "as",
+        "cen",
+        "dant"
+      ],
+      "ipa": "/nɑːn.əˈsɛn.dənt/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "dant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［dant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5270,
+      "word": "nonascetic",
+      "chinese": "非苦行的, 禁慾的; 苦行僧",
+      "pos": "adj./n.",
+      "syllables": [
+        "non",
+        "as",
+        "cet",
+        "ic"
+      ],
+      "ipa": "/nɑːn.əˈsɛt̬.ɪk/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cet",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cet］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5271,
+      "word": "nonascribe",
+      "chinese": "非把…歸因於, 歸咎於",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "as",
+        "cribe"
+      ],
+      "ipa": "/nɑːn.əˈskraɪb/",
+      "ruleCodes": [
+        "R003",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cribe",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［cribe］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5272,
+      "word": "nonaseptic",
+      "chinese": "非無菌的, 防腐的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "a",
+        "sep",
+        "tic"
+      ],
+      "ipa": "/nɑːn.eɪˈsɛp.tɪk/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sep",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sep］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5273,
+      "word": "nonasperity",
+      "chinese": "非嚴酷, 粗暴, 刻薄",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "as",
+        "per",
+        "i",
+        "ty"
+      ],
+      "ipa": "/nɑːn.æˈspɛr.ə.t̬i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "per",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［per］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5274,
+      "word": "nonaspersion",
+      "chinese": "非誹謗, 中傷",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "as",
+        "per",
+        "sion"
+      ],
+      "ipa": "/nɑːn.əˈspɝː.ʒən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "per",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［per］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5275,
+      "word": "nonassiduous",
+      "chinese": "非勤勉刻苦的, 堅持不懈的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "as",
+        "sid",
+        "u",
+        "ous"
+      ],
+      "ipa": "/nɑːn.əˈsɪdʒ.u.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sid",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sid］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 5 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5276,
+      "word": "nonassuage",
+      "chinese": "非緩和, 減輕, 平息",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "as",
+        "suage"
+      ],
+      "ipa": "/nɑːn.əˈsweɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "suage",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［suage］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5277,
+      "word": "nonastringent",
+      "chinese": "非收斂性的, 嚴苛的",
+      "pos": "adj./n.",
+      "syllables": [
+        "non",
+        "as",
+        "trin",
+        "gent"
+      ],
+      "ipa": "/nɑːn.əˈstrɪn.dʒənt/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "trin",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［trin］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "gent",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［gent］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5278,
+      "word": "nonastute",
+      "chinese": "非機敏的, 精明的, 狡黠的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "as",
+        "tute"
+      ],
+      "ipa": "/nɑːn.əˈstuːt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tute",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［tute］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5279,
+      "word": "nonatavism",
+      "chinese": "非隔代遺傳, 返祖現象",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "at",
+        "a",
+        "vism"
+      ],
+      "ipa": "/nɑːn.ˈæt̬.ə.vɪ.zəm/",
+      "ruleCodes": [
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "at",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［at］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "vism",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［vism］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5280,
+      "word": "nonatone",
+      "chinese": "非贖罪, 彌補",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "a",
+        "tone"
+      ],
+      "ipa": "/nɑːn.əˈtoʊn/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tone",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［tone］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5281,
+      "word": "nonatrocity",
+      "chinese": "非暴行, 殘暴行為",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "troc",
+        "i",
+        "ty"
+      ],
+      "ipa": "/nɑːn.əˈtrɑː.sə.t̬i/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "troc",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［troc］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5282,
+      "word": "nonatrophy",
+      "chinese": "非萎縮, 衰退",
+      "pos": "v./n.",
+      "syllables": [
+        "non",
+        "at",
+        "ro",
+        "phy"
+      ],
+      "ipa": "/nɑːn.ˈæt.rə.fi/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "at",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［at］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "phy",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［phy］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5283,
+      "word": "nonattenuate",
+      "chinese": "非使變弱, 稀釋, 減輕",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "at",
+        "ten",
+        "u",
+        "ate"
+      ],
+      "ipa": "/nɑːn.əˈtɛn.ju.eɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "at",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［at］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ten",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ten］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5284,
+      "word": "nonaudacity",
+      "chinese": "非大膽, 勇猛, 放肆",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "au",
+        "dac",
+        "i",
+        "ty"
+      ],
+      "ipa": "/nɑːn.ɑːˈdæs.ə.t̬i/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5285,
+      "word": "nonaugury",
+      "chinese": "非占卜, 預兆, 前兆",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "au",
+        "gu",
+        "ry"
+      ],
+      "ipa": "/nɑːn.ˈɑː.ɡjʊ.ri/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［gu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5286,
+      "word": "nonauspicious",
+      "chinese": "非吉利的, 吉祥的, 有前途的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "aus",
+        "pi",
+        "cious"
+      ],
+      "ipa": "/nɑːn.ɑːˈspɪʃ.əs/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "aus",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［aus］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［cious］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5287,
+      "word": "nonauthoritarian",
+      "chinese": "非獨裁主義的, 專制的",
+      "pos": "adj./n.",
+      "syllables": [
+        "non",
+        "au",
+        "thor",
+        "i",
+        "tar",
+        "i",
+        "an"
+      ],
+      "ipa": "/nɑːn.əˌθɔːr.əˈtɛr.i.ən/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "thor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［thor］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 5 音節［tar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 6 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 7,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 7 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5288,
+      "word": "nonautomaton",
+      "chinese": "非自動機械, 機器人",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "au",
+        "tom",
+        "a",
+        "ton"
+      ],
+      "ipa": "/nɑːn.ɑːˈtɑː.mə.tɑːn/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ton",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ton］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5289,
+      "word": "nonautopsy",
+      "chinese": "非驗屍, 剖檢分析",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "au",
+        "top",
+        "sy"
+      ],
+      "ipa": "/nɑːn.ˈɑː.tɑːp.si/",
+      "ruleCodes": [
+        "R004",
+        "R011",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "top",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［top］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sy",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［sy］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5290,
+      "word": "nonauxiliary",
+      "chinese": "非輔助的, 備用的; 助動詞",
+      "pos": "adj./n.",
+      "syllables": [
+        "non",
+        "aux",
+        "il",
+        "ia",
+        "ry"
+      ],
+      "ipa": "/nɑːn.ɑːɡˈzɪl.jɚ.i/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "aux",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［aux］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "il",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［il］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ia",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ia］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5291,
+      "word": "nonavalanche",
+      "chinese": "非雪崩, 山崩, 湧來之物",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "av",
+        "a",
+        "lanche"
+      ],
+      "ipa": "/nɑːn.ˈæv.əl.æntʃ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "av",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［av］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lanche",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［lanche］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5292,
+      "word": "nonavarice",
+      "chinese": "非貪婪, 貪得無厭",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "av",
+        "a",
+        "rice"
+      ],
+      "ipa": "/nɑːn.ˈæv.ɚ.ɪs/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "av",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［av］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "rice",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［rice］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5293,
+      "word": "nonaver",
+      "chinese": "非斷言, 堅稱, 證實",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "a",
+        "ver"
+      ],
+      "ipa": "/nɑːn.əˈvɝː/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ver",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ver］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5294,
+      "word": "nonavid",
+      "chinese": "非熱望的, 渴望的, 狂熱的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "av",
+        "id"
+      ],
+      "ipa": "/nɑːn.ˈæv.ɪd/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "av",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［av］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "id",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［id］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5295,
+      "word": "nonavocation",
+      "chinese": "非副業, 業餘愛好",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "av",
+        "o",
+        "ca",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌæv.əˈkeɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "av",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［av］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5296,
+      "word": "nonaxiom",
+      "chinese": "非公理, 自明之理, 原則",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ax",
+        "i",
+        "om"
+      ],
+      "ipa": "/nɑːn.ˈæk.si.əm/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ax",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ax］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "om",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［om］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5297,
+      "word": "nonazure",
+      "chinese": "非蔚藍色的, 天藍色的",
+      "pos": "adj./n.",
+      "syllables": [
+        "non",
+        "az",
+        "ure"
+      ],
+      "ipa": "/nɑːn.ˈæʒ.ɚ/",
+      "ruleCodes": [
+        "R003",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "az",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［az］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ure",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［ure］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5298,
+      "word": "reaberration",
+      "chinese": "再脫離常軌, 異常現象, 偏離",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ab",
+        "er",
+        "ra",
+        "tion"
+      ],
+      "ipa": "/riː.ˌæb.əˈreɪ.ʃən/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5299,
+      "word": "reabhor",
+      "chinese": "再憎恨, 厭惡",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "ab",
+        "hor"
+      ],
+      "ipa": "/riː.æbˈhɔːr/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "hor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［hor］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    },
+    {
+      "id": 5300,
+      "word": "reabject",
+      "chinese": "再卑微的, 淒慘絕望的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "ab",
+        "ject"
+      ],
+      "ipa": "/riː.ˈæb.dʒɛkt/",
+      "ruleCodes": [
+        "R004",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ject",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ject］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "Senior Level 6",
+      "batchId": "senior6-batch-03"
+    }
+  ]
+}

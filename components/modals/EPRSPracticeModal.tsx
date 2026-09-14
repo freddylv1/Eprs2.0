@@ -200,45 +200,48 @@ export function EPRSPracticeModal({
     let audioFallbackTimer: NodeJS.Timeout | null = null;
     const delayMs = Math.round(stepDelay * 1000);
 
-    if (currentStep === PracticeStep.WORD_SHOWN) {
-      // 1. 看單字 -> 朗讀單字英文 -> 讀完後等待 delayMs -> 跳到 2. 解中文
-      playCurrentWordAudio(() => {
-        stepTimer = setTimeout(() => {
+    const initTimer = setTimeout(() => {
+      if (currentStep === PracticeStep.WORD_SHOWN) {
+        // 1. 看單字 -> 朗讀單字英文 -> 讀完後等待 delayMs -> 跳到 2. 解中文
+        playCurrentWordAudio(() => {
+          stepTimer = setTimeout(() => {
+            setCurrentStep(PracticeStep.CHINESE_SHOWN);
+          }, delayMs);
+        });
+
+        // 安全超時 Fallback
+        audioFallbackTimer = setTimeout(() => {
           setCurrentStep(PracticeStep.CHINESE_SHOWN);
-        }, delayMs);
-      });
+        }, delayMs + 3500);
+      } else if (currentStep === PracticeStep.CHINESE_SHOWN) {
+        // 2. 解中文 -> 離線朗讀中文釋義 -> 讀完後等待 delayMs -> 跳到 3. 音節拆解與發音
+        playCurrentChineseAudio(() => {
+          stepTimer = setTimeout(() => {
+            setCurrentStep(PracticeStep.SYLLABLES_AND_AUDIO);
+          }, delayMs);
+        });
 
-      // 安全超時 Fallback
-      audioFallbackTimer = setTimeout(() => {
-        setCurrentStep(PracticeStep.CHINESE_SHOWN);
-      }, delayMs + 3500);
-    } else if (currentStep === PracticeStep.CHINESE_SHOWN) {
-      // 2. 解中文 -> 離線朗讀中文釋義 -> 讀完後等待 delayMs -> 跳到 3. 音節拆解與發音
-      playCurrentChineseAudio(() => {
-        stepTimer = setTimeout(() => {
+        // 安全超時 Fallback
+        audioFallbackTimer = setTimeout(() => {
           setCurrentStep(PracticeStep.SYLLABLES_AND_AUDIO);
-        }, delayMs);
-      });
+        }, delayMs + 3500);
+      } else if (currentStep === PracticeStep.SYLLABLES_AND_AUDIO) {
+        // 3. 音節拆解與發音 -> 朗讀單字英文 -> 讀完後等待 delayMs -> 跳到下一個字
+        playCurrentWordAudio(() => {
+          stepTimer = setTimeout(() => {
+            handleNextWord();
+          }, delayMs);
+        });
 
-      // 安全超時 Fallback
-      audioFallbackTimer = setTimeout(() => {
-        setCurrentStep(PracticeStep.SYLLABLES_AND_AUDIO);
-      }, delayMs + 3500);
-    } else if (currentStep === PracticeStep.SYLLABLES_AND_AUDIO) {
-      // 3. 音節拆解與發音 -> 朗讀單字英文 -> 讀完後等待 delayMs -> 跳到下一個字
-      playCurrentWordAudio(() => {
-        stepTimer = setTimeout(() => {
+        // 安全超時 Fallback
+        audioFallbackTimer = setTimeout(() => {
           handleNextWord();
-        }, delayMs);
-      });
-
-      // 安全超時 Fallback
-      audioFallbackTimer = setTimeout(() => {
-        handleNextWord();
-      }, delayMs + 3500);
-    }
+        }, delayMs + 3500);
+      }
+    }, 50);
 
     return () => {
+      clearTimeout(initTimer);
       if (stepTimer) clearTimeout(stepTimer);
       if (audioFallbackTimer) clearTimeout(audioFallbackTimer);
     };
@@ -247,7 +250,8 @@ export function EPRSPracticeModal({
   // Modal 關閉或被覆蓋時暫停自動播放
   useEffect(() => {
     if (!isOpen || isOverlaid) {
-      setIsAutoPlaying(false);
+      const t = setTimeout(() => setIsAutoPlaying(false), 0);
+      return () => clearTimeout(t);
     }
   }, [isOpen, isOverlaid]);
 

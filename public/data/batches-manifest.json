@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "updatedAt": "2026-09-10T06:56:56.139Z",
+  "version": "4.0.0",
+  "updatedAt": "2026-09-14T13:50:39.717Z",
   "categories": [
     {
       "id": "moe1200",
@@ -110,7 +110,7 @@
     {
       "id": "senior",
       "name": "高中大考參考詞彙 第一級",
-      "description": "大考中心高中 4500/7000 字彙第一級，具備音節規則與音變深度推導",
+      "description": "大考中心高中 7000 字彙第一級 (1 ~ 1000 字)，具備音節規則與音變深度推導",
       "totalBatches": 10,
       "totalWords": 1000,
       "batches": [
@@ -193,6 +193,718 @@
           "range": "901 ~ 1000",
           "wordCount": 100,
           "fileName": "senior-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "senior2",
+      "name": "高中大考參考詞彙 第二級",
+      "description": "大考中心高中 7000 核心詞彙第 2 級 (1001 ~ 2000 字)，具備音節拆解、IPA音標與自然發音法則推導",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior2-batch-01",
+          "title": "高中 Level 2 - 批次 01",
+          "category": "senior2",
+          "range": "1001 ~ 1100",
+          "wordCount": 100,
+          "fileName": "senior2-batch-01.json"
+        },
+        {
+          "batchId": "senior2-batch-02",
+          "title": "高中 Level 2 - 批次 02",
+          "category": "senior2",
+          "range": "1101 ~ 1200",
+          "wordCount": 100,
+          "fileName": "senior2-batch-02.json"
+        },
+        {
+          "batchId": "senior2-batch-03",
+          "title": "高中 Level 2 - 批次 03",
+          "category": "senior2",
+          "range": "1201 ~ 1300",
+          "wordCount": 100,
+          "fileName": "senior2-batch-03.json"
+        },
+        {
+          "batchId": "senior2-batch-04",
+          "title": "高中 Level 2 - 批次 04",
+          "category": "senior2",
+          "range": "1301 ~ 1400",
+          "wordCount": 100,
+          "fileName": "senior2-batch-04.json"
+        },
+        {
+          "batchId": "senior2-batch-05",
+          "title": "高中 Level 2 - 批次 05",
+          "category": "senior2",
+          "range": "1401 ~ 1500",
+          "wordCount": 100,
+          "fileName": "senior2-batch-05.json"
+        },
+        {
+          "batchId": "senior2-batch-06",
+          "title": "高中 Level 2 - 批次 06",
+          "category": "senior2",
+          "range": "1501 ~ 1600",
+          "wordCount": 100,
+          "fileName": "senior2-batch-06.json"
+        },
+        {
+          "batchId": "senior2-batch-07",
+          "title": "高中 Level 2 - 批次 07",
+          "category": "senior2",
+          "range": "1601 ~ 1700",
+          "wordCount": 100,
+          "fileName": "senior2-batch-07.json"
+        },
+        {
+          "batchId": "senior2-batch-08",
+          "title": "高中 Level 2 - 批次 08",
+          "category": "senior2",
+          "range": "1701 ~ 1800",
+          "wordCount": 100,
+          "fileName": "senior2-batch-08.json"
+        },
+        {
+          "batchId": "senior2-batch-09",
+          "title": "高中 Level 2 - 批次 09",
+          "category": "senior2",
+          "range": "1801 ~ 1900",
+          "wordCount": 100,
+          "fileName": "senior2-batch-09.json"
+        },
+        {
+          "batchId": "senior2-batch-10",
+          "title": "高中 Level 2 - 批次 10",
+          "category": "senior2",
+          "range": "1901 ~ 2000",
+          "wordCount": 100,
+          "fileName": "senior2-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "senior3",
+      "name": "高中大考參考詞彙 第三級",
+      "description": "大考中心高中 7000 核心詞彙第 3 級 (2001 ~ 3000 字)，具備音節拆解、IPA音標與自然發音法則推導",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior3-batch-01",
+          "title": "高中 Level 3 - 批次 01",
+          "category": "senior3",
+          "range": "2001 ~ 2100",
+          "wordCount": 100,
+          "fileName": "senior3-batch-01.json"
+        },
+        {
+          "batchId": "senior3-batch-02",
+          "title": "高中 Level 3 - 批次 02",
+          "category": "senior3",
+          "range": "2101 ~ 2200",
+          "wordCount": 100,
+          "fileName": "senior3-batch-02.json"
+        },
+        {
+          "batchId": "senior3-batch-03",
+          "title": "高中 Level 3 - 批次 03",
+          "category": "senior3",
+          "range": "2201 ~ 2300",
+          "wordCount": 100,
+          "fileName": "senior3-batch-03.json"
+        },
+        {
+          "batchId": "senior3-batch-04",
+          "title": "高中 Level 3 - 批次 04",
+          "category": "senior3",
+          "range": "2301 ~ 2400",
+          "wordCount": 100,
+          "fileName": "senior3-batch-04.json"
+        },
+        {
+          "batchId": "senior3-batch-05",
+          "title": "高中 Level 3 - 批次 05",
+          "category": "senior3",
+          "range": "2401 ~ 2500",
+          "wordCount": 100,
+          "fileName": "senior3-batch-05.json"
+        },
+        {
+          "batchId": "senior3-batch-06",
+          "title": "高中 Level 3 - 批次 06",
+          "category": "senior3",
+          "range": "2501 ~ 2600",
+          "wordCount": 100,
+          "fileName": "senior3-batch-06.json"
+        },
+        {
+          "batchId": "senior3-batch-07",
+          "title": "高中 Level 3 - 批次 07",
+          "category": "senior3",
+          "range": "2601 ~ 2700",
+          "wordCount": 100,
+          "fileName": "senior3-batch-07.json"
+        },
+        {
+          "batchId": "senior3-batch-08",
+          "title": "高中 Level 3 - 批次 08",
+          "category": "senior3",
+          "range": "2701 ~ 2800",
+          "wordCount": 100,
+          "fileName": "senior3-batch-08.json"
+        },
+        {
+          "batchId": "senior3-batch-09",
+          "title": "高中 Level 3 - 批次 09",
+          "category": "senior3",
+          "range": "2801 ~ 2900",
+          "wordCount": 100,
+          "fileName": "senior3-batch-09.json"
+        },
+        {
+          "batchId": "senior3-batch-10",
+          "title": "高中 Level 3 - 批次 10",
+          "category": "senior3",
+          "range": "2901 ~ 3000",
+          "wordCount": 100,
+          "fileName": "senior3-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "senior4",
+      "name": "高中大考參考詞彙 第四級",
+      "description": "大考中心高中 7000 核心詞彙第 4 級 (3001 ~ 4000 字)，具備音節拆解、IPA音標與自然發音法則推導",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior4-batch-01",
+          "title": "高中 Level 4 - 批次 01",
+          "category": "senior4",
+          "range": "3001 ~ 3100",
+          "wordCount": 100,
+          "fileName": "senior4-batch-01.json"
+        },
+        {
+          "batchId": "senior4-batch-02",
+          "title": "高中 Level 4 - 批次 02",
+          "category": "senior4",
+          "range": "3101 ~ 3200",
+          "wordCount": 100,
+          "fileName": "senior4-batch-02.json"
+        },
+        {
+          "batchId": "senior4-batch-03",
+          "title": "高中 Level 4 - 批次 03",
+          "category": "senior4",
+          "range": "3201 ~ 3300",
+          "wordCount": 100,
+          "fileName": "senior4-batch-03.json"
+        },
+        {
+          "batchId": "senior4-batch-04",
+          "title": "高中 Level 4 - 批次 04",
+          "category": "senior4",
+          "range": "3301 ~ 3400",
+          "wordCount": 100,
+          "fileName": "senior4-batch-04.json"
+        },
+        {
+          "batchId": "senior4-batch-05",
+          "title": "高中 Level 4 - 批次 05",
+          "category": "senior4",
+          "range": "3401 ~ 3500",
+          "wordCount": 100,
+          "fileName": "senior4-batch-05.json"
+        },
+        {
+          "batchId": "senior4-batch-06",
+          "title": "高中 Level 4 - 批次 06",
+          "category": "senior4",
+          "range": "3501 ~ 3600",
+          "wordCount": 100,
+          "fileName": "senior4-batch-06.json"
+        },
+        {
+          "batchId": "senior4-batch-07",
+          "title": "高中 Level 4 - 批次 07",
+          "category": "senior4",
+          "range": "3601 ~ 3700",
+          "wordCount": 100,
+          "fileName": "senior4-batch-07.json"
+        },
+        {
+          "batchId": "senior4-batch-08",
+          "title": "高中 Level 4 - 批次 08",
+          "category": "senior4",
+          "range": "3701 ~ 3800",
+          "wordCount": 100,
+          "fileName": "senior4-batch-08.json"
+        },
+        {
+          "batchId": "senior4-batch-09",
+          "title": "高中 Level 4 - 批次 09",
+          "category": "senior4",
+          "range": "3801 ~ 3900",
+          "wordCount": 100,
+          "fileName": "senior4-batch-09.json"
+        },
+        {
+          "batchId": "senior4-batch-10",
+          "title": "高中 Level 4 - 批次 10",
+          "category": "senior4",
+          "range": "3901 ~ 4000",
+          "wordCount": 100,
+          "fileName": "senior4-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "senior5",
+      "name": "高中大考參考詞彙 第五級",
+      "description": "大考中心高中 7000 核心詞彙第 5 級 (4001 ~ 5000 字)，具備音節拆解、IPA音標與自然發音法則推導",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior5-batch-01",
+          "title": "高中 Level 5 - 批次 01",
+          "category": "senior5",
+          "range": "4001 ~ 4100",
+          "wordCount": 100,
+          "fileName": "senior5-batch-01.json"
+        },
+        {
+          "batchId": "senior5-batch-02",
+          "title": "高中 Level 5 - 批次 02",
+          "category": "senior5",
+          "range": "4101 ~ 4200",
+          "wordCount": 100,
+          "fileName": "senior5-batch-02.json"
+        },
+        {
+          "batchId": "senior5-batch-03",
+          "title": "高中 Level 5 - 批次 03",
+          "category": "senior5",
+          "range": "4201 ~ 4300",
+          "wordCount": 100,
+          "fileName": "senior5-batch-03.json"
+        },
+        {
+          "batchId": "senior5-batch-04",
+          "title": "高中 Level 5 - 批次 04",
+          "category": "senior5",
+          "range": "4301 ~ 4400",
+          "wordCount": 100,
+          "fileName": "senior5-batch-04.json"
+        },
+        {
+          "batchId": "senior5-batch-05",
+          "title": "高中 Level 5 - 批次 05",
+          "category": "senior5",
+          "range": "4401 ~ 4500",
+          "wordCount": 100,
+          "fileName": "senior5-batch-05.json"
+        },
+        {
+          "batchId": "senior5-batch-06",
+          "title": "高中 Level 5 - 批次 06",
+          "category": "senior5",
+          "range": "4501 ~ 4600",
+          "wordCount": 100,
+          "fileName": "senior5-batch-06.json"
+        },
+        {
+          "batchId": "senior5-batch-07",
+          "title": "高中 Level 5 - 批次 07",
+          "category": "senior5",
+          "range": "4601 ~ 4700",
+          "wordCount": 100,
+          "fileName": "senior5-batch-07.json"
+        },
+        {
+          "batchId": "senior5-batch-08",
+          "title": "高中 Level 5 - 批次 08",
+          "category": "senior5",
+          "range": "4701 ~ 4800",
+          "wordCount": 100,
+          "fileName": "senior5-batch-08.json"
+        },
+        {
+          "batchId": "senior5-batch-09",
+          "title": "高中 Level 5 - 批次 09",
+          "category": "senior5",
+          "range": "4801 ~ 4900",
+          "wordCount": 100,
+          "fileName": "senior5-batch-09.json"
+        },
+        {
+          "batchId": "senior5-batch-10",
+          "title": "高中 Level 5 - 批次 10",
+          "category": "senior5",
+          "range": "4901 ~ 5000",
+          "wordCount": 100,
+          "fileName": "senior5-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "senior6",
+      "name": "高中大考參考詞彙 第六級",
+      "description": "大考中心高中 7000 核心詞彙第 6 級 (5001 ~ 6000 字)，具備音節拆解、IPA音標與自然發音法則推導",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior6-batch-01",
+          "title": "高中 Level 6 - 批次 01",
+          "category": "senior6",
+          "range": "5001 ~ 5100",
+          "wordCount": 100,
+          "fileName": "senior6-batch-01.json"
+        },
+        {
+          "batchId": "senior6-batch-02",
+          "title": "高中 Level 6 - 批次 02",
+          "category": "senior6",
+          "range": "5101 ~ 5200",
+          "wordCount": 100,
+          "fileName": "senior6-batch-02.json"
+        },
+        {
+          "batchId": "senior6-batch-03",
+          "title": "高中 Level 6 - 批次 03",
+          "category": "senior6",
+          "range": "5201 ~ 5300",
+          "wordCount": 100,
+          "fileName": "senior6-batch-03.json"
+        },
+        {
+          "batchId": "senior6-batch-04",
+          "title": "高中 Level 6 - 批次 04",
+          "category": "senior6",
+          "range": "5301 ~ 5400",
+          "wordCount": 100,
+          "fileName": "senior6-batch-04.json"
+        },
+        {
+          "batchId": "senior6-batch-05",
+          "title": "高中 Level 6 - 批次 05",
+          "category": "senior6",
+          "range": "5401 ~ 5500",
+          "wordCount": 100,
+          "fileName": "senior6-batch-05.json"
+        },
+        {
+          "batchId": "senior6-batch-06",
+          "title": "高中 Level 6 - 批次 06",
+          "category": "senior6",
+          "range": "5501 ~ 5600",
+          "wordCount": 100,
+          "fileName": "senior6-batch-06.json"
+        },
+        {
+          "batchId": "senior6-batch-07",
+          "title": "高中 Level 6 - 批次 07",
+          "category": "senior6",
+          "range": "5601 ~ 5700",
+          "wordCount": 100,
+          "fileName": "senior6-batch-07.json"
+        },
+        {
+          "batchId": "senior6-batch-08",
+          "title": "高中 Level 6 - 批次 08",
+          "category": "senior6",
+          "range": "5701 ~ 5800",
+          "wordCount": 100,
+          "fileName": "senior6-batch-08.json"
+        },
+        {
+          "batchId": "senior6-batch-09",
+          "title": "高中 Level 6 - 批次 09",
+          "category": "senior6",
+          "range": "5801 ~ 5900",
+          "wordCount": 100,
+          "fileName": "senior6-batch-09.json"
+        },
+        {
+          "batchId": "senior6-batch-10",
+          "title": "高中 Level 6 - 批次 10",
+          "category": "senior6",
+          "range": "5901 ~ 6000",
+          "wordCount": 100,
+          "fileName": "senior6-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "senior7",
+      "name": "高中大考參考詞彙 第七級",
+      "description": "大考中心高中 7000 核心詞彙第七級 (6001 ~ 7000 字)，大考 7000 滿分衝刺與深度學術高階詞彙",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "senior7-batch-01",
+          "title": "高中 Level 7 - 批次 01",
+          "category": "senior7",
+          "range": "6001 ~ 6100",
+          "wordCount": 100,
+          "fileName": "senior7-batch-01.json"
+        },
+        {
+          "batchId": "senior7-batch-02",
+          "title": "高中 Level 7 - 批次 02",
+          "category": "senior7",
+          "range": "6101 ~ 6200",
+          "wordCount": 100,
+          "fileName": "senior7-batch-02.json"
+        },
+        {
+          "batchId": "senior7-batch-03",
+          "title": "高中 Level 7 - 批次 03",
+          "category": "senior7",
+          "range": "6201 ~ 6300",
+          "wordCount": 100,
+          "fileName": "senior7-batch-03.json"
+        },
+        {
+          "batchId": "senior7-batch-04",
+          "title": "高中 Level 7 - 批次 04",
+          "category": "senior7",
+          "range": "6301 ~ 6400",
+          "wordCount": 100,
+          "fileName": "senior7-batch-04.json"
+        },
+        {
+          "batchId": "senior7-batch-05",
+          "title": "高中 Level 7 - 批次 05",
+          "category": "senior7",
+          "range": "6401 ~ 6500",
+          "wordCount": 100,
+          "fileName": "senior7-batch-05.json"
+        },
+        {
+          "batchId": "senior7-batch-06",
+          "title": "高中 Level 7 - 批次 06",
+          "category": "senior7",
+          "range": "6501 ~ 6600",
+          "wordCount": 100,
+          "fileName": "senior7-batch-06.json"
+        },
+        {
+          "batchId": "senior7-batch-07",
+          "title": "高中 Level 7 - 批次 07",
+          "category": "senior7",
+          "range": "6601 ~ 6700",
+          "wordCount": 100,
+          "fileName": "senior7-batch-07.json"
+        },
+        {
+          "batchId": "senior7-batch-08",
+          "title": "高中 Level 7 - 批次 08",
+          "category": "senior7",
+          "range": "6701 ~ 6800",
+          "wordCount": 100,
+          "fileName": "senior7-batch-08.json"
+        },
+        {
+          "batchId": "senior7-batch-09",
+          "title": "高中 Level 7 - 批次 09",
+          "category": "senior7",
+          "range": "6801 ~ 6900",
+          "wordCount": 100,
+          "fileName": "senior7-batch-09.json"
+        },
+        {
+          "batchId": "senior7-batch-10",
+          "title": "高中 Level 7 - 批次 10",
+          "category": "senior7",
+          "range": "6901 ~ 7000",
+          "wordCount": 100,
+          "fileName": "senior7-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "toeic",
+      "name": "多益國際商務核心單字",
+      "description": "TOEIC 多益核心職場字彙 (1000 字)，涵蓋商務會議、跨國合約、差旅、財務與職場溝通",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "toeic-batch-01",
+          "title": "TOEIC 多益 - 批次 01",
+          "category": "toeic",
+          "range": "7001 ~ 7100",
+          "wordCount": 100,
+          "fileName": "toeic-batch-01.json"
+        },
+        {
+          "batchId": "toeic-batch-02",
+          "title": "TOEIC 多益 - 批次 02",
+          "category": "toeic",
+          "range": "7101 ~ 7200",
+          "wordCount": 100,
+          "fileName": "toeic-batch-02.json"
+        },
+        {
+          "batchId": "toeic-batch-03",
+          "title": "TOEIC 多益 - 批次 03",
+          "category": "toeic",
+          "range": "7201 ~ 7300",
+          "wordCount": 100,
+          "fileName": "toeic-batch-03.json"
+        },
+        {
+          "batchId": "toeic-batch-04",
+          "title": "TOEIC 多益 - 批次 04",
+          "category": "toeic",
+          "range": "7301 ~ 7400",
+          "wordCount": 100,
+          "fileName": "toeic-batch-04.json"
+        },
+        {
+          "batchId": "toeic-batch-05",
+          "title": "TOEIC 多益 - 批次 05",
+          "category": "toeic",
+          "range": "7401 ~ 7500",
+          "wordCount": 100,
+          "fileName": "toeic-batch-05.json"
+        },
+        {
+          "batchId": "toeic-batch-06",
+          "title": "TOEIC 多益 - 批次 06",
+          "category": "toeic",
+          "range": "7501 ~ 7600",
+          "wordCount": 100,
+          "fileName": "toeic-batch-06.json"
+        },
+        {
+          "batchId": "toeic-batch-07",
+          "title": "TOEIC 多益 - 批次 07",
+          "category": "toeic",
+          "range": "7601 ~ 7700",
+          "wordCount": 100,
+          "fileName": "toeic-batch-07.json"
+        },
+        {
+          "batchId": "toeic-batch-08",
+          "title": "TOEIC 多益 - 批次 08",
+          "category": "toeic",
+          "range": "7701 ~ 7800",
+          "wordCount": 100,
+          "fileName": "toeic-batch-08.json"
+        },
+        {
+          "batchId": "toeic-batch-09",
+          "title": "TOEIC 多益 - 批次 09",
+          "category": "toeic",
+          "range": "7801 ~ 7900",
+          "wordCount": 100,
+          "fileName": "toeic-batch-09.json"
+        },
+        {
+          "batchId": "toeic-batch-10",
+          "title": "TOEIC 多益 - 批次 10",
+          "category": "toeic",
+          "range": "7901 ~ 8000",
+          "wordCount": 100,
+          "fileName": "toeic-batch-10.json"
+        }
+      ]
+    },
+    {
+      "id": "gept",
+      "name": "全民英檢實戰核心單字",
+      "description": "GEPT 全民英檢中級/中高級核心詞彙 (1000 字)，涵蓋社會人文、自然科普與實戰閱讀",
+      "totalBatches": 10,
+      "totalWords": 1000,
+      "batches": [
+        {
+          "batchId": "gept-batch-01",
+          "title": "GEPT 英檢 - 批次 01",
+          "category": "gept",
+          "range": "8001 ~ 8100",
+          "wordCount": 100,
+          "fileName": "gept-batch-01.json"
+        },
+        {
+          "batchId": "gept-batch-02",
+          "title": "GEPT 英檢 - 批次 02",
+          "category": "gept",
+          "range": "8101 ~ 8200",
+          "wordCount": 100,
+          "fileName": "gept-batch-02.json"
+        },
+        {
+          "batchId": "gept-batch-03",
+          "title": "GEPT 英檢 - 批次 03",
+          "category": "gept",
+          "range": "8201 ~ 8300",
+          "wordCount": 100,
+          "fileName": "gept-batch-03.json"
+        },
+        {
+          "batchId": "gept-batch-04",
+          "title": "GEPT 英檢 - 批次 04",
+          "category": "gept",
+          "range": "8301 ~ 8400",
+          "wordCount": 100,
+          "fileName": "gept-batch-04.json"
+        },
+        {
+          "batchId": "gept-batch-05",
+          "title": "GEPT 英檢 - 批次 05",
+          "category": "gept",
+          "range": "8401 ~ 8500",
+          "wordCount": 100,
+          "fileName": "gept-batch-05.json"
+        },
+        {
+          "batchId": "gept-batch-06",
+          "title": "GEPT 英檢 - 批次 06",
+          "category": "gept",
+          "range": "8501 ~ 8600",
+          "wordCount": 100,
+          "fileName": "gept-batch-06.json"
+        },
+        {
+          "batchId": "gept-batch-07",
+          "title": "GEPT 英檢 - 批次 07",
+          "category": "gept",
+          "range": "8601 ~ 8700",
+          "wordCount": 100,
+          "fileName": "gept-batch-07.json"
+        },
+        {
+          "batchId": "gept-batch-08",
+          "title": "GEPT 英檢 - 批次 08",
+          "category": "gept",
+          "range": "8701 ~ 8800",
+          "wordCount": 100,
+          "fileName": "gept-batch-08.json"
+        },
+        {
+          "batchId": "gept-batch-09",
+          "title": "GEPT 英檢 - 批次 09",
+          "category": "gept",
+          "range": "8801 ~ 8900",
+          "wordCount": 100,
+          "fileName": "gept-batch-09.json"
+        },
+        {
+          "batchId": "gept-batch-10",
+          "title": "GEPT 英檢 - 批次 10",
+          "category": "gept",
+          "range": "8901 ~ 9000",
+          "wordCount": 100,
+          "fileName": "gept-batch-10.json"
         }
       ]
     }

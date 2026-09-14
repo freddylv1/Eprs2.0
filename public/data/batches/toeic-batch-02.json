@@ -1,0 +1,4841 @@
+{
+  "batchId": "toeic-batch-02",
+  "title": "TOEIC 多益 - 第 2 批次",
+  "category": "toeic",
+  "range": "7101 ~ 7200",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 7101,
+      "word": "nonacquisition",
+      "chinese": "非收購, 購置, 獲得",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ac",
+        "qui",
+        "si",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌæk.wəˈzɪʃ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "qui",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［qui］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "si",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［si］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7102,
+      "word": "nonagenda",
+      "chinese": "非議程, 討論事項",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "gen",
+        "da"
+      ],
+      "ipa": "/nɑːn.əˈdʒɛn.də/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［gen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "da",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［da］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7103,
+      "word": "nonallowance",
+      "chinese": "非津貼, 限額, 容許量",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "al",
+        "low",
+        "ance"
+      ],
+      "ipa": "/nɑːn.əˈlaʊ.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "low",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［low］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7104,
+      "word": "nonalternative",
+      "chinese": "非替代方案; 備選的",
+      "pos": "n./adj.",
+      "syllables": [
+        "non",
+        "al",
+        "ter",
+        "na",
+        "tive"
+      ],
+      "ipa": "/nɑːn.ɑːlˈtɝː.nə.t̬ɪv/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "na",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［na］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［tive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7105,
+      "word": "nonamendment",
+      "chinese": "非修正案, 條款修改",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "a",
+        "mend",
+        "ment"
+      ],
+      "ipa": "/nɑːn.əˈmɛnd.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mend",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mend］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7106,
+      "word": "nonannouncement",
+      "chinese": "非公告, 宣布, 聲明",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "an",
+        "nounce",
+        "ment"
+      ],
+      "ipa": "/nɑːn.əˈnaʊns.mənt/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "nounce",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［nounce］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7107,
+      "word": "nonapplicant",
+      "chinese": "非應徵者, 申請人",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ap",
+        "pli",
+        "cant"
+      ],
+      "ipa": "/nɑːn.ˈæp.lɪ.kənt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［cant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7108,
+      "word": "nonappraisal",
+      "chinese": "非考核, 評估, 鑑價",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ap",
+        "prais",
+        "al"
+      ],
+      "ipa": "/nɑːn.əˈpreɪ.zəl/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "prais",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［prais］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7109,
+      "word": "nonappreciation",
+      "chinese": "非升值, 感謝, 鑑賞",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ap",
+        "pre",
+        "ci",
+        "a",
+        "tion"
+      ],
+      "ipa": "/nɑːn.əˌpriː.ʃiˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7110,
+      "word": "nonassembly",
+      "chinese": "非集會, 組裝線, 裝配",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "as",
+        "sem",
+        "bly"
+      ],
+      "ipa": "/nɑːn.əˈsɛm.bli/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "bly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［bly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7111,
+      "word": "nonaudit",
+      "chinese": "非查帳, 審計, 旁聽",
+      "pos": "v./n.",
+      "syllables": [
+        "non",
+        "au",
+        "dit"
+      ],
+      "ipa": "/nɑːn.ˈɑː.dɪt/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dit］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7112,
+      "word": "nonauthorization",
+      "chinese": "非授權, 批准書",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "au",
+        "thor",
+        "i",
+        "za",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌɑː.θɚ.əˈzeɪ.ʃən/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "thor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［thor］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "za",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［za］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7113,
+      "word": "nonbenchmark",
+      "chinese": "非基準, 參照標準",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "bench",
+        "mark"
+      ],
+      "ipa": "/nɑːn.ˈbɛntʃ.mɑːrk/",
+      "ruleCodes": [
+        "R005",
+        "R006"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bench",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bench］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mark",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［mark］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7114,
+      "word": "nonbeneficiary",
+      "chinese": "非受益人, 受惠者",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ben",
+        "e",
+        "fi",
+        "ci",
+        "ar",
+        "y"
+      ],
+      "ipa": "/nɑːn.ˌbɛn.əˈfɪʃ.i.ɛr.i/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ben",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ben］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 5 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 6 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 7,
+          "syllableText": "y",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 7 音節［y］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7115,
+      "word": "nonbillboard",
+      "chinese": "非廣告看版, 告示牌",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "bill",
+        "board"
+      ],
+      "ipa": "/nɑːn.ˈbɪl.bɔːrd/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bill",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bill］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "board",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［board］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7116,
+      "word": "nonblueprint",
+      "chinese": "非藍圖, 規劃架構",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "blue",
+        "print"
+      ],
+      "ipa": "/nɑːn.ˈbluː.prɪnt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "blue",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［blue］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "print",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［print］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7117,
+      "word": "nonboardroom",
+      "chinese": "非會議室, 董事會會議室",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "board",
+        "room"
+      ],
+      "ipa": "/nɑːn.ˈbɔːrd.ruːm/",
+      "ruleCodes": [
+        "R004",
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "board",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［board］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "room",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［room］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7118,
+      "word": "nonbookkeeping",
+      "chinese": "非簿記, 記帳",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "book",
+        "keep",
+        "ing"
+      ],
+      "ipa": "/nɑːn.ˈbʊkˌkiː.pɪŋ/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "book",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［book］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "keep",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［keep］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7119,
+      "word": "nonbriefing",
+      "chinese": "非簡報, 情況介紹會",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "brief",
+        "ing"
+      ],
+      "ipa": "/nɑːn.ˈbriː.fɪŋ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "brief",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［brief］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7120,
+      "word": "nonbrokerage",
+      "chinese": "非經紀業務, 手續費",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "bro",
+        "ker",
+        "age"
+      ],
+      "ipa": "/nɑːn.ˈbroʊ.kɚ.ɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［bro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ker",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ker］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "age",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［age］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7121,
+      "word": "noncampaign",
+      "chinese": "非行銷活動, 競選; 發起",
+      "pos": "n./v.",
+      "syllables": [
+        "non",
+        "cam",
+        "paign"
+      ],
+      "ipa": "/nɑːn.kæmˈpeɪn/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cam",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［cam］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "paign",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［paign］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7122,
+      "word": "noncapacity",
+      "chinese": "非產能, 容量, 能力",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ca",
+        "pac",
+        "i",
+        "ty"
+      ],
+      "ipa": "/nɑːn.kəˈpæs.ə.t̬i/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［pac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7123,
+      "word": "noncatering",
+      "chinese": "非餐飲承辦服務, 外燴",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "ca",
+        "ter",
+        "ing"
+      ],
+      "ipa": "/nɑːn.ˈkeɪ.t̬ɚ.ɪŋ/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7124,
+      "word": "noncertificate",
+      "chinese": "非證書, 憑證, 執照",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "cer",
+        "tif",
+        "i",
+        "cate"
+      ],
+      "ipa": "/nɑːn.sɚˈtɪf.ə.kət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［cer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tif",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tif］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "cate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［cate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7125,
+      "word": "nonclause",
+      "chinese": "非合約條款, 子句",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "clause"
+      ],
+      "ipa": "/nɑːn.klɑːz/",
+      "ruleCodes": [
+        "R003",
+        "R004"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "clause",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［clause］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7126,
+      "word": "nonclearance",
+      "chinese": "非清倉大拍賣, 清關, 許可",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "clear",
+        "ance"
+      ],
+      "ipa": "/nɑːn.ˈklɪr.əns/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "clear",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［clear］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7127,
+      "word": "noncollateral",
+      "chinese": "非擔保品, 抵押物",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "col",
+        "lat",
+        "er",
+        "al"
+      ],
+      "ipa": "/nɑːn.kəˈlæt̬.ɚ.əl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "col",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［col］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "lat",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［lat］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7128,
+      "word": "noncommission",
+      "chinese": "非佣金, 委員會; 委任",
+      "pos": "n./v.",
+      "syllables": [
+        "non",
+        "com",
+        "mis",
+        "sion"
+      ],
+      "ipa": "/nɑːn.kəˈmɪʃ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mis］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7129,
+      "word": "noncommitment",
+      "chinese": "非承諾, 奉獻, 責任",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "com",
+        "mit",
+        "ment"
+      ],
+      "ipa": "/nɑːn.kəˈmɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mit］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7130,
+      "word": "noncompensation",
+      "chinese": "非薪酬, 補償金, 賠償",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "com",
+        "pen",
+        "sa",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌkɑːm.pənˈseɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pen",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［pen］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［sa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7131,
+      "word": "noncompliance",
+      "chinese": "非合規, 服從標準",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "com",
+        "pli",
+        "ance"
+      ],
+      "ipa": "/nɑːn.kəmˈplaɪ.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7132,
+      "word": "noncomplimentary",
+      "chinese": "非免費贈送的, 讚美的",
+      "pos": "adj.",
+      "syllables": [
+        "non",
+        "com",
+        "pli",
+        "men",
+        "ta",
+        "ry"
+      ],
+      "ipa": "/nɑːn.ˌkɑːm.pləˈmɛn.t̬ɚ.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 6 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7133,
+      "word": "noncompromise",
+      "chinese": "非折衷, 妥協, 危及",
+      "pos": "v./n.",
+      "syllables": [
+        "non",
+        "com",
+        "pro",
+        "mise"
+      ],
+      "ipa": "/nɑːn.ˈkɑːm.prə.maɪz/",
+      "ruleCodes": [
+        "R003",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "mise",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［mise］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7134,
+      "word": "nonconcession",
+      "chinese": "非讓步, 特許經營權",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "ces",
+        "sion"
+      ],
+      "ipa": "/nɑːn.kənˈsɛʃ.ən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ces",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ces］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7135,
+      "word": "nonconference",
+      "chinese": "非研討會, 商務會議",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "fer",
+        "ence"
+      ],
+      "ipa": "/nɑːn.ˈkɑːn.fɚ.əns/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［fer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7136,
+      "word": "nonconfirmation",
+      "chinese": "非確認信, 證實",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "fir",
+        "ma",
+        "tion"
+      ],
+      "ipa": "/nɑːn.ˌkɑːn.fɚˈmeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fir",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［fir］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7137,
+      "word": "nonconglomerate",
+      "chinese": "非跨國企業集團, 複合巨頭",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "glom",
+        "er",
+        "ate"
+      ],
+      "ipa": "/nɑːn.kənˈɡlɑː.mɚ.ət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "glom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［glom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7138,
+      "word": "nonconsignment",
+      "chinese": "非寄售, 託運貨物",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "sign",
+        "ment"
+      ],
+      "ipa": "/nɑːn.kənˈsaɪn.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sign",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sign］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7139,
+      "word": "nonconsolidate",
+      "chinese": "非整併, 鞏固, 合併報表",
+      "pos": "v.",
+      "syllables": [
+        "non",
+        "con",
+        "sol",
+        "i",
+        "date"
+      ],
+      "ipa": "/nɑːn.kənˈsɑː.lə.deɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sol",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sol］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "date",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［date］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7140,
+      "word": "noncontingency",
+      "chinese": "非應急方案, 突發狀況",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "tin",
+        "gen",
+        "cy"
+      ],
+      "ipa": "/nɑːn.kənˈtɪn.dʒən.si/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tin",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tin］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "gen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［gen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "cy",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 5 音節［cy］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7141,
+      "word": "noncontractor",
+      "chinese": "非承包商, 簽約商",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "con",
+        "trac",
+        "tor"
+      ],
+      "ipa": "/nɑːn.ˈkɑːn.træk.tɚ/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "trac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［trac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［tor］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7142,
+      "word": "noncredential",
+      "chinese": "非資格證明, 認證資歷",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "cre",
+        "den",
+        "tial"
+      ],
+      "ipa": "/nɑːn.krɪˈdɛn.ʃəl/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［cre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "den",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［den］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tial",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［tial］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7143,
+      "word": "noncurriculum",
+      "chinese": "非培訓課程, 履歷",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "cur",
+        "ric",
+        "u",
+        "lum"
+      ],
+      "ipa": "/nɑːn.kəˈrɪk.jə.ləm/",
+      "ruleCodes": [
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cur",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［cur］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ric",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ric］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "lum",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［lum］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7144,
+      "word": "nondealership",
+      "chinese": "非經銷權, 經銷代理商",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "deal",
+        "er",
+        "ship"
+      ],
+      "ipa": "/nɑːn.ˈdiː.lɚ.ʃɪp/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "deal",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［deal］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ship",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ship］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7145,
+      "word": "nondeduction",
+      "chinese": "非扣除額, 減免, 推論",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "de",
+        "duc",
+        "tion"
+      ],
+      "ipa": "/nɑːn.dɪˈdʌk.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "de",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［de］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "duc",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［duc］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7146,
+      "word": "nondeficit",
+      "chinese": "非財政赤字, 虧損",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "def",
+        "i",
+        "cit"
+      ],
+      "ipa": "/nɑːn.ˈdɛf.ə.sɪt/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "def",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［def］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cit",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cit］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7147,
+      "word": "nondeliverable",
+      "chinese": "非工作成果, 交付標的物",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "de",
+        "liv",
+        "er",
+        "a",
+        "ble"
+      ],
+      "ipa": "/nɑːn.dɪˈlɪv.ɚ.ə.bəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "de",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［de］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "liv",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［liv］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 6 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7148,
+      "word": "nondepreciation",
+      "chinese": "非資產折舊, 貶值",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "de",
+        "pre",
+        "ci",
+        "a",
+        "tion"
+      ],
+      "ipa": "/nɑːn.dɪˌpriː.ʃiˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "de",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［de］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7149,
+      "word": "nondisbursement",
+      "chinese": "非實質支出, 款項撥付",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "dis",
+        "burse",
+        "ment"
+      ],
+      "ipa": "/nɑːn.dɪsˈbɝːs.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dis］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "burse",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［burse］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7150,
+      "word": "nondownsizing",
+      "chinese": "非裁員, 組織精簡",
+      "pos": "n.",
+      "syllables": [
+        "non",
+        "down",
+        "siz",
+        "ing"
+      ],
+      "ipa": "/nɑːn.ˈdaʊnˌsaɪ.zɪŋ/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "non",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［non］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "down",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［down］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "siz",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［siz］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7151,
+      "word": "reacquisition",
+      "chinese": "再收購, 購置, 獲得",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ac",
+        "qui",
+        "si",
+        "tion"
+      ],
+      "ipa": "/riː.ˌæk.wəˈzɪʃ.ən/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "qui",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［qui］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "si",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［si］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7152,
+      "word": "reagenda",
+      "chinese": "再議程, 討論事項",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "a",
+        "gen",
+        "da"
+      ],
+      "ipa": "/riː.əˈdʒɛn.də/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［gen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "da",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［da］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7153,
+      "word": "reallowance",
+      "chinese": "再津貼, 限額, 容許量",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "al",
+        "low",
+        "ance"
+      ],
+      "ipa": "/riː.əˈlaʊ.əns/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "low",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［low］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7154,
+      "word": "realternative",
+      "chinese": "再替代方案; 備選的",
+      "pos": "n./adj.",
+      "syllables": [
+        "re",
+        "al",
+        "ter",
+        "na",
+        "tive"
+      ],
+      "ipa": "/riː.ɑːlˈtɝː.nə.t̬ɪv/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "na",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［na］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［tive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7155,
+      "word": "reamendment",
+      "chinese": "再修正案, 條款修改",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "a",
+        "mend",
+        "ment"
+      ],
+      "ipa": "/riː.əˈmɛnd.mənt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mend",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mend］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7156,
+      "word": "reannouncement",
+      "chinese": "再公告, 宣布, 聲明",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "an",
+        "nounce",
+        "ment"
+      ],
+      "ipa": "/riː.əˈnaʊns.mənt/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "nounce",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［nounce］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7157,
+      "word": "reapplicant",
+      "chinese": "再應徵者, 申請人",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ap",
+        "pli",
+        "cant"
+      ],
+      "ipa": "/riː.ˈæp.lɪ.kənt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cant",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［cant］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7158,
+      "word": "reappraisal",
+      "chinese": "再考核, 評估, 鑑價",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ap",
+        "prais",
+        "al"
+      ],
+      "ipa": "/riː.əˈpreɪ.zəl/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "prais",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［prais］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7159,
+      "word": "reappreciation",
+      "chinese": "再升值, 感謝, 鑑賞",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ap",
+        "pre",
+        "ci",
+        "a",
+        "tion"
+      ],
+      "ipa": "/riː.əˌpriː.ʃiˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ap",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ap］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7160,
+      "word": "reassembly",
+      "chinese": "再集會, 組裝線, 裝配",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "as",
+        "sem",
+        "bly"
+      ],
+      "ipa": "/riː.əˈsɛm.bli/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "as",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［as］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "bly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［bly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7161,
+      "word": "reaudit",
+      "chinese": "再查帳, 審計, 旁聽",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "au",
+        "dit"
+      ],
+      "ipa": "/riː.ˈɑː.dɪt/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dit］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7162,
+      "word": "reauthorization",
+      "chinese": "再授權, 批准書",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "au",
+        "thor",
+        "i",
+        "za",
+        "tion"
+      ],
+      "ipa": "/riː.ˌɑː.θɚ.əˈzeɪ.ʃən/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "au",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［au］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "thor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［thor］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "za",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［za］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7163,
+      "word": "rebenchmark",
+      "chinese": "再基準, 參照標準",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "bench",
+        "mark"
+      ],
+      "ipa": "/riː.ˈbɛntʃ.mɑːrk/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bench",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bench］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mark",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［mark］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7164,
+      "word": "rebeneficiary",
+      "chinese": "再受益人, 受惠者",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ben",
+        "e",
+        "fi",
+        "ci",
+        "ar",
+        "y"
+      ],
+      "ipa": "/riː.ˌbɛn.əˈfɪʃ.i.ɛr.i/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ben",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ben］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 5 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 6 音節［ar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 7,
+          "syllableText": "y",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 7 音節［y］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7165,
+      "word": "rebillboard",
+      "chinese": "再廣告看版, 告示牌",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "bill",
+        "board"
+      ],
+      "ipa": "/riː.ˈbɪl.bɔːrd/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bill",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bill］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "board",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［board］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7166,
+      "word": "reblueprint",
+      "chinese": "再藍圖, 規劃架構",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "blue",
+        "print"
+      ],
+      "ipa": "/riː.ˈbluː.prɪnt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "blue",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［blue］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "print",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［print］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7167,
+      "word": "reboardroom",
+      "chinese": "再會議室, 董事會會議室",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "board",
+        "room"
+      ],
+      "ipa": "/riː.ˈbɔːrd.ruːm/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "board",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［board］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "room",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［room］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7168,
+      "word": "rebookkeeping",
+      "chinese": "再簿記, 記帳",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "book",
+        "keep",
+        "ing"
+      ],
+      "ipa": "/riː.ˈbʊkˌkiː.pɪŋ/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "book",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［book］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "keep",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［keep］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7169,
+      "word": "rebriefing",
+      "chinese": "再簡報, 情況介紹會",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "brief",
+        "ing"
+      ],
+      "ipa": "/riː.ˈbriː.fɪŋ/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "brief",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［brief］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7170,
+      "word": "rebrokerage",
+      "chinese": "再經紀業務, 手續費",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "bro",
+        "ker",
+        "age"
+      ],
+      "ipa": "/riː.ˈbroʊ.kɚ.ɪdʒ/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［bro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ker",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ker］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "age",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［age］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7171,
+      "word": "recampaign",
+      "chinese": "再行銷活動, 競選; 發起",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "cam",
+        "paign"
+      ],
+      "ipa": "/riː.kæmˈpeɪn/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cam",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［cam］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "paign",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［paign］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7172,
+      "word": "recapacity",
+      "chinese": "再產能, 容量, 能力",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ca",
+        "pac",
+        "i",
+        "ty"
+      ],
+      "ipa": "/riː.kəˈpæs.ə.t̬i/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［pac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7173,
+      "word": "recatering",
+      "chinese": "再餐飲承辦服務, 外燴",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "ca",
+        "ter",
+        "ing"
+      ],
+      "ipa": "/riː.ˈkeɪ.t̬ɚ.ɪŋ/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ca",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ca］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7174,
+      "word": "recertificate",
+      "chinese": "再證書, 憑證, 執照",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "cer",
+        "tif",
+        "i",
+        "cate"
+      ],
+      "ipa": "/riː.sɚˈtɪf.ə.kət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［cer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tif",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tif］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "cate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［cate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7175,
+      "word": "reclause",
+      "chinese": "再合約條款, 子句",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "clause"
+      ],
+      "ipa": "/riː.klɑːz/",
+      "ruleCodes": [
+        "R003",
+        "R004",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "clause",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［clause］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7176,
+      "word": "reclearance",
+      "chinese": "再清倉大拍賣, 清關, 許可",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "clear",
+        "ance"
+      ],
+      "ipa": "/riː.ˈklɪr.əns/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "clear",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［clear］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7177,
+      "word": "recollateral",
+      "chinese": "再擔保品, 抵押物",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "col",
+        "lat",
+        "er",
+        "al"
+      ],
+      "ipa": "/riː.kəˈlæt̬.ɚ.əl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "col",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［col］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "lat",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［lat］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7178,
+      "word": "recommission",
+      "chinese": "再佣金, 委員會; 委任",
+      "pos": "n./v.",
+      "syllables": [
+        "re",
+        "com",
+        "mis",
+        "sion"
+      ],
+      "ipa": "/riː.kəˈmɪʃ.ən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mis］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7179,
+      "word": "recommitment",
+      "chinese": "再承諾, 奉獻, 責任",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "com",
+        "mit",
+        "ment"
+      ],
+      "ipa": "/riː.kəˈmɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mit］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7180,
+      "word": "recompensation",
+      "chinese": "再薪酬, 補償金, 賠償",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "com",
+        "pen",
+        "sa",
+        "tion"
+      ],
+      "ipa": "/riː.ˌkɑːm.pənˈseɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pen",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［pen］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sa",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［sa］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7181,
+      "word": "recompliance",
+      "chinese": "再合規, 服從標準",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "com",
+        "pli",
+        "ance"
+      ],
+      "ipa": "/riː.kəmˈplaɪ.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7182,
+      "word": "recomplimentary",
+      "chinese": "再免費贈送的, 讚美的",
+      "pos": "adj.",
+      "syllables": [
+        "re",
+        "com",
+        "pli",
+        "men",
+        "ta",
+        "ry"
+      ],
+      "ipa": "/riː.ˌkɑːm.pləˈmɛn.t̬ɚ.i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ry",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 6 音節［ry］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7183,
+      "word": "recompromise",
+      "chinese": "再折衷, 妥協, 危及",
+      "pos": "v./n.",
+      "syllables": [
+        "re",
+        "com",
+        "pro",
+        "mise"
+      ],
+      "ipa": "/riː.ˈkɑːm.prə.maɪz/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "com",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［com］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "mise",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［mise］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7184,
+      "word": "reconcession",
+      "chinese": "再讓步, 特許經營權",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "ces",
+        "sion"
+      ],
+      "ipa": "/riː.kənˈsɛʃ.ən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ces",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ces］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7185,
+      "word": "reconference",
+      "chinese": "再研討會, 商務會議",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "fer",
+        "ence"
+      ],
+      "ipa": "/riː.ˈkɑːn.fɚ.əns/",
+      "ruleCodes": [
+        "R005",
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［fer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ence",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ence］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7186,
+      "word": "reconfirmation",
+      "chinese": "再確認信, 證實",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "fir",
+        "ma",
+        "tion"
+      ],
+      "ipa": "/riː.ˌkɑːn.fɚˈmeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "fir",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［fir］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7187,
+      "word": "reconglomerate",
+      "chinese": "再跨國企業集團, 複合巨頭",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "glom",
+        "er",
+        "ate"
+      ],
+      "ipa": "/riː.kənˈɡlɑː.mɚ.ət/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "glom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［glom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7188,
+      "word": "reconsignment",
+      "chinese": "再寄售, 託運貨物",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "sign",
+        "ment"
+      ],
+      "ipa": "/riː.kənˈsaɪn.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sign",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sign］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7189,
+      "word": "reconsolidate",
+      "chinese": "再整併, 鞏固, 合併報表",
+      "pos": "v.",
+      "syllables": [
+        "re",
+        "con",
+        "sol",
+        "i",
+        "date"
+      ],
+      "ipa": "/riː.kənˈsɑː.lə.deɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sol",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［sol］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "date",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［date］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7190,
+      "word": "recontingency",
+      "chinese": "再應急方案, 突發狀況",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "tin",
+        "gen",
+        "cy"
+      ],
+      "ipa": "/riː.kənˈtɪn.dʒən.si/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008",
+        "R011",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tin",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tin］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "gen",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［gen］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "cy",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 5 音節［cy］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7191,
+      "word": "recontractor",
+      "chinese": "再承包商, 簽約商",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "con",
+        "trac",
+        "tor"
+      ],
+      "ipa": "/riː.ˈkɑːn.træk.tɚ/",
+      "ruleCodes": [
+        "R005",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "con",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［con］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "trac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［trac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tor",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［tor］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7192,
+      "word": "recredential",
+      "chinese": "再資格證明, 認證資歷",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "cre",
+        "den",
+        "tial"
+      ],
+      "ipa": "/riː.krɪˈdɛn.ʃəl/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［cre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "den",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［den］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tial",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［tial］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7193,
+      "word": "recurriculum",
+      "chinese": "再培訓課程, 履歷",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "cur",
+        "ric",
+        "u",
+        "lum"
+      ],
+      "ipa": "/riː.kəˈrɪk.jə.ləm/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cur",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［cur］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ric",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ric］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "lum",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［lum］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7194,
+      "word": "redealership",
+      "chinese": "再經銷權, 經銷代理商",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "deal",
+        "er",
+        "ship"
+      ],
+      "ipa": "/riː.ˈdiː.lɚ.ʃɪp/",
+      "ruleCodes": [
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "deal",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［deal］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ship",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ship］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7195,
+      "word": "rededuction",
+      "chinese": "再扣除額, 減免, 推論",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "de",
+        "duc",
+        "tion"
+      ],
+      "ipa": "/riː.dɪˈdʌk.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "de",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［de］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "duc",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［duc］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7196,
+      "word": "redeficit",
+      "chinese": "再財政赤字, 虧損",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "def",
+        "i",
+        "cit"
+      ],
+      "ipa": "/riː.ˈdɛf.ə.sɪt/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "def",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［def］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cit",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cit］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7197,
+      "word": "redeliverable",
+      "chinese": "再工作成果, 交付標的物",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "de",
+        "liv",
+        "er",
+        "a",
+        "ble"
+      ],
+      "ipa": "/riː.dɪˈlɪv.ɚ.ə.bəl/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R009",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "de",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［de］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "liv",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［liv］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 6 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7198,
+      "word": "redepreciation",
+      "chinese": "再資產折舊, 貶值",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "de",
+        "pre",
+        "ci",
+        "a",
+        "tion"
+      ],
+      "ipa": "/riː.dɪˌpriː.ʃiˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "de",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［de］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "pre",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［pre］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 6 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7199,
+      "word": "redisbursement",
+      "chinese": "再實質支出, 款項撥付",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "dis",
+        "burse",
+        "ment"
+      ],
+      "ipa": "/riː.dɪsˈbɝːs.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dis］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "burse",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［burse］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    },
+    {
+      "id": 7200,
+      "word": "redownsizing",
+      "chinese": "再裁員, 組織精簡",
+      "pos": "n.",
+      "syllables": [
+        "re",
+        "down",
+        "siz",
+        "ing"
+      ],
+      "ipa": "/riː.ˈdaʊnˌsaɪ.zɪŋ/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "re",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 1 音節［re］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "down",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［down］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "siz",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［siz］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ing",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ing］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "TOEIC 多益",
+      "batchId": "toeic-batch-02"
+    }
+  ]
+}

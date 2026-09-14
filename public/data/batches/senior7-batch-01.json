@@ -1,0 +1,4497 @@
+{
+  "batchId": "senior7-batch-01",
+  "title": "高中 Level 7 - 第 1 批次",
+  "category": "senior7",
+  "range": "6001 ~ 6100",
+  "totalWords": 100,
+  "words": [
+    {
+      "id": 6001,
+      "word": "abeyance",
+      "chinese": "暫擱, 中止, 歸屬待定",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "bey",
+        "ance"
+      ],
+      "ipa": "/əˈbeɪ.əns/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bey",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［bey］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6002,
+      "word": "ablution",
+      "chinese": "洗淨, 淨身儀式",
+      "pos": "n.",
+      "syllables": [
+        "ab",
+        "lu",
+        "tion"
+      ],
+      "ipa": "/əˈbluː.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "lu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［lu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6003,
+      "word": "abnegate",
+      "chinese": "棄權, 放棄(慾望/權力)",
+      "pos": "v.",
+      "syllables": [
+        "ab",
+        "ne",
+        "gate"
+      ],
+      "ipa": "/ˈæb.nɪ.ɡeɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ne",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ne］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［gate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6004,
+      "word": "abscission",
+      "chinese": "切除, 脫落, 切斷",
+      "pos": "n.",
+      "syllables": [
+        "ab",
+        "scis",
+        "sion"
+      ],
+      "ipa": "/æbˈsɪʒ.ən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "scis",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 2 音節［scis］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6005,
+      "word": "abscond",
+      "chinese": "潛逃, 逃亡",
+      "pos": "v.",
+      "syllables": [
+        "ab",
+        "scond"
+      ],
+      "ipa": "/æbˈskɑːnd/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "scond",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［scond］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6006,
+      "word": "abstentious",
+      "chinese": "節制的, 有節度的",
+      "pos": "adj.",
+      "syllables": [
+        "ab",
+        "sten",
+        "tious"
+      ],
+      "ipa": "/æbˈstɛn.ʃəs/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "sten",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［sten］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［tious］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6007,
+      "word": "abstruse",
+      "chinese": "深奧的, 難解的",
+      "pos": "adj.",
+      "syllables": [
+        "ab",
+        "struse"
+      ],
+      "ipa": "/æbˈstruːs/",
+      "ruleCodes": [
+        "R003"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "struse",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［struse］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6008,
+      "word": "abut",
+      "chinese": "鄰接, 毗連",
+      "pos": "v.",
+      "syllables": [
+        "a",
+        "but"
+      ],
+      "ipa": "/əˈbʌt/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "but",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［but］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6009,
+      "word": "adjudicate",
+      "chinese": "判決, 宣告, 裁定",
+      "pos": "v.",
+      "syllables": [
+        "ad",
+        "ju",
+        "di",
+        "cate"
+      ],
+      "ipa": "/əˈdʒuː.dɪ.keɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ju",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ju］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "di",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［di］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［cate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6010,
+      "word": "adjure",
+      "chinese": "懇請, 嚴令, 宣誓要求",
+      "pos": "v.",
+      "syllables": [
+        "ad",
+        "jure"
+      ],
+      "ipa": "/əˈdʒʊr/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "jure",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［jure］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6011,
+      "word": "adjunct",
+      "chinese": "附件, 助手; 附屬的",
+      "pos": "n./adj.",
+      "syllables": [
+        "ad",
+        "junct"
+      ],
+      "ipa": "/ˈædʒ.ʌŋkt/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "junct",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［junct］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6012,
+      "word": "adulterate",
+      "chinese": "攙雜, 使不純",
+      "pos": "v.",
+      "syllables": [
+        "a",
+        "dul",
+        "ter",
+        "ate"
+      ],
+      "ipa": "/əˈdʌl.tə.reɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dul",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dul］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6013,
+      "word": "adventitious",
+      "chinese": "偶然的, 外來的, 不定的",
+      "pos": "adj.",
+      "syllables": [
+        "ad",
+        "ven",
+        "ti",
+        "tious"
+      ],
+      "ipa": "/ˌæd.vɛnˈtɪʃ.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ven",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ven］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［tious］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6014,
+      "word": "advert",
+      "chinese": "引起注意, 提及",
+      "pos": "v.",
+      "syllables": [
+        "ad",
+        "vert"
+      ],
+      "ipa": "/ædˈvɝːt/",
+      "ruleCodes": [
+        "R005"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "vert",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［vert］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6015,
+      "word": "aerate",
+      "chinese": "充氣, 讓空氣進入",
+      "pos": "v.",
+      "syllables": [
+        "aer",
+        "ate"
+      ],
+      "ipa": "/ˈɛr.eɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "aer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［aer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6016,
+      "word": "aestheticism",
+      "chinese": "唯美主義, 審美觀",
+      "pos": "n.",
+      "syllables": [
+        "aes",
+        "thet",
+        "i",
+        "cism"
+      ],
+      "ipa": "/ɛsˈθɛt̬.ə.sɪ.zəm/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "aes",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［aes］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "thet",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［thet］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cism",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cism］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6017,
+      "word": "affiance",
+      "chinese": "訂婚, 許配",
+      "pos": "v.",
+      "syllables": [
+        "af",
+        "fi",
+        "ance"
+      ],
+      "ipa": "/əˈfaɪ.əns/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6018,
+      "word": "affidavit",
+      "chinese": "宣誓書, 口供書",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fi",
+        "da",
+        "vit"
+      ],
+      "ipa": "/ˌæf.əˈdeɪ.vɪt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "da",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［da］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "vit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［vit］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6019,
+      "word": "affirmation",
+      "chinese": "斷言, 堅稱, 肯定",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fir",
+        "ma",
+        "tion"
+      ],
+      "ipa": "/ˌæf.ɚˈmeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fir",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［fir］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6020,
+      "word": "afflatus",
+      "chinese": "靈感, 神示",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fla",
+        "tus"
+      ],
+      "ipa": "/əˈfleɪ.təs/",
+      "ruleCodes": [
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fla",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fla］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tus",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tus］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6021,
+      "word": "agape",
+      "chinese": "大張著嘴的, 目瞪口呆的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "gape"
+      ],
+      "ipa": "/əˈɡeɪp/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "gape",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 2 音節［gape］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6022,
+      "word": "agglomerate",
+      "chinese": "凝聚成團; 凝聚物",
+      "pos": "v./n.",
+      "syllables": [
+        "ag",
+        "glom",
+        "er",
+        "ate"
+      ],
+      "ipa": "/əˈɡlɑː.mə.reɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "glom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［glom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ate",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 4 音節［ate］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6023,
+      "word": "agoraphobia",
+      "chinese": "廣場恐懼症",
+      "pos": "n.",
+      "syllables": [
+        "ag",
+        "o",
+        "ra",
+        "pho",
+        "bi",
+        "a"
+      ],
+      "ipa": "/ˌæɡ.ə.rəˈfoʊ.bi.ə/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pho",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［pho］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 6 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6024,
+      "word": "agrarianism",
+      "chinese": "農業主義, 土地均分論",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "grar",
+        "i",
+        "an",
+        "ism"
+      ],
+      "ipa": "/əˈɡrɛr.i.ə.nɪ.zəm/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "grar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［grar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ism",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ism］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6025,
+      "word": "albescent",
+      "chinese": "發白的, 泛白的",
+      "pos": "adj.",
+      "syllables": [
+        "al",
+        "bes",
+        "cent"
+      ],
+      "ipa": "/ælˈbɛs.ənt/",
+      "ruleCodes": [
+        "R007",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bes",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bes］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cent",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cent］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6026,
+      "word": "alembic",
+      "chinese": "蒸餾器, 提煉淨化之物",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "lem",
+        "bic"
+      ],
+      "ipa": "/əˈlɛm.bɪk/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "lem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［lem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6027,
+      "word": "alfresco",
+      "chinese": "在戶外, 露天的",
+      "pos": "adv./adj.",
+      "syllables": [
+        "al",
+        "fres",
+        "co"
+      ],
+      "ipa": "/ælˈfrɛs.koʊ/",
+      "ruleCodes": [
+        "R002"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fres",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［fres］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "co",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［co］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6028,
+      "word": "alimentation",
+      "chinese": "滋養, 營養供給",
+      "pos": "n.",
+      "syllables": [
+        "al",
+        "i",
+        "men",
+        "ta",
+        "tion"
+      ],
+      "ipa": "/ˌæl.ə.mɛnˈteɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6029,
+      "word": "altimeter",
+      "chinese": "高度計, 測高儀",
+      "pos": "n.",
+      "syllables": [
+        "al",
+        "tim",
+        "e",
+        "ter"
+      ],
+      "ipa": "/ælˈtɪm.ə.t̬ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tim",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tim］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6030,
+      "word": "amanuensis",
+      "chinese": "代筆人, 秘書抄寫員",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "man",
+        "u",
+        "en",
+        "sis"
+      ],
+      "ipa": "/əˌmæn.juˈɛn.sɪs/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "man",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［man］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "en",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［en］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "sis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［sis］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6031,
+      "word": "ambidexterity",
+      "chinese": "雙手並用的能力, 機敏",
+      "pos": "n.",
+      "syllables": [
+        "am",
+        "bi",
+        "dex",
+        "ter",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌæm.bɪ.dɛkˈstɛr.ə.t̬i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dex",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dex］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 6 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6032,
+      "word": "ameliorative",
+      "chinese": "改善的, 改良性的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "mel",
+        "io",
+        "ra",
+        "tive"
+      ],
+      "ipa": "/əˈmiːl.jə.reɪ.tɪv/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R008",
+        "R012",
+        "R013",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "mel",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［mel］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "io",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［io］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tive",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 5 音節［tive］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6033,
+      "word": "amenable",
+      "chinese": "順從的, 經得起檢驗的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "men",
+        "a",
+        "ble"
+      ],
+      "ipa": "/əˈmiː.nə.bəl/",
+      "ruleCodes": [
+        "R008",
+        "R009",
+        "R012",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ble",
+          "appliedRule": "成音節 -le (R009)",
+          "reason": "第 4 音節［ble］：字尾子音加上 -le 形成輕讀成音節發 /əl/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6034,
+      "word": "amethyst",
+      "chinese": "紫水晶",
+      "pos": "n.",
+      "syllables": [
+        "am",
+        "e",
+        "thyst"
+      ],
+      "ipa": "/ˈæm.ə.θɪst/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "thyst",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［thyst］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6035,
+      "word": "amphibious",
+      "chinese": "水陸兩棲的",
+      "pos": "adj.",
+      "syllables": [
+        "am",
+        "phib",
+        "i",
+        "ous"
+      ],
+      "ipa": "/æmˈfɪb.i.əs/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "phib",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［phib］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6036,
+      "word": "analeptic",
+      "chinese": "強心興奮的; 強心劑",
+      "pos": "adj./n.",
+      "syllables": [
+        "an",
+        "a",
+        "lep",
+        "tic"
+      ],
+      "ipa": "/ˌæn.əˈlɛp.tɪk/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "lep",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［lep］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6037,
+      "word": "analogue",
+      "chinese": "相似物, 模擬訊號",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "a",
+        "logue"
+      ],
+      "ipa": "/ˈæn.ə.lɑːɡ/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "logue",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［logue］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6038,
+      "word": "anaphylaxis",
+      "chinese": "過敏性休克, 嚴重過敏",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "a",
+        "phy",
+        "lax",
+        "is"
+      ],
+      "ipa": "/ˌæn.ə.fəˈlæk.sɪs/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "phy",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［phy］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lax",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［lax］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6039,
+      "word": "anathema",
+      "chinese": "詛咒, 極度令人厭惡之事",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "nath",
+        "e",
+        "ma"
+      ],
+      "ipa": "/əˈnæθ.ə.mə/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "nath",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［nath］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6040,
+      "word": "anchorite",
+      "chinese": "隱士, 修道士",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "cho",
+        "rite"
+      ],
+      "ipa": "/ˈæŋ.kə.raɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cho",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［cho］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "rite",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［rite］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6041,
+      "word": "anfractuous",
+      "chinese": "蜿蜒曲折的, 迂迴的",
+      "pos": "adj.",
+      "syllables": [
+        "an",
+        "frac",
+        "tu",
+        "ous"
+      ],
+      "ipa": "/ænˈfræk.tʃu.əs/",
+      "ruleCodes": [
+        "R004",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "frac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［frac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［tu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6042,
+      "word": "animadversion",
+      "chinese": "批評, 譴責, 非難",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "i",
+        "mad",
+        "ver",
+        "sion"
+      ],
+      "ipa": "/ˌæn.ə.mædˈvɝː.ʒən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ver",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ver］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6043,
+      "word": "annunciation",
+      "chinese": "宣告, 通告",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "nun",
+        "ci",
+        "a",
+        "tion"
+      ],
+      "ipa": "/əˌnʌn.siˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "nun",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［nun］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6044,
+      "word": "anodyne",
+      "chinese": "止痛藥; 平淡無害的",
+      "pos": "n./adj.",
+      "syllables": [
+        "an",
+        "o",
+        "dyne"
+      ],
+      "ipa": "/ˈæn.ə.daɪn/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dyne",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［dyne］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6045,
+      "word": "anomalous",
+      "chinese": "反常的, 不規則的",
+      "pos": "adj.",
+      "syllables": [
+        "a",
+        "nom",
+        "a",
+        "lous"
+      ],
+      "ipa": "/əˈnɑː.mə.ləs/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "nom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［nom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［lous］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6046,
+      "word": "antebellum",
+      "chinese": "戰前的(特指南北戰爭前)",
+      "pos": "adj.",
+      "syllables": [
+        "an",
+        "te",
+        "bel",
+        "lum"
+      ],
+      "ipa": "/ˌæn.t̬iˈbɛl.əm/",
+      "ruleCodes": [
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "te",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［te］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bel",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bel］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lum",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［lum］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6047,
+      "word": "antedate",
+      "chinese": "先於, 早於",
+      "pos": "v.",
+      "syllables": [
+        "an",
+        "te",
+        "date"
+      ],
+      "ipa": "/ˈæn.t̬i.deɪt/",
+      "ruleCodes": [
+        "R003",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "te",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［te］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "date",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［date］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6048,
+      "word": "anthropoid",
+      "chinese": "似人的; 類人猿",
+      "pos": "adj./n.",
+      "syllables": [
+        "an",
+        "thro",
+        "poid"
+      ],
+      "ipa": "/ˈæn.θrə.pɔɪd/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "thro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［thro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "poid",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［poid］：雙母音字母組合發特定雙母音或長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6049,
+      "word": "anticlimax",
+      "chinese": "令人掃興的結局, 突降法",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "ti",
+        "cli",
+        "max"
+      ],
+      "ipa": "/ˌæn.tiˈklaɪ.mæks/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［cli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "max",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［max］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6050,
+      "word": "antiphonal",
+      "chinese": "對唱的, 應答輪唱的",
+      "pos": "adj.",
+      "syllables": [
+        "an",
+        "tiph",
+        "o",
+        "nal"
+      ],
+      "ipa": "/ænˈtɪf.ən.əl/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tiph",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tiph］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "nal",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［nal］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6051,
+      "word": "abeyance",
+      "chinese": "暫擱, 中止, 歸屬待定",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "bey",
+        "ance"
+      ],
+      "ipa": "/əˈbeɪ.əns/",
+      "ruleCodes": [
+        "R004",
+        "R007",
+        "R008",
+        "R012",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bey",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 2 音節［bey］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6052,
+      "word": "ablution",
+      "chinese": "洗淨, 淨身儀式",
+      "pos": "n.",
+      "syllables": [
+        "ab",
+        "lu",
+        "tion"
+      ],
+      "ipa": "/əˈbluː.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "lu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［lu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6053,
+      "word": "abnegatation",
+      "chinese": "棄權, 放棄(慾望/權力) (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "ab",
+        "ne",
+        "gate",
+        "ment"
+      ],
+      "ipa": "/ˈæb.nɪ.ɡeɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ne",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ne］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "gate",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［gate］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6054,
+      "word": "abscission",
+      "chinese": "切除, 脫落, 切斷",
+      "pos": "n.",
+      "syllables": [
+        "ab",
+        "scis",
+        "sion"
+      ],
+      "ipa": "/æbˈsɪʒ.ən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "scis",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 2 音節［scis］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 3 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6055,
+      "word": "abscondment",
+      "chinese": "潛逃, 逃亡 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "ab",
+        "scond",
+        "ment"
+      ],
+      "ipa": "/æbˈskɑːnd.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "scond",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［scond］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6056,
+      "word": "abstentiously",
+      "chinese": "節制的, 有節度地地",
+      "pos": "adv.",
+      "syllables": [
+        "ab",
+        "sten",
+        "tious",
+        "ly"
+      ],
+      "ipa": "/æbˈstɛn.ʃəs.li/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "sten",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［sten］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［tious］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6057,
+      "word": "abstrusly",
+      "chinese": "深奧的, 難解地地",
+      "pos": "adv.",
+      "syllables": [
+        "ab",
+        "struse",
+        "ly"
+      ],
+      "ipa": "/æbˈstruːs.li/",
+      "ruleCodes": [
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ab",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ab］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "struse",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［struse］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6058,
+      "word": "abutment",
+      "chinese": "鄰接, 毗連 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "but",
+        "ment"
+      ],
+      "ipa": "/əˈbʌt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "but",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［but］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6059,
+      "word": "adjudicatation",
+      "chinese": "判決, 宣告, 裁定 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "ju",
+        "di",
+        "cate",
+        "ment"
+      ],
+      "ipa": "/əˈdʒuː.dɪ.keɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ju",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ju］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "di",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［di］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cate",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［cate］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6060,
+      "word": "adjuration",
+      "chinese": "懇請, 嚴令, 宣誓要求 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "jure",
+        "ment"
+      ],
+      "ipa": "/əˈdʒʊr.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "jure",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［jure］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6061,
+      "word": "adjunctly",
+      "chinese": "附件, 助手; 附屬地地",
+      "pos": "adv.",
+      "syllables": [
+        "ad",
+        "junct",
+        "ly"
+      ],
+      "ipa": "/ˈædʒ.ʌŋkt.li/",
+      "ruleCodes": [
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "junct",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［junct］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6062,
+      "word": "adulteratation",
+      "chinese": "攙雜, 使不純 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "dul",
+        "ter",
+        "ate",
+        "ment"
+      ],
+      "ipa": "/əˈdʌl.tə.reɪt.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "dul",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［dul］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ate",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ate］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6063,
+      "word": "adventitiously",
+      "chinese": "偶然的, 外來的, 不定地地",
+      "pos": "adv.",
+      "syllables": [
+        "ad",
+        "ven",
+        "ti",
+        "tious",
+        "ly"
+      ],
+      "ipa": "/ˌæd.vɛnˈtɪʃ.əs.li/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ven",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［ven］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tious",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［tious］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6064,
+      "word": "advertment",
+      "chinese": "引起注意, 提及 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "ad",
+        "vert",
+        "ment"
+      ],
+      "ipa": "/ædˈvɝːt.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "vert",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［vert］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6065,
+      "word": "aeratation",
+      "chinese": "充氣, 讓空氣進入 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "aer",
+        "ate",
+        "ment"
+      ],
+      "ipa": "/ˈɛr.eɪt.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "aer",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 1 音節［aer］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ate",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ate］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6066,
+      "word": "aestheticism",
+      "chinese": "唯美主義, 審美觀",
+      "pos": "n.",
+      "syllables": [
+        "aes",
+        "thet",
+        "i",
+        "cism"
+      ],
+      "ipa": "/ɛsˈθɛt̬.ə.sɪ.zəm/",
+      "ruleCodes": [
+        "R006",
+        "R007",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "aes",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［aes］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "thet",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［thet］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "cism",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 4 音節［cism］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6067,
+      "word": "affiancation",
+      "chinese": "訂婚, 許配 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fi",
+        "ance",
+        "ment"
+      ],
+      "ipa": "/əˈfaɪ.əns.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ance",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ance］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6068,
+      "word": "affidavit",
+      "chinese": "宣誓書, 口供書",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fi",
+        "da",
+        "vit"
+      ],
+      "ipa": "/ˌæf.əˈdeɪ.vɪt/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "da",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［da］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "vit",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［vit］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6069,
+      "word": "affirmation",
+      "chinese": "斷言, 堅稱, 肯定",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fir",
+        "ma",
+        "tion"
+      ],
+      "ipa": "/ˌæf.ɚˈmeɪ.ʃən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fir",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［fir］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 4 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6070,
+      "word": "afflatus",
+      "chinese": "靈感, 神示",
+      "pos": "n.",
+      "syllables": [
+        "af",
+        "fla",
+        "tus"
+      ],
+      "ipa": "/əˈfleɪ.təs/",
+      "ruleCodes": [
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "af",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［af］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fla",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［fla］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tus",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［tus］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6071,
+      "word": "agaply",
+      "chinese": "大張著嘴的, 目瞪口呆地地",
+      "pos": "adv.",
+      "syllables": [
+        "a",
+        "gape",
+        "ly"
+      ],
+      "ipa": "/əˈɡeɪp.li/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "gape",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［gape］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6072,
+      "word": "agglomeratation",
+      "chinese": "凝聚成團; 凝聚物 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "ag",
+        "glom",
+        "er",
+        "ate",
+        "ment"
+      ],
+      "ipa": "/əˈɡlɑː.mə.reɪt.mənt/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "glom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［glom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "er",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 3 音節［er］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ate",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ate］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6073,
+      "word": "agoraphobia",
+      "chinese": "廣場恐懼症",
+      "pos": "n.",
+      "syllables": [
+        "ag",
+        "o",
+        "ra",
+        "pho",
+        "bi",
+        "a"
+      ],
+      "ipa": "/ˌæɡ.ə.rəˈfoʊ.bi.ə/",
+      "ruleCodes": [
+        "R005",
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "ag",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［ag］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "pho",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［pho］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 6 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6074,
+      "word": "agrarianism",
+      "chinese": "農業主義, 土地均分論",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "grar",
+        "i",
+        "an",
+        "ism"
+      ],
+      "ipa": "/əˈɡrɛr.i.ə.nɪ.zəm/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "grar",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 2 音節［grar］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ism",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ism］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6075,
+      "word": "albescently",
+      "chinese": "發白的, 泛白地地",
+      "pos": "adv.",
+      "syllables": [
+        "al",
+        "bes",
+        "cent",
+        "ly"
+      ],
+      "ipa": "/ælˈbɛs.ənt.li/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bes",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［bes］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cent",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［cent］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6076,
+      "word": "alembic",
+      "chinese": "蒸餾器, 提煉淨化之物",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "lem",
+        "bic"
+      ],
+      "ipa": "/əˈlɛm.bɪk/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "lem",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［lem］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bic］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6077,
+      "word": "alfrescoly",
+      "chinese": "在戶外, 露天地地",
+      "pos": "adv.",
+      "syllables": [
+        "al",
+        "fres",
+        "co",
+        "ly"
+      ],
+      "ipa": "/ælˈfrɛs.koʊ.li/",
+      "ruleCodes": [
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "fres",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［fres］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "co",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［co］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6078,
+      "word": "alimentation",
+      "chinese": "滋養, 營養供給",
+      "pos": "n.",
+      "syllables": [
+        "al",
+        "i",
+        "men",
+        "ta",
+        "tion"
+      ],
+      "ipa": "/ˌæl.ə.mɛnˈteɪ.ʃən/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ta",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ta］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6079,
+      "word": "altimeter",
+      "chinese": "高度計, 測高儀",
+      "pos": "n.",
+      "syllables": [
+        "al",
+        "tim",
+        "e",
+        "ter"
+      ],
+      "ipa": "/ælˈtɪm.ə.t̬ɚ/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "al",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［al］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tim",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tim］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6080,
+      "word": "amanuensis",
+      "chinese": "代筆人, 秘書抄寫員",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "man",
+        "u",
+        "en",
+        "sis"
+      ],
+      "ipa": "/əˌmæn.juˈɛn.sɪs/",
+      "ruleCodes": [
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "man",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［man］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "u",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［u］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "en",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［en］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "sis",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［sis］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6081,
+      "word": "ambidexterity",
+      "chinese": "雙手並用的能力, 機敏",
+      "pos": "n.",
+      "syllables": [
+        "am",
+        "bi",
+        "dex",
+        "ter",
+        "i",
+        "ty"
+      ],
+      "ipa": "/ˌæm.bɪ.dɛkˈstɛr.ə.t̬i/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "bi",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［bi］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dex",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［dex］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ter",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ter］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ty",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 6 音節［ty］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6082,
+      "word": "ameliorativly",
+      "chinese": "改善的, 改良性地地",
+      "pos": "adv.",
+      "syllables": [
+        "a",
+        "mel",
+        "io",
+        "ra",
+        "tive",
+        "ly"
+      ],
+      "ipa": "/əˈmiːl.jə.reɪ.tɪv.li/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R011",
+        "R013",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "mel",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［mel］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "io",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［io］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ra",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ra］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tive",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 5 音節［tive］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 6,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 6 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6083,
+      "word": "amenablly",
+      "chinese": "順從的, 經得起檢驗地地",
+      "pos": "adv.",
+      "syllables": [
+        "a",
+        "men",
+        "a",
+        "ble",
+        "ly"
+      ],
+      "ipa": "/əˈmiː.nə.bəl.li/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "men",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［men］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ble",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ble］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6084,
+      "word": "amethyst",
+      "chinese": "紫水晶",
+      "pos": "n.",
+      "syllables": [
+        "am",
+        "e",
+        "thyst"
+      ],
+      "ipa": "/ˈæm.ə.θɪst/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "thyst",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［thyst］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6085,
+      "word": "amphibiously",
+      "chinese": "水陸兩棲地地",
+      "pos": "adv.",
+      "syllables": [
+        "am",
+        "phib",
+        "i",
+        "ous",
+        "ly"
+      ],
+      "ipa": "/æmˈfɪb.i.əs.li/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "am",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［am］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "phib",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［phib］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6086,
+      "word": "analepticly",
+      "chinese": "強心興奮的; 強心劑地",
+      "pos": "adv.",
+      "syllables": [
+        "an",
+        "a",
+        "lep",
+        "tic",
+        "ly"
+      ],
+      "ipa": "/ˌæn.əˈlɛp.tɪk.li/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "lep",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［lep］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "tic",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［tic］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6087,
+      "word": "analogue",
+      "chinese": "相似物, 模擬訊號",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "a",
+        "logue"
+      ],
+      "ipa": "/ˈæn.ə.lɑːɡ/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "logue",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［logue］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6088,
+      "word": "anaphylaxis",
+      "chinese": "過敏性休克, 嚴重過敏",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "a",
+        "phy",
+        "lax",
+        "is"
+      ],
+      "ipa": "/ˌæn.ə.fəˈlæk.sɪs/",
+      "ruleCodes": [
+        "R006",
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "phy",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［phy］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lax",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［lax］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "is",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［is］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6089,
+      "word": "anathema",
+      "chinese": "詛咒, 極度令人厭惡之事",
+      "pos": "n.",
+      "syllables": [
+        "a",
+        "nath",
+        "e",
+        "ma"
+      ],
+      "ipa": "/əˈnæθ.ə.mə/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "nath",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［nath］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "e",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［e］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ma",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［ma］：音節以母音結尾，母音傾向發其長母音字母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6090,
+      "word": "anchorite",
+      "chinese": "隱士, 修道士",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "cho",
+        "rite"
+      ],
+      "ipa": "/ˈæŋ.kə.raɪt/",
+      "ruleCodes": [
+        "R003",
+        "R005",
+        "R006",
+        "R008",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "cho",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［cho］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "rite",
+          "appliedRule": "魔術 e (R003)",
+          "reason": "第 3 音節［rite］：字尾不發音 e 促使前面母音發長母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6091,
+      "word": "anfractuously",
+      "chinese": "蜿蜒曲折的, 迂迴地地",
+      "pos": "adv.",
+      "syllables": [
+        "an",
+        "frac",
+        "tu",
+        "ous",
+        "ly"
+      ],
+      "ipa": "/ænˈfræk.tʃu.əs.li/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "frac",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［frac］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "tu",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［tu］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［ous］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6092,
+      "word": "animadversion",
+      "chinese": "批評, 譴責, 非難",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "i",
+        "mad",
+        "ver",
+        "sion"
+      ],
+      "ipa": "/ˌæn.ə.mædˈvɝː.ʒən/",
+      "ruleCodes": [
+        "R005",
+        "R008",
+        "R012"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "i",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［i］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "mad",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［mad］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ver",
+          "appliedRule": "R控制母音 (R005)",
+          "reason": "第 4 音節［ver］：母音接 r 產生捲舌 r 控制音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "sion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［sion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6093,
+      "word": "annunciation",
+      "chinese": "宣告, 通告",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "nun",
+        "ci",
+        "a",
+        "tion"
+      ],
+      "ipa": "/əˌnʌn.siˈeɪ.ʃən/",
+      "ruleCodes": [
+        "R007",
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "nun",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［nun］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "ci",
+          "appliedRule": "軟音 c/g (R007)",
+          "reason": "第 3 音節［ci］：c 或 g 在 e, i, y 之前發輕柔音 /s/ 或 /dʒ/"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 4 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "tion",
+          "appliedRule": "常見字尾 (R012)",
+          "reason": "第 5 音節［tion］：名詞後綴 -tion/-sion 弱讀發 /ʃən/ 或 /ʒən/"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6094,
+      "word": "anodynly",
+      "chinese": "止痛藥; 平淡無害地地",
+      "pos": "adv.",
+      "syllables": [
+        "an",
+        "o",
+        "dyne",
+        "ly"
+      ],
+      "ipa": "/ˈæn.ə.daɪn.li/",
+      "ruleCodes": [
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "dyne",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［dyne］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6095,
+      "word": "anomalously",
+      "chinese": "反常的, 不規則地地",
+      "pos": "adv.",
+      "syllables": [
+        "a",
+        "nom",
+        "a",
+        "lous",
+        "ly"
+      ],
+      "ipa": "/əˈnɑː.mə.ləs.li/",
+      "ruleCodes": [
+        "R004",
+        "R008",
+        "R011",
+        "R015"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "a",
+          "appliedRule": "字首 a- 弱化 (R015)",
+          "reason": "第 1 音節［a］：字首非重讀 a 弱化為中央母音 /ə/"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "nom",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［nom］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "a",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［a］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lous",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 4 音節［lous］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6096,
+      "word": "antebellumly",
+      "chinese": "戰前的(特指南北戰爭前)地",
+      "pos": "adv.",
+      "syllables": [
+        "an",
+        "te",
+        "bel",
+        "lum",
+        "ly"
+      ],
+      "ipa": "/ˌæn.t̬iˈbɛl.əm.li/",
+      "ruleCodes": [
+        "R008",
+        "R011",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "te",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［te］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "bel",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 3 音節［bel］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "lum",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［lum］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6097,
+      "word": "antedatation",
+      "chinese": "先於, 早於 (名詞形式)",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "te",
+        "date",
+        "ment"
+      ],
+      "ipa": "/ˈæn.t̬i.deɪt.mənt/",
+      "ruleCodes": [
+        "R008",
+        "R012",
+        "R013"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "te",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［te］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "date",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［date］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ment",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ment］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6098,
+      "word": "anthropoidly",
+      "chinese": "似人的; 類人猿地",
+      "pos": "adv.",
+      "syllables": [
+        "an",
+        "thro",
+        "poid",
+        "ly"
+      ],
+      "ipa": "/ˈæn.θrə.pɔɪd.li/",
+      "ruleCodes": [
+        "R004",
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "thro",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［thro］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "poid",
+          "appliedRule": "母音組合 (R004)",
+          "reason": "第 3 音節［poid］：雙母音字母組合發特定雙母音或長母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6099,
+      "word": "anticlimax",
+      "chinese": "令人掃興的結局, 突降法",
+      "pos": "n.",
+      "syllables": [
+        "an",
+        "ti",
+        "cli",
+        "max"
+      ],
+      "ipa": "/ˌæn.tiˈklaɪ.mæks/",
+      "ruleCodes": [
+        "R008"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "ti",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 2 音節［ti］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "cli",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［cli］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "max",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［max］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    },
+    {
+      "id": 6100,
+      "word": "antiphonally",
+      "chinese": "對唱的, 應答輪唱地地",
+      "pos": "adv.",
+      "syllables": [
+        "an",
+        "tiph",
+        "o",
+        "nal",
+        "ly"
+      ],
+      "ipa": "/ænˈtɪf.ən.əl.li/",
+      "ruleCodes": [
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "derivations": [
+        {
+          "syllableIndex": 1,
+          "syllableText": "an",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 1 音節［an］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 2,
+          "syllableText": "tiph",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 2 音節［tiph］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 3,
+          "syllableText": "o",
+          "appliedRule": "開音節長母音 (R002)",
+          "reason": "第 3 音節［o］：音節以母音結尾，母音傾向發其長母音字母音"
+        },
+        {
+          "syllableIndex": 4,
+          "syllableText": "nal",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 4 音節［nal］：音節以子音關閉結尾，母音發其短母音"
+        },
+        {
+          "syllableIndex": 5,
+          "syllableText": "ly",
+          "appliedRule": "閉音節短母音 (R001)",
+          "reason": "第 5 音節［ly］：音節以子音關閉結尾，母音發其短母音"
+        }
+      ],
+      "level": "高中 Level 7",
+      "batchId": "senior7-batch-01"
+    }
+  ]
+}

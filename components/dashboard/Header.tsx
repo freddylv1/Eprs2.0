@@ -12,7 +12,8 @@ import {
   Maximize2,
   Minimize2,
   SlidersHorizontal,
-  Type
+  Type,
+  Headphones
 } from 'lucide-react';
 import { audioManager } from '../../lib/audioManager';
 
@@ -20,6 +21,7 @@ interface HeaderProps {
   onOpenRules: (ruleId?: string) => void;
   onOpenQuickPractice: () => void;
   onOpenQuiz: () => void;
+  onOpenDictation: () => void;
   onOpenExport: () => void;
   onOpenAudioDiagnostic: () => void;
   onToggleToolbar: () => void;
@@ -36,6 +38,7 @@ export function Header({
   onOpenRules,
   onOpenQuickPractice,
   onOpenQuiz,
+  onOpenDictation,
   onOpenExport,
   onOpenAudioDiagnostic,
   onToggleToolbar,
@@ -207,17 +210,28 @@ export function Header({
           {/* Quick Practice Mode */}
           <button
             onClick={onOpenQuickPractice}
-            className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-3 py-1.5 text-xs font-semibold text-white shadow-xs hover:from-amber-600 hover:to-orange-700 transition"
+            className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-3 py-1.5 text-xs font-semibold text-white shadow-xs hover:from-amber-600 hover:to-orange-700 transition cursor-pointer"
             title="開啟手機自適應 5 階段快速練習模式"
           >
             <Zap className="h-3.5 w-3.5" />
             <span>快速練習</span>
           </button>
 
+          {/* Dictation Mode Button */}
+          <button
+            id="btn-header-dictation"
+            onClick={onOpenDictation}
+            className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-violet-600 to-indigo-600 px-3 py-1.5 text-xs font-semibold text-white shadow-xs hover:from-violet-500 hover:to-indigo-500 transition cursor-pointer"
+            title="開啟聽寫模式：聽音拼字與即時比對"
+          >
+            <Headphones className="h-3.5 w-3.5" />
+            <span>聽寫模式</span>
+          </button>
+
           {/* Quiz Mode Button */}
           <button
             onClick={onOpenQuiz}
-            className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white shadow-xs hover:bg-indigo-500 dark:bg-indigo-500 dark:hover:bg-indigo-400 transition"
+            className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white shadow-xs hover:bg-indigo-500 dark:bg-indigo-500 dark:hover:bg-indigo-400 transition cursor-pointer"
             title="開啟拼讀測驗"
           >
             <Layers className="h-3.5 w-3.5" />

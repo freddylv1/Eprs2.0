@@ -14,6 +14,7 @@ import { EPRSPracticeModal } from '../components/modals/EPRSPracticeModal';
 import { DictionaryModal } from '../components/modals/DictionaryModal';
 import { ExportModal } from '../components/modals/ExportModal';
 import { AudioDiagnosticModal } from '../components/modals/AudioDiagnosticModal';
+import { DictationModal } from '../components/modals/DictationModal';
 import {
   Loader2,
   AlertCircle,
@@ -23,7 +24,8 @@ import {
   Sparkles,
   Zap,
   Layers,
-  Type
+  Type,
+  Headphones
 } from 'lucide-react';
 
 export default function HomePage() {
@@ -54,6 +56,7 @@ export default function HomePage() {
   const [selectedWordForDictionary, setSelectedWordForDictionary] = useState<WordItem | null>(null);
 
   const [isQuizModalOpen, setIsQuizModalOpen] = useState<boolean>(false);
+  const [isDictationModalOpen, setIsDictationModalOpen] = useState<boolean>(false);
   const [isEPRSPracticeOpen, setIsEPRSPracticeOpen] = useState<boolean>(false);
   const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
   const [isAudioModalOpen, setIsAudioModalOpen] = useState<boolean>(false);
@@ -184,6 +187,7 @@ export default function HomePage() {
           onOpenRules={handleOpenRuleDetail}
           onOpenQuickPractice={() => setIsEPRSPracticeOpen(true)}
           onOpenQuiz={() => setIsQuizModalOpen(true)}
+          onOpenDictation={() => setIsDictationModalOpen(true)}
           onOpenExport={() => setIsExportModalOpen(true)}
           onOpenAudioDiagnostic={() => setIsAudioModalOpen(true)}
           onToggleToolbar={() => setIsToolbarVisible(v => !v)}
@@ -280,17 +284,27 @@ export default function HomePage() {
             {/* Quick Practice shortcut in focus mode */}
             <button
               onClick={() => setIsEPRSPracticeOpen(true)}
-              className="inline-flex items-center gap-1 rounded-lg bg-amber-500 px-2.5 py-1 text-xs font-bold text-white shadow-2xs hover:bg-amber-600 transition"
+              className="inline-flex items-center gap-1 rounded-lg bg-amber-500 px-2.5 py-1 text-xs font-bold text-white shadow-2xs hover:bg-amber-600 transition cursor-pointer"
               title="快速練習"
             >
               <Zap className="h-3.5 w-3.5" />
               <span className="hidden sm:inline">快速練習</span>
             </button>
 
+            {/* Dictation shortcut in focus mode */}
+            <button
+              onClick={() => setIsDictationModalOpen(true)}
+              className="inline-flex items-center gap-1 rounded-lg bg-violet-600 px-2.5 py-1 text-xs font-semibold text-white shadow-2xs hover:bg-violet-500 transition cursor-pointer"
+              title="聽寫模式：聽音拼字即時比對"
+            >
+              <Headphones className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">聽寫</span>
+            </button>
+
             {/* Quiz shortcut in focus mode */}
             <button
               onClick={() => setIsQuizModalOpen(true)}
-              className="inline-flex items-center gap-1 rounded-lg bg-indigo-600 px-2.5 py-1 text-xs font-semibold text-white shadow-2xs hover:bg-indigo-500 transition"
+              className="inline-flex items-center gap-1 rounded-lg bg-indigo-600 px-2.5 py-1 text-xs font-semibold text-white shadow-2xs hover:bg-indigo-500 transition cursor-pointer"
               title="拼讀測驗"
             >
               <Layers className="h-3.5 w-3.5" />
@@ -415,6 +429,16 @@ export default function HomePage() {
         fontSize={fontSize}
       />
 
+      {/* Dictation Practice Modal (Instant Comparison & Spelling) */}
+      <DictationModal
+        key={`dictation-modal-${currentBatchId}-${isDictationModalOpen}`}
+        isOpen={isDictationModalOpen}
+        onClose={() => setIsDictationModalOpen(false)}
+        words={batchData?.words || []}
+        batchTitle={batchData?.title || '當前批次'}
+        fontSize={fontSize}
+      />
+
       <ExportModal
         isOpen={isExportModalOpen}
         onClose={() => setIsExportModalOpen(false)}
@@ -435,10 +459,10 @@ export default function HomePage() {
         <footer className="border-t border-slate-200 bg-white/60 py-4 dark:border-slate-800 dark:bg-slate-900/40 mt-auto">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-400">
             <div>
-              EPRS English Phonics Matrix System • 教育部 1200 基礎單字 & 高中參考詞彙
+              EPRS English Phonics Matrix System • 教育部 1200 基礎單字 & 高中 1-7 級 • 多益 • 英檢
             </div>
             <div>
-              純 JSON 動態推導架構 • 18 大自然發音法則 • 5 階段快速練習
+              純 JSON 動態推導架構 • 18 大自然發音法則 • 5 階段快速練習 • 聽寫拼字即時比對
             </div>
           </div>
         </footer>
