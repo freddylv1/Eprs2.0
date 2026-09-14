@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false
   },
+  manifest: '/manifest.json',
   icons: {
     icon: [
       { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
@@ -47,10 +48,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-TW" className="h-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased">
-      <head>
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <meta name="mobile-web-app-capable" content="yes" />
-      </head>
       <body className="min-h-full flex flex-col font-sans" suppressHydrationWarning>
         <ServiceWorkerRegister />
         <PWAInstallBanner />
