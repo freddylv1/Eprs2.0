@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { WordItem, FontSizePreference } from '../../lib/types';
 import { audioManager } from '../../lib/audioManager';
 import { getPhonicsRule } from '../../lib/engine/phonicsRules';
@@ -13,7 +13,8 @@ import {
   ChevronLeft,
   RotateCcw,
   Zap,
-  Grid
+  Grid,
+  Layers
 } from 'lucide-react';
 
 export interface EPRSPracticeModalProps {
@@ -26,13 +27,15 @@ export interface EPRSPracticeModalProps {
   fontSize?: FontSizePreference;
 }
 
+// 4 階段學習步驟（已取消原本重複的第 5 步強化複誦）
 export enum PracticeStep {
   WORD_SHOWN = 0,      // 單字出現，中文與音標留白
   CHINESE_SHOWN = 1,   // 中文釋義揭露
   SYLLABLES_SHOWN = 2, // 音節拆解、IPA音標、發音法則展開
-  AUDIO_1_PLAYED = 3,  // 第 1 次發音播放
-  AUDIO_2_PLAYED = 4   // 第 2 次發音播放完成，準備下一字
+  AUDIO_PLAYED = 3     // 標準發音播放完成，準備進入下一字
 }
+
+const UNITS_COUNT = 5;
 
 export function EPRSPracticeModal({
   isOpen,
@@ -43,17 +46,44 @@ export function EPRSPracticeModal({
   onOpenWordMatrix,
   fontSize = 'medium'
 }: EPRSPracticeModalProps) {
+  // 將批次單字均分為 5 個單元
+  const units = useMemo(() => {
+    if (!words || words.length === 0) return [];
+    const unitSize = Math.ceil(words.length / UNITS_COUNT);
+    const result: { unitIndex: number; title: string; words: WordItem[] }[] = [];
+    for (let i = 0; i < UNITS_COUNT; i++) {
+      const unitWords = words.slice(i * unitSize, (i + 1) * unitSize);
+      if (unitWords.length > 0) {
+        result.push({
+          unitIndex: i + 1,
+          title: `單元 ${i + 1} (${unitWords.length} 字)`,
+          words: unitWords
+        });
+      }
+    }
+    return result;
+  }, [words]);
+
+  const [activeUnitIndex, setActiveUnitIndex] = useState<number>(0);
+  const currentUnitWords = units[activeUnitIndex]?.words || [];
+
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [currentStep, setCurrentStep] = useState<PracticeStep>(PracticeStep.WORD_SHOWN);
   const [isPlayingAudio, setIsPlayingAudio] = useState<boolean>(false);
-  const [, setCompletedCount] = useState<number>(0);
 
   const typo = getModalFontSizeClasses(fontSize);
 
-  const activeWord = words && words.length > 0 ? words[currentIndex] : null;
+  const activeWord = currentUnitWords && currentUnitWords.length > 0 ? currentUnitWords[currentIndex] : null;
   const wordMatrix = activeWord ? generateWordMatrix(activeWord) : null;
 
-  // Handle Play Audio
+  // 切換單元時重設進度
+  const handleSelectUnit = (unitIdx: number) => {
+    setActiveUnitIndex(unitIdx);
+    setCurrentIndex(0);
+    setCurrentStep(PracticeStep.WORD_SHOWN);
+  };
+
+  // 播放當前單字發音
   const playCurrentWordAudio = useCallback((onFinished?: () => void) => {
     if (!activeWord) return;
     setIsPlayingAudio(true);
@@ -64,29 +94,36 @@ export function EPRSPracticeModal({
   }, [activeWord]);
 
   const handleNextWord = useCallback(() => {
-    if (currentIndex < words.length - 1) {
+    if (currentIndex < currentUnitWords.length - 1) {
       setCurrentIndex(prev => prev + 1);
       setCurrentStep(PracticeStep.WORD_SHOWN);
-      setCompletedCount(prev => Math.max(prev, currentIndex + 1));
-    } else {
-      setCompletedCount(words.length);
+    } else if (activeUnitIndex < units.length - 1) {
+      // 本單元完成，自動切換至下一單元
+      setActiveUnitIndex(prev => prev + 1);
+      setCurrentIndex(0);
+      setCurrentStep(PracticeStep.WORD_SHOWN);
     }
-  }, [currentIndex, words.length]);
+  }, [currentIndex, currentUnitWords.length, activeUnitIndex, units.length]);
 
   const handlePrevWord = useCallback(() => {
     if (currentIndex > 0) {
       setCurrentIndex(prev => prev - 1);
       setCurrentStep(PracticeStep.WORD_SHOWN);
+    } else if (activeUnitIndex > 0) {
+      // 回到上一單元的最後一個字
+      const prevUnit = units[activeUnitIndex - 1];
+      setActiveUnitIndex(prev => prev - 1);
+      setCurrentIndex(prevUnit.words.length - 1);
+      setCurrentStep(PracticeStep.WORD_SHOWN);
     }
-  }, [currentIndex]);
+  }, [currentIndex, activeUnitIndex, units]);
 
   const handleRestart = () => {
     setCurrentIndex(0);
     setCurrentStep(PracticeStep.WORD_SHOWN);
-    setCompletedCount(0);
   };
 
-  // Progress to next micro-step in 5-stage learning
+  // 漸進式 micro-step
   const handleNextStep = useCallback(() => {
     if (!activeWord) return;
 
@@ -95,12 +132,9 @@ export function EPRSPracticeModal({
     } else if (currentStep === PracticeStep.CHINESE_SHOWN) {
       setCurrentStep(PracticeStep.SYLLABLES_SHOWN);
     } else if (currentStep === PracticeStep.SYLLABLES_SHOWN) {
-      setCurrentStep(PracticeStep.AUDIO_1_PLAYED);
+      setCurrentStep(PracticeStep.AUDIO_PLAYED);
       playCurrentWordAudio();
-    } else if (currentStep === PracticeStep.AUDIO_1_PLAYED) {
-      setCurrentStep(PracticeStep.AUDIO_2_PLAYED);
-      playCurrentWordAudio();
-    } else if (currentStep === PracticeStep.AUDIO_2_PLAYED) {
+    } else if (currentStep === PracticeStep.AUDIO_PLAYED) {
       handleNextWord();
     }
   }, [activeWord, currentStep, handleNextWord, playCurrentWordAudio]);
@@ -130,6 +164,9 @@ export function EPRSPracticeModal({
 
   if (!isOpen || !activeWord) return null;
 
+  const isLastWordInUnit = currentIndex === currentUnitWords.length - 1;
+  const isLastUnit = activeUnitIndex === units.length - 1;
+
   return (
     <div
       onClick={(e) => {
@@ -137,9 +174,9 @@ export function EPRSPracticeModal({
       }}
       className="fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-3 sm:p-6 overflow-y-auto"
     >
-      <div className="relative flex max-h-[92vh] w-full max-w-2xl flex-col rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-slate-800 dark:bg-slate-900 overflow-hidden">
+      <div className="relative flex max-h-[94vh] w-full max-w-2xl flex-col rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-slate-800 dark:bg-slate-900 overflow-hidden">
         {/* Modal Header */}
-        <div className="flex items-center justify-between border-b border-slate-100 bg-slate-50/80 px-4 py-3 sm:px-6 sm:py-4 dark:border-slate-800 dark:bg-slate-800/60">
+        <div className="flex items-center justify-between border-b border-slate-100 bg-slate-50/80 px-4 py-3 sm:px-6 sm:py-3.5 dark:border-slate-800 dark:bg-slate-800/60">
           <div className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-amber-500 text-white shadow-xs">
               <Zap className="h-5 w-5" />
@@ -147,33 +184,56 @@ export function EPRSPracticeModal({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className={`${typo.title} text-slate-900 dark:text-white`}>
-                  EPRS 5 階段漸進拼讀記憶卡
+                  快速練習 • 漸進拼讀卡
                 </h2>
                 <span className={`rounded-md bg-amber-100 dark:bg-amber-950/60 ${typo.tag} font-bold text-amber-800 dark:text-amber-300`}>
-                  {currentIndex + 1} / {words.length}
+                  單元 {activeUnitIndex + 1} • {currentIndex + 1} / {currentUnitWords.length}
                 </span>
               </div>
               <p className={`${typo.subtext} text-slate-500 dark:text-slate-400`}>
-                {batchTitle} • 單字 ➔ 釋義 ➔ 音節矩陣 ➔ 雙重朗讀強化
+                {batchTitle} • 共 5 個單元分批學習
               </p>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="rounded-xl p-2 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition"
+            className="rounded-xl p-2 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition cursor-pointer"
           >
             <X className="h-5 w-5" />
           </button>
         </div>
 
-        {/* 5-Step Progress Indicators Bar */}
-        <div className="grid grid-cols-5 gap-1 bg-slate-100 p-2 dark:bg-slate-800/60 border-b border-slate-200/60 dark:border-slate-800">
+        {/* 5-Unit Selector Tabs (每批分 5 個單元) */}
+        <div className="flex items-center gap-1.5 border-b border-slate-200/60 bg-slate-100/70 p-2 dark:border-slate-800 dark:bg-slate-800/40 overflow-x-auto no-scrollbar">
+          <div className="flex items-center gap-1 px-1.5 text-xs font-bold text-slate-400 shrink-0">
+            <Layers className="h-3.5 w-3.5" />
+            <span>單元：</span>
+          </div>
+          {units.map((unit, idx) => {
+            const isActive = idx === activeUnitIndex;
+            return (
+              <button
+                key={idx}
+                onClick={() => handleSelectUnit(idx)}
+                className={`shrink-0 rounded-lg px-2.5 py-1 text-xs font-semibold transition cursor-pointer ${
+                  isActive
+                    ? 'bg-indigo-600 text-white shadow-xs font-bold'
+                    : 'bg-white text-slate-600 hover:bg-slate-200/60 dark:bg-slate-800 dark:text-slate-300 border border-slate-200/80 dark:border-slate-700'
+                }`}
+              >
+                第 {idx + 1} 單元 ({unit.words.length}字)
+              </button>
+            );
+          })}
+        </div>
+
+        {/* 4-Step Progress Indicators Bar (已取消重複的強化複誦) */}
+        <div className="grid grid-cols-4 gap-1 bg-slate-100/90 p-2 dark:bg-slate-800/60 border-b border-slate-200/60 dark:border-slate-800">
           {[
-            { step: PracticeStep.WORD_SHOWN, label: '1.看單字' },
-            { step: PracticeStep.CHINESE_SHOWN, label: '2.解中文' },
-            { step: PracticeStep.SYLLABLES_SHOWN, label: '3.音節拆解' },
-            { step: PracticeStep.AUDIO_1_PLAYED, label: '4.初次發音' },
-            { step: PracticeStep.AUDIO_2_PLAYED, label: '5.強化複誦' }
+            { step: PracticeStep.WORD_SHOWN, label: '1. 看單字' },
+            { step: PracticeStep.CHINESE_SHOWN, label: '2. 解中文' },
+            { step: PracticeStep.SYLLABLES_SHOWN, label: '3. 音節拆解' },
+            { step: PracticeStep.AUDIO_PLAYED, label: '4. 發音朗讀' }
           ].map((s) => {
             const isDone = currentStep >= s.step;
             const isCurrent = currentStep === s.step;
@@ -273,7 +333,7 @@ export function EPRSPracticeModal({
             </div>
           </div>
 
-          {/* Step 4 & 5: Audio Feedback Indicator */}
+          {/* Step 4: Audio Playback Control */}
           <div className="flex items-center justify-center gap-3">
             <button
               onClick={() => playCurrentWordAudio()}
@@ -283,11 +343,7 @@ export function EPRSPracticeModal({
             >
               <Volume2 className="h-5 w-5" />
               <span>
-                {currentStep >= PracticeStep.AUDIO_2_PLAYED
-                  ? '再次播放發音'
-                  : currentStep >= PracticeStep.AUDIO_1_PLAYED
-                  ? '播放第 2 次強化發音'
-                  : '朗讀標準發音'}
+                {currentStep >= PracticeStep.AUDIO_PLAYED ? '再次播放發音' : '朗讀標準發音'}
               </span>
             </button>
 
@@ -306,11 +362,11 @@ export function EPRSPracticeModal({
         </div>
 
         {/* Modal Footer Controls */}
-        <div className="flex items-center justify-between border-t border-slate-100 bg-slate-50/80 px-4 py-3 sm:px-6 sm:py-4 dark:border-slate-800 dark:bg-slate-800/60">
+        <div className="flex items-center justify-between border-t border-slate-100 bg-slate-50/80 px-4 py-3 sm:px-6 sm:py-3.5 dark:border-slate-800 dark:bg-slate-800/60">
           <div className="flex items-center gap-2">
             <button
               onClick={handlePrevWord}
-              disabled={currentIndex <= 0}
+              disabled={currentIndex <= 0 && activeUnitIndex <= 0}
               className={`flex items-center gap-1 rounded-xl border border-slate-200 bg-white ${typo.button} font-semibold text-slate-600 hover:bg-slate-100 disabled:opacity-30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 cursor-pointer`}
             >
               <ChevronLeft className="h-4 w-4" />
@@ -320,7 +376,7 @@ export function EPRSPracticeModal({
             <button
               onClick={handleRestart}
               className={`p-2 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer`}
-              title="重頭開始"
+              title="重新練習本單元"
             >
               <RotateCcw className="h-4 w-4" />
             </button>
@@ -331,7 +387,11 @@ export function EPRSPracticeModal({
               onClick={handleNextStep}
               className={`flex items-center gap-2 rounded-xl bg-indigo-600 ${typo.button} font-bold text-white shadow-md hover:bg-indigo-500 transition cursor-pointer`}
             >
-              <span>{currentStep === PracticeStep.AUDIO_2_PLAYED ? '下一個單字' : '下一步 (空白鍵/Enter)'}</span>
+              <span>
+                {currentStep === PracticeStep.AUDIO_PLAYED
+                  ? (isLastWordInUnit && isLastUnit ? '完成練習' : isLastWordInUnit ? '前往下一單元' : '下一個單字')
+                  : '下一步 (空白鍵/Enter)'}
+              </span>
               <ChevronRight className="h-4 w-4" />
             </button>
           </div>
