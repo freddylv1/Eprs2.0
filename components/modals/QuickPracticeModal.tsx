@@ -14,7 +14,13 @@ import {
   Award,
   Flame,
   ChevronRight,
-  AlertTriangle
+  AlertTriangle,
+  Play,
+  Headphones,
+  BookOpen,
+  Hash,
+  Sliders,
+  Sparkles
 } from 'lucide-react';
 
 interface QuickPracticeModalProps {
@@ -26,6 +32,9 @@ interface QuickPracticeModalProps {
 
 // 專注在精準且穩定的拼讀與聽音測驗模式
 export type PracticeMode = 'listen_word' | 'rule_identify' | 'syllable_count';
+
+export const QUESTION_COUNT_OPTIONS = [10, 20, 25, 50, 100] as const;
+export type QuestionCountType = (typeof QUESTION_COUNT_OPTIONS)[number];
 
 interface PracticeOption {
   value: string;
@@ -50,13 +59,20 @@ function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
-function buildQuestions(words: WordItem[], mode: PracticeMode): PracticeQuestion[] {
+function buildQuestions(words: WordItem[], mode: PracticeMode, targetCount: number = 20): PracticeQuestion[] {
   if (!words || words.length === 0) return [];
-  const shuffledWords = shuffleArray(words);
+
+  // 若題數超過單字量，隨機重複循環填充
+  let wordPool: WordItem[] = [];
+  while (wordPool.length < targetCount) {
+    wordPool.push(...shuffleArray(words));
+  }
+  wordPool = wordPool.slice(0, targetCount);
+
   const questions: PracticeQuestion[] = [];
 
-  for (let i = 0; i < shuffledWords.length; i++) {
-    const current = shuffledWords[i];
+  for (let i = 0; i < wordPool.length; i++) {
+    const current = wordPool[i];
 
     if (mode === 'listen_word') {
       const wrongWordItems = shuffleArray(
@@ -108,8 +124,7 @@ function buildQuestions(words: WordItem[], mode: PracticeMode): PracticeQuestion
 
       const options: PracticeOption[] = shuffleArray(Array.from(countSet)).map(cnt => ({
         value: String(cnt),
-        label: `${cnt} 個音節`,
-        chineseHint: cnt === actualCount ? '符合發音拆解' : undefined
+        label: `${cnt} 個音節`
       }));
 
       questions.push({
@@ -130,38 +145,55 @@ export function QuickPracticeModal({
   fontSize = 'medium'
 }: QuickPracticeModalProps) {
   const [mode, setMode] = useState<PracticeMode>('listen_word');
-  const [questions, setQuestions] = useState<PracticeQuestion[]>(() => buildQuestions(words, 'listen_word'));
+  const [selectedCount, setSelectedCount] = useState<QuestionCountType>(20);
+  const [isStarted, setIsStarted] = useState<boolean>(false);
+
+  const [questions, setQuestions] = useState<PracticeQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
-  const [score, setScore] = useState<number>(0);
   const [streak, setStreak] = useState<number>(0);
   const [history, setHistory] = useState<{ word: string; correct: boolean }[]>([]);
   const [showExitConfirm, setShowExitConfirm] = useState<boolean>(false);
 
   const typo = getModalFontSizeClasses(fontSize);
 
-  // 安全關閉機制：若進行中且已有分數或作答紀錄，跳出防誤觸確認
-  const handleRequestClose = useCallback(() => {
-    if (currentIndex >= questions.length || (currentIndex === 0 && !isAnswered && score === 0)) {
-      onClose();
-    } else {
-      setShowExitConfirm(true);
-    }
-  }, [currentIndex, questions.length, isAnswered, score, onClose]);
+  // 依比例計算得分：滿分 100 分制
+  const correctCount = history.filter(h => h.correct).length;
+  const totalQuestions = questions.length || selectedCount;
+  const currentProportionalScore = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+  const pointsPerQuestion = totalQuestions > 0 ? (100 / totalQuestions) : 0;
 
-  // 切換模式時重新生題
-  const handleSwitchMode = (newMode: PracticeMode) => {
-    if (newMode === mode) return;
-    setMode(newMode);
-    const newQuestions = buildQuestions(words, newMode);
+  // 初始化或重新開始測驗
+  const handleStartQuiz = useCallback((customMode?: PracticeMode, customCount?: QuestionCountType) => {
+    const targetMode = customMode || mode;
+    const targetCount = customCount || selectedCount;
+    const newQuestions = buildQuestions(words, targetMode, targetCount);
     setQuestions(newQuestions);
     setCurrentIndex(0);
     setSelectedOption(null);
     setIsAnswered(false);
-    setScore(0);
     setStreak(0);
     setHistory([]);
+    setIsStarted(true);
+    setShowExitConfirm(false);
+  }, [mode, selectedCount, words]);
+
+  // 安全關閉機制：若進行中且已有作答紀錄，跳出防誤觸確認
+  const handleRequestClose = useCallback(() => {
+    if (!isStarted || currentIndex >= questions.length || (currentIndex === 0 && !isAnswered && history.length === 0)) {
+      setIsStarted(false);
+      onClose();
+    } else {
+      setShowExitConfirm(true);
+    }
+  }, [isStarted, currentIndex, questions.length, isAnswered, history.length, onClose]);
+
+  // 切換模式時重新生題並重新開始
+  const handleSwitchMode = (newMode: PracticeMode) => {
+    if (newMode === mode && isStarted) return;
+    setMode(newMode);
+    handleStartQuiz(newMode, selectedCount);
   };
 
   const currentQ = questions[currentIndex];
@@ -175,32 +207,31 @@ export function QuickPracticeModal({
 
   // 進入題目時自動播放聲音（聽音辨字模式）
   useEffect(() => {
-    if (isOpen && currentQ && mode === 'listen_word' && !isAnswered) {
+    if (isOpen && isStarted && currentQ && mode === 'listen_word' && !isAnswered) {
       const timer = setTimeout(() => {
         handlePlayCurrent();
       }, 250);
       return () => clearTimeout(timer);
     }
-  }, [isOpen, currentIndex, mode, isAnswered, currentQ, handlePlayCurrent]);
+  }, [isOpen, isStarted, currentQ, mode, isAnswered, handlePlayCurrent]);
 
-  // 測驗模式作答
-  const handleSelectOption = useCallback((option: string) => {
+  // 作答處理
+  const handleSelectOption = useCallback((opt: string) => {
     if (isAnswered || !currentQ) return;
 
-    setSelectedOption(option);
+    setSelectedOption(opt);
     setIsAnswered(true);
 
     let isCorrect = false;
     if (mode === 'listen_word') {
-      isCorrect = option === currentQ.correctAnswer;
+      isCorrect = opt === currentQ.correctAnswer;
     } else if (mode === 'rule_identify') {
-      isCorrect = (currentQ.word.ruleCodes || []).includes(option) || option === currentQ.correctAnswer;
+      isCorrect = (currentQ.word.ruleCodes || []).includes(opt) || opt === currentQ.correctAnswer;
     } else if (mode === 'syllable_count') {
-      isCorrect = option === currentQ.correctAnswer;
+      isCorrect = opt === currentQ.correctAnswer;
     }
 
     if (isCorrect) {
-      setScore(s => s + 10 + streak * 2);
       setStreak(st => st + 1);
       setHistory(h => [...h, { word: currentQ.word.word, correct: true }]);
     } else {
@@ -212,7 +243,7 @@ export function QuickPracticeModal({
     setTimeout(() => {
       audioManager.speakWord(currentQ.word.word);
     }, 200);
-  }, [isAnswered, currentQ, mode, streak]);
+  }, [isAnswered, currentQ, mode]);
 
   // 下一題
   const handleNext = useCallback(() => {
@@ -225,14 +256,12 @@ export function QuickPracticeModal({
     }
   }, [currentIndex, questions.length]);
 
-  // 重新開始
-  const handleRestart = () => {
-    const newQuestions = buildQuestions(words, mode);
-    setQuestions(newQuestions);
+  // 重新設定並返回設定頁面
+  const handleResetToSetup = () => {
+    setIsStarted(false);
     setCurrentIndex(0);
     setSelectedOption(null);
     setIsAnswered(false);
-    setScore(0);
     setStreak(0);
     setHistory([]);
     setShowExitConfirm(false);
@@ -253,6 +282,14 @@ export function QuickPracticeModal({
       }
 
       if (showExitConfirm) return;
+
+      if (!isStarted) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          handleStartQuiz();
+        }
+        return;
+      }
 
       if (e.key === ' ' || e.key === 'Enter') {
         if (isAnswered) {
@@ -275,11 +312,11 @@ export function QuickPracticeModal({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, isAnswered, currentQ, showExitConfirm, handlePlayCurrent, handleNext, handleSelectOption, handleRequestClose]);
+  }, [isOpen, isStarted, isAnswered, currentQ, showExitConfirm, handlePlayCurrent, handleNext, handleSelectOption, handleRequestClose, handleStartQuiz]);
 
   if (!isOpen) return null;
 
-  if (!questions || questions.length === 0) {
+  if (!words || words.length === 0) {
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 p-4">
         <div className="rounded-3xl bg-white p-6 dark:bg-slate-900 text-center">
@@ -292,7 +329,7 @@ export function QuickPracticeModal({
     );
   }
 
-  const isCompleted = currentIndex >= questions.length;
+  const isCompleted = isStarted && currentIndex >= questions.length;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-2 sm:p-6 overflow-y-auto">
@@ -304,89 +341,208 @@ export function QuickPracticeModal({
               <Award className="h-4 w-4 sm:h-5 sm:w-5" />
             </div>
             <div>
-              <h2 className={`${typo.title} text-slate-900 dark:text-white`}>
-                自然發音互動測驗
+              <h2 className={`${typo.title} text-slate-900 dark:text-white flex items-center gap-2`}>
+                <span>自然發音互動測驗</span>
+                {isStarted && !isCompleted && (
+                  <span className="hidden sm:inline-flex items-center rounded-md bg-indigo-100 px-2 py-0.5 text-xs font-semibold text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300">
+                    {mode === 'listen_word' ? '聽音辨字' : mode === 'rule_identify' ? '法則辨識' : '音節計數'} • {totalQuestions} 題
+                  </span>
+                )}
               </h2>
-              <div className={`flex items-center gap-1.5 sm:gap-2 ${typo.subtext} text-slate-500 dark:text-slate-400`}>
-                <span>第 {Math.min(currentIndex + 1, questions.length)} / {questions.length} 題</span>
-                <span>•</span>
-                <span className="flex items-center gap-0.5 text-amber-600 dark:text-amber-400 font-semibold">
-                  <Flame className="h-3 w-3 sm:h-3.5 sm:w-3.5" /> 連續: {streak}
-                </span>
-                <span>•</span>
-                <span className="font-semibold text-indigo-600 dark:text-indigo-400">得分: {score}</span>
-              </div>
+              {isStarted && !isCompleted ? (
+                <div className={`flex items-center gap-1.5 sm:gap-2 ${typo.subtext} text-slate-500 dark:text-slate-400 mt-0.5`}>
+                  <span>第 {Math.min(currentIndex + 1, questions.length)} / {questions.length} 題</span>
+                  <span>•</span>
+                  <span className="flex items-center gap-0.5 text-amber-600 dark:text-amber-400 font-semibold">
+                    <Flame className="h-3 w-3 sm:h-3.5 sm:w-3.5" /> 連續: {streak}
+                  </span>
+                  <span>•</span>
+                  <span className="font-semibold text-indigo-600 dark:text-indigo-400">
+                    比例得分: {currentProportionalScore} / 100 分
+                  </span>
+                </div>
+              ) : (
+                <div className={`${typo.subtext} text-slate-500 dark:text-slate-400 mt-0.5`}>
+                  自選題數 • 滿分 100 分依比例精準計分
+                </div>
+              )}
             </div>
           </div>
-          <button
-            onClick={handleRequestClose}
-            className="rounded-xl p-2 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition cursor-pointer"
-            title="離開測驗"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-
-        {/* Mode Selector */}
-        {!isCompleted && (
-          <div className="shrink-0 flex border-b border-slate-100 bg-slate-50/40 px-3 py-2 sm:px-6 sm:py-2.5 dark:border-slate-800 dark:bg-slate-800/30 gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar">
+          <div className="flex items-center gap-1">
+            {isStarted && !isCompleted && (
+              <button
+                onClick={handleResetToSetup}
+                className="inline-flex items-center gap-1 rounded-xl px-2.5 py-1.5 text-xs font-semibold text-slate-600 hover:bg-slate-200/60 dark:text-slate-300 dark:hover:bg-slate-800 transition cursor-pointer"
+                title="重新設定測驗模式與題數"
+              >
+                <Sliders className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">重設</span>
+              </button>
+            )}
             <button
-              onClick={() => handleSwitchMode('listen_word')}
-              className={`shrink-0 rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
-                mode === 'listen_word'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
-              }`}
+              onClick={handleRequestClose}
+              className="rounded-xl p-2 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition cursor-pointer"
+              title="離開測驗"
             >
-              聽音辨字
-            </button>
-            <button
-              onClick={() => handleSwitchMode('rule_identify')}
-              className={`shrink-0 rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
-                mode === 'rule_identify'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
-              }`}
-            >
-              法則辨識
-            </button>
-            <button
-              onClick={() => handleSwitchMode('syllable_count')}
-              className={`shrink-0 rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
-                mode === 'syllable_count'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
-              }`}
-            >
-              音節計數
+              <X className="h-5 w-5" />
             </button>
           </div>
-        )}
+        </div>
 
         {/* Content Area */}
         <div className="flex-1 overflow-y-auto p-4 sm:p-6">
-          {isCompleted ? (
+          {!isStarted ? (
+            /* 進入測驗前的設定面板 (Setup Screen) */
+            <div className="space-y-6 py-2 animate-in fade-in duration-200">
+              {/* 模式選擇 */}
+              <div className="space-y-2.5">
+                <label className={`${typo.body} font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}>
+                  <Headphones className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
+                  <span>1. 選擇測驗模式</span>
+                </label>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  <button
+                    type="button"
+                    onClick={() => setMode('listen_word')}
+                    className={`flex flex-col items-start p-3.5 rounded-2xl border text-left transition cursor-pointer ${
+                      mode === 'listen_word'
+                        ? 'border-indigo-600 bg-indigo-50/80 text-indigo-950 dark:border-indigo-500 dark:bg-indigo-950/50 dark:text-indigo-200 ring-2 ring-indigo-500/20 shadow-xs'
+                        : 'border-slate-200 bg-white hover:border-slate-300 dark:border-slate-800 dark:bg-slate-800/60 dark:hover:border-slate-700 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div className="flex items-center gap-2 font-bold text-sm">
+                      <Headphones className="h-4 w-4 text-indigo-600 shrink-0" />
+                      <span>聽音辨字</span>
+                    </div>
+                    <p className="mt-1 text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                      聆聽單字真人語音，選出正確單字與中文
+                    </p>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setMode('rule_identify')}
+                    className={`flex flex-col items-start p-3.5 rounded-2xl border text-left transition cursor-pointer ${
+                      mode === 'rule_identify'
+                        ? 'border-indigo-600 bg-indigo-50/80 text-indigo-950 dark:border-indigo-500 dark:bg-indigo-950/50 dark:text-indigo-200 ring-2 ring-indigo-500/20 shadow-xs'
+                        : 'border-slate-200 bg-white hover:border-slate-300 dark:border-slate-800 dark:bg-slate-800/60 dark:hover:border-slate-700 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div className="flex items-center gap-2 font-bold text-sm">
+                      <BookOpen className="h-4 w-4 text-indigo-600 shrink-0" />
+                      <span>法則辨識</span>
+                    </div>
+                    <p className="mt-1 text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                      觀察單字音標結構，識別符合的自然發音法則
+                    </p>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setMode('syllable_count')}
+                    className={`flex flex-col items-start p-3.5 rounded-2xl border text-left transition cursor-pointer ${
+                      mode === 'syllable_count'
+                        ? 'border-indigo-600 bg-indigo-50/80 text-indigo-950 dark:border-indigo-500 dark:bg-indigo-950/50 dark:text-indigo-200 ring-2 ring-indigo-500/20 shadow-xs'
+                        : 'border-slate-200 bg-white hover:border-slate-300 dark:border-slate-800 dark:bg-slate-800/60 dark:hover:border-slate-700 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div className="flex items-center gap-2 font-bold text-sm">
+                      <Hash className="h-4 w-4 text-indigo-600 shrink-0" />
+                      <span>音節計數</span>
+                    </div>
+                    <p className="mt-1 text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                      拆解單字母音核心，判斷正確音節數量
+                    </p>
+                  </button>
+                </div>
+              </div>
+
+              {/* 題數選擇 (10, 20, 25, 50, 100) */}
+              <div className="space-y-2.5">
+                <div className="flex items-center justify-between">
+                  <label className={`${typo.body} font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}>
+                    <Sliders className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
+                    <span>2. 選擇測驗題數</span>
+                  </label>
+                  <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400">
+                    每題 {pointsPerQuestion % 1 === 0 ? pointsPerQuestion : pointsPerQuestion.toFixed(1)} 分（滿分 100 分）
+                  </span>
+                </div>
+                <div className="grid grid-cols-5 gap-2">
+                  {QUESTION_COUNT_OPTIONS.map((count) => {
+                    const isSelected = selectedCount === count;
+                    const pts = 100 / count;
+                    return (
+                      <button
+                        key={count}
+                        type="button"
+                        onClick={() => setSelectedCount(count)}
+                        className={`flex flex-col items-center justify-center py-3 px-1 rounded-2xl border transition cursor-pointer ${
+                          isSelected
+                            ? 'border-indigo-600 bg-indigo-600 text-white font-bold shadow-md ring-2 ring-indigo-500/30'
+                            : 'border-slate-200 bg-slate-50/70 hover:bg-slate-100 hover:border-slate-300 text-slate-700 dark:border-slate-800 dark:bg-slate-800/50 dark:hover:bg-slate-800 dark:text-slate-300'
+                        }`}
+                      >
+                        <span className="text-base sm:text-lg font-bold">{count}</span>
+                        <span className={`text-[10px] sm:text-[11px] font-medium ${isSelected ? 'text-indigo-100' : 'text-slate-400 dark:text-slate-500'}`}>
+                          {pts % 1 === 0 ? `${pts}分/題` : `${pts.toFixed(1)}分`}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 計分規則與提示卡 */}
+              <div className="rounded-2xl border border-indigo-100 bg-indigo-50/60 p-4 dark:border-indigo-950/60 dark:bg-indigo-950/30 space-y-1.5">
+                <div className="flex items-center gap-2 text-xs font-bold text-indigo-900 dark:text-indigo-300">
+                  <Sparkles className="h-4 w-4 text-indigo-600 dark:text-indigo-400 shrink-0" />
+                  <span>得分計算規則說明</span>
+                </div>
+                <p className="text-xs text-indigo-800/80 dark:text-indigo-300/80 leading-relaxed">
+                  本系統採<strong>滿分 100 分等比例制</strong>：答對題數 ÷ 總題數 ({selectedCount} 題) × 100。<br className="hidden sm:inline" />
+                  支援鍵盤快速鍵：數字鍵 <kbd className="px-1.5 py-0.5 rounded bg-white dark:bg-slate-800 font-mono text-[10px] border shadow-2xs">1~4</kbd> 作答、<kbd className="px-1.5 py-0.5 rounded bg-white dark:bg-slate-800 font-mono text-[10px] border shadow-2xs">空白鍵</kbd> 重播發音 / 下一題。
+                </p>
+              </div>
+
+              {/* 開始測驗按鈕 */}
+              <div className="pt-2">
+                <button
+                  type="button"
+                  onClick={() => handleStartQuiz()}
+                  className={`w-full flex items-center justify-center gap-2 rounded-2xl bg-indigo-600 py-4 ${typo.button} font-bold text-white shadow-lg shadow-indigo-600/25 hover:bg-indigo-500 active:scale-[0.99] transition cursor-pointer`}
+                >
+                  <Play className="h-5 w-5 fill-current" />
+                  <span>開始測驗 ({selectedCount} 題)</span>
+                </button>
+              </div>
+            </div>
+          ) : isCompleted ? (
             /* Result Screen */
             <div className="space-y-6 py-4 text-center animate-in fade-in zoom-in-95 duration-200">
-              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-emerald-100 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400">
+              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-emerald-100 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400 shadow-inner">
                 <Award className="h-10 w-10" />
               </div>
               <div className="space-y-2">
                 <h3 className={`${typo.title} text-slate-900 dark:text-white text-2xl`}>測驗完成！</h3>
                 <p className={`${typo.body} text-slate-500 dark:text-slate-400`}>
-                  恭喜完成本批次單字練習，總得分：<strong className="text-indigo-600 dark:text-indigo-400 text-lg">{score}</strong> 分
+                  恭喜完成 {questions.length} 題單字練習，總得分：
+                  <strong className="text-indigo-600 dark:text-indigo-400 text-2xl ml-1.5 font-mono">
+                    {currentProportionalScore}
+                  </strong>
+                  <span className="text-slate-400 text-sm ml-1">/ 100 分</span>
                 </p>
               </div>
 
               {/* Stats & History */}
               <div className="mx-auto max-w-md rounded-2xl border border-slate-200 bg-slate-50/70 p-4 text-left dark:border-slate-800 dark:bg-slate-800/40 space-y-3">
-                <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 font-medium">
-                  <span>單字作答紀錄</span>
-                  <span>
-                    正確率: {Math.round((history.filter(h => h.correct).length / Math.max(1, history.length)) * 100)}%
+                <div className="flex items-center justify-between text-xs text-slate-600 dark:text-slate-400 font-semibold">
+                  <span>單字作答紀錄 ({correctCount} / {questions.length} 題正確)</span>
+                  <span className="text-indigo-600 dark:text-indigo-400 font-mono text-sm">
+                    正確率: {currentProportionalScore}%
                   </span>
                 </div>
-                <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto pr-1">
+                <div className="flex flex-wrap gap-1.5 max-h-44 overflow-y-auto pr-1">
                   {history.map((h, i) => (
                     <span
                       key={i}
@@ -404,17 +560,24 @@ export function QuickPracticeModal({
               </div>
 
               {/* Action Buttons */}
-              <div className="flex justify-center gap-3 pt-2">
+              <div className="flex flex-wrap justify-center gap-3 pt-2">
                 <button
-                  onClick={handleRestart}
-                  className={`inline-flex items-center gap-2 rounded-xl bg-indigo-600 ${typo.button} font-bold text-white shadow-md hover:bg-indigo-500 active:scale-95 transition cursor-pointer`}
+                  onClick={() => handleStartQuiz(mode, selectedCount)}
+                  className={`inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-3 ${typo.button} font-bold text-white shadow-md hover:bg-indigo-500 active:scale-95 transition cursor-pointer`}
                 >
                   <RotateCcw className="h-4 w-4" />
-                  <span>再來一次</span>
+                  <span>再來一次 ({selectedCount} 題)</span>
+                </button>
+                <button
+                  onClick={handleResetToSetup}
+                  className={`inline-flex items-center gap-2 rounded-xl border border-indigo-200 bg-indigo-50/60 px-5 py-3 ${typo.button} font-semibold text-indigo-700 hover:bg-indigo-100 dark:border-indigo-800 dark:bg-indigo-950/60 dark:text-indigo-300 cursor-pointer`}
+                >
+                  <Sliders className="h-4 w-4" />
+                  <span>變更題數 / 模式</span>
                 </button>
                 <button
                   onClick={onClose}
-                  className={`rounded-xl border border-slate-200 ${typo.button} font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 cursor-pointer`}
+                  className={`rounded-xl border border-slate-200 px-5 py-3 ${typo.button} font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 cursor-pointer`}
                 >
                   結束並返回
                 </button>
@@ -427,7 +590,7 @@ export function QuickPracticeModal({
               <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-5 text-center dark:border-slate-800 dark:bg-slate-800/40 space-y-3">
                 <span className={`${typo.subtext} font-medium text-slate-400 uppercase tracking-wider`}>
                   {mode === 'listen_word'
-                    ? '請仔細聆聽發音，選出正確的單字'
+                    ? '請仔細聆聽發音，選出正確的單字與中文'
                     : mode === 'rule_identify'
                     ? '請觀察單字，選出它所符合的自然發音法則'
                     : '請分析單字結構，選出正確的音節數量'}
@@ -554,7 +717,7 @@ export function QuickPracticeModal({
             <div>
               <h4 className="text-lg font-bold text-slate-900 dark:text-white">確定要退出測驗嗎？</h4>
               <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-                目前正在進行第 {currentIndex + 1} 題（已獲得 {score} 分），若現在退出本次測驗進度將會重置。
+                目前正在進行第 {currentIndex + 1} / {questions.length} 題（目前得分 {currentProportionalScore} 分），若現在退出本次測驗進度將會重置。
               </p>
             </div>
             <div className="flex items-center gap-3 pt-2">
@@ -567,6 +730,7 @@ export function QuickPracticeModal({
               <button
                 onClick={() => {
                   setShowExitConfirm(false);
+                  setIsStarted(false);
                   onClose();
                 }}
                 className="flex-1 rounded-xl border border-slate-200 py-2.5 text-sm font-semibold text-slate-600 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition cursor-pointer"

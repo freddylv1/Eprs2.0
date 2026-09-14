@@ -403,6 +403,7 @@ export default function HomePage() {
         onOpenRuleDetail={handleOpenRuleDetail}
         onOpenWordMatrix={handleOpenWordMatrix}
         fontSize={fontSize}
+        isOverlaid={isMatrixModalOpen || isRuleModalOpen}
       />
 
       {/* Quiz Challenge Modal */}

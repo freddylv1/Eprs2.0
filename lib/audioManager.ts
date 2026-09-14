@@ -398,6 +398,91 @@ class PhonicsAudioManager {
   }
 
   /**
+   * 離線中文語音合成 (Web Speech API zh-TW / zh-CN)
+   */
+  public speakChinese(text: string, onEnd?: () => void): boolean {
+    this.unlockAudio();
+    this.stop();
+
+    const cleanText = text
+      .replace(/[\(\)（）\[\]【】\/;；,，。]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!cleanText || typeof window === 'undefined') {
+      onEnd?.();
+      return false;
+    }
+
+    if (!this.synth) {
+      if ('speechSynthesis' in window) {
+        this.synth = window.speechSynthesis;
+      } else {
+        onEnd?.();
+        return false;
+      }
+    }
+
+    try {
+      if (this.synth.paused) {
+        this.synth.resume();
+      }
+
+      const voices = this.synth.getVoices() || [];
+      // 優先尋找繁體中文 (zh-TW)，其次香港 (zh-HK) 或其他中文 (zh)
+      const zhVoice =
+        voices.find(v => v.lang === 'zh-TW' || v.lang === 'zh_TW' || v.lang.startsWith('zh-TW')) ||
+        voices.find(v => v.lang.includes('zh-TW') || v.lang.includes('zh_TW')) ||
+        voices.find(v => v.lang.includes('zh-HK') || v.lang.includes('zh_HK')) ||
+        voices.find(v => v.lang.startsWith('zh')) ||
+        voices.find(v => v.lang.includes('cmn'));
+
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      utterance.lang = zhVoice ? zhVoice.lang : 'zh-TW';
+      utterance.rate = 0.95;
+      utterance.pitch = 1.0;
+      if (zhVoice) {
+        utterance.voice = zhVoice;
+      }
+
+      let ended = false;
+      const handleEnd = () => {
+        if (!ended) {
+          ended = true;
+          this.activeUtterance = null;
+          (window as unknown as { __activeUtterance?: SpeechSynthesisUtterance | null }).__activeUtterance = null;
+          onEnd?.();
+        }
+      };
+
+      utterance.onend = handleEnd;
+      utterance.onerror = (e) => {
+        console.warn('[EPRS Audio] speakChinese error:', e);
+        handleEnd();
+      };
+
+      this.activeUtterance = utterance;
+      (window as unknown as { __activeUtterance?: SpeechSynthesisUtterance | null }).__activeUtterance = utterance;
+
+      this.synth.speak(utterance);
+
+      // 安全超時保護
+      const timeoutSec = Math.max(2000, cleanText.length * 450);
+      setTimeout(() => {
+        if (!ended && this.activeUtterance === utterance) {
+          handleEnd();
+        }
+      }, timeoutSec);
+
+      return true;
+    } catch (e) {
+      console.warn('[EPRS Audio] speakChinese exception:', e);
+      onEnd?.();
+      return false;
+    }
+  }
+
+  /**
    * 依序朗讀各音節，最後朗讀完整單字（拼讀節奏輔助）
    */
   public async speakSyllablesSequentially(
