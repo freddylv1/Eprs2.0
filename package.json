@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf dist && mkdir -p dist && cp -r .next/* dist/ && cp -r public/* dist/ 2>/dev/null || true",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "clean": "next clean"
