@@ -1,9 +1,8 @@
 // Service Worker for EPRS English Phonics Matrix System
-const CACHE_NAME = 'eprs-phonics-v1';
+const CACHE_NAME = 'eprs-phonics-v2';
 
 const STATIC_PRECACHE = [
-  '/',
-  '/manifest.webmanifest',
+  '/manifest.json',
   '/icon-192.png',
   '/icon-512.png',
   '/icon-maskable-512.png',
@@ -40,10 +39,12 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(event.request.url);
 
-  // Skip chrome-extension and external requests
-  if (url.origin !== self.location.origin) return;
+  // Never intercept /_next/, Next.js hot reload / webpack chunks, or external origins
+  if (url.origin !== self.location.origin || url.pathname.startsWith('/_next/')) {
+    return;
+  }
 
-  // For data json files and icons: Stale-While-Revalidate
+  // For static data json files and icons: Stale-While-Revalidate
   if (url.pathname.startsWith('/data/') || url.pathname.endsWith('.png') || url.pathname.endsWith('.json')) {
     event.respondWith(
       caches.open(CACHE_NAME).then(async (cache) => {
@@ -63,23 +64,19 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // For navigation and general requests: Network first with cache fallback
-  event.respondWith(
-    fetch(event.request)
-      .then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200 && event.request.mode === 'navigate') {
-          const clone = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-        }
-        return networkResponse;
-      })
-      .catch(async () => {
+  // For navigations and all other requests: Pass through to network
+  // In case of total offline failure for navigation, return basic offline fallback
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request).catch(async () => {
         const cached = await caches.match(event.request);
         if (cached) return cached;
-        if (event.request.mode === 'navigate') {
-          return caches.match('/');
-        }
-        return new Response('Offline', { status: 503, statusText: 'Offline' });
+        return new Response(
+          '<!DOCTYPE html><html><head><meta charset="utf-8"><title>離線模式 - EPRS</title></head><body style="font-family:sans-serif;text-align:center;padding:50px;"><h2>網路連線已中斷</h2><p>請檢查您的網路連線後重新整理網頁。</p></body></html>',
+          { headers: { 'Content-Type': 'text/html; charset=utf-8' }, status: 503 }
+        );
       })
-  );
+    );
+  }
 });
+

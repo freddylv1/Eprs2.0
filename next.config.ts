@@ -13,8 +13,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  // 靜態匯出支援（在 GitHub Actions 自動啟用，產出 out 資料夾）
-  ...(isStaticExport ? { output: 'export' as const } : {}),
+  output: isStaticExport ? ('export' as const) : ('standalone' as const),
   basePath: basePath,
   assetPrefix: basePath ? `${basePath}/` : '',
   trailingSlash: Boolean(basePath || isGithubActions),
@@ -32,6 +31,10 @@ const nextConfig: NextConfig = {
     ],
   },
   transpilePackages: ['motion'],
+  devIndicators: false,
+  experimental: {
+    devtoolSegmentExplorer: false,
+  },
   webpack: (config, {dev}) => {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
     if (dev && process.env.DISABLE_HMR === 'true') {
