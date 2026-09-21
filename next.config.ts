@@ -1,7 +1,6 @@
 import type {NextConfig} from 'next';
 
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
-const isStaticExport = process.env.STATIC_EXPORT === 'true' || isGithubActions;
 const repoName = 'Eprs2.0';
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || (isGithubActions ? `/${repoName}` : '');
 
@@ -13,14 +12,13 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  output: isStaticExport ? ('export' as const) : ('standalone' as const),
-  basePath: basePath,
-  assetPrefix: basePath ? `${basePath}/` : '',
+  output: 'export',
+  ...(basePath ? { basePath } : {}),
   trailingSlash: Boolean(basePath || isGithubActions),
 
   // Allow access to remote image placeholder.
   images: {
-    unoptimized: isStaticExport,
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -32,9 +30,6 @@ const nextConfig: NextConfig = {
   },
   transpilePackages: ['motion'],
   devIndicators: false,
-  experimental: {
-    devtoolSegmentExplorer: false,
-  },
   webpack: (config, {dev}) => {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
     if (dev && process.env.DISABLE_HMR === 'true') {

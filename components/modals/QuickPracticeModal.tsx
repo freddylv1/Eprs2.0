@@ -337,95 +337,111 @@ export function QuickPracticeModal({
   const isCompleted = isStarted && currentIndex >= questions.length;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-2 sm:p-4 md:p-6 overflow-y-auto">
-      <div className="relative flex h-[94vh] sm:h-auto max-h-[94vh] w-full max-w-2xl md:max-w-3xl lg:max-w-4xl flex-col rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-slate-800 dark:bg-slate-900 overflow-hidden">
-        {/* Header */}
-        <div className="shrink-0 flex items-center justify-between border-b border-slate-100 bg-slate-50/80 px-4 py-3 sm:px-6 sm:py-4 dark:border-slate-800 dark:bg-slate-800/60">
-          <div className="flex items-center gap-3">
-            <div className="flex h-9 w-9 sm:h-11 sm:w-11 items-center justify-center rounded-2xl bg-indigo-600 text-white shadow-sm shrink-0">
-              <Award className="h-5 w-5 sm:h-6 sm:w-6" />
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl md:text-2xl font-black text-slate-900 dark:text-white flex items-center gap-2">
-                <span>自然發音互動測驗</span>
-                {isStarted && !isCompleted && (
-                  <span className="hidden sm:inline-flex items-center rounded-lg bg-indigo-100 px-2.5 py-0.5 text-xs sm:text-sm font-bold text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300">
-                    {mode === 'listen_word' ? '聽音辨字' : mode === 'rule_identify' ? '法則辨識' : '音節計數'} • {totalQuestions} 題
-                  </span>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-1.5 sm:p-4 md:p-6 overflow-y-auto">
+      <div className="relative flex h-[100dvh] sm:h-[85vh] md:h-[88vh] max-h-[100dvh] sm:max-h-[92vh] w-full max-w-2xl md:max-w-3xl lg:max-w-4xl flex-col rounded-2xl sm:rounded-3xl border border-slate-200 bg-white shadow-2xl dark:border-slate-800 dark:bg-slate-900 overflow-hidden">
+        {/* Header - 手機平板自適應防遮擋 */}
+        <div className="shrink-0 border-b border-slate-100 bg-slate-50/80 px-3 py-2.5 sm:px-6 sm:py-3.5 dark:border-slate-800 dark:bg-slate-800/60">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+              <div className="flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-xl sm:rounded-2xl bg-indigo-600 text-white shadow-xs shrink-0">
+                <Award className="h-4 w-4 sm:h-5 sm:w-5" />
+              </div>
+              <div className="min-w-0">
+                <h2 className="text-sm sm:text-lg md:text-xl font-black text-slate-900 dark:text-white flex items-center gap-1.5 truncate">
+                  <span>自然發音互動測驗</span>
+                  {isStarted && !isCompleted && (
+                    <span className="hidden md:inline-flex items-center rounded-lg bg-indigo-100 px-2 py-0.5 text-xs font-bold text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300">
+                      {mode === 'listen_word' ? '聽音辨字' : mode === 'rule_identify' ? '法則辨識' : '音節計數'} • {totalQuestions} 題
+                    </span>
+                  )}
+                </h2>
+                {!isStarted && (
+                  <p className="hidden sm:block text-xs text-slate-500 dark:text-slate-400 truncate">
+                    自選題數 • 滿分 100 分依比例計分 • 支援 Pad/手機大字體
+                  </p>
                 )}
-              </h2>
-              {isStarted && !isCompleted ? (
-                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2.5 text-xs sm:text-sm md:text-base font-semibold text-slate-500 dark:text-slate-400 mt-1">
-                  <span className="font-bold text-slate-700 dark:text-slate-200">
-                    第 {Math.min(currentIndex + 1, questions.length)} / {questions.length} 題
-                  </span>
-                  <span>•</span>
-                  <span className="flex items-center gap-0.5 text-amber-600 dark:text-amber-400 font-bold">
-                    <Flame className="h-4 w-4" /> 連續: {streak}
-                  </span>
-                  <span>•</span>
-                  <span className="font-bold text-indigo-600 dark:text-indigo-400">
-                    比例得分: {currentProportionalScore} / 100 分
-                  </span>
-                </div>
-              ) : (
-                <div className="text-xs sm:text-sm md:text-base font-medium text-slate-500 dark:text-slate-400 mt-0.5">
-                  自選題數 • 滿分 100 分依比例計分 • 支援 Pad/手機超大字體模式
-                </div>
-              )}
-            </div>
-          </div>
-          <div className="flex items-center gap-1.5">
-            {/* 字體大小切換控制器（預設最大） */}
-            <div className="flex items-center gap-0.5 bg-slate-200/70 dark:bg-slate-700/60 rounded-xl p-1">
-              <button
-                type="button"
-                onClick={() => setQuizFontSize('large')}
-                className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-bold transition cursor-pointer ${
-                  quizFontSize === 'large'
-                    ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-xs'
-                    : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                }`}
-                title="大字體"
-              >
-                大
-              </button>
-              <button
-                type="button"
-                onClick={() => setQuizFontSize('xlarge')}
-                className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-black transition cursor-pointer ${
-                  quizFontSize === 'xlarge'
-                    ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-xs'
-                    : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                }`}
-                title="最大字體（平板與手機最佳推薦）"
-              >
-                最大
-              </button>
+              </div>
             </div>
 
-            {isStarted && !isCompleted && (
+            {/* 右側工具操作按鈕區 */}
+            <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
+              {/* 手機單鍵切換字體 */}
               <button
-                onClick={handleResetToSetup}
-                className="inline-flex items-center gap-1 rounded-xl px-2.5 py-1.5 text-xs sm:text-sm font-semibold text-slate-600 hover:bg-slate-200/60 dark:text-slate-300 dark:hover:bg-slate-800 transition cursor-pointer"
-                title="重新設定測驗模式與題數"
+                type="button"
+                onClick={() => setQuizFontSize(prev => prev === 'xlarge' ? 'large' : 'xlarge')}
+                className="sm:hidden px-2 py-1 rounded-lg text-xs font-black bg-slate-200/80 dark:bg-slate-700/80 text-indigo-600 dark:text-indigo-400 border border-slate-300/60 dark:border-slate-600 cursor-pointer min-h-[34px]"
+                title="切換字體大小"
               >
-                <Sliders className="h-4 w-4" />
-                <span className="hidden sm:inline">重設</span>
+                {quizFontSize === 'xlarge' ? '特大字' : '大字'}
               </button>
-            )}
-            <button
-              onClick={handleRequestClose}
-              className="rounded-xl p-2 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition cursor-pointer min-h-[44px] min-w-[44px] flex items-center justify-center"
-              title="離開測驗"
-            >
-              <X className="h-6 w-6" />
-            </button>
+
+              {/* 平板/桌機字體切換鈕 */}
+              <div className="hidden sm:flex items-center gap-0.5 bg-slate-200/70 dark:bg-slate-700/60 rounded-xl p-0.5">
+                <button
+                  type="button"
+                  onClick={() => setQuizFontSize('large')}
+                  className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-bold transition cursor-pointer ${
+                    quizFontSize === 'large'
+                      ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-xs'
+                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                  }`}
+                  title="大字體"
+                >
+                  大
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setQuizFontSize('xlarge')}
+                  className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-black transition cursor-pointer ${
+                    quizFontSize === 'xlarge'
+                      ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-xs'
+                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                  }`}
+                  title="最大字體"
+                >
+                  最大
+                </button>
+              </div>
+
+              {isStarted && !isCompleted && (
+                <button
+                  onClick={handleResetToSetup}
+                  className="rounded-lg p-1.5 sm:px-2.5 sm:py-1.5 text-xs font-semibold text-slate-600 hover:bg-slate-200/60 dark:text-slate-300 dark:hover:bg-slate-800 transition cursor-pointer min-h-[34px] min-w-[34px] flex items-center justify-center"
+                  title="重新設定測驗模式與題數"
+                >
+                  <Sliders className="h-4 w-4" />
+                  <span className="hidden md:inline ml-1">重設</span>
+                </button>
+              )}
+
+              <button
+                onClick={handleRequestClose}
+                className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-200/60 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200 transition cursor-pointer min-h-[34px] min-w-[34px] flex items-center justify-center"
+                title="離開測驗"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
           </div>
+
+          {/* 測驗進行中的即時統計數據列：獨立於按鈕區，杜絕任何遮擋重疊 */}
+          {isStarted && !isCompleted && (
+            <div className="flex items-center justify-between text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-300 mt-2 pt-2 border-t border-slate-200/70 dark:border-slate-700/60">
+              <span className="font-extrabold text-slate-900 dark:text-white bg-slate-200/60 dark:bg-slate-700/60 px-2 py-0.5 rounded-md">
+                第 {Math.min(currentIndex + 1, questions.length)} / {questions.length} 題
+              </span>
+              <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400 font-black">
+                <Flame className="h-3.5 w-3.5 fill-current" /> 連續: {streak}
+              </span>
+              <span className="font-black text-indigo-600 dark:text-indigo-400">
+                得分: {currentProportionalScore} / 100
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Content Area */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 md:p-8">
+        <div className="flex-1 overflow-y-auto px-3 py-3 sm:px-6 sm:py-5 md:px-8 md:py-6 pb-6">
           {!isStarted ? (
             /* 進入測驗前的設定面板 (Setup Screen) */
             <div className="space-y-6 sm:space-y-8 py-2 animate-in fade-in duration-200">
@@ -620,10 +636,10 @@ export function QuickPracticeModal({
             </div>
           ) : (
             /* Question Layout */
-            <div className="space-y-4 sm:space-y-6">
-              {/* Question Card */}
-              <div className="rounded-3xl border border-slate-200 bg-slate-50/80 p-5 sm:p-7 md:p-8 text-center dark:border-slate-800 dark:bg-slate-800/50 space-y-3">
-                <span className="text-sm sm:text-base md:text-lg font-bold text-slate-500 dark:text-slate-400 tracking-normal">
+            <div className="space-y-3 sm:space-y-5">
+              {/* Question Card - 手機緊湊、平板桌機大氣 */}
+              <div className="rounded-2xl sm:rounded-3xl border border-slate-200 bg-slate-50/80 p-3 sm:p-6 md:p-8 text-center dark:border-slate-800 dark:bg-slate-800/50 space-y-1.5 sm:space-y-3 shadow-2xs">
+                <span className="text-xs sm:text-base md:text-lg font-bold text-slate-500 dark:text-slate-400 tracking-normal">
                   {mode === 'listen_word'
                     ? '請仔細聆聽發音，選出正確的單字與中文'
                     : mode === 'rule_identify'
@@ -632,24 +648,24 @@ export function QuickPracticeModal({
                 </span>
 
                 {mode === 'listen_word' ? (
-                  <div className="py-3 sm:py-5">
+                  <div className="py-1.5 sm:py-3">
                     <button
                       onClick={handlePlayCurrent}
-                      className="inline-flex items-center gap-3 rounded-2xl bg-indigo-600 px-8 py-4 sm:px-12 sm:py-5 text-white shadow-lg hover:bg-indigo-500 active:scale-95 transition cursor-pointer min-h-[64px]"
+                      className="inline-flex items-center gap-2 sm:gap-3 rounded-xl sm:rounded-2xl bg-indigo-600 px-6 py-2.5 sm:px-10 sm:py-4 text-white shadow-md hover:bg-indigo-500 active:scale-95 transition cursor-pointer min-h-[48px] sm:min-h-[60px]"
                     >
-                      <Volume2 className="h-7 w-7 sm:h-9 sm:w-9 animate-pulse shrink-0" />
-                      <span className="text-xl sm:text-2xl md:text-3xl font-black">點擊播放發音</span>
+                      <Volume2 className="h-5 w-5 sm:h-8 sm:w-8 animate-pulse shrink-0" />
+                      <span className="text-base sm:text-2xl md:text-3xl font-black">點擊播放發音</span>
                     </button>
-                    <p className="mt-3 text-xs sm:text-sm md:text-base font-semibold text-slate-400 dark:text-slate-500">
+                    <p className="mt-1.5 text-[11px] sm:text-sm font-semibold text-slate-400 dark:text-slate-500">
                       可按空白鍵隨時重聽發音
                     </p>
                   </div>
                 ) : (
-                  <div className="py-2 sm:py-4 space-y-2">
-                    <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black font-mono tracking-tight text-slate-900 dark:text-white select-all">
+                  <div className="py-1.5 sm:py-3 space-y-1 sm:space-y-2">
+                    <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black font-mono tracking-tight text-slate-900 dark:text-white select-all">
                       {currentQ.word.word}
                     </div>
-                    <div className="flex items-center justify-center gap-2 sm:gap-3 font-mono text-indigo-600 dark:text-indigo-400 text-lg sm:text-xl md:text-2xl font-bold">
+                    <div className="flex items-center justify-center gap-2 font-mono text-indigo-600 dark:text-indigo-400 text-sm sm:text-xl md:text-2xl font-bold">
                       <span>{currentQ.word.ipa}</span>
                       <span>•</span>
                       <span>{currentQ.word.chinese}</span>
@@ -658,8 +674,8 @@ export function QuickPracticeModal({
                 )}
               </div>
 
-              {/* Options Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5">
+              {/* Options Grid - 緊湊高辨識度排版，確保手機上 4 個選項全數清晰可見不被遮切 */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3.5 md:gap-5">
                 {currentQ.options.map((optObj, idx) => {
                   const optVal = optObj.value;
                   let btnStyle = 'border-slate-200 bg-white hover:border-indigo-300 hover:bg-indigo-50/50 text-slate-800 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200 dark:hover:border-indigo-700';
@@ -683,31 +699,31 @@ export function QuickPracticeModal({
                       key={idx}
                       onClick={() => handleSelectOption(optVal)}
                       disabled={isAnswered}
-                      className={`flex items-start justify-between rounded-2xl border p-4 sm:p-5 md:p-6 text-left transition cursor-pointer min-h-[68px] sm:min-h-[84px] ${btnStyle}`}
+                      className={`flex items-center justify-between rounded-xl sm:rounded-2xl border px-3.5 py-2.5 sm:px-5 sm:py-4 md:py-5 text-left transition cursor-pointer min-h-[52px] sm:min-h-[72px] shadow-2xs ${btnStyle}`}
                     >
-                      <div className="flex-1 min-w-0 pr-3 space-y-1.5">
-                        <div className="flex items-center gap-2.5 sm:gap-3">
-                          <span className="shrink-0 flex h-7 w-7 sm:h-9 sm:w-9 items-center justify-center rounded-xl bg-slate-100 text-sm sm:text-base md:text-lg font-black text-slate-600 dark:bg-slate-700 dark:text-slate-300">
+                      <div className="flex-1 min-w-0 pr-2 sm:pr-3">
+                        <div className="flex items-center gap-2 sm:gap-3">
+                          <span className="shrink-0 flex h-6 w-6 sm:h-8 sm:w-8 items-center justify-center rounded-lg sm:rounded-xl bg-slate-100 text-xs sm:text-base md:text-lg font-black text-slate-600 dark:bg-slate-700 dark:text-slate-300">
                             {idx + 1}
                           </span>
-                          <span className={`${mode === 'rule_identify' ? 'text-base sm:text-lg md:text-xl font-bold' : 'text-xl sm:text-2xl md:text-3xl font-black'} leading-snug`}>
+                          <span className={`${mode === 'rule_identify' ? 'text-sm sm:text-lg md:text-xl font-bold' : 'text-lg sm:text-2xl md:text-3xl font-black'} leading-snug truncate`}>
                             {optObj.label}
                           </span>
                         </div>
                         {optObj.chineseHint && (
-                          <div className={`pl-9 sm:pl-12 text-sm sm:text-base md:text-lg font-bold ${isAnswered ? 'text-slate-700 dark:text-slate-300' : 'text-slate-500 dark:text-slate-400'} line-clamp-2`}>
+                          <div className={`pl-8 sm:pl-11 text-xs sm:text-base md:text-lg font-bold mt-0.5 ${isAnswered ? 'text-slate-700 dark:text-slate-300' : 'text-slate-500 dark:text-slate-400'} truncate`}>
                             {optObj.chineseHint}
                           </div>
                         )}
                       </div>
                       {isAnswered && (
-                        <span className="shrink-0 mt-1">
+                        <span className="shrink-0 ml-1">
                           {((mode === 'listen_word' && optVal === currentQ.correctAnswer) ||
                           (mode === 'rule_identify' && ((currentQ.word.ruleCodes || []).includes(optVal) || optVal === currentQ.correctAnswer)) ||
                           (mode === 'syllable_count' && optVal === currentQ.correctAnswer)) ? (
-                            <CheckCircle2 className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-emerald-600" />
+                            <CheckCircle2 className="h-5 w-5 sm:h-7 sm:w-7 text-emerald-600" />
                           ) : optVal === selectedOption ? (
-                            <XCircle className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-rose-600" />
+                            <XCircle className="h-5 w-5 sm:h-7 sm:w-7 text-rose-600" />
                           ) : null}
                         </span>
                       )}
@@ -715,39 +731,41 @@ export function QuickPracticeModal({
                   );
                 })}
               </div>
-
-              {/* Answer Explanation & Next Button */}
-              {isAnswered && (
-                <div className="sticky bottom-0 -mx-4 -mb-4 sm:-mx-6 sm:-mb-6 md:-mx-8 md:-mb-8 p-4 sm:p-5 md:p-6 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-indigo-100 dark:border-indigo-950 shadow-2xl z-20 transition flex flex-col sm:flex-row items-center justify-between gap-4">
-                  <div className="w-full sm:w-auto text-left space-y-1.5">
-                    <div className="text-indigo-950 dark:text-indigo-200 flex flex-wrap items-center gap-2 sm:gap-3">
-                      <span className="text-lg sm:text-xl md:text-2xl font-black">
-                        正確單字：<strong>{currentQ.word.word}</strong>
-                      </span>
-                      <span className="font-mono text-indigo-600 dark:text-indigo-400 text-base sm:text-lg md:text-xl font-bold">
-                        ({currentQ.word.ipa})
-                      </span>
-                      <span className="inline-flex items-center rounded-xl bg-indigo-100 px-3 py-1 text-sm sm:text-base font-black text-indigo-800 dark:bg-indigo-950/80 dark:text-indigo-300">
-                        {currentQ.word.chinese}
-                      </span>
-                    </div>
-                    <div className="text-xs sm:text-sm md:text-base font-semibold text-slate-600 dark:text-slate-300">
-                      音節拆解: [{(currentQ.word.syllables || [currentQ.word.word]).join(' - ')}] • 適用法則:{' '}
-                      {currentQ.word.ruleCodes.join(', ')}
-                    </div>
-                  </div>
-                  <button
-                    onClick={handleNext}
-                    className="w-full sm:w-auto shrink-0 rounded-2xl bg-indigo-600 hover:bg-indigo-500 active:scale-95 py-4 px-8 sm:px-10 text-lg sm:text-xl md:text-2xl font-black text-white shadow-lg transition cursor-pointer text-center flex items-center justify-center gap-2 min-h-[56px]"
-                  >
-                    <span>下一題</span>
-                    <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
-                  </button>
-                </div>
-              )}
             </div>
           )}
         </div>
+
+        {/* Answer Explanation & Next Question Sticky Bottom Footer - 電腦端、Pad 端與手機端均固定於彈窗最底端，絕不被遮擋 */}
+        {isStarted && !isCompleted && isAnswered && currentQ && (
+          <div className="shrink-0 border-t border-indigo-200 dark:border-indigo-900/80 bg-indigo-50/95 dark:bg-indigo-950/95 p-3.5 sm:p-4 md:p-5 shadow-2xl backdrop-blur-md z-20 animate-in slide-in-from-bottom-2 duration-200">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 max-w-full">
+              <div className="w-full sm:w-auto text-left space-y-1 min-w-0">
+                <div className="text-indigo-950 dark:text-indigo-200 flex flex-wrap items-center gap-1.5 sm:gap-3">
+                  <span className="text-base sm:text-xl md:text-2xl font-black">
+                    正確單字：<strong>{currentQ.word.word}</strong>
+                  </span>
+                  <span className="font-mono text-indigo-600 dark:text-indigo-400 text-sm sm:text-lg md:text-xl font-bold">
+                    ({currentQ.word.ipa})
+                  </span>
+                  <span className="inline-flex items-center rounded-lg bg-indigo-100 dark:bg-indigo-900/80 px-2.5 py-0.5 text-xs sm:text-base font-black text-indigo-800 dark:text-indigo-200">
+                    {currentQ.word.chinese}
+                  </span>
+                </div>
+                <div className="text-[11px] sm:text-sm font-semibold text-slate-600 dark:text-slate-300 truncate">
+                  音節: [{(currentQ.word.syllables || [currentQ.word.word]).join(' - ')}] • 法則:{' '}
+                  {currentQ.word.ruleCodes.join(', ')}
+                </div>
+              </div>
+              <button
+                onClick={handleNext}
+                className="w-full sm:w-auto shrink-0 rounded-xl sm:rounded-2xl bg-indigo-600 hover:bg-indigo-500 active:scale-95 py-3 px-6 sm:py-3.5 sm:px-8 text-base sm:text-xl font-black text-white shadow-md transition cursor-pointer text-center flex items-center justify-center gap-1.5 min-h-[48px]"
+              >
+                <span>下一題 (空白鍵)</span>
+                <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* 防誤觸離開確認彈窗 */}

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function NotFound() {
+export default function Custom404() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-slate-50 p-6 text-center dark:bg-slate-950">
       <h1 className="text-4xl font-bold text-slate-900 dark:text-white">404</h1>

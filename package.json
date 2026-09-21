@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf dist && mkdir -p dist && (if [ -d out ]; then cp -r out/. dist/; else cp -r .next/. dist/ && cp -r public/. dist/ 2>/dev/null || true; fi) && touch dist/.nojekyll 2>/dev/null || true",
+    "build": "NODE_ENV=production npx next build && rm -rf dist && mkdir -p dist && (if [ -d out ]; then cp -r out/. dist/; else cp -r .next/. dist/ && cp -r public/. dist/ 2>/dev/null || true; fi) && touch dist/.nojekyll 2>/dev/null || true",
     "lint": "eslint .",
     "clean": "next clean"
   },
