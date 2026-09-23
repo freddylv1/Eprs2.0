@@ -159,21 +159,34 @@ class PhonicsAudioManager {
   }
 
   /**
-   * 停止當前任何正在播放的聲音
+   * 停止當前任何正在播放的聲音，徹底清除回呼與執行緒防範競態
    */
   public stop() {
     if (this.currentAudioElement) {
+      this.currentAudioElement.onended = null;
+      this.currentAudioElement.onerror = null;
       this.currentAudioElement.pause();
       this.currentAudioElement.currentTime = 0;
       this.currentAudioElement = null;
     }
+    if (this.activeUtterance) {
+      this.activeUtterance.onend = null;
+      this.activeUtterance.onerror = null;
+      this.activeUtterance = null;
+    }
+    if (typeof window !== 'undefined' && (window as unknown as { __activeUtterance?: SpeechSynthesisUtterance | null }).__activeUtterance) {
+      const globalUtterance = (window as unknown as { __activeUtterance?: SpeechSynthesisUtterance | null }).__activeUtterance;
+      if (globalUtterance) {
+        globalUtterance.onend = null;
+        globalUtterance.onerror = null;
+      }
+      (window as unknown as { __activeUtterance?: SpeechSynthesisUtterance | null }).__activeUtterance = null;
+    }
     if (this.synth) {
-      // 僅在正在發音時才 cancel，避免 iOS Safari 產生佇列競爭
-      if (this.synth.speaking) {
+      if (this.synth.speaking || this.synth.pending) {
         this.synth.cancel();
       }
     }
-    this.activeUtterance = null;
   }
 
   /**
@@ -259,6 +272,22 @@ class PhonicsAudioManager {
     }
 
     return true;
+  }
+
+  /**
+   * 播放完整英語句子（如歌詞整句），直接使用 Web Speech 語音合成引擎
+   */
+  public speakSentence(sentence: string, onEnd?: () => void): boolean {
+    this.unlockAudio();
+    this.stop();
+
+    const cleanText = sentence.replace(/["“”]/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!cleanText) {
+      onEnd?.();
+      return false;
+    }
+
+    return this.fallbackWebSpeech(cleanText, onEnd);
   }
 
   /**

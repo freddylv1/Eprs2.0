@@ -20,8 +20,10 @@ import {
   Clock,
   Plus,
   Minus,
-  Sliders
+  Sliders,
+  Sun
 } from 'lucide-react';
+import { useScreenWakeLock } from '../../lib/useScreenWakeLock';
 
 export interface EPRSPracticeModalProps {
   isOpen: boolean;
@@ -79,6 +81,30 @@ export function EPRSPracticeModal({
   const [isPlayingAudio, setIsPlayingAudio] = useState<boolean>(false);
   const [isPlayingChinese, setIsPlayingChinese] = useState<boolean>(false);
   const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
+  const [keepAwakeOnAutoPlay, setKeepAwakeOnAutoPlay] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem('eprs_practice_wake_lock');
+        if (saved !== null) return saved === 'true';
+      } catch {}
+    }
+    return true; // 預設快速練習自動播放時保持螢幕常亮，不進入低電量休眠
+  });
+
+  // 當快速練習自動播放中且啟用了常亮設定時，啟用 Screen Wake Lock 保持螢幕常亮
+  const shouldKeepScreenAwake = isOpen && !isOverlaid && isAutoPlaying && keepAwakeOnAutoPlay;
+  const { isActive: isScreenAwake } = useScreenWakeLock(shouldKeepScreenAwake);
+
+  const handleToggleKeepAwake = () => {
+    setKeepAwakeOnAutoPlay(prev => {
+      const nextVal = !prev;
+      try {
+        localStorage.setItem('eprs_practice_wake_lock', String(nextVal));
+      } catch {}
+      return nextVal;
+    });
+  };
+
   const [stepDelay, setStepDelay] = useState<number>(() => {
     if (typeof window !== 'undefined') {
       try {
@@ -361,6 +387,29 @@ export function EPRSPracticeModal({
           </div>
 
           <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            {/* 螢幕常亮保持標籤 (自動播放時保持螢幕常亮，防止裝置低耗電休眠或螢幕關閉) */}
+            {isAutoPlaying && (
+              <button
+                type="button"
+                onClick={handleToggleKeepAwake}
+                className={`inline-flex items-center gap-1 rounded-xl px-2 py-1 sm:px-2.5 sm:py-1.5 text-xs font-bold transition cursor-pointer min-h-[34px] sm:min-h-[40px] border ${
+                  isScreenAwake
+                    ? 'bg-amber-100/90 text-amber-900 border-amber-300 dark:bg-amber-950/70 dark:text-amber-200 dark:border-amber-700 shadow-2xs'
+                    : 'bg-slate-100 text-slate-500 border-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-700'
+                }`}
+                title={
+                  isScreenAwake
+                    ? '螢幕常亮防護中：自動播放時保持螢幕常亮，不會因低電源或閒置關閉螢幕（點擊可切換）'
+                    : '螢幕常亮已停用（點擊開啟自動播放常亮防休眠）'
+                }
+              >
+                <Sun className={`h-3.5 w-3.5 ${isScreenAwake ? 'text-amber-600 dark:text-amber-400 animate-pulse fill-amber-400/40' : 'text-slate-400'}`} />
+                <span className="hidden xs:inline">
+                  {isScreenAwake ? '保持常亮' : '常亮關閉'}
+                </span>
+              </button>
+            )}
+
             {/* 自動切換按鈕 (Header 快速切換) */}
             <button
               onClick={() => setIsAutoPlaying(prev => !prev)}
@@ -476,6 +525,21 @@ export function EPRSPracticeModal({
                   <Plus className="h-3 w-3" />
                 </button>
               </div>
+
+              {/* 螢幕常亮防護開關 */}
+              <button
+                type="button"
+                onClick={handleToggleKeepAwake}
+                className={`ml-1.5 inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-semibold transition cursor-pointer border ${
+                  keepAwakeOnAutoPlay
+                    ? 'bg-amber-600 text-white border-amber-700 font-bold shadow-2xs'
+                    : 'bg-white text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-300 border-amber-200 dark:border-slate-700'
+                }`}
+                title="自動播放時保持螢幕常亮，不熄滅不進入低電量休眠"
+              >
+                <Sun className={`h-3.5 w-3.5 ${keepAwakeOnAutoPlay ? 'fill-amber-200' : ''}`} />
+                <span>螢幕常亮防護：{keepAwakeOnAutoPlay ? '開啟' : '關閉'}</span>
+              </button>
             </div>
           </div>
         )}
@@ -691,6 +755,12 @@ export function EPRSPracticeModal({
             >
               {isAutoPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
               <span>{isAutoPlaying ? '暫停自動切換' : '啟動自動切換 (A)'}</span>
+              {isAutoPlaying && isScreenAwake && (
+                <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-700 dark:text-amber-300 bg-amber-100/90 dark:bg-amber-950/80 px-1.5 py-0.5 rounded-md ml-1 border border-amber-300/60 dark:border-amber-700/60 animate-pulse">
+                  <Sun className="h-3 w-3 fill-amber-400" />
+                  <span>常亮防護</span>
+                </span>
+              )}
             </button>
 
             <button

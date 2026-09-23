@@ -13,7 +13,8 @@ import {
   Minimize2,
   SlidersHorizontal,
   Type,
-  Headphones
+  Headphones,
+  Music
 } from 'lucide-react';
 import { audioManager } from '../../lib/audioManager';
 
@@ -22,6 +23,7 @@ interface HeaderProps {
   onOpenQuickPractice: () => void;
   onOpenQuiz: () => void;
   onOpenDictation: () => void;
+  onOpenSongLearning: () => void;
   onOpenExport: () => void;
   onOpenAudioDiagnostic: () => void;
   onToggleToolbar: () => void;
@@ -39,6 +41,7 @@ export function Header({
   onOpenQuickPractice,
   onOpenQuiz,
   onOpenDictation,
+  onOpenSongLearning,
   onOpenExport,
   onOpenAudioDiagnostic,
   onToggleToolbar,
@@ -205,6 +208,17 @@ export function Header({
           >
             {isFocusMode ? <Minimize2 className="h-3.5 w-3.5" /> : <Maximize2 className="h-3.5 w-3.5 text-indigo-500" />}
             <span className="hidden md:inline">{isFocusMode ? '退出全視窗' : '全視窗顯示'}</span>
+          </button>
+
+          {/* Song Learning Mode Button */}
+          <button
+            id="btn-header-song-learning"
+            onClick={onOpenSongLearning}
+            className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-rose-500 via-pink-600 to-indigo-600 px-3 py-1.5 text-xs font-bold text-white shadow-xs hover:opacity-90 transition cursor-pointer"
+            title="開啟英文歌學習專區 (Taylor Swift - Love Story)"
+          >
+            <Music className="h-3.5 w-3.5" />
+            <span>英文歌學習</span>
           </button>
 
           {/* Quick Practice Mode */}

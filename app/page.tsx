@@ -15,6 +15,7 @@ import { DictionaryModal } from '../components/modals/DictionaryModal';
 import { ExportModal } from '../components/modals/ExportModal';
 import { AudioDiagnosticModal } from '../components/modals/AudioDiagnosticModal';
 import { DictationModal } from '../components/modals/DictationModal';
+import { SongLearningModal } from '../components/song/SongLearningModal';
 import {
   Loader2,
   AlertCircle,
@@ -25,7 +26,8 @@ import {
   Zap,
   Layers,
   Type,
-  Headphones
+  Headphones,
+  Music
 } from 'lucide-react';
 
 export default function HomePage() {
@@ -57,6 +59,7 @@ export default function HomePage() {
 
   const [isQuizModalOpen, setIsQuizModalOpen] = useState<boolean>(false);
   const [isDictationModalOpen, setIsDictationModalOpen] = useState<boolean>(false);
+  const [isSongModalOpen, setIsSongModalOpen] = useState<boolean>(false);
   const [isEPRSPracticeOpen, setIsEPRSPracticeOpen] = useState<boolean>(false);
   const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
   const [isAudioModalOpen, setIsAudioModalOpen] = useState<boolean>(false);
@@ -188,6 +191,7 @@ export default function HomePage() {
           onOpenQuickPractice={() => setIsEPRSPracticeOpen(true)}
           onOpenQuiz={() => setIsQuizModalOpen(true)}
           onOpenDictation={() => setIsDictationModalOpen(true)}
+          onOpenSongLearning={() => setIsSongModalOpen(true)}
           onOpenExport={() => setIsExportModalOpen(true)}
           onOpenAudioDiagnostic={() => setIsAudioModalOpen(true)}
           onToggleToolbar={() => setIsToolbarVisible(v => !v)}
@@ -281,6 +285,16 @@ export default function HomePage() {
               <span className="hidden sm:inline">聲音</span>
             </button>
 
+            {/* Song Learning shortcut in focus mode */}
+            <button
+              onClick={() => setIsSongModalOpen(true)}
+              className="inline-flex items-center gap-1 rounded-lg bg-gradient-to-r from-rose-500 via-pink-600 to-indigo-600 px-2.5 py-1 text-xs font-bold text-white shadow-2xs hover:opacity-90 transition cursor-pointer"
+              title="英文歌學習專區 (Taylor Swift - Love Story)"
+            >
+              <Music className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">英文歌</span>
+            </button>
+
             {/* Quick Practice shortcut in focus mode */}
             <button
               onClick={() => setIsEPRSPracticeOpen(true)}
@@ -326,6 +340,43 @@ export default function HomePage() {
 
       {/* Main Container */}
       <main className={`flex-1 mx-auto w-full ${isFocusMode ? 'max-w-[98%] px-2 py-3' : 'max-w-7xl px-4 py-6 sm:px-6'} space-y-5`}>
+        {/* Featured English Song Learning Area Banner (Hidden in Focus Mode) */}
+        {!isFocusMode && (
+          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-amber-500/10 via-rose-500/10 to-indigo-500/10 p-4 sm:p-5 border border-rose-200/60 dark:border-rose-900/40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="flex items-start sm:items-center gap-3.5">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-tr from-amber-500 via-rose-500 to-indigo-600 text-white shadow-md shadow-rose-500/20 shrink-0">
+                <Music className="h-6 w-6" />
+              </div>
+              <div className="space-y-1">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white">
+                    🎵 英文歌學習專區
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full text-[11px] font-bold bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 border border-amber-200/60 dark:border-amber-800/60">
+                    👑 Love Story
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full text-[11px] font-bold bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300 border border-rose-200/60 dark:border-rose-800/60">
+                    🐍 Look What You Made Me Do
+                  </span>
+                </div>
+                <p className="text-xs text-slate-600 dark:text-slate-400">
+                  泰勒絲熱門金曲雙收錄 • 單字自然發音音節拆解 • 「第1句所有單字 ➔ 第1句整句」完整歌詞循序精準練習
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 shrink-0">
+              <button
+                onClick={() => setIsSongModalOpen(true)}
+                className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-rose-500 via-pink-600 to-indigo-600 px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:opacity-95 transition cursor-pointer"
+              >
+                <Music className="h-4 w-4" />
+                <span>立即進入歌曲學習專區</span>
+              </button>
+            </div>
+          </div>
+        )}
+
         {/* Batch Selector Component (Hidden in Focus Mode) */}
         {!isFocusMode && (
           <BatchSelector
@@ -436,6 +487,13 @@ export default function HomePage() {
         onClose={() => setIsDictationModalOpen(false)}
         words={batchData?.words || []}
         batchTitle={batchData?.title || '當前批次'}
+        fontSize={fontSize}
+      />
+
+      {/* English Song Learning Modal (Love Story - Taylor Swift) */}
+      <SongLearningModal
+        isOpen={isSongModalOpen}
+        onClose={() => setIsSongModalOpen(false)}
         fontSize={fontSize}
       />
 
