@@ -1,11 +1,14 @@
 import type {NextConfig} from 'next';
 
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+const isStaticExport = isGithubActions || process.env.STATIC_EXPORT === 'true';
 const repoName = 'Eprs2.0';
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || (isGithubActions ? `/${repoName}` : '');
 
 const nextConfig: NextConfig = {
-  distDir: process.env.NODE_ENV === 'production' ? '.next_build' : '.next',
+  // During static export (such as GitHub Actions / Pages), do NOT use a custom distDir like '.next_build'
+  // because Next.js 15 static export worker requires standard '.next' to locate build-manifest.json.
+  ...(isStaticExport ? {} : { distDir: process.env.NODE_ENV === 'production' ? '.next_build' : '.next' }),
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
@@ -13,9 +16,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  output: isGithubActions ? 'export' : 'standalone',
+  output: isStaticExport ? 'export' : 'standalone',
   ...(basePath ? { basePath } : {}),
-  trailingSlash: Boolean(basePath || isGithubActions),
+  trailingSlash: Boolean(basePath || isStaticExport),
 
   // Allow access to remote image placeholder.
   images: {

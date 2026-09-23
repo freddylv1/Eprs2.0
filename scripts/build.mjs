@@ -7,18 +7,24 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
-console.log('[Build] Starting production build...');
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+const isStaticExport = isGithubActions || process.env.STATIC_EXPORT === 'true';
+
+console.log(`[Build] Starting production build (static export: ${isStaticExport})...`);
 
 // 1. Clean previous build outputs
 const outDir = path.join(rootDir, 'out');
 const distDir = path.join(rootDir, 'dist');
-const buildDir = path.join(rootDir, '.next_build');
+const buildDir = path.join(rootDir, isStaticExport ? '.next' : '.next_build');
 
 if (fs.existsSync(buildDir)) {
   fs.rmSync(buildDir, { recursive: true, force: true });
 }
 if (fs.existsSync(outDir)) {
   fs.rmSync(outDir, { recursive: true, force: true });
+}
+if (fs.existsSync(distDir)) {
+  fs.rmSync(distDir, { recursive: true, force: true });
 }
 
 // 2. Locate Next.js CLI binary
@@ -38,19 +44,25 @@ if (fs.existsSync(localDistBin)) {
 
 console.log(`[Build] Running Next.js build: ${buildCmd} ${buildArgs.join(' ')}`);
 
+const buildEnv = {
+  ...process.env,
+  NODE_ENV: 'production',
+};
+
+// Only override dist dir if NOT doing static export, because Next.js 15 export requires default .next
+if (!isStaticExport) {
+  buildEnv.NEXT_DIST_DIR = '.next_build';
+}
+
 const result = spawnSync(buildCmd, buildArgs, {
   cwd: rootDir,
   stdio: 'inherit',
-  env: {
-    ...process.env,
-    NODE_ENV: 'production',
-    NEXT_DIST_DIR: '.next_build',
-  },
+  env: buildEnv,
 });
 
 if (result.status !== 0) {
   console.error(`[Build] Next.js build failed with exit code ${result.status}`);
-  if (fs.existsSync(buildDir)) {
+  if (fs.existsSync(buildDir) && !isStaticExport) {
     fs.rmSync(buildDir, { recursive: true, force: true });
   }
   process.exit(result.status || 1);
@@ -64,7 +76,7 @@ const targetStaticDir = path.join(targetNextDir, 'static');
 const builtStandalone = path.join(buildDir, 'standalone');
 const builtStatic = path.join(buildDir, 'static');
 
-if (fs.existsSync(builtStandalone)) {
+if (fs.existsSync(builtStandalone) && builtStandalone !== targetStandaloneDir) {
   console.log(`[Build] Syncing standalone output from ${builtStandalone} to ${targetStandaloneDir}...`);
   if (fs.existsSync(targetStandaloneDir)) {
     fs.rmSync(targetStandaloneDir, { recursive: true, force: true });
@@ -86,7 +98,7 @@ if (fs.existsSync(builtStandalone)) {
   }
 }
 
-if (fs.existsSync(builtStatic)) {
+if (fs.existsSync(builtStatic) && builtStatic !== targetStaticDir) {
   console.log(`[Build] Syncing static assets from ${builtStatic} to ${targetStaticDir}...`);
   if (!fs.existsSync(targetStaticDir)) {
     fs.mkdirSync(targetStaticDir, { recursive: true });
@@ -140,13 +152,10 @@ if (fs.existsSync(publicDir)) {
   }
 }
 
-// Create .nojekyll in dist to prevent static hosts from ignoring _next
+// Create .nojekyll in both dist and out to prevent static hosts (like GitHub Pages) from ignoring _next
 fs.writeFileSync(path.join(distDir, '.nojekyll'), '');
-
-// Also ensure out/ is populated with the static export if outDir exists
 if (fs.existsSync(outDir)) {
-  fs.rmSync(outDir, { recursive: true, force: true });
-  fs.cpSync(distDir, outDir, { recursive: true });
+  fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
 }
 
 // 5. Validate output artifacts
@@ -164,8 +173,15 @@ if (fs.existsSync(distIndex)) {
   console.log(`[Build] Successfully verified dist/index.html (${fs.statSync(distIndex).size} bytes).`);
 }
 
-// Clean up temporary build directory
-if (fs.existsSync(buildDir)) {
+if (fs.existsSync(outDir)) {
+  const outIndex = path.join(outDir, 'index.html');
+  if (fs.existsSync(outIndex)) {
+    console.log(`[Build] Successfully verified out/index.html (${fs.statSync(outIndex).size} bytes).`);
+  }
+}
+
+// Clean up temporary build directory only when not static export
+if (fs.existsSync(buildDir) && !isStaticExport) {
   fs.rmSync(buildDir, { recursive: true, force: true });
 }
 
