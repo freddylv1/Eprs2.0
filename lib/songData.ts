@@ -248,6 +248,45 @@ const WORD_DICT: Record<string, Omit<SongWord, 'id' | 'word' | 'cleanWord'>> = {
   old: { ipa: '/oʊld/', chinese: '以前的；舊的', pos: 'adj.', syllables: ['old'], ruleCodes: ['R02'], level: '國中基礎' },
   taylor: { ipa: '/ˈteɪ.lɚ/', chinese: '泰勒絲(歌手名)', pos: 'n.', syllables: ['Tay', 'lor'], ruleCodes: ['R03', 'R05'], level: '歌曲核心' },
   cant: { ipa: '/kænt/', chinese: '不能；無法(can not)', pos: 'aux.', syllables: ['cant'], ruleCodes: ['R01'], level: '國中基礎' },
+  thirteen: { ipa: '/ˌθɜːrˈtiːn/', chinese: '十三(歲)', pos: 'num.', syllables: ['thir', 'teen'], ruleCodes: ['R05', 'R03'], level: '國中基礎' },
+  school: { ipa: '/skuːl/', chinese: '學校', pos: 'n.', syllables: ['school'], ruleCodes: ['R04'], level: '國中基礎' },
+  heard: { ipa: '/hɜːrd/', chinese: '聽見(過去式)', pos: 'v.', syllables: ['heard'], ruleCodes: ['R05'], level: '國中基礎' },
+  laughing: { ipa: '/ˈlæf.ɪŋ/', chinese: '笑聲；歡笑著', pos: 'v./n.', syllables: ['laugh', 'ing'], ruleCodes: ['R01', 'R10'], level: '國中基礎' },
+  thousands: { ipa: '/ˈθaʊ.zəndz/', chinese: '成千上萬；數以千計', pos: 'n.', syllables: ['thou', 'sands'], ruleCodes: ['R04', 'R01'], level: '國中基礎' },
+  listening: { ipa: '/ˈlɪs.ən.ɪŋ/', chinese: '傾聽；聆聽', pos: 'v.', syllables: ['lis', 'ten', 'ing'], ruleCodes: ['R01', 'R10'], level: '國中基礎' },
+  stories: { ipa: '/ˈstɔː.riːz/', chinese: '故事(複數)', pos: 'n.', syllables: ['sto', 'ries'], ruleCodes: ['R05', 'R03'], level: '國中基礎' },
+  wisdom: { ipa: '/ˈwɪz.dəm/', chinese: '智慧', pos: 'n.', syllables: ['wis', 'dom'], ruleCodes: ['R01', 'R11'], level: '高中精選' },
+  kids: { ipa: '/kɪdz/', chinese: '孩童(複數)', pos: 'n.', syllables: ['kids'], ruleCodes: ['R01'], level: '國中基礎' },
+  understand: { ipa: '/ˌʌn.dərˈstænd/', chinese: '理解；明白', pos: 'v.', syllables: ['un', 'der', 'stand'], ruleCodes: ['R01', 'R05'], level: '國中基礎' },
+  passed: { ipa: '/pæst/', chinese: '流逝；經過(過去式)', pos: 'v.', syllables: ['passed'], ruleCodes: ['R01'], level: '國中基礎' },
+  quickly: { ipa: '/ˈkwɪk.li/', chinese: '快速地', pos: 'adv.', syllables: ['quick', 'ly'], ruleCodes: ['R01', 'R03'], level: '國中基礎' },
+  turned: { ipa: '/tɜːrnd/', chinese: '轉變；變成', pos: 'v.', syllables: ['turned'], ruleCodes: ['R05'], level: '國中基礎' },
+  night: { ipa: '/naɪt/', chinese: '夜晚', pos: 'n.', syllables: ['night'], ruleCodes: ['R02', 'R07'], level: '國中基礎' },
+  everyone: { ipa: '/ˈev.ri.wʌn/', chinese: '每個人；所有人', pos: 'pron.', syllables: ['ev', 'ry', 'one'], ruleCodes: ['R01', 'R03'], level: '國中基礎' },
+  hungry: { ipa: '/ˈhʌŋ.ɡri/', chinese: '飢餓的', pos: 'adj.', syllables: ['hun', 'gry'], ruleCodes: ['R01', 'R03'], level: '國中基礎' },
+  food: { ipa: '/fuːd/', chinese: '食物', pos: 'n.', syllables: ['food'], ruleCodes: ['R04'], level: '國中基礎' },
+  sight: { ipa: '/saɪt/', chinese: '視野；看見', pos: 'n.', syllables: ['sight'], ruleCodes: ['R02', 'R07'], level: '國中基礎' },
+  lunchbox: { ipa: '/ˈlʌntʃ.bɑːks/', chinese: '午餐盒；便當盒', pos: 'n.', syllables: ['lunch', 'box'], ruleCodes: ['R01'], level: '國中基礎' },
+  fed: { ipa: '/fed/', chinese: '餵飽；餵養(過去分詞)', pos: 'v.', syllables: ['fed'], ruleCodes: ['R01'], level: '國中基礎' },
+  twinkling: { ipa: '/ˈtwɪŋ.kəl.ɪŋ/', chinese: '閃爍的；精光閃閃的', pos: 'adj./v.', syllables: ['twin', 'kling'], ruleCodes: ['R01', 'R10'], level: '高中精選' },
+  jesus: { ipa: '/ˈdʒiː.zəs/', chinese: '耶穌', pos: 'n.', syllables: ['Je', 'sus'], ruleCodes: ['R03', 'R11'], level: '歌曲核心' },
+  kindness: { ipa: '/ˈkaɪnd.nəs/', chinese: '慈愛；仁慈', pos: 'n.', syllables: ['kind', 'ness'], ruleCodes: ['R02', 'R01'], level: '高中精選' },
+  smile: { ipa: '/smaɪl/', chinese: '微笑', pos: 'n./v.', syllables: ['smile'], ruleCodes: ['R02'], level: '國中基礎' },
+  cried: { ipa: '/kraɪd/', chinese: '喊叫；高喊(過去式)', pos: 'v.', syllables: ['cried'], ruleCodes: ['R03'], level: '國中基礎' },
+  loaves: { ipa: '/loʊvz/', chinese: '麵包條(複數)', pos: 'n.', syllables: ['loaves'], ruleCodes: ['R03'], level: '歌曲核心' },
+  fishes: { ipa: '/ˈfɪʃ.ɪz/', chinese: '魚(複數)', pos: 'n.', syllables: ['fish', 'es'], ruleCodes: ['R01', 'R07'], level: '國中基礎' },
+  surrender: { ipa: '/səˈren.dər/', chinese: '完全奉獻；交託臣服', pos: 'v.', syllables: ['sur', 'ren', 'der'], ruleCodes: ['R05', 'R01'], level: '高中精選' },
+  fears: { ipa: '/fɪərz/', chinese: '恐懼(複數)', pos: 'n.', syllables: ['fears'], ruleCodes: ['R03'], level: '國中基礎' },
+  inhibitions: { ipa: '/ˌɪn.hɪˈbɪʃ.ənz/', chinese: '顧忌；拘束感', pos: 'n.', syllables: ['in', 'hi', 'bi', 'tions'], ruleCodes: ['R01', 'R11'], level: '歌曲核心' },
+  burdens: { ipa: '/ˈbɜːr.dənz/', chinese: '重擔；負擔', pos: 'n.', syllables: ['bur', 'dens'], ruleCodes: ['R05', 'R01'], level: '高中精選' },
+  ambitions: { ipa: '/æmˈbɪʃ.ənz/', chinese: '野心；雄心抱負', pos: 'n.', syllables: ['am', 'bi', 'tions'], ruleCodes: ['R01', 'R11'], level: '高中精選' },
+  feed: { ipa: '/fiːd/', chinese: '餵養；供給食物', pos: 'v.', syllables: ['feed'], ruleCodes: ['R03'], level: '國中基礎' },
+  often: { ipa: '/ˈɑːf.ən/', chinese: '經常；常常', pos: 'adv.', syllables: ['of', 'ten'], ruleCodes: ['R01', 'R11'], level: '國中基礎' },
+  small: { ipa: '/smɔːl/', chinese: '渺小的；小小的', pos: 'adj.', syllables: ['small'], ruleCodes: ['R04'], level: '國中基礎' },
+  worry: { ipa: '/ˈwɜːr.i/', chinese: '擔心；憂心', pos: 'v.', syllables: ['wor', 'ry'], ruleCodes: ['R05', 'R03'], level: '國中基礎' },
+  work: { ipa: '/wɜːrk/', chinese: '工作；努力；付出的心血', pos: 'n.', syllables: ['work'], ruleCodes: ['R05'], level: '國中基礎' },
+  means: { ipa: '/miːnz/', chinese: '意味著；代表', pos: 'v.', syllables: ['means'], ruleCodes: ['R03'], level: '國中基礎' },
+  nothing: { ipa: '/ˈnʌθ.ɪŋ/', chinese: '毫無意義；沒有什麼', pos: 'pron.', syllables: ['noth', 'ing'], ruleCodes: ['R01', 'R08', 'R10'], level: '國中基礎' },
   phone: { ipa: '/foʊn/', chinese: '電話；接電話', pos: 'n.', syllables: ['phone'], ruleCodes: ['R02'], level: '國中基礎' },
   right: { ipa: '/raɪt/', chinese: '立刻；正', pos: 'adv.', syllables: ['right'], ruleCodes: ['R02', 'R07'], level: '國中基礎' },
   now: { ipa: '/naʊ/', chinese: '現在', pos: 'adv.', syllables: ['now'], ruleCodes: ['R04'], level: '國中基礎' },
@@ -1110,7 +1149,74 @@ export const BLANK_SPACE_SONG: SongItem = {
   vocabulary: BLANK_SPACE_VOCABULARY
 };
 
-export const ALL_SONGS: SongItem[] = [
+// ==========================================
+// 7. Five Loaves And Two Fishes (Corrinne May)
+// ==========================================
+const FIVE_LOAVES_RAW_LINES: { id: number; english: string; chinese: string }[] = [
+  { id: 1, english: "A little boy of thirteen was on his way to school", chinese: "一個十三歲的小男孩在去上學的路上" },
+  { id: 2, english: "He heard a crowd of people laughing and he went to take a look", chinese: "他聽到人群歡笑的聲音，便湊上前去瞧瞧" },
+  { id: 3, english: "Thousands were listening to the stories of one man", chinese: "數以千計的人正凝神傾聽著一個人講故事" },
+  { id: 4, english: "He spoke with such wisdom, even the kids could understand", chinese: "他充滿深邃智慧的言語，連小孩子都能完全聽懂" },
+  { id: 5, english: "The hours passed so quickly, the day turned to night", chinese: "時光飛逝，不知不覺已從白天漸入深夜" },
+  { id: 6, english: "Everyone was hungry but there was no food in sight", chinese: "眾人都飢腸轆轆，但四周卻看不見任何食物" },
+  { id: 7, english: "The boy looked in his lunchbox at the little that he had", chinese: "男孩看了看自己的餐盒，裡面只有微薄的食物" },
+  { id: 8, english: "He wasn't sure what good it'd do, there were thousands to be fed", chinese: "面對幾千張要餵飽的嘴，他不確定這能管什麼用" },
+  { id: 9, english: "But he saw the twinkling eyes of Jesus", chinese: "但他看到了耶穌眼中閃爍的光芒" },
+  { id: 10, english: "The kindness in His smile", chinese: "以及他微笑中所流露出的無盡慈愛" },
+  { id: 11, english: "And the boy cried out", chinese: "於是小男孩情不自禁地大聲呼喊" },
+  { id: 12, english: "With the trust of a child", chinese: "懷著如孩童般最純真無邪的信任" },
+  { id: 13, english: "He said:", chinese: "他說：" },
+  { id: 14, english: "\"Take my five loaves and two fishes", chinese: "「拿去我的五個餅和兩條魚吧" },
+  { id: 15, english: "Do with it as you will", chinese: "隨照您的心意自由去行" },
+  { id: 16, english: "I surrender", chinese: "我完全交託順服" },
+  { id: 17, english: "Take my fears and my inhibitions", chinese: "帶走我的恐懼與種種顧忌" },
+  { id: 18, english: "All my burdens, my ambitions", chinese: "卸下我所有的重擔與人生的野心" },
+  { id: 19, english: "You can use it all to feed them all\"", chinese: "您可以善用這一切，去餵飽現場所有的人」" },
+  { id: 20, english: "I often think about that boy when I'm feeling small", chinese: "每當我覺得自己卑微渺小、力不從心時，常會想起那個男孩" },
+  { id: 21, english: "And I worry that the work I do means nothing at all", chinese: "我也曾擔心自己所做的努力是否根本毫無意義" }
+];
+
+export const FIVE_LOAVES_LINES: SongLine[] = FIVE_LOAVES_RAW_LINES.map(line => ({
+  ...line,
+  words: parseLineWords(line.english, line.id, 'fl')
+}));
+
+export const FIVE_LOAVES_VOCABULARY: SongWord[] = extractSongVocabulary(FIVE_LOAVES_LINES);
+
+export const FIVE_LOAVES_SONG: SongItem = {
+  id: 'five-loaves-and-two-fishes',
+  title: 'Five Loaves And Two Fishes',
+  artist: 'Corrinne May',
+  album: 'Fly Away',
+  year: '2001',
+  genre: 'Acoustic / Contemporary Christian',
+  coverEmoji: '🍞',
+  accentColor: 'from-amber-500 via-orange-600 to-indigo-900',
+  description: '感人至深的典雅英文金曲！描繪小男孩獻出五餅二魚的純真信任，寓意深遠，旋律優美。',
+  totalLines: FIVE_LOAVES_LINES.length,
+  totalWords: FIVE_LOAVES_VOCABULARY.length,
+  lines: FIVE_LOAVES_LINES,
+  vocabulary: FIVE_LOAVES_VOCABULARY
+};
+
+/**
+ * 取得精簡歌手名稱 (移除括號說明，例如 "Taylor Swift (泰勒絲)" -> "Taylor Swift")
+ */
+export function getShortArtistName(artist: string): string {
+  if (!artist) return '';
+  return artist.replace(/\s*\(.*?\)/g, '').trim();
+}
+
+/**
+ * 取得格式化顯示名稱："最短歌手名稱 - 歌名"
+ */
+export function getFormattedSongTitle(song: SongItem): string {
+  const shortArtist = getShortArtistName(song.artist);
+  return `${shortArtist} - ${song.title}`;
+}
+
+const RAW_UNSORTED_SONGS: SongItem[] = [
+  FIVE_LOAVES_SONG,
   LOVE_STORY_SONG,
   BLANK_SPACE_SONG,
   LWYMMD_SONG,
@@ -1118,6 +1224,13 @@ export const ALL_SONGS: SongItem[] = [
   WANEGBT_SONG,
   YBWM_SONG
 ];
+
+// 依據 "最短歌手名稱 - 歌名" 字母順序排序
+export const ALL_SONGS: SongItem[] = [...RAW_UNSORTED_SONGS].sort((a, b) => {
+  const nameA = getFormattedSongTitle(a);
+  const nameB = getFormattedSongTitle(b);
+  return nameA.localeCompare(nameB);
+});
 
 /**
  * 完整歌詞順序快速練習的步驟定義

@@ -365,44 +365,6 @@ export function QuickPracticeModal({
 
             {/* 右側工具操作按鈕區 */}
             <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
-              {/* 手機單鍵切換字體 */}
-              <button
-                type="button"
-                onClick={() => setQuizFontSize(prev => prev === 'xlarge' ? 'large' : 'xlarge')}
-                className="sm:hidden px-2 py-1 rounded-lg text-xs font-black bg-slate-200/80 dark:bg-slate-700/80 text-indigo-600 dark:text-indigo-400 border border-slate-300/60 dark:border-slate-600 cursor-pointer min-h-[34px]"
-                title="切換字體大小"
-              >
-                {quizFontSize === 'xlarge' ? '特大字' : '大字'}
-              </button>
-
-              {/* 平板/桌機字體切換鈕 */}
-              <div className="hidden sm:flex items-center gap-0.5 bg-slate-200/70 dark:bg-slate-700/60 rounded-xl p-0.5">
-                <button
-                  type="button"
-                  onClick={() => setQuizFontSize('large')}
-                  className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-bold transition cursor-pointer ${
-                    quizFontSize === 'large'
-                      ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-xs'
-                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                  }`}
-                  title="大字體"
-                >
-                  大
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setQuizFontSize('xlarge')}
-                  className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-black transition cursor-pointer ${
-                    quizFontSize === 'xlarge'
-                      ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-xs'
-                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                  }`}
-                  title="最大字體"
-                >
-                  最大
-                </button>
-              </div>
-
               {isStarted && !isCompleted && (
                 <button
                   onClick={handleResetToSetup}

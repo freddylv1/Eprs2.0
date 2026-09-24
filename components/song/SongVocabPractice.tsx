@@ -19,7 +19,11 @@ import {
   X,
   RefreshCw,
   Trophy,
-  Filter
+  Filter,
+  Play,
+  Pause,
+  FastForward,
+  Gauge
 } from 'lucide-react';
 
 interface SongVocabPracticeProps {
@@ -27,7 +31,16 @@ interface SongVocabPracticeProps {
   fontSize: FontSizePreference;
 }
 
-type VocabTab = 'flashcard' | 'spelling' | 'quiz' | 'list';
+type VocabTab = 'flashcard' | 'autoplay' | 'spelling' | 'quiz' | 'list';
+
+/** 取得最接近歌詞原意的一個中文（去除分號補充說明與括號內容） */
+function getPrimaryChinese(chinese: string): string {
+  if (!chinese) return '';
+  return chinese
+    .replace(/[\(\)（）\[\]【】]/g, '')
+    .split(/[;；,，\/。]/)[0]
+    .trim();
+}
 
 export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
   const [activeTab, setActiveTab] = useState<VocabTab>('flashcard');
@@ -56,6 +69,28 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
   const [quizAnsweredCount, setQuizAnsweredCount] = useState<number>(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isQuizAnswered, setIsQuizAnswered] = useState<boolean>(false);
+
+  // 歌詞單字自動播放狀態與定時器 (需求 6)
+  const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(false);
+  const [autoPlayInterval, setAutoPlayInterval] = useState<number>(2.5); // 預設停頓 2.5 秒
+  const isAutoPlayingRef = useRef<boolean>(false);
+  const autoPlayTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    isAutoPlayingRef.current = isAutoPlaying;
+  }, [isAutoPlaying]);
+
+  // 切換分頁時若不是 autoplay 模式則停止自動播放
+  useEffect(() => {
+    if (activeTab !== 'autoplay') {
+      setIsAutoPlaying(false);
+      isAutoPlayingRef.current = false;
+      if (autoPlayTimerRef.current) {
+        clearTimeout(autoPlayTimerRef.current);
+        autoPlayTimerRef.current = null;
+      }
+    }
+  }, [activeTab]);
 
   // 依難度等級篩選單字
   const filteredWords = useMemo(() => {
@@ -106,6 +141,57 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
       return () => clearTimeout(timer);
     }
   }, [currentIndex, activeTab, currentWord.cleanWord, playWordAudio]);
+
+  // 單字自動播放 (需求 6) 核心迴圈：英文朗讀後接續朗讀中文釋義
+  useEffect(() => {
+    if (activeTab !== 'autoplay' || !isAutoPlaying) return;
+
+    let cancelled = false;
+    audioManager.stop();
+    if (autoPlayTimerRef.current) {
+      clearTimeout(autoPlayTimerRef.current);
+      autoPlayTimerRef.current = null;
+    }
+
+    setIsPlayingAudio(true);
+    // 1. 朗讀英文單字
+    audioManager.speakWord(currentWord.cleanWord, () => {
+      if (cancelled || !isAutoPlayingRef.current || !isMountedRef.current) return;
+
+      // 2. 英文朗讀完成後，接續朗讀最接近歌詞原意的一個中文釋義
+      const chineseText = getPrimaryChinese(currentWord.chinese);
+      if (chineseText) {
+        autoPlayTimerRef.current = setTimeout(() => {
+          if (cancelled || !isAutoPlayingRef.current || !isMountedRef.current) return;
+
+          audioManager.speakChinese(chineseText, () => {
+            if (cancelled || !isAutoPlayingRef.current || !isMountedRef.current) return;
+            setIsPlayingAudio(false);
+
+            // 3. 中文朗讀完畢後，等待設定的停頓時間切換至下一個單字
+            autoPlayTimerRef.current = setTimeout(() => {
+              if (!isAutoPlayingRef.current || !isMountedRef.current) return;
+              setCurrentIndex(prev => (prev < filteredWords.length - 1 ? prev + 1 : 0));
+            }, Math.round(autoPlayInterval * 1000));
+          });
+        }, 200);
+      } else {
+        setIsPlayingAudio(false);
+        autoPlayTimerRef.current = setTimeout(() => {
+          if (!isAutoPlayingRef.current || !isMountedRef.current) return;
+          setCurrentIndex(prev => (prev < filteredWords.length - 1 ? prev + 1 : 0));
+        }, Math.round(autoPlayInterval * 1000));
+      }
+    });
+
+    return () => {
+      cancelled = true;
+      if (autoPlayTimerRef.current) {
+        clearTimeout(autoPlayTimerRef.current);
+        autoPlayTimerRef.current = null;
+      }
+    };
+  }, [currentIndex, activeTab, isAutoPlaying, autoPlayInterval, currentWord, filteredWords.length]);
 
   // 切換上一字 / 下一字
   const handlePrev = () => {
@@ -198,7 +284,7 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
       {/* 頂部功能模式分頁鈕與難度篩選 (緊湊精簡) */}
       <div className="flex flex-wrap items-center justify-between gap-2 bg-white dark:bg-slate-900 px-3.5 py-2 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-2xs">
         {/* 模式切換 */}
-        <div className="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl">
+        <div className="flex flex-wrap items-center gap-1 bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl">
           <button
             onClick={() => setActiveTab('flashcard')}
             className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition flex items-center gap-1 cursor-pointer ${
@@ -209,6 +295,18 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
           >
             <BookOpen className="w-3.5 h-3.5" />
             <span>單字卡</span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('autoplay')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition flex items-center gap-1 cursor-pointer ${
+              activeTab === 'autoplay'
+                ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold shadow-xs'
+                : 'text-indigo-600 dark:text-indigo-400 hover:bg-white/50 dark:hover:bg-slate-700/50'
+            }`}
+          >
+            <Play className="w-3.5 h-3.5 fill-current" />
+            <span>自動朗讀</span>
           </button>
 
           <button
@@ -389,6 +487,119 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
             >
               <span>下一字</span>
               <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+      )}
+
+      {activeTab === 'autoplay' && (
+        /* ===== 模式: 歌詞單字快速練習 (自動播放) ===== */
+        <div className="flex-1 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-5 sm:p-8 flex flex-col justify-between shadow-xs relative overflow-hidden">
+          {/* 頂部自動播放控制區 */}
+          <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-100 dark:border-slate-800">
+            <div className="flex items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 font-bold text-xs">
+                <Play className="w-3.5 h-3.5 fill-current" />
+                <span>自動朗讀模式</span>
+              </span>
+              <span className="text-xs text-slate-400 font-mono">
+                {currentIndex + 1} / {filteredWords.length}
+              </span>
+            </div>
+
+            {/* 停頓間隔秒數選單 (需求 2) */}
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
+                <FastForward className="w-3.5 h-3.5" /> 換字停頓:
+              </span>
+              <div className="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl">
+                {[1.5, 2.0, 2.5, 3.0, 4.0].map(sec => (
+                  <button
+                    key={sec}
+                    onClick={() => setAutoPlayInterval(sec)}
+                    className={`px-2 py-0.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                      autoPlayInterval === sec
+                        ? 'bg-indigo-600 text-white shadow-2xs'
+                        : 'text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
+                    }`}
+                  >
+                    {sec}s
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* 中央展示大卡 */}
+          <div className="my-auto py-8 px-6 rounded-3xl bg-gradient-to-br from-indigo-50/50 via-purple-50/20 to-white dark:from-slate-900 dark:via-slate-800/80 dark:to-slate-900 border border-indigo-100 dark:border-slate-800 text-center space-y-4 shadow-2xs">
+            <div className="inline-block px-3 py-1 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold text-indigo-600 dark:text-indigo-400 shadow-2xs">
+              {currentWord.level || '精選字彙'}
+            </div>
+
+            <h2 className={`font-extrabold text-slate-900 dark:text-white tracking-tight ${fontSizes.title}`}>
+              {currentWord.cleanWord}
+            </h2>
+
+            <div className={`font-mono text-indigo-600 dark:text-indigo-400 ${fontSizes.ipa}`}>
+              {currentWord.ipa}
+            </div>
+
+            <div className="text-lg sm:text-xl font-bold text-slate-800 dark:text-slate-200">
+              {getPrimaryChinese(currentWord.chinese)}
+            </div>
+
+            {currentWord.syllables && currentWord.syllables.length > 1 && (
+              <div className="text-xs text-slate-400">
+                音節: <span className="text-indigo-600 dark:text-indigo-400 font-semibold">{currentWord.syllables.join(' • ')}</span>
+              </div>
+            )}
+
+            {/* 進度條 */}
+            <div className="w-full bg-slate-200 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden mt-4">
+              <div
+                className="bg-gradient-to-r from-indigo-600 to-purple-600 h-full transition-all duration-300"
+                style={{ width: `${((currentIndex + 1) / filteredWords.length) * 100}%` }}
+              />
+            </div>
+          </div>
+
+          {/* 底部控制區域 */}
+          <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+            <button
+              onClick={handlePrev}
+              disabled={currentIndex === 0}
+              className="px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs font-bold disabled:opacity-30 transition cursor-pointer flex items-center gap-1"
+            >
+              <ChevronLeft className="w-4 h-4" /> 上字
+            </button>
+
+            <button
+              onClick={() => setIsAutoPlaying(!isAutoPlaying)}
+              className={`px-6 py-2.5 rounded-2xl font-bold text-sm shadow-md transition cursor-pointer flex items-center gap-2 ${
+                isAutoPlaying
+                  ? 'bg-amber-500 hover:bg-amber-600 text-white'
+                  : 'bg-indigo-600 hover:bg-indigo-700 text-white'
+              }`}
+            >
+              {isAutoPlaying ? (
+                <>
+                  <Pause className="w-4 h-4 fill-current" />
+                  <span>暫停自動朗讀</span>
+                </>
+              ) : (
+                <>
+                  <Play className="w-4 h-4 fill-current" />
+                  <span>開始自動朗讀</span>
+                </>
+              )}
+            </button>
+
+            <button
+              onClick={handleNext}
+              disabled={currentIndex === filteredWords.length - 1}
+              className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold disabled:opacity-30 transition cursor-pointer flex items-center gap-1"
+            >
+              下字 <ChevronRight className="w-4 h-4" />
             </button>
           </div>
         </div>

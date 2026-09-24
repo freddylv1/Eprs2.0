@@ -428,13 +428,16 @@ class PhonicsAudioManager {
 
   /**
    * 離線中文語音合成 (Web Speech API zh-TW / zh-CN)
+   * 自動為歌曲練習提取最接近原意的單一精準中文釋義
    */
   public speakChinese(text: string, onEnd?: () => void): boolean {
     this.unlockAudio();
     this.stop();
 
+    // 提取最主要、最精準的單一中文意思 (去除多餘分號列舉與括號備註)
     const cleanText = text
-      .replace(/[\(\)（）\[\]【】\/;；,，。]/g, ' ')
+      .replace(/[\(\)（）\[\]【】]/g, ' ')
+      .split(/[;；,，\/。]/)[0]
       .replace(/\s+/g, ' ')
       .trim();
 

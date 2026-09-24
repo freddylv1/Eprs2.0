@@ -11,7 +11,8 @@
 export interface SongUserState {
   progress: number; // 目前練習句子索引 (0 ~ song.lines.length - 1)
   loop: boolean; // 是否開啟單句循環 (true / false)
-  playbackSpeed: number; // 播放速度 (例如 0.7, 0.85, 1.0)
+  playbackSpeed: number; // 播放速度 (例如 0.5, 0.7, 0.75, 0.85, 1.0)
+  sentenceInterval: number; // 自動換下一句停頓時間 (秒，例如 1.5, 2.0, 2.5, 3.0, 4.0)
   lastUpdated?: number;
 }
 
@@ -29,7 +30,8 @@ const LAST_SONG_KEY = 'eprs_last_song_id';
 const DEFAULT_STATE: SongUserState = {
   progress: 0,
   loop: false,
-  playbackSpeed: 0.85,
+  playbackSpeed: 0.75,
+  sentenceInterval: 2.5,
 };
 
 /**
@@ -77,7 +79,8 @@ export function getSongSettingsByTitle(
           record = {
             progress: typeof parsed.lineIndex === 'number' ? parsed.lineIndex : 0,
             loop: Boolean(parsed.isSingleLoop),
-            playbackSpeed: typeof parsed.speechRate === 'number' ? parsed.speechRate : 0.85,
+            playbackSpeed: typeof parsed.speechRate === 'number' ? parsed.speechRate : 0.75,
+            sentenceInterval: typeof parsed.sentenceInterval === 'number' ? parsed.sentenceInterval : 2.5,
             lastUpdated: parsed.lastUpdated,
           };
         }
@@ -102,12 +105,20 @@ export function getSongSettingsByTitle(
       record.playbackSpeed >= 0.5 &&
       record.playbackSpeed <= 2.0
         ? record.playbackSpeed
-        : 0.85;
+        : 0.75;
+
+    const sentenceInterval =
+      typeof record.sentenceInterval === 'number' &&
+      record.sentenceInterval >= 0.5 &&
+      record.sentenceInterval <= 10.0
+        ? record.sentenceInterval
+        : 2.5;
 
     return {
       progress,
       loop,
       playbackSpeed,
+      sentenceInterval,
       lineIndex: progress,
       isSingleLoop: loop,
       speechRate: playbackSpeed,
@@ -124,7 +135,7 @@ export function getSongSettingsByTitle(
 }
 
 /**
- * 保存特定歌曲 (以 songTitle 為 Key) 的進度、loop 與 playbackSpeed 狀態至 localStorage
+ * 保存特定歌曲 (以 songTitle 為 Key) 的進度、loop、playbackSpeed 與 sentenceInterval 狀態至 localStorage
  */
 export function saveSongSettingsByTitle(
   songTitle: string,
@@ -161,10 +172,18 @@ export function saveSongSettingsByTitle(
         ? update.speechRate
         : current.playbackSpeed;
 
+    const newInterval =
+      update.sentenceInterval !== undefined
+        ? update.sentenceInterval
+        : current.sentenceInterval !== undefined
+        ? current.sentenceInterval
+        : 2.5;
+
     const updatedRecord: SongUserState = {
       progress: Math.max(0, newProgress),
       loop: Boolean(newLoop),
       playbackSpeed: Math.max(0.5, Math.min(2.0, newSpeed)),
+      sentenceInterval: Math.max(0.5, Math.min(10.0, newInterval)),
       lastUpdated: Date.now(),
     };
 

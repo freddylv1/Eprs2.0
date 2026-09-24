@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useCallback, useMemo } from 'react';
-import { ALL_SONGS, SongItem } from '../../lib/songData';
+import { ALL_SONGS, SongItem, getFormattedSongTitle, getShortArtistName } from '../../lib/songData';
 import { SongLyricsPractice } from './SongLyricsPractice';
 import { SongVocabPractice } from './SongVocabPractice';
 import { audioManager } from '../../lib/audioManager';
@@ -162,12 +162,12 @@ export function SongLearningModal({ isOpen, onClose, fontSize }: SongLearningMod
               <select
                 value={selectedSongId}
                 onChange={(e) => handleSelectSong(e.target.value)}
-                className="appearance-none bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/70 dark:hover:bg-slate-700/80 border border-slate-200/80 dark:border-slate-700 text-xs sm:text-sm font-semibold text-slate-800 dark:text-slate-200 rounded-xl pl-3 pr-7 py-1.5 focus:outline-hidden cursor-pointer max-w-[160px] sm:max-w-[220px] truncate transition"
+                className="appearance-none bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/70 dark:hover:bg-slate-700/80 border border-slate-200/80 dark:border-slate-700 text-xs sm:text-sm font-semibold text-slate-800 dark:text-slate-200 rounded-xl pl-3 pr-7 py-1.5 focus:outline-hidden cursor-pointer max-w-[200px] sm:max-w-[280px] truncate transition"
                 title="快速切換歌曲"
               >
                 {ALL_SONGS.map(s => (
                   <option key={s.id} value={s.id}>
-                    {s.title} · {s.artist}
+                    {getFormattedSongTitle(s)}
                   </option>
                 ))}
               </select>
@@ -299,10 +299,10 @@ export function SongLearningModal({ isOpen, onClose, fontSize }: SongLearningMod
                     >
                       <div className="min-w-0">
                         <div className="text-xs truncate font-medium">
-                          {s.title}
+                          {getFormattedSongTitle(s)}
                         </div>
                         <div className="text-[11px] text-slate-400 dark:text-slate-500 truncate mt-0.5">
-                          {s.artist} · {s.totalLines} 句
+                          {s.totalLines} 句歌詞
                         </div>
                       </div>
 
