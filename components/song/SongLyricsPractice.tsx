@@ -81,6 +81,9 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
   // 所有設定預設隱藏收合 (需求 3)
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
 
+  // 歌詞練習時，可勾選併同朗讀中文
+  const [isReadChineseEnabled, setIsReadChineseEnabled] = useState<boolean>(false);
+
   const [selectedWord, setSelectedWord] = useState<SongWord | null>(null);
 
   // 避免計時器與競爭條件 refs
@@ -88,11 +91,16 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
   const cycleModeRef = useRef<PlaybackCycleMode>('none');
   const flowModeRef = useRef<PracticeFlowMode>('sequential');
   const sentenceIntervalRef = useRef<number>(2.5);
+  const isReadChineseEnabledRef = useRef<boolean>(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const executePlaySentenceRef = useRef<(lineIdx: number, mode: PlaybackCycleMode) => void>(() => {});
   const executePlayWordsRef = useRef<(lineIdx: number, mode: PlaybackCycleMode) => void>(() => {});
   const onProgressChangeRef = useRef(onProgressChange);
   const isInitialMount = useRef(true);
+
+  useEffect(() => {
+    isReadChineseEnabledRef.current = isReadChineseEnabled;
+  }, [isReadChineseEnabled]);
 
   useEffect(() => {
     onProgressChangeRef.current = onProgressChange;
@@ -211,10 +219,22 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
     }
     setSelectedWord(word);
     setIsPlaying(true);
+
     audioManager.speakWord(word.cleanWord, () => {
-      setIsPlaying(false);
-      if (index !== undefined) {
-        setActiveWordIndex(-1);
+      if (isReadChineseEnabledRef.current && word.chinese) {
+        timeoutRef.current = setTimeout(() => {
+          audioManager.speakChinese(word.chinese, () => {
+            setIsPlaying(false);
+            if (index !== undefined) {
+              setActiveWordIndex(-1);
+            }
+          });
+        }, 150);
+      } else {
+        setIsPlaying(false);
+        if (index !== undefined) {
+          setActiveWordIndex(-1);
+        }
       }
     });
   };
@@ -232,7 +252,7 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
     setIsPlaying(true);
     setActiveWordIndex(-1);
 
-    audioManager.speakSentence(line.english, () => {
+    const onSentenceFinished = () => {
       if (!isPlayingRef.current) return;
 
       const activeMode = cycleModeRef.current;
@@ -274,6 +294,23 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
         }
       } else {
         setIsPlaying(false);
+      }
+    };
+
+    // 1. 朗讀英文句子
+    audioManager.speakSentence(line.english, () => {
+      if (!isPlayingRef.current) return;
+
+      // 2. 若勾選併同朗讀中文，則朗讀中文翻譯
+      if (isReadChineseEnabledRef.current && line.chinese) {
+        timeoutRef.current = setTimeout(() => {
+          if (!isPlayingRef.current) return;
+          audioManager.speakChinese(line.chinese, () => {
+            onSentenceFinished();
+          });
+        }, 200);
+      } else {
+        onSentenceFinished();
       }
     });
   }, [song.lines]);
@@ -345,8 +382,23 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
 
       audioManager.speakWord(currentWordItem.cleanWord, () => {
         if (!isPlayingRef.current) return;
-        i++;
-        timeoutRef.current = setTimeout(playNextWord, 450);
+
+        const advanceNextWord = () => {
+          if (!isPlayingRef.current) return;
+          i++;
+          timeoutRef.current = setTimeout(playNextWord, 450);
+        };
+
+        if (isReadChineseEnabledRef.current && currentWordItem.chinese) {
+          timeoutRef.current = setTimeout(() => {
+            if (!isPlayingRef.current) return;
+            audioManager.speakChinese(currentWordItem.chinese, () => {
+              advanceNextWord();
+            });
+          }, 150);
+        } else {
+          advanceNextWord();
+        }
       });
     };
 
@@ -504,6 +556,26 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
               <span className="hidden sm:inline">自動播放</span>
             </button>
 
+            {/* 一起朗讀中文勾選開關 */}
+            <button
+              onClick={() => setIsReadChineseEnabled(v => !v)}
+              className={`px-2.5 py-1.5 rounded-xl text-xs font-semibold border transition flex items-center gap-1.5 cursor-pointer ${
+                isReadChineseEnabled
+                  ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 font-bold shadow-2xs'
+                  : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+              }`}
+              title="播放英文時併同朗讀中文翻譯"
+            >
+              <Volume2 className={`w-3.5 h-3.5 ${isReadChineseEnabled ? 'text-emerald-600 dark:text-emerald-400' : ''}`} />
+              <span>朗讀中文</span>
+              <input
+                type="checkbox"
+                checked={isReadChineseEnabled}
+                onChange={() => {}}
+                className="w-3.5 h-3.5 rounded accent-emerald-600 pointer-events-none"
+              />
+            </button>
+
             {/* 主播放 / 暫停鈕 */}
             <button
               onClick={handlePlayCurrent}
@@ -536,7 +608,7 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
 
         {/* 預設隱藏收合的設定選單 (需求 3) */}
         {isSettingsOpen && (
-          <div className="px-4 py-3 bg-slate-50 dark:bg-slate-800/60 border-t border-slate-100 dark:border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+          <div className="px-4 py-3 bg-slate-50 dark:bg-slate-800/60 border-t border-slate-100 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 text-xs">
             {/* 1. 朗讀速度設定 (需求 1: 預設慢速，可自訂) */}
             <div className="space-y-1.5">
               <span className="font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
@@ -583,7 +655,24 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
               </div>
             </div>
 
-            {/* 3. 練習流程模式切換 (需求 4) */}
+            {/* 3. 併同朗讀中文 */}
+            <div className="space-y-1.5">
+              <span className="font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
+                <Volume2 className="w-3.5 h-3.5 text-emerald-500" />
+                併同朗讀中文:
+              </span>
+              <label className="inline-flex items-center gap-2 px-2.5 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs font-bold text-slate-700 dark:text-slate-200 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+                <input
+                  type="checkbox"
+                  checked={isReadChineseEnabled}
+                  onChange={(e) => setIsReadChineseEnabled(e.target.checked)}
+                  className="w-4 h-4 rounded accent-emerald-600 cursor-pointer"
+                />
+                <span>播放完英文後一起朗讀中文</span>
+              </label>
+            </div>
+
+            {/* 4. 練習流程模式切換 (需求 4) */}
             <div className="space-y-1.5">
               <span className="font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1">
                 <Sparkles className="w-3.5 h-3.5 text-indigo-500" />
