@@ -428,18 +428,29 @@ class PhonicsAudioManager {
 
   /**
    * 離線中文語音合成 (Web Speech API zh-TW / zh-CN)
-   * 自動為歌曲練習提取最接近原意的單一精準中文釋義
+   * 自動為歌曲練習朗讀中文 (支援單字精準釋義與整句完整歌詞朗讀)
    */
-  public speakChinese(text: string, onEnd?: () => void): boolean {
+  public speakChinese(text: string, onEnd?: () => void, isSentence: boolean = false): boolean {
     this.unlockAudio();
     this.stop();
 
-    // 提取最主要、最精準的單一中文意思 (去除多餘分號列舉與括號備註)
-    const cleanText = text
-      .replace(/[\(\)（）\[\]【】]/g, ' ')
-      .split(/[;；,，\/。]/)[0]
-      .replace(/\s+/g, ' ')
-      .trim();
+    const isFullSentence = isSentence || (text.length > 10 && /[，,。!！?？]/.test(text));
+
+    let cleanText = text;
+    if (isFullSentence) {
+      // 句子模式：完整保留中文整句歌詞與標點，僅去除註解括號
+      cleanText = text
+        .replace(/[\(\)（）\[\]【】]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    } else {
+      // 單字模式：提取最主要、最精準的單一中文意思 (去除多餘分號列舉與括號備註)
+      cleanText = text
+        .replace(/[\(\)（）\[\]【】]/g, ' ')
+        .split(/[;；,，\/。]/)[0]
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
 
     if (!cleanText || typeof window === 'undefined') {
       onEnd?.();
@@ -498,8 +509,8 @@ class PhonicsAudioManager {
 
       this.synth.speak(utterance);
 
-      // 安全超時保護
-      const timeoutSec = Math.max(2000, cleanText.length * 450);
+      // 安全超時保護（計算字數給予足夠時間，長句每字 600ms，最少 3 秒）
+      const timeoutSec = Math.max(3000, cleanText.length * 600);
       setTimeout(() => {
         if (!ended && this.activeUtterance === utterance) {
           handleEnd();

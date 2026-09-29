@@ -4,6 +4,7 @@ import React, { useState, useCallback, useMemo } from 'react';
 import { ALL_SONGS, SongItem, getFormattedSongTitle, getShortArtistName } from '../../lib/songData';
 import { SongLyricsPractice } from './SongLyricsPractice';
 import { SongVocabPractice } from './SongVocabPractice';
+import { SongQuizPractice } from './SongQuizPractice';
 import { audioManager } from '../../lib/audioManager';
 import { FontSizePreference } from '../../lib/types';
 import {
@@ -24,7 +25,8 @@ import {
   Search,
   PanelLeft,
   PanelLeftClose,
-  Check
+  Check,
+  Trophy
 } from 'lucide-react';
 
 interface SongLearningModalProps {
@@ -33,7 +35,7 @@ interface SongLearningModalProps {
   fontSize: FontSizePreference;
 }
 
-type MainTab = 'lyrics_practice' | 'vocab_practice' | 'full_lyrics';
+type MainTab = 'lyrics_practice' | 'vocab_practice' | 'full_lyrics' | 'quiz_practice';
 
 export function SongLearningModal({ isOpen, onClose, fontSize }: SongLearningModalProps) {
   // 從 localStorage 恢復上次學習的歌曲 ID
@@ -225,6 +227,22 @@ export function SongLearningModal({ isOpen, onClose, fontSize }: SongLearningMod
               <span className="hidden sm:inline">雙語全詞</span>
               <span className="sm:hidden">全詞</span>
             </button>
+
+            <button
+              onClick={() => {
+                audioManager.stop();
+                setPlayingLineId(null);
+                setMainTab('quiz_practice');
+              }}
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
+                mainTab === 'quiz_practice'
+                  ? 'bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-2xs font-bold'
+                  : 'text-slate-500 hover:text-slate-900 dark:hover:text-slate-200'
+              }`}
+            >
+              <Trophy className="w-3.5 h-3.5 text-amber-500" />
+              <span>歌詞測驗</span>
+            </button>
           </nav>
 
           {/* 右側：精簡進度文字 + 全螢幕 / 關閉按鈕 */}
@@ -334,6 +352,10 @@ export function SongLearningModal({ isOpen, onClose, fontSize }: SongLearningMod
 
               {mainTab === 'vocab_practice' && (
                 <SongVocabPractice key={currentSong.id} song={currentSong} fontSize={fontSize} />
+              )}
+
+              {mainTab === 'quiz_practice' && (
+                <SongQuizPractice key={currentSong.id} song={currentSong} fontSize={fontSize} />
               )}
 
               {mainTab === 'full_lyrics' && (

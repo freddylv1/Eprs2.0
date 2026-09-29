@@ -307,7 +307,7 @@ export function SongLyricsPractice({ song, fontSize, onProgressChange, onOpenVoc
           if (!isPlayingRef.current) return;
           audioManager.speakChinese(line.chinese, () => {
             onSentenceFinished();
-          });
+          }, true);
         }, 200);
       } else {
         onSentenceFinished();
