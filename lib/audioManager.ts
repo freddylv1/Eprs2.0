@@ -299,6 +299,20 @@ class PhonicsAudioManager {
       this.currentAudioElement = audio;
       audio.playbackRate = this.rate;
 
+      if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
+        try {
+          navigator.mediaSession.metadata = new MediaMetadata({
+            title: 'EPRS 英語自然發音練習',
+            artist: 'EPRS 自然發音系統',
+            album: '拼讀單字練習',
+            artwork: [
+              { src: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+              { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }
+            ]
+          });
+        } catch {}
+      }
+
       let hasFinished = false;
       const finish = () => {
         if (!hasFinished) {
@@ -538,44 +552,37 @@ class PhonicsAudioManager {
     this.stop();
 
     const cleanSyllables = syllables.map(s => s.trim()).filter(Boolean);
-    if (cleanSyllables.length <= 1) {
+    if (cleanSyllables.length <= 0) {
       onStepChange?.('full');
       this.speakWord(fullWord, onComplete);
       return;
     }
 
+    // 逐音節拼讀：同一音節逐字母以同一個人發音進行連續不中斷朗讀
     for (let i = 0; i < cleanSyllables.length; i++) {
       onStepChange?.(i);
-      await new Promise<void>(resolve => {
-        if (!this.synth) {
-          setTimeout(resolve, 300);
-          return;
-        }
+      const syl = cleanSyllables[i];
+      const letters = syl.replace(/[^a-zA-Z]/g, '').split('');
 
-        const sylUtterance = new SpeechSynthesisUtterance(cleanSyllables[i]);
-        sylUtterance.lang = 'en-US';
-        sylUtterance.rate = Math.max(0.6, this.rate * 0.85);
-        if (this.selectedVoice) sylUtterance.voice = this.selectedVoice;
+      if (letters.length > 0) {
+        // 嚴格保持單獨字母發音（A 唸 /eɪ/，B 唸 /biː/），以句點加逗號與空格分隔 (如 "C.,  A.,  T.")
+        // 確保 Web Speech 以同一個人聲朗讀，且字母之間有極清晰停頓、不連讀成單字
+        const spellingText = letters.map(l => `${l.toUpperCase()}.`).join(',  ');
 
-        let resolved = false;
-        const finish = () => {
-          if (!resolved) {
-            resolved = true;
-            setTimeout(resolve, 200);
-          }
-        };
-
-        sylUtterance.onend = finish;
-        sylUtterance.onerror = finish;
-
-        this.activeUtterance = sylUtterance;
-        (window as unknown as { __activeUtterance?: SpeechSynthesisUtterance | null }).__activeUtterance = sylUtterance;
-
-        this.synth.speak(sylUtterance);
-
-        // 超時保護
-        setTimeout(finish, 1500);
-      });
+        await new Promise<void>(resolve => {
+          this.speakWord(spellingText, () => {
+            resolve();
+          });
+        });
+        // 音節間「停一下」（自動加入 600ms silence 間隔），再接續下一個音節
+        await new Promise<void>(resolve => setTimeout(resolve, 600));
+      } else {
+        await new Promise<void>(resolve => {
+          this.speakWord(syl, () => {
+            setTimeout(resolve, 500);
+          });
+        });
+      }
     }
 
     // 最後朗讀完整單字

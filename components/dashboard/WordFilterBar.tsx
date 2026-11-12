@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Search, Filter, RotateCcw } from 'lucide-react';
+import { Search, Filter, RotateCcw, Download } from 'lucide-react';
 import { ALL_RULE_CODES, EPRS_PHONICS_RULES } from '../../lib/engine/phonicsRules';
 
 interface WordFilterBarProps {
@@ -14,6 +14,7 @@ interface WordFilterBarProps {
   onResetFilters: () => void;
   totalFiltered: number;
   totalInBatch: number;
+  onOpenExport?: () => void;
 }
 
 export function WordFilterBar({
@@ -25,7 +26,8 @@ export function WordFilterBar({
   onSyllableCountChange,
   onResetFilters,
   totalFiltered,
-  totalInBatch
+  totalInBatch,
+  onOpenExport
 }: WordFilterBarProps) {
   const isFiltered = searchTerm !== '' || selectedRule !== '' || selectedSyllableCount !== '';
 
@@ -97,6 +99,18 @@ export function WordFilterBar({
           >
             <RotateCcw className="h-3 w-3" />
             <span>重置</span>
+          </button>
+        )}
+
+        {/* Export Center Button */}
+        {onOpenExport && (
+          <button
+            onClick={onOpenExport}
+            className="inline-flex items-center gap-1 rounded-xl border border-sky-300 bg-sky-50 px-2.5 py-1.5 text-xs font-bold text-sky-700 hover:bg-sky-100 dark:border-sky-800 dark:bg-sky-950/60 dark:text-sky-300 transition shrink-0 cursor-pointer"
+            title="開啟單字匯出中心 (MP3 下載 / Excel / JSON / 列印)"
+          >
+            <Download className="h-3.5 w-3.5 text-sky-600 dark:text-sky-400" />
+            <span>單字匯出中心</span>
           </button>
         )}
 

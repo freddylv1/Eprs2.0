@@ -82,15 +82,18 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
 
   // 切換分頁時若不是 autoplay 模式則停止自動播放
   useEffect(() => {
-    if (activeTab !== 'autoplay') {
-      setIsAutoPlaying(false);
-      isAutoPlayingRef.current = false;
-      if (autoPlayTimerRef.current) {
-        clearTimeout(autoPlayTimerRef.current);
-        autoPlayTimerRef.current = null;
-      }
+    if (activeTab !== 'autoplay' && isAutoPlaying) {
+      const timer = setTimeout(() => {
+        setIsAutoPlaying(false);
+        isAutoPlayingRef.current = false;
+        if (autoPlayTimerRef.current) {
+          clearTimeout(autoPlayTimerRef.current);
+          autoPlayTimerRef.current = null;
+        }
+      }, 0);
+      return () => clearTimeout(timer);
     }
-  }, [activeTab]);
+  }, [activeTab, isAutoPlaying]);
 
   // 依難度等級篩選單字
   const filteredWords = useMemo(() => {
@@ -153,7 +156,10 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
       autoPlayTimerRef.current = null;
     }
 
-    setIsPlayingAudio(true);
+    const timerId = setTimeout(() => {
+      setIsPlayingAudio(true);
+    }, 0);
+
     // 1. 朗讀英文單字
     audioManager.speakWord(currentWord.cleanWord, () => {
       if (cancelled || !isAutoPlayingRef.current || !isMountedRef.current) return;
@@ -186,6 +192,7 @@ export function SongVocabPractice({ song, fontSize }: SongVocabPracticeProps) {
 
     return () => {
       cancelled = true;
+      clearTimeout(timerId);
       if (autoPlayTimerRef.current) {
         clearTimeout(autoPlayTimerRef.current);
         autoPlayTimerRef.current = null;

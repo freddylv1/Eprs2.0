@@ -8,16 +8,18 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+const isCloudflareOrCI = Boolean(process.env.CF_PAGES || process.env.OPENNEXT || process.env.CF_BUILD || process.env.CI);
 const isStaticExport = isGithubActions || process.env.STATIC_EXPORT === 'true';
+const useStandardBuildDir = isStaticExport || isCloudflareOrCI;
 
-console.log(`[Build] Starting production build (static export: ${isStaticExport})...`);
+console.log(`[Build] Starting production build (static export: ${isStaticExport}, cloudflare/ci: ${isCloudflareOrCI})...`);
 
 // 1. Clean previous build outputs
 const outDir = path.join(rootDir, 'out');
 const distDir = path.join(rootDir, 'dist');
-const buildDir = path.join(rootDir, isStaticExport ? '.next' : '.next_build');
+const buildDir = path.join(rootDir, useStandardBuildDir ? '.next' : '.next_build');
 
-if (fs.existsSync(buildDir)) {
+if (fs.existsSync(buildDir) && buildDir !== path.join(rootDir, '.next')) {
   fs.rmSync(buildDir, { recursive: true, force: true });
 }
 if (fs.existsSync(outDir)) {
@@ -49,8 +51,8 @@ const buildEnv = {
   NODE_ENV: 'production',
 };
 
-// Only override dist dir if NOT doing static export, because Next.js 15 export requires default .next
-if (!isStaticExport) {
+// Only override dist dir if NOT doing static export or cloudflare/ci build
+if (!useStandardBuildDir) {
   buildEnv.NEXT_DIST_DIR = '.next_build';
 }
 

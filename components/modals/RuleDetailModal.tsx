@@ -6,7 +6,8 @@ import { getRuleColorBadge } from '../../lib/engine/phonicsEngine';
 import { audioManager } from '../../lib/audioManager';
 import { getModalFontSizeClasses } from '../../lib/fontSizeUtils';
 import { FontSizePreference } from '../../lib/types';
-import { X, Volume2, Lightbulb, AlertTriangle, BookOpen, Layers } from 'lucide-react';
+import { X, Volume2, Lightbulb, AlertTriangle, BookOpen, Layers, Sparkles } from 'lucide-react';
+import { PhonicsSyllableGuideContent } from './PhonicsSyllableGuideContent';
 
 interface RuleDetailModalProps {
   isOpen: boolean;
@@ -21,13 +22,13 @@ export function RuleDetailModal({
   initialRuleId,
   fontSize = 'medium'
 }: RuleDetailModalProps) {
-  const [selectedRuleId, setSelectedRuleId] = useState<string>('R001');
+  const [userSelectedRuleId, setUserSelectedRuleId] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [playingWord, setPlayingWord] = useState<string | null>(null);
   const typo = getModalFontSizeClasses(fontSize);
 
-  // Derive active rule ID: prefer explicitly clicked initialRuleId if provided
-  const activeRuleId = (initialRuleId ? initialRuleId.toUpperCase() : selectedRuleId) || 'R001';
+  // Derive active rule ID: prefer user explicit selection in modal, otherwise fallback to initialRuleId
+  const activeRuleId = userSelectedRuleId || (initialRuleId ? initialRuleId.toUpperCase() : 'R001');
 
   // Keyboard navigation (Escape to close)
   useEffect(() => {
@@ -100,14 +101,34 @@ export function RuleDetailModal({
         <div className="grid flex-1 grid-cols-1 md:grid-cols-12 overflow-hidden">
           {/* Left Rule Navigation Column */}
           <div className="flex flex-col border-b border-slate-100 dark:border-slate-800 md:border-b-0 md:border-r md:col-span-4 bg-slate-50/40 dark:bg-slate-900/50 p-3 overflow-y-auto max-h-[300px] md:max-h-[calc(90vh-80px)]">
+            {/* Special Guide Button */}
+            <button
+              onClick={() => setUserSelectedRuleId('GUIDE')}
+              className={`w-full flex items-center justify-between rounded-xl px-3 py-2.5 mb-2 text-left font-bold text-xs transition border cursor-pointer ${
+                activeRuleId === 'GUIDE' || activeRuleId === 'SYLLABLE_GUIDE'
+                  ? 'border-indigo-600 bg-indigo-600 text-white shadow-sm ring-2 ring-indigo-500/30'
+                  : 'border-amber-200/80 bg-amber-50/90 text-amber-900 hover:bg-amber-100 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <Sparkles className="h-4 w-4 shrink-0 text-amber-500" />
+                <span className="truncate">觀念專題：文字拆分 vs 口語音節</span>
+              </div>
+            </button>
+
             {/* Category Filter Pills */}
             <div className="flex flex-wrap gap-1 mb-2.5">
               {categories.map((cat) => (
                 <button
                   key={cat.id}
-                  onClick={() => setSelectedCategory(cat.id)}
-                  className={`rounded-lg ${typo.badge} font-semibold transition ${
-                    selectedCategory === cat.id
+                  onClick={() => {
+                    setSelectedCategory(cat.id);
+                    if (activeRuleId === 'GUIDE' || activeRuleId === 'SYLLABLE_GUIDE') {
+                      setUserSelectedRuleId('R001');
+                    }
+                  }}
+                  className={`rounded-lg ${typo.badge} font-semibold transition cursor-pointer ${
+                    selectedCategory === cat.id && activeRuleId !== 'GUIDE' && activeRuleId !== 'SYLLABLE_GUIDE'
                       ? 'bg-indigo-600 text-white'
                       : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
                   }`}
@@ -127,8 +148,8 @@ export function RuleDetailModal({
                 return (
                   <button
                     key={code}
-                    onClick={() => setSelectedRuleId(code)}
-                    className={`w-full flex items-center justify-between rounded-xl px-3 py-2 text-left ${typo.body} transition border ${
+                    onClick={() => setUserSelectedRuleId(code)}
+                    className={`w-full flex items-center justify-between rounded-xl px-3 py-2 text-left ${typo.body} transition border cursor-pointer ${
                       isSelected
                         ? 'border-indigo-600 bg-indigo-50/90 text-indigo-950 font-bold dark:border-indigo-500 dark:bg-indigo-950/60 dark:text-indigo-200 shadow-xs'
                         : 'border-transparent bg-white text-slate-700 hover:border-slate-200 hover:bg-slate-100 dark:bg-slate-800/40 dark:text-slate-300 dark:hover:border-slate-700'
@@ -147,7 +168,11 @@ export function RuleDetailModal({
           </div>
 
           {/* Right Rule Detail Content */}
-          <div className="flex-1 md:col-span-8 p-6 overflow-y-auto max-h-[calc(90vh-80px)] space-y-5">
+          <div className="flex-1 md:col-span-8 p-4 sm:p-6 overflow-y-auto max-h-[calc(90vh-80px)] space-y-5">
+            {activeRuleId === 'GUIDE' || activeRuleId === 'SYLLABLE_GUIDE' ? (
+              <PhonicsSyllableGuideContent fontSize={fontSize} />
+            ) : (
+              <>
             {/* Rule Header */}
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-1.5">
@@ -269,6 +294,8 @@ export function RuleDetailModal({
                   {currentRule.exceptionsOrTips}
                 </p>
               </div>
+            )}
+              </>
             )}
           </div>
         </div>

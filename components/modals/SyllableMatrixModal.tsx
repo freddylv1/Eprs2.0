@@ -6,7 +6,7 @@ import { generateWordMatrix, getRuleColorBadge } from '../../lib/engine/phonicsE
 import { getPhonicsRule } from '../../lib/engine/phonicsRules';
 import { audioManager } from '../../lib/audioManager';
 import { getModalFontSizeClasses } from '../../lib/fontSizeUtils';
-import { X, Volume2, PlayCircle, Grid, Split } from 'lucide-react';
+import { X, Volume2, PlayCircle, Grid, Split, Sparkles } from 'lucide-react';
 
 interface SyllableMatrixModalProps {
   isOpen: boolean;
@@ -132,9 +132,14 @@ export function SyllableMatrixModal({
                   <Split className="h-4 w-4 text-sky-600 shrink-0" />
                   <span>音節切分依據</span>
                 </div>
-                <span className={`${typo.body} font-medium text-sky-700 dark:text-sky-400 font-mono`}>
-                  {matrix.divisionExplanation.reason}
-                </span>
+                <button
+                  onClick={() => onOpenRuleDetail('GUIDE')}
+                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-white text-sky-700 hover:text-indigo-600 hover:bg-indigo-50 border border-sky-200 text-[11px] font-bold dark:bg-slate-800 dark:text-sky-300 dark:border-sky-800 transition cursor-pointer"
+                  title="點擊查看文字音節與口語發音差異觀念指南"
+                >
+                  <Sparkles className="h-3 w-3 text-amber-500" />
+                  <span>💡 為什麼文字拆分與口語聽覺不同？</span>
+                </button>
               </div>
 
               {matrix.divisionExplanation.detectedRules.length > 0 && (

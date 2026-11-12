@@ -193,6 +193,7 @@ export default function HomePage() {
           onOpenDictation={() => setIsDictationModalOpen(true)}
           onOpenSongLearning={() => setIsSongModalOpen(true)}
           onOpenAudioDiagnostic={() => setIsAudioModalOpen(true)}
+          onOpenExport={() => setIsExportModalOpen(true)}
           onToggleToolbar={() => setIsToolbarVisible(v => !v)}
           isToolbarVisible={isToolbarVisible}
           onToggleFocusMode={() => setIsFocusMode(true)}
@@ -414,6 +415,7 @@ export default function HomePage() {
                 onResetFilters={handleResetFilters}
                 totalFiltered={filteredWords.length}
                 totalInBatch={batchData.totalWords}
+                onOpenExport={() => setIsExportModalOpen(true)}
               />
             )}
 

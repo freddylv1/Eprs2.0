@@ -21,9 +21,15 @@ import {
   Plus,
   Minus,
   Sliders,
-  Sun
+  Sun,
+  Download,
+  Loader2,
+  Sparkles,
+  ChevronDown,
+  Check
 } from 'lucide-react';
 import { useScreenWakeLock } from '../../lib/useScreenWakeLock';
+import { generateUnitAudio, triggerBlobDownload, Mp3ExportMode, Mp3ExportProgress } from '../../lib/mp3Exporter';
 
 export interface EPRSPracticeModalProps {
   isOpen: boolean;
@@ -118,6 +124,37 @@ export function EPRSPracticeModal({
     return 1.0;
   });
   const [showDelayPicker, setShowDelayPicker] = useState<boolean>(false);
+
+  // MP3 下載設定狀態
+  const [downloadMode, setDownloadMode] = useState<Mp3ExportMode>('4step');
+  const [isDownloadingMp3, setIsDownloadingMp3] = useState<boolean>(false);
+  const [downloadProgress, setDownloadProgress] = useState<Mp3ExportProgress | null>(null);
+  const [showDownloadMenu, setShowDownloadMenu] = useState<boolean>(false);
+
+  // 處理下載本單元 MP3
+  const handleDownloadUnitMp3 = async (selectedMode?: Mp3ExportMode) => {
+    if (isDownloadingMp3) return;
+    const modeToUse = selectedMode || downloadMode;
+    setIsDownloadingMp3(true);
+    setShowDownloadMenu(false);
+    try {
+      const currentUnit = units[activeUnitIndex];
+      const unitName = `單元${activeUnitIndex + 1}`;
+      const modeName = modeToUse === '4step' ? '4步拼讀版' : '快速複習版';
+      
+      const blob = await generateUnitAudio(currentUnit.words, modeToUse, (progress) => {
+        setDownloadProgress(progress);
+      });
+
+      const filename = `${batchTitle}_${unitName}_${modeName}.mp3`;
+      triggerBlobDownload(blob, filename);
+    } catch (err) {
+      console.error('Failed to download MP3:', err);
+    } finally {
+      setIsDownloadingMp3(false);
+      setDownloadProgress(null);
+    }
+  };
 
   const typo = getModalFontSizeClasses(fontSize);
 
@@ -464,20 +501,97 @@ export function EPRSPracticeModal({
             })}
           </div>
 
-          {/* 秒數調整面版展開切換按鈕 */}
-          <button
-            onClick={() => setShowDelayPicker(prev => !prev)}
-            className={`shrink-0 inline-flex items-center gap-1 rounded-lg px-2 py-0.5 sm:py-1 text-xs sm:text-sm font-medium transition cursor-pointer min-h-[32px] sm:min-h-[36px] ${
-              showDelayPicker
-                ? 'bg-amber-100 text-amber-900 dark:bg-amber-950/80 dark:text-amber-200'
-                : 'text-slate-500 hover:bg-slate-200/60 dark:text-slate-400 dark:hover:bg-slate-800'
-            }`}
-            title="調整每步停留秒數"
-          >
-            <Clock className="h-3.5 w-3.5 text-amber-600" />
-            <span>+{stepDelay.toFixed(1)}s</span>
-            <Sliders className="h-3 w-3 opacity-60" />
-          </button>
+          <div className="flex items-center gap-1.5 shrink-0">
+            {/* 下載本單元 MP3 (選單選 4步拼讀版 / 快速複習版) */}
+            <div className="relative shrink-0 flex items-center gap-0.5">
+              <button
+                disabled={isDownloadingMp3}
+                onClick={() => handleDownloadUnitMp3(downloadMode)}
+                className="inline-flex items-center gap-1 rounded-lg border border-indigo-200 bg-indigo-50 px-2 py-0.5 sm:px-2.5 sm:py-1 text-xs font-bold text-indigo-700 hover:bg-indigo-100 dark:border-indigo-800 dark:bg-indigo-950/70 dark:text-indigo-300 dark:hover:bg-indigo-900 transition cursor-pointer disabled:opacity-50 min-h-[32px] sm:min-h-[36px]"
+                title={`下載第 ${activeUnitIndex + 1} 單元 MP3 (${downloadMode === '4step' ? '4步拼讀版' : '快速複習版'})`}
+              >
+                {isDownloadingMp3 ? (
+                  <>
+                    <Loader2 className="h-3.5 w-3.5 animate-spin text-indigo-600" />
+                    <span className="hidden xs:inline">{downloadProgress ? `合成中 ${downloadProgress.percent}%` : '合成中...'}</span>
+                    <span className="xs:hidden">{downloadProgress ? `${downloadProgress.percent}%` : '...'}</span>
+                  </>
+                ) : (
+                  <>
+                    <Download className="h-3.5 w-3.5 text-indigo-600 dark:text-indigo-400" />
+                    <span className="hidden xs:inline">下載單元 MP3 ({downloadMode === '4step' ? '4步拼讀' : '快速複習'})</span>
+                    <span className="xs:hidden">下載 MP3</span>
+                  </>
+                )}
+              </button>
+              
+              <button
+                disabled={isDownloadingMp3}
+                onClick={() => setShowDownloadMenu(prev => !prev)}
+                className="rounded-lg border border-indigo-200 bg-indigo-50 p-1 text-indigo-700 hover:bg-indigo-100 dark:border-indigo-800 dark:bg-indigo-950/70 dark:text-indigo-300 dark:hover:bg-indigo-900 transition cursor-pointer min-h-[32px] sm:min-h-[36px] flex items-center justify-center px-1"
+                title="更換下載模式 (四步拼讀 vs 快速複習)"
+              >
+                <ChevronDown className="h-3.5 w-3.5" />
+              </button>
+
+              {/* 下載選單 Popup */}
+              {showDownloadMenu && (
+                <div className="absolute right-0 top-full mt-1.5 z-50 w-64 rounded-xl border border-slate-200 bg-white p-2 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+                  <div className="text-[11px] font-bold text-slate-400 px-2 py-1">下載格式設定</div>
+                  
+                  <button
+                    onClick={() => {
+                      setDownloadMode('4step');
+                      handleDownloadUnitMp3('4step');
+                    }}
+                    className={`w-full flex items-center justify-between rounded-lg p-2 text-left text-xs transition cursor-pointer ${
+                      downloadMode === '4step' ? 'bg-indigo-50 font-bold text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300' : 'hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div>
+                      <div className="font-bold flex items-center gap-1">
+                        🌟 完整四步拼讀版
+                        <span className="rounded bg-indigo-100 dark:bg-indigo-900 text-[10px] px-1 text-indigo-800 dark:text-indigo-200 font-normal">推薦</span>
+                      </div>
+                      <div className="text-[10px] text-slate-500 dark:text-slate-400">英文 → 中文 → 英文 → 音節</div>
+                    </div>
+                    {downloadMode === '4step' && <Check className="h-4 w-4 text-indigo-600" />}
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      setDownloadMode('3step');
+                      handleDownloadUnitMp3('3step');
+                    }}
+                    className={`w-full flex items-center justify-between rounded-lg p-2 text-left text-xs transition cursor-pointer mt-1 ${
+                      downloadMode === '3step' ? 'bg-indigo-50 font-bold text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300' : 'hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300'
+                    }`}
+                  >
+                    <div>
+                      <div className="font-bold">⚡ 快速複習版</div>
+                      <div className="text-[10px] text-slate-500 dark:text-slate-400">英文 → 中文 → 英文</div>
+                    </div>
+                    {downloadMode === '3step' && <Check className="h-4 w-4 text-indigo-600" />}
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {/* 秒數調整面版展開切換按鈕 */}
+            <button
+              onClick={() => setShowDelayPicker(prev => !prev)}
+              className={`shrink-0 inline-flex items-center gap-1 rounded-lg px-2 py-0.5 sm:py-1 text-xs sm:text-sm font-medium transition cursor-pointer min-h-[32px] sm:min-h-[36px] ${
+                showDelayPicker
+                  ? 'bg-amber-100 text-amber-900 dark:bg-amber-950/80 dark:text-amber-200'
+                  : 'text-slate-500 hover:bg-slate-200/60 dark:text-slate-400 dark:hover:bg-slate-800'
+              }`}
+              title="調整每步停留秒數"
+            >
+              <Clock className="h-3.5 w-3.5 text-amber-600" />
+              <span>+{stepDelay.toFixed(1)}s</span>
+              <Sliders className="h-3 w-3 opacity-60" />
+            </button>
+          </div>
         </div>
 
         {/* 秒數調節工具列 (可自訂秒數) */}

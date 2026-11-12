@@ -1,14 +1,16 @@
 import type {NextConfig} from 'next';
 
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+const isCloudflareOrCI = Boolean(process.env.CF_PAGES || process.env.OPENNEXT || process.env.CF_BUILD || process.env.CI);
 const isStaticExport = isGithubActions || process.env.STATIC_EXPORT === 'true';
+const useStandardDistDir = isStaticExport || isCloudflareOrCI;
 const repoName = 'Eprs2.0';
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || (isGithubActions ? `/${repoName}` : '');
 
 const nextConfig: NextConfig = {
-  // During static export (such as GitHub Actions / Pages), do NOT use a custom distDir like '.next_build'
-  // because Next.js 15 static export worker requires standard '.next' to locate build-manifest.json.
-  ...(isStaticExport ? {} : { distDir: process.env.NODE_ENV === 'production' ? '.next_build' : '.next' }),
+  // During static export, CI, or Cloudflare / OpenNext builds, do NOT use a custom distDir like '.next_build'
+  // because OpenNext and Next.js workers require standard '.next' to locate manifest files (e.g. middleware-manifest.json).
+  ...(useStandardDistDir ? {} : { distDir: process.env.NODE_ENV === 'production' ? '.next_build' : '.next' }),
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,

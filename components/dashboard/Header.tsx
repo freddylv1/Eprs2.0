@@ -25,6 +25,7 @@ interface HeaderProps {
   onOpenDictation: () => void;
   onOpenSongLearning: () => void;
   onOpenAudioDiagnostic: () => void;
+  onOpenExport: () => void;
   onToggleToolbar: () => void;
   isToolbarVisible: boolean;
   onToggleFocusMode: () => void;
@@ -42,6 +43,7 @@ export function Header({
   onOpenDictation,
   onOpenSongLearning,
   onOpenAudioDiagnostic,
+  onOpenExport,
   onToggleToolbar,
   isToolbarVisible,
   onToggleFocusMode,
@@ -225,7 +227,16 @@ export function Header({
             <span>英文歌學習</span>
           </button>
 
-          {/* Quick Practice Mode */}
+          {/* Export Center Button */}
+          <button
+            id="btn-header-export-center"
+            onClick={onOpenExport}
+            className="inline-flex items-center gap-1.5 rounded-xl border border-sky-300 bg-sky-500/10 px-3 py-1.5 text-xs font-bold text-sky-700 dark:text-sky-300 shadow-2xs hover:bg-sky-500/20 transition cursor-pointer shrink-0"
+            title="單字匯出中心 (MP3 音訊 / Excel / JSON / 列印)"
+          >
+            <Download className="h-3.5 w-3.5 text-sky-600 dark:text-sky-400" />
+            <span>單字匯出中心</span>
+          </button>
           <button
             onClick={onOpenQuickPractice}
             className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-3 py-1.5 text-xs font-semibold text-white shadow-2xs hover:from-amber-600 hover:to-orange-700 transition cursor-pointer shrink-0"
@@ -259,11 +270,21 @@ export function Header({
           {/* 18 Rules Button */}
           <button
             onClick={() => onOpenRules()}
-            className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-2xs hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 transition shrink-0"
+            className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-2xs hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 transition shrink-0 cursor-pointer"
             title="18 大自然發音法則手冊"
           >
             <BookOpen className="h-3.5 w-3.5 text-indigo-500" />
             <span>18 大法則</span>
+          </button>
+
+          {/* Syllable Guide Button */}
+          <button
+            onClick={() => onOpenRules('GUIDE')}
+            className="inline-flex items-center gap-1.5 rounded-xl border border-amber-200 bg-amber-50/80 px-3 py-1.5 text-xs font-bold text-amber-900 shadow-2xs hover:bg-amber-100 dark:border-amber-900/60 dark:bg-amber-950/40 dark:text-amber-200 transition shrink-0 cursor-pointer"
+            title="文字音節 vs. 口語音節觀念指南"
+          >
+            <Sparkles className="h-3.5 w-3.5 text-amber-500" />
+            <span>音節觀念指南</span>
           </button>
         </div>
       </div>
