@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build.mjs",
+    "build": "opennextjs-cloudflare build",
+    "build:local": "node scripts/build.mjs",
     "lint": "eslint .",
-    "clean": "next clean"
+    "clean": "next clean",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
@@ -32,9 +34,11 @@
     "typescript": "5.9.3"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.16",
     "eslint": "9.39.1",
     "eslint-config-next": "16.0.8",
     "firebase-tools": "^15.0.0",
+    "wrangler": "^4.160.1",
     "yaml": "^2.9.0"
   }
 }

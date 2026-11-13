@@ -1,0 +1,546 @@
+2026-11-12T09:29:16.910Z	Initializing build environment...
+2026-11-12T09:29:18.234Z	Success: Finished initializing build environment
+2026-11-12T09:29:19.277Z	Cloning repository...
+2026-11-12T09:29:20.969Z	Restoring from dependencies cache
+2026-11-12T09:29:20.970Z	Restoring from build output cache
+2026-11-12T09:29:20.973Z	Detected the following tools from environment: bun@1.4.4, nodejs@24.22.1
+2026-11-12T09:29:21.113Z	Installing project dependencies: bun install --frozen-lockfile
+2026-11-12T09:29:21.345Z	bun install v1.4.4 (38afee6c8)
+2026-11-12T09:29:31.008Z	
+2026-11-12T09:29:31.009Z	+ eslint@9.39.1
+2026-11-12T09:29:31.010Z	+ eslint-config-next@16.0.8
+2026-11-12T09:29:31.010Z	+ firebase-tools@15.30.0
+2026-11-12T09:29:31.010Z	+ yaml@2.9.0
+2026-11-12T09:29:31.010Z	+ @google/genai@2.21.0
+2026-11-12T09:29:31.010Z	+ @hookform/resolvers@5.9.1
+2026-11-12T09:29:31.010Z	+ @tailwindcss/postcss@4.1.11
+2026-11-12T09:29:31.010Z	+ @tailwindcss/typography@0.5.20
+2026-11-12T09:29:31.010Z	+ @types/node@20.19.43
+2026-11-12T09:29:31.010Z	+ @types/react@19.3.0
+2026-11-12T09:29:31.010Z	+ @types/react-dom@19.3.0
+2026-11-12T09:29:31.010Z	+ autoprefixer@10.5.5
+2026-11-12T09:29:31.010Z	+ class-variance-authority@0.7.1
+2026-11-12T09:29:31.010Z	+ clsx@2.1.1
+2026-11-12T09:29:31.010Z	+ jszip@3.10.2
+2026-11-12T09:29:31.010Z	+ lucide-react@0.553.0
+2026-11-12T09:29:31.010Z	+ motion@12.43.0
+2026-11-12T09:29:31.010Z	+ next@15.5.25
+2026-11-12T09:29:31.010Z	+ postcss@8.5.28
+2026-11-12T09:29:31.010Z	+ react@19.3.0
+2026-11-12T09:29:31.010Z	+ react-dom@19.3.0
+2026-11-12T09:29:31.010Z	+ tailwind-merge@3.6.0
+2026-11-12T09:29:31.010Z	+ tailwindcss@4.1.11
+2026-11-12T09:29:31.010Z	+ tw-animate-css@1.4.0
+2026-11-12T09:29:31.010Z	+ typescript@5.9.3
+2026-11-12T09:29:31.011Z	
+2026-11-12T09:29:31.011Z	912 packages installed [9.70s]
+2026-11-12T09:29:31.217Z	Executing user build command: bun run build
+2026-11-12T09:29:31.290Z	$ node scripts/build.mjs
+2026-11-12T09:29:31.383Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-12T09:29:31.385Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-12T09:29:32.104Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-12T09:29:32.119Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-12T09:29:32.119Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-12T09:29:32.119Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-12T09:29:32.119Z	https://nextjs.org/telemetry
+2026-11-12T09:29:32.119Z	
+2026-11-12T09:29:32.198Z	   ▲ Next.js 15.5.25
+2026-11-12T09:29:32.199Z	
+2026-11-12T09:29:32.398Z	   Creating an optimized production build ...
+2026-11-12T09:29:39.743Z	 ✓ Compiled successfully in 7.2s
+2026-11-12T09:29:39.745Z	   Skipping linting
+2026-11-12T09:29:39.746Z	   Checking validity of types ...
+2026-11-12T09:29:44.056Z	   Collecting page data ...
+2026-11-12T09:29:45.293Z	   Generating static pages (0/5) ...
+2026-11-12T09:29:45.660Z	   Generating static pages (1/5) 
+2026-11-12T09:29:45.767Z	   Generating static pages (2/5) 
+2026-11-12T09:29:45.767Z	   Generating static pages (3/5) 
+2026-11-12T09:29:45.768Z	 ✓ Generating static pages (5/5)
+2026-11-12T09:29:46.448Z	   Finalizing page optimization ...
+2026-11-12T09:29:46.448Z	   Collecting build traces ...
+2026-11-12T09:30:02.276Z	
+2026-11-12T09:30:02.284Z	Route (app)                                 Size  First Load JS
+2026-11-12T09:30:02.284Z	┌ ○ /                                     140 kB         243 kB
+2026-11-12T09:30:02.284Z	├ ○ /_not-found                            126 B         102 kB
+2026-11-12T09:30:02.284Z	└ ƒ /api/tts                               126 B         102 kB
+2026-11-12T09:30:02.284Z	+ First Load JS shared by all             102 kB
+2026-11-12T09:30:02.285Z	  ├ chunks/255-ad2dbd207e2bf0df.js       46.1 kB
+2026-11-12T09:30:02.285Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-12T09:30:02.285Z	  └ other shared chunks (total)          1.92 kB
+2026-11-12T09:30:02.286Z	
+2026-11-12T09:30:02.286Z	
+2026-11-12T09:30:02.286Z	ƒ Middleware                             32.4 kB
+2026-11-12T09:30:02.286Z	
+2026-11-12T09:30:02.288Z	○  (Static)   prerendered as static content
+2026-11-12T09:30:02.288Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-12T09:30:02.289Z	
+2026-11-12T09:30:02.379Z	[Build] Syncing artifacts to /opt/buildhome/repo/dist...
+2026-11-12T09:30:02.394Z	[Build] Successfully validated .next/standalone/server.js
+2026-11-12T09:30:02.394Z	[Build] Successfully verified dist/index.html (24623 bytes).
+2026-11-12T09:30:02.457Z	[Build] Build completed successfully.
+2026-11-12T09:30:02.464Z	Success: Build command completed
+2026-11-12T09:30:02.707Z	Executing user deploy command: npx wrangler deploy
+2026-11-12T09:30:04.245Z	npm warn exec The following package was not found and will be installed: wrangler@4.160.1
+2026-11-12T09:30:11.609Z	
+2026-11-12T09:30:11.609Z	 ⛅️ wrangler 4.160.1
+2026-11-12T09:30:11.609Z	────────────────────
+2026-11-12T09:30:11.668Z	
+2026-11-12T09:30:11.669Z	Detected Project Settings:
+2026-11-12T09:30:11.669Z	 - Worker Name: eprs2-0
+2026-11-12T09:30:11.669Z	 - Framework: Next.js
+2026-11-12T09:30:11.669Z	 - Build Command: bun run build
+2026-11-12T09:30:11.670Z	 - Output Directory: .next
+2026-11-12T09:30:11.670Z	
+2026-11-12T09:30:11.670Z	? Do you want to modify these settings?
+2026-11-12T09:30:11.670Z	🤖 Using fallback value in non-interactive context: no
+2026-11-12T09:30:11.673Z	
+2026-11-12T09:30:11.678Z	📦 Install packages:
+2026-11-12T09:30:11.678Z	 - wrangler (devDependency)
+2026-11-12T09:30:11.678Z	
+2026-11-12T09:30:11.678Z	📝 Update package.json scripts:
+2026-11-12T09:30:11.678Z	 - "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+2026-11-12T09:30:11.678Z	 - "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
+2026-11-12T09:30:11.678Z	
+2026-11-12T09:30:11.678Z	📄 Create wrangler.jsonc:
+2026-11-12T09:30:11.678Z	  {
+2026-11-12T09:30:11.678Z	    "$schema": "node_modules/wrangler/config-schema.json",
+2026-11-12T09:30:11.678Z	    "name": "eprs2-0",
+2026-11-12T09:30:11.678Z	    "compatibility_date": "2026-11-10",
+2026-11-12T09:30:11.678Z	    "observability": {
+2026-11-12T09:30:11.678Z	      "enabled": true
+2026-11-12T09:30:11.678Z	    }
+2026-11-12T09:30:11.678Z	  }
+2026-11-12T09:30:11.679Z	
+2026-11-12T09:30:11.679Z	🛠️  Configuring project for Next.js with OpenNext by running `@opennextjs/cloudflare migrate`
+2026-11-12T09:30:11.679Z	
+2026-11-12T09:30:11.679Z	? Proceed with setup?
+2026-11-12T09:30:11.679Z	🤖 Using fallback value in non-interactive context: yes
+2026-11-12T09:30:13.363Z	Resolving dependencies
+2026-11-12T09:30:15.975Z	Resolved, downloaded and extracted [1063]
+2026-11-12T09:30:16.375Z	Saved lockfile
+2026-11-12T09:30:17.870Z	
+2026-11-12T09:30:17.870Z	┌───────────────────────────────┐
+2026-11-12T09:30:17.870Z	│ OpenNext — Cloudflare migrate │
+2026-11-12T09:30:17.870Z	└───────────────────────────────┘
+2026-11-12T09:30:17.870Z	
+2026-11-12T09:30:17.870Z	🚀 Setting up the OpenNext Cloudflare adapter...
+2026-11-12T09:30:17.870Z	
+2026-11-12T09:30:17.878Z	⚙️  Installing dependencies...
+2026-11-12T09:30:17.878Z	
+2026-11-12T09:30:17.886Z	bun add v1.4.4 (38afee6c8)
+2026-11-12T09:30:17.896Z	Resolving dependencies
+2026-11-12T09:30:18.381Z	Resolved, downloaded and extracted [342]
+2026-11-12T09:30:19.928Z	Saved lockfile
+2026-11-12T09:30:19.930Z	
+2026-11-12T09:30:19.930Z	+ eslint@9.39.1
+2026-11-12T09:30:19.931Z	+ eslint-config-next@16.0.8
+2026-11-12T09:30:19.931Z	+ firebase-tools@15.30.0
+2026-11-12T09:30:19.931Z	+ wrangler@4.160.1
+2026-11-12T09:30:19.932Z	+ yaml@2.9.0 (v2.9.1 available)
+2026-11-12T09:30:19.932Z	+ @google/genai@2.21.0
+2026-11-12T09:30:19.933Z	+ @hookform/resolvers@5.9.1
+2026-11-12T09:30:19.933Z	+ @tailwindcss/postcss@4.1.11
+2026-11-12T09:30:19.933Z	+ @tailwindcss/typography@0.5.20
+2026-11-12T09:30:19.933Z	+ @types/node@20.19.43 (v26.6.6 available)
+2026-11-12T09:30:19.936Z	+ @types/react@19.3.0
+2026-11-12T09:30:19.936Z	+ @types/react-dom@19.3.0
+2026-11-12T09:30:19.936Z	+ autoprefixer@10.5.5
+2026-11-12T09:30:19.936Z	+ class-variance-authority@0.7.1
+2026-11-12T09:30:19.937Z	+ clsx@2.1.1
+2026-11-12T09:30:19.937Z	+ jszip@3.10.2
+2026-11-12T09:30:19.937Z	+ lucide-react@0.553.0
+2026-11-12T09:30:19.937Z	+ motion@12.43.0
+2026-11-12T09:30:19.937Z	+ next@15.5.25
+2026-11-12T09:30:19.937Z	+ postcss@8.5.28
+2026-11-12T09:30:19.937Z	+ react@19.3.0
+2026-11-12T09:30:19.937Z	+ react-dom@19.3.0
+2026-11-12T09:30:19.937Z	+ tailwind-merge@3.6.0
+2026-11-12T09:30:19.937Z	+ tailwindcss@4.1.11
+2026-11-12T09:30:19.937Z	+ tw-animate-css@1.4.0
+2026-11-12T09:30:19.937Z	+ typescript@5.9.3
+2026-11-12T09:30:19.937Z	
+2026-11-12T09:30:19.937Z	installed @opennextjs/cloudflare@1.20.16 with binaries:
+2026-11-12T09:30:19.937Z	 - opennextjs-cloudflare
+2026-11-12T09:30:19.937Z	
+2026-11-12T09:30:19.937Z	1083 packages installed [2.05s]
+2026-11-12T09:30:19.952Z	bun add v1.4.4 (38afee6c8)
+2026-11-12T09:30:19.965Z	Resolving dependencies
+2026-11-12T09:30:19.982Z	Resolved, downloaded and extracted [1]
+2026-11-12T09:30:21.700Z	
+2026-11-12T09:30:21.700Z	+ eslint@9.39.1
+2026-11-12T09:30:21.700Z	+ eslint-config-next@16.0.8
+2026-11-12T09:30:21.702Z	+ firebase-tools@15.30.0
+2026-11-12T09:30:21.702Z	+ yaml@2.9.0
+2026-11-12T09:30:21.702Z	+ @google/genai@2.21.0
+2026-11-12T09:30:21.702Z	+ @hookform/resolvers@5.9.1
+2026-11-12T09:30:21.702Z	+ @opennextjs/cloudflare@1.20.16
+2026-11-12T09:30:21.702Z	+ @tailwindcss/postcss@4.1.11
+2026-11-12T09:30:21.702Z	+ @tailwindcss/typography@0.5.20
+2026-11-12T09:30:21.702Z	+ @types/node@20.19.43
+2026-11-12T09:30:21.702Z	+ @types/react@19.3.0
+2026-11-12T09:30:21.702Z	+ @types/react-dom@19.3.0
+2026-11-12T09:30:21.702Z	+ autoprefixer@10.5.5
+2026-11-12T09:30:21.702Z	+ class-variance-authority@0.7.1
+2026-11-12T09:30:21.702Z	+ clsx@2.1.1
+2026-11-12T09:30:21.702Z	+ jszip@3.10.2
+2026-11-12T09:30:21.702Z	+ lucide-react@0.553.0
+2026-11-12T09:30:21.702Z	+ motion@12.43.0
+2026-11-12T09:30:21.702Z	+ next@15.5.25
+2026-11-12T09:30:21.702Z	+ postcss@8.5.28
+2026-11-12T09:30:21.702Z	+ react@19.3.0
+2026-11-12T09:30:21.702Z	+ react-dom@19.3.0
+2026-11-12T09:30:21.703Z	+ tailwind-merge@3.6.0
+2026-11-12T09:30:21.703Z	+ tailwindcss@4.1.11
+2026-11-12T09:30:21.703Z	+ tw-animate-css@1.4.0
+2026-11-12T09:30:21.703Z	+ typescript@5.9.3
+2026-11-12T09:30:21.703Z	
+2026-11-12T09:30:21.703Z	installed wrangler@4.160.1 with binaries:
+2026-11-12T09:30:21.703Z	 - wrangler
+2026-11-12T09:30:21.703Z	 - wrangler2
+2026-11-12T09:30:21.703Z	 - cf-wrangler
+2026-11-12T09:30:21.703Z	
+2026-11-12T09:30:21.703Z	1083 packages installed [1.75s]
+2026-11-12T09:30:21.704Z	⚙️  Creating wrangler.jsonc...
+2026-11-12T09:30:21.704Z	
+2026-11-12T09:30:22.836Z	(node:1297) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+2026-11-12T09:30:22.838Z	(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-12T09:30:23.969Z	WARN Failed to set up cache for your project.
+2026-11-12T09:30:23.970Z	After the migration completes, please manually setup cache in  wrangler.jsonc and open-next.config.ts files (for more details see: https://opennext.js.org/cloudflare/caching).
+2026-11-12T09:30:23.970Z	
+2026-11-12T09:30:23.970Z	⚙️  Creating open-next.config.ts...
+2026-11-12T09:30:23.970Z	
+2026-11-12T09:30:23.975Z	⚙️  Creating .dev.vars file...
+2026-11-12T09:30:23.975Z	
+2026-11-12T09:30:23.975Z	⚙️  Creating public/_headers file...
+2026-11-12T09:30:23.975Z	
+2026-11-12T09:30:23.975Z	⚙️  Updating package.json scripts...
+2026-11-12T09:30:23.975Z	
+2026-11-12T09:30:23.975Z	⚙️  Updating .gitignore file...
+2026-11-12T09:30:23.975Z	
+2026-11-12T09:30:23.976Z	⚙️  Updating Next.js config...
+2026-11-12T09:30:23.976Z	
+2026-11-12T09:30:23.976Z	⚙️  Checking for edge runtime usage...
+2026-11-12T09:30:23.976Z	
+2026-11-12T09:30:23.979Z	🎉 OpenNext Cloudflare adapter complete!
+2026-11-12T09:30:23.980Z	
+2026-11-12T09:30:23.980Z	Next steps:
+2026-11-12T09:30:23.980Z	- Run: "bun preview" to build and preview your Cloudflare application locally
+2026-11-12T09:30:23.980Z	- Run: "bun deploy" to deploy your application to Cloudflare Workers
+2026-11-12T09:30:23.980Z	- ⚠️  Setup cache, see https://opennext.js.org/cloudflare/caching for more details
+2026-11-12T09:30:23.980Z	
+2026-11-12T09:30:24.012Z	[build] Running: bunx opennextjs-cloudflare build
+2026-11-12T09:30:25.370Z	[build] 
+2026-11-12T09:30:25.370Z	[build] ┌─────────────────────────────┐
+2026-11-12T09:30:25.371Z	[build] │ OpenNext — Cloudflare build │
+2026-11-12T09:30:25.371Z	[build] └─────────────────────────────┘
+2026-11-12T09:30:25.371Z	[build] 
+2026-11-12T09:30:25.371Z	[build] 
+2026-11-12T09:30:25.454Z	[build] App directory: /opt/buildhome/repo
+2026-11-12T09:30:25.455Z	[build] 
+2026-11-12T09:30:25.456Z	[build] Next.js version : 15.5.25
+2026-11-12T09:30:25.456Z	[build] 
+2026-11-12T09:30:25.456Z	[build] @opennextjs/cloudflare version: 1.20.16
+2026-11-12T09:30:25.456Z	[build] @opennextjs/aws version: 4.1.15
+2026-11-12T09:30:25.456Z	[build] workerd compatibility_date: 2026-11-10
+2026-11-12T09:30:25.456Z	[build] 
+2026-11-12T09:30:25.456Z	[build] 
+2026-11-12T09:30:25.456Z	[build] ┌─────────────────────────────────┐
+2026-11-12T09:30:25.456Z	[build] │ OpenNext — Building Next.js app │
+2026-11-12T09:30:25.456Z	[build] └─────────────────────────────────┘
+2026-11-12T09:30:25.457Z	[build] 
+2026-11-12T09:30:25.457Z	[build] 
+2026-11-12T09:30:25.465Z	[build] $ node scripts/build.mjs
+2026-11-12T09:30:25.465Z	[build] 
+2026-11-12T09:30:25.494Z	[build] [Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-12T09:30:25.494Z	[build] 
+2026-11-12T09:30:25.502Z	[build] [Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-12T09:30:25.502Z	[build] 
+2026-11-12T09:30:27.007Z	[build] Using secrets defined in .dev.vars
+2026-11-12T09:30:27.007Z	[build] 
+2026-11-12T09:30:27.008Z	[build] ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-12T09:30:27.008Z	[build] 
+2026-11-12T09:30:27.013Z	[build] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-12T09:30:27.013Z	[build] 
+2026-11-12T09:30:27.013Z	[build] This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-12T09:30:27.013Z	[build] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-12T09:30:27.013Z	[build] https://nextjs.org/telemetry
+2026-11-12T09:30:27.013Z	[build] 
+2026-11-12T09:30:27.013Z	[build] 
+2026-11-12T09:30:27.150Z	[build]    ▲ Next.js 15.5.25
+2026-11-12T09:30:27.150Z	[build] 
+2026-11-12T09:30:27.150Z	[build] 
+2026-11-12T09:30:27.150Z	[build] 
+2026-11-12T09:30:27.222Z	[build]    Creating an optimized production build ...
+2026-11-12T09:30:27.222Z	[build] 
+2026-11-12T09:30:34.677Z	[build]  ✓ Compiled successfully in 7.3s
+2026-11-12T09:30:34.678Z	[build] 
+2026-11-12T09:30:34.681Z	[build]    Skipping linting
+2026-11-12T09:30:34.681Z	[build]    Checking validity of types ...
+2026-11-12T09:30:34.681Z	[build] 
+2026-11-12T09:30:39.864Z	[build]    Collecting page data ...
+2026-11-12T09:30:39.868Z	[build] 
+2026-11-12T09:30:41.042Z	[build]    Generating static pages (0/5) ...
+2026-11-12T09:30:41.042Z	[build] 
+2026-11-12T09:30:41.476Z	[build]    Generating static pages (1/5) 
+2026-11-12T09:30:41.476Z	[build] 
+2026-11-12T09:30:41.770Z	[build]    Generating static pages (2/5) 
+2026-11-12T09:30:41.771Z	[build] 
+2026-11-12T09:30:41.772Z	[build]    Generating static pages (3/5) 
+2026-11-12T09:30:41.772Z	[build]  ✓ Generating static pages (5/5)
+2026-11-12T09:30:41.772Z	[build] 
+2026-11-12T09:30:42.356Z	[build]    Finalizing page optimization ...
+2026-11-12T09:30:42.357Z	[build]    Collecting build traces ...
+2026-11-12T09:30:42.357Z	[build] 
+2026-11-12T09:30:57.147Z	[build] 
+2026-11-12T09:30:57.147Z	[build] 
+2026-11-12T09:30:57.154Z	[build] Route (app)                                 Size  First Load JS
+2026-11-12T09:30:57.154Z	[build] ┌ ○ /                                     140 kB         243 kB
+2026-11-12T09:30:57.154Z	[build] ├ ○ /_not-found                            126 B         102 kB
+2026-11-12T09:30:57.154Z	[build] └ ƒ /api/tts                               126 B         102 kB
+2026-11-12T09:30:57.154Z	[build] + First Load JS shared by all             102 kB
+2026-11-12T09:30:57.154Z	[build]   ├ chunks/255-ad2dbd207e2bf0df.js       46.1 kB
+2026-11-12T09:30:57.154Z	[build]   ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-12T09:30:57.154Z	[build]   └ other shared chunks (total)          1.92 kB
+2026-11-12T09:30:57.154Z	[build] 
+2026-11-12T09:30:57.154Z	[build] 
+2026-11-12T09:30:57.154Z	[build] ƒ Middleware                             32.4 kB
+2026-11-12T09:30:57.154Z	[build] 
+2026-11-12T09:30:57.154Z	[build] 
+2026-11-12T09:30:57.154Z	[build] ○  (Static)   prerendered as static content
+2026-11-12T09:30:57.154Z	[build] ƒ  (Dynamic)  server-rendered on demand
+2026-11-12T09:30:57.154Z	[build] 
+2026-11-12T09:30:57.154Z	[build] 
+2026-11-12T09:30:57.269Z	[build] [Build] Syncing artifacts to /opt/buildhome/repo/dist...
+2026-11-12T09:30:57.269Z	[build] 
+2026-11-12T09:30:57.277Z	[build] [Build] Successfully validated .next/standalone/server.js
+2026-11-12T09:30:57.277Z	[build] 
+2026-11-12T09:30:57.277Z	[build] [Build] Successfully verified dist/index.html (24623 bytes).
+2026-11-12T09:30:57.277Z	[build] 
+2026-11-12T09:30:57.341Z	[build] [Build] Build completed successfully.
+2026-11-12T09:30:57.342Z	[build] 
+2026-11-12T09:30:57.350Z	[build] node:fs:483
+2026-11-12T09:30:57.350Z	[build]     return binding.readFileUtf8(path, stringToFlags(options.flag));
+2026-11-12T09:30:57.350Z	[build]                    ^
+2026-11-12T09:30:57.350Z	[build] 
+2026-11-12T09:30:57.350Z	[build] Error: ENOENT: no such file or directory, open '/opt/buildhome/repo/.next/server/middleware-manifest.json'
+2026-11-12T09:30:57.350Z	[build]     at Object.readFileSync (node:fs:483:20)
+2026-11-12T09:30:57.350Z	[build]     at loadMiddlewareManifest (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/adapters/config/util.js:119:21)
+2026-11-12T09:30:57.350Z	[build]     at useNodeMiddleware (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/utils/middleware.js:12:32)
+2026-11-12T09:30:57.350Z	[build]     at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:67:31)
+2026-11-12T09:30:57.350Z	[build]     at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-12T09:30:57.350Z	[build]   errno: -2,
+2026-11-12T09:30:57.350Z	[build]   code: 'ENOENT',
+2026-11-12T09:30:57.350Z	[build]   syscall: 'open',
+2026-11-12T09:30:57.350Z	[build]   path: '/opt/buildhome/repo/.next/server/middleware-manifest.json'
+2026-11-12T09:30:57.350Z	[build] }
+2026-11-12T09:30:57.350Z	[build] 
+2026-11-12T09:30:57.350Z	[build] Node.js v24.22.1
+2026-11-12T09:30:57.350Z	[build] 
+2026-11-12T09:30:57.430Z	✘ [ERROR] k [Error]: Process exited with non-zero status (1)
+2026-11-12T09:30:57.430Z	
+2026-11-12T09:30:57.430Z	      at I2._waitForOutput (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:164234:98)
+2026-11-12T09:30:57.430Z	      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-12T09:30:57.430Z	      at async runCommand (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:192882:26)
+2026-11-12T09:30:57.430Z	      at async Object.runCommand (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:291070:7)
+2026-11-12T09:30:57.430Z	      at async runAutoConfig (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:290651:5)
+2026-11-12T09:30:57.430Z	      at async runAutoConfigLogic (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:291005:21)
+2026-11-12T09:30:57.430Z	      at async maybeRunAutoConfig (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:291131:35)
+2026-11-12T09:30:57.430Z	      at async runDeployCommandHandler (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:291421:28)
+2026-11-12T09:30:57.430Z	      at async Object.handler (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:291633:9)
+2026-11-12T09:30:57.430Z	      at async /opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:239216:26 {
+2026-11-12T09:30:57.430Z	    result: I {
+2026-11-12T09:30:57.430Z	      _process: ChildProcess {
+2026-11-12T09:30:57.430Z	        _events: [Object: null prototype] {},
+2026-11-12T09:30:57.430Z	        _eventsCount: 0,
+2026-11-12T09:30:57.430Z	        _maxListeners: undefined,
+2026-11-12T09:30:57.430Z	        _closesNeeded: 3,
+2026-11-12T09:30:57.430Z	        _closesGot: 3,
+2026-11-12T09:30:57.430Z	        connected: false,
+2026-11-12T09:30:57.430Z	        signalCode: null,
+2026-11-12T09:30:57.430Z	        exitCode: 1,
+2026-11-12T09:30:57.430Z	        killed: false,
+2026-11-12T09:30:57.430Z	        spawnfile: '/bin/sh',
+2026-11-12T09:30:57.431Z	        _handle: null,
+2026-11-12T09:30:57.431Z	        spawnargs: [Array],
+2026-11-12T09:30:57.431Z	        pid: 1433,
+2026-11-12T09:30:57.431Z	        stdin: [Socket],
+2026-11-12T09:30:57.431Z	        stdout: [Socket],
+2026-11-12T09:30:57.431Z	        stderr: [Socket],
+2026-11-12T09:30:57.431Z	        stdio: [Array],
+2026-11-12T09:30:57.431Z	        Symbol(shapeMode): false,
+2026-11-12T09:30:57.431Z	        Symbol(kCapture): false
+2026-11-12T09:30:57.431Z	      },
+2026-11-12T09:30:57.431Z	      _aborted: false,
+2026-11-12T09:30:57.431Z	      _options: {
+2026-11-12T09:30:57.431Z	        timeout: undefined,
+2026-11-12T09:30:57.431Z	        persist: false,
+2026-11-12T09:30:57.431Z	        nodeOptions: [Object],
+2026-11-12T09:30:57.431Z	        throwOnError: true,
+2026-11-12T09:30:57.431Z	        nodePath: false
+2026-11-12T09:30:57.431Z	      },
+2026-11-12T09:30:57.431Z	      _command: 'bunx opennextjs-cloudflare build',
+2026-11-12T09:30:57.431Z	      _args: [],
+2026-11-12T09:30:57.431Z	      _resolveClose: [Function (anonymous)],
+2026-11-12T09:30:57.431Z	      _processClosed: Promise { undefined },
+2026-11-12T09:30:57.431Z	      _thrownError: undefined,
+2026-11-12T09:30:57.431Z	      _streamOut: Socket {
+2026-11-12T09:30:57.431Z	        connecting: false,
+2026-11-12T09:30:57.431Z	        _hadError: false,
+2026-11-12T09:30:57.431Z	        _parent: null,
+2026-11-12T09:30:57.432Z	        _host: null,
+2026-11-12T09:30:57.432Z	        _closeAfterHandlingError: false,
+2026-11-12T09:30:57.432Z	        _events: [Object],
+2026-11-12T09:30:57.432Z	        _readableState: [ReadableState],
+2026-11-12T09:30:57.432Z	        _writableState: [WritableState],
+2026-11-12T09:30:57.432Z	        allowHalfOpen: false,
+2026-11-12T09:30:57.432Z	        _maxListeners: undefined,
+2026-11-12T09:30:57.435Z	        _eventsCount: 5,
+2026-11-12T09:30:57.435Z	        _sockname: null,
+2026-11-12T09:30:57.435Z	        _pendingData: null,
+2026-11-12T09:30:57.435Z	        _pendingEncoding: '',
+2026-11-12T09:30:57.436Z	        server: null,
+2026-11-12T09:30:57.436Z	        _server: null,
+2026-11-12T09:30:57.436Z	        write: [Function: writeAfterFIN],
+2026-11-12T09:30:57.436Z	        Symbol(async_id_symbol): 3949,
+2026-11-12T09:30:57.436Z	        Symbol(kHandle): null,
+2026-11-12T09:30:57.436Z	        Symbol(lastWriteQueueSize): 0,
+2026-11-12T09:30:57.437Z	        Symbol(timeout): null,
+2026-11-12T09:30:57.437Z	        Symbol(kBuffer): null,
+2026-11-12T09:30:57.437Z	        Symbol(kBufferCb): null,
+2026-11-12T09:30:57.437Z	        Symbol(kBufferGen): null,
+2026-11-12T09:30:57.437Z	        Symbol(shapeMode): true,
+2026-11-12T09:30:57.437Z	        Symbol(kCapture): false,
+2026-11-12T09:30:57.437Z	        Symbol(kSetNoDelay): false,
+2026-11-12T09:30:57.437Z	        Symbol(kSetKeepAlive): false,
+2026-11-12T09:30:57.437Z	        Symbol(kSetKeepAliveInitialDelay): 0,
+2026-11-12T09:30:57.437Z	        Symbol(kSetTOS): undefined,
+2026-11-12T09:30:57.437Z	        Symbol(kBytesRead): 2624,
+2026-11-12T09:30:57.437Z	        Symbol(kBytesWritten): 0
+2026-11-12T09:30:57.438Z	      },
+2026-11-12T09:30:57.438Z	      _streamErr: Socket {
+2026-11-12T09:30:57.438Z	        connecting: false,
+2026-11-12T09:30:57.438Z	        _hadError: false,
+2026-11-12T09:30:57.438Z	        _parent: null,
+2026-11-12T09:30:57.438Z	        _host: null,
+2026-11-12T09:30:57.438Z	        _closeAfterHandlingError: false,
+2026-11-12T09:30:57.438Z	        _events: [Object],
+2026-11-12T09:30:57.438Z	        _readableState: [ReadableState],
+2026-11-12T09:30:57.439Z	        _writableState: [WritableState],
+2026-11-12T09:30:57.439Z	        allowHalfOpen: false,
+2026-11-12T09:30:57.439Z	        _maxListeners: undefined,
+2026-11-12T09:30:57.439Z	        _eventsCount: 5,
+2026-11-12T09:30:57.439Z	        _sockname: null,
+2026-11-12T09:30:57.440Z	        _pendingData: null,
+2026-11-12T09:30:57.440Z	        _pendingEncoding: '',
+2026-11-12T09:30:57.440Z	        server: null,
+2026-11-12T09:30:57.440Z	        _server: null,
+2026-11-12T09:30:57.441Z	        write: [Function: writeAfterFIN],
+2026-11-12T09:30:57.441Z	        Symbol(async_id_symbol): 3950,
+2026-11-12T09:30:57.441Z	        Symbol(kHandle): null,
+2026-11-12T09:30:57.442Z	        Symbol(lastWriteQueueSize): 0,
+2026-11-12T09:30:57.442Z	        Symbol(timeout): null,
+2026-11-12T09:30:57.442Z	        Symbol(kBuffer): null,
+2026-11-12T09:30:57.442Z	        Symbol(kBufferCb): null,
+2026-11-12T09:30:57.442Z	        Symbol(kBufferGen): null,
+2026-11-12T09:30:57.442Z	        Symbol(shapeMode): true,
+2026-11-12T09:30:57.442Z	        Symbol(kCapture): false,
+2026-11-12T09:30:57.442Z	        Symbol(kSetNoDelay): false,
+2026-11-12T09:30:57.442Z	        Symbol(kSetKeepAlive): false,
+2026-11-12T09:30:57.442Z	        Symbol(kSetKeepAliveInitialDelay): 0,
+2026-11-12T09:30:57.442Z	        Symbol(kSetTOS): undefined,
+2026-11-12T09:30:57.442Z	        Symbol(kBytesRead): 904,
+2026-11-12T09:30:57.443Z	        Symbol(kBytesWritten): 0
+2026-11-12T09:30:57.443Z	      },
+2026-11-12T09:30:57.443Z	      _onError: [Function: _onError],
+2026-11-12T09:30:57.443Z	      _onClose: [Function: _onClose]
+2026-11-12T09:30:57.443Z	    },
+2026-11-12T09:30:57.443Z	    output: {
+2026-11-12T09:30:57.443Z	      stderr: '$ node scripts/build.mjs\n' +
+2026-11-12T09:30:57.443Z	        'node:fs:483\n' +
+2026-11-12T09:30:57.443Z	        '    return binding.readFileUtf8(path, stringToFlags(options.flag));\n' +
+2026-11-12T09:30:57.443Z	        '                   ^\n' +
+2026-11-12T09:30:57.443Z	        '\n' +
+2026-11-12T09:30:57.443Z	        "Error: ENOENT: no such file or directory, open '/opt/buildhome/repo/.next/server/middleware-manifest.json'\n" +
+2026-11-12T09:30:57.443Z	        '    at Object.readFileSync (node:fs:483:20)\n' +
+2026-11-12T09:30:57.443Z	        '    at loadMiddlewareManifest (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/adapters/config/util.js:119:21)\n' +
+2026-11-12T09:30:57.443Z	        '    at useNodeMiddleware (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/utils/middleware.js:12:32)\n' +
+2026-11-12T09:30:57.443Z	        '    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:67:31)\n' +
+2026-11-12T09:30:57.443Z	        '    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {\n' +
+2026-11-12T09:30:57.443Z	        '  errno: -2,\n' +
+2026-11-12T09:30:57.443Z	        "  code: 'ENOENT',\n" +
+2026-11-12T09:30:57.443Z	        "  syscall: 'open',\n" +
+2026-11-12T09:30:57.443Z	        "  path: '/opt/buildhome/repo/.next/server/middleware-manifest.json'\n" +
+2026-11-12T09:30:57.443Z	        '}\n' +
+2026-11-12T09:30:57.443Z	        '\n' +
+2026-11-12T09:30:57.443Z	        'Node.js v24.22.1\n',
+2026-11-12T09:30:57.444Z	      stdout: '\n' +
+2026-11-12T09:30:57.444Z	        '┌─────────────────────────────┐\n' +
+2026-11-12T09:30:57.444Z	        '│ OpenNext — Cloudflare build │\n' +
+2026-11-12T09:30:57.444Z	        '└─────────────────────────────┘\n' +
+2026-11-12T09:30:57.445Z	        '\n' +
+2026-11-12T09:30:57.445Z	        'App directory: /opt/buildhome/repo\n' +
+2026-11-12T09:30:57.445Z	        'Next.js version : 15.5.25\n' +
+2026-11-12T09:30:57.445Z	        '@opennextjs/cloudflare version: 1.20.16\n' +
+2026-11-12T09:30:57.445Z	        '@opennextjs/aws version: 4.1.15\n' +
+2026-11-12T09:30:57.445Z	        'workerd compatibility_date: 2026-11-10\n' +
+2026-11-12T09:30:57.445Z	        '\n' +
+2026-11-12T09:30:57.445Z	        '┌─────────────────────────────────┐\n' +
+2026-11-12T09:30:57.445Z	        '│ OpenNext — Building Next.js app │\n' +
+2026-11-12T09:30:57.445Z	        '└─────────────────────────────────┘\n' +
+2026-11-12T09:30:57.445Z	        '\n' +
+2026-11-12T09:30:57.445Z	        '[Build] Starting production build (static export: false, cloudflare/ci: true)...\n' +
+2026-11-12T09:30:57.445Z	        '[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build\n' +
+2026-11-12T09:30:57.445Z	        'Using secrets defined in .dev.vars\n' +
+2026-11-12T09:30:57.445Z	        '⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache\n' +
+2026-11-12T09:30:57.445Z	        'Attention: Next.js now collects completely anonymous telemetry regarding usage.\n' +
+2026-11-12T09:30:57.445Z	        "This information is used to shape Next.js' roadmap and prioritize features.\n" +
+2026-11-12T09:30:57.446Z	        "You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:\n" +
+2026-11-12T09:30:57.446Z	        'https://nextjs.org/telemetry\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        '   ▲ Next.js 15.5.25\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        '   Creating an optimized production build ...\n' +
+2026-11-12T09:30:57.446Z	        ' ✓ Compiled successfully in 7.3s\n' +
+2026-11-12T09:30:57.446Z	        '   Skipping linting\n' +
+2026-11-12T09:30:57.446Z	        '   Checking validity of types ...\n' +
+2026-11-12T09:30:57.446Z	        '   Collecting page data ...\n' +
+2026-11-12T09:30:57.446Z	        '   Generating static pages (0/5) ...\n' +
+2026-11-12T09:30:57.446Z	        '   Generating static pages (1/5) \r\n' +
+2026-11-12T09:30:57.446Z	        '   Generating static pages (2/5) \r\n' +
+2026-11-12T09:30:57.446Z	        '   Generating static pages (3/5) \r\n' +
+2026-11-12T09:30:57.446Z	        ' ✓ Generating static pages (5/5)\n' +
+2026-11-12T09:30:57.446Z	        '   Finalizing page optimization ...\n' +
+2026-11-12T09:30:57.446Z	        '   Collecting build traces ...\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        'Route (app)                                 Size  First Load JS\n' +
+2026-11-12T09:30:57.446Z	        '┌ ○ /                                     140 kB         243 kB\n' +
+2026-11-12T09:30:57.446Z	        '├ ○ /_not-found                            126 B         102 kB\n' +
+2026-11-12T09:30:57.446Z	        '└ ƒ /api/tts                               126 B         102 kB\n' +
+2026-11-12T09:30:57.446Z	        '+ First Load JS shared by all             102 kB\n' +
+2026-11-12T09:30:57.446Z	        '  ├ chunks/255-ad2dbd207e2bf0df.js       46.1 kB\n' +
+2026-11-12T09:30:57.446Z	        '  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB\n' +
+2026-11-12T09:30:57.446Z	        '  └ other shared chunks (total)          1.92 kB\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        'ƒ Middleware                             32.4 kB\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        '○  (Static)   prerendered as static content\n' +
+2026-11-12T09:30:57.446Z	        'ƒ  (Dynamic)  server-rendered on demand\n' +
+2026-11-12T09:30:57.446Z	        '\n' +
+2026-11-12T09:30:57.446Z	        '[Build] Syncing artifacts to /opt/buildhome/repo/dist...\n' +
+2026-11-12T09:30:57.446Z	        '[Build] Successfully validated .next/standalone/server.js\n' +
+2026-11-12T09:30:57.446Z	        '[Build] Successfully verified dist/index.html (24623 bytes).\n' +
+2026-11-12T09:30:57.446Z	        '[Build] Build completed successfully.\n',
+2026-11-12T09:30:57.446Z	      exitCode: 1
+2026-11-12T09:30:57.446Z	    }
+2026-11-12T09:30:57.447Z	  }
+2026-11-12T09:30:57.447Z	
+2026-11-12T09:30:57.447Z	
+2026-11-12T09:30:57.447Z	✘ [ERROR] Running custom build `bunx opennextjs-cloudflare build` failed. There are likely more logs from your build command above.
+2026-11-12T09:30:57.447Z	
+2026-11-12T09:30:57.447Z	
+2026-11-12T09:30:57.447Z	
+2026-11-12T09:30:57.447Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-11-12T09:30:57.447Z	
+2026-11-12T09:30:57.459Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-11-12_09-30-11_287.log"
+2026-11-12T09:30:57.555Z	Failed: error occurred while running deploy command
