@@ -1,0 +1,24 @@
+1:"$Sreact.fragment"
+2:I[2715,["177","static/chunks/app/layout-5a01808abf42ecad.js"],"ServiceWorkerRegister"]
+3:I[6782,["177","static/chunks/app/layout-5a01808abf42ecad.js"],"PWAInstallBanner"]
+4:I[9766,[],""]
+5:I[9567,["39","static/chunks/app/error-fe5b64644b693134.js"],"default"]
+6:I[8924,[],""]
+7:I[2619,["345","static/chunks/app/not-found-9fc54f7c09ca347d.js"],""]
+8:I[1959,[],"ClientPageRoot"]
+9:I[2231,["174","static/chunks/174-5330008b9a688d0f.js","974","static/chunks/app/page-06212035d773e8b8.js"],"default"]
+c:I[4431,[],"OutletBoundary"]
+e:I[5278,[],"AsyncMetadataOutlet"]
+10:I[4431,[],"ViewportBoundary"]
+12:I[4431,[],"MetadataBoundary"]
+13:"$Sreact.suspense"
+15:I[7150,[],""]
+:HL["/_next/static/css/01937ba28ae6a81a.css","style"]
+0:{"P":null,"b":"AiCB7aM9bscdKP_V3z8OL","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/01937ba28ae6a81a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","className":"h-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col font-sans","suppressHydrationWarning":true,"children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex min-h-[60vh] flex-col items-center justify-center p-6 text-center","children":[["$","h1",null,{"className":"text-4xl font-black text-slate-900 dark:text-white","children":"404"}],["$","p",null,{"className":"mt-2 text-sm text-slate-600 dark:text-slate-400","children":"找不到請求的頁面"}],["$","$L7",null,{"href":"/","className":"mt-4 rounded-xl bg-indigo-600 px-4 py-2 text-xs font-semibold text-white hover:bg-indigo-500 shadow-xs cursor-pointer","children":"返回首頁"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L8",null,{"Component":"$9","searchParams":{},"params":{},"promises":["$@a","$@b"]}],null,["$","$Lc",null,{"children":["$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L10",null,{"children":"$L11"}],null],["$","$L12",null,{"children":["$","div",null,{"hidden":true,"children":["$","$13",null,{"fallback":null,"children":"$L14"}]}]}]]}],false]],"m":"$undefined","G":["$15",[]],"s":false,"S":true}
+a:{}
+b:"$0:f:0:1:2:children:1:props:children:0:props:params"
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"}],["$","meta","2",{"name":"theme-color","content":"#4f46e5"}]]
+d:null
+16:I[622,[],"IconMark"]
+f:{"metadata":[["$","title","0",{"children":"EPRS English Phonics Matrix"}],["$","meta","1",{"name":"description","content":"Dynamic English Phonics Rules and Syllable Matrix System for MOE 1200, Senior High School CEEC 7000 (Levels 1-7), TOEIC, and GEPT Vocabulary"}],["$","meta","2",{"name":"application-name","content":"EPRS 英語自然發音系統"}],["$","link","3",{"rel":"manifest","href":"/manifest.json","crossOrigin":"$undefined"}],["$","meta","4",{"name":"format-detection","content":"telephone=no"}],["$","meta","5",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","6",{"name":"apple-mobile-web-app-title","content":"EPRS英語"}],["$","meta","7",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","meta","8",{"property":"og:title","content":"EPRS English Phonics Matrix"}],["$","meta","9",{"property":"og:description","content":"Dynamic English Phonics Rules and Syllable Matrix System for MOE 1200, Senior High School CEEC 7000 (Levels 1-7), TOEIC, and GEPT Vocabulary"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"EPRS English Phonics Matrix"}],["$","meta","13",{"name":"twitter:description","content":"Dynamic English Phonics Rules and Syllable Matrix System for MOE 1200, Senior High School CEEC 7000 (Levels 1-7), TOEIC, and GEPT Vocabulary"}],["$","link","14",{"rel":"icon","href":"/icon-192.png","sizes":"192x192","type":"image/png"}],["$","link","15",{"rel":"icon","href":"/icon-512.png","sizes":"512x512","type":"image/png"}],["$","link","16",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L16","17",{}]],"error":null,"digest":"$undefined"}
+14:"$f:metadata"

@@ -58,6 +58,25 @@ if (result.status !== 0) {
   process.exit(result.status || 1);
 }
 
+// 2.5 Run OpenNext build for Cloudflare if CI or Cloudflare environment
+if (isCloudflareOrCI) {
+  console.log('[Build] Running OpenNext Cloudflare build adapter...');
+  const openNextBin = path.join(rootDir, 'node_modules', '.bin', 'opennextjs-cloudflare');
+  const openNextCmd = fs.existsSync(openNextBin) ? openNextBin : 'npx';
+  const openNextArgs = fs.existsSync(openNextBin) ? ['build'] : ['opennextjs-cloudflare', 'build'];
+
+  const openNextResult = spawnSync(openNextCmd, openNextArgs, {
+    cwd: rootDir,
+    stdio: 'inherit',
+    env: buildEnv,
+  });
+
+  if (openNextResult.status !== 0) {
+    console.error(`[Build] OpenNext build failed with exit code ${openNextResult.status}`);
+    process.exit(openNextResult.status || 1);
+  }
+}
+
 // 3. Populate standalone artifacts into .next/standalone and .next/static
 const targetNextDir = path.join(rootDir, '.next');
 const targetStandaloneDir = path.join(targetNextDir, 'standalone');
