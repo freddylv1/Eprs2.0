@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "opennextjs-cloudflare build",
-    "build:local": "node scripts/build.mjs",
+    "build": "node scripts/build.mjs",
+    "build:cloudflare": "opennextjs-cloudflare build",
     "lint": "eslint .",
     "clean": "next clean",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
