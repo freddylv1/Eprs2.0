@@ -10,18 +10,14 @@ const rootDir = path.resolve(__dirname, '..');
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 const isCloudflareOrCI = Boolean(process.env.CF_PAGES || process.env.OPENNEXT || process.env.CF_BUILD || process.env.CI);
 const isStaticExport = isGithubActions || process.env.STATIC_EXPORT === 'true';
-const useStandardBuildDir = isStaticExport || isCloudflareOrCI;
 
 console.log(`[Build] Starting production build (static export: ${isStaticExport}, cloudflare/ci: ${isCloudflareOrCI})...`);
 
 // 1. Clean previous build outputs
 const outDir = path.join(rootDir, 'out');
 const distDir = path.join(rootDir, 'dist');
-const buildDir = path.join(rootDir, useStandardBuildDir ? '.next' : '.next_build');
+const buildDir = path.join(rootDir, '.next');
 
-if (fs.existsSync(buildDir) && buildDir !== path.join(rootDir, '.next')) {
-  fs.rmSync(buildDir, { recursive: true, force: true });
-}
 if (fs.existsSync(outDir)) {
   fs.rmSync(outDir, { recursive: true, force: true });
 }
@@ -51,11 +47,6 @@ const buildEnv = {
   NODE_ENV: 'production',
 };
 
-// Only override dist dir if NOT doing static export or cloudflare/ci build
-if (!useStandardBuildDir) {
-  buildEnv.NEXT_DIST_DIR = '.next_build';
-}
-
 const result = spawnSync(buildCmd, buildArgs, {
   cwd: rootDir,
   stdio: 'inherit',
@@ -64,9 +55,6 @@ const result = spawnSync(buildCmd, buildArgs, {
 
 if (result.status !== 0) {
   console.error(`[Build] Next.js build failed with exit code ${result.status}`);
-  if (fs.existsSync(buildDir) && !isStaticExport) {
-    fs.rmSync(buildDir, { recursive: true, force: true });
-  }
   process.exit(result.status || 1);
 }
 
@@ -86,7 +74,6 @@ if (fs.existsSync(builtStandalone) && builtStandalone !== targetStandaloneDir) {
   fs.mkdirSync(targetNextDir, { recursive: true });
   fs.cpSync(builtStandalone, targetStandaloneDir, { recursive: true });
 
-  // Next.js standalone requires static and public to be in .next/standalone
   if (fs.existsSync(builtStatic)) {
     const standaloneStatic = path.join(targetStandaloneDir, '.next', 'static');
     fs.mkdirSync(path.dirname(standaloneStatic), { recursive: true });
@@ -117,17 +104,14 @@ if (!sourceDir) {
 
 console.log(`[Build] Syncing artifacts to ${distDir}...`);
 
-// Ensure dist directory exists
 if (fs.existsSync(distDir)) {
   fs.rmSync(distDir, { recursive: true, force: true });
 }
 fs.mkdirSync(distDir, { recursive: true });
 
-// Copy files to dist
 if (fs.existsSync(outDir)) {
   fs.cpSync(outDir, distDir, { recursive: true });
 } else {
-  // If standalone, copy static assets and HTML from server/app into dist
   if (fs.existsSync(builtStatic)) {
     const distStatic = path.join(distDir, '_next', 'static');
     fs.mkdirSync(path.dirname(distStatic), { recursive: true });
@@ -145,7 +129,6 @@ if (fs.existsSync(outDir)) {
   }
 }
 
-// If public folder exists, ensure all public assets are copied into both out and dist
 const publicDir = path.join(rootDir, 'public');
 if (fs.existsSync(publicDir)) {
   fs.cpSync(publicDir, distDir, { recursive: true });
@@ -154,13 +137,11 @@ if (fs.existsSync(publicDir)) {
   }
 }
 
-// Create .nojekyll in both dist and out to prevent static hosts (like GitHub Pages) from ignoring _next
 fs.writeFileSync(path.join(distDir, '.nojekyll'), '');
 if (fs.existsSync(outDir)) {
   fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
 }
 
-// 5. Validate output artifacts
 if (fs.existsSync(targetStandaloneDir)) {
   const standaloneServer = path.join(targetStandaloneDir, 'server.js');
   if (!fs.existsSync(standaloneServer)) {
@@ -173,18 +154,6 @@ if (fs.existsSync(targetStandaloneDir)) {
 const distIndex = path.join(distDir, 'index.html');
 if (fs.existsSync(distIndex)) {
   console.log(`[Build] Successfully verified dist/index.html (${fs.statSync(distIndex).size} bytes).`);
-}
-
-if (fs.existsSync(outDir)) {
-  const outIndex = path.join(outDir, 'index.html');
-  if (fs.existsSync(outIndex)) {
-    console.log(`[Build] Successfully verified out/index.html (${fs.statSync(outIndex).size} bytes).`);
-  }
-}
-
-// Clean up temporary build directory only when not static export
-if (fs.existsSync(buildDir) && !isStaticExport) {
-  fs.rmSync(buildDir, { recursive: true, force: true });
 }
 
 console.log('[Build] Build completed successfully.');
