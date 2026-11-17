@@ -17,12 +17,19 @@ console.log(`[Build] Starting production build (static export: ${isStaticExport}
 const outDir = path.join(rootDir, 'out');
 const distDir = path.join(rootDir, 'dist');
 const buildDir = path.join(rootDir, '.next');
+const nextBuildDir = path.join(rootDir, '.next_build');
 
 if (fs.existsSync(outDir)) {
   fs.rmSync(outDir, { recursive: true, force: true });
 }
 if (fs.existsSync(distDir)) {
   fs.rmSync(distDir, { recursive: true, force: true });
+}
+if (fs.existsSync(buildDir)) {
+  fs.rmSync(buildDir, { recursive: true, force: true });
+}
+if (fs.existsSync(nextBuildDir)) {
+  fs.rmSync(nextBuildDir, { recursive: true, force: true });
 }
 
 // 2. Locate Next.js CLI binary
