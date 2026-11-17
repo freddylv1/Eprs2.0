@@ -8,9 +8,8 @@ const repoName = 'Eprs2.0';
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || (isGithubActions ? `/${repoName}` : '');
 
 const nextConfig: NextConfig = {
-  // During static export, CI, or Cloudflare / OpenNext builds, do NOT use a custom distDir like '.next_build'
-  // because OpenNext and Next.js workers require standard '.next' to locate manifest files (e.g. middleware-manifest.json).
-  ...(useStandardDistDir ? {} : { distDir: process.env.NODE_ENV === 'production' ? '.next_build' : '.next' }),
+  // Always use standard '.next' directory for OpenNext and Cloudflare compatibility
+  distDir: '.next',
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
