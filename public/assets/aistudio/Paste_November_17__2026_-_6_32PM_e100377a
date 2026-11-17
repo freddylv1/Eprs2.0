@@ -1,0 +1,1823 @@
+2026-11-17T10:07:12.704Z	Initializing build environment...
+2026-11-17T10:07:35.768Z	Success: Finished initializing build environment
+2026-11-17T10:07:37.262Z	Cloning repository...
+2026-11-17T10:07:41.279Z	Restoring from dependencies cache
+2026-11-17T10:07:41.281Z	Restoring from build output cache
+2026-11-17T10:07:41.285Z	Detected the following tools from environment: npm@10.9.2, nodejs@24.22.1
+2026-11-17T10:07:41.671Z	Installing project dependencies: npm clean-install --progress=false
+2026-11-17T10:08:51.988Z	
+2026-11-17T10:08:51.988Z	added 1197 packages, and audited 1204 packages in 1m
+2026-11-17T10:08:51.988Z	
+2026-11-17T10:08:51.989Z	250 packages are looking for funding
+2026-11-17T10:08:51.989Z	  run `npm fund` for details
+2026-11-17T10:08:52.180Z	
+2026-11-17T10:08:52.181Z	24 vulnerabilities (23 moderate, 1 high)
+2026-11-17T10:08:52.181Z	
+2026-11-17T10:08:52.181Z	To address issues that do not require attention, run:
+2026-11-17T10:08:52.181Z	  npm audit fix
+2026-11-17T10:08:52.181Z	
+2026-11-17T10:08:52.181Z	To address all issues (including breaking changes), run:
+2026-11-17T10:08:52.182Z	  npm audit fix --force
+2026-11-17T10:08:52.183Z	
+2026-11-17T10:08:52.183Z	Run `npm audit` for details.
+2026-11-17T10:08:52.622Z	Executing user build command: bun run build
+2026-11-17T10:08:52.735Z	$ node scripts/build.mjs
+2026-11-17T10:08:52.821Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:08:52.830Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:08:53.416Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:08:53.650Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:08:53.650Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:08:53.650Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:08:53.650Z	https://nextjs.org/telemetry
+2026-11-17T10:08:53.650Z	
+2026-11-17T10:08:53.736Z	   ▲ Next.js 15.5.29
+2026-11-17T10:08:53.736Z	
+2026-11-17T10:08:53.764Z	   Creating an optimized production build ...
+2026-11-17T10:08:59.972Z	 ✓ Compiled successfully in 6.1s
+2026-11-17T10:08:59.973Z	   Skipping linting
+2026-11-17T10:08:59.973Z	   Checking validity of types ...
+2026-11-17T10:09:04.594Z	   Collecting page data ...
+2026-11-17T10:09:05.839Z	   Generating static pages (0/5) ...
+2026-11-17T10:09:06.287Z	   Generating static pages (1/5) 
+2026-11-17T10:09:06.447Z	   Generating static pages (2/5) 
+2026-11-17T10:09:06.447Z	   Generating static pages (3/5) 
+2026-11-17T10:09:06.447Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:09:07.243Z	   Finalizing page optimization ...
+2026-11-17T10:09:07.244Z	   Collecting build traces ...
+2026-11-17T10:09:20.769Z	
+2026-11-17T10:09:20.775Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:09:20.775Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:09:20.775Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:09:20.775Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:09:20.775Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:09:20.775Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:09:20.775Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:09:20.775Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:09:20.775Z	
+2026-11-17T10:09:20.775Z	
+2026-11-17T10:09:20.775Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:09:20.775Z	
+2026-11-17T10:09:20.775Z	○  (Static)   prerendered as static content
+2026-11-17T10:09:20.775Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:09:20.775Z	
+2026-11-17T10:09:20.854Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:09:22.138Z	
+2026-11-17T10:09:22.138Z	┌─────────────────────────────┐
+2026-11-17T10:09:22.138Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:09:22.138Z	└─────────────────────────────┘
+2026-11-17T10:09:22.138Z	
+2026-11-17T10:09:22.218Z	App directory: /opt/buildhome/repo
+2026-11-17T10:09:22.218Z	Next.js version : 15.5.29
+2026-11-17T10:09:22.219Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:09:22.219Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:09:22.219Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:09:22.220Z	
+2026-11-17T10:09:22.220Z	┌─────────────────────────────────┐
+2026-11-17T10:09:22.220Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:09:22.220Z	└─────────────────────────────────┘
+2026-11-17T10:09:22.220Z	
+2026-11-17T10:09:22.344Z	
+2026-11-17T10:09:22.344Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:09:22.344Z	> node scripts/build.mjs
+2026-11-17T10:09:22.344Z	
+2026-11-17T10:09:22.371Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:09:22.464Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:09:23.069Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:09:23.263Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:09:23.263Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:09:23.264Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:09:23.264Z	https://nextjs.org/telemetry
+2026-11-17T10:09:23.264Z	
+2026-11-17T10:09:23.329Z	   ▲ Next.js 15.5.29
+2026-11-17T10:09:23.329Z	
+2026-11-17T10:09:23.356Z	   Creating an optimized production build ...
+2026-11-17T10:09:29.539Z	 ✓ Compiled successfully in 6.1s
+2026-11-17T10:09:29.542Z	   Skipping linting
+2026-11-17T10:09:29.542Z	   Checking validity of types ...
+2026-11-17T10:09:33.967Z	   Collecting page data ...
+2026-11-17T10:09:35.226Z	   Generating static pages (0/5) ...
+2026-11-17T10:09:35.632Z	   Generating static pages (1/5) 
+2026-11-17T10:09:35.744Z	   Generating static pages (2/5) 
+2026-11-17T10:09:35.744Z	   Generating static pages (3/5) 
+2026-11-17T10:09:35.744Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:09:36.337Z	   Finalizing page optimization ...
+2026-11-17T10:09:36.337Z	   Collecting build traces ...
+2026-11-17T10:09:48.484Z	
+2026-11-17T10:09:48.490Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:09:48.490Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:09:48.490Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:09:48.490Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:09:48.490Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:09:48.490Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:09:48.490Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:09:48.490Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:09:48.490Z	
+2026-11-17T10:09:48.490Z	
+2026-11-17T10:09:48.490Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:09:48.490Z	
+2026-11-17T10:09:48.490Z	○  (Static)   prerendered as static content
+2026-11-17T10:09:48.491Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:09:48.491Z	
+2026-11-17T10:09:48.576Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:09:49.764Z	
+2026-11-17T10:09:49.764Z	┌─────────────────────────────┐
+2026-11-17T10:09:49.765Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:09:49.765Z	└─────────────────────────────┘
+2026-11-17T10:09:49.765Z	
+2026-11-17T10:09:49.843Z	App directory: /opt/buildhome/repo
+2026-11-17T10:09:49.843Z	Next.js version : 15.5.29
+2026-11-17T10:09:49.844Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:09:49.844Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:09:49.845Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:09:49.846Z	
+2026-11-17T10:09:49.846Z	┌─────────────────────────────────┐
+2026-11-17T10:09:49.846Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:09:49.846Z	└─────────────────────────────────┘
+2026-11-17T10:09:49.846Z	
+2026-11-17T10:09:49.967Z	
+2026-11-17T10:09:49.968Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:09:49.968Z	> node scripts/build.mjs
+2026-11-17T10:09:49.968Z	
+2026-11-17T10:09:49.996Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:09:50.086Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:09:50.659Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:09:50.701Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:09:50.701Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:09:50.701Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:09:50.701Z	https://nextjs.org/telemetry
+2026-11-17T10:09:50.702Z	
+2026-11-17T10:09:50.770Z	   ▲ Next.js 15.5.29
+2026-11-17T10:09:50.770Z	
+2026-11-17T10:09:50.796Z	   Creating an optimized production build ...
+2026-11-17T10:09:56.797Z	 ✓ Compiled successfully in 5.9s
+2026-11-17T10:09:56.798Z	   Skipping linting
+2026-11-17T10:09:56.799Z	   Checking validity of types ...
+2026-11-17T10:10:01.179Z	   Collecting page data ...
+2026-11-17T10:10:02.364Z	   Generating static pages (0/5) ...
+2026-11-17T10:10:02.765Z	   Generating static pages (1/5) 
+2026-11-17T10:10:03.018Z	   Generating static pages (2/5) 
+2026-11-17T10:10:03.018Z	   Generating static pages (3/5) 
+2026-11-17T10:10:03.018Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:10:03.564Z	   Finalizing page optimization ...
+2026-11-17T10:10:03.569Z	   Collecting build traces ...
+2026-11-17T10:10:15.382Z	
+2026-11-17T10:10:15.389Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:10:15.389Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:10:15.389Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:10:15.389Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:10:15.389Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:10:15.389Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:10:15.389Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:10:15.389Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:10:15.389Z	
+2026-11-17T10:10:15.389Z	
+2026-11-17T10:10:15.389Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:10:15.389Z	
+2026-11-17T10:10:15.389Z	○  (Static)   prerendered as static content
+2026-11-17T10:10:15.389Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:10:15.389Z	
+2026-11-17T10:10:15.463Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:10:16.674Z	
+2026-11-17T10:10:16.674Z	┌─────────────────────────────┐
+2026-11-17T10:10:16.674Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:10:16.674Z	└─────────────────────────────┘
+2026-11-17T10:10:16.674Z	
+2026-11-17T10:10:16.752Z	App directory: /opt/buildhome/repo
+2026-11-17T10:10:16.752Z	Next.js version : 15.5.29
+2026-11-17T10:10:16.753Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:10:16.753Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:10:16.753Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:10:16.755Z	
+2026-11-17T10:10:16.755Z	┌─────────────────────────────────┐
+2026-11-17T10:10:16.755Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:10:16.755Z	└─────────────────────────────────┘
+2026-11-17T10:10:16.755Z	
+2026-11-17T10:10:16.876Z	
+2026-11-17T10:10:16.877Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:10:16.877Z	> node scripts/build.mjs
+2026-11-17T10:10:16.877Z	
+2026-11-17T10:10:16.904Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:10:16.995Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:10:17.583Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:10:17.618Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:10:17.618Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:10:17.618Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:10:17.618Z	https://nextjs.org/telemetry
+2026-11-17T10:10:17.618Z	
+2026-11-17T10:10:17.682Z	   ▲ Next.js 15.5.29
+2026-11-17T10:10:17.682Z	
+2026-11-17T10:10:17.714Z	   Creating an optimized production build ...
+2026-11-17T10:10:23.922Z	 ✓ Compiled successfully in 6.1s
+2026-11-17T10:10:23.925Z	   Skipping linting
+2026-11-17T10:10:23.925Z	   Checking validity of types ...
+2026-11-17T10:10:28.392Z	   Collecting page data ...
+2026-11-17T10:10:29.507Z	   Generating static pages (0/5) ...
+2026-11-17T10:10:29.914Z	   Generating static pages (1/5) 
+2026-11-17T10:10:30.148Z	   Generating static pages (2/5) 
+2026-11-17T10:10:30.148Z	   Generating static pages (3/5) 
+2026-11-17T10:10:30.148Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:10:30.796Z	   Finalizing page optimization ...
+2026-11-17T10:10:30.796Z	   Collecting build traces ...
+2026-11-17T10:10:42.364Z	
+2026-11-17T10:10:42.370Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:10:42.370Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:10:42.370Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:10:42.370Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:10:42.370Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:10:42.370Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:10:42.370Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:10:42.370Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:10:42.370Z	
+2026-11-17T10:10:42.370Z	
+2026-11-17T10:10:42.370Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:10:42.371Z	
+2026-11-17T10:10:42.371Z	○  (Static)   prerendered as static content
+2026-11-17T10:10:42.371Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:10:42.371Z	
+2026-11-17T10:10:42.448Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:10:43.603Z	
+2026-11-17T10:10:43.604Z	┌─────────────────────────────┐
+2026-11-17T10:10:43.604Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:10:43.604Z	└─────────────────────────────┘
+2026-11-17T10:10:43.604Z	
+2026-11-17T10:10:43.676Z	App directory: /opt/buildhome/repo
+2026-11-17T10:10:43.676Z	Next.js version : 15.5.29
+2026-11-17T10:10:43.677Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:10:43.677Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:10:43.677Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:10:43.678Z	
+2026-11-17T10:10:43.678Z	┌─────────────────────────────────┐
+2026-11-17T10:10:43.678Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:10:43.678Z	└─────────────────────────────────┘
+2026-11-17T10:10:43.678Z	
+2026-11-17T10:10:43.789Z	
+2026-11-17T10:10:43.789Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:10:43.789Z	> node scripts/build.mjs
+2026-11-17T10:10:43.789Z	
+2026-11-17T10:10:43.819Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:10:43.903Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:10:44.473Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:10:44.509Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:10:44.509Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:10:44.509Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:10:44.509Z	https://nextjs.org/telemetry
+2026-11-17T10:10:44.509Z	
+2026-11-17T10:10:44.573Z	   ▲ Next.js 15.5.29
+2026-11-17T10:10:44.573Z	
+2026-11-17T10:10:44.598Z	   Creating an optimized production build ...
+2026-11-17T10:10:50.450Z	 ✓ Compiled successfully in 5.8s
+2026-11-17T10:10:50.453Z	   Skipping linting
+2026-11-17T10:10:50.453Z	   Checking validity of types ...
+2026-11-17T10:10:54.979Z	   Collecting page data ...
+2026-11-17T10:10:56.066Z	   Generating static pages (0/5) ...
+2026-11-17T10:10:56.479Z	   Generating static pages (1/5) 
+2026-11-17T10:10:56.709Z	   Generating static pages (2/5) 
+2026-11-17T10:10:56.709Z	   Generating static pages (3/5) 
+2026-11-17T10:10:56.710Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:10:57.244Z	   Finalizing page optimization ...
+2026-11-17T10:10:57.244Z	   Collecting build traces ...
+2026-11-17T10:11:09.583Z	
+2026-11-17T10:11:09.589Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:11:09.589Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:11:09.589Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:11:09.590Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:11:09.590Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:11:09.590Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:11:09.590Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:11:09.590Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:11:09.590Z	
+2026-11-17T10:11:09.590Z	
+2026-11-17T10:11:09.590Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:11:09.590Z	
+2026-11-17T10:11:09.590Z	○  (Static)   prerendered as static content
+2026-11-17T10:11:09.590Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:11:09.590Z	
+2026-11-17T10:11:09.672Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:11:10.886Z	
+2026-11-17T10:11:10.886Z	┌─────────────────────────────┐
+2026-11-17T10:11:10.886Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:11:10.886Z	└─────────────────────────────┘
+2026-11-17T10:11:10.886Z	
+2026-11-17T10:11:10.969Z	App directory: /opt/buildhome/repo
+2026-11-17T10:11:10.973Z	Next.js version : 15.5.29
+2026-11-17T10:11:10.973Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:11:10.973Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:11:10.973Z	
+2026-11-17T10:11:10.973Z	┌─────────────────────────────────┐
+2026-11-17T10:11:10.973Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:11:10.973Z	└─────────────────────────────────┘
+2026-11-17T10:11:10.973Z	
+2026-11-17T10:11:10.973Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:11:11.113Z	
+2026-11-17T10:11:11.113Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:11:11.113Z	> node scripts/build.mjs
+2026-11-17T10:11:11.113Z	
+2026-11-17T10:11:11.143Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:11:11.230Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:11:11.816Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:11:11.855Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:11:11.855Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:11:11.855Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:11:11.855Z	https://nextjs.org/telemetry
+2026-11-17T10:11:11.855Z	
+2026-11-17T10:11:11.917Z	   ▲ Next.js 15.5.29
+2026-11-17T10:11:11.917Z	
+2026-11-17T10:11:11.944Z	   Creating an optimized production build ...
+2026-11-17T10:11:17.769Z	 ✓ Compiled successfully in 5.7s
+2026-11-17T10:11:17.772Z	   Skipping linting
+2026-11-17T10:11:17.772Z	   Checking validity of types ...
+2026-11-17T10:11:22.234Z	   Collecting page data ...
+2026-11-17T10:11:23.290Z	   Generating static pages (0/5) ...
+2026-11-17T10:11:23.697Z	   Generating static pages (1/5) 
+2026-11-17T10:11:23.937Z	   Generating static pages (2/5) 
+2026-11-17T10:11:23.937Z	   Generating static pages (3/5) 
+2026-11-17T10:11:23.937Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:11:24.595Z	   Finalizing page optimization ...
+2026-11-17T10:11:24.595Z	   Collecting build traces ...
+2026-11-17T10:11:37.032Z	
+2026-11-17T10:11:37.036Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:11:37.036Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:11:37.036Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:11:37.036Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:11:37.036Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:11:37.036Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:11:37.036Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:11:37.036Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:11:37.036Z	
+2026-11-17T10:11:37.036Z	
+2026-11-17T10:11:37.036Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:11:37.037Z	
+2026-11-17T10:11:37.037Z	○  (Static)   prerendered as static content
+2026-11-17T10:11:37.037Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:11:37.038Z	
+2026-11-17T10:11:37.118Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:11:38.301Z	
+2026-11-17T10:11:38.301Z	┌─────────────────────────────┐
+2026-11-17T10:11:38.301Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:11:38.301Z	└─────────────────────────────┘
+2026-11-17T10:11:38.301Z	
+2026-11-17T10:11:38.378Z	App directory: /opt/buildhome/repo
+2026-11-17T10:11:38.378Z	Next.js version : 15.5.29
+2026-11-17T10:11:38.379Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:11:38.379Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:11:38.379Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:11:38.380Z	
+2026-11-17T10:11:38.381Z	┌─────────────────────────────────┐
+2026-11-17T10:11:38.381Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:11:38.381Z	└─────────────────────────────────┘
+2026-11-17T10:11:38.381Z	
+2026-11-17T10:11:38.502Z	
+2026-11-17T10:11:38.502Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:11:38.502Z	> node scripts/build.mjs
+2026-11-17T10:11:38.502Z	
+2026-11-17T10:11:38.530Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:11:38.616Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:11:39.177Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:11:39.210Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:11:39.210Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:11:39.210Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:11:39.210Z	https://nextjs.org/telemetry
+2026-11-17T10:11:39.210Z	
+2026-11-17T10:11:39.279Z	   ▲ Next.js 15.5.29
+2026-11-17T10:11:39.279Z	
+2026-11-17T10:11:39.303Z	   Creating an optimized production build ...
+2026-11-17T10:11:45.334Z	 ✓ Compiled successfully in 6.0s
+2026-11-17T10:11:45.336Z	   Skipping linting
+2026-11-17T10:11:45.340Z	   Checking validity of types ...
+2026-11-17T10:11:50.369Z	   Collecting page data ...
+2026-11-17T10:11:51.760Z	   Generating static pages (0/5) ...
+2026-11-17T10:11:52.210Z	   Generating static pages (1/5) 
+2026-11-17T10:11:52.527Z	   Generating static pages (2/5) 
+2026-11-17T10:11:52.529Z	   Generating static pages (3/5) 
+2026-11-17T10:11:52.529Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:11:53.149Z	   Finalizing page optimization ...
+2026-11-17T10:11:53.149Z	   Collecting build traces ...
+2026-11-17T10:12:07.855Z	
+2026-11-17T10:12:07.861Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:12:07.862Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:12:07.862Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:12:07.862Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:12:07.862Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:12:07.862Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:12:07.862Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:12:07.862Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:12:07.862Z	
+2026-11-17T10:12:07.862Z	
+2026-11-17T10:12:07.862Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:12:07.862Z	
+2026-11-17T10:12:07.862Z	○  (Static)   prerendered as static content
+2026-11-17T10:12:07.862Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:12:07.862Z	
+2026-11-17T10:12:07.941Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:12:09.343Z	
+2026-11-17T10:12:09.343Z	┌─────────────────────────────┐
+2026-11-17T10:12:09.343Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:12:09.343Z	└─────────────────────────────┘
+2026-11-17T10:12:09.343Z	
+2026-11-17T10:12:09.431Z	App directory: /opt/buildhome/repo
+2026-11-17T10:12:09.431Z	Next.js version : 15.5.29
+2026-11-17T10:12:09.432Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:12:09.432Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:12:09.432Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:12:09.433Z	
+2026-11-17T10:12:09.434Z	┌─────────────────────────────────┐
+2026-11-17T10:12:09.434Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:12:09.434Z	└─────────────────────────────────┘
+2026-11-17T10:12:09.434Z	
+2026-11-17T10:12:09.567Z	
+2026-11-17T10:12:09.567Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:12:09.567Z	> node scripts/build.mjs
+2026-11-17T10:12:09.567Z	
+2026-11-17T10:12:09.599Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:12:09.695Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:12:10.306Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:12:10.344Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:12:10.344Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:12:10.344Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:12:10.344Z	https://nextjs.org/telemetry
+2026-11-17T10:12:10.344Z	
+2026-11-17T10:12:10.407Z	   ▲ Next.js 15.5.29
+2026-11-17T10:12:10.407Z	
+2026-11-17T10:12:10.439Z	   Creating an optimized production build ...
+2026-11-17T10:12:17.420Z	 ✓ Compiled successfully in 6.9s
+2026-11-17T10:12:17.421Z	   Skipping linting
+2026-11-17T10:12:17.422Z	   Checking validity of types ...
+2026-11-17T10:12:22.485Z	   Collecting page data ...
+2026-11-17T10:12:23.788Z	   Generating static pages (0/5) ...
+2026-11-17T10:12:24.233Z	   Generating static pages (1/5) 
+2026-11-17T10:12:24.381Z	   Generating static pages (2/5) 
+2026-11-17T10:12:24.382Z	   Generating static pages (3/5) 
+2026-11-17T10:12:24.382Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:12:25.227Z	   Finalizing page optimization ...
+2026-11-17T10:12:25.228Z	   Collecting build traces ...
+2026-11-17T10:12:39.099Z	
+2026-11-17T10:12:39.105Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:12:39.105Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:12:39.105Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:12:39.105Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:12:39.105Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:12:39.105Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:12:39.105Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:12:39.105Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:12:39.105Z	
+2026-11-17T10:12:39.105Z	
+2026-11-17T10:12:39.105Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:12:39.105Z	
+2026-11-17T10:12:39.105Z	○  (Static)   prerendered as static content
+2026-11-17T10:12:39.106Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:12:39.106Z	
+2026-11-17T10:12:39.183Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:12:40.450Z	
+2026-11-17T10:12:40.450Z	┌─────────────────────────────┐
+2026-11-17T10:12:40.450Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:12:40.450Z	└─────────────────────────────┘
+2026-11-17T10:12:40.450Z	
+2026-11-17T10:12:40.535Z	App directory: /opt/buildhome/repo
+2026-11-17T10:12:40.536Z	Next.js version : 15.5.29
+2026-11-17T10:12:40.537Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:12:40.537Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:12:40.538Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:12:40.538Z	
+2026-11-17T10:12:40.538Z	┌─────────────────────────────────┐
+2026-11-17T10:12:40.538Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:12:40.538Z	└─────────────────────────────────┘
+2026-11-17T10:12:40.539Z	
+2026-11-17T10:12:40.668Z	
+2026-11-17T10:12:40.668Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:12:40.668Z	> node scripts/build.mjs
+2026-11-17T10:12:40.668Z	
+2026-11-17T10:12:40.701Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:12:40.791Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:12:41.445Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:12:41.487Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:12:41.487Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:12:41.488Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:12:41.488Z	https://nextjs.org/telemetry
+2026-11-17T10:12:41.488Z	
+2026-11-17T10:12:41.550Z	   ▲ Next.js 15.5.29
+2026-11-17T10:12:41.550Z	
+2026-11-17T10:12:41.581Z	   Creating an optimized production build ...
+2026-11-17T10:12:48.377Z	 ✓ Compiled successfully in 6.7s
+2026-11-17T10:12:48.379Z	   Skipping linting
+2026-11-17T10:12:48.379Z	   Checking validity of types ...
+2026-11-17T10:12:53.598Z	   Collecting page data ...
+2026-11-17T10:12:54.850Z	   Generating static pages (0/5) ...
+2026-11-17T10:12:55.235Z	   Generating static pages (1/5) 
+2026-11-17T10:12:55.329Z	   Generating static pages (2/5) 
+2026-11-17T10:12:55.329Z	   Generating static pages (3/5) 
+2026-11-17T10:12:55.329Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:12:56.079Z	   Finalizing page optimization ...
+2026-11-17T10:12:56.080Z	   Collecting build traces ...
+2026-11-17T10:13:09.382Z	
+2026-11-17T10:13:09.388Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:13:09.389Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:13:09.389Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:13:09.389Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:13:09.389Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:13:09.389Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:13:09.389Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:13:09.389Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:13:09.389Z	
+2026-11-17T10:13:09.389Z	
+2026-11-17T10:13:09.389Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:13:09.389Z	
+2026-11-17T10:13:09.389Z	○  (Static)   prerendered as static content
+2026-11-17T10:13:09.390Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:13:09.390Z	
+2026-11-17T10:13:09.481Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:13:10.831Z	
+2026-11-17T10:13:10.831Z	┌─────────────────────────────┐
+2026-11-17T10:13:10.831Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:13:10.831Z	└─────────────────────────────┘
+2026-11-17T10:13:10.831Z	
+2026-11-17T10:13:10.917Z	App directory: /opt/buildhome/repo
+2026-11-17T10:13:10.917Z	Next.js version : 15.5.29
+2026-11-17T10:13:10.918Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:13:10.918Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:13:10.918Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:13:10.919Z	
+2026-11-17T10:13:10.919Z	┌─────────────────────────────────┐
+2026-11-17T10:13:10.919Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:13:10.919Z	└─────────────────────────────────┘
+2026-11-17T10:13:10.919Z	
+2026-11-17T10:13:11.065Z	
+2026-11-17T10:13:11.065Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:13:11.066Z	> node scripts/build.mjs
+2026-11-17T10:13:11.066Z	
+2026-11-17T10:13:11.098Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:13:11.189Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:13:11.842Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:13:11.888Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:13:11.888Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:13:11.888Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:13:11.888Z	https://nextjs.org/telemetry
+2026-11-17T10:13:11.888Z	
+2026-11-17T10:13:11.958Z	   ▲ Next.js 15.5.29
+2026-11-17T10:13:11.958Z	
+2026-11-17T10:13:11.986Z	   Creating an optimized production build ...
+2026-11-17T10:13:18.861Z	 ✓ Compiled successfully in 6.8s
+2026-11-17T10:13:18.863Z	   Skipping linting
+2026-11-17T10:13:18.863Z	   Checking validity of types ...
+2026-11-17T10:13:24.246Z	   Collecting page data ...
+2026-11-17T10:13:25.388Z	   Generating static pages (0/5) ...
+2026-11-17T10:13:25.880Z	   Generating static pages (1/5) 
+2026-11-17T10:13:26.105Z	   Generating static pages (2/5) 
+2026-11-17T10:13:26.105Z	   Generating static pages (3/5) 
+2026-11-17T10:13:26.105Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:13:26.767Z	   Finalizing page optimization ...
+2026-11-17T10:13:26.767Z	   Collecting build traces ...
+2026-11-17T10:13:40.900Z	
+2026-11-17T10:13:40.907Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:13:40.907Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:13:40.908Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:13:40.908Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:13:40.908Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:13:40.908Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:13:40.908Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:13:40.908Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:13:40.908Z	
+2026-11-17T10:13:40.909Z	
+2026-11-17T10:13:40.909Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:13:40.911Z	
+2026-11-17T10:13:40.911Z	○  (Static)   prerendered as static content
+2026-11-17T10:13:40.911Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:13:40.911Z	
+2026-11-17T10:13:40.989Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:13:42.374Z	
+2026-11-17T10:13:42.375Z	┌─────────────────────────────┐
+2026-11-17T10:13:42.375Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:13:42.375Z	└─────────────────────────────┘
+2026-11-17T10:13:42.375Z	
+2026-11-17T10:13:42.461Z	App directory: /opt/buildhome/repo
+2026-11-17T10:13:42.462Z	Next.js version : 15.5.29
+2026-11-17T10:13:42.463Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:13:42.463Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:13:42.463Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:13:42.464Z	
+2026-11-17T10:13:42.464Z	┌─────────────────────────────────┐
+2026-11-17T10:13:42.464Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:13:42.464Z	└─────────────────────────────────┘
+2026-11-17T10:13:42.464Z	
+2026-11-17T10:13:42.600Z	
+2026-11-17T10:13:42.600Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:13:42.600Z	> node scripts/build.mjs
+2026-11-17T10:13:42.600Z	
+2026-11-17T10:13:42.632Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:13:42.724Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:13:43.370Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:13:43.411Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:13:43.411Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:13:43.411Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:13:43.411Z	https://nextjs.org/telemetry
+2026-11-17T10:13:43.411Z	
+2026-11-17T10:13:43.488Z	   ▲ Next.js 15.5.29
+2026-11-17T10:13:43.488Z	
+2026-11-17T10:13:43.522Z	   Creating an optimized production build ...
+2026-11-17T10:13:50.341Z	 ✓ Compiled successfully in 6.7s
+2026-11-17T10:13:50.343Z	   Skipping linting
+2026-11-17T10:13:50.344Z	   Checking validity of types ...
+2026-11-17T10:13:55.586Z	   Collecting page data ...
+2026-11-17T10:13:56.736Z	   Generating static pages (0/5) ...
+2026-11-17T10:13:57.179Z	   Generating static pages (1/5) 
+2026-11-17T10:13:57.293Z	   Generating static pages (2/5) 
+2026-11-17T10:13:57.294Z	   Generating static pages (3/5) 
+2026-11-17T10:13:57.294Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:13:58.037Z	   Finalizing page optimization ...
+2026-11-17T10:13:58.037Z	   Collecting build traces ...
+2026-11-17T10:14:11.870Z	
+2026-11-17T10:14:11.878Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:14:11.878Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:14:11.878Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:14:11.878Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:14:11.878Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:14:11.878Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:14:11.878Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:14:11.878Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:14:11.878Z	
+2026-11-17T10:14:11.878Z	
+2026-11-17T10:14:11.878Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:14:11.878Z	
+2026-11-17T10:14:11.879Z	○  (Static)   prerendered as static content
+2026-11-17T10:14:11.879Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:14:11.879Z	
+2026-11-17T10:14:11.959Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:14:13.364Z	
+2026-11-17T10:14:13.364Z	┌─────────────────────────────┐
+2026-11-17T10:14:13.364Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:14:13.364Z	└─────────────────────────────┘
+2026-11-17T10:14:13.364Z	
+2026-11-17T10:14:13.457Z	App directory: /opt/buildhome/repo
+2026-11-17T10:14:13.457Z	Next.js version : 15.5.29
+2026-11-17T10:14:13.458Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:14:13.458Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:14:13.458Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:14:13.459Z	
+2026-11-17T10:14:13.459Z	┌─────────────────────────────────┐
+2026-11-17T10:14:13.459Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:14:13.459Z	└─────────────────────────────────┘
+2026-11-17T10:14:13.460Z	
+2026-11-17T10:14:13.624Z	
+2026-11-17T10:14:13.624Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:14:13.624Z	> node scripts/build.mjs
+2026-11-17T10:14:13.624Z	
+2026-11-17T10:14:13.657Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:14:13.754Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:14:14.445Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:14:14.491Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:14:14.491Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:14:14.493Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:14:14.493Z	https://nextjs.org/telemetry
+2026-11-17T10:14:14.493Z	
+2026-11-17T10:14:14.565Z	   ▲ Next.js 15.5.29
+2026-11-17T10:14:14.565Z	
+2026-11-17T10:14:14.597Z	   Creating an optimized production build ...
+2026-11-17T10:14:21.368Z	 ✓ Compiled successfully in 6.7s
+2026-11-17T10:14:21.371Z	   Skipping linting
+2026-11-17T10:14:21.371Z	   Checking validity of types ...
+2026-11-17T10:14:25.963Z	   Collecting page data ...
+2026-11-17T10:14:27.022Z	   Generating static pages (0/5) ...
+2026-11-17T10:14:27.371Z	   Generating static pages (1/5) 
+2026-11-17T10:14:27.472Z	   Generating static pages (2/5) 
+2026-11-17T10:14:27.474Z	   Generating static pages (3/5) 
+2026-11-17T10:14:27.474Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:14:28.181Z	   Finalizing page optimization ...
+2026-11-17T10:14:28.181Z	   Collecting build traces ...
+2026-11-17T10:14:41.660Z	
+2026-11-17T10:14:41.667Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:14:41.667Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:14:41.667Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:14:41.667Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:14:41.667Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:14:41.667Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:14:41.667Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:14:41.667Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:14:41.667Z	
+2026-11-17T10:14:41.667Z	
+2026-11-17T10:14:41.667Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:14:41.667Z	
+2026-11-17T10:14:41.667Z	○  (Static)   prerendered as static content
+2026-11-17T10:14:41.667Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:14:41.667Z	
+2026-11-17T10:14:41.752Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:14:43.117Z	
+2026-11-17T10:14:43.117Z	┌─────────────────────────────┐
+2026-11-17T10:14:43.117Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:14:43.117Z	└─────────────────────────────┘
+2026-11-17T10:14:43.117Z	
+2026-11-17T10:14:43.204Z	App directory: /opt/buildhome/repo
+2026-11-17T10:14:43.204Z	Next.js version : 15.5.29
+2026-11-17T10:14:43.205Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:14:43.205Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:14:43.205Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:14:43.206Z	
+2026-11-17T10:14:43.206Z	┌─────────────────────────────────┐
+2026-11-17T10:14:43.206Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:14:43.206Z	└─────────────────────────────────┘
+2026-11-17T10:14:43.206Z	
+2026-11-17T10:14:43.346Z	
+2026-11-17T10:14:43.346Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:14:43.346Z	> node scripts/build.mjs
+2026-11-17T10:14:43.346Z	
+2026-11-17T10:14:43.376Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:14:43.469Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:14:44.086Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:14:44.131Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:14:44.131Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:14:44.131Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:14:44.131Z	https://nextjs.org/telemetry
+2026-11-17T10:14:44.131Z	
+2026-11-17T10:14:44.206Z	   ▲ Next.js 15.5.29
+2026-11-17T10:14:44.206Z	
+2026-11-17T10:14:44.238Z	   Creating an optimized production build ...
+2026-11-17T10:14:51.368Z	 ✓ Compiled successfully in 7.0s
+2026-11-17T10:14:51.370Z	   Skipping linting
+2026-11-17T10:14:51.370Z	   Checking validity of types ...
+2026-11-17T10:14:56.469Z	   Collecting page data ...
+2026-11-17T10:14:57.834Z	   Generating static pages (0/5) ...
+2026-11-17T10:14:58.270Z	   Generating static pages (1/5) 
+2026-11-17T10:14:58.580Z	   Generating static pages (2/5) 
+2026-11-17T10:14:58.581Z	   Generating static pages (3/5) 
+2026-11-17T10:14:58.581Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:14:59.117Z	   Finalizing page optimization ...
+2026-11-17T10:14:59.117Z	   Collecting build traces ...
+2026-11-17T10:15:12.912Z	
+2026-11-17T10:15:12.920Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:15:12.920Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:15:12.920Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:15:12.920Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:15:12.920Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:15:12.920Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:15:12.920Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:15:12.920Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:15:12.920Z	
+2026-11-17T10:15:12.920Z	
+2026-11-17T10:15:12.920Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:15:12.920Z	
+2026-11-17T10:15:12.920Z	○  (Static)   prerendered as static content
+2026-11-17T10:15:12.920Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:15:12.920Z	
+2026-11-17T10:15:12.997Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:15:14.342Z	
+2026-11-17T10:15:14.342Z	┌─────────────────────────────┐
+2026-11-17T10:15:14.342Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:15:14.342Z	└─────────────────────────────┘
+2026-11-17T10:15:14.342Z	
+2026-11-17T10:15:14.424Z	App directory: /opt/buildhome/repo
+2026-11-17T10:15:14.425Z	Next.js version : 15.5.29
+2026-11-17T10:15:14.425Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:15:14.426Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:15:14.426Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:15:14.428Z	
+2026-11-17T10:15:14.428Z	┌─────────────────────────────────┐
+2026-11-17T10:15:14.428Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:15:14.428Z	└─────────────────────────────────┘
+2026-11-17T10:15:14.428Z	
+2026-11-17T10:15:14.565Z	
+2026-11-17T10:15:14.565Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:15:14.565Z	> node scripts/build.mjs
+2026-11-17T10:15:14.565Z	
+2026-11-17T10:15:14.596Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:15:14.687Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:15:15.313Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:15:15.360Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:15:15.360Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:15:15.360Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:15:15.360Z	https://nextjs.org/telemetry
+2026-11-17T10:15:15.360Z	
+2026-11-17T10:15:15.428Z	   ▲ Next.js 15.5.29
+2026-11-17T10:15:15.428Z	
+2026-11-17T10:15:15.458Z	   Creating an optimized production build ...
+2026-11-17T10:15:22.351Z	 ✓ Compiled successfully in 6.8s
+2026-11-17T10:15:22.354Z	   Skipping linting
+2026-11-17T10:15:22.354Z	   Checking validity of types ...
+2026-11-17T10:15:28.123Z	   Collecting page data ...
+2026-11-17T10:15:29.488Z	   Generating static pages (0/5) ...
+2026-11-17T10:15:29.925Z	   Generating static pages (1/5) 
+2026-11-17T10:15:30.186Z	   Generating static pages (2/5) 
+2026-11-17T10:15:30.186Z	   Generating static pages (3/5) 
+2026-11-17T10:15:30.186Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:15:30.735Z	   Finalizing page optimization ...
+2026-11-17T10:15:30.735Z	   Collecting build traces ...
+2026-11-17T10:15:44.920Z	
+2026-11-17T10:15:44.926Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:15:44.927Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:15:44.927Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:15:44.927Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:15:44.927Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:15:44.927Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:15:44.927Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:15:44.927Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:15:44.927Z	
+2026-11-17T10:15:44.927Z	
+2026-11-17T10:15:44.927Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:15:44.927Z	
+2026-11-17T10:15:44.927Z	○  (Static)   prerendered as static content
+2026-11-17T10:15:44.927Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:15:44.927Z	
+2026-11-17T10:15:45.015Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:15:46.407Z	
+2026-11-17T10:15:46.407Z	┌─────────────────────────────┐
+2026-11-17T10:15:46.407Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:15:46.407Z	└─────────────────────────────┘
+2026-11-17T10:15:46.407Z	
+2026-11-17T10:15:46.500Z	App directory: /opt/buildhome/repo
+2026-11-17T10:15:46.500Z	Next.js version : 15.5.29
+2026-11-17T10:15:46.500Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:15:46.500Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:15:46.500Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:15:46.501Z	
+2026-11-17T10:15:46.502Z	┌─────────────────────────────────┐
+2026-11-17T10:15:46.502Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:15:46.502Z	└─────────────────────────────────┘
+2026-11-17T10:15:46.502Z	
+2026-11-17T10:15:46.649Z	
+2026-11-17T10:15:46.649Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:15:46.649Z	> node scripts/build.mjs
+2026-11-17T10:15:46.649Z	
+2026-11-17T10:15:46.679Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:15:46.782Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:15:47.425Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:15:47.426Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:15:47.426Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:15:47.426Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:15:47.426Z	https://nextjs.org/telemetry
+2026-11-17T10:15:47.427Z	
+2026-11-17T10:15:47.504Z	   ▲ Next.js 15.5.29
+2026-11-17T10:15:47.504Z	
+2026-11-17T10:15:47.535Z	   Creating an optimized production build ...
+2026-11-17T10:15:54.724Z	 ✓ Compiled successfully in 7.1s
+2026-11-17T10:15:54.727Z	   Skipping linting
+2026-11-17T10:15:54.727Z	   Checking validity of types ...
+2026-11-17T10:16:01.017Z	   Collecting page data ...
+2026-11-17T10:16:02.308Z	   Generating static pages (0/5) ...
+2026-11-17T10:16:02.745Z	   Generating static pages (1/5) 
+2026-11-17T10:16:03.001Z	   Generating static pages (2/5) 
+2026-11-17T10:16:03.001Z	   Generating static pages (3/5) 
+2026-11-17T10:16:03.001Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:16:03.612Z	   Finalizing page optimization ...
+2026-11-17T10:16:03.612Z	   Collecting build traces ...
+2026-11-17T10:16:17.018Z	
+2026-11-17T10:16:17.023Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:16:17.023Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:16:17.023Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:16:17.023Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:16:17.023Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:16:17.023Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:16:17.023Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:16:17.023Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:16:17.023Z	
+2026-11-17T10:16:17.023Z	
+2026-11-17T10:16:17.023Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:16:17.024Z	
+2026-11-17T10:16:17.025Z	○  (Static)   prerendered as static content
+2026-11-17T10:16:17.025Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:16:17.025Z	
+2026-11-17T10:16:17.107Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:16:18.370Z	
+2026-11-17T10:16:18.370Z	┌─────────────────────────────┐
+2026-11-17T10:16:18.370Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:16:18.370Z	└─────────────────────────────┘
+2026-11-17T10:16:18.370Z	
+2026-11-17T10:16:18.460Z	App directory: /opt/buildhome/repo
+2026-11-17T10:16:18.460Z	Next.js version : 15.5.29
+2026-11-17T10:16:18.461Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:16:18.461Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:16:18.461Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:16:18.462Z	
+2026-11-17T10:16:18.463Z	┌─────────────────────────────────┐
+2026-11-17T10:16:18.463Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:16:18.463Z	└─────────────────────────────────┘
+2026-11-17T10:16:18.463Z	
+2026-11-17T10:16:18.612Z	
+2026-11-17T10:16:18.612Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:16:18.612Z	> node scripts/build.mjs
+2026-11-17T10:16:18.612Z	
+2026-11-17T10:16:18.640Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:16:18.742Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:16:19.353Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:16:19.356Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:16:19.356Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:16:19.356Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:16:19.356Z	https://nextjs.org/telemetry
+2026-11-17T10:16:19.356Z	
+2026-11-17T10:16:19.427Z	   ▲ Next.js 15.5.29
+2026-11-17T10:16:19.427Z	
+2026-11-17T10:16:19.457Z	   Creating an optimized production build ...
+2026-11-17T10:16:26.373Z	 ✓ Compiled successfully in 6.8s
+2026-11-17T10:16:26.377Z	   Skipping linting
+2026-11-17T10:16:26.377Z	   Checking validity of types ...
+2026-11-17T10:16:32.318Z	   Collecting page data ...
+2026-11-17T10:16:33.646Z	   Generating static pages (0/5) ...
+2026-11-17T10:16:34.107Z	   Generating static pages (1/5) 
+2026-11-17T10:16:34.272Z	   Generating static pages (2/5) 
+2026-11-17T10:16:34.272Z	   Generating static pages (3/5) 
+2026-11-17T10:16:34.272Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:16:35.137Z	   Finalizing page optimization ...
+2026-11-17T10:16:35.137Z	   Collecting build traces ...
+2026-11-17T10:16:49.131Z	
+2026-11-17T10:16:49.138Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:16:49.138Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:16:49.138Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:16:49.138Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:16:49.138Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:16:49.138Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:16:49.138Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:16:49.138Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:16:49.138Z	
+2026-11-17T10:16:49.141Z	
+2026-11-17T10:16:49.141Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:16:49.141Z	
+2026-11-17T10:16:49.141Z	○  (Static)   prerendered as static content
+2026-11-17T10:16:49.141Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:16:49.141Z	
+2026-11-17T10:16:49.224Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:16:50.557Z	
+2026-11-17T10:16:50.557Z	┌─────────────────────────────┐
+2026-11-17T10:16:50.557Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:16:50.557Z	└─────────────────────────────┘
+2026-11-17T10:16:50.557Z	
+2026-11-17T10:16:50.648Z	App directory: /opt/buildhome/repo
+2026-11-17T10:16:50.648Z	Next.js version : 15.5.29
+2026-11-17T10:16:50.649Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:16:50.649Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:16:50.649Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:16:50.651Z	
+2026-11-17T10:16:50.651Z	┌─────────────────────────────────┐
+2026-11-17T10:16:50.651Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:16:50.651Z	└─────────────────────────────────┘
+2026-11-17T10:16:50.651Z	
+2026-11-17T10:16:50.791Z	
+2026-11-17T10:16:50.791Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:16:50.791Z	> node scripts/build.mjs
+2026-11-17T10:16:50.791Z	
+2026-11-17T10:16:50.821Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:16:50.916Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:16:51.596Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:16:51.600Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:16:51.601Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:16:51.601Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:16:51.601Z	https://nextjs.org/telemetry
+2026-11-17T10:16:51.601Z	
+2026-11-17T10:16:51.677Z	   ▲ Next.js 15.5.29
+2026-11-17T10:16:51.677Z	
+2026-11-17T10:16:51.707Z	   Creating an optimized production build ...
+2026-11-17T10:16:58.666Z	 ✓ Compiled successfully in 6.9s
+2026-11-17T10:16:58.668Z	   Skipping linting
+2026-11-17T10:16:58.668Z	   Checking validity of types ...
+2026-11-17T10:17:04.447Z	   Collecting page data ...
+2026-11-17T10:17:05.798Z	   Generating static pages (0/5) ...
+2026-11-17T10:17:06.276Z	   Generating static pages (1/5) 
+2026-11-17T10:17:06.585Z	   Generating static pages (2/5) 
+2026-11-17T10:17:06.585Z	   Generating static pages (3/5) 
+2026-11-17T10:17:06.585Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:17:07.233Z	   Finalizing page optimization ...
+2026-11-17T10:17:07.233Z	   Collecting build traces ...
+2026-11-17T10:17:20.930Z	
+2026-11-17T10:17:20.936Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:17:20.937Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:17:20.937Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:17:20.937Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:17:20.937Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:17:20.937Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:17:20.937Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:17:20.939Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:17:20.940Z	
+2026-11-17T10:17:20.940Z	
+2026-11-17T10:17:20.940Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:17:20.940Z	
+2026-11-17T10:17:20.942Z	○  (Static)   prerendered as static content
+2026-11-17T10:17:20.942Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:17:20.942Z	
+2026-11-17T10:17:21.028Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:17:22.342Z	
+2026-11-17T10:17:22.342Z	┌─────────────────────────────┐
+2026-11-17T10:17:22.342Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:17:22.342Z	└─────────────────────────────┘
+2026-11-17T10:17:22.343Z	
+2026-11-17T10:17:22.434Z	App directory: /opt/buildhome/repo
+2026-11-17T10:17:22.434Z	Next.js version : 15.5.29
+2026-11-17T10:17:22.435Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:17:22.435Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:17:22.435Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:17:22.437Z	
+2026-11-17T10:17:22.437Z	┌─────────────────────────────────┐
+2026-11-17T10:17:22.437Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:17:22.437Z	└─────────────────────────────────┘
+2026-11-17T10:17:22.437Z	
+2026-11-17T10:17:22.574Z	
+2026-11-17T10:17:22.574Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:17:22.574Z	> node scripts/build.mjs
+2026-11-17T10:17:22.574Z	
+2026-11-17T10:17:22.609Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:17:22.704Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:17:23.330Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:17:23.333Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:17:23.333Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:17:23.333Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:17:23.333Z	https://nextjs.org/telemetry
+2026-11-17T10:17:23.334Z	
+2026-11-17T10:17:23.411Z	   ▲ Next.js 15.5.29
+2026-11-17T10:17:23.411Z	
+2026-11-17T10:17:23.443Z	   Creating an optimized production build ...
+2026-11-17T10:17:30.427Z	 ✓ Compiled successfully in 6.9s
+2026-11-17T10:17:30.431Z	   Skipping linting
+2026-11-17T10:17:30.431Z	   Checking validity of types ...
+2026-11-17T10:17:36.524Z	   Collecting page data ...
+2026-11-17T10:17:37.855Z	   Generating static pages (0/5) ...
+2026-11-17T10:17:38.339Z	   Generating static pages (1/5) 
+2026-11-17T10:17:38.574Z	   Generating static pages (2/5) 
+2026-11-17T10:17:38.575Z	   Generating static pages (3/5) 
+2026-11-17T10:17:38.575Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:17:39.182Z	   Finalizing page optimization ...
+2026-11-17T10:17:39.182Z	   Collecting build traces ...
+2026-11-17T10:17:52.961Z	
+2026-11-17T10:17:52.968Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:17:52.968Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:17:52.968Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:17:52.968Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:17:52.968Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:17:52.968Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:17:52.968Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:17:52.968Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:17:52.968Z	
+2026-11-17T10:17:52.968Z	
+2026-11-17T10:17:52.968Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:17:52.968Z	
+2026-11-17T10:17:52.968Z	○  (Static)   prerendered as static content
+2026-11-17T10:17:52.968Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:17:52.968Z	
+2026-11-17T10:17:53.046Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:17:54.363Z	
+2026-11-17T10:17:54.363Z	┌─────────────────────────────┐
+2026-11-17T10:17:54.363Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:17:54.363Z	└─────────────────────────────┘
+2026-11-17T10:17:54.363Z	
+2026-11-17T10:17:54.456Z	App directory: /opt/buildhome/repo
+2026-11-17T10:17:54.456Z	Next.js version : 15.5.29
+2026-11-17T10:17:54.456Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:17:54.456Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:17:54.456Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:17:54.457Z	
+2026-11-17T10:17:54.457Z	┌─────────────────────────────────┐
+2026-11-17T10:17:54.457Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:17:54.457Z	└─────────────────────────────────┘
+2026-11-17T10:17:54.457Z	
+2026-11-17T10:17:54.602Z	
+2026-11-17T10:17:54.602Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:17:54.602Z	> node scripts/build.mjs
+2026-11-17T10:17:54.602Z	
+2026-11-17T10:17:54.635Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:17:54.735Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:17:55.357Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:17:55.361Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:17:55.361Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:17:55.361Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:17:55.361Z	https://nextjs.org/telemetry
+2026-11-17T10:17:55.361Z	
+2026-11-17T10:17:55.448Z	   ▲ Next.js 15.5.29
+2026-11-17T10:17:55.448Z	
+2026-11-17T10:17:55.484Z	   Creating an optimized production build ...
+2026-11-17T10:18:02.685Z	 ✓ Compiled successfully in 7.1s
+2026-11-17T10:18:02.687Z	   Skipping linting
+2026-11-17T10:18:02.687Z	   Checking validity of types ...
+2026-11-17T10:18:09.381Z	   Collecting page data ...
+2026-11-17T10:18:10.659Z	   Generating static pages (0/5) ...
+2026-11-17T10:18:11.014Z	   Generating static pages (1/5) 
+2026-11-17T10:18:11.194Z	   Generating static pages (2/5) 
+2026-11-17T10:18:11.194Z	   Generating static pages (3/5) 
+2026-11-17T10:18:11.194Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:18:11.990Z	   Finalizing page optimization ...
+2026-11-17T10:18:11.993Z	   Collecting build traces ...
+2026-11-17T10:18:25.693Z	
+2026-11-17T10:18:25.699Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:18:25.699Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:18:25.699Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:18:25.699Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:18:25.699Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:18:25.699Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:18:25.699Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:18:25.699Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:18:25.699Z	
+2026-11-17T10:18:25.699Z	
+2026-11-17T10:18:25.699Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:18:25.699Z	
+2026-11-17T10:18:25.699Z	○  (Static)   prerendered as static content
+2026-11-17T10:18:25.699Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:18:25.699Z	
+2026-11-17T10:18:25.796Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:18:27.153Z	
+2026-11-17T10:18:27.153Z	┌─────────────────────────────┐
+2026-11-17T10:18:27.153Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:18:27.153Z	└─────────────────────────────┘
+2026-11-17T10:18:27.153Z	
+2026-11-17T10:18:27.245Z	App directory: /opt/buildhome/repo
+2026-11-17T10:18:27.245Z	Next.js version : 15.5.29
+2026-11-17T10:18:27.246Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:18:27.246Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:18:27.247Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:18:27.248Z	
+2026-11-17T10:18:27.248Z	┌─────────────────────────────────┐
+2026-11-17T10:18:27.248Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:18:27.248Z	└─────────────────────────────────┘
+2026-11-17T10:18:27.248Z	
+2026-11-17T10:18:27.400Z	
+2026-11-17T10:18:27.400Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:18:27.400Z	> node scripts/build.mjs
+2026-11-17T10:18:27.400Z	
+2026-11-17T10:18:27.430Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:18:27.529Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:18:28.151Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:18:28.154Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:18:28.154Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:18:28.155Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:18:28.155Z	https://nextjs.org/telemetry
+2026-11-17T10:18:28.155Z	
+2026-11-17T10:18:28.229Z	   ▲ Next.js 15.5.29
+2026-11-17T10:18:28.229Z	
+2026-11-17T10:18:28.258Z	   Creating an optimized production build ...
+2026-11-17T10:18:35.278Z	 ✓ Compiled successfully in 6.9s
+2026-11-17T10:18:35.279Z	   Skipping linting
+2026-11-17T10:18:35.279Z	   Checking validity of types ...
+2026-11-17T10:18:41.050Z	   Collecting page data ...
+2026-11-17T10:18:42.344Z	   Generating static pages (0/5) ...
+2026-11-17T10:18:42.802Z	   Generating static pages (1/5) 
+2026-11-17T10:18:42.978Z	   Generating static pages (2/5) 
+2026-11-17T10:18:42.978Z	   Generating static pages (3/5) 
+2026-11-17T10:18:42.978Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:18:43.606Z	   Finalizing page optimization ...
+2026-11-17T10:18:43.606Z	   Collecting build traces ...
+2026-11-17T10:18:56.955Z	
+2026-11-17T10:18:56.962Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:18:56.962Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:18:56.962Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:18:56.962Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:18:56.962Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:18:56.962Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:18:56.962Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:18:56.962Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:18:56.962Z	
+2026-11-17T10:18:56.962Z	
+2026-11-17T10:18:56.962Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:18:56.962Z	
+2026-11-17T10:18:56.962Z	○  (Static)   prerendered as static content
+2026-11-17T10:18:56.962Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:18:56.962Z	
+2026-11-17T10:18:57.054Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:18:58.395Z	
+2026-11-17T10:18:58.395Z	┌─────────────────────────────┐
+2026-11-17T10:18:58.395Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:18:58.395Z	└─────────────────────────────┘
+2026-11-17T10:18:58.395Z	
+2026-11-17T10:18:58.483Z	App directory: /opt/buildhome/repo
+2026-11-17T10:18:58.483Z	Next.js version : 15.5.29
+2026-11-17T10:18:58.484Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:18:58.484Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:18:58.485Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:18:58.486Z	
+2026-11-17T10:18:58.486Z	┌─────────────────────────────────┐
+2026-11-17T10:18:58.486Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:18:58.486Z	└─────────────────────────────────┘
+2026-11-17T10:18:58.486Z	
+2026-11-17T10:18:58.637Z	
+2026-11-17T10:18:58.637Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:18:58.637Z	> node scripts/build.mjs
+2026-11-17T10:18:58.637Z	
+2026-11-17T10:18:58.669Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:18:58.766Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:18:59.409Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:18:59.413Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:18:59.413Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:18:59.413Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:18:59.413Z	https://nextjs.org/telemetry
+2026-11-17T10:18:59.413Z	
+2026-11-17T10:18:59.483Z	   ▲ Next.js 15.5.29
+2026-11-17T10:18:59.483Z	
+2026-11-17T10:18:59.513Z	   Creating an optimized production build ...
+2026-11-17T10:19:06.927Z	 ✓ Compiled successfully in 7.3s
+2026-11-17T10:19:06.928Z	   Skipping linting
+2026-11-17T10:19:06.928Z	   Checking validity of types ...
+2026-11-17T10:19:13.490Z	   Collecting page data ...
+2026-11-17T10:19:15.165Z	   Generating static pages (0/5) ...
+2026-11-17T10:19:15.665Z	   Generating static pages (1/5) 
+2026-11-17T10:19:15.926Z	   Generating static pages (2/5) 
+2026-11-17T10:19:15.926Z	   Generating static pages (3/5) 
+2026-11-17T10:19:15.927Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:19:16.489Z	   Finalizing page optimization ...
+2026-11-17T10:19:16.489Z	   Collecting build traces ...
+2026-11-17T10:19:30.325Z	
+2026-11-17T10:19:30.331Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:19:30.331Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:19:30.331Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:19:30.331Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:19:30.331Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:19:30.331Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:19:30.331Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:19:30.331Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:19:30.331Z	
+2026-11-17T10:19:30.331Z	
+2026-11-17T10:19:30.331Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:19:30.331Z	
+2026-11-17T10:19:30.331Z	○  (Static)   prerendered as static content
+2026-11-17T10:19:30.331Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:19:30.331Z	
+2026-11-17T10:19:30.416Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:19:31.770Z	
+2026-11-17T10:19:31.770Z	┌─────────────────────────────┐
+2026-11-17T10:19:31.770Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:19:31.770Z	└─────────────────────────────┘
+2026-11-17T10:19:31.770Z	
+2026-11-17T10:19:31.863Z	App directory: /opt/buildhome/repo
+2026-11-17T10:19:31.863Z	Next.js version : 15.5.29
+2026-11-17T10:19:31.865Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:19:31.865Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:19:31.865Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:19:31.867Z	
+2026-11-17T10:19:31.867Z	┌─────────────────────────────────┐
+2026-11-17T10:19:31.867Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:19:31.867Z	└─────────────────────────────────┘
+2026-11-17T10:19:31.867Z	
+2026-11-17T10:19:32.017Z	
+2026-11-17T10:19:32.017Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:19:32.017Z	> node scripts/build.mjs
+2026-11-17T10:19:32.017Z	
+2026-11-17T10:19:32.049Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:19:32.126Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:19:32.782Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:19:32.787Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:19:32.787Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:19:32.787Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:19:32.787Z	https://nextjs.org/telemetry
+2026-11-17T10:19:32.787Z	
+2026-11-17T10:19:32.860Z	   ▲ Next.js 15.5.29
+2026-11-17T10:19:32.860Z	
+2026-11-17T10:19:32.893Z	   Creating an optimized production build ...
+2026-11-17T10:19:40.178Z	 ✓ Compiled successfully in 7.2s
+2026-11-17T10:19:40.180Z	   Skipping linting
+2026-11-17T10:19:40.181Z	   Checking validity of types ...
+2026-11-17T10:19:49.219Z	   Collecting page data ...
+2026-11-17T10:19:51.018Z	   Generating static pages (0/5) ...
+2026-11-17T10:19:51.387Z	   Generating static pages (1/5) 
+2026-11-17T10:19:51.502Z	   Generating static pages (2/5) 
+2026-11-17T10:19:51.502Z	   Generating static pages (3/5) 
+2026-11-17T10:19:51.502Z	 ✓ Generating static pages (5/5)
+2026-11-17T10:19:52.193Z	   Finalizing page optimization ...
+2026-11-17T10:19:52.193Z	   Collecting build traces ...
+2026-11-17T10:20:06.865Z	
+2026-11-17T10:20:06.874Z	Route (app)                                 Size  First Load JS
+2026-11-17T10:20:06.874Z	┌ ○ /                                     140 kB         243 kB
+2026-11-17T10:20:06.874Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-17T10:20:06.874Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-17T10:20:06.874Z	+ First Load JS shared by all             102 kB
+2026-11-17T10:20:06.874Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-17T10:20:06.875Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-17T10:20:06.875Z	  └ other shared chunks (total)          1.92 kB
+2026-11-17T10:20:06.875Z	
+2026-11-17T10:20:06.875Z	
+2026-11-17T10:20:06.875Z	ƒ Middleware                             32.4 kB
+2026-11-17T10:20:06.875Z	
+2026-11-17T10:20:06.875Z	○  (Static)   prerendered as static content
+2026-11-17T10:20:06.875Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-17T10:20:06.875Z	
+2026-11-17T10:20:07.040Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-17T10:20:09.119Z	
+2026-11-17T10:20:09.119Z	┌─────────────────────────────┐
+2026-11-17T10:20:09.119Z	│ OpenNext — Cloudflare build │
+2026-11-17T10:20:09.119Z	└─────────────────────────────┘
+2026-11-17T10:20:09.119Z	
+2026-11-17T10:20:09.216Z	App directory: /opt/buildhome/repo
+2026-11-17T10:20:09.216Z	Next.js version : 15.5.29
+2026-11-17T10:20:09.217Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-17T10:20:09.217Z	@opennextjs/aws version: 4.1.16
+2026-11-17T10:20:09.217Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-17T10:20:09.219Z	
+2026-11-17T10:20:09.219Z	┌─────────────────────────────────┐
+2026-11-17T10:20:09.219Z	│ OpenNext — Building Next.js app │
+2026-11-17T10:20:09.219Z	└─────────────────────────────────┘
+2026-11-17T10:20:09.219Z	
+2026-11-17T10:20:09.409Z	
+2026-11-17T10:20:09.409Z	> eprs-phonics-app@1.0.0 build
+2026-11-17T10:20:09.409Z	> node scripts/build.mjs
+2026-11-17T10:20:09.409Z	
+2026-11-17T10:20:09.441Z	[Build] Starting production build (static export: false, cloudflare/ci: true)...
+2026-11-17T10:20:09.562Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build
+2026-11-17T10:20:10.295Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-17T10:20:10.300Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-17T10:20:10.300Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-17T10:20:10.300Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-17T10:20:10.300Z	https://nextjs.org/telemetry
+2026-11-17T10:20:10.300Z	
+2026-11-17T10:20:10.367Z	   ▲ Next.js 15.5.29
+2026-11-17T10:20:10.367Z	
+2026-11-17T10:20:10.400Z	   Creating an optimized production build ...
+2026-11-17T10:20:18.057Z	 ✓ Compiled successfully in 7.5s
+2026-11-17T10:20:18.062Z	   Skipping linting
+2026-11-17T10:20:18.062Z	   Checking validity of types ...
+2026-11-17T10:20:35.612Z	[Build] Next.js build failed with exit code null
+2026-11-17T10:20:35.633Z	node:internal/errors:986
+2026-11-17T10:20:35.633Z	  const err = new Error(message);
+2026-11-17T10:20:35.633Z	              ^
+2026-11-17T10:20:35.633Z	
+2026-11-17T10:20:35.633Z	Error: Command failed: npm run build
+2026-11-17T10:20:35.633Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:35.633Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:35.633Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:35.633Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:35.633Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:35.633Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:35.633Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:35.633Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:35.633Z	  status: 1,
+2026-11-17T10:20:35.633Z	  signal: null,
+2026-11-17T10:20:35.633Z	  output: [ null, null, null ],
+2026-11-17T10:20:35.633Z	  pid: 3485,
+2026-11-17T10:20:35.633Z	  stdout: null,
+2026-11-17T10:20:35.633Z	  stderr: null
+2026-11-17T10:20:35.633Z	}
+2026-11-17T10:20:35.633Z	
+2026-11-17T10:20:35.633Z	Node.js v24.22.1
+2026-11-17T10:20:35.676Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:35.703Z	node:internal/errors:986
+2026-11-17T10:20:35.703Z	  const err = new Error(message);
+2026-11-17T10:20:35.703Z	              ^
+2026-11-17T10:20:35.703Z	
+2026-11-17T10:20:35.703Z	Error: Command failed: npm run build
+2026-11-17T10:20:35.703Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:35.703Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:35.703Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:35.703Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:35.703Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:35.703Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:35.703Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:35.703Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:35.703Z	  status: 1,
+2026-11-17T10:20:35.703Z	  signal: null,
+2026-11-17T10:20:35.703Z	  output: [ null, null, null ],
+2026-11-17T10:20:35.703Z	  pid: 3348,
+2026-11-17T10:20:35.703Z	  stdout: null,
+2026-11-17T10:20:35.703Z	  stderr: null
+2026-11-17T10:20:35.703Z	}
+2026-11-17T10:20:35.703Z	
+2026-11-17T10:20:35.703Z	Node.js v24.22.1
+2026-11-17T10:20:35.753Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:35.793Z	node:internal/errors:986
+2026-11-17T10:20:35.793Z	  const err = new Error(message);
+2026-11-17T10:20:35.793Z	              ^
+2026-11-17T10:20:35.793Z	
+2026-11-17T10:20:35.793Z	Error: Command failed: npm run build
+2026-11-17T10:20:35.793Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:35.793Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:35.793Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:35.793Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:35.793Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:35.793Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:35.793Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:35.793Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:35.793Z	  status: 1,
+2026-11-17T10:20:35.793Z	  signal: null,
+2026-11-17T10:20:35.793Z	  output: [ null, null, null ],
+2026-11-17T10:20:35.793Z	  pid: 3213,
+2026-11-17T10:20:35.793Z	  stdout: null,
+2026-11-17T10:20:35.793Z	  stderr: null
+2026-11-17T10:20:35.793Z	}
+2026-11-17T10:20:35.793Z	
+2026-11-17T10:20:35.793Z	Node.js v24.22.1
+2026-11-17T10:20:35.831Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:35.855Z	node:internal/errors:986
+2026-11-17T10:20:35.855Z	  const err = new Error(message);
+2026-11-17T10:20:35.855Z	              ^
+2026-11-17T10:20:35.855Z	
+2026-11-17T10:20:35.855Z	Error: Command failed: npm run build
+2026-11-17T10:20:35.855Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:35.855Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:35.855Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:35.855Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:35.855Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:35.855Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:35.855Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:35.855Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:35.856Z	  status: 1,
+2026-11-17T10:20:35.856Z	  signal: null,
+2026-11-17T10:20:35.856Z	  output: [ null, null, null ],
+2026-11-17T10:20:35.856Z	  pid: 3079,
+2026-11-17T10:20:35.857Z	  stdout: null,
+2026-11-17T10:20:35.857Z	  stderr: null
+2026-11-17T10:20:35.857Z	}
+2026-11-17T10:20:35.857Z	
+2026-11-17T10:20:35.857Z	Node.js v24.22.1
+2026-11-17T10:20:35.910Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:35.944Z	node:internal/errors:986
+2026-11-17T10:20:35.944Z	  const err = new Error(message);
+2026-11-17T10:20:35.944Z	              ^
+2026-11-17T10:20:35.944Z	
+2026-11-17T10:20:35.944Z	Error: Command failed: npm run build
+2026-11-17T10:20:35.944Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:35.944Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:35.944Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:35.944Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:35.945Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:35.945Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:35.945Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:35.945Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:35.945Z	  status: 1,
+2026-11-17T10:20:35.946Z	  signal: null,
+2026-11-17T10:20:35.946Z	  output: [ null, null, null ],
+2026-11-17T10:20:35.946Z	  pid: 2945,
+2026-11-17T10:20:35.946Z	  stdout: null,
+2026-11-17T10:20:35.952Z	  stderr: null
+2026-11-17T10:20:35.952Z	}
+2026-11-17T10:20:35.953Z	
+2026-11-17T10:20:35.953Z	Node.js v24.22.1
+2026-11-17T10:20:35.982Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.004Z	node:internal/errors:986
+2026-11-17T10:20:36.004Z	  const err = new Error(message);
+2026-11-17T10:20:36.004Z	              ^
+2026-11-17T10:20:36.004Z	
+2026-11-17T10:20:36.004Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.004Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.004Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.004Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.004Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.004Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.004Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.005Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.005Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.006Z	  status: 1,
+2026-11-17T10:20:36.006Z	  signal: null,
+2026-11-17T10:20:36.006Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.006Z	  pid: 2811,
+2026-11-17T10:20:36.006Z	  stdout: null,
+2026-11-17T10:20:36.006Z	  stderr: null
+2026-11-17T10:20:36.006Z	}
+2026-11-17T10:20:36.006Z	
+2026-11-17T10:20:36.007Z	Node.js v24.22.1
+2026-11-17T10:20:36.093Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.114Z	node:internal/errors:986
+2026-11-17T10:20:36.114Z	  const err = new Error(message);
+2026-11-17T10:20:36.115Z	              ^
+2026-11-17T10:20:36.115Z	
+2026-11-17T10:20:36.115Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.115Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.115Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.115Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.115Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.115Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.116Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.116Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.116Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.116Z	  status: 1,
+2026-11-17T10:20:36.116Z	  signal: null,
+2026-11-17T10:20:36.116Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.116Z	  pid: 2674,
+2026-11-17T10:20:36.116Z	  stdout: null,
+2026-11-17T10:20:36.116Z	  stderr: null
+2026-11-17T10:20:36.116Z	}
+2026-11-17T10:20:36.116Z	
+2026-11-17T10:20:36.116Z	Node.js v24.22.1
+2026-11-17T10:20:36.150Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.180Z	node:internal/errors:986
+2026-11-17T10:20:36.180Z	  const err = new Error(message);
+2026-11-17T10:20:36.180Z	              ^
+2026-11-17T10:20:36.180Z	
+2026-11-17T10:20:36.180Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.180Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.180Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.180Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.180Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.181Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.181Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.181Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.181Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.181Z	  status: 1,
+2026-11-17T10:20:36.181Z	  signal: null,
+2026-11-17T10:20:36.181Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.181Z	  pid: 2540,
+2026-11-17T10:20:36.181Z	  stdout: null,
+2026-11-17T10:20:36.181Z	  stderr: null
+2026-11-17T10:20:36.181Z	}
+2026-11-17T10:20:36.182Z	
+2026-11-17T10:20:36.182Z	Node.js v24.22.1
+2026-11-17T10:20:36.249Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.276Z	node:internal/errors:986
+2026-11-17T10:20:36.276Z	  const err = new Error(message);
+2026-11-17T10:20:36.276Z	              ^
+2026-11-17T10:20:36.276Z	
+2026-11-17T10:20:36.276Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.276Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.276Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.276Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.276Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.276Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.276Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.276Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.276Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.276Z	  status: 1,
+2026-11-17T10:20:36.276Z	  signal: null,
+2026-11-17T10:20:36.276Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.277Z	  pid: 2406,
+2026-11-17T10:20:36.277Z	  stdout: null,
+2026-11-17T10:20:36.277Z	  stderr: null
+2026-11-17T10:20:36.277Z	}
+2026-11-17T10:20:36.277Z	
+2026-11-17T10:20:36.278Z	Node.js v24.22.1
+2026-11-17T10:20:36.303Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.328Z	node:internal/errors:986
+2026-11-17T10:20:36.328Z	  const err = new Error(message);
+2026-11-17T10:20:36.328Z	              ^
+2026-11-17T10:20:36.328Z	
+2026-11-17T10:20:36.328Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.328Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.328Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.328Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.328Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.328Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.329Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.331Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.331Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.331Z	  status: 1,
+2026-11-17T10:20:36.331Z	  signal: null,
+2026-11-17T10:20:36.331Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.331Z	  pid: 2272,
+2026-11-17T10:20:36.331Z	  stdout: null,
+2026-11-17T10:20:36.331Z	  stderr: null
+2026-11-17T10:20:36.331Z	}
+2026-11-17T10:20:36.331Z	
+2026-11-17T10:20:36.331Z	Node.js v24.22.1
+2026-11-17T10:20:36.396Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.483Z	node:internal/errors:986
+2026-11-17T10:20:36.484Z	  const err = new Error(message);
+2026-11-17T10:20:36.484Z	              ^
+2026-11-17T10:20:36.484Z	
+2026-11-17T10:20:36.484Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.484Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.484Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.484Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.484Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.484Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.484Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.485Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.485Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.487Z	  status: 1,
+2026-11-17T10:20:36.487Z	  signal: null,
+2026-11-17T10:20:36.487Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.487Z	  pid: 2139,
+2026-11-17T10:20:36.487Z	  stdout: null,
+2026-11-17T10:20:36.487Z	  stderr: null
+2026-11-17T10:20:36.487Z	}
+2026-11-17T10:20:36.487Z	
+2026-11-17T10:20:36.487Z	Node.js v24.22.1
+2026-11-17T10:20:36.542Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.600Z	node:internal/errors:986
+2026-11-17T10:20:36.601Z	  const err = new Error(message);
+2026-11-17T10:20:36.601Z	              ^
+2026-11-17T10:20:36.601Z	
+2026-11-17T10:20:36.601Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.601Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.601Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.601Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.601Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.601Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.601Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.601Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.601Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.601Z	  status: 1,
+2026-11-17T10:20:36.601Z	  signal: null,
+2026-11-17T10:20:36.601Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.601Z	  pid: 2005,
+2026-11-17T10:20:36.601Z	  stdout: null,
+2026-11-17T10:20:36.601Z	  stderr: null
+2026-11-17T10:20:36.601Z	}
+2026-11-17T10:20:36.602Z	
+2026-11-17T10:20:36.602Z	Node.js v24.22.1
+2026-11-17T10:20:36.651Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.682Z	node:internal/errors:986
+2026-11-17T10:20:36.682Z	  const err = new Error(message);
+2026-11-17T10:20:36.683Z	              ^
+2026-11-17T10:20:36.683Z	
+2026-11-17T10:20:36.683Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.683Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.683Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.683Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.683Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.683Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.683Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.683Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.683Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.683Z	  status: 1,
+2026-11-17T10:20:36.683Z	  signal: null,
+2026-11-17T10:20:36.683Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.683Z	  pid: 1871,
+2026-11-17T10:20:36.683Z	  stdout: null,
+2026-11-17T10:20:36.683Z	  stderr: null
+2026-11-17T10:20:36.683Z	}
+2026-11-17T10:20:36.683Z	
+2026-11-17T10:20:36.683Z	Node.js v24.22.1
+2026-11-17T10:20:36.770Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.845Z	node:internal/errors:986
+2026-11-17T10:20:36.845Z	  const err = new Error(message);
+2026-11-17T10:20:36.845Z	              ^
+2026-11-17T10:20:36.845Z	
+2026-11-17T10:20:36.845Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.845Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.845Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.845Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.845Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.845Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.845Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.845Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.845Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.845Z	  status: 1,
+2026-11-17T10:20:36.846Z	  signal: null,
+2026-11-17T10:20:36.846Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.846Z	  pid: 1738,
+2026-11-17T10:20:36.846Z	  stdout: null,
+2026-11-17T10:20:36.846Z	  stderr: null
+2026-11-17T10:20:36.847Z	}
+2026-11-17T10:20:36.847Z	
+2026-11-17T10:20:36.847Z	Node.js v24.22.1
+2026-11-17T10:20:36.896Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.931Z	node:internal/errors:986
+2026-11-17T10:20:36.931Z	  const err = new Error(message);
+2026-11-17T10:20:36.931Z	              ^
+2026-11-17T10:20:36.931Z	
+2026-11-17T10:20:36.931Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.931Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.931Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.931Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.931Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.931Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.931Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.931Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.931Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.931Z	  status: 1,
+2026-11-17T10:20:36.931Z	  signal: null,
+2026-11-17T10:20:36.931Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.931Z	  pid: 1604,
+2026-11-17T10:20:36.931Z	  stdout: null,
+2026-11-17T10:20:36.932Z	  stderr: null
+2026-11-17T10:20:36.932Z	}
+2026-11-17T10:20:36.933Z	
+2026-11-17T10:20:36.933Z	Node.js v24.22.1
+2026-11-17T10:20:36.973Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:36.991Z	node:internal/errors:986
+2026-11-17T10:20:36.991Z	  const err = new Error(message);
+2026-11-17T10:20:36.991Z	              ^
+2026-11-17T10:20:36.991Z	
+2026-11-17T10:20:36.991Z	Error: Command failed: npm run build
+2026-11-17T10:20:36.991Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:36.991Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:36.991Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:36.991Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:36.991Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:36.991Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:36.991Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:36.992Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:36.992Z	  status: 1,
+2026-11-17T10:20:36.992Z	  signal: null,
+2026-11-17T10:20:36.992Z	  output: [ null, null, null ],
+2026-11-17T10:20:36.992Z	  pid: 1471,
+2026-11-17T10:20:36.992Z	  stdout: null,
+2026-11-17T10:20:36.992Z	  stderr: null
+2026-11-17T10:20:36.992Z	}
+2026-11-17T10:20:36.995Z	
+2026-11-17T10:20:36.995Z	Node.js v24.22.1
+2026-11-17T10:20:37.021Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.060Z	node:internal/errors:986
+2026-11-17T10:20:37.060Z	  const err = new Error(message);
+2026-11-17T10:20:37.060Z	              ^
+2026-11-17T10:20:37.060Z	
+2026-11-17T10:20:37.060Z	Error: Command failed: npm run build
+2026-11-17T10:20:37.060Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:37.060Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:37.061Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:37.061Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:37.062Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:37.062Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:37.062Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:37.062Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:37.062Z	  status: 1,
+2026-11-17T10:20:37.063Z	  signal: null,
+2026-11-17T10:20:37.063Z	  output: [ null, null, null ],
+2026-11-17T10:20:37.063Z	  pid: 1338,
+2026-11-17T10:20:37.064Z	  stdout: null,
+2026-11-17T10:20:37.064Z	  stderr: null
+2026-11-17T10:20:37.064Z	}
+2026-11-17T10:20:37.064Z	
+2026-11-17T10:20:37.064Z	Node.js v24.22.1
+2026-11-17T10:20:37.093Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.129Z	node:internal/errors:986
+2026-11-17T10:20:37.131Z	  const err = new Error(message);
+2026-11-17T10:20:37.131Z	              ^
+2026-11-17T10:20:37.131Z	
+2026-11-17T10:20:37.131Z	Error: Command failed: npm run build
+2026-11-17T10:20:37.131Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:37.131Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:37.131Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:37.131Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:37.131Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:37.131Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:37.131Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:37.131Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:37.131Z	  status: 1,
+2026-11-17T10:20:37.131Z	  signal: null,
+2026-11-17T10:20:37.131Z	  output: [ null, null, null ],
+2026-11-17T10:20:37.131Z	  pid: 1205,
+2026-11-17T10:20:37.131Z	  stdout: null,
+2026-11-17T10:20:37.131Z	  stderr: null
+2026-11-17T10:20:37.131Z	}
+2026-11-17T10:20:37.131Z	
+2026-11-17T10:20:37.131Z	Node.js v24.22.1
+2026-11-17T10:20:37.156Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.190Z	node:internal/errors:986
+2026-11-17T10:20:37.191Z	  const err = new Error(message);
+2026-11-17T10:20:37.191Z	              ^
+2026-11-17T10:20:37.191Z	
+2026-11-17T10:20:37.191Z	Error: Command failed: npm run build
+2026-11-17T10:20:37.191Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:37.191Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:37.191Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:37.192Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:37.192Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:37.193Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:37.193Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:37.193Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:37.193Z	  status: 1,
+2026-11-17T10:20:37.193Z	  signal: null,
+2026-11-17T10:20:37.193Z	  output: [ null, null, null ],
+2026-11-17T10:20:37.193Z	  pid: 1072,
+2026-11-17T10:20:37.193Z	  stdout: null,
+2026-11-17T10:20:37.193Z	  stderr: null
+2026-11-17T10:20:37.193Z	}
+2026-11-17T10:20:37.193Z	
+2026-11-17T10:20:37.193Z	Node.js v24.22.1
+2026-11-17T10:20:37.255Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.283Z	node:internal/errors:986
+2026-11-17T10:20:37.285Z	  const err = new Error(message);
+2026-11-17T10:20:37.285Z	              ^
+2026-11-17T10:20:37.285Z	
+2026-11-17T10:20:37.285Z	Error: Command failed: npm run build
+2026-11-17T10:20:37.285Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:37.285Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:37.285Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:37.285Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:37.285Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:37.285Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:37.285Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:37.285Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:37.285Z	  status: 1,
+2026-11-17T10:20:37.285Z	  signal: null,
+2026-11-17T10:20:37.285Z	  output: [ null, null, null ],
+2026-11-17T10:20:37.285Z	  pid: 938,
+2026-11-17T10:20:37.285Z	  stdout: null,
+2026-11-17T10:20:37.285Z	  stderr: null
+2026-11-17T10:20:37.285Z	}
+2026-11-17T10:20:37.285Z	
+2026-11-17T10:20:37.286Z	Node.js v24.22.1
+2026-11-17T10:20:37.355Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.397Z	node:internal/errors:986
+2026-11-17T10:20:37.397Z	  const err = new Error(message);
+2026-11-17T10:20:37.397Z	              ^
+2026-11-17T10:20:37.397Z	
+2026-11-17T10:20:37.397Z	Error: Command failed: npm run build
+2026-11-17T10:20:37.397Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:37.397Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:37.397Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:37.397Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:37.397Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:37.397Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:37.397Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:37.397Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:37.397Z	  status: 1,
+2026-11-17T10:20:37.397Z	  signal: null,
+2026-11-17T10:20:37.397Z	  output: [ null, null, null ],
+2026-11-17T10:20:37.397Z	  pid: 804,
+2026-11-17T10:20:37.397Z	  stdout: null,
+2026-11-17T10:20:37.398Z	  stderr: null
+2026-11-17T10:20:37.398Z	}
+2026-11-17T10:20:37.398Z	
+2026-11-17T10:20:37.398Z	Node.js v24.22.1
+2026-11-17T10:20:37.425Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.461Z	node:internal/errors:986
+2026-11-17T10:20:37.461Z	  const err = new Error(message);
+2026-11-17T10:20:37.461Z	              ^
+2026-11-17T10:20:37.461Z	
+2026-11-17T10:20:37.461Z	Error: Command failed: npm run build
+2026-11-17T10:20:37.461Z	    at genericNodeError (node:internal/errors:986:15)
+2026-11-17T10:20:37.462Z	    at wrappedFn (node:internal/errors:540:14)
+2026-11-17T10:20:37.462Z	    at checkExecSyncError (node:child_process:943:11)
+2026-11-17T10:20:37.462Z	    at Object.execSync (node:child_process:1015:15)
+2026-11-17T10:20:37.462Z	    at buildNextjsApp (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+2026-11-17T10:20:37.462Z	    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:65:9)
+2026-11-17T10:20:37.462Z	    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-11-17T10:20:37.462Z	    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-11-17T10:20:37.462Z	  status: 1,
+2026-11-17T10:20:37.462Z	  signal: null,
+2026-11-17T10:20:37.462Z	  output: [ null, null, null ],
+2026-11-17T10:20:37.462Z	  pid: 673,
+2026-11-17T10:20:37.462Z	  stdout: null,
+2026-11-17T10:20:37.462Z	  stderr: null
+2026-11-17T10:20:37.462Z	}
+2026-11-17T10:20:37.462Z	
+2026-11-17T10:20:37.465Z	Node.js v24.22.1
+2026-11-17T10:20:37.510Z	[Build] OpenNext build failed with exit code 1
+2026-11-17T10:20:37.597Z	error: script "build" exited with code 1
+2026-11-17T10:20:37.605Z	Failed: error occurred while running build command
