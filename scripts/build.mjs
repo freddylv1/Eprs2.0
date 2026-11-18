@@ -1,35 +1,35 @@
 import { spawnSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const rootDir = path.resolve(__dirname, '..');
+const rootDir = process.cwd();
 
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 const isCloudflareOrCI = Boolean(process.env.CF_PAGES || process.env.OPENNEXT || process.env.CF_BUILD || process.env.CI);
+const isOpenNextInProgress = process.env.OPENNEXT_BUILD_IN_PROGRESS === '1';
 const isStaticExport = isGithubActions || process.env.STATIC_EXPORT === 'true';
 
-console.log(`[Build] Starting production build (static export: ${isStaticExport}, cloudflare/ci: ${isCloudflareOrCI})...`);
+console.log(`[Build] Starting production build (static export: ${isStaticExport}, cloudflare/ci: ${isCloudflareOrCI}, opennext-in-progress: ${isOpenNextInProgress}, rootDir: ${rootDir})...`);
 
-// 1. Clean previous build outputs
+// 1. Clean previous build outputs (only if not in nested OpenNext build)
 const outDir = path.join(rootDir, 'out');
 const distDir = path.join(rootDir, 'dist');
 const buildDir = path.join(rootDir, '.next');
 const nextBuildDir = path.join(rootDir, '.next_build');
 
-if (fs.existsSync(outDir)) {
-  fs.rmSync(outDir, { recursive: true, force: true });
-}
-if (fs.existsSync(distDir)) {
-  fs.rmSync(distDir, { recursive: true, force: true });
-}
-if (fs.existsSync(buildDir)) {
-  fs.rmSync(buildDir, { recursive: true, force: true });
-}
-if (fs.existsSync(nextBuildDir)) {
-  fs.rmSync(nextBuildDir, { recursive: true, force: true });
+if (!isOpenNextInProgress) {
+  if (fs.existsSync(outDir)) {
+    fs.rmSync(outDir, { recursive: true, force: true });
+  }
+  if (fs.existsSync(distDir)) {
+    fs.rmSync(distDir, { recursive: true, force: true });
+  }
+  if (fs.existsSync(buildDir)) {
+    fs.rmSync(buildDir, { recursive: true, force: true });
+  }
+  if (fs.existsSync(nextBuildDir)) {
+    fs.rmSync(nextBuildDir, { recursive: true, force: true });
+  }
 }
 
 // 2. Locate Next.js CLI binary
@@ -47,7 +47,7 @@ if (fs.existsSync(localDistBin)) {
   buildArgs = ['build'];
 }
 
-console.log(`[Build] Running Next.js build: ${buildCmd} ${buildArgs.join(' ')}`);
+console.log(`[Build] Running Next.js build: ${buildCmd} ${buildArgs.join(' ')} (cwd: ${rootDir})`);
 
 const buildEnv = {
   ...process.env,
@@ -63,6 +63,28 @@ const result = spawnSync(buildCmd, buildArgs, {
 if (result.status !== 0) {
   console.error(`[Build] Next.js build failed with exit code ${result.status}`);
   process.exit(result.status || 1);
+}
+
+// 2.5 Run OpenNext build for Cloudflare if CI/Cloudflare environment and not already nested
+if (isCloudflareOrCI && !isOpenNextInProgress) {
+  console.log('[Build] Running OpenNext Cloudflare build adapter...');
+  const openNextBin = path.join(rootDir, 'node_modules', '.bin', 'opennextjs-cloudflare');
+  const openNextCmd = fs.existsSync(openNextBin) ? openNextBin : 'npx';
+  const openNextArgs = fs.existsSync(openNextBin) ? ['build'] : ['opennextjs-cloudflare', 'build'];
+
+  const openNextResult = spawnSync(openNextCmd, openNextArgs, {
+    cwd: rootDir,
+    stdio: 'inherit',
+    env: {
+      ...buildEnv,
+      OPENNEXT_BUILD_IN_PROGRESS: '1',
+    },
+  });
+
+  if (openNextResult.status !== 0) {
+    console.error(`[Build] OpenNext build failed with exit code ${openNextResult.status}`);
+    process.exit(openNextResult.status || 1);
+  }
 }
 
 // 3. Populate standalone artifacts into .next/standalone and .next/static
