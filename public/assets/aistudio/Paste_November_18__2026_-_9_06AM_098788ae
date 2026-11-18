@@ -1,0 +1,571 @@
+2026-11-18T00:54:44.520Z	Initializing build environment...
+2026-11-18T00:54:56.044Z	Success: Finished initializing build environment
+2026-11-18T00:54:57.502Z	Cloning repository...
+2026-11-18T00:54:59.426Z	Detected the following tools from environment: npm@10.9.2, nodejs@24.22.1
+2026-11-18T00:54:59.427Z	Restoring from dependencies cache
+2026-11-18T00:54:59.428Z	Restoring from build output cache
+2026-11-18T00:54:59.722Z	Installing project dependencies: npm clean-install --progress=false
+2026-11-18T00:56:27.111Z	
+2026-11-18T00:56:27.111Z	added 1197 packages, and audited 1204 packages in 1m
+2026-11-18T00:56:27.111Z	
+2026-11-18T00:56:27.111Z	250 packages are looking for funding
+2026-11-18T00:56:27.111Z	  run `npm fund` for details
+2026-11-18T00:56:27.427Z	
+2026-11-18T00:56:27.427Z	38 vulnerabilities (21 moderate, 17 high)
+2026-11-18T00:56:27.427Z	
+2026-11-18T00:56:27.427Z	To address issues that do not require attention, run:
+2026-11-18T00:56:27.427Z	  npm audit fix
+2026-11-18T00:56:27.427Z	
+2026-11-18T00:56:27.427Z	To address all issues (including breaking changes), run:
+2026-11-18T00:56:27.427Z	  npm audit fix --force
+2026-11-18T00:56:27.428Z	
+2026-11-18T00:56:27.428Z	Run `npm audit` for details.
+2026-11-18T00:56:27.807Z	Executing user build command: bun run build
+2026-11-18T00:56:27.980Z	$ node scripts/build.mjs
+2026-11-18T00:56:28.130Z	[Build] Starting production build (static export: false, cloudflare/ci: true, opennext-in-progress: false, rootDir: /opt/buildhome/repo)...
+2026-11-18T00:56:28.131Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build (cwd: /opt/buildhome/repo)
+2026-11-18T00:56:28.929Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-11-18T00:56:29.467Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-11-18T00:56:29.467Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-11-18T00:56:29.468Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-11-18T00:56:29.468Z	https://nextjs.org/telemetry
+2026-11-18T00:56:29.468Z	
+2026-11-18T00:56:29.555Z	   ▲ Next.js 15.5.29
+2026-11-18T00:56:29.555Z	
+2026-11-18T00:56:29.595Z	   Creating an optimized production build ...
+2026-11-18T00:56:38.906Z	 ✓ Compiled successfully in 9.2s
+2026-11-18T00:56:38.909Z	   Skipping linting
+2026-11-18T00:56:38.909Z	   Checking validity of types ...
+2026-11-18T00:56:45.711Z	   Collecting page data ...
+2026-11-18T00:56:47.563Z	   Generating static pages (0/5) ...
+2026-11-18T00:56:48.196Z	   Generating static pages (1/5) 
+2026-11-18T00:56:48.395Z	   Generating static pages (2/5) 
+2026-11-18T00:56:48.395Z	   Generating static pages (3/5) 
+2026-11-18T00:56:48.395Z	 ✓ Generating static pages (5/5)
+2026-11-18T00:56:49.713Z	   Finalizing page optimization ...
+2026-11-18T00:56:49.715Z	   Collecting build traces ...
+2026-11-18T00:57:07.611Z	
+2026-11-18T00:57:07.618Z	Route (app)                                 Size  First Load JS
+2026-11-18T00:57:07.618Z	┌ ○ /                                     140 kB         243 kB
+2026-11-18T00:57:07.619Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-18T00:57:07.619Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-18T00:57:07.619Z	+ First Load JS shared by all             102 kB
+2026-11-18T00:57:07.619Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-18T00:57:07.619Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-18T00:57:07.619Z	  └ other shared chunks (total)          1.92 kB
+2026-11-18T00:57:07.619Z	
+2026-11-18T00:57:07.619Z	
+2026-11-18T00:57:07.619Z	ƒ Middleware                             32.4 kB
+2026-11-18T00:57:07.619Z	
+2026-11-18T00:57:07.619Z	○  (Static)   prerendered as static content
+2026-11-18T00:57:07.623Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-18T00:57:07.623Z	
+2026-11-18T00:57:07.711Z	[Build] Running OpenNext Cloudflare build adapter...
+2026-11-18T00:57:09.270Z	
+2026-11-18T00:57:09.271Z	┌─────────────────────────────┐
+2026-11-18T00:57:09.271Z	│ OpenNext — Cloudflare build │
+2026-11-18T00:57:09.271Z	└─────────────────────────────┘
+2026-11-18T00:57:09.271Z	
+2026-11-18T00:57:09.427Z	App directory: /opt/buildhome/repo
+2026-11-18T00:57:09.428Z	Next.js version : 15.5.29
+2026-11-18T00:57:09.428Z	@opennextjs/cloudflare version: 1.20.17
+2026-11-18T00:57:09.429Z	@opennextjs/aws version: 4.1.16
+2026-11-18T00:57:09.429Z	WARN workerd compatibility_date: 2024-09-26, consider updating your wrangler config to a more recent date to benefit from the latest features and fixes.
+2026-11-18T00:57:09.430Z	
+2026-11-18T00:57:09.430Z	┌─────────────────────────────────┐
+2026-11-18T00:57:09.430Z	│ OpenNext — Building Next.js app │
+2026-11-18T00:57:09.431Z	└─────────────────────────────────┘
+2026-11-18T00:57:09.431Z	
+2026-11-18T00:57:09.733Z	
+2026-11-18T00:57:09.733Z	> eprs-phonics-app@1.0.0 build
+2026-11-18T00:57:09.733Z	> node scripts/build.mjs
+2026-11-18T00:57:09.733Z	
+2026-11-18T00:57:09.765Z	[Build] Starting production build (static export: false, cloudflare/ci: true, opennext-in-progress: true, rootDir: /opt/buildhome/repo)...
+2026-11-18T00:57:09.766Z	[Build] Running Next.js build: /opt/buildhome/.asdf/installs/nodejs/24.22.1/bin/node /opt/buildhome/repo/node_modules/next/dist/bin/next build (cwd: /opt/buildhome/repo)
+2026-11-18T00:57:10.609Z	   ▲ Next.js 15.5.29
+2026-11-18T00:57:10.609Z	
+2026-11-18T00:57:10.771Z	   Creating an optimized production build ...
+2026-11-18T00:57:13.650Z	 ✓ Compiled successfully in 2.8s
+2026-11-18T00:57:13.654Z	   Skipping linting
+2026-11-18T00:57:13.654Z	   Checking validity of types ...
+2026-11-18T00:57:19.727Z	   Collecting page data ...
+2026-11-18T00:57:21.225Z	   Generating static pages (0/5) ...
+2026-11-18T00:57:21.863Z	   Generating static pages (1/5) 
+2026-11-18T00:57:22.034Z	   Generating static pages (2/5) 
+2026-11-18T00:57:22.035Z	   Generating static pages (3/5) 
+2026-11-18T00:57:22.035Z	 ✓ Generating static pages (5/5)
+2026-11-18T00:57:22.993Z	   Finalizing page optimization ...
+2026-11-18T00:57:22.994Z	   Collecting build traces ...
+2026-11-18T00:57:40.759Z	
+2026-11-18T00:57:40.765Z	Route (app)                                 Size  First Load JS
+2026-11-18T00:57:40.765Z	┌ ○ /                                     140 kB         243 kB
+2026-11-18T00:57:40.766Z	├ ○ /_not-found                            126 B         103 kB
+2026-11-18T00:57:40.766Z	└ ƒ /api/tts                               126 B         103 kB
+2026-11-18T00:57:40.766Z	+ First Load JS shared by all             102 kB
+2026-11-18T00:57:40.766Z	  ├ chunks/255-864ef5436c005440.js       46.3 kB
+2026-11-18T00:57:40.767Z	  ├ chunks/4bd1b696-21f374d1156f834a.js  54.2 kB
+2026-11-18T00:57:40.767Z	  └ other shared chunks (total)          1.92 kB
+2026-11-18T00:57:40.767Z	
+2026-11-18T00:57:40.768Z	
+2026-11-18T00:57:40.768Z	ƒ Middleware                             32.4 kB
+2026-11-18T00:57:40.768Z	
+2026-11-18T00:57:40.768Z	○  (Static)   prerendered as static content
+2026-11-18T00:57:40.768Z	ƒ  (Dynamic)  server-rendered on demand
+2026-11-18T00:57:40.768Z	
+2026-11-18T00:57:40.874Z	[Build] Syncing artifacts to /opt/buildhome/repo/dist...
+2026-11-18T00:57:40.898Z	[Build] Successfully validated .next/standalone/server.js
+2026-11-18T00:57:40.898Z	[Build] Successfully verified dist/index.html (24623 bytes).
+2026-11-18T00:57:40.898Z	[Build] Build completed successfully.
+2026-11-18T00:57:40.915Z	
+2026-11-18T00:57:40.915Z	┌──────────────────────────────┐
+2026-11-18T00:57:40.915Z	│ OpenNext — Generating bundle │
+2026-11-18T00:57:40.915Z	└──────────────────────────────┘
+2026-11-18T00:57:40.915Z	
+2026-11-18T00:57:40.995Z	Bundling middleware function...
+2026-11-18T00:57:41.146Z	Bundling static assets...
+2026-11-18T00:57:41.178Z	Bundling cache assets...
+2026-11-18T00:57:41.185Z	Building server function: default...
+2026-11-18T00:57:48.379Z	Applying code patches: 6.860s
+2026-11-18T00:57:48.771Z	# copyPackageTemplateFiles
+2026-11-18T00:57:48.775Z	⚙️ Bundling the OpenNext server...
+2026-11-18T00:57:48.775Z	
+2026-11-18T00:57:50.858Z	Worker saved in `.open-next/worker.js` 🚀
+2026-11-18T00:57:50.859Z	
+2026-11-18T00:57:50.859Z	OpenNext build complete.
+2026-11-18T00:57:51.545Z	[Build] Syncing artifacts to /opt/buildhome/repo/dist...
+2026-11-18T00:57:51.579Z	[Build] Successfully validated .next/standalone/server.js
+2026-11-18T00:57:51.579Z	[Build] Successfully verified dist/index.html (24623 bytes).
+2026-11-18T00:57:51.579Z	[Build] Build completed successfully.
+2026-11-18T00:57:51.588Z	Success: Build command completed
+2026-11-18T00:57:51.859Z	Executing user deploy command: npx wrangler deploy
+2026-11-18T00:57:53.501Z	
+2026-11-18T00:57:53.501Z	 ⛅️ wrangler 4.161.0
+2026-11-18T00:57:53.501Z	────────────────────
+2026-11-18T00:57:53.535Z	OpenNext project detected, calling `opennextjs-cloudflare deploy`
+2026-11-18T00:57:56.266Z	
+2026-11-18T00:57:56.266Z	┌──────────────────────────────┐
+2026-11-18T00:57:56.266Z	│ OpenNext — Cloudflare deploy │
+2026-11-18T00:57:56.266Z	└──────────────────────────────┘
+2026-11-18T00:57:56.266Z	
+2026-11-18T00:57:56.784Z	Incremental cache does not need populating
+2026-11-18T00:57:56.787Z	Tag cache does not need populating
+2026-11-18T00:57:58.519Z	
+2026-11-18T00:57:58.523Z	 ⛅️ wrangler 4.161.0 (update available 4.164.0)
+2026-11-18T00:57:58.523Z	───────────────────────────────────────────────
+2026-11-18T00:57:58.542Z	
+2026-11-18T00:57:58.543Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-11-18T00:57:59.344Z	
+2026-11-18T00:57:59.416Z	▲ [WARNING] 						The package "node:async_hooks" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.417Z	  						 - .open-next/cloudflare/init.js
+2026-11-18T00:57:59.417Z	  - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.417Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.417Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	▲ [WARNING] 						The package "node:process" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.417Z	  						 - .open-next/cloudflare/skew-protection.js
+2026-11-18T00:57:59.417Z	  - .open-next/cloudflare/init.js
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	▲ [WARNING] 						The package "node:buffer" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.417Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.417Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.417Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	▲ [WARNING] 						The package "node:stream" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.417Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.417Z	  						 - .open-next/cloudflare/init.js
+2026-11-18T00:57:59.417Z	  - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.417Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.417Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.417Z	
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	▲ [WARNING] 						The package "node:stream/web" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.418Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.418Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.418Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	▲ [WARNING] 						The package "node:crypto" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.418Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.418Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.418Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	▲ [WARNING] The package "node:querystring" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.418Z	
+2026-11-18T00:57:59.418Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.420Z	   - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.420Z	
+2026-11-18T00:57:59.420Z	
+2026-11-18T00:57:59.420Z	▲ [WARNING] 						The package "node:path" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.420Z	
+2026-11-18T00:57:59.421Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.421Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.421Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.421Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.421Z	
+2026-11-18T00:57:59.421Z	
+2026-11-18T00:57:59.421Z	▲ [WARNING] The package "node:timers" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.421Z	
+2026-11-18T00:57:59.421Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.427Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.427Z	
+2026-11-18T00:57:59.427Z	
+2026-11-18T00:57:59.427Z	▲ [WARNING] The package "node:module" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.427Z	
+2026-11-18T00:57:59.427Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.428Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	▲ [WARNING] The package "node:http" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.428Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	▲ [WARNING] The package "node:zlib" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.428Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.428Z	✘ [ERROR] Build failed with 10 errors:
+2026-11-18T00:57:59.428Z	
+2026-11-18T00:57:59.429Z	  ✘ [ERROR] Could not resolve "async_hooks"
+2026-11-18T00:57:59.429Z	  
+2026-11-18T00:57:59.429Z	      .open-next/server-functions/default/handler.mjs:2:1926:
+2026-11-18T00:57:59.429Z	        2 │ ...yncLocalStorage3}=require("async_hooks");globalThis.AsyncLocalSt...
+2026-11-18T00:57:59.429Z	          ╵                              ~~~~~~~~~~~~~
+2026-11-18T00:57:59.429Z	  
+2026-11-18T00:57:59.429Z	    The package "async_hooks" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.429Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.429Z	    
+2026-11-18T00:57:59.429Z	  
+2026-11-18T00:57:59.429Z	  
+2026-11-18T00:57:59.429Z	  ✘ [ERROR] Could not resolve "fs"
+2026-11-18T00:57:59.429Z	  
+2026-11-18T00:57:59.429Z	      .open-next/server-functions/default/handler.mjs:7:39938:
+2026-11-18T00:57:59.429Z	        7 │ ...terop_require_default(require("fs")),_path=_interop_require_defa...
+2026-11-18T00:57:59.429Z	          ╵                                  ~~~~
+2026-11-18T00:57:59.429Z	  
+2026-11-18T00:57:59.429Z	    The package "fs" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.429Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.429Z	    
+2026-11-18T00:57:59.431Z	  
+2026-11-18T00:57:59.431Z	  
+2026-11-18T00:57:59.431Z	  ✘ [ERROR] Could not resolve "path"
+2026-11-18T00:57:59.431Z	  
+2026-11-18T00:57:59.431Z	      .open-next/server-functions/default/handler.mjs:7:39984:
+2026-11-18T00:57:59.431Z	        7 │ ...erop_require_default(require("path"));function _interop_require_...
+2026-11-18T00:57:59.431Z	          ╵                                 ~~~~~~
+2026-11-18T00:57:59.431Z	  
+2026-11-18T00:57:59.432Z	    The package "path" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.432Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.432Z	    
+2026-11-18T00:57:59.432Z	  
+2026-11-18T00:57:59.432Z	  
+2026-11-18T00:57:59.433Z	  ✘ [ERROR] Could not resolve "url"
+2026-11-18T00:57:59.433Z	  
+2026-11-18T00:57:59.433Z	      .open-next/server-functions/default/handler.mjs:22:22443:
+2026-11-18T00:57:59.433Z	        22 │ ...equire_utils2(),_url=require("url"),_formathostname=require_for...
+2026-11-18T00:57:59.433Z	           ╵                                 ~~~~~
+2026-11-18T00:57:59.433Z	  
+2026-11-18T00:57:59.433Z	    The package "url" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.433Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.433Z	    
+2026-11-18T00:57:59.433Z	  
+2026-11-18T00:57:59.433Z	  
+2026-11-18T00:57:59.433Z	  ✘ [ERROR] Could not resolve "vm"
+2026-11-18T00:57:59.433Z	  
+2026-11-18T00:57:59.433Z	      .open-next/server-functions/default/handler.mjs:36:8822:
+2026-11-18T00:57:59.433Z	        36 │ ..._fs=require("fs"),_vm=require("vm"),_deepfreeze=require_deep_fr...
+2026-11-18T00:57:59.434Z	           ╵                                  ~~~~
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	    The package "vm" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.434Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.434Z	    
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	  ✘ [ERROR] Could not resolve "crypto"
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	      .open-next/server-functions/default/handler.mjs:57:19149:
+2026-11-18T00:57:59.434Z	        57 │ ... strict";e2.exports=require("crypto")},521:e2=>{"use strict";e2...
+2026-11-18T00:57:59.434Z	           ╵                                ~~~~~~~~
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	    The package "crypto" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.434Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.434Z	    
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	  ✘ [ERROR] Could not resolve "stream"
+2026-11-18T00:57:59.434Z	  
+2026-11-18T00:57:59.434Z	      .open-next/server-functions/default/handler.mjs:57:19257:
+2026-11-18T00:57:59.434Z	        57 │ ... strict";e2.exports=require("stream")},837:e2=>{"use strict";e2...
+2026-11-18T00:57:59.435Z	           ╵                                ~~~~~~~~
+2026-11-18T00:57:59.435Z	  
+2026-11-18T00:57:59.435Z	    The package "stream" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.435Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.435Z	    
+2026-11-18T00:57:59.435Z	  
+2026-11-18T00:57:59.435Z	  
+2026-11-18T00:57:59.436Z	  ✘ [ERROR] Could not resolve "util"
+2026-11-18T00:57:59.436Z	  
+2026-11-18T00:57:59.436Z	      .open-next/server-functions/default/handler.mjs:57:19309:
+2026-11-18T00:57:59.436Z	        57 │ ...e strict";e2.exports=require("util")}},r={};function __nccwpck_...
+2026-11-18T00:57:59.436Z	           ╵                                 ~~~~~~
+2026-11-18T00:57:59.436Z	  
+2026-11-18T00:57:59.436Z	    The package "util" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.436Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.436Z	    
+2026-11-18T00:57:59.436Z	  
+2026-11-18T00:57:59.436Z	  
+2026-11-18T00:57:59.436Z	  ✘ [ERROR] Could not resolve "http"
+2026-11-18T00:57:59.437Z	  
+2026-11-18T00:57:59.437Z	      .open-next/server-functions/default/handler.mjs:269:51223:
+2026-11-18T00:57:59.437Z	        269 │ ...ptions}});var _http=require("http"),_https=require("https");fu...
+2026-11-18T00:57:59.437Z	            ╵                                ~~~~~~
+2026-11-18T00:57:59.437Z	  
+2026-11-18T00:57:59.437Z	    The package "http" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.438Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.438Z	    
+2026-11-18T00:57:59.438Z	  
+2026-11-18T00:57:59.438Z	  
+2026-11-18T00:57:59.439Z	  ✘ [ERROR] Could not resolve "https"
+2026-11-18T00:57:59.439Z	  
+2026-11-18T00:57:59.439Z	      .open-next/server-functions/default/handler.mjs:269:51246:
+2026-11-18T00:57:59.439Z	        269 │ ...uire("http"),_https=require("https");function setHttpClientAnd...
+2026-11-18T00:57:59.439Z	            ╵                                ~~~~~~~
+2026-11-18T00:57:59.439Z	  
+2026-11-18T00:57:59.439Z	    The package "https" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.440Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.440Z	    
+2026-11-18T00:57:59.440Z	  
+2026-11-18T00:57:59.440Z	  
+2026-11-18T00:57:59.441Z	
+2026-11-18T00:57:59.441Z	
+2026-11-18T00:57:59.441Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-11-18_00-57-58_214.log"
+2026-11-18T00:57:59.441Z	ERROR Wrangler deploy command failed:
+2026-11-18T00:57:59.441Z	▲ [WARNING] 						The package "node:async_hooks" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.441Z	
+2026-11-18T00:57:59.441Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.441Z	  						 - .open-next/cloudflare/init.js
+2026-11-18T00:57:59.442Z	  - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.442Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.442Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.442Z	
+2026-11-18T00:57:59.442Z	
+2026-11-18T00:57:59.442Z	▲ [WARNING] 						The package "node:process" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.442Z	
+2026-11-18T00:57:59.442Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.442Z	  						 - .open-next/cloudflare/skew-protection.js
+2026-11-18T00:57:59.443Z	  - .open-next/cloudflare/init.js
+2026-11-18T00:57:59.443Z	
+2026-11-18T00:57:59.443Z	
+2026-11-18T00:57:59.443Z	▲ [WARNING] 						The package "node:buffer" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.443Z	
+2026-11-18T00:57:59.443Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.443Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.443Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.443Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.443Z	
+2026-11-18T00:57:59.444Z	
+2026-11-18T00:57:59.444Z	▲ [WARNING] 						The package "node:stream" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.444Z	
+2026-11-18T00:57:59.444Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.444Z	  						 - .open-next/cloudflare/init.js
+2026-11-18T00:57:59.444Z	  - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.444Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.444Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.444Z	
+2026-11-18T00:57:59.444Z	
+2026-11-18T00:57:59.444Z	▲ [WARNING] 						The package "node:stream/web" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.445Z	
+2026-11-18T00:57:59.445Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.445Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.445Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.445Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.445Z	
+2026-11-18T00:57:59.445Z	
+2026-11-18T00:57:59.445Z	▲ [WARNING] 						The package "node:crypto" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.445Z	
+2026-11-18T00:57:59.445Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.445Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.445Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.446Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.446Z	
+2026-11-18T00:57:59.446Z	
+2026-11-18T00:57:59.446Z	▲ [WARNING] The package "node:querystring" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.446Z	
+2026-11-18T00:57:59.446Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.446Z	   - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.447Z	
+2026-11-18T00:57:59.447Z	
+2026-11-18T00:57:59.447Z	▲ [WARNING] 						The package "node:path" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.447Z	
+2026-11-18T00:57:59.447Z	  						Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.447Z	  						 - .open-next/middleware/handler.mjs
+2026-11-18T00:57:59.448Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.448Z	  - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.448Z	
+2026-11-18T00:57:59.448Z	
+2026-11-18T00:57:59.448Z	▲ [WARNING] The package "node:timers" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.448Z	
+2026-11-18T00:57:59.448Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.448Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.448Z	
+2026-11-18T00:57:59.448Z	
+2026-11-18T00:57:59.448Z	▲ [WARNING] The package "node:module" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.449Z	
+2026-11-18T00:57:59.449Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.449Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.449Z	
+2026-11-18T00:57:59.449Z	
+2026-11-18T00:57:59.449Z	▲ [WARNING] The package "node:http" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.449Z	
+2026-11-18T00:57:59.449Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.449Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.450Z	
+2026-11-18T00:57:59.450Z	
+2026-11-18T00:57:59.450Z	▲ [WARNING] The package "node:zlib" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.450Z	
+2026-11-18T00:57:59.450Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details. Imported from:
+2026-11-18T00:57:59.450Z	   - .open-next/server-functions/default/handler.mjs
+2026-11-18T00:57:59.450Z	
+2026-11-18T00:57:59.450Z	
+2026-11-18T00:57:59.450Z	✘ [ERROR] Build failed with 10 errors:
+2026-11-18T00:57:59.450Z	
+2026-11-18T00:57:59.451Z	  ✘ [ERROR] Could not resolve "async_hooks"
+2026-11-18T00:57:59.451Z	  
+2026-11-18T00:57:59.451Z	      .open-next/server-functions/default/handler.mjs:2:1926:
+2026-11-18T00:57:59.451Z	        2 │ ...yncLocalStorage3}=require("async_hooks");globalThis.AsyncLocalSt...
+2026-11-18T00:57:59.451Z	          ╵                              ~~~~~~~~~~~~~
+2026-11-18T00:57:59.451Z	  
+2026-11-18T00:57:59.451Z	    The package "async_hooks" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.451Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.451Z	    
+2026-11-18T00:57:59.452Z	  
+2026-11-18T00:57:59.452Z	  
+2026-11-18T00:57:59.452Z	  ✘ [ERROR] Could not resolve "fs"
+2026-11-18T00:57:59.452Z	  
+2026-11-18T00:57:59.452Z	      .open-next/server-functions/default/handler.mjs:7:39938:
+2026-11-18T00:57:59.452Z	        7 │ ...terop_require_default(require("fs")),_path=_interop_require_defa...
+2026-11-18T00:57:59.452Z	          ╵                                  ~~~~
+2026-11-18T00:57:59.452Z	  
+2026-11-18T00:57:59.452Z	    The package "fs" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.452Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.453Z	    
+2026-11-18T00:57:59.453Z	  
+2026-11-18T00:57:59.453Z	  
+2026-11-18T00:57:59.453Z	  ✘ [ERROR] Could not resolve "path"
+2026-11-18T00:57:59.453Z	  
+2026-11-18T00:57:59.453Z	      .open-next/server-functions/default/handler.mjs:7:39984:
+2026-11-18T00:57:59.453Z	        7 │ ...erop_require_default(require("path"));function _interop_require_...
+2026-11-18T00:57:59.453Z	          ╵                                 ~~~~~~
+2026-11-18T00:57:59.454Z	  
+2026-11-18T00:57:59.454Z	    The package "path" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.454Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.454Z	    
+2026-11-18T00:57:59.454Z	  
+2026-11-18T00:57:59.454Z	  
+2026-11-18T00:57:59.454Z	  ✘ [ERROR] Could not resolve "url"
+2026-11-18T00:57:59.454Z	  
+2026-11-18T00:57:59.454Z	      .open-next/server-functions/default/handler.mjs:22:22443:
+2026-11-18T00:57:59.455Z	        22 │ ...equire_utils2(),_url=require("url"),_formathostname=require_for...
+2026-11-18T00:57:59.455Z	           ╵                                 ~~~~~
+2026-11-18T00:57:59.455Z	  
+2026-11-18T00:57:59.455Z	    The package "url" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.455Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.455Z	    
+2026-11-18T00:57:59.455Z	  
+2026-11-18T00:57:59.455Z	  
+2026-11-18T00:57:59.456Z	  ✘ [ERROR] Could not resolve "vm"
+2026-11-18T00:57:59.456Z	  
+2026-11-18T00:57:59.456Z	      .open-next/server-functions/default/handler.mjs:36:8822:
+2026-11-18T00:57:59.456Z	        36 │ ..._fs=require("fs"),_vm=require("vm"),_deepfreeze=require_deep_fr...
+2026-11-18T00:57:59.456Z	           ╵                                  ~~~~
+2026-11-18T00:57:59.456Z	  
+2026-11-18T00:57:59.456Z	    The package "vm" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.456Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.456Z	    
+2026-11-18T00:57:59.457Z	  
+2026-11-18T00:57:59.457Z	  
+2026-11-18T00:57:59.457Z	  ✘ [ERROR] Could not resolve "crypto"
+2026-11-18T00:57:59.457Z	  
+2026-11-18T00:57:59.457Z	      .open-next/server-functions/default/handler.mjs:57:19149:
+2026-11-18T00:57:59.457Z	        57 │ ... strict";e2.exports=require("crypto")},521:e2=>{"use strict";e2...
+2026-11-18T00:57:59.457Z	           ╵                                ~~~~~~~~
+2026-11-18T00:57:59.457Z	  
+2026-11-18T00:57:59.457Z	    The package "crypto" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.457Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.458Z	    
+2026-11-18T00:57:59.458Z	  
+2026-11-18T00:57:59.458Z	  
+2026-11-18T00:57:59.458Z	  ✘ [ERROR] Could not resolve "stream"
+2026-11-18T00:57:59.458Z	  
+2026-11-18T00:57:59.458Z	      .open-next/server-functions/default/handler.mjs:57:19257:
+2026-11-18T00:57:59.458Z	        57 │ ... strict";e2.exports=require("stream")},837:e2=>{"use strict";e2...
+2026-11-18T00:57:59.458Z	           ╵                                ~~~~~~~~
+2026-11-18T00:57:59.458Z	  
+2026-11-18T00:57:59.458Z	    The package "stream" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.459Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.459Z	    
+2026-11-18T00:57:59.459Z	  
+2026-11-18T00:57:59.459Z	  
+2026-11-18T00:57:59.459Z	  ✘ [ERROR] Could not resolve "util"
+2026-11-18T00:57:59.459Z	  
+2026-11-18T00:57:59.459Z	      .open-next/server-functions/default/handler.mjs:57:19309:
+2026-11-18T00:57:59.459Z	        57 │ ...e strict";e2.exports=require("util")}},r={};function __nccwpck_...
+2026-11-18T00:57:59.459Z	           ╵                                 ~~~~~~
+2026-11-18T00:57:59.460Z	  
+2026-11-18T00:57:59.460Z	    The package "util" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.460Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.460Z	    
+2026-11-18T00:57:59.460Z	  
+2026-11-18T00:57:59.460Z	  
+2026-11-18T00:57:59.460Z	  ✘ [ERROR] Could not resolve "http"
+2026-11-18T00:57:59.460Z	  
+2026-11-18T00:57:59.460Z	      .open-next/server-functions/default/handler.mjs:269:51223:
+2026-11-18T00:57:59.460Z	        269 │ ...ptions}});var _http=require("http"),_https=require("https");fu...
+2026-11-18T00:57:59.460Z	            ╵                                ~~~~~~
+2026-11-18T00:57:59.460Z	  
+2026-11-18T00:57:59.461Z	    The package "http" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.461Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.461Z	    
+2026-11-18T00:57:59.461Z	  
+2026-11-18T00:57:59.461Z	  
+2026-11-18T00:57:59.462Z	  ✘ [ERROR] Could not resolve "https"
+2026-11-18T00:57:59.462Z	  
+2026-11-18T00:57:59.462Z	      .open-next/server-functions/default/handler.mjs:269:51246:
+2026-11-18T00:57:59.462Z	        269 │ ...uire("http"),_https=require("https");function setHttpClientAnd...
+2026-11-18T00:57:59.462Z	            ╵                                ~~~~~~~
+2026-11-18T00:57:59.462Z	  
+2026-11-18T00:57:59.462Z	    The package "https" wasn't found on the file system but is built into node.
+2026-11-18T00:57:59.463Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2026-11-18T00:57:59.463Z	    
+2026-11-18T00:57:59.463Z	  
+2026-11-18T00:57:59.463Z	  
+2026-11-18T00:57:59.463Z	
+2026-11-18T00:57:59.463Z	
+2026-11-18T00:57:59.463Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-11-18_00-57-58_214.log"
+2026-11-18T00:57:59.463Z	
+2026-11-18T00:57:59.464Z	
+2026-11-18T00:57:59.530Z	✘ [ERROR] 
+2026-11-18T00:57:59.530Z	
+2026-11-18T00:57:59.530Z	
+2026-11-18T00:57:59.531Z	If you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose
+2026-11-18T00:57:59.531Z	Note that there is a newer version of Wrangler available (4.164.0). Consider checking whether upgrading resolves this error.
+2026-11-18T00:57:59.548Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-11-18_00-57-53_157.log"
+2026-11-18T00:57:59.629Z	Failed: error occurred while running deploy command
